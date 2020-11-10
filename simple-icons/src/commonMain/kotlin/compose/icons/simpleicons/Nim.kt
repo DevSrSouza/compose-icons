@@ -1,0 +1,58 @@
+package compose.icons.simpleicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Miter
+import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.SimpleIcons
+
+public val SimpleIcons.Nim: VectorAsset
+    get() {
+        if (_nim != null) {
+            return _nim!!
+        }
+        _nim = VectorAssetBuilder(name = "Nim", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(12.095f, 2.9f)
+                reflectiveCurveToRelative(-0.92f, 0.778f, -1.857f, 1.55f)
+                curveToRelative(-0.964f, -0.032f, -2.856f, 0.199f, -3.88f, 0.598f)
+                curveTo(5.412f, 4.408f, 4.582f, 3.7f, 4.582f, 3.7f)
+                reflectiveCurveToRelative(-0.709f, 1.305f, -1.154f, 2.07f)
+                curveToRelative(-0.662f, 0.377f, -1.325f, 0.8f, -1.917f, 1.36f)
+                curveTo(0.824f, 6.84f, 0.026f, 6.482f, 0.0f, 6.471f)
+                curveToRelative(0.911f, 1.966f, 1.524f, 3.935f, 3.19f, 5.119f)
+                curveToRelative(2.654f, -4.483f, 14.983f, -4.07f, 17.691f, -0.025f)
+                curveToRelative(1.75f, -0.977f, 2.43f, -3.078f, 3.119f, -5.018f)
+                curveToRelative(-0.075f, 0.026f, -1.012f, 0.362f, -1.619f, 0.61f)
+                curveToRelative(-0.363f, -0.423f, -1.217f, -1.072f, -1.702f, -1.385f)
+                arcToRelative(96.008f, 96.008f, 0.0f, false, false, -1.131f, -2.122f)
+                reflectiveCurveToRelative(-0.794f, 0.632f, -1.715f, 1.322f)
+                curveToRelative(-1.243f, -0.246f, -2.747f, -0.544f, -4.012f, -0.47f)
+                arcTo(52.988f, 52.988f, 0.0f, false, true, 12.095f, 2.9f)
+                close()
+                moveTo(0.942f, 10.65f)
+                lineToRelative(2.189f, 5.671f)
+                curveToRelative(3.801f, 5.366f, 13.508f, 5.739f, 17.74f, 0.104f)
+                curveToRelative(1.001f, -2.415f, 2.352f, -5.808f, 2.352f, -5.808f)
+                curveToRelative(-1.086f, 1.721f, -2.852f, 2.909f, -3.94f, 3.549f)
+                curveToRelative(-0.774f, 0.453f, -2.558f, 0.727f, -2.558f, 0.727f)
+                lineToRelative(-4.684f, -2.597f)
+                lineToRelative(-4.71f, 2.545f)
+                reflectiveCurveToRelative(-1.761f, -0.303f, -2.558f, -0.701f)
+                curveToRelative(-1.608f, -0.919f, -2.69f, -2.004f, -3.83f, -3.49f)
+                close()
+            }
+        }
+        .build()
+        return _nim!!
+    }
+
+private var _nim: VectorAsset? = null
