@@ -1462,18 +1462,19 @@ import compose.icons.simpleicons._1password
 import compose.icons.simpleicons._42
 import compose.icons.simpleicons._4d
 import compose.icons.simpleicons._500px
-import kotlin.collections.List
+import compose.icons.simpleicons.SimpleIcons as ___SimpleIcons
+import kotlin.collections.List as ____KtList
 
 public object SimpleIcons
 
-private var _allIcons: List<VectorAsset>? = null
+private var __AllIcons: ____KtList<VectorAsset>? = null
 
-public val SimpleIcons.AllIcons: List<VectorAsset>
+public val SimpleIcons.AllIcons: ____KtList<VectorAsset>
   get() {
-    if (_allIcons != null) {
-      return _allIcons!!
+    if (__AllIcons != null) {
+      return __AllIcons!!
     }
-    _allIcons= listOf(MicrosoftSharepoint, Dazn, GooglePay, Quasar, Strongswan, Sellfy, Treehouse,
+    __AllIcons= listOf(MicrosoftSharepoint, Dazn, GooglePay, Quasar, Strongswan, Sellfy, Treehouse,
         _1001tracklists, Mcdonalds, Deviantart, Pexels, Css3, Blackberry, AbletonLive,
         Hurriyetemlak, Staticman, VueDotJs, Cloudflare, DarkReader, Prosieben, Abstract, Emby,
         Fandango, Steam, Lua, Audioboom, GooglePodcasts, Sonarsource, Uplabs, ContactlessPayment,
@@ -1599,32 +1600,32 @@ public val SimpleIcons.AllIcons: List<VectorAsset>
         Zingat, Tele5, ApacheCassandra, Synology, Redis, Everplaces, Zdf, Cinema4d, LineWebtoon,
         Hipchat, Eyeem, Plex, Haveibeenpwned, Soundcloud, Oracle, Ansys, PicartoDotTv, Acm,
         Roundcube, Xero, Gitlab, Fite, Buefy, WiiU, Keycdn, MxLinux, Adobe, Aircall, Trainerroad,
-        Stripe, Spinnaker, Eleventy, AffinityPublisher, BigCartel,
-        compose.icons.simpleicons.SimpleIcons, Ghostery, Justgiving, Unicode, CSharp, Square,
-        Pluralsight, Indeed, Litecoin, Scribd, Prezi, EpicGames, Zoom, Saltstack, KhronosGroup,
-        Sketchfab, MaterialDesign, Payoneer, Haskell, Playstation, LetsEncrypt, Hilton, Swagger,
-        CondaForge, GoogleCast, Fujifilm, Eslgaming, Figma, GoogleHangouts, Arduino, Audiomack,
-        PreCommit, Epson, Huawei, Plangrid, Npm, Proxmox, Manageiq, Veritas, Xcode, Probot, Qemu,
-        Faceit, Deliveroo, Clubhouse, Redbubble, Cocoapods, Hootsuite, FontAwesome, ApacheRocketmq,
-        Codersrank, MicrosoftAzure, Firebase, Convertio, Xiaomi, Jfrog, Xbox, Affinity, AzureDevops,
-        Ea, Vultr, DassaultSystemes, Favro, Grunt, Vim, Automatic, Mitsubishi, Webmoney,
-        CommonWorkflowLanguage, Epel, Magisk, Sahibinden, Razer, BmcSoftware, Patreon, JrGroup,
-        Jeep, Uber, Wagtail, Manjaro, Audible, Leanpub, CounterStrike, SmashingMagazine, SatDot1,
-        Andela, AntDesign, Nissan, TMobile, Ryanair, Issuu, Bitrise, Marketo, TrustedShops, Gatsby,
-        Pandora, Webassembly, ElasticStack, Minecraft, Untappd, Django, PlusCodes, BuyMeACoffee,
-        Woocommerce, Angellist, Coinbase, AdobeFonts, Angularjs, PaloAltoSoftware, Hockeyapp,
-        MicrosoftPowerpoint, Geeksforgeeks, Angular, Platzi, Jupyter, ReactRouter, Webmin, Ibeacon,
-        Qualtrics, _4d, Monster, Unity, Quest, Fossa, Sqlite, HotelsDotCom, RedHatOpenShift, G2a,
-        Nuget, ApacheOpenoffice, Amd, Pinterest, Waze, Vercel, Rewe, AwesomeLists, Strapi,
-        Chocolatey, Teespring, Volkswagen, ApacheCordova, Tableau, Signal, Topcoder, Habr, Aseprite,
-        Hey, Openstreetmap, Arxiv, Whitesource, AdobeAcrobatReader, Jira, Compropago, Codeigniter,
-        Mastercard, FDroid, BbcIplayer, Awesomewm, Librarything, Shikimori, Cloudbees, Spectrum,
-        Consul, Symphony, Formstack, Canonical, Sketch, AirFrance, Adonisjs, Feathub, NewRelic,
-        Keepassxc, Codio, Bamboo, Greensock, ArchiveOfOurOwn, MailDotRu, OpenaiGym, Toshiba,
-        GoogleClassroom, MetroDeMadrid, Flask, TheSpritersResource, AffinityDesigner, Nintendo,
-        CodeClimate, Coveralls, Conekta, Suzuki, UnitedAirlines, Runkit, Haxe, Graphql, Smartthings,
-        Autotask, Thumbtack, Wolfram, InternetArchive, Quantcast, GoogleLens, Cnn, GoogleTranslate,
-        Curl, Qualcomm, Kia, Smrt, Rabbitmq, ReasonStudios, Python, AmazonAlexa, Safari, Mendeley,
+        Stripe, Spinnaker, Eleventy, AffinityPublisher, BigCartel, ___SimpleIcons, Ghostery,
+        Justgiving, Unicode, CSharp, Square, Pluralsight, Indeed, Litecoin, Scribd, Prezi,
+        EpicGames, Zoom, Saltstack, KhronosGroup, Sketchfab, MaterialDesign, Payoneer, Haskell,
+        Playstation, LetsEncrypt, Hilton, Swagger, CondaForge, GoogleCast, Fujifilm, Eslgaming,
+        Figma, GoogleHangouts, Arduino, Audiomack, PreCommit, Epson, Huawei, Plangrid, Npm, Proxmox,
+        Manageiq, Veritas, Xcode, Probot, Qemu, Faceit, Deliveroo, Clubhouse, Redbubble, Cocoapods,
+        Hootsuite, FontAwesome, ApacheRocketmq, Codersrank, MicrosoftAzure, Firebase, Convertio,
+        Xiaomi, Jfrog, Xbox, Affinity, AzureDevops, Ea, Vultr, DassaultSystemes, Favro, Grunt, Vim,
+        Automatic, Mitsubishi, Webmoney, CommonWorkflowLanguage, Epel, Magisk, Sahibinden, Razer,
+        BmcSoftware, Patreon, JrGroup, Jeep, Uber, Wagtail, Manjaro, Audible, Leanpub,
+        CounterStrike, SmashingMagazine, SatDot1, Andela, AntDesign, Nissan, TMobile, Ryanair,
+        Issuu, Bitrise, Marketo, TrustedShops, Gatsby, Pandora, Webassembly, ElasticStack,
+        Minecraft, Untappd, Django, PlusCodes, BuyMeACoffee, Woocommerce, Angellist, Coinbase,
+        AdobeFonts, Angularjs, PaloAltoSoftware, Hockeyapp, MicrosoftPowerpoint, Geeksforgeeks,
+        Angular, Platzi, Jupyter, ReactRouter, Webmin, Ibeacon, Qualtrics, _4d, Monster, Unity,
+        Quest, Fossa, Sqlite, HotelsDotCom, RedHatOpenShift, G2a, Nuget, ApacheOpenoffice, Amd,
+        Pinterest, Waze, Vercel, Rewe, AwesomeLists, Strapi, Chocolatey, Teespring, Volkswagen,
+        ApacheCordova, Tableau, Signal, Topcoder, Habr, Aseprite, Hey, Openstreetmap, Arxiv,
+        Whitesource, AdobeAcrobatReader, Jira, Compropago, Codeigniter, Mastercard, FDroid,
+        BbcIplayer, Awesomewm, Librarything, Shikimori, Cloudbees, Spectrum, Consul, Symphony,
+        Formstack, Canonical, Sketch, AirFrance, Adonisjs, Feathub, NewRelic, Keepassxc, Codio,
+        Bamboo, Greensock, ArchiveOfOurOwn, MailDotRu, OpenaiGym, Toshiba, GoogleClassroom,
+        MetroDeMadrid, Flask, TheSpritersResource, AffinityDesigner, Nintendo, CodeClimate,
+        Coveralls, Conekta, Suzuki, UnitedAirlines, Runkit, Haxe, Graphql, Smartthings, Autotask,
+        Thumbtack, Wolfram, InternetArchive, Quantcast, GoogleLens, Cnn, GoogleTranslate, Curl,
+        Qualcomm, Kia, Smrt, Rabbitmq, ReasonStudios, Python, AmazonAlexa, Safari, Mendeley,
         ReplDotIt, Xsplit, Audacity, Microstrategy, Logstash, Windows95, SuperUser, Webauthn,
         Gofundme, Duckduckgo, SamsungPay, Dtube, NodeRed, Gitpod, Snyk, FacebookLive, Fastly,
         Happycow, Codesandbox, Cpanel, Serverless, Swift, Pycharm, Microbit, Hbo, Netapp, Google,
@@ -1641,5 +1642,5 @@ public val SimpleIcons.AllIcons: List<VectorAsset>
         LandRover, RiotGames, Gravatar, Glitch, MaterialUi, HellyHansen, Ibm, Overleaf, Opslevel,
         LinuxFoundation, Peugeot, Vulkan, ShanghaiMetro, Disqus, Actigraph, Rust, Php, Bugsnag,
         Jekyll, Virtualbox, UnrealEngine, Cloudcannon, Peertube, Radiopublic, Lumen, MicrosoftVisio)
-    return _allIcons!!
+    return __AllIcons!!
   }

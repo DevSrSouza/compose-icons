@@ -3,7 +3,7 @@
 @file:Repository("https://jetbrains.bintray.com/trove4j")
 
 // svg-to-compose
-@file:DependsOn("com.github.DevSrSouza:svg-to-compose:v0.1.0")
+@file:DependsOn("com.github.DevSrSouza:svg-to-compose:450fcb2f87")
 @file:DependsOn("com.google.guava:guava:23.0")
 @file:DependsOn("com.android.tools:sdk-common:27.2.0-alpha16")
 @file:DependsOn("com.android.tools:common:27.2.0-alpha16")
@@ -136,7 +136,8 @@ Svg2Compose.parse(
     accessorName = "simple_icons",
     outputSourceDirectory = srcDir,
     vectorsDirectory = downloadDir,
-    type = VectorType.SVG
+    type = VectorType.SVG,
+    allAssetsPropertyName = "AllIcons"
 )
 
 println("Downloading LICENSE from the Icon pack")
