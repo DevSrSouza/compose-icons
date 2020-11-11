@@ -10,6 +10,7 @@ Compose icons is a pack of libraries that provide well known Icon Packs to use i
 | --- | --- | --- |
 | [Simple-Icons](https://simpleicons.org/) | TODO | SimpleIcons |
 | [Feather](https://feathericons.com/) | TODO | FeatherIcons |
+| [Tabler Icons](https://github.com/tabler/tabler-icons) | TODO | TablerIcons |
 
 ## How the project works
 
