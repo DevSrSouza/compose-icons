@@ -1,4 +1,10 @@
+plugins {
+    `maven-publish`
+}
+
 allprojects {
+    plugins.apply("maven-publish")
+
     group = "compose.icons"
     version = "0.1.0-SNAPSHOT"
 

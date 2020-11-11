@@ -1,0 +1,42 @@
+package compose.icons.feathericons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Round
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.FeatherIcons
+
+public val FeatherIcons.Tool: VectorAsset
+    get() {
+        if (_tool != null) {
+            return _tool!!
+        }
+        _tool = VectorAssetBuilder(name = "Tool", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(14.7f, 6.3f)
+                arcToRelative(1.0f, 1.0f, 0.0f, false, false, 0.0f, 1.4f)
+                lineToRelative(1.6f, 1.6f)
+                arcToRelative(1.0f, 1.0f, 0.0f, false, false, 1.4f, 0.0f)
+                lineToRelative(3.77f, -3.77f)
+                arcToRelative(6.0f, 6.0f, 0.0f, false, true, -7.94f, 7.94f)
+                lineToRelative(-6.91f, 6.91f)
+                arcToRelative(2.12f, 2.12f, 0.0f, false, true, -3.0f, -3.0f)
+                lineToRelative(6.91f, -6.91f)
+                arcToRelative(6.0f, 6.0f, 0.0f, false, true, 7.94f, -7.94f)
+                lineToRelative(-3.76f, 3.76f)
+                close()
+            }
+        }
+        .build()
+        return _tool!!
+    }
+
+private var _tool: VectorAsset? = null

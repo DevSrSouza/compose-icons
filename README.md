@@ -8,7 +8,8 @@ Compose icons is a pack of libraries that provide well known Icon Packs to use i
 
 | Icon pack | Dependency | Code accessor |
 | --- | --- | --- |
-| Simple-Icons | TODO | SimpleIcons |
+| [Simple-Icons](https://simpleicons.org/) | TODO | SimpleIcons |
+| [Feather](https://feathericons.com/) | TODO | FeatherIcons |
 
 ## How the project works
 
