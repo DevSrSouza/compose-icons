@@ -13,51 +13,49 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.ClipboardCheck: VectorAsset
+public val TablerIcons.BrandBooking: VectorAsset
     get() {
-        if (_clipboardCheck != null) {
-            return _clipboardCheck!!
+        if (_brandBooking != null) {
+            return _brandBooking!!
         }
-        _clipboardCheck = VectorAssetBuilder(name = "ClipboardCheck", defaultWidth = 24.0.dp,
+        _brandBooking = VectorAssetBuilder(name = "BrandBooking", defaultWidth = 24.0.dp,
                 defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(9.0f, 5.0f)
-                horizontalLineToRelative(-2.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, false, -2.0f, 2.0f)
-                verticalLineToRelative(12.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, false, 2.0f, 2.0f)
-                horizontalLineToRelative(10.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, false, 2.0f, -2.0f)
-                verticalLineToRelative(-12.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, false, -2.0f, -2.0f)
-                horizontalLineToRelative(-2.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(11.0f, 3.0f)
-                lineTo(13.0f, 3.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 15.0f, 5.0f)
-                lineTo(15.0f, 5.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 13.0f, 7.0f)
-                lineTo(11.0f, 7.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 9.0f, 5.0f)
-                lineTo(9.0f, 5.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 11.0f, 3.0f)
+                moveTo(4.0f, 18.0f)
+                verticalLineToRelative(-9.5f)
+                arcToRelative(4.5f, 4.5f, 0.0f, false, true, 4.5f, -4.5f)
+                horizontalLineToRelative(7.0f)
+                arcToRelative(4.5f, 4.5f, 0.0f, false, true, 4.5f, 4.5f)
+                verticalLineToRelative(7.0f)
+                arcToRelative(4.5f, 4.5f, 0.0f, false, true, -4.5f, 4.5f)
+                horizontalLineToRelative(-9.5f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(9.0f, 14.0f)
-                lineToRelative(2.0f, 2.0f)
-                lineToRelative(4.0f, -4.0f)
+                moveTo(8.0f, 12.0f)
+                horizontalLineToRelative(3.5f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 0.0f, 4.0f)
+                horizontalLineToRelative(-3.5f)
+                verticalLineToRelative(-7.0f)
+                arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.0f, -1.0f)
+                horizontalLineToRelative(1.5f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 0.0f, 4.0f)
+                horizontalLineToRelative(-1.5f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(16.0f, 16.0f)
+                lineTo(16.01f, 16.0f)
             }
         }
         .build()
-        return _clipboardCheck!!
+        return _brandBooking!!
     }
 
-private var _clipboardCheck: VectorAsset? = null
+private var _brandBooking: VectorAsset? = null

@@ -13,52 +13,53 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Windmill: VectorAsset
+public val TablerIcons.FileReport: VectorAsset
     get() {
-        if (_windmill != null) {
-            return _windmill!!
+        if (_fileReport != null) {
+            return _fileReport!!
         }
-        _windmill = VectorAssetBuilder(name = "Windmill", defaultWidth = 24.0.dp, defaultHeight =
-                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _fileReport = VectorAssetBuilder(name = "FileReport", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 12.0f)
-                curveToRelative(2.76f, 0.0f, 5.0f, -2.01f, 5.0f, -4.5f)
-                reflectiveCurveToRelative(-2.24f, -4.5f, -5.0f, -4.5f)
-                verticalLineToRelative(9.0f)
-                close()
+                moveTo(17.0f, 17.0f)
+                moveToRelative(-4.0f, 0.0f)
+                arcToRelative(4.0f, 4.0f, 0.0f, true, true, 8.0f, 0.0f)
+                arcToRelative(4.0f, 4.0f, 0.0f, true, true, -8.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 12.0f)
-                curveToRelative(0.0f, 2.76f, 2.01f, 5.0f, 4.5f, 5.0f)
-                reflectiveCurveToRelative(4.5f, -2.24f, 4.5f, -5.0f)
-                horizontalLineToRelative(-9.0f)
-                close()
+                moveTo(17.0f, 13.0f)
+                verticalLineToRelative(4.0f)
+                horizontalLineToRelative(4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 12.0f)
-                curveToRelative(-2.76f, 0.0f, -5.0f, 2.01f, -5.0f, 4.5f)
-                reflectiveCurveToRelative(2.24f, 4.5f, 5.0f, 4.5f)
-                verticalLineToRelative(-9.0f)
-                close()
+                moveTo(12.0f, 3.0f)
+                verticalLineToRelative(4.0f)
+                arcToRelative(1.0f, 1.0f, 0.0f, false, false, 1.0f, 1.0f)
+                horizontalLineToRelative(4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 12.0f)
-                curveToRelative(0.0f, -2.76f, -2.01f, -5.0f, -4.5f, -5.0f)
-                reflectiveCurveToRelative(-4.5f, 2.24f, -4.5f, 5.0f)
-                horizontalLineToRelative(9.0f)
-                close()
+                moveTo(11.5f, 21.0f)
+                horizontalLineToRelative(-6.5f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
+                verticalLineToRelative(-14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
+                horizontalLineToRelative(7.0f)
+                lineToRelative(5.0f, 5.0f)
+                verticalLineToRelative(2.0f)
+                moveToRelative(0.0f, 3.0f)
+                verticalLineToRelative(4.0f)
             }
         }
         .build()
-        return _windmill!!
+        return _fileReport!!
     }
 
-private var _windmill: VectorAsset? = null
+private var _fileReport: VectorAsset? = null

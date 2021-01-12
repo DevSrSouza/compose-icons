@@ -39,6 +39,10 @@ import compose.icons.tablericons.ArrowBarToLeft
 import compose.icons.tablericons.ArrowBarToRight
 import compose.icons.tablericons.ArrowBarToUp
 import compose.icons.tablericons.ArrowBarUp
+import compose.icons.tablericons.ArrowBigDown
+import compose.icons.tablericons.ArrowBigLeft
+import compose.icons.tablericons.ArrowBigRight
+import compose.icons.tablericons.ArrowBigTop
 import compose.icons.tablericons.ArrowBottomBar
 import compose.icons.tablericons.ArrowBottomCircle
 import compose.icons.tablericons.ArrowBottomSquare
@@ -85,6 +89,10 @@ import compose.icons.tablericons.ArrowWaveRightDown
 import compose.icons.tablericons.ArrowWaveRightUp
 import compose.icons.tablericons.ArrowsDiagonal
 import compose.icons.tablericons.ArrowsDiagonal2
+import compose.icons.tablericons.ArrowsDoubleNeSw
+import compose.icons.tablericons.ArrowsDoubleNwSe
+import compose.icons.tablericons.ArrowsDoubleSeNw
+import compose.icons.tablericons.ArrowsDoubleSwNe
 import compose.icons.tablericons.ArrowsDown
 import compose.icons.tablericons.ArrowsDownUp
 import compose.icons.tablericons.ArrowsHorizontal
@@ -127,8 +135,12 @@ import compose.icons.tablericons.BatteryCharging
 import compose.icons.tablericons.BatteryOff
 import compose.icons.tablericons.Bed
 import compose.icons.tablericons.Bell
+import compose.icons.tablericons.BellMinus
 import compose.icons.tablericons.BellOff
+import compose.icons.tablericons.BellPlus
 import compose.icons.tablericons.BellRinging
+import compose.icons.tablericons.BellRinging2
+import compose.icons.tablericons.BellX
 import compose.icons.tablericons.Bike
 import compose.icons.tablericons.Biohazard
 import compose.icons.tablericons.Bluetooth
@@ -161,13 +173,19 @@ import compose.icons.tablericons.BrandAndroid
 import compose.icons.tablericons.BrandApple
 import compose.icons.tablericons.BrandAppleArcade
 import compose.icons.tablericons.BrandAppstore
+import compose.icons.tablericons.BrandAsana
 import compose.icons.tablericons.BrandBehance
+import compose.icons.tablericons.BrandBing
+import compose.icons.tablericons.BrandBitbucket
+import compose.icons.tablericons.BrandBooking
 import compose.icons.tablericons.BrandChrome
 import compose.icons.tablericons.BrandCodepen
 import compose.icons.tablericons.BrandCodesandbox
 import compose.icons.tablericons.BrandCss3
 import compose.icons.tablericons.BrandDeviantart
 import compose.icons.tablericons.BrandDiscord
+import compose.icons.tablericons.BrandDisqus
+import compose.icons.tablericons.BrandDocker
 import compose.icons.tablericons.BrandDribbble
 import compose.icons.tablericons.BrandEdge
 import compose.icons.tablericons.BrandFacebook
@@ -179,21 +197,33 @@ import compose.icons.tablericons.BrandFramer
 import compose.icons.tablericons.BrandGithub
 import compose.icons.tablericons.BrandGitlab
 import compose.icons.tablericons.BrandGoogle
+import compose.icons.tablericons.BrandGoogleAnalytics
 import compose.icons.tablericons.BrandGoogleDrive
 import compose.icons.tablericons.BrandGooglePlay
+import compose.icons.tablericons.BrandGravatar
+import compose.icons.tablericons.BrandHipchat
 import compose.icons.tablericons.BrandHtml5
 import compose.icons.tablericons.BrandInstagram
+import compose.icons.tablericons.BrandKickstarter
 import compose.icons.tablericons.BrandKotlin
 import compose.icons.tablericons.BrandLinkedin
 import compose.icons.tablericons.BrandMedium
 import compose.icons.tablericons.BrandMessenger
+import compose.icons.tablericons.BrandNetflix
+import compose.icons.tablericons.BrandOpenSource
 import compose.icons.tablericons.BrandOpera
+import compose.icons.tablericons.BrandPagekit
+import compose.icons.tablericons.BrandPatreon
 import compose.icons.tablericons.BrandPaypal
 import compose.icons.tablericons.BrandPinterest
 import compose.icons.tablericons.BrandPocket
+import compose.icons.tablericons.BrandProducthunt
 import compose.icons.tablericons.BrandPython
 import compose.icons.tablericons.BrandReddit
 import compose.icons.tablericons.BrandSafari
+import compose.icons.tablericons.BrandSass
+import compose.icons.tablericons.BrandSentry
+import compose.icons.tablericons.BrandShazam
 import compose.icons.tablericons.BrandSketch
 import compose.icons.tablericons.BrandSkype
 import compose.icons.tablericons.BrandSlack
@@ -201,6 +231,7 @@ import compose.icons.tablericons.BrandSnapchat
 import compose.icons.tablericons.BrandSoundcloud
 import compose.icons.tablericons.BrandSpotify
 import compose.icons.tablericons.BrandSteam
+import compose.icons.tablericons.BrandStripe
 import compose.icons.tablericons.BrandTabler
 import compose.icons.tablericons.BrandTailwind
 import compose.icons.tablericons.BrandTelegram
@@ -210,11 +241,13 @@ import compose.icons.tablericons.BrandTinder
 import compose.icons.tablericons.BrandTumblr
 import compose.icons.tablericons.BrandTwitch
 import compose.icons.tablericons.BrandTwitter
+import compose.icons.tablericons.BrandUnsplash
 import compose.icons.tablericons.BrandVimeo
 import compose.icons.tablericons.BrandVk
 import compose.icons.tablericons.BrandWhatsapp
 import compose.icons.tablericons.BrandWindows
 import compose.icons.tablericons.BrandYahoo
+import compose.icons.tablericons.BrandYcombinator
 import compose.icons.tablericons.BrandYoutube
 import compose.icons.tablericons.Briefcase
 import compose.icons.tablericons.Brightness
@@ -401,13 +434,19 @@ import compose.icons.tablericons.EyeOff
 import compose.icons.tablericons.FaceId
 import compose.icons.tablericons.Fall
 import compose.icons.tablericons.File
+import compose.icons.tablericons.FileAlert
+import compose.icons.tablericons.FileAnalytics
 import compose.icons.tablericons.FileCertificate
 import compose.icons.tablericons.FileCheck
 import compose.icons.tablericons.FileCode
+import compose.icons.tablericons.FileCode2
 import compose.icons.tablericons.FileDiff
 import compose.icons.tablericons.FileDislike
 import compose.icons.tablericons.FileDownload
+import compose.icons.tablericons.FileExport
 import compose.icons.tablericons.FileHorizontal
+import compose.icons.tablericons.FileImport
+import compose.icons.tablericons.FileInfo
 import compose.icons.tablericons.FileInvoice
 import compose.icons.tablericons.FileLike
 import compose.icons.tablericons.FileMinus
@@ -415,6 +454,7 @@ import compose.icons.tablericons.FileMusic
 import compose.icons.tablericons.FileOff
 import compose.icons.tablericons.FilePhone
 import compose.icons.tablericons.FilePlus
+import compose.icons.tablericons.FileReport
 import compose.icons.tablericons.FileSearch
 import compose.icons.tablericons.FileShredder
 import compose.icons.tablericons.FileSymlink
@@ -422,6 +462,8 @@ import compose.icons.tablericons.FileText
 import compose.icons.tablericons.FileUpload
 import compose.icons.tablericons.FileX
 import compose.icons.tablericons.FileZip
+import compose.icons.tablericons.Files
+import compose.icons.tablericons.FilesOff
 import compose.icons.tablericons.Filter
 import compose.icons.tablericons.FilterOff
 import compose.icons.tablericons.Fingerprint
@@ -638,6 +680,16 @@ import compose.icons.tablericons.Note
 import compose.icons.tablericons.Notebook
 import compose.icons.tablericons.Notes
 import compose.icons.tablericons.Notification
+import compose.icons.tablericons.Number0
+import compose.icons.tablericons.Number1
+import compose.icons.tablericons.Number2
+import compose.icons.tablericons.Number3
+import compose.icons.tablericons.Number4
+import compose.icons.tablericons.Number5
+import compose.icons.tablericons.Number6
+import compose.icons.tablericons.Number7
+import compose.icons.tablericons.Number8
+import compose.icons.tablericons.Number9
 import compose.icons.tablericons.Octagon
 import compose.icons.tablericons.Omega
 import compose.icons.tablericons.Outlet
@@ -703,6 +755,10 @@ import compose.icons.tablericons.Qrcode
 import compose.icons.tablericons.QuestionMark
 import compose.icons.tablericons.Radioactive
 import compose.icons.tablericons.Rainbow
+import compose.icons.tablericons.Receipt
+import compose.icons.tablericons.Receipt2
+import compose.icons.tablericons.ReceiptOff
+import compose.icons.tablericons.ReceiptRefund
 import compose.icons.tablericons.ReceiptTax
 import compose.icons.tablericons.RecordMail
 import compose.icons.tablericons.Rectangle
@@ -936,6 +992,7 @@ import compose.icons.tablericons.ZodiacVirgo
 import compose.icons.tablericons.ZoomCancel
 import compose.icons.tablericons.ZoomIn
 import compose.icons.tablericons.ZoomOut
+import compose.icons.tablericons.ZoomQuestion
 import compose.icons.tablericons._2fa
 import compose.icons.tablericons._3dCubeSphere
 import kotlin.collections.List as ____KtList
@@ -949,129 +1006,138 @@ public val TablerIcons.AllIcons: ____KtList<VectorAsset>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(FileSearch, Activity, LetterC, Paint, Keyboard, BrandVk,
+    __AllIcons= listOf(FileSearch, Activity, BellX, LetterC, Paint, Keyboard, BrandVk,
         AdjustmentsHorizontal, CreditCardOff, Replace, Radioactive, Firetruck, Database,
         SwitchHorizontal, ArrowRampRight, Volume, CurlyLoop, Sitemap, RotateRectangle, Map, Upload,
         ColorSwatch, PlayerRecord, User, ArrowDown, BorderNone, BuildingCommunity, Movie,
-        ArrowsHorizontal, AccessPoint, Underline, LetterX, BorderTop, SquareMinus, ArrowWaveRightUp,
-        SortDescending, Selector, Basket, Heart, MessageDots, BrandMedium, Smoking, ClipboardCheck,
-        Woman, ArrowBottomCircle, ArrowUpLeft, ZodiacAquarius, VectorBeizer, CaretDown, Backspace,
-        Moon2, BluetoothConnected, BrandMessenger, LineHeight, Disc, Battery2, ArrowsRightLeft,
-        Octagon, LayersIntersect, PhonePlus, Fold, SquareRotated, HeadphonesOff, Windmill,
+        ArrowsHorizontal, AccessPoint, Underline, LetterX, BorderTop, SquareMinus, ArrowsDoubleNeSw,
+        ArrowWaveRightUp, SortDescending, Selector, Basket, Heart, MessageDots, BrandMedium,
+        Smoking, BrandPatreon, ClipboardCheck, BrandDisqus, Woman, ArrowBottomCircle, ArrowUpLeft,
+        ZodiacAquarius, VectorBeizer, CaretDown, Backspace, Moon2, BluetoothConnected,
+        BrandMessenger, LineHeight, Disc, Battery2, ArrowsRightLeft, Octagon, LayersIntersect,
+        PhonePlus, Fold, SquareRotated, BrandDocker, HeadphonesOff, Windmill, BrandUnsplash,
         BorderLeft, Wiper, MessageCircleOff, Wifi, ChevronDownRight, Point, Umbrella,
-        TriangleSquareCircle, LockOff, Qrcode, Headset, Alarm, FileDownload, FilePlus, Friends,
-        BrandPinterest, GridDots, BorderAll, SquarePlus, LayoutAlignLeft, Alien, Share, Devices,
-        PlayerSkipForward, BuildingChurch, Tool, Book, LayoutSidebarRight, Presentation, Hexagon,
-        CloudOff, Package, Infinity, Video, UserMinus, BuildingBridge2, ArrowUpRightCircle,
+        TriangleSquareCircle, LockOff, Qrcode, Headset, Alarm, FileDownload, Number8, FilePlus,
+        Friends, BrandPinterest, GridDots, BorderAll, SquarePlus, LayoutAlignLeft, Alien, Share,
+        Devices, PlayerSkipForward, BuildingChurch, Tool, Book, LayoutSidebarRight, Presentation,
+        Hexagon, CloudOff, Package, Infinity, Video, UserMinus, BuildingBridge2, ArrowUpRightCircle,
         ZodiacTaurus, StairsUp, FileX, Message, PictureInPictureOn, ChristmasTree, LayoutColumns,
         Omega, Disabled2, LetterF, FolderX, Magnet, Forklift, CurrencyYen, Viewfinder, Wifi2,
         LayoutAlignCenter, BrandPaypal, GripVertical, Shield, LetterI, Power, MoodConfuzed,
         WaveSine, Click, ChevronUp, ArrowBottomBar, AlignJustified, Prompt, BrandHtml5, Battery1,
-        GitBranch, CloudSnow, ArrowUpLeftCircle, ArrowBarToRight, CornerUpLeft, FileCode,
-        LayoutAlignMiddle, ArrowDownCircle, ChartAreaLine, Photo, TrafficCone, Palette,
+        GitBranch, CloudSnow, ArrowUpLeftCircle, FileImport, ArrowBarToRight, CornerUpLeft,
+        FileCode, LayoutAlignMiddle, ArrowDownCircle, ChartAreaLine, Photo, TrafficCone, Palette,
         ZodiacPisces, BrandDribbble, Pinned, Link, Switch2, Discount, PanoramaVertical, LetterJ,
         BallBowling, MailOpened, PlayerPause, StepInto, BrandDeviantart, Trident, Vector, TextWrap,
-        ArrowsRight, Copy, HandOff, Switch3, CircleDotted, CurrencyPound, Emphasis, Skateboard,
-        Capture, ShieldOff, CreditCard, Snowflake, HeartBroken, Plus, Folders, ArrowNarrowUp,
-        ArrowBarRight, CircleMinus, AB, BrandChrome, ScreenShareOff, FolderMinus, Trash, Battery3,
-        Medal, Layout2, Shape, Accessible, Bulb, Pin, Home2, LetterB, ZodiacLeo, Wallet, Bookmarks,
-        ArrowRightCircle, BellOff, MessageReport, Minimize, UserPlus, BrandFramer, FlipHorizontal,
-        EyeOff, Pencil, PhoneOutgoing, H6, FileDislike, LetterG, Eraser, Circle, BorderRadius,
+        Number0, ArrowsRight, FileInfo, Copy, HandOff, Switch3, CircleDotted, CurrencyPound,
+        Emphasis, Skateboard, Capture, ShieldOff, CreditCard, Snowflake, HeartBroken, Plus,
+        ArrowBigLeft, Folders, ArrowNarrowUp, ArrowBarRight, CircleMinus, AB, BrandChrome,
+        ScreenShareOff, FolderMinus, Trash, Battery3, Medal, Layout2, Shape, Accessible, Bulb, Pin,
+        Home2, LetterB, ArrowsDoubleSeNw, ZodiacLeo, Wallet, Bookmarks, ArrowRightCircle, BellOff,
+        MessageReport, Minimize, UserPlus, BrandFramer, FlipHorizontal, EyeOff, Pencil,
+        PhoneOutgoing, BrandSentry, H6, FileDislike, LetterG, Eraser, Circle, BorderRadius,
         BorderOuter, Exposure, Microphone, CirclePlus, Edit, Login, ArrowRightBar, Bookmark,
         SortAscending, Swimming, ArrowLeftBar, Seeding, Pray, PhonePause, UserExclamation,
-        Parachute, Atom2, Italic, Ce, LayoutAlignRight, RelationManyToMany, MoodSad, BallTennis,
-        Rainbow, WorldLongitude, FolderPlus, Star, BrandDiscord, BuildingHospital, ArrowsUpDown,
-        TrendingUp2, StarOff, DotsCircleHorizontal, Cast, ColorPicker, Bandage, Bed, ThumbDown,
-        Subscript, ChartCandle, Sunset, LetterA, TruckDelivery, ToggleRight, ArrowRampLeft,
-        TrendingDown, LetterV, LetterE, ArrowsLeftRight, Maximize, CloudUpload, ZoomOut, Planet,
-        Cloud, CameraMinus, Wand, BellRinging, FileHorizontal, Filter, Wifi0, Notebook, TrendingUp,
-        ListCheck, Award, BuildingPavilon, CircleDashed, Tornado, GasStation, Plug, Sticker,
-        CircleCheck, BrandApple, GitCompare, BrandAirbnb, QuestionMark, Slideshow, Flag, Calendar,
-        FolderOff, BorderHorizontal, _2fa, PhoneCalling, ArrowBottomSquare, Ear, Moped, VideoOff,
-        FloatLeft, FoldDown, ArrowsSplit2, ManualGearbox, Logout, Menu, Ship, Recycle, Download,
+        Parachute, Atom2, Italic, Ce, LayoutAlignRight, RelationManyToMany, MoodSad, FileAlert,
+        FilesOff, BallTennis, FileAnalytics, Rainbow, WorldLongitude, FolderPlus, Star,
+        BrandDiscord, BuildingHospital, ArrowsUpDown, TrendingUp2, StarOff, DotsCircleHorizontal,
+        Cast, ColorPicker, Bandage, Bed, ThumbDown, Subscript, ChartCandle, Sunset, LetterA,
+        TruckDelivery, ToggleRight, ArrowRampLeft, TrendingDown, LetterV, LetterE, ArrowsLeftRight,
+        Maximize, CloudUpload, ZoomOut, Number4, Planet, Cloud, CameraMinus, BrandBooking, Receipt2,
+        Wand, BellRinging, FileHorizontal, Filter, Wifi0, Notebook, TrendingUp, ListCheck, Award,
+        BuildingPavilon, CircleDashed, Tornado, GasStation, Plug, Sticker, CircleCheck, BrandApple,
+        GitCompare, BrandAirbnb, QuestionMark, Slideshow, Flag, Calendar, FolderOff,
+        BorderHorizontal, _2fa, PhoneCalling, ArrowBottomSquare, Ear, Moped, VideoOff, FloatLeft,
+        FoldDown, ArrowsSplit2, ManualGearbox, Logout, Menu, Ship, Recycle, BrandHipchat, Download,
         Space, KeyboardShow, ShieldX, Browser, H4, ChevronLeft, RectangleVertical, Scooter,
-        BrandReddit, Plane, Tir, ArrowsMinimize, LayoutRows, Settings, FileText, Sun, Plant,
-        SeparatorVertical, Puzzle, ZodiacSagittarius, ChartBar, WorldLatitude, BrandEdge, FaceId,
-        FlipVertical, PanoramaHorizontal, Volume2, VectorBeizer2, BuildingBank, History,
-        AspectRatio, Coin, Exchange, Anchor, DeviceDesktop, DeviceLaptop, ArrowRight,
-        TemperaturePlus, BookmarkOff, Unlink, Refresh, LiveView, StepOut, Server, Typography,
-        TruckReturn, BrandGoogle, ArrowsUp, LayoutNavbar, Volume3, LayoutAlignTop, Fingerprint,
-        ArrowTopSquare, Circles, BrandWindows, Divide, PictureInPictureOff, StairsDown,
-        ArrowNarrowDown, Tournament, IndentIncrease, Tractor, Virus, ChevronsUp, LayoutGrid,
-        ArrowBottomTail, ClearFormatting, Forbid, Bone, PlayerStop, Markdown, SquareForbid, Dice,
-        BrandSkype, Egg, BrandSpotify, ArrowsSplit, ChevronsUpLeft, DeviceMobileVibration, Sunshine,
-        CaretUp, ClipboardX, Select, Frame, PlayerSkipBack, LetterT, SquareDot, TemperatureMinus,
-        VideoPlus, PlaneDeparture, ArrowsLeft, BuildingLighthouse, Clipboard, FoldUp, Bold,
-        Registered, DirectionHorizontal, JumpRope, ArrowBarUp, Wifi1, BrandInstagram, Inbox,
-        ArrowsDown, BrandTiktok, BrandTidal, ViewportWide, ArrowDownRightCircle, Scissors,
+        BrandReddit, BrandYcombinator, Plane, Tir, ArrowsMinimize, LayoutRows, Settings, FileText,
+        Sun, Plant, SeparatorVertical, Puzzle, ZodiacSagittarius, ChartBar, WorldLatitude,
+        BrandEdge, BrandNetflix, FaceId, FlipVertical, BrandGravatar, PanoramaHorizontal, Volume2,
+        Number2, VectorBeizer2, BuildingBank, History, AspectRatio, Coin, Exchange, Anchor,
+        DeviceDesktop, DeviceLaptop, ArrowRight, TemperaturePlus, BookmarkOff, Unlink, Refresh,
+        LiveView, StepOut, Server, Typography, TruckReturn, BrandGoogle, ArrowsUp, LayoutNavbar,
+        Volume3, LayoutAlignTop, Fingerprint, ArrowTopSquare, Circles, BrandWindows, Divide,
+        PictureInPictureOff, StairsDown, ArrowNarrowDown, Tournament, IndentIncrease, Tractor,
+        Virus, ChevronsUp, LayoutGrid, BrandShazam, ArrowBottomTail, ClearFormatting, Forbid, Bone,
+        PlayerStop, Markdown, SquareForbid, Dice, BrandSkype, Egg, BrandSpotify, ArrowsSplit,
+        ChevronsUpLeft, DeviceMobileVibration, Sunshine, CaretUp, ClipboardX, Select, Frame,
+        PlayerSkipBack, LetterT, SquareDot, TemperatureMinus, VideoPlus, BrandStripe,
+        PlaneDeparture, ArrowsLeft, BuildingLighthouse, Clipboard, FoldUp, Bold, Registered,
+        DirectionHorizontal, JumpRope, ArrowBarUp, Wifi1, ZoomQuestion, BrandInstagram, Inbox,
+        Number7, ArrowsDown, BrandTiktok, BrandTidal, ViewportWide, ArrowDownRightCircle, Scissors,
         SmartHome, Mist, MessageOff, Caravan, Superscript, ArrowBarToUp, Target, BorderBottom,
         CornerDownLeft, LayoutDistributeVertical, HelicopterLanding, AlignRight, MessageCircle,
-        Paperclip, CaretRight, BallVolleyball, H3, BuildingStore, LoaderQuarter, BorderInner,
-        DragDrop, ArrowLeftTail, View360, ZodiacCancer, Notes, CurrencyDollar, DeviceMobile,
-        MoodCrazyHappy, Bug, BuildingCastle, Speedboat, Comet, LetterW, Compass, CalendarEvent,
-        GitCommit, Train, AlertOctagon, BrandFoursquare, ArrowLoopRight, ArrowRightSquare, Golf,
-        Leaf, Barcode, ChevronsUpRight, BrandSnapchat, MapPin, CurrentLocation, ArrowNarrowRight,
-        DotsDiagonal, ChartDonut, CalendarMinus, Tallymarks, Line, BrandFigma, BrandFirefox,
-        ArrowWaveRightDown, H5, ChevronDownLeft, Pool, TrendingUp3, RelationOneToMany, Walk,
-        GitPullRequest, VirusOff, LetterY, MoodTongue, Copyleft, RefreshAlert, ArrowBarToLeft,
-        Social, PlayerTrackNext, Certificate, InfoCircle, WaveSawTool, CloudDownload, BrandYahoo,
-        ArrowNarrowLeft, Bucket, LayoutKanban, FileMinus, BrandFacebook, CornerDownRight,
-        TrendingDown3, AntennaBars2, SmokingNo, Users, PhoneCall, ChevronDown, Cash, CircleX,
-        FileSymlink, DeviceWatch, ArrowTopTail, SeparatorHorizontal, Math, Tallymark2, ArrowForward,
-        BulbOff, Terminal, GitMerge, Stars, BrandSketch, BuildingBridge, FileZip, Triangle,
-        CurrencyRupee, MoodHappy, LayersUnion, Cardboards, MapPinOff, MoodSuprised, ChartBubble,
-        Command, SwitchVertical, Peace, Temperature, Fall, ReceiptTax, MoodKid, Id, AlignCenter,
-        BrandTelegram, TrendingDown2, ArrowsDownUp, Layout, BrandTinder, DeviceGamepad, ArrowBackUp,
-        Rss, Percentage, Ripple, Backhoe, Language, LettersCase, WreckingBall, ZodiacCapricorn,
-        Switch, BatteryOff, H1, Notification, Forbid2, BuildingSkyscraper, FileMusic, SquareForbid2,
-        FileOff, BallBasketball, ZoomCancel, MessageCircle2, Pill, Tallymark4, BrandCss3, TrashOff,
-        Messages, ClipboardList, FileUpload, Diamond, BrandGitlab, CurrencyEuro, AccessPointOff,
+        Paperclip, ArrowsDoubleNwSe, CaretRight, ArrowsDoubleSwNe, BallVolleyball, H3,
+        BuildingStore, LoaderQuarter, BorderInner, DragDrop, ArrowLeftTail, View360, ZodiacCancer,
+        Notes, CurrencyDollar, DeviceMobile, MoodCrazyHappy, Bug, BuildingCastle, Speedboat, Comet,
+        LetterW, Compass, CalendarEvent, GitCommit, Train, AlertOctagon, BrandFoursquare,
+        ArrowLoopRight, ArrowRightSquare, Golf, Leaf, Barcode, ChevronsUpRight, BrandSnapchat,
+        Number6, MapPin, CurrentLocation, ArrowNarrowRight, DotsDiagonal, ChartDonut, CalendarMinus,
+        Tallymarks, Line, BrandFigma, BrandFirefox, ArrowWaveRightDown, H5, ChevronDownLeft, Pool,
+        TrendingUp3, FileCode2, RelationOneToMany, Walk, GitPullRequest, VirusOff, LetterY,
+        MoodTongue, Copyleft, RefreshAlert, ArrowBarToLeft, Social, PlayerTrackNext, Certificate,
+        InfoCircle, WaveSawTool, CloudDownload, BrandYahoo, ArrowNarrowLeft, Bucket, LayoutKanban,
+        FileMinus, BrandFacebook, CornerDownRight, TrendingDown3, AntennaBars2, SmokingNo, Users,
+        PhoneCall, ChevronDown, Cash, CircleX, FileSymlink, DeviceWatch, ArrowTopTail,
+        SeparatorHorizontal, BrandSass, Math, Tallymark2, ArrowForward, BulbOff, Terminal, GitMerge,
+        Stars, BrandSketch, BuildingBridge, FileZip, Triangle, CurrencyRupee, MoodHappy,
+        LayersUnion, Cardboards, MapPinOff, BellRinging2, MoodSuprised, BellPlus, ChartBubble,
+        ReceiptOff, Command, SwitchVertical, Peace, Temperature, Fall, ReceiptTax, MoodKid, Id,
+        AlignCenter, BrandTelegram, TrendingDown2, ArrowsDownUp, Layout, BrandTinder, Receipt,
+        DeviceGamepad, ArrowBackUp, Rss, Percentage, Ripple, Backhoe, Language, LettersCase,
+        WreckingBall, ZodiacCapricorn, Switch, BatteryOff, H1, Notification, Forbid2,
+        BuildingSkyscraper, FileMusic, SquareForbid2, FileOff, BallBasketball, ZoomCancel,
+        MessageCircle2, Pill, Tallymark4, BrandCss3, TrashOff, Messages, ClipboardList, Number1,
+        BrandBing, FileUpload, ArrowBigTop, Diamond, BrandGitlab, CurrencyEuro, AccessPointOff,
         Trademark, ArrowsJoin, LetterH, AlertCircle, CornerLeftUp, Trophy, Ruler, Key, ChartArea,
-        Globe, Ad, Bus, LayoutList, Apps, CaretLeft, ShieldCheck, PhotoOff, Rocket, TrafficLights,
-        ShoppingCart, Adjustments, Slice, AntennaBars4, Brackets, ArrowUpRight, LetterN,
-        DeviceTablet, Repeat, Battery, CurrencyBitcoin, CloudStorm, BrandSoundcloud, Ambulance,
-        Rotate2, ZodiacGemini, ZoomIn, LetterS, NewSection, Sailboat, PlayerPlay, Submarine,
-        Tallymark3, Lock, BrandFlickr, FloatRight, BrandSlack, Focus2, GripHorizontal, PhoneX,
-        CornerLeftDown, Rotate, Crop, Trees, LivePhoto, SteeringWheel, Shirt, ArrowTopCircle, Gps,
-        Karate, ChevronsLeft, Directions, Outlet, DeviceSpeaker, ArrowBack, Dashboard, Mars, Table,
+        Globe, Ad, Bus, LayoutList, BrandAsana, Apps, CaretLeft, ShieldCheck, PhotoOff, Rocket,
+        TrafficLights, ShoppingCart, Adjustments, Slice, AntennaBars4, Brackets, ArrowUpRight,
+        LetterN, DeviceTablet, Repeat, FileReport, Battery, CurrencyBitcoin, CloudStorm,
+        BrandSoundcloud, Ambulance, Rotate2, ZodiacGemini, ZoomIn, LetterS, NewSection, Sailboat,
+        PlayerPlay, Submarine, Tallymark3, FileExport, Lock, BrandFlickr, FloatRight, BrandSlack,
+        Focus2, GripHorizontal, PhoneX, CornerLeftDown, Rotate, Crop, Trees, LivePhoto,
+        SteeringWheel, Shirt, ArrowTopCircle, Gps, Karate, ChevronsLeft, Directions, Outlet,
+        DeviceSpeaker, ArrowBack, Dashboard, Mars, BellMinus, Table, Number3, BrandKickstarter,
         VectorTriangle, RotateClockwise2, Music, PhoneIncoming, Focus, LetterK, MessagePlus,
         BorderVertical, InfoSquare, Brush, Versions, StarHalf, LayoutDistributeHorizontal, Stack,
         LayoutSidebar, Building, LetterM, LockOpen, Rectangle, BrandPython, RecordMail, Crown,
         ChevronsDownLeft, Bolt, LetterQ, BoltOff, Atom, AdjustmentsAlt, Scale, CameraOff, Loader,
-        Terminal2, MoodSmile, At, WifiOff, LetterZ, BrandTailwind, School, Marquee, Columns, Router,
-        ToolsKitchen, Lego, ArrowLeftCircle, FloatCenter, BrandSteam, Ban, ChevronsDownRight, Eye,
-        ChevronUpLeft, Servicemark, CornerRightDown, BuildingCarousel, LayoutAlignBottom, Pizza,
-        MoodCry, Disabled, Route, Phone, RelationOneToOne, ArrowsDiagonal2, HandStop, LetterP,
-        World, ArrowWaveLeftDown, BrandYoutube, DeviceTv, ArrowsMaximize, PlaneArrival,
-        PictureInPicture, Gauge, Artboard, MoodNeutral, Cut, LetterO, GlassFull, ExternalLink,
-        BatteryCharging, _3dCubeSphere, Help, Parking, BrandKotlin, Contrast, Square, Direction,
-        ArrowDownLeftCircle, ArrowUpCircle, List, BrandAppstore, Braces, BrandSafari,
-        BrightnessDown, Flame, BrandTwitch, Aperture, Briefcase, SquareX, Tallymark1, ChevronRight,
-        MoonStars, ViewportNarrow, UserCheck, ChevronUpRight, Gift, BrandGithub, PhoneCheck,
-        Battery4, Scan, Archive, LayoutCards, Tools, BluetoothOff, LayoutGridAdd, Pennant,
-        ArrowRightTail, FileCheck, Calculator, FileLike, Checks, FilePhone, ArrowsSort,
-        TemperatureFahrenheit, Map2, FileShredder, YinYang, Message2, Bell, Urgent, LetterR,
-        ShieldLock, BrandWhatsapp, TextWrapDisabled, ZodiacAries, DotsDiagonal2, ArrowTopBar, Bike,
-        Checkbox, IceCream, Code, KeyboardHide, BrandTumblr, Tag, Helicopter, ScreenShare,
-        ToggleLeft, Camera, TemperatureCelsius, AlertTriangle, BrandGoogleDrive, BorderRight,
-        RoadSign, BrandVimeo, ArrowLoopLeft, AntennaBars1, Mug, Run, PinnedOff, Headphones,
-        VirusSearch, Moon, License, FileDiff, WiperWash, Template, BuildingMonument, AlignLeft,
-        Note, Biohazard, BrandPocket, Location, ArrowsVertical, ArrowUp, AntennaBars5,
-        LayersSubtract, Plant2, AntennaBars3, Search, ChartRadar, IndentDecrease, Copyright,
-        BrandTabler, ZodiacScorpio, Menu2, Subtask, CloudRain, RepeatOnce, Flask, BrandOpera,
-        LetterL, Strikethrough, News, Parentheses, ZodiacLibra, BrandGooglePlay, X, SoccerField,
-        Folder, Printer, ScooterElectric, ArrowForwardUp, H2, Crosshair, LayersDifference, LetterD,
-        Dots, MapPins, WaveSquare, ArrowLeft, BuildingWarehouse, File, Clock, Droplet, FilterOff,
+        Terminal2, MoodSmile, At, WifiOff, LetterZ, BrandTailwind, School, Marquee, ArrowBigRight,
+        Columns, Router, ToolsKitchen, Lego, ArrowLeftCircle, FloatCenter, BrandSteam, Ban,
+        ChevronsDownRight, Eye, ChevronUpLeft, Servicemark, CornerRightDown, BuildingCarousel,
+        LayoutAlignBottom, Pizza, MoodCry, Disabled, Route, Phone, RelationOneToOne,
+        ArrowsDiagonal2, HandStop, LetterP, World, ArrowWaveLeftDown, BrandYoutube, DeviceTv,
+        ArrowsMaximize, PlaneArrival, PictureInPicture, Gauge, Artboard, Number9, MoodNeutral, Cut,
+        LetterO, GlassFull, ExternalLink, BatteryCharging, ArrowBigDown, _3dCubeSphere, Help,
+        Parking, BrandKotlin, Contrast, Square, Direction, ArrowDownLeftCircle, ArrowUpCircle, List,
+        BrandAppstore, Braces, BrandSafari, BrightnessDown, Flame, BrandTwitch, Aperture, Briefcase,
+        SquareX, Tallymark1, ChevronRight, MoonStars, ViewportNarrow, UserCheck, ChevronUpRight,
+        Gift, BrandGithub, PhoneCheck, Battery4, Scan, Archive, LayoutCards, Tools, BluetoothOff,
+        LayoutGridAdd, Pennant, ArrowRightTail, FileCheck, Calculator, FileLike, Checks, FilePhone,
+        ArrowsSort, TemperatureFahrenheit, BrandProducthunt, Map2, FileShredder, YinYang, Message2,
+        Bell, Urgent, LetterR, ShieldLock, BrandWhatsapp, TextWrapDisabled, ZodiacAries,
+        DotsDiagonal2, ArrowTopBar, BrandBitbucket, Bike, Checkbox, IceCream, Code, KeyboardHide,
+        BrandTumblr, Tag, Helicopter, ScreenShare, ToggleLeft, Camera, TemperatureCelsius,
+        AlertTriangle, BrandGoogleDrive, BorderRight, RoadSign, BrandVimeo, ArrowLoopLeft,
+        AntennaBars1, Mug, Run, PinnedOff, Headphones, VirusSearch, Moon, License, FileDiff,
+        WiperWash, Template, BuildingMonument, AlignLeft, Note, Biohazard, BrandPocket, Location,
+        Files, ArrowsVertical, ArrowUp, AntennaBars5, LayersSubtract, Plant2, AntennaBars3, Search,
+        ChartRadar, IndentDecrease, Copyright, BrandTabler, ZodiacScorpio, Menu2, Subtask,
+        CloudRain, RepeatOnce, BrandGoogleAnalytics, Flask, BrandOpera, LetterL, BrandPagekit,
+        Strikethrough, News, Parentheses, ZodiacLibra, BrandGooglePlay, X, SoccerField, Folder,
+        Printer, ScooterElectric, ArrowForwardUp, H2, Crosshair, LayersDifference, LetterD, Dots,
+        MapPins, WaveSquare, ArrowLeft, BuildingWarehouse, File, Clock, Droplet, FilterOff,
         CornerUpRight, DeviceFloppy, BrandTwitter, Sum, HandMiddleFinger, ArrowDownLeft, MoodBoy,
         Brightness, SquareCheck, Buldozer, FileCertificate, BrandCodesandbox, ArrowBarToDown,
         MedicalCross, DeviceMobileRotated, Tank, Bluetooth, ThumbUp, Ticket, ZodiacVirgo, Separator,
         Venus, Stethoscope, LetterU, Lifebuoy, ArrowBarLeft, Check, CircleSquare, BuildingArch,
-        VideoMinus, BrightnessUp, FloatNone, ArrowBarDown, Minus, ChevronsDown, Truck, UserX, Man,
-        ArrowWaveLeftUp, CornerRightUp, Glass, Devices2, MessagesOff, ArrowsJoin2, SunOff, TestPipe,
-        ChartLine, ChartPie, ArrowDownRight, CameraPlus, Drone, Wind, ArrowLeftSquare, Box,
-        Speakerphone, Home, Hash, ArrowsDiagonal, Ghost, MicrophoneOff, BrandBehance, CalendarPlus,
-        BuildingFortress, Stairs, Send, BrandLinkedin, Mail, UserOff, GitFork, FileInvoice,
-        DotsVertical, RotateClockwise, BrandAppleArcade, BrandCodepen, Car, ChevronsRight, CloudFog,
-        DragDrop2, Mouse, PageBreak, LayoutBottombar, PhoneOff, PlayerTrackPrev, BrandAndroid)
+        VideoMinus, BrightnessUp, FloatNone, BrandOpenSource, ArrowBarDown, Minus, ChevronsDown,
+        Truck, UserX, Man, ArrowWaveLeftUp, CornerRightUp, Glass, Devices2, MessagesOff,
+        ArrowsJoin2, SunOff, TestPipe, ChartLine, ChartPie, ArrowDownRight, CameraPlus, Number5,
+        Drone, Wind, ArrowLeftSquare, Box, Speakerphone, Home, Hash, ArrowsDiagonal, Ghost,
+        MicrophoneOff, BrandBehance, CalendarPlus, BuildingFortress, Stairs, Send, BrandLinkedin,
+        Mail, UserOff, GitFork, FileInvoice, DotsVertical, RotateClockwise, BrandAppleArcade,
+        BrandCodepen, Car, ChevronsRight, CloudFog, DragDrop2, Mouse, ReceiptRefund, PageBreak,
+        LayoutBottombar, PhoneOff, PlayerTrackPrev, BrandAndroid)
     return __AllIcons!!
   }

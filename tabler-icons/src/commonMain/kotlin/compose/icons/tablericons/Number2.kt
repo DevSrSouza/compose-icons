@@ -1,0 +1,35 @@
+package compose.icons.tablericons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Round
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.TablerIcons
+
+public val TablerIcons.Number2: VectorAsset
+    get() {
+        if (_number2 != null) {
+            return _number2!!
+        }
+        _number2 = VectorAssetBuilder(name = "Number2", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(8.0f, 8.0f)
+                arcToRelative(4.0f, 4.0f, 0.0f, true, true, 8.0f, 0.0f)
+                curveToRelative(0.0f, 1.098f, -0.564f, 2.025f, -1.159f, 2.815f)
+                lineToRelative(-6.841f, 9.185f)
+                horizontalLineToRelative(8.0f)
+            }
+        }
+        .build()
+        return _number2!!
+    }
+
+private var _number2: VectorAsset? = null

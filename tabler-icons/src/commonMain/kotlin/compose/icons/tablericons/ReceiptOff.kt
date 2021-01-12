@@ -13,40 +13,54 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.WifiOff: VectorAsset
+public val TablerIcons.ReceiptOff: VectorAsset
     get() {
-        if (_wifiOff != null) {
-            return _wifiOff!!
+        if (_receiptOff != null) {
+            return _receiptOff!!
         }
-        _wifiOff = VectorAssetBuilder(name = "WifiOff", defaultWidth = 24.0.dp, defaultHeight =
-                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _receiptOff = VectorAssetBuilder(name = "ReceiptOff", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 18.0f)
-                lineTo(12.01f, 18.0f)
+                moveTo(5.0f, 21.0f)
+                verticalLineToRelative(-16.0f)
+                moveToRelative(2.0f, -2.0f)
+                horizontalLineToRelative(10.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
+                verticalLineToRelative(10.0f)
+                moveToRelative(0.0f, 4.01f)
+                verticalLineToRelative(1.99f)
+                lineToRelative(-3.0f, -2.0f)
+                lineToRelative(-2.0f, 2.0f)
+                lineToRelative(-2.0f, -2.0f)
+                lineToRelative(-2.0f, 2.0f)
+                lineToRelative(-2.0f, -2.0f)
+                lineToRelative(-3.0f, 2.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(9.172f, 15.172f)
-                arcToRelative(4.0f, 4.0f, 0.0f, false, true, 5.656f, 0.0f)
+                moveTo(11.0f, 7.0f)
+                lineTo(15.0f, 7.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.343f, 12.343f)
-                arcToRelative(7.963f, 7.963f, 0.0f, false, true, 3.864f, -2.14f)
-                moveToRelative(4.163f, 0.155f)
-                arcToRelative(7.965f, 7.965f, 0.0f, false, true, 3.287f, 2.0f)
+                moveTo(9.0f, 11.0f)
+                lineTo(11.0f, 11.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(3.515f, 9.515f)
-                arcToRelative(12.0f, 12.0f, 0.0f, false, true, 3.544f, -2.455f)
-                moveToRelative(3.101f, -0.92f)
-                arcToRelative(12.0f, 12.0f, 0.0f, false, true, 10.325f, 3.374f)
+                moveTo(13.0f, 15.0f)
+                lineTo(15.0f, 15.0f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(15.0f, 11.0f)
+                lineTo(15.0f, 11.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -56,7 +70,7 @@ public val TablerIcons.WifiOff: VectorAsset
             }
         }
         .build()
-        return _wifiOff!!
+        return _receiptOff!!
     }
 
-private var _wifiOff: VectorAsset? = null
+private var _receiptOff: VectorAsset? = null
