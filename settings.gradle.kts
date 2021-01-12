@@ -13,5 +13,5 @@ pluginManagement {
 
 rootProject.name = "compose-icons"
 
-include("simple-icons", "feather", "tabler-icons")
+include("simple-icons", "feather", "tabler-icons", "eva-icons")
 

@@ -1,0 +1,76 @@
+package compose.icons.evaicons.fill
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
+import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeCap.Butt
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.StrokeJoin.Miter
+import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.evaicons.FillGroup
+
+public val FillGroup.Globe2: VectorAsset
+    get() {
+        if (_globe2 != null) {
+            return _globe2!!
+        }
+        _globe2 = VectorAssetBuilder(name = "Globe2", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
+                    = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(0.0f, 0.0f)
+                horizontalLineToRelative(24.0f)
+                verticalLineToRelative(24.0f)
+                horizontalLineToRelative(-24.0f)
+                close()
+            }
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
+                    = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(0.0f, 0.0f)
+                horizontalLineToRelative(24.0f)
+                verticalLineToRelative(24.0f)
+                horizontalLineToRelative(-24.0f)
+                close()
+            }
+            path(fill = SolidColor(Color(0xFF231f20)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(12.0f, 2.0f)
+                arcTo(10.0f, 10.0f, 0.0f, true, false, 22.0f, 12.0f)
+                arcTo(10.0f, 10.0f, 0.0f, false, false, 12.0f, 2.0f)
+                close()
+                moveTo(12.0f, 4.0f)
+                arcToRelative(8.19f, 8.19f, 0.0f, false, true, 1.79f, 0.21f)
+                arcToRelative(2.61f, 2.61f, 0.0f, false, true, -0.78f, 1.0f)
+                curveToRelative(-0.22f, 0.17f, -0.46f, 0.31f, -0.7f, 0.46f)
+                arcToRelative(4.56f, 4.56f, 0.0f, false, false, -1.85f, 1.67f)
+                arcToRelative(6.49f, 6.49f, 0.0f, false, false, -0.62f, 3.3f)
+                curveToRelative(0.0f, 1.36f, 0.0f, 2.16f, -0.95f, 2.87f)
+                curveToRelative(-1.37f, 1.07f, -3.46f, 0.47f, -4.76f, -0.07f)
+                arcTo(8.33f, 8.33f, 0.0f, false, true, 4.0f, 12.0f)
+                arcTo(8.0f, 8.0f, 0.0f, false, true, 12.0f, 4.0f)
+                close()
+                moveTo(16.89f, 18.32f)
+                arcToRelative(6.79f, 6.79f, 0.0f, false, false, -0.63f, -1.14f)
+                curveToRelative(-0.11f, -0.16f, -0.22f, -0.32f, -0.32f, -0.49f)
+                curveToRelative(-0.39f, -0.68f, -0.25f, -1.0f, 0.38f, -2.0f)
+                lineToRelative(0.1f, -0.17f)
+                arcTo(4.77f, 4.77f, 0.0f, false, false, 17.0f, 12.09f)
+                arcToRelative(5.42f, 5.42f, 0.0f, false, true, 0.09f, -1.0f)
+                curveToRelative(0.16f, -0.73f, 1.71f, -0.93f, 2.67f, -1.0f)
+                arcToRelative(7.94f, 7.94f, 0.0f, false, true, -2.86f, 8.28f)
+                close()
+            }
+        }
+        .build()
+        return _globe2!!
+    }
+
+private var _globe2: VectorAsset? = null
