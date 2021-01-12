@@ -1,0 +1,151 @@
+package compose.icons.simpleicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Miter
+import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.SimpleIcons
+
+public val SimpleIcons.Ikea: VectorAsset
+    get() {
+        if (_ikea != null) {
+            return _ikea!!
+        }
+        _ikea = VectorAssetBuilder(name = "Ikea", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(0.0f, 7.2f)
+                verticalLineToRelative(9.6f)
+                horizontalLineToRelative(24.0f)
+                lineTo(24.0f, 7.2f)
+                lineTo(0.0f, 7.2f)
+                close()
+                moveTo(12.002f, 16.32f)
+                curveTo(5.308f, 16.32f, 0.48f, 14.36f, 0.48f, 12.0f)
+                reflectiveCurveToRelative(4.831f, -4.32f, 11.522f, -4.32f)
+                curveToRelative(6.69f, 0.0f, 11.518f, 1.96f, 11.518f, 4.32f)
+                reflectiveCurveToRelative(-4.824f, 4.32f, -11.518f, 4.32f)
+                close()
+                moveTo(11.777f, 10.258f)
+                horizontalLineToRelative(4.176f)
+                verticalLineToRelative(0.964f)
+                curveToRelative(-0.103f, -0.047f, -0.203f, -0.047f, -0.306f, -0.047f)
+                horizontalLineToRelative(-1.758f)
+                verticalLineToRelative(0.46f)
+                horizontalLineToRelative(1.689f)
+                verticalLineToRelative(0.732f)
+                horizontalLineToRelative(-1.689f)
+                verticalLineToRelative(0.457f)
+                horizontalLineToRelative(1.758f)
+                curveToRelative(0.103f, 0.0f, 0.203f, 0.0f, 0.306f, -0.05f)
+                verticalLineToRelative(0.967f)
+                horizontalLineToRelative(-4.176f)
+                curveToRelative(0.052f, -0.101f, 0.052f, -0.198f, 0.052f, -0.299f)
+                lineTo(11.829f, 10.56f)
+                curveToRelative(0.0f, -0.101f, 0.0f, -0.198f, -0.052f, -0.302f)
+                close()
+                moveTo(4.701f, 10.56f)
+                verticalLineToRelative(2.881f)
+                curveToRelative(0.0f, 0.101f, 0.0f, 0.198f, 0.052f, 0.299f)
+                lineTo(2.4f, 13.74f)
+                curveToRelative(0.052f, -0.101f, 0.052f, -0.198f, 0.052f, -0.299f)
+                lineTo(2.452f, 10.56f)
+                curveToRelative(0.0f, -0.101f, 0.0f, -0.198f, -0.052f, -0.299f)
+                horizontalLineToRelative(2.353f)
+                curveToRelative(-0.052f, 0.101f, -0.052f, 0.198f, -0.052f, 0.299f)
+                close()
+                moveTo(11.148f, 13.441f)
+                curveToRelative(0.076f, 0.107f, 0.158f, 0.208f, 0.255f, 0.299f)
+                lineTo(8.805f, 13.74f)
+                curveToRelative(0.0f, -0.101f, -0.1f, -0.306f, -0.21f, -0.467f)
+                curveToRelative(-0.11f, -0.161f, -0.705f, -1.044f, -0.705f, -1.044f)
+                verticalLineToRelative(1.212f)
+                curveToRelative(0.0f, 0.101f, 0.0f, 0.198f, 0.052f, 0.299f)
+                lineTo(5.778f, 13.74f)
+                curveToRelative(0.052f, -0.101f, 0.052f, -0.198f, 0.052f, -0.299f)
+                lineTo(5.83f, 10.56f)
+                curveToRelative(0.0f, -0.101f, 0.0f, -0.198f, -0.052f, -0.299f)
+                horizontalLineToRelative(2.164f)
+                curveToRelative(-0.052f, 0.101f, -0.052f, 0.198f, -0.052f, 0.299f)
+                verticalLineToRelative(1.259f)
+                reflectiveCurveToRelative(0.691f, -0.88f, 0.85f, -1.085f)
+                curveToRelative(0.12f, -0.154f, 0.268f, -0.373f, 0.268f, -0.473f)
+                horizontalLineToRelative(2.257f)
+                curveToRelative(-0.155f, 0.101f, -0.327f, 0.282f, -0.468f, 0.45f)
+                lineToRelative(-0.826f, 0.984f)
+                reflectiveCurveToRelative(1.039f, 1.548f, 1.177f, 1.746f)
+                close()
+                moveTo(21.694f, 10.436f)
+                arcToRelative(0.178f, 0.178f, 0.0f, false, false, -0.175f, -0.178f)
+                horizontalLineToRelative(-0.21f)
+                verticalLineToRelative(0.551f)
+                horizontalLineToRelative(0.083f)
+                verticalLineToRelative(-0.195f)
+                horizontalLineToRelative(0.12f)
+                lineToRelative(0.11f, 0.195f)
+                horizontalLineToRelative(0.093f)
+                lineToRelative(-0.12f, -0.212f)
+                arcToRelative(0.184f, 0.184f, 0.0f, false, false, 0.099f, -0.161f)
+                close()
+                moveTo(21.505f, 10.537f)
+                horizontalLineToRelative(-0.114f)
+                verticalLineToRelative(-0.191f)
+                horizontalLineToRelative(0.124f)
+                curveToRelative(0.055f, 0.0f, 0.093f, 0.047f, 0.093f, 0.101f)
+                curveToRelative(0.0f, 0.053f, -0.048f, 0.093f, -0.103f, 0.09f)
+                close()
+                moveTo(21.484f, 10.08f)
+                horizontalLineToRelative(-0.031f)
+                arcToRelative(0.444f, 0.444f, 0.0f, false, false, -0.437f, 0.457f)
+                curveToRelative(0.0f, 0.007f, 0.0f, 0.017f, -0.003f, 0.023f)
+                arcToRelative(0.466f, 0.466f, 0.0f, false, false, 0.482f, 0.447f)
+                arcToRelative(0.464f, 0.464f, 0.0f, false, false, 0.458f, -0.47f)
+                verticalLineToRelative(-0.017f)
+                arcToRelative(0.454f, 0.454f, 0.0f, false, false, -0.469f, -0.44f)
+                close()
+                moveTo(21.484f, 10.903f)
+                arcToRelative(0.372f, 0.372f, 0.0f, false, true, -0.375f, -0.366f)
+                verticalLineToRelative(-0.027f)
+                arcToRelative(0.357f, 0.357f, 0.0f, false, true, 0.375f, -0.339f)
+                curveToRelative(0.206f, 0.0f, 0.375f, 0.165f, 0.375f, 0.366f)
+                reflectiveCurveToRelative(-0.168f, 0.366f, -0.375f, 0.366f)
+                close()
+                moveTo(20.607f, 10.564f)
+                curveToRelative(-0.038f, -0.101f, -0.093f, -0.198f, -0.065f, -0.299f)
+                horizontalLineToRelative(-3.017f)
+                curveToRelative(0.014f, 0.101f, -0.024f, 0.198f, -0.062f, 0.299f)
+                lineToRelative(-1.07f, 2.881f)
+                arcToRelative(0.852f, 0.852f, 0.0f, false, true, -0.162f, 0.299f)
+                horizontalLineToRelative(1.785f)
+                curveToRelative(-0.014f, -0.101f, 0.024f, -0.198f, 0.058f, -0.299f)
+                curveToRelative(0.034f, -0.101f, 0.072f, -0.198f, 0.072f, -0.198f)
+                lineToRelative(0.021f, -0.054f)
+                horizontalLineToRelative(1.304f)
+                lineToRelative(0.021f, 0.05f)
+                curveToRelative(0.048f, 0.118f, 0.083f, 0.198f, 0.083f, 0.198f)
+                curveToRelative(0.041f, 0.101f, 0.079f, 0.198f, 0.069f, 0.299f)
+                horizontalLineToRelative(2.263f)
+                arcToRelative(0.837f, 0.837f, 0.0f, false, true, -0.169f, -0.299f)
+                arcToRelative(690.277f, 690.277f, 0.0f, false, false, -1.131f, -2.877f)
+                close()
+                moveTo(18.44f, 12.457f)
+                curveToRelative(0.155f, -0.42f, 0.289f, -0.772f, 0.299f, -0.806f)
+                curveToRelative(0.028f, -0.074f, 0.048f, -0.151f, 0.062f, -0.228f)
+                curveToRelative(0.017f, 0.077f, 0.041f, 0.154f, 0.069f, 0.228f)
+                lineToRelative(0.316f, 0.806f)
+                horizontalLineToRelative(-0.746f)
+                close()
+            }
+        }
+        .build()
+        return _ikea!!
+    }
+
+private var _ikea: VectorAsset? = null

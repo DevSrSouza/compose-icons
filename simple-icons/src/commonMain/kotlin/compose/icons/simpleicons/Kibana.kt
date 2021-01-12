@@ -21,14 +21,14 @@ public val SimpleIcons.Kibana: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(21.04f, 23.99f)
-                lineTo(4.18f, 23.99f)
-                lineToRelative(9.88f, -11.86f)
-                curveToRelative(4.23f, 2.76f, 6.98f, 7.04f, 6.98f, 11.86f)
+                moveTo(2.625f, 0.0f)
+                verticalLineToRelative(21.591f)
+                lineTo(21.375f, 0.0f)
                 close()
-                moveTo(21.04f, 0.04f)
-                lineTo(3.08f, 0.04f)
-                verticalLineToRelative(21.55f)
+                moveTo(13.489f, 12.47f)
+                lineTo(3.477f, 24.0f)
+                horizontalLineToRelative(17.522f)
+                arcToRelative(18.755f, 18.755f, 0.0f, false, false, -7.51f, -11.53f)
                 close()
             }
         }

@@ -21,23 +21,19 @@ public val SimpleIcons.Bitbucket: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(0.778f, 1.211f)
-                curveToRelative(-0.424f, -0.006f, -0.772f, 0.334f, -0.778f, 0.758f)
-                curveToRelative(0.0f, 0.045f, 0.002f, 0.09f, 0.01f, 0.134f)
-                lineToRelative(3.263f, 19.811f)
-                curveToRelative(0.084f, 0.499f, 0.515f, 0.867f, 1.022f, 0.872f)
+                moveTo(0.778f, 1.213f)
+                arcToRelative(0.768f, 0.768f, 0.0f, false, false, -0.768f, 0.892f)
+                lineToRelative(3.263f, 19.81f)
+                curveToRelative(0.084f, 0.5f, 0.515f, 0.868f, 1.022f, 0.873f)
                 horizontalLineTo(19.95f)
-                curveToRelative(0.382f, 0.004f, 0.708f, -0.271f, 0.77f, -0.646f)
+                arcToRelative(0.772f, 0.772f, 0.0f, false, false, 0.77f, -0.646f)
                 lineToRelative(3.27f, -20.03f)
-                curveToRelative(0.068f, -0.418f, -0.216f, -0.813f, -0.635f, -0.881f)
-                curveToRelative(-0.045f, -0.008f, -0.089f, -0.011f, -0.133f, -0.01f)
-                lineTo(0.778f, 1.211f)
+                arcToRelative(0.768f, 0.768f, 0.0f, false, false, -0.768f, -0.891f)
                 close()
-                moveTo(14.52f, 15.528f)
+                moveTo(14.52f, 15.53f)
                 horizontalLineTo(9.522f)
-                lineTo(8.17f, 8.464f)
+                lineTo(8.17f, 8.466f)
                 horizontalLineToRelative(7.561f)
-                lineToRelative(-1.211f, 7.064f)
                 close()
             }
         }

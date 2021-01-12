@@ -21,15 +21,13 @@ public val SimpleIcons.Faceit: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(24.0f, 2.7f)
-                curveToRelative(0.0f, -0.1f, -0.1f, -0.2f, -0.1f, -0.2f)
-                curveToRelative(-0.1f, 0.0f, -0.1f, 0.0f, -0.2f, 0.1f)
-                curveToRelative(-2.0f, 3.1f, -4.1f, 6.2f, -6.1f, 9.4f)
-                horizontalLineTo(0.2f)
-                curveToRelative(-0.2f, 0.0f, -0.3f, 0.3f, -0.1f, 0.4f)
-                curveToRelative(7.2f, 2.7f, 17.7f, 6.8f, 23.5f, 9.1f)
-                curveToRelative(0.2f, 0.1f, 0.4f, -0.1f, 0.4f, -0.2f)
-                verticalLineTo(2.7f)
+                moveTo(23.999f, 2.705f)
+                arcToRelative(0.167f, 0.167f, 0.0f, false, false, -0.312f, -0.1f)
+                arcToRelative(1141.27f, 1141.27f, 0.0f, false, false, -6.053f, 9.375f)
+                horizontalLineTo(0.218f)
+                curveToRelative(-0.221f, 0.0f, -0.301f, 0.282f, -0.11f, 0.352f)
+                curveToRelative(7.227f, 2.73f, 17.667f, 6.836f, 23.5f, 9.134f)
+                curveToRelative(0.15f, 0.06f, 0.39f, -0.08f, 0.39f, -0.18f)
                 close()
             }
         }

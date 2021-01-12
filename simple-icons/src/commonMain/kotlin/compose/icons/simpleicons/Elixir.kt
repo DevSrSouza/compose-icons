@@ -21,17 +21,16 @@ public val SimpleIcons.Elixir: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(19.789f, 16.578f)
-                curveToRelative(0.0f, 3.75f, -2.926f, 7.422f, -7.739f, 7.422f)
-                curveToRelative(-5.246f, 0.0f, -7.839f, -3.708f, -7.839f, -8.285f)
-                curveToRelative(0.0f, -5.207f, 3.89f, -12.946f, 7.995f, -15.639f)
-                curveToRelative(0.277f, -0.182f, 0.643f, 0.041f, 0.611f, 0.371f)
-                curveToRelative(-0.03f, 0.313f, -0.046f, 0.631f, -0.046f, 0.951f)
-                curveToRelative(0.0f, 2.067f, 0.641f, 3.985f, 1.738f, 5.563f)
-                curveToRelative(0.522f, 0.795f, 1.092f, 1.477f, 1.763f, 2.351f)
-                curveToRelative(0.94f, 1.226f, 1.636f, 1.905f, 2.642f, 3.84f)
-                curveToRelative(0.005f, 0.01f, 0.01f, 0.018f, 0.015f, 0.028f)
-                curveTo(19.48f, 14.197f, 19.789f, 15.352f, 19.789f, 16.578f)
+                moveTo(19.793f, 16.575f)
+                curveToRelative(0.0f, 3.752f, -2.927f, 7.426f, -7.743f, 7.426f)
+                curveToRelative(-5.249f, 0.0f, -7.843f, -3.71f, -7.843f, -8.29f)
+                curveToRelative(0.0f, -5.21f, 3.892f, -12.952f, 8.0f, -15.647f)
+                arcToRelative(0.397f, 0.397f, 0.0f, false, true, 0.61f, 0.371f)
+                arcToRelative(9.716f, 9.716f, 0.0f, false, false, 1.694f, 6.518f)
+                curveToRelative(0.522f, 0.795f, 1.092f, 1.478f, 1.763f, 2.352f)
+                curveToRelative(0.94f, 1.227f, 1.637f, 1.906f, 2.644f, 3.842f)
+                lineToRelative(0.015f, 0.028f)
+                arcToRelative(7.107f, 7.107f, 0.0f, false, true, 0.86f, 3.4f)
                 close()
             }
         }

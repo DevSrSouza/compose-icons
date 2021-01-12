@@ -21,19 +21,21 @@ public val SimpleIcons.Kotlin: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(1.3f, 24.0f)
-                lineToRelative(11.3f, -11.5f)
-                lineTo(24.0f, 24.0f)
+                moveTo(0.0f, 24.0f)
+                lineTo(0.0f, 13.848f)
+                lineTo(13.505f, 0.0f)
+                lineTo(24.0f, 0.0f)
+                lineTo(0.0f, 24.0f)
                 close()
                 moveTo(0.0f, 0.0f)
-                horizontalLineToRelative(12.0f)
-                lineTo(0.0f, 12.5f)
+                verticalLineToRelative(12.672f)
+                lineTo(12.05f, 0.0f)
+                lineTo(0.0f, 0.0f)
                 close()
-                moveTo(13.4f, 0.0f)
-                lineTo(0.0f, 14.0f)
-                verticalLineToRelative(10.0f)
-                lineToRelative(12.0f, -12.0f)
-                lineTo(24.0f, 0.0f)
+                moveTo(1.335f, 24.0f)
+                lineTo(24.0f, 24.0f)
+                lineTo(12.699f, 12.618f)
+                lineTo(1.335f, 24.0f)
                 close()
             }
         }

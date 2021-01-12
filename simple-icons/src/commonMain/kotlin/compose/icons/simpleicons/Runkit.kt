@@ -21,12 +21,12 @@ public val SimpleIcons.Runkit: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(23.97f, 14.8f)
+                moveTo(23.97f, 14.797f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, -1.47f, 3.02f)
                 lineToRelative(-9.0f, 5.2f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, -3.0f, 0.0f)
                 lineToRelative(-9.0f, -5.2f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 0.03f, 14.8f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, -1.47f, -3.02f)
                 lineToRelative(1.32f, -7.2f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, 0.98f, -1.82f)
                 arcToRelative(2.96f, 2.96f, 0.0f, false, true, 0.49f, -0.35f)
@@ -36,8 +36,8 @@ public val SimpleIcons.Runkit: VectorAsset
                 curveToRelative(0.1f, 0.05f, 0.19f, 0.1f, 0.28f, 0.17f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, 1.19f, 2.0f)
                 close()
-                moveTo(14.43f, 4.03f)
-                lineTo(6.71f, 5.62f)
+                moveTo(14.43f, 4.027f)
+                lineToRelative(-7.72f, 1.59f)
                 curveToRelative(-0.43f, 0.08f, -0.51f, 0.64f, -0.14f, 0.86f)
                 lineToRelative(5.6f, 3.23f)
                 curveToRelative(0.23f, 0.13f, 0.5f, 0.07f, 0.63f, -0.19f)

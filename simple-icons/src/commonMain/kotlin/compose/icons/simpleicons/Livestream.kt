@@ -21,7 +21,7 @@ public val SimpleIcons.Livestream: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(20.987f, 6.248f)
+                moveTo(20.987f, 6.25f)
                 lineToRelative(0.041f, 0.002f)
                 lineToRelative(0.039f, 0.006f)
                 lineToRelative(0.04f, 0.011f)
@@ -191,9 +191,8 @@ public val SimpleIcons.Livestream: VectorAsset
                 lineToRelative(-0.03f, -0.015f)
                 horizontalLineToRelative(-0.03f)
                 horizontalLineToRelative(2.552f)
-                lineToRelative(-0.051f, 0.031f)
                 close()
-                moveTo(0.008f, 3.082f)
+                moveTo(0.008f, 3.084f)
                 lineToRelative(1.169f, 0.021f)
                 lineToRelative(1.089f, 0.026f)
                 lineToRelative(0.97f, 0.015f)
@@ -520,7 +519,7 @@ public val SimpleIcons.Livestream: VectorAsset
                 lineToRelative(-0.067f, -0.053f)
                 lineToRelative(-0.069f, -0.045f)
                 lineToRelative(-0.07f, -0.045f)
-                lineTo(0.672f, 3.4f)
+                lineToRelative(-0.064f, -0.059f)
                 lineToRelative(-0.075f, -0.046f)
                 lineToRelative(-0.06f, -0.044f)
                 lineToRelative(-0.074f, -0.044f)
@@ -530,9 +529,8 @@ public val SimpleIcons.Livestream: VectorAsset
                 lineToRelative(-0.071f, -0.03f)
                 lineToRelative(-0.068f, -0.031f)
                 lineToRelative(-0.059f, -0.023f)
-                lineTo(0.0f, 3.086f)
+                lineTo(0.0f, 3.088f)
                 horizontalLineToRelative(0.008f)
-                verticalLineToRelative(-0.004f)
                 close()
             }
         }

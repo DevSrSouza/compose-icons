@@ -21,7 +21,7 @@ public val SimpleIcons.Etsy: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(8.564f, 2.445f)
+                moveTo(8.559f, 2.445f)
                 curveToRelative(0.0f, -0.325f, 0.033f, -0.52f, 0.59f, -0.52f)
                 horizontalLineToRelative(7.465f)
                 curveToRelative(1.3f, 0.0f, 2.02f, 1.11f, 2.54f, 3.193f)
@@ -29,8 +29,8 @@ public val SimpleIcons.Etsy: VectorAsset
                 horizontalLineToRelative(1.27f)
                 curveToRelative(0.23f, -4.728f, 0.43f, -6.784f, 0.43f, -6.784f)
                 reflectiveCurveToRelative(-3.196f, 0.36f, -5.09f, 0.36f)
-                horizontalLineTo(6.64f)
-                lineTo(1.526f, 0.196f)
+                horizontalLineTo(6.635f)
+                lineTo(1.521f, 0.196f)
                 verticalLineToRelative(1.37f)
                 lineToRelative(1.725f, 0.326f)
                 curveToRelative(1.21f, 0.24f, 1.5f, 0.496f, 1.6f, 1.606f)
@@ -44,7 +44,7 @@ public val SimpleIcons.Etsy: VectorAsset
                 curveToRelative(1.935f, 0.0f, 6.39f, 0.165f, 6.39f, 0.165f)
                 curveToRelative(0.105f, -1.17f, 0.75f, -6.48f, 0.855f, -7.064f)
                 horizontalLineToRelative(-1.2f)
-                lineTo(20.0f, 19.846f)
+                lineToRelative(-1.284f, 2.91f)
                 curveToRelative(-1.005f, 2.28f, -2.476f, 2.445f, -4.11f, 2.445f)
                 horizontalLineToRelative(-4.906f)
                 curveToRelative(-1.63f, 0.0f, -2.415f, -0.64f, -2.415f, -2.05f)
@@ -55,7 +55,7 @@ public val SimpleIcons.Etsy: VectorAsset
                 horizontalLineToRelative(1.41f)
                 lineToRelative(-0.09f, -4.278f)
                 lineToRelative(0.192f, -4.305f)
-                horizontalLineTo(15.63f)
+                horizontalLineToRelative(-1.391f)
                 lineToRelative(-0.45f, 1.89f)
                 curveToRelative(-0.283f, 1.244f, -0.48f, 1.47f, -1.754f, 1.6f)
                 curveToRelative(-1.666f, 0.17f, -4.815f, 0.14f, -4.815f, 0.14f)

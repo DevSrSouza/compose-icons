@@ -21,17 +21,21 @@ public val SimpleIcons.Logstash: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.6f, 7.2f)
-                lineTo(12.6f, 24.0f)
-                curveToRelative(-5.2f, 0.0f, -10.8f, -4.0f, -10.8f, -9.3f)
-                lineTo(1.8f, 0.0f)
-                horizontalLineToRelative(3.6f)
-                curveToRelative(3.8f, 0.0f, 7.2f, 3.4f, 7.2f, 7.2f)
+                moveTo(13.745f, 24.0f)
+                horizontalLineToRelative(8.291f)
+                verticalLineToRelative(-9.164f)
+                horizontalLineToRelative(-8.29f)
                 close()
-                moveTo(15.0f, 13.2f)
-                lineTo(15.0f, 24.0f)
-                horizontalLineToRelative(7.2f)
-                lineTo(22.2f, 13.2f)
+                moveTo(11.127f, 24.0f)
+                horizontalLineToRelative(0.437f)
+                verticalLineToRelative(-9.164f)
+                horizontalLineToRelative(-9.6f)
+                arcTo(9.163f, 9.163f, 0.0f, false, false, 11.127f, 24.0f)
+                moveToRelative(0.438f, -9.164f)
+                horizontalLineToRelative(-9.6f)
+                lineTo(1.965f, 0.0f)
+                horizontalLineToRelative(0.873f)
+                arcToRelative(8.727f, 8.727f, 0.0f, false, true, 8.727f, 8.727f)
                 close()
             }
         }

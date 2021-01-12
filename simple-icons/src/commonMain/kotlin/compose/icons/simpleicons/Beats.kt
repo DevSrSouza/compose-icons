@@ -21,21 +21,17 @@ public val SimpleIcons.Beats: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(21.55f, 16.77f)
-                arcToRelative(7.14f, 7.14f, 0.0f, false, true, -7.16f, 7.16f)
-                lineTo(2.45f, 23.93f)
-                verticalLineToRelative(-7.16f)
-                horizontalLineToRelative(8.36f)
-                arcToRelative(9.61f, 9.61f, 0.0f, false, false, 8.5f, -5.19f)
-                arcToRelative(7.09f, 7.09f, 0.0f, false, true, 2.24f, 5.2f)
+                moveTo(2.625f, 0.0f)
+                verticalLineToRelative(15.0f)
+                horizontalLineToRelative(8.25f)
+                arcToRelative(7.5f, 7.5f, 0.0f, false, false, 0.0f, -15.0f)
                 close()
-                moveTo(17.31f, 10.24f)
-                arcToRelative(7.29f, 7.29f, 0.0f, false, false, 0.66f, -3.01f)
-                arcTo(7.14f, 7.14f, 0.0f, false, false, 10.8f, 0.07f)
-                lineTo(2.46f, 0.07f)
-                verticalLineToRelative(14.32f)
-                horizontalLineToRelative(8.35f)
-                curveToRelative(2.9f, 0.0f, 5.37f, -1.7f, 6.5f, -4.15f)
+                moveTo(19.641f, 11.705f)
+                curveToRelative(-1.571f, 3.261f, -4.91f, 5.517f, -8.766f, 5.517f)
+                horizontalLineToRelative(-8.25f)
+                lineTo(2.625f, 24.0f)
+                horizontalLineToRelative(11.25f)
+                arcToRelative(7.5f, 7.5f, 0.0f, false, false, 5.766f, -12.295f)
                 close()
             }
         }

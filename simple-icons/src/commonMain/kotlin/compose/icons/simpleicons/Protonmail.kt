@@ -21,7 +21,7 @@ public val SimpleIcons.Protonmail: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0f, 20.352f)
+                moveTo(12.0f, 20.351f)
                 reflectiveCurveToRelative(-1.096f, -0.108f, -1.955f, -0.705f)
                 curveToRelative(-0.86f, -0.596f, -6.58f, -4.688f, -6.58f, -4.688f)
                 verticalLineToRelative(8.098f)
@@ -32,22 +32,21 @@ public val SimpleIcons.Protonmail: VectorAsset
                 reflectiveCurveToRelative(-5.723f, 4.092f, -6.58f, 4.69f)
                 curveToRelative(-0.86f, 0.595f, -1.955f, 0.704f, -1.955f, 0.704f)
                 close()
-                moveTo(12.0f, 0.002f)
-                reflectiveCurveTo(4.925f, -0.23f, 3.465f, 7.624f)
+                moveTo(12.0f, 0.001f)
+                reflectiveCurveTo(4.925f, -0.23f, 3.465f, 7.623f)
                 verticalLineToRelative(5.35f)
                 reflectiveCurveToRelative(0.06f, 0.572f, 1.67f, 1.735f)
                 curveToRelative(1.607f, 1.162f, 5.773f, 4.436f, 6.867f, 4.436f)
                 curveToRelative(1.088f, 0.0f, 5.254f, -3.273f, 6.865f, -4.437f)
                 curveToRelative(1.607f, -1.164f, 1.668f, -1.737f, 1.668f, -1.737f)
-                verticalLineToRelative(-5.35f)
-                curveTo(19.075f, -0.228f, 12.0f, 0.004f, 12.0f, 0.004f)
+                lineTo(20.535f, 7.62f)
+                curveTo(19.075f, -0.229f, 12.0f, 0.003f, 12.0f, 0.003f)
                 close()
-                moveTo(16.846f, 10.538f)
+                moveTo(16.846f, 10.537f)
                 horizontalLineToRelative(-9.69f)
-                lineTo(7.156f, 7.624f)
-                curveTo(8.14f, 3.724f, 12.0f, 3.67f, 12.0f, 3.67f)
+                lineTo(7.156f, 7.623f)
+                curveTo(8.14f, 3.723f, 12.0f, 3.67f, 12.0f, 3.67f)
                 reflectiveCurveToRelative(3.863f, 0.054f, 4.846f, 3.954f)
-                verticalLineToRelative(2.914f)
                 close()
             }
         }

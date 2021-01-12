@@ -21,19 +21,19 @@ public val SimpleIcons.C: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(17.023f, 9.216f)
-                reflectiveCurveToRelative(-0.386f, -3.293f, -3.955f, -3.385f)
-                curveToRelative(-3.57f, -0.091f, -5.402f, 2.47f, -5.402f, 6.13f)
-                curveToRelative(0.0f, 3.66f, 2.026f, 6.588f, 5.498f, 6.588f)
-                curveToRelative(3.473f, 0.0f, 3.86f, -3.66f, 3.86f, -3.66f)
-                lineToRelative(6.656f, 0.366f)
-                reflectiveCurveToRelative(0.391f, 3.306f, -2.394f, 5.828f)
-                curveTo(18.5f, 23.605f, 15.082f, 24.017f, 12.694f, 24.0f)
-                curveToRelative(-2.388f, -0.018f, -5.698f, 0.034f, -8.9f, -2.969f)
-                curveTo(0.595f, 18.03f, 0.05f, 15.113f, 0.05f, 12.248f)
-                curveToRelative(0.0f, -2.866f, 0.607f, -6.661f, 4.414f, -9.54f)
-                curveTo(7.05f, 0.754f, 9.673f, 0.033f, 12.296f, 0.033f)
-                curveTo(23.246f, 0.032f, 23.98f, 9.28f, 23.98f, 9.28f)
+                moveTo(16.5921f, 9.1962f)
+                reflectiveCurveToRelative(-0.354f, -3.298f, -3.627f, -3.39f)
+                curveToRelative(-3.2741f, -0.09f, -4.9552f, 2.474f, -4.9552f, 6.14f)
+                curveToRelative(0.0f, 3.6651f, 1.858f, 6.5972f, 5.0451f, 6.5972f)
+                curveToRelative(3.184f, 0.0f, 3.5381f, -3.665f, 3.5381f, -3.665f)
+                lineToRelative(6.1041f, 0.365f)
+                reflectiveCurveToRelative(0.36f, 3.31f, -2.196f, 5.836f)
+                curveToRelative(-2.552f, 2.5241f, -5.6901f, 2.9371f, -7.8762f, 2.9201f)
+                curveToRelative(-2.19f, -0.017f, -5.2261f, 0.034f, -8.1602f, -2.97f)
+                curveToRelative(-2.938f, -3.0101f, -3.436f, -5.9302f, -3.436f, -8.8002f)
+                curveToRelative(0.0f, -2.8701f, 0.556f, -6.6702f, 4.047f, -9.5502f)
+                curveTo(7.444f, 0.72f, 9.849f, 0.0f, 12.254f, 0.0f)
+                curveToRelative(10.0422f, 0.0f, 10.7172f, 9.2602f, 10.7172f, 9.2602f)
                 close()
             }
         }

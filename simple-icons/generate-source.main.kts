@@ -3,7 +3,7 @@
 @file:Repository("https://jetbrains.bintray.com/trove4j")
 
 // svg-to-compose
-@file:DependsOn("com.github.DevSrSouza:svg-to-compose:450fcb2f87")
+@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.4.0")
 @file:DependsOn("com.google.guava:guava:23.0")
 @file:DependsOn("com.android.tools:sdk-common:27.2.0-alpha16")
 @file:DependsOn("com.android.tools:common:27.2.0-alpha16")
@@ -45,7 +45,7 @@ val ignoredIcons = listOf(
 )
 
 val icons = runBlocking {
-    ktorClient.get<SimpleIcons>("https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json") {
+    ktorClient.get<SimpleIcons>("https://raw.githubusercontent.com/simple-icons/simple-icons/master/_data/simple-icons.json") {
         accept(ContentType.Application.Json)
     }
 }.icons
@@ -57,7 +57,8 @@ val replaces2 = listOf(
     "!" to "",
     ":" to "",
     "’" to "",
-    "'" to ""
+    "'" to "",
+    "°" to ""
 )
 
 val replaces = listOf(
@@ -133,7 +134,7 @@ println("Generating all svg to compose")
 
 Svg2Compose.parse(
     applicationIconPackage = "compose.icons",
-    accessorName = "simple_icons",
+    accessorName = "SimpleIcons",
     outputSourceDirectory = srcDir,
     vectorsDirectory = downloadDir,
     type = VectorType.SVG,

@@ -21,21 +21,15 @@ public val SimpleIcons.Peertube: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(3.0f, 0.0f)
+                moveTo(12.0f, 6.545f)
+                verticalLineToRelative(10.91f)
+                lineTo(20.727f, 12.0f)
+                moveTo(3.273f, 12.0f)
                 verticalLineToRelative(12.0f)
-                lineToRelative(9.0f, -6.0f)
-                lineTo(3.0f, 0.0f)
-                close()
-                moveTo(3.0f, 12.0f)
+                lineTo(12.0f, 17.455f)
+                moveTo(3.273f, 0.0f)
                 verticalLineToRelative(12.0f)
-                lineToRelative(9.0f, -6.0f)
-                lineTo(3.0f, 12.0f)
-                close()
-                moveTo(12.0f, 6.0f)
-                verticalLineToRelative(12.0f)
-                lineToRelative(9.0f, -6.0f)
-                lineTo(12.0f, 6.0f)
-                close()
+                lineTo(12.0f, 6.545f)
             }
         }
         .build()

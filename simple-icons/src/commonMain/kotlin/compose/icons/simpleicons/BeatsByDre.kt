@@ -21,17 +21,16 @@ public val SimpleIcons.BeatsByDre: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0098f, 0.0f)
-                arcToRelative(12.0f, 12.0f, 0.0f, false, false, -3.5996f, 0.5527f)
-                verticalLineToRelative(6.6465f)
-                arcTo(6.0f, 6.0f, 0.0f, true, true, 6.0098f, 12.0f)
-                lineTo(6.0098f, 1.6016f)
-                arcToRelative(12.0f, 12.0f, 0.0f, true, false, 6.0f, -1.6016f)
+                moveTo(12.0099f, 15.5996f)
+                arcTo(3.5995f, 3.5995f, 0.0f, true, false, 8.4103f, 12.0f)
+                arcToRelative(3.5995f, 3.5995f, 0.0f, false, false, 3.5996f, 3.5996f)
                 close()
-                moveTo(12.1602f, 8.4023f)
-                arcTo(3.6f, 3.6f, 0.0f, false, false, 8.4102f, 12.0f)
-                arcToRelative(3.6f, 3.6f, 0.0f, false, false, 3.5996f, 3.5996f)
-                arcToRelative(3.6f, 3.6f, 0.0f, false, false, 0.1504f, -7.1973f)
+                moveTo(12.0099f, 0.0015f)
+                arcToRelative(11.9985f, 11.9985f, 0.0f, false, false, -3.5996f, 0.552f)
+                verticalLineToRelative(6.6471f)
+                arcTo(5.9992f, 5.9992f, 0.0f, true, true, 6.0106f, 12.0f)
+                lineTo(6.0106f, 1.6033f)
+                arcTo(11.9985f, 11.9985f, 0.0f, true, false, 12.01f, 0.0015f)
                 close()
             }
         }

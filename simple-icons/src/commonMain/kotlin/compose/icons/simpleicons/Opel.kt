@@ -22,7 +22,6 @@ public val SimpleIcons.Opel: VectorAsset
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(23.82f, 12.921f)
-                lineTo(23.82f, 12.921f)
                 lineToRelative(-2.256f, -0.143f)
                 curveToRelative(0.021f, -0.256f, 0.031f, -0.516f, 0.031f, -0.777f)
                 curveToRelative(0.0f, -5.302f, -4.298f, -9.6f, -9.6f, -9.6f)
@@ -43,7 +42,6 @@ public val SimpleIcons.Opel: VectorAsset
                 curveTo(24.0f, 13.001f, 23.919f, 12.921f, 23.82f, 12.921f)
                 close()
                 moveTo(11.995f, 20.245f)
-                lineTo(11.995f, 20.245f)
                 curveToRelative(-4.507f, 0.0f, -8.245f, -3.738f, -8.245f, -8.245f)
                 curveToRelative(0.0f, -0.234f, 0.011f, -0.467f, 0.031f, -0.696f)
                 lineToRelative(6.899f, 0.43f)
@@ -60,9 +58,6 @@ public val SimpleIcons.Opel: VectorAsset
                 curveToRelative(0.0f, -0.086f, -0.07f, -0.156f, -0.156f, -0.156f)
                 horizontalLineTo(4.022f)
                 curveToRelative(0.937f, -3.521f, 4.183f, -6.165f, 7.973f, -6.165f)
-                curveToRelative(0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f)
-                horizontalLineToRelative(0.0f)
-                curveToRelative(0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f)
                 curveToRelative(4.507f, 0.0f, 8.245f, 3.738f, 8.245f, 8.245f)
                 curveTo(20.24f, 12.233f, 20.23f, 12.463f, 20.21f, 12.692f)
                 close()

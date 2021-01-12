@@ -21,8 +21,8 @@ public val SimpleIcons.Tiktok: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.53f, 0.02f)
-                curveTo(13.84f, 0.0f, 15.14f, 0.01f, 16.44f, 0.0f)
+                moveTo(12.525f, 0.02f)
+                curveToRelative(1.31f, -0.02f, 2.61f, -0.01f, 3.91f, -0.02f)
                 curveToRelative(0.08f, 1.53f, 0.63f, 3.09f, 1.75f, 4.17f)
                 curveToRelative(1.12f, 1.11f, 2.7f, 1.62f, 4.24f, 1.79f)
                 verticalLineToRelative(4.03f)

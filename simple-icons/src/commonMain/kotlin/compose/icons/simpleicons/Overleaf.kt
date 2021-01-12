@@ -21,18 +21,20 @@ public val SimpleIcons.Overleaf: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(7.362f, 6.029f)
-                arcToRelative(11.685f, 11.685f, 0.0f, false, false, -5.694f, 9.606f)
-                arcToRelative(8.368f, 8.368f, 0.0f, true, false, 11.355f, -7.823f)
-                arcToRelative(7.724f, 7.724f, 0.0f, false, false, -2.97f, -0.562f)
-                arcToRelative(12.346f, 12.346f, 0.0f, false, false, -4.21f, 4.87f)
-                arcToRelative(5.496f, 5.496f, 0.0f, true, true, 4.193f, 9.027f)
-                arcToRelative(5.496f, 5.496f, 0.0f, false, true, -4.192f, -1.93f)
-                arcToRelative(6.602f, 6.602f, 0.0f, false, true, -1.585f, -5.563f)
-                curveToRelative(1.073f, -6.42f, 8.764f, -10.117f, 14.458f, -11.553f)
-                arcToRelative(59.17f, 59.17f, 0.0f, false, false, -7.592f, 4.374f)
-                curveToRelative(6.883f, 2.657f, 7.989f, -3.136f, 11.207f, -5.728f)
-                curveTo(19.13f, -0.507f, 7.379f, -0.969f, 7.362f, 6.03f)
+                moveTo(22.3515f, 0.7484f)
+                curveTo(19.1109f, -0.5101f, 7.365f, -0.982f, 7.3452f, 6.0266f)
+                curveToRelative(-3.4272f, 2.194f, -5.6967f, 5.768f, -5.6967f, 9.598f)
+                arcToRelative(8.373f, 8.373f, 0.0f, false, false, 13.1225f, 6.898f)
+                arcToRelative(8.373f, 8.373f, 0.0f, false, false, -1.7668f, -14.7194f)
+                curveToRelative(-0.6062f, -0.2339f, -1.9234f, -0.6481f, -2.9753f, -0.559f)
+                curveToRelative(-1.5007f, 0.9544f, -3.3308f, 2.9155f, -4.1949f, 4.8693f)
+                curveToRelative(2.5894f, -3.082f, 7.5046f, -2.425f, 9.1937f, 1.2287f)
+                curveToRelative(1.6892f, 3.6538f, -0.9944f, 7.8237f, -5.0198f, 7.7998f)
+                arcToRelative(5.4995f, 5.4995f, 0.0f, false, true, -4.1949f, -1.9328f)
+                curveToRelative(-1.485f, -1.7483f, -1.8678f, -3.6444f, -1.5615f, -5.4975f)
+                curveToRelative(1.057f, -6.4947f, 8.759f, -10.1894f, 14.486f, -11.6094f)
+                curveToRelative(-1.8677f, 0.989f, -5.2373f, 2.6134f, -7.5948f, 4.3837f)
+                curveTo(18.015f, 9.1382f, 19.1308f, 3.345f, 22.3515f, 0.7484f)
                 close()
             }
         }

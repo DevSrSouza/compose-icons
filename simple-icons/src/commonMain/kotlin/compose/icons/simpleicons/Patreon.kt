@@ -21,15 +21,17 @@ public val SimpleIcons.Patreon: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.386f, 0.524f)
-                curveToRelative(-4.764f, 0.0f, -8.64f, 3.876f, -8.64f, 8.64f)
-                curveToRelative(0.0f, 4.75f, 3.876f, 8.613f, 8.64f, 8.613f)
-                curveToRelative(4.75f, 0.0f, 8.614f, -3.864f, 8.614f, -8.613f)
-                curveTo(24.0f, 4.4f, 20.136f, 0.524f, 15.386f, 0.524f)
-                moveTo(0.003f, 23.537f)
+                moveTo(0.0f, 0.48f)
+                verticalLineToRelative(23.04f)
                 horizontalLineToRelative(4.22f)
-                verticalLineTo(0.524f)
-                horizontalLineTo(0.003f)
+                lineTo(4.22f, 0.48f)
+                close()
+                moveTo(15.385f, 0.48f)
+                curveToRelative(-4.764f, 0.0f, -8.641f, 3.88f, -8.641f, 8.65f)
+                curveToRelative(0.0f, 4.755f, 3.877f, 8.623f, 8.641f, 8.623f)
+                curveToRelative(4.75f, 0.0f, 8.615f, -3.868f, 8.615f, -8.623f)
+                curveTo(24.0f, 4.36f, 20.136f, 0.48f, 15.385f, 0.48f)
+                close()
             }
         }
         .build()

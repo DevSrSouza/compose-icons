@@ -21,14 +21,13 @@ public val SimpleIcons.Zalando: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(4.78f, 24.0f)
+                moveTo(5.27f, 24.0f)
                 curveToRelative(-0.88f, 0.0f, -1.36f, -0.2f, -1.62f, -0.36f)
                 curveToRelative(-0.36f, -0.21f, -1.02f, -0.75f, -1.62f, -2.33f)
-                arcTo(27.06f, 27.06f, 0.0f, false, true, 0.0f, 12.0f)
-                verticalLineTo(12.0f)
+                arcTo(27.06f, 27.06f, 0.0f, false, true, 0.49f, 12.0f)
                 curveToRelative(0.02f, -3.66f, 0.59f, -6.76f, 1.54f, -9.3f)
-                curveTo(2.14f, 1.1f, 2.8f, 0.56f, 3.16f, 0.35f)
-                curveTo(3.42f, 0.21f, 3.9f, 0.0f, 4.78f, 0.0f)
+                curveTo(2.63f, 1.1f, 3.29f, 0.56f, 3.65f, 0.35f)
+                curveTo(3.91f, 0.21f, 4.39f, 0.0f, 5.27f, 0.0f)
                 curveToRelative(0.33f, 0.0f, 0.72f, 0.03f, 1.18f, 0.1f)
                 arcToRelative(26.1f, 26.1f, 0.0f, false, true, 8.7f, 3.3f)
                 horizontalLineToRelative(0.01f)

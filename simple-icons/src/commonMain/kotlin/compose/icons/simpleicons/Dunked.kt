@@ -21,20 +21,20 @@ public val SimpleIcons.Dunked: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(13.791f, 0.0f)
-                verticalLineTo(19.766f)
-                arcToRelative(4.18f, 4.18f, 0.0f, false, false, 4.182f, 4.12f)
-                horizontalLineToRelative(4.18f)
-                verticalLineTo(4.122f)
-                arcTo(4.18f, 4.18f, 0.0f, false, false, 17.972f, 0.0f)
-                horizontalLineTo(13.79f)
+                moveTo(13.799f, 0.0f)
+                verticalLineToRelative(19.8599f)
+                arcTo(4.2002f, 4.2002f, 0.0f, false, false, 18.0003f, 24.0f)
+                horizontalLineToRelative(4.2002f)
+                verticalLineTo(4.1411f)
+                arcTo(4.2002f, 4.2002f, 0.0f, false, false, 17.9992f, 0.0f)
+                horizontalLineTo(13.798f)
                 close()
-                moveTo(6.326f, 14.93f)
-                arcToRelative(4.479f, 4.479f, 0.0f, false, false, -4.478f, 4.37f)
-                verticalLineToRelative(0.221f)
-                arcToRelative(4.479f, 4.479f, 0.0f, false, false, 8.957f, 0.0f)
-                verticalLineToRelative(-0.214f)
-                arcToRelative(4.479f, 4.479f, 0.0f, false, false, -4.479f, -4.377f)
+                moveTo(6.2983f, 15.0014f)
+                arcToRelative(4.5008f, 4.5008f, 0.0f, false, false, -4.4988f, 4.3906f)
+                verticalLineToRelative(0.2224f)
+                arcToRelative(4.5008f, 4.5008f, 0.0f, false, false, 8.9986f, 0.0f)
+                verticalLineToRelative(-0.2154f)
+                arcToRelative(4.5008f, 4.5008f, 0.0f, false, false, -4.4998f, -4.3986f)
                 close()
             }
         }

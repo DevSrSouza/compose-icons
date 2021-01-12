@@ -21,19 +21,19 @@ public val SimpleIcons.Esea: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(14.054f, 3.0f)
-                lineTo(8.95f, 9.746f)
-                lineTo(0.0f, 9.883f)
+                moveTo(14.054f, 2.767f)
+                lineTo(8.95f, 9.511f)
+                lineTo(0.0f, 9.65f)
                 lineToRelative(5.832f, 4.47f)
-                lineToRelative(-4.79f, 6.879f)
+                lineTo(1.042f, 21.0f)
                 lineToRelative(8.491f, -4.088f)
-                lineToRelative(5.711f, 4.323f)
-                verticalLineToRelative(-7.114f)
-                lineTo(24.0f, 10.029f)
-                lineTo(6.745f, 14.05f)
+                lineToRelative(5.711f, 4.322f)
+                verticalLineTo(14.12f)
+                lineTo(24.0f, 9.796f)
+                lineToRelative(-17.255f, 4.02f)
                 arcToRelative(12.575f, 12.575f, 0.0f, false, false, 1.589f, -1.955f)
                 arcToRelative(5.475f, 5.475f, 0.0f, false, false, 0.617f, -1.786f)
-                lineToRelative(5.593f, -0.151f)
+                lineToRelative(5.593f, -0.15f)
                 close()
             }
         }

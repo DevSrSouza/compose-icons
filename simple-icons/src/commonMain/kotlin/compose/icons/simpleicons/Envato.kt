@@ -21,16 +21,16 @@ public val SimpleIcons.Envato: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(19.4f, 0.197f)
-                curveToRelative(-0.74f, -0.371f, -2.721f, -0.247f, -5.195f, 0.62f)
-                curveToRelative(-4.207f, 2.968f, -7.674f, 7.175f, -8.044f, 14.109f)
-                curveToRelative(0.0f, 0.241f, -0.493f, 0.0f, -0.617f, -0.126f)
-                curveToRelative(-1.114f, -2.104f, -1.61f, -4.455f, -0.62f, -7.921f)
-                curveToRelative(0.247f, -0.247f, -0.37f, -0.617f, -0.37f, -0.494f)
-                curveToRelative(-0.249f, 0.123f, -1.114f, 1.113f, -1.734f, 2.103f)
-                curveToRelative(-2.847f, 4.947f, -0.99f, 11.511f, 3.961f, 14.231f)
-                curveToRelative(4.947f, 2.721f, 11.382f, 0.988f, 14.231f, -4.086f)
-                curveToRelative(3.342f, -5.814f, 0.369f, -17.322f, -1.612f, -18.436f)
+                moveTo(20.058f, 1.043f)
+                curveTo(16.744f, -2.841f, 6.018f, 4.682f, 6.104f, 14.38f)
+                arcToRelative(0.459f, 0.459f, 0.0f, false, true, -0.45f, 0.451f)
+                arcToRelative(0.459f, 0.459f, 0.0f, false, true, -0.388f, -0.221f)
+                arcToRelative(10.387f, 10.387f, 0.0f, false, true, -0.412f, -7.634f)
+                arcToRelative(0.42f, 0.42f, 0.0f, false, false, -0.712f, -0.412f)
+                arcToRelative(10.284f, 10.284f, 0.0f, false, false, -2.784f, 7.033f)
+                arcTo(10.284f, 10.284f, 0.0f, false, false, 11.76f, 23.999f)
+                curveToRelative(14.635f, -0.332f, 11.257f, -19.491f, 8.298f, -22.956f)
+                close()
             }
         }
         .build()

@@ -21,20 +21,20 @@ public val SimpleIcons.Microstrategy: VectorAsset
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(9.103f, 2.596f)
-                horizontalLineToRelative(5.811f)
-                verticalLineToRelative(18.808f)
-                horizontalLineToRelative(-5.81f)
+                moveTo(9.095f, 2.572f)
+                horizontalLineToRelative(5.827f)
+                verticalLineToRelative(18.856f)
+                lineTo(9.096f, 21.428f)
                 close()
-                moveTo(0.031f, 2.596f)
-                horizontalLineToRelative(5.81f)
-                verticalLineToRelative(18.808f)
-                lineTo(0.032f, 21.404f)
+                moveTo(0.0f, 2.572f)
+                horizontalLineToRelative(5.825f)
+                verticalLineToRelative(18.856f)
+                lineTo(0.001f, 21.428f)
                 close()
-                moveTo(18.158f, 2.596f)
-                verticalLineToRelative(18.806f)
-                horizontalLineToRelative(5.811f)
-                lineTo(23.969f, 8.339f)
+                moveTo(18.174f, 2.572f)
+                verticalLineToRelative(18.854f)
+                lineTo(24.0f, 21.426f)
+                lineTo(24.0f, 8.33f)
                 close()
             }
         }
