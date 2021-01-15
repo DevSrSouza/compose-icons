@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.BrandDotAi: VectorAsset
+public val SimpleIcons.BrandDotAi: ImageVector
     get() {
         if (_brandDotAi != null) {
             return _brandDotAi!!
         }
-        _brandDotAi = VectorAssetBuilder(name = "BrandDotAi", defaultWidth = 24.0.dp, defaultHeight
-                = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _brandDotAi = Builder(name = "BrandDotAi", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -58,4 +58,4 @@ public val SimpleIcons.BrandDotAi: VectorAsset
         return _brandDotAi!!
     }
 
-private var _brandDotAi: VectorAsset? = null
+private var _brandDotAi: ImageVector? = null

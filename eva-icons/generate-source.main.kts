@@ -4,7 +4,7 @@
 //@file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
-@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.4.0")
+@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.5.0")
 @file:DependsOn("com.google.guava:guava:23.0")
 @file:DependsOn("com.android.tools:sdk-common:27.2.0-alpha16")
 @file:DependsOn("com.android.tools:common:27.2.0-alpha16")

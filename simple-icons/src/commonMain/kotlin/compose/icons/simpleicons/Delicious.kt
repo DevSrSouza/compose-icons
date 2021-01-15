@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Delicious: VectorAsset
+public val SimpleIcons.Delicious: ImageVector
     get() {
         if (_delicious != null) {
             return _delicious!!
         }
-        _delicious = VectorAssetBuilder(name = "Delicious", defaultWidth = 24.0.dp, defaultHeight =
-                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _delicious = Builder(name = "Delicious", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -39,4 +39,4 @@ public val SimpleIcons.Delicious: VectorAsset
         return _delicious!!
     }
 
-private var _delicious: VectorAsset? = null
+private var _delicious: ImageVector? = null

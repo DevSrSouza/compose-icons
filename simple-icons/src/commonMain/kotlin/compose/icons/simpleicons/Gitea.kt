@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Gitea: VectorAsset
+public val SimpleIcons.Gitea: ImageVector
     get() {
         if (_gitea != null) {
             return _gitea!!
         }
-        _gitea = VectorAssetBuilder(name = "Gitea", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _gitea = Builder(name = "Gitea", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -105,4 +105,4 @@ public val SimpleIcons.Gitea: VectorAsset
         return _gitea!!
     }
 
-private var _gitea: VectorAsset? = null
+private var _gitea: ImageVector? = null

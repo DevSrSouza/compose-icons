@@ -7,19 +7,19 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.WiperWash: VectorAsset
+public val TablerIcons.WiperWash: ImageVector
     get() {
         if (_wiperWash != null) {
             return _wiperWash!!
         }
-        _wiperWash = VectorAssetBuilder(name = "WiperWash", defaultWidth = 24.0.dp, defaultHeight =
-                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _wiperWash = Builder(name = "WiperWash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -84,4 +84,4 @@ public val TablerIcons.WiperWash: VectorAsset
         return _wiperWash!!
     }
 
-private var _wiperWash: VectorAsset? = null
+private var _wiperWash: ImageVector? = null

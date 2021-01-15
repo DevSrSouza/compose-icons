@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Html5: VectorAsset
+public val SimpleIcons.Html5: ImageVector
     get() {
         if (_html5 != null) {
             return _html5!!
         }
-        _html5 = VectorAssetBuilder(name = "Html5", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _html5 = Builder(name = "Html5", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -52,4 +52,4 @@ public val SimpleIcons.Html5: VectorAsset
         return _html5!!
     }
 
-private var _html5: VectorAsset? = null
+private var _html5: ImageVector? = null

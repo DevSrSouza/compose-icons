@@ -7,19 +7,19 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Planet: VectorAsset
+public val TablerIcons.Planet: ImageVector
     get() {
         if (_planet != null) {
             return _planet!!
         }
-        _planet = VectorAssetBuilder(name = "Planet", defaultWidth = 24.0.dp, defaultHeight =
-                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _planet = Builder(name = "Planet", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -42,4 +42,4 @@ public val TablerIcons.Planet: VectorAsset
         return _planet!!
     }
 
-private var _planet: VectorAsset? = null
+private var _planet: ImageVector? = null

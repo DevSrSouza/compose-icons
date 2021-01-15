@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.evaicons.FillGroup
 
-public val FillGroup.MessageCircle: VectorAsset
+public val FillGroup.MessageCircle: ImageVector
     get() {
         if (_messageCircle != null) {
             return _messageCircle!!
         }
-        _messageCircle = VectorAssetBuilder(name = "MessageCircle", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _messageCircle = Builder(name = "MessageCircle", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF231f20)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -50,4 +50,4 @@ public val FillGroup.MessageCircle: VectorAsset
         return _messageCircle!!
     }
 
-private var _messageCircle: VectorAsset? = null
+private var _messageCircle: ImageVector? = null

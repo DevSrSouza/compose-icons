@@ -7,19 +7,19 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.TrashOff: VectorAsset
+public val TablerIcons.TrashOff: ImageVector
     get() {
         if (_trashOff != null) {
             return _trashOff!!
         }
-        _trashOff = VectorAssetBuilder(name = "TrashOff", defaultWidth = 24.0.dp, defaultHeight =
-                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _trashOff = Builder(name = "TrashOff", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -77,4 +77,4 @@ public val TablerIcons.TrashOff: VectorAsset
         return _trashOff!!
     }
 
-private var _trashOff: VectorAsset? = null
+private var _trashOff: ImageVector? = null

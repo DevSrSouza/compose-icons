@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.YoutubeStudio: VectorAsset
+public val SimpleIcons.YoutubeStudio: ImageVector
     get() {
         if (_youtubeStudio != null) {
             return _youtubeStudio!!
         }
-        _youtubeStudio = VectorAssetBuilder(name = "YoutubeStudio", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _youtubeStudio = Builder(name = "YoutubeStudio", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -72,4 +72,4 @@ public val SimpleIcons.YoutubeStudio: VectorAsset
         return _youtubeStudio!!
     }
 
-private var _youtubeStudio: VectorAsset? = null
+private var _youtubeStudio: ImageVector? = null

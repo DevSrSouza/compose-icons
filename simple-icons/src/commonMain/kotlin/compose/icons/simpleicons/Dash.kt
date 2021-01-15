@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Dash: VectorAsset
+public val SimpleIcons.Dash: ImageVector
     get() {
         if (_dash != null) {
             return _dash!!
         }
-        _dash = VectorAssetBuilder(name = "Dash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _dash = Builder(name = "Dash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -48,4 +48,4 @@ public val SimpleIcons.Dash: VectorAsset
         return _dash!!
     }
 
-private var _dash: VectorAsset? = null
+private var _dash: ImageVector? = null

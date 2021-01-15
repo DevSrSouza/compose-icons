@@ -1,6 +1,6 @@
 package compose.icons.evaicons
 
-import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.ImageVector
 import compose.icons.EvaIcons
 import compose.icons.evaicons.fill.Activity
 import compose.icons.evaicons.fill.AlertCircle
@@ -255,9 +255,9 @@ public object FillGroup
 public val EvaIcons.Fill: FillGroup
   get() = FillGroup
 
-private var __AllIcons: ____KtList<VectorAsset>? = null
+private var __AllIcons: ____KtList<ImageVector>? = null
 
-public val FillGroup.AllIcons: ____KtList<VectorAsset>
+public val FillGroup.AllIcons: ____KtList<ImageVector>
   get() {
     if (__AllIcons != null) {
       return __AllIcons!!

@@ -8,18 +8,18 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.evaicons.FillGroup
 
-public val FillGroup.Brush: VectorAsset
+public val FillGroup.Brush: ImageVector
     get() {
         if (_brush != null) {
             return _brush!!
         }
-        _brush = VectorAssetBuilder(name = "Brush", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _brush = Builder(name = "Brush", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -62,4 +62,4 @@ public val FillGroup.Brush: VectorAsset
         return _brush!!
     }
 
-private var _brush: VectorAsset? = null
+private var _brush: ImageVector? = null

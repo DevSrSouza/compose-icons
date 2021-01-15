@@ -7,19 +7,19 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.ArrowTopTail: VectorAsset
+public val TablerIcons.ArrowTopTail: ImageVector
     get() {
         if (_arrowTopTail != null) {
             return _arrowTopTail!!
         }
-        _arrowTopTail = VectorAssetBuilder(name = "ArrowTopTail", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _arrowTopTail = Builder(name = "ArrowTopTail", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -45,4 +45,4 @@ public val TablerIcons.ArrowTopTail: VectorAsset
         return _arrowTopTail!!
     }
 
-private var _arrowTopTail: VectorAsset? = null
+private var _arrowTopTail: ImageVector? = null

@@ -7,19 +7,19 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.FeatherIcons
 
-public val FeatherIcons.LifeBuoy: VectorAsset
+public val FeatherIcons.LifeBuoy: ImageVector
     get() {
         if (_lifeBuoy != null) {
             return _lifeBuoy!!
         }
-        _lifeBuoy = VectorAssetBuilder(name = "LifeBuoy", defaultWidth = 24.0.dp, defaultHeight =
-                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _lifeBuoy = Builder(name = "LifeBuoy", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -71,4 +71,4 @@ public val FeatherIcons.LifeBuoy: VectorAsset
         return _lifeBuoy!!
     }
 
-private var _lifeBuoy: VectorAsset? = null
+private var _lifeBuoy: ImageVector? = null

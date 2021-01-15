@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Wire: VectorAsset
+public val SimpleIcons.Wire: ImageVector
     get() {
         if (_wire != null) {
             return _wire!!
         }
-        _wire = VectorAssetBuilder(name = "Wire", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _wire = Builder(name = "Wire", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -58,4 +58,4 @@ public val SimpleIcons.Wire: VectorAsset
         return _wire!!
     }
 
-private var _wire: VectorAsset? = null
+private var _wire: ImageVector? = null

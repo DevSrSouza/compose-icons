@@ -5,67 +5,81 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.GeneralMotors: VectorAsset
+public val SimpleIcons.GeneralMotors: ImageVector
     get() {
         if (_generalMotors != null) {
             return _generalMotors!!
         }
-        _generalMotors = VectorAssetBuilder(name = "GeneralMotors", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _generalMotors = Builder(name = "GeneralMotors", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(0.0f, 0.002f)
-                verticalLineToRelative(23.996f)
-                horizontalLineToRelative(24.0f)
-                lineTo(24.0f, 0.002f)
+                moveTo(3.34f, 0.0f)
+                arcTo(3.345f, 3.345f, 0.0f, false, false, 0.0f, 3.34f)
+                verticalLineToRelative(17.32f)
+                arcTo(3.345f, 3.345f, 0.0f, false, false, 3.34f, 24.0f)
+                horizontalLineToRelative(17.32f)
+                arcTo(3.345f, 3.345f, 0.0f, false, false, 24.0f, 20.66f)
+                lineTo(24.0f, 3.34f)
+                curveTo(23.982f, 1.5f, 22.501f, 0.0f, 20.66f, 0.0f)
                 close()
-                moveTo(8.254f, 5.838f)
-                curveToRelative(2.293f, 0.0f, 2.293f, 1.788f, 2.293f, 2.412f)
-                verticalLineToRelative(0.636f)
-                lineTo(9.176f, 8.886f)
-                lineTo(9.176f, 8.25f)
-                curveToRelative(0.0f, -0.345f, 0.0f, -1.177f, -0.9f, -1.177f)
-                curveToRelative(-0.89f, 0.0f, -0.89f, 0.818f, -0.89f, 1.177f)
-                verticalLineToRelative(4.415f)
-                curveToRelative(0.0f, 0.692f, 0.214f, 1.216f, 0.89f, 1.216f)
-                curveToRelative(0.674f, 0.0f, 0.9f, -0.492f, 0.9f, -1.216f)
-                verticalLineToRelative(-1.427f)
-                lineTo(8.39f, 11.238f)
-                verticalLineToRelative(-1.084f)
-                horizontalLineToRelative(2.157f)
-                verticalLineToRelative(4.884f)
-                lineToRelative(-1.326f, -0.013f)
-                verticalLineToRelative(-0.479f)
-                curveToRelative(-0.113f, 0.183f, -0.647f, 0.662f, -1.414f, 0.661f)
-                curveToRelative(-1.296f, -0.009f, -1.796f, -0.905f, -1.796f, -2.272f)
-                lineTo(6.011f, 8.25f)
-                curveToRelative(0.0f, -0.37f, 0.0f, -2.412f, 2.243f, -2.412f)
+                moveTo(3.34f, 1.535f)
+                horizontalLineToRelative(17.32f)
+                curveToRelative(0.992f, 0.0f, 1.805f, 0.813f, 1.805f, 1.806f)
+                verticalLineToRelative(17.3f)
+                curveToRelative(0.0f, 0.993f, -0.813f, 1.806f, -1.806f, 1.806f)
+                lineTo(3.341f, 22.447f)
+                arcToRelative(1.811f, 1.811f, 0.0f, false, true, -1.806f, -1.806f)
+                verticalLineToRelative(-17.3f)
+                curveToRelative(0.0f, -0.993f, 0.813f, -1.806f, 1.806f, -1.806f)
                 close()
-                moveTo(11.957f, 6.024f)
-                horizontalLineToRelative(2.028f)
-                lineToRelative(0.993f, 6.597f)
-                lineToRelative(1.015f, -6.597f)
-                horizontalLineToRelative(2.006f)
-                verticalLineToRelative(9.014f)
-                horizontalLineToRelative(-1.337f)
-                lineTo(16.662f, 8.25f)
-                lineToRelative(-1.127f, 6.788f)
-                lineTo(14.38f, 15.038f)
-                lineTo(13.292f, 8.25f)
-                verticalLineToRelative(6.775f)
-                horizontalLineToRelative(-1.335f)
+                moveTo(6.32f, 6.212f)
+                arcTo(1.877f, 1.877f, 0.0f, false, false, 4.442f, 8.09f)
+                verticalLineToRelative(4.569f)
+                curveToRelative(0.0f, 1.03f, 0.85f, 1.86f, 1.879f, 1.878f)
+                horizontalLineToRelative(1.552f)
+                verticalLineToRelative(0.343f)
+                curveToRelative(-0.018f, 0.85f, -0.505f, 1.337f, -1.679f, 1.355f)
+                horizontalLineToRelative(-0.74f)
+                verticalLineToRelative(1.535f)
+                horizontalLineToRelative(0.74f)
+                curveToRelative(2.167f, 0.0f, 3.395f, -1.03f, 3.431f, -2.908f)
+                verticalLineToRelative(-8.65f)
                 close()
-                moveTo(6.003f, 16.072f)
-                lineTo(18.01f, 16.072f)
-                verticalLineToRelative(1.949f)
-                lineTo(6.003f, 18.021f)
+                moveTo(10.943f, 6.212f)
+                verticalLineToRelative(8.307f)
+                horizontalLineToRelative(1.752f)
+                lineTo(12.695f, 7.73f)
+                horizontalLineToRelative(1.68f)
+                verticalLineToRelative(6.79f)
+                horizontalLineToRelative(1.752f)
+                lineTo(16.127f, 7.73f)
+                horizontalLineToRelative(1.01f)
+                curveToRelative(0.362f, 0.0f, 0.669f, 0.289f, 0.669f, 0.668f)
+                verticalLineToRelative(6.14f)
+                horizontalLineToRelative(1.752f)
+                lineTo(19.558f, 8.09f)
+                curveToRelative(-0.018f, -1.029f, -0.85f, -1.878f, -1.879f, -1.878f)
+                close()
+                moveTo(6.863f, 7.73f)
+                horizontalLineToRelative(1.01f)
+                verticalLineToRelative(5.273f)
+                horizontalLineToRelative(-1.01f)
+                arcToRelative(0.666f, 0.666f, 0.0f, false, true, -0.669f, -0.668f)
+                lineTo(6.194f, 8.397f)
+                curveToRelative(0.0f, -0.36f, 0.29f, -0.668f, 0.668f, -0.668f)
+                close()
+                moveTo(10.943f, 16.236f)
+                verticalLineToRelative(1.535f)
+                horizontalLineToRelative(8.596f)
+                verticalLineToRelative(-1.535f)
                 close()
             }
         }
@@ -73,4 +87,4 @@ public val SimpleIcons.GeneralMotors: VectorAsset
         return _generalMotors!!
     }
 
-private var _generalMotors: VectorAsset? = null
+private var _generalMotors: ImageVector? = null

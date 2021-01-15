@@ -8,18 +8,18 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.evaicons.OutlineGroup
 
-public val OutlineGroup.Info: VectorAsset
+public val OutlineGroup.Info: ImageVector
     get() {
         if (_info != null) {
             return _info!!
         }
-        _info = VectorAssetBuilder(name = "Info", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _info = Builder(name = "Info", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -66,4 +66,4 @@ public val OutlineGroup.Info: VectorAsset
         return _info!!
     }
 
-private var _info: VectorAsset? = null
+private var _info: ImageVector? = null

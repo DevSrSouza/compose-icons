@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Tapas: VectorAsset
+public val SimpleIcons.Tapas: ImageVector
     get() {
         if (_tapas != null) {
             return _tapas!!
         }
-        _tapas = VectorAssetBuilder(name = "Tapas", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _tapas = Builder(name = "Tapas", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -192,4 +192,4 @@ public val SimpleIcons.Tapas: VectorAsset
         return _tapas!!
     }
 
-private var _tapas: VectorAsset? = null
+private var _tapas: ImageVector? = null

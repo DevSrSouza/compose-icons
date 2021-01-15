@@ -5,20 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.WorldHealthOrganization: VectorAsset
+public val SimpleIcons.WorldHealthOrganization: ImageVector
     get() {
         if (_worldHealthOrganization != null) {
             return _worldHealthOrganization!!
         }
-        _worldHealthOrganization = VectorAssetBuilder(name = "WorldHealthOrganization", defaultWidth
-                = 24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight =
-                24.0f).apply {
+        _worldHealthOrganization = Builder(name = "WorldHealthOrganization", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -775,4 +774,4 @@ public val SimpleIcons.WorldHealthOrganization: VectorAsset
         return _worldHealthOrganization!!
     }
 
-private var _worldHealthOrganization: VectorAsset? = null
+private var _worldHealthOrganization: ImageVector? = null

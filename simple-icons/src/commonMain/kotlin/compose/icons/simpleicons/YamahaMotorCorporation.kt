@@ -5,20 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.YamahaMotorCorporation: VectorAsset
+public val SimpleIcons.YamahaMotorCorporation: ImageVector
     get() {
         if (_yamahaMotorCorporation != null) {
             return _yamahaMotorCorporation!!
         }
-        _yamahaMotorCorporation = VectorAssetBuilder(name = "YamahaMotorCorporation", defaultWidth =
-                24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight =
-                24.0f).apply {
+        _yamahaMotorCorporation = Builder(name = "YamahaMotorCorporation", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -154,4 +153,4 @@ public val SimpleIcons.YamahaMotorCorporation: VectorAsset
         return _yamahaMotorCorporation!!
     }
 
-private var _yamahaMotorCorporation: VectorAsset? = null
+private var _yamahaMotorCorporation: ImageVector? = null

@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Issuu: VectorAsset
+public val SimpleIcons.Issuu: ImageVector
     get() {
         if (_issuu != null) {
             return _issuu!!
         }
-        _issuu = VectorAssetBuilder(name = "Issuu", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _issuu = Builder(name = "Issuu", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -54,4 +54,4 @@ public val SimpleIcons.Issuu: VectorAsset
         return _issuu!!
     }
 
-private var _issuu: VectorAsset? = null
+private var _issuu: ImageVector? = null

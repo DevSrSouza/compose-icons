@@ -20,7 +20,7 @@ kotlin {
             dependencies {
                 api(compose.runtime)
                 api(compose.foundation)
-                api(compose.material)
+                api(compose.ui)
             }
         }
         val androidMain by getting

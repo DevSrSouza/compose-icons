@@ -5,20 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.MaxPlanckGesellschaft: VectorAsset
+public val SimpleIcons.MaxPlanckGesellschaft: ImageVector
     get() {
         if (_maxPlanckGesellschaft != null) {
             return _maxPlanckGesellschaft!!
         }
-        _maxPlanckGesellschaft = VectorAssetBuilder(name = "MaxPlanckGesellschaft", defaultWidth =
-                24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight =
-                24.0f).apply {
+        _maxPlanckGesellschaft = Builder(name = "MaxPlanckGesellschaft", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -665,4 +664,4 @@ public val SimpleIcons.MaxPlanckGesellschaft: VectorAsset
         return _maxPlanckGesellschaft!!
     }
 
-private var _maxPlanckGesellschaft: VectorAsset? = null
+private var _maxPlanckGesellschaft: ImageVector? = null

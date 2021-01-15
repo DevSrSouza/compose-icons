@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Epson: VectorAsset
+public val SimpleIcons.Epson: ImageVector
     get() {
         if (_epson != null) {
             return _epson!!
         }
-        _epson = VectorAssetBuilder(name = "Epson", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _epson = Builder(name = "Epson", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -99,4 +99,4 @@ public val SimpleIcons.Epson: VectorAsset
         return _epson!!
     }
 
-private var _epson: VectorAsset? = null
+private var _epson: ImageVector? = null

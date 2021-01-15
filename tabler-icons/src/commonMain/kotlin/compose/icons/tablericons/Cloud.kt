@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Cloud: VectorAsset
+public val TablerIcons.Cloud: ImageVector
     get() {
         if (_cloud != null) {
             return _cloud!!
         }
-        _cloud = VectorAssetBuilder(name = "Cloud", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _cloud = Builder(name = "Cloud", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -33,4 +33,4 @@ public val TablerIcons.Cloud: VectorAsset
         return _cloud!!
     }
 
-private var _cloud: VectorAsset? = null
+private var _cloud: ImageVector? = null

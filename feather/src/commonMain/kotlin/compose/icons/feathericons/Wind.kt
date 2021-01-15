@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.FeatherIcons
 
-public val FeatherIcons.Wind: VectorAsset
+public val FeatherIcons.Wind: ImageVector
     get() {
         if (_wind != null) {
             return _wind!!
         }
-        _wind = VectorAssetBuilder(name = "Wind", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _wind = Builder(name = "Wind", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -36,4 +36,4 @@ public val FeatherIcons.Wind: VectorAsset
         return _wind!!
     }
 
-private var _wind: VectorAsset? = null
+private var _wind: ImageVector? = null

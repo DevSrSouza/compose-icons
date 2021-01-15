@@ -8,18 +8,18 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.evaicons.FillGroup
 
-public val FillGroup.Moon: VectorAsset
+public val FillGroup.Moon: ImageVector
     get() {
         if (_moon != null) {
             return _moon!!
         }
-        _moon = VectorAssetBuilder(name = "Moon", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _moon = Builder(name = "Moon", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -52,4 +52,4 @@ public val FillGroup.Moon: VectorAsset
         return _moon!!
     }
 
-private var _moon: VectorAsset? = null
+private var _moon: ImageVector? = null

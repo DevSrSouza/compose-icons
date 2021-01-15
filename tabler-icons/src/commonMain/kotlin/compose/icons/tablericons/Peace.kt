@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Peace: VectorAsset
+public val TablerIcons.Peace: ImageVector
     get() {
         if (_peace != null) {
             return _peace!!
         }
-        _peace = VectorAssetBuilder(name = "Peace", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _peace = Builder(name = "Peace", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -51,4 +51,4 @@ public val TablerIcons.Peace: VectorAsset
         return _peace!!
     }
 
-private var _peace: VectorAsset? = null
+private var _peace: ImageVector? = null

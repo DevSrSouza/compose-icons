@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Curl: VectorAsset
+public val SimpleIcons.Curl: ImageVector
     get() {
         if (_curl != null) {
             return _curl!!
         }
-        _curl = VectorAssetBuilder(name = "Curl", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _curl = Builder(name = "Curl", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -93,4 +93,4 @@ public val SimpleIcons.Curl: VectorAsset
         return _curl!!
     }
 
-private var _curl: VectorAsset? = null
+private var _curl: ImageVector? = null

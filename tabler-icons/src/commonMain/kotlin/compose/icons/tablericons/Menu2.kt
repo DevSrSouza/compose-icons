@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Menu2: VectorAsset
+public val TablerIcons.Menu2: ImageVector
     get() {
         if (_menu2 != null) {
             return _menu2!!
         }
-        _menu2 = VectorAssetBuilder(name = "Menu2", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _menu2 = Builder(name = "Menu2", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -43,4 +43,4 @@ public val TablerIcons.Menu2: VectorAsset
         return _menu2!!
     }
 
-private var _menu2: VectorAsset? = null
+private var _menu2: ImageVector? = null

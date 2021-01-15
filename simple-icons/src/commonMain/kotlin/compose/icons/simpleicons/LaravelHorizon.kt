@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.LaravelHorizon: VectorAsset
+public val SimpleIcons.LaravelHorizon: ImageVector
     get() {
         if (_laravelHorizon != null) {
             return _laravelHorizon!!
         }
-        _laravelHorizon = VectorAssetBuilder(name = "LaravelHorizon", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _laravelHorizon = Builder(name = "LaravelHorizon", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -42,4 +42,4 @@ public val SimpleIcons.LaravelHorizon: VectorAsset
         return _laravelHorizon!!
     }
 
-private var _laravelHorizon: VectorAsset? = null
+private var _laravelHorizon: ImageVector? = null

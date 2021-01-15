@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.ChevronsDownRight: VectorAsset
+public val TablerIcons.ChevronsDownRight: ImageVector
     get() {
         if (_chevronsDownRight != null) {
             return _chevronsDownRight!!
         }
-        _chevronsDownRight = VectorAssetBuilder(name = "ChevronsDownRight", defaultWidth = 24.0.dp,
+        _chevronsDownRight = Builder(name = "ChevronsDownRight", defaultWidth = 24.0.dp,
                 defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -39,4 +39,4 @@ public val TablerIcons.ChevronsDownRight: VectorAsset
         return _chevronsDownRight!!
     }
 
-private var _chevronsDownRight: VectorAsset? = null
+private var _chevronsDownRight: ImageVector? = null

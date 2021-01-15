@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Mazda: VectorAsset
+public val SimpleIcons.Mazda: ImageVector
     get() {
         if (_mazda != null) {
             return _mazda!!
         }
-        _mazda = VectorAssetBuilder(name = "Mazda", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _mazda = Builder(name = "Mazda", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -82,4 +82,4 @@ public val SimpleIcons.Mazda: VectorAsset
         return _mazda!!
     }
 
-private var _mazda: VectorAsset? = null
+private var _mazda: ImageVector? = null

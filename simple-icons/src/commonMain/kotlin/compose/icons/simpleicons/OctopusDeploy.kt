@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.OctopusDeploy: VectorAsset
+public val SimpleIcons.OctopusDeploy: ImageVector
     get() {
         if (_octopusDeploy != null) {
             return _octopusDeploy!!
         }
-        _octopusDeploy = VectorAssetBuilder(name = "OctopusDeploy", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _octopusDeploy = Builder(name = "OctopusDeploy", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -49,4 +49,4 @@ public val SimpleIcons.OctopusDeploy: VectorAsset
         return _octopusDeploy!!
     }
 
-private var _octopusDeploy: VectorAsset? = null
+private var _octopusDeploy: ImageVector? = null

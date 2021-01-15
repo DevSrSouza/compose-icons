@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.NuxtDotJs: VectorAsset
+public val SimpleIcons.NuxtDotJs: ImageVector
     get() {
         if (_nuxtDotJs != null) {
             return _nuxtDotJs!!
         }
-        _nuxtDotJs = VectorAssetBuilder(name = "NuxtDotJs", defaultWidth = 24.0.dp, defaultHeight =
-                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _nuxtDotJs = Builder(name = "NuxtDotJs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -90,4 +90,4 @@ public val SimpleIcons.NuxtDotJs: VectorAsset
         return _nuxtDotJs!!
     }
 
-private var _nuxtDotJs: VectorAsset? = null
+private var _nuxtDotJs: ImageVector? = null

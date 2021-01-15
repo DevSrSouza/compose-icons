@@ -1,6 +1,6 @@
 package compose.icons
 
-import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.ImageVector
 import compose.icons.simpleicons.AFrame
 import compose.icons.simpleicons.AbbRobotstudio
 import compose.icons.simpleicons.Abbvie
@@ -10,6 +10,7 @@ import compose.icons.simpleicons.Abstract
 import compose.icons.simpleicons.Academia
 import compose.icons.simpleicons.Accenture
 import compose.icons.simpleicons.Accusoft
+import compose.icons.simpleicons.Acer
 import compose.icons.simpleicons.Acm
 import compose.icons.simpleicons.Actigraph
 import compose.icons.simpleicons.Activision
@@ -51,6 +52,7 @@ import compose.icons.simpleicons.AirplayVideo
 import compose.icons.simpleicons.Airtable
 import compose.icons.simpleicons.AlfaRomeo
 import compose.icons.simpleicons.Algolia
+import compose.icons.simpleicons.Aliexpress
 import compose.icons.simpleicons.Alipay
 import compose.icons.simpleicons.Alliedmodders
 import compose.icons.simpleicons.Allocine
@@ -163,6 +165,7 @@ import compose.icons.simpleicons.Bancontact
 import compose.icons.simpleicons.Bandcamp
 import compose.icons.simpleicons.Bandlab
 import compose.icons.simpleicons.Bandsintown
+import compose.icons.simpleicons.BankOfAmerica
 import compose.icons.simpleicons.Basecamp
 import compose.icons.simpleicons.Bata
 import compose.icons.simpleicons.BathAsu
@@ -188,9 +191,11 @@ import compose.icons.simpleicons.Bitrise
 import compose.icons.simpleicons.Bitwarden
 import compose.icons.simpleicons.Blackberry
 import compose.icons.simpleicons.Blazemeter
+import compose.icons.simpleicons.Blazor
 import compose.icons.simpleicons.Blender
 import compose.icons.simpleicons.Blogger
 import compose.icons.simpleicons.Bloglovin
+import compose.icons.simpleicons.Blueprint
 import compose.icons.simpleicons.Bluetooth
 import compose.icons.simpleicons.BmcSoftware
 import compose.icons.simpleicons.Bmw
@@ -280,11 +285,13 @@ import compose.icons.simpleicons.Coda
 import compose.icons.simpleicons.Codacy
 import compose.icons.simpleicons.CodeClimate
 import compose.icons.simpleicons.Codecademy
+import compose.icons.simpleicons.Codeceptjs
 import compose.icons.simpleicons.Codechef
 import compose.icons.simpleicons.Codecov
 import compose.icons.simpleicons.Codefactor
 import compose.icons.simpleicons.Codeforces
 import compose.icons.simpleicons.Codeigniter
+import compose.icons.simpleicons.Codemagic
 import compose.icons.simpleicons.Codepen
 import compose.icons.simpleicons.Codeproject
 import compose.icons.simpleicons.Codersrank
@@ -326,6 +333,7 @@ import compose.icons.simpleicons.Crunchyroll
 import compose.icons.simpleicons.Cryengine
 import compose.icons.simpleicons.Css3
 import compose.icons.simpleicons.CssWizardry
+import compose.icons.simpleicons.Cucumber
 import compose.icons.simpleicons.Curl
 import compose.icons.simpleicons.Curseforge
 import compose.icons.simpleicons.Cypress
@@ -359,8 +367,10 @@ import compose.icons.simpleicons.Deno
 import compose.icons.simpleicons.Dependabot
 import compose.icons.simpleicons.DerSpiegel
 import compose.icons.simpleicons.DesignerNews
+import compose.icons.simpleicons.DeutscheBahn
 import compose.icons.simpleicons.DevDotTo
 import compose.icons.simpleicons.Deviantart
+import compose.icons.simpleicons.Devpost
 import compose.icons.simpleicons.Devrant
 import compose.icons.simpleicons.Dhl
 import compose.icons.simpleicons.DiagramsDotNet
@@ -434,6 +444,7 @@ import compose.icons.simpleicons.Esea
 import compose.icons.simpleicons.Eslgaming
 import compose.icons.simpleicons.Eslint
 import compose.icons.simpleicons.Esphome
+import compose.icons.simpleicons.Espressif
 import compose.icons.simpleicons.Ethereum
 import compose.icons.simpleicons.Etsy
 import compose.icons.simpleicons.EventStore
@@ -489,11 +500,13 @@ import compose.icons.simpleicons.Flathub
 import compose.icons.simpleicons.Flattr
 import compose.icons.simpleicons.Flickr
 import compose.icons.simpleicons.Flipboard
+import compose.icons.simpleicons.Flipkart
 import compose.icons.simpleicons.Floatplane
 import compose.icons.simpleicons.Flood
 import compose.icons.simpleicons.Fluentd
 import compose.icons.simpleicons.Flutter
 import compose.icons.simpleicons.Fnac
+import compose.icons.simpleicons.Folium
 import compose.icons.simpleicons.FontAwesome
 import compose.icons.simpleicons.Foodpanda
 import compose.icons.simpleicons.Ford
@@ -514,7 +527,9 @@ import compose.icons.simpleicons.Fujifilm
 import compose.icons.simpleicons.Fujitsu
 import compose.icons.simpleicons.FurAffinity
 import compose.icons.simpleicons.FurryNetwork
+import compose.icons.simpleicons.Futurelearn
 import compose.icons.simpleicons.G2a
+import compose.icons.simpleicons.GameJolt
 import compose.icons.simpleicons.Garmin
 import compose.icons.simpleicons.Gatling
 import compose.icons.simpleicons.Gatsby
@@ -531,6 +546,7 @@ import compose.icons.simpleicons.Ghostery
 import compose.icons.simpleicons.Gimp
 import compose.icons.simpleicons.Giphy
 import compose.icons.simpleicons.Git
+import compose.icons.simpleicons.GitLfs
 import compose.icons.simpleicons.Gitbook
 import compose.icons.simpleicons.Gitea
 import compose.icons.simpleicons.Gitee
@@ -600,6 +616,7 @@ import compose.icons.simpleicons.Graphcool
 import compose.icons.simpleicons.Graphql
 import compose.icons.simpleicons.Grav
 import compose.icons.simpleicons.Gravatar
+import compose.icons.simpleicons.Graylog
 import compose.icons.simpleicons.Greensock
 import compose.icons.simpleicons.Gridsome
 import compose.icons.simpleicons.Groupon
@@ -628,6 +645,7 @@ import compose.icons.simpleicons.Haveibeenpwned
 import compose.icons.simpleicons.Haxe
 import compose.icons.simpleicons.Hbo
 import compose.icons.simpleicons.Hcl
+import compose.icons.simpleicons.Headspace
 import compose.icons.simpleicons.Hellofresh
 import compose.icons.simpleicons.HellyHansen
 import compose.icons.simpleicons.Helm
@@ -642,6 +660,7 @@ import compose.icons.simpleicons.Hitachi
 import compose.icons.simpleicons.Hive
 import compose.icons.simpleicons.Hockeyapp
 import compose.icons.simpleicons.HomeAssistant
+import compose.icons.simpleicons.HomeAssistantCommunityStore
 import compose.icons.simpleicons.Homeadvisor
 import compose.icons.simpleicons.Homebrew
 import compose.icons.simpleicons.Homebridge
@@ -650,6 +669,7 @@ import compose.icons.simpleicons.Honda
 import compose.icons.simpleicons.Hootsuite
 import compose.icons.simpleicons.Hoppscotch
 import compose.icons.simpleicons.HotelsDotCom
+import compose.icons.simpleicons.Hotjar
 import compose.icons.simpleicons.Houdini
 import compose.icons.simpleicons.Houzz
 import compose.icons.simpleicons.Hp
@@ -722,6 +742,7 @@ import compose.icons.simpleicons.Jbl
 import compose.icons.simpleicons.Jcb
 import compose.icons.simpleicons.Jeep
 import compose.icons.simpleicons.Jekyll
+import compose.icons.simpleicons.Jellyfin
 import compose.icons.simpleicons.Jenkins
 import compose.icons.simpleicons.JenkinsX
 import compose.icons.simpleicons.Jest
@@ -750,6 +771,7 @@ import compose.icons.simpleicons.Kaggle
 import compose.icons.simpleicons.Kahoot
 import compose.icons.simpleicons.Kaios
 import compose.icons.simpleicons.Kakao
+import compose.icons.simpleicons.KaliLinux
 import compose.icons.simpleicons.KarlsruherVerkehrsverbund
 import compose.icons.simpleicons.Kaspersky
 import compose.icons.simpleicons.Katacoda
@@ -799,6 +821,7 @@ import compose.icons.simpleicons.Leaflet
 import compose.icons.simpleicons.Leanpub
 import compose.icons.simpleicons.Leetcode
 import compose.icons.simpleicons.Lenovo
+import compose.icons.simpleicons.Less
 import compose.icons.simpleicons.LetsEncrypt
 import compose.icons.simpleicons.Letterboxd
 import compose.icons.simpleicons.Lg
@@ -880,6 +903,7 @@ import compose.icons.simpleicons.Mercedes
 import compose.icons.simpleicons.Messenger
 import compose.icons.simpleicons.Metafilter
 import compose.icons.simpleicons.Meteor
+import compose.icons.simpleicons.Metro
 import compose.icons.simpleicons.MetroDeLaCiudadDeMexico
 import compose.icons.simpleicons.MetroDeMadrid
 import compose.icons.simpleicons.MetroDeParis
@@ -917,6 +941,7 @@ import compose.icons.simpleicons.Mixcloud
 import compose.icons.simpleicons.Mocha
 import compose.icons.simpleicons.MojangStudios
 import compose.icons.simpleicons.Moleculer
+import compose.icons.simpleicons.Momenteo
 import compose.icons.simpleicons.Monero
 import compose.icons.simpleicons.Mongodb
 import compose.icons.simpleicons.MonkeyTie
@@ -938,6 +963,7 @@ import compose.icons.simpleicons.Mysql
 import compose.icons.simpleicons.N26
 import compose.icons.simpleicons.NationalGrid
 import compose.icons.simpleicons.Nativescript
+import compose.icons.simpleicons.Nba
 import compose.icons.simpleicons.Nbb
 import compose.icons.simpleicons.Ndr
 import compose.icons.simpleicons.Nec
@@ -947,6 +973,7 @@ import compose.icons.simpleicons.Nestjs
 import compose.icons.simpleicons.Netapp
 import compose.icons.simpleicons.Netflix
 import compose.icons.simpleicons.Netlify
+import compose.icons.simpleicons.NewJapanProWrestling
 import compose.icons.simpleicons.NewRelic
 import compose.icons.simpleicons.NewYorkTimes
 import compose.icons.simpleicons.NextDotJs
@@ -1068,6 +1095,7 @@ import compose.icons.simpleicons.Pinboard
 import compose.icons.simpleicons.Pingdom
 import compose.icons.simpleicons.Pingup
 import compose.icons.simpleicons.Pinterest
+import compose.icons.simpleicons.PioneerDj
 import compose.icons.simpleicons.PivotalTracker
 import compose.icons.simpleicons.Piwigo
 import compose.icons.simpleicons.Pixabay
@@ -1082,6 +1110,7 @@ import compose.icons.simpleicons.Playstation
 import compose.icons.simpleicons.Playstation2
 import compose.icons.simpleicons.Playstation3
 import compose.icons.simpleicons.Playstation4
+import compose.icons.simpleicons.Playstation5
 import compose.icons.simpleicons.PlaystationVita
 import compose.icons.simpleicons.Pleroma
 import compose.icons.simpleicons.Plesk
@@ -1106,6 +1135,7 @@ import compose.icons.simpleicons.Powershell
 import compose.icons.simpleicons.PrDotCo
 import compose.icons.simpleicons.PreCommit
 import compose.icons.simpleicons.Prestashop
+import compose.icons.simpleicons.Presto
 import compose.icons.simpleicons.Prettier
 import compose.icons.simpleicons.Prezi
 import compose.icons.simpleicons.Prime
@@ -1198,11 +1228,13 @@ import compose.icons.simpleicons.Ripple
 import compose.icons.simpleicons.Riseup
 import compose.icons.simpleicons.RoamResearch
 import compose.icons.simpleicons.Roku
+import compose.icons.simpleicons.RollsRoyce
 import compose.icons.simpleicons.RollupDotJs
 import compose.icons.simpleicons.Roots
 import compose.icons.simpleicons.RootsBedrock
 import compose.icons.simpleicons.RootsSage
 import compose.icons.simpleicons.Ros
+import compose.icons.simpleicons.RottenTomatoes
 import compose.icons.simpleicons.Roundcube
 import compose.icons.simpleicons.Rss
 import compose.icons.simpleicons.Rstudio
@@ -1241,7 +1273,9 @@ import compose.icons.simpleicons.ScrutinizerCi
 import compose.icons.simpleicons.Seagate
 import compose.icons.simpleicons.Seat
 import compose.icons.simpleicons.Sega
+import compose.icons.simpleicons.Selenium
 import compose.icons.simpleicons.Sellfy
+import compose.icons.simpleicons.SemanticUiReact
 import compose.icons.simpleicons.SemanticWeb
 import compose.icons.simpleicons.SemaphoreCi
 import compose.icons.simpleicons.Semver
@@ -1307,6 +1341,7 @@ import compose.icons.simpleicons.Soundcloud
 import compose.icons.simpleicons.SourceEngine
 import compose.icons.simpleicons.Sourceforge
 import compose.icons.simpleicons.Sourcegraph
+import compose.icons.simpleicons.SouthwestAirlines
 import compose.icons.simpleicons.Spacemacs
 import compose.icons.simpleicons.Spacex
 import compose.icons.simpleicons.SparkAr
@@ -1389,6 +1424,7 @@ import compose.icons.simpleicons.Tado
 import compose.icons.simpleicons.Tails
 import compose.icons.simpleicons.TailwindCss
 import compose.icons.simpleicons.Talend
+import compose.icons.simpleicons.Taobao
 import compose.icons.simpleicons.Tapas
 import compose.icons.simpleicons.Tasmota
 import compose.icons.simpleicons.Tata
@@ -1409,6 +1445,7 @@ import compose.icons.simpleicons.Tesla
 import compose.icons.simpleicons.Testin
 import compose.icons.simpleicons.TestingLibrary
 import compose.icons.simpleicons.TheConversation
+import compose.icons.simpleicons.TheIrishTimes
 import compose.icons.simpleicons.TheMighty
 import compose.icons.simpleicons.TheModelsResource
 import compose.icons.simpleicons.TheMovieDatabase
@@ -1441,6 +1478,7 @@ import compose.icons.simpleicons.TorBrowser
 import compose.icons.simpleicons.TorProject
 import compose.icons.simpleicons.Toshiba
 import compose.icons.simpleicons.Toyota
+import compose.icons.simpleicons.TpLink
 import compose.icons.simpleicons.Trainerroad
 import compose.icons.simpleicons.Trakt
 import compose.icons.simpleicons.Transferwise
@@ -1484,6 +1522,7 @@ import compose.icons.simpleicons.Udemy
 import compose.icons.simpleicons.Uikit
 import compose.icons.simpleicons.Ulule
 import compose.icons.simpleicons.Umbraco
+import compose.icons.simpleicons.Unacademy
 import compose.icons.simpleicons.Undertale
 import compose.icons.simpleicons.Unicode
 import compose.icons.simpleicons.Unilever
@@ -1534,6 +1573,7 @@ import compose.icons.simpleicons.Vodafone
 import compose.icons.simpleicons.Volkswagen
 import compose.icons.simpleicons.Volvo
 import compose.icons.simpleicons.Vonage
+import compose.icons.simpleicons.Vox
 import compose.icons.simpleicons.Vsco
 import compose.icons.simpleicons.VueDotJs
 import compose.icons.simpleicons.Vuetify
@@ -1542,6 +1582,7 @@ import compose.icons.simpleicons.Vultr
 import compose.icons.simpleicons.W3c
 import compose.icons.simpleicons.Wagtail
 import compose.icons.simpleicons.Wakatime
+import compose.icons.simpleicons.Walkman
 import compose.icons.simpleicons.WarnerBrosDot
 import compose.icons.simpleicons.Wattpad
 import compose.icons.simpleicons.Waze
@@ -1566,6 +1607,7 @@ import compose.icons.simpleicons.WhenIWork
 import compose.icons.simpleicons.Whitesource
 import compose.icons.simpleicons.Wii
 import compose.icons.simpleicons.WiiU
+import compose.icons.simpleicons.Wikidata
 import compose.icons.simpleicons.WikimediaCommons
 import compose.icons.simpleicons.Wikipedia
 import compose.icons.simpleicons.Wikiquote
@@ -1612,6 +1654,7 @@ import compose.icons.simpleicons.Xrp
 import compose.icons.simpleicons.Xsplit
 import compose.icons.simpleicons.YCombinator
 import compose.icons.simpleicons.Yahoo
+import compose.icons.simpleicons.Yale
 import compose.icons.simpleicons.YamahaCorporation
 import compose.icons.simpleicons.YamahaMotorCorporation
 import compose.icons.simpleicons.Yammer
@@ -1657,204 +1700,209 @@ import kotlin.collections.List as ____KtList
 
 public object SimpleIcons
 
-private var __AllIcons: ____KtList<VectorAsset>? = null
+private var __AllIcons: ____KtList<ImageVector>? = null
 
-public val SimpleIcons.AllIcons: ____KtList<VectorAsset>
+public val SimpleIcons.AllIcons: ____KtList<ImageVector>
   get() {
     if (__AllIcons != null) {
       return __AllIcons!!
     }
     __AllIcons= listOf(MicrosoftSharepoint, Dazn, GooglePay, Quasar, Strongswan, Sellfy, Treehouse,
-        _1001tracklists, Mcdonalds, Deviantart, Pexels, Css3, Blackberry, AbletonLive,
-        Hurriyetemlak, Staticman, Aiohttp, VueDotJs, Cloudflare, DarkReader, Prosieben, Abstract,
-        Emby, Fandango, Steam, Lua, Audioboom, Okcupid, GooglePodcasts, EightSleep, Sonarsource,
-        Jaguar, Uplabs, ContactlessPayment, W3c, Fortinet, WriteDotAs, GoogleNews, UblockOrigin,
-        GnuSocial, Smart, Trello, Cloudsmith, Rte, Stencyl, Erlang, Ticketmaster, Atlassian,
-        Notepadplusplus, ApacheAnt, Gumroad, Exercism, Undertale, Gitkraken, Drupal, AdblockPlus,
-        Bentley, FerrariNDotVDot, ScikitLearn, Spinrilla, Mta, ApacheNetbeansIde, Loop, Pocket,
-        Zulip, Badoo, Bootstrap, Jinja, Bandsintown, Houzz, MicrosoftAccess, MicrosoftSqlServer,
-        Periscope, Bmw, Amazon, Libreoffice, Openlayers, Ovh, RoamResearch, Bose, Honda, Ios,
-        Thinkpad, Kibana, Musicbrainz, Subversion, Xamarin, Mewe, RedHat, Ideal, Trustpilot,
-        Aiqfome, GoogleDrive, Pingdom, Nginx, Mocha, Uikit, Checkmarx, Neovim, Sonarqube, Tryhackme,
-        Gmail, ZWave, Sega, Flutter, OpenBugBounty, Clockify, Siemens, Instacart, Snapcraft, Mcafee,
-        Docusign, Bunq, Purescript, Fluentd, GooglePlay, Vivaldi, Aral, Alipay, Bandcamp, Timescale,
-        Postgresql, Composer, SumoLogic, MetroDeLaCiudadDeMexico, Esea, AdobePhotoshop, Brandfolder,
-        AudioTechnica, Bancontact, XPack, DcEntertainment, AzureFunctions, Nodemon, Ring,
-        Crunchbase, Todoist, Ionic, Cliqz, Bower, Gnu, Rubygems, Bandlab, WarnerBrosDot, Vimeo,
-        Webrtc, Tunein, Filezilla, Geocaching, Lenovo, LaravelNova, Dior, Keras, Fiverr, Eventbrite,
-        AffinityPhoto, Jameson, Babel, Cloud66, Qzone, Pinboard, Youtube, Bosch, Neo4j,
+        _1001tracklists, Mcdonalds, Deviantart, Pexels, TheIrishTimes, Css3, Blackberry,
+        AbletonLive, Hurriyetemlak, Staticman, Aiohttp, VueDotJs, Cloudflare, DarkReader, Prosieben,
+        Abstract, Taobao, Emby, Fandango, Steam, Lua, Audioboom, Okcupid, GooglePodcasts,
+        EightSleep, Sonarsource, Jaguar, Uplabs, ContactlessPayment, W3c, Fortinet, WriteDotAs,
+        GoogleNews, UblockOrigin, GnuSocial, Smart, Trello, Cloudsmith, Rte, Stencyl, Erlang,
+        Ticketmaster, Atlassian, Notepadplusplus, ApacheAnt, Gumroad, Exercism, Undertale,
+        Gitkraken, Drupal, AdblockPlus, Bentley, FerrariNDotVDot, ScikitLearn, Spinrilla, Mta,
+        ApacheNetbeansIde, Loop, Pocket, Zulip, Badoo, Bootstrap, Jinja, Bandsintown, Houzz,
+        MicrosoftAccess, MicrosoftSqlServer, Periscope, Bmw, Amazon, Libreoffice, Openlayers, Ovh,
+        RoamResearch, Bose, Honda, Ios, Thinkpad, Kibana, Musicbrainz, Subversion, Xamarin, Mewe,
+        RedHat, Ideal, Trustpilot, Aiqfome, GoogleDrive, Momenteo, Pingdom, Nginx, Mocha, Uikit,
+        Checkmarx, Neovim, Sonarqube, Tryhackme, Gmail, ZWave, Sega, Flutter, OpenBugBounty,
+        Clockify, Siemens, Instacart, Snapcraft, Mcafee, Docusign, Bunq, Purescript, Fluentd,
+        GooglePlay, Vivaldi, Aral, Alipay, Bandcamp, Timescale, Postgresql, Composer, SumoLogic,
+        MetroDeLaCiudadDeMexico, Esea, AdobePhotoshop, Graylog, Brandfolder, AudioTechnica,
+        Bancontact, XPack, DcEntertainment, AzureFunctions, Nodemon, Ring, Crunchbase, Todoist,
+        Ionic, Cliqz, Bower, Gnu, Rubygems, Bandlab, WarnerBrosDot, Vimeo, Webrtc, Tunein,
+        Filezilla, Geocaching, Lenovo, LaravelNova, Dior, DeutscheBahn, Keras, Fiverr, Futurelearn,
+        Eventbrite, AffinityPhoto, Jameson, Babel, Cloud66, Qzone, Pinboard, Youtube, Bosch, Neo4j,
         JsonWebTokens, Etsy, Sencha, Icloud, Livejournal, Wwe, Cookiecutter, Accusoft,
         RelianceIndustriesLimited, Sensu, Instagram, Cocos, Lamborghini, Sass, Infosys, Bata,
-        NextDotJs, Byte, Bt, Telegram, Helm, Deepnote, Hellofresh, Crunchyroll, Zhihu, Graphcool,
-        Archicad, NodeDotJs, Ifood, Intel, Playstation3, Tinyletter, Fiat, Myspace, Splunk,
-        CssWizardry, Qiwi, Hyundai, Monogram, Ardour, Hackaday, V8, Powers, EmpireKred, Nuke,
-        SkypeForBusiness, Scipy, Brave, Fastlane, Treyarch, Microgenetics, Cplusplus, Labview, Gulp,
-        JustEat, Invision, Delonghi, Iheartradio, Komoot, YamahaMotorCorporation, Tui, Lineageos,
-        Toyota, DotNet, MicrosoftExchange, Prime, Plesk, Quicktime, CraftCms, Storybook,
+        NextDotJs, Byte, Bt, Telegram, Helm, Deepnote, Hellofresh, Crunchyroll, Codeceptjs, Zhihu,
+        Graphcool, Archicad, NodeDotJs, Ifood, Intel, Playstation3, Tinyletter, Fiat, Myspace,
+        Splunk, CssWizardry, Qiwi, Hyundai, Monogram, Ardour, Hackaday, V8, Powers, EmpireKred,
+        Nuke, SkypeForBusiness, Scipy, Brave, Fastlane, Treyarch, Microgenetics, Cplusplus, Labview,
+        Gulp, JustEat, Invision, Delonghi, Iheartradio, Komoot, YamahaMotorCorporation, Tui,
+        Lineageos, Toyota, DotNet, MicrosoftExchange, Prime, Plesk, Quicktime, CraftCms, Storybook,
         AmericanExpress, StyledComponents, LaravelHorizon, RollupDotJs, Twoo, Opensuse, Letterboxd,
         Yammer, Go, Perl, Scrimba, Chartmogul, Datacamp, Linkedin, AdobeLightroomClassic, Docker,
         Ansible, DraugiemDotLv, Ros, GoogleKeep, Viadeo, Meteor, Llvm, Openstack, TheRegister,
         Heroku, Tide, Wikipedia, Strava, TheMovieDatabase, Spotlight, Chase, Gitea, Notion, Starz,
-        Goldenline, Toggl, Lubuntu, MaxPlanckGesellschaft, Qiita, Svg, ShieldsDotIo, Sap,
-        ApacheJmeter, Fnac, ChupaChups, InvoiceNinja, GeneralMotors, ApacheDruid, Twilio, WpRocket,
-        Grubhub, Audi, AerLingus, TorBrowser, Canva, Openai, GoogleColab, Iconify, FurryNetwork,
-        GithubActions, Storify, PagespeedInsights, Facebook, AirplayAudio, OpenNebula, Snowflake,
-        Mercedes, HomeAssistant, Powershell, Express, Stackpath, YoutubeMusic, Statamic, Nfc, Edx,
-        Katana, Imdb, WolframMathematica, Magento, Vine, Sky, Trakt, First, Instapaper, Numpy, Mini,
-        Drooble, AmazonPrime, Rtl, Cryengine, Jabber, DerSpiegel, Dailymotion, Xfce, FSecure,
-        Boeing, Android, MicrosoftAcademic, Moo, Nec, GoogleSearchConsole, Typo3, FidoAlliance,
-        GeneralElectric, Bit, Squarespace, Cisco, Zoho, Roots, Flattr, Toptal, Cakephp, Mediafire,
-        Asana, Opsgenie, DasErste, Deno, SquareEnix, Stadia, Webpack, Baidu, Launchpad, Workplace,
-        Prismic, Cypress, Nbb, C, Peloton, Bigbasket, Buzzfeed, Gutenberg, ApacheTomcat, Coderwall,
-        KoFi, Mysql, Palantir, Monero, Jet, Circle, Buddy, Logitech, Wireshark, Elixir,
-        SanFranciscoMunicipalRailway, Flipboard, Douban, Niconico, Wire, Shopify, Codechef,
-        EventStore, Houdini, Nubank, Qt, Fedramp, Mongodb, BrandDotAi, Slashdot, Checkio,
-        Prometheus, Fitbit, PlayerFm, AmazonFireTv, Volvo, Airbnb, Appveyor, Hcl, Elm, Tensorflow,
-        Badgr, Turbosquid, XDotOrg, NintendoSwitch, WizzAir, Dynatrace, Kubernetes, Meetup, Bitly,
-        Veepee, Sepa, Livestream, Sourceforge, Evry, Cloudways, Pingup, VlcMediaPlayer, Chrysler,
-        Ethereum, OpenBadges, Mix, Instructables, Hackster, Renault, Auth0, Pixabay, Zapier,
-        Skillshare, N26, Netflix, Ferrari, Gumtree, Svelte, Discourse, Swiper, IntellijIdea,
-        ReadTheDocs, Gridsome, Fedex, Playstation2, Rakuten, Scopus, JohnDeere, Snapchat,
-        WorldHealthOrganization, Prestashop, ProtocolsDotIo, Sonicwall, TheConversation, Garmin,
-        Planet, Aurelia, Seagate, TripDotCom, UberEats, Kodi, Matomo, BathAsu, CoronaEngine,
-        Concourse, MicrosoftWord, SaoPauloMetro, HackClub, Spdx, Styleshare, TestingLibrary,
-        TravisCi, Singlestore, Jbl, AbbRobotstudio, Udacity, GoogleChrome, Revue, Linux, AirCanada,
-        Behance, Renpy, PlayerDotMe, DevDotTo, Tripadvisor, Mclaren, Steem, ApacheSolr, Artstation,
-        TurkishAirlines, Dropbox, Stylus, Emlakjet, WikimediaCommons, Typescript, Opera, Windows,
-        Devrant, AdobeIndesign, AngularUniversal, Java, ParseDotLy, Sitepoint, Grav, Hackerearth,
-        AppleTv, Substack, WeightsAndBiases, Salesforce, Zelle, Daf, Infiniti, Sparkfun, Zotero,
-        Wistia, Roku, Askfm, Jsdelivr, Disroot, NewYorkTimes, Tumblr, AlfaRomeo, CreativeCommons,
-        Aventrix, Speedtest, Retropie, MicrosoftOnenote, ZendFramework, XdaDevelopers, Rhinoceros,
-        Vivino, Oshkosh, Vmware, Nokia, QubesOs, Bugcrowd, GoogleScholar, Openid, Messenger,
-        Kyocera, Fifa, Usps, Dunked, StackOverflow, Kaspersky, Teamviewer, _500px, Hexo, Slickpic,
-        Twitter, Castro, Coffeescript, GoogleStreetView, Jamboard, Midi, Trulia, MicrosoftOffice,
-        Twitch, Marriott, NintendoGamecube, MdnWebDocs, Notist, Venmo, StackExchange, Maserati,
-        Bitwarden, Crowdin, Lastpass, Bing, Oneplus, Ubuntu, Xaml, GoogleAds, Hulu, Slideshare,
-        Whatsapp, Kaios, Eslint, Embarcadero, Floatplane, ServerFault, Thymeleaf, Figshare,
-        ApacheMaven, Arlo, VisualStudioCode, Svgo, Unilever, Celery, Expo, TheModelsResource,
-        Gerrit, Anchor, Wakatime, Cevo, Gitbook, Spring, Pokemon, Spacemacs, TencentQq, Mazda,
-        KarlsruherVerkehrsverbund, Staffbase, Nativescript, Paypal, Foodpanda, Gimp, ShenzhenMetro,
-        Rainmeter, Flickr, Nestjs, Joomla, Showpad, Sprint, BeatsByDre, Threema, Publons,
-        Confluence, Cmake, Steinberg, WindowsXp, Codewars, Broadcom, Mozilla, AdobePhonegap,
-        GoogleMeet, Codecov, Couchbase, GnuIcecat, RaspberryPi, KhanAcademy, HumbleBundle, Openvpn,
-        Ndr, Dell, Codingame, MicrosoftExcel, Castorama, Vfairs, GnuBash, Sourcegraph,
-        VimeoLivestream, Bulma, GoogleNearby, Ubisoft, Shutterstock, GoogleDomains, Airbus, Fastify,
-        Seat, Ipfs, Zerply, Coda, Ebay, YoutubeStudio, Teamspeak, Dolby, Foursquare, Markdown, Ikea,
-        Blazemeter, Sonarlint, ElasticCloud, Diaspora, Ifttt, Realm, Sonarcloud, Harbor, Untangle,
-        Allocine, Imgur, PrDotCo, Asciidoctor, ObsStudio, Iconjar, Tata, Electron, Zorin, Boost,
-        Crehana, Veeam, Revolut, Dacia, Icq, Stackbit, Asus, BeijingSubway, Kik, Hackhands, Quarkus,
-        CoronaRenderer, Klook, Freelancer, FurAffinity, Vk, Quantopian, Woo, ApacheEcharts, Viber,
-        Keybase, Postman, Samsung, Xmpp, Minds, Hitachi, Firefox, Beats, TheWashingtonPost,
-        MicrosoftTeams, ScrutinizerCi, Github, Klout, Symfony, Orcid, ProTools, Kofax, Stellar,
-        Rtlzwei, Onstar, Pepsi, Envato, Hive, Freebsd, Discover, YourtravelDotTv, Antena3,
-        WolframLanguage, VisualStudio, FossilScm, Here, Mattermost, Starship, GoogleEarth,
-        GoogleCardboard, GoogleMyBusiness, Jpeg, MaterialDesignIcons, Vsco, GoogleAdsense,
-        MonkeyTie, Xilinx, Slackware, GoogleSheets, ApplePodcasts, NintendoNetwork, Renren,
-        Glassdoor, Pelican, Codacy, Steemit, Jsfiddle, GnuEmacs, Chef, Alliedmodders, Puppet,
-        Wikivoyage, Yelp, Javascript, Fujitsu, GogDotCom, AirplayVideo, Tiktok, AzureArtifacts,
-        Hubspot, Activision, Tinder, Visa, PlaystationVita, GuangzhouMetro, CirrusCi, Ssrn,
-        Elasticsearch, TorProject, HatenaBookmark, PhilipsHue, Nim, Apache, Blogger, Clyp, Smugmug,
-        Codecademy, TransportForIreland, Discogs, PrimeVideo, Hashnode, Icon, Kakao, Katacoda,
-        Octave, TencentWeibo, Musescore, Fila, Gradle, Lospec, Line, Spreaker, Riseup, Ingress,
-        Dart, Beatport, Wireguard, GoogleChat, Packagist, CoOp, Talend, Webstorm, Thunderbird,
-        Groupon, Dblp, Codepen, EclipseMosquitto, Insomnia, Kde, Lgtm, Matternet,
-        OpenContainersInitiative, Logmein, Highly, Citrix, Appsignal, Protonmail, Plurk, Digg,
-        PocketCasts, Mastodon, NuxtDotJs, Virb, Genius, Minetest, Openbsd, JfrogBintray, Curseforge,
-        InternetExplorer, Pytorch, Gitee, StarlingBank, Gatling, Bilibili, Mixcloud,
-        EclipseVertDotX, MetroDeParis, Pjsip, Ford, CdProjekt, Ello, Adguard, Ulule,
-        GoogleAssistant, Weasyl, Debian, Codefactor, Steamworks, TheSoundsResource, Delicious,
-        Prettier, RootsBedrock, Teamcity, Pagerduty, Authy, Fozzy, Yandex, Qgis, Maas, LastDotFm,
-        _3m, ApacheFlink, Iobroker, SemaphoreCi, Pixiv, Tails, Yoast, Html5, DesignerNews,
-        Asciinema, Photocrowd, Tomorrowland, GoogleMaps, Phpstorm, Zend, Stubhub, AdobeLightroom,
-        Klm, WhenIWork, Teradata, AdobeAudition, Vault, Kaggle, Bugatti, Leaflet, Netlify, Solus,
-        Steamdb, Husqvarna, AboutDotMe, Uploaded, Quip, Sonos, Ngrok, Zendesk, AiDungeon,
-        Hackerrank, Renovatebot, Postcss, FreedesktopDotOrg, Coursera, Kitsu, Apple,
-        OpenSourceInitiative, ItchDotIo, Dashlane, Shopware, Julia, Testin, Reactivex, AmazonAws,
-        ArchLinux, Krita, Anydesk, StarTrek, Contentful, Skyliner, Airtable, Homify, Jenkins,
-        Makerbot, Liberapay, Farfetch, PolymerProject, Wordpress, Itunes, Dribbble, Openssl,
-        Minutemailer, Maytag, DsAutomobiles, HtmlAcademy, GodotEngine, TailwindCss, _1password,
-        Elastic, Odnoklassniki, Processwire, Linode, Osmc, Ifixit, Civicrm, Informatica, Runkeeper,
-        Jest, OctopusDeploy, Lufthansa, Rss, LinuxMint, Castbox, Icomoon, Intercom, OpenAccess,
-        Ripple, Cognizant, Ups, Umbraco, Git, Slides, YoutubeTv, TokyoMetro, Circleci, Loom,
-        Dialogflow, Subaru, AFrame, ApolloGraphql, Quora, Egghead, Wikiquote, Rancher,
-        WebcomponentsDotOrg, Lmms, Codeproject, Opel, Vagrant, Pantheon, Jasmine, ApacheAirflow,
-        Gentoo, Poly, SemanticWeb, Winmate, Digitalocean, Dynamics365, YCombinator, Hp, AndroidAuto,
-        Picpay, Ubiquiti, Wipro, Terraform, Zalando, Sparkpost, Yahoo, Leetcode, Xing, Duolingo,
-        Mariadb, AdobePremierePro, CampaignMonitor, Datastax, Lg, Wattpad, Tesla, Carto, Spacex,
-        Gauges, Reason, Webgl, Osano, Flathub, Kentico, Nvidia, ProductHunt, CairoMetro, SauceLabs,
-        Latex, RubyOnRails, Vodafone, Bigcommerce, Bitdefender, AppleMusic, TheMighty, Shazam,
-        ApplePay, Trove, Pagseguro, Tapas, Known, Iveco, Skype, AppStore, Nutanix, _42, Datadog,
-        Scratch, Tile, BattleDotNet, GovDotUk, Virustotal, Linktree, Observable, Sennheiser,
-        Bloglovin, Redux, Udemy, Scaleway, Hugo, Iconfinder, Yarn, AmazonLumberyard, GoogleCalendar,
-        Spotify, SinaWeibo, Kotlin, Medium, Pastebin, Grafana, Zenn, Slack, AzurePipelines, Algolia,
+        Goldenline, Nba, Toggl, Lubuntu, MaxPlanckGesellschaft, Qiita, Svg, Selenium, ShieldsDotIo,
+        Sap, ApacheJmeter, Fnac, ChupaChups, InvoiceNinja, GeneralMotors, ApacheDruid, Twilio,
+        WpRocket, Grubhub, Audi, AerLingus, TorBrowser, Canva, Openai, GoogleColab, Iconify,
+        Headspace, FurryNetwork, GithubActions, Storify, PagespeedInsights, Facebook, AirplayAudio,
+        OpenNebula, Snowflake, Mercedes, HomeAssistant, Powershell, Blueprint, Express, Stackpath,
+        YoutubeMusic, Statamic, Nfc, Edx, Katana, Imdb, WolframMathematica, Magento, Vine, Sky,
+        Trakt, First, Instapaper, Numpy, Mini, Drooble, AmazonPrime, Rtl, Cryengine, Jabber,
+        DerSpiegel, Dailymotion, Xfce, FSecure, Boeing, Android, MicrosoftAcademic, Moo, Nec,
+        GoogleSearchConsole, Typo3, FidoAlliance, GeneralElectric, Bit, Squarespace, Cisco, Zoho,
+        Roots, Flattr, Toptal, Cakephp, Mediafire, Asana, Opsgenie, DasErste, Deno, SquareEnix,
+        Stadia, Webpack, Baidu, Launchpad, Workplace, Prismic, Cypress, Nbb, C, Peloton, Bigbasket,
+        Buzzfeed, Gutenberg, ApacheTomcat, Coderwall, KoFi, Mysql, Palantir, Monero, Jet, Circle,
+        Buddy, Logitech, Wireshark, Elixir, SanFranciscoMunicipalRailway, Flipboard, Douban,
+        Niconico, Wire, Shopify, Codechef, EventStore, Houdini, Nubank, Qt, Fedramp, Mongodb,
+        BrandDotAi, Slashdot, Checkio, Prometheus, Fitbit, PlayerFm, Cucumber, AmazonFireTv, Volvo,
+        PioneerDj, Airbnb, Appveyor, Hcl, Elm, Tensorflow, Badgr, Turbosquid, XDotOrg,
+        NintendoSwitch, WizzAir, Dynatrace, Kubernetes, Meetup, Bitly, Veepee, Sepa, Hotjar,
+        Livestream, Sourceforge, Evry, Cloudways, Pingup, VlcMediaPlayer, Chrysler, Ethereum,
+        OpenBadges, Mix, Instructables, Hackster, Renault, Auth0, Pixabay, Zapier, Skillshare, N26,
+        Netflix, Ferrari, Gumtree, Svelte, Discourse, Swiper, IntellijIdea, ReadTheDocs, Gridsome,
+        Fedex, Playstation2, Rakuten, Scopus, JohnDeere, Snapchat, WorldHealthOrganization,
+        Prestashop, ProtocolsDotIo, Sonicwall, TheConversation, Garmin, Planet, Aurelia, Seagate,
+        TripDotCom, UberEats, Kodi, Matomo, BathAsu, CoronaEngine, Concourse, Metro, MicrosoftWord,
+        SaoPauloMetro, HackClub, Spdx, Styleshare, TestingLibrary, TravisCi, Singlestore, Jbl,
+        AbbRobotstudio, Udacity, GoogleChrome, Revue, Linux, AirCanada, Behance, Renpy, PlayerDotMe,
+        DevDotTo, Tripadvisor, Mclaren, Steem, ApacheSolr, Artstation, TurkishAirlines, Dropbox,
+        Stylus, Emlakjet, WikimediaCommons, Typescript, Opera, Windows, Devrant, AdobeIndesign,
+        AngularUniversal, Java, ParseDotLy, Sitepoint, HomeAssistantCommunityStore, Grav,
+        Hackerearth, AppleTv, Substack, WeightsAndBiases, Salesforce, Zelle, Daf, Infiniti,
+        Sparkfun, Zotero, Wistia, Roku, Askfm, Jsdelivr, Disroot, NewYorkTimes, Tumblr, AlfaRomeo,
+        CreativeCommons, Aventrix, Speedtest, Retropie, MicrosoftOnenote, ZendFramework,
+        XdaDevelopers, Rhinoceros, Vivino, Oshkosh, Vmware, Nokia, QubesOs, Bugcrowd, GoogleScholar,
+        Openid, Messenger, Kyocera, Fifa, Usps, Dunked, StackOverflow, Kaspersky, Teamviewer,
+        _500px, Hexo, Slickpic, Twitter, Castro, Coffeescript, RollsRoyce, GoogleStreetView,
+        Jamboard, Midi, Trulia, MicrosoftOffice, Twitch, Marriott, NintendoGamecube, MdnWebDocs,
+        Notist, Venmo, StackExchange, Maserati, Bitwarden, Crowdin, Lastpass, Bing, Oneplus, Ubuntu,
+        Xaml, GoogleAds, Hulu, Slideshare, Whatsapp, Kaios, Eslint, Embarcadero, Floatplane,
+        ServerFault, Thymeleaf, Figshare, ApacheMaven, Arlo, VisualStudioCode, Svgo, Unilever,
+        Celery, Expo, TheModelsResource, Gerrit, Anchor, Wakatime, Cevo, Gitbook, Spring, Pokemon,
+        Spacemacs, TencentQq, Mazda, KarlsruherVerkehrsverbund, Staffbase, Nativescript, Paypal,
+        Foodpanda, Gimp, ShenzhenMetro, Rainmeter, Flickr, Nestjs, Joomla, Showpad, Sprint,
+        BeatsByDre, Threema, Publons, Confluence, Cmake, Steinberg, WindowsXp, Codewars, Broadcom,
+        Mozilla, AdobePhonegap, GoogleMeet, Codecov, Couchbase, GnuIcecat, RaspberryPi, KhanAcademy,
+        HumbleBundle, Openvpn, Ndr, Dell, Codingame, MicrosoftExcel, Castorama, Vfairs, GnuBash,
+        Sourcegraph, VimeoLivestream, Bulma, GoogleNearby, Ubisoft, Shutterstock, GoogleDomains,
+        Airbus, Fastify, Seat, Ipfs, Zerply, Coda, Ebay, YoutubeStudio, Teamspeak, Dolby,
+        Foursquare, Markdown, Ikea, Blazemeter, Sonarlint, ElasticCloud, Diaspora, Ifttt, Realm,
+        Sonarcloud, Harbor, Untangle, Allocine, Imgur, PrDotCo, Asciidoctor, ObsStudio, Iconjar,
+        Tata, Electron, Zorin, Boost, Crehana, Veeam, Revolut, Dacia, Icq, Stackbit, Asus,
+        BeijingSubway, Kik, Hackhands, Quarkus, CoronaRenderer, Klook, Freelancer, FurAffinity, Vk,
+        Quantopian, Woo, ApacheEcharts, Yale, Viber, Keybase, Postman, Samsung, Xmpp, Minds,
+        Hitachi, Firefox, Beats, TheWashingtonPost, MicrosoftTeams, ScrutinizerCi, Github, Klout,
+        Walkman, Symfony, Orcid, ProTools, Kofax, Stellar, Rtlzwei, Onstar, Pepsi, Envato, Hive,
+        Freebsd, Discover, YourtravelDotTv, Antena3, WolframLanguage, VisualStudio, FossilScm, Here,
+        Mattermost, Starship, GoogleEarth, GoogleCardboard, GoogleMyBusiness, Jpeg,
+        MaterialDesignIcons, Vsco, GoogleAdsense, MonkeyTie, Xilinx, Slackware, GoogleSheets,
+        ApplePodcasts, NintendoNetwork, Renren, Glassdoor, Pelican, Codacy, Steemit, Jsfiddle,
+        GnuEmacs, Chef, Alliedmodders, Puppet, GitLfs, Wikivoyage, Yelp, Javascript, Fujitsu,
+        GogDotCom, AirplayVideo, Tiktok, AzureArtifacts, Hubspot, Activision, Tinder, Visa,
+        PlaystationVita, GuangzhouMetro, CirrusCi, Ssrn, Elasticsearch, TorProject, HatenaBookmark,
+        PhilipsHue, Nim, Apache, Blogger, Clyp, Smugmug, Codecademy, TransportForIreland, Discogs,
+        PrimeVideo, Hashnode, Icon, Kakao, Katacoda, Octave, TencentWeibo, Musescore, Fila, Gradle,
+        Lospec, Line, Spreaker, Riseup, SemanticUiReact, Ingress, Dart, Beatport, Wireguard,
+        GoogleChat, Packagist, CoOp, Talend, Webstorm, Thunderbird, Groupon, Aliexpress, Dblp,
+        Codepen, EclipseMosquitto, Insomnia, Kde, Lgtm, Matternet, OpenContainersInitiative,
+        Logmein, Highly, Citrix, Appsignal, Protonmail, Plurk, Digg, PocketCasts, Mastodon,
+        NuxtDotJs, Virb, Genius, Minetest, Openbsd, JfrogBintray, Curseforge, InternetExplorer,
+        Pytorch, Gitee, StarlingBank, Gatling, Bilibili, Mixcloud, EclipseVertDotX, MetroDeParis,
+        Pjsip, Ford, CdProjekt, Ello, Adguard, Ulule, GoogleAssistant, Weasyl, Debian, Codefactor,
+        Steamworks, TheSoundsResource, Delicious, Prettier, RootsBedrock, Teamcity, Pagerduty,
+        Authy, Fozzy, Yandex, Qgis, Maas, LastDotFm, _3m, ApacheFlink, Iobroker, SemaphoreCi, Pixiv,
+        Tails, Yoast, Html5, DesignerNews, Asciinema, Photocrowd, Tomorrowland, GoogleMaps,
+        Phpstorm, Zend, Stubhub, AdobeLightroom, Klm, WhenIWork, Teradata, AdobeAudition, Vault,
+        Kaggle, Bugatti, Leaflet, Netlify, Solus, Steamdb, Husqvarna, AboutDotMe, Uploaded, Quip,
+        Sonos, Ngrok, Zendesk, AiDungeon, Hackerrank, Renovatebot, Folium, Postcss,
+        FreedesktopDotOrg, Coursera, Kitsu, Apple, OpenSourceInitiative, ItchDotIo, Dashlane,
+        Shopware, Julia, Testin, Reactivex, AmazonAws, ArchLinux, Krita, Anydesk, StarTrek,
+        Contentful, Skyliner, Airtable, Homify, Jenkins, Makerbot, Liberapay, Farfetch,
+        PolymerProject, Wordpress, Itunes, Dribbble, Openssl, Minutemailer, Maytag, DsAutomobiles,
+        HtmlAcademy, GodotEngine, TailwindCss, _1password, Elastic, Odnoklassniki, Processwire,
+        Linode, Osmc, Ifixit, Civicrm, Informatica, Runkeeper, Jest, OctopusDeploy, Lufthansa, Rss,
+        LinuxMint, Castbox, Icomoon, Intercom, OpenAccess, Ripple, Cognizant, Ups, Umbraco, Git,
+        Slides, YoutubeTv, TokyoMetro, Circleci, Loom, Dialogflow, Subaru, AFrame, ApolloGraphql,
+        Quora, Egghead, Wikiquote, Rancher, WebcomponentsDotOrg, Lmms, Codeproject, Opel, Vagrant,
+        Pantheon, Jasmine, ApacheAirflow, TpLink, Gentoo, Poly, SemanticWeb, Winmate, Digitalocean,
+        Dynamics365, YCombinator, Hp, AndroidAuto, Picpay, Ubiquiti, Wipro, Terraform, Zalando,
+        Sparkpost, NewJapanProWrestling, Yahoo, Leetcode, Xing, Duolingo, Mariadb, AdobePremierePro,
+        CampaignMonitor, Datastax, Lg, Wattpad, Tesla, Carto, Spacex, Gauges, Reason, Espressif,
+        Webgl, Osano, Flathub, Kentico, Nvidia, ProductHunt, CairoMetro, SauceLabs, Latex,
+        RubyOnRails, Vodafone, Bigcommerce, Bitdefender, AppleMusic, TheMighty, Shazam, ApplePay,
+        Trove, Pagseguro, Tapas, Known, Iveco, Skype, AppStore, Nutanix, _42, Datadog, Scratch,
+        Tile, BattleDotNet, GovDotUk, Virustotal, Linktree, Observable, Sennheiser, Bloglovin,
+        Redux, Udemy, Scaleway, Hugo, Iconfinder, Yarn, AmazonLumberyard, GoogleCalendar, Spotify,
+        SinaWeibo, Kotlin, Medium, Pastebin, Grafana, Zenn, Slack, AzurePipelines, Algolia,
         AwsAmplify, Breaker, Overcast, AltiumDesigner, Mega, Pfsense, Koding, Vuetify,
         OpenapiInitiative, ApacheCloudstack, Unsplash, AndroidStudio, Reverbnation,
         AdobeAfterEffects, Feedly, ApacheGroovy, GoogleFit, Claris, SparkAr, MojangStudios, Qantas,
-        Phonepe, Upwork, Xrp, Laragon, Jetbrains, BAndRAutomation, Nextdoor, Hackerone, SocketDotIo,
-        Pagekit, GoogleTagManager, Pleroma, Wemo, Verizon, PiHole, Sentry, Ceph, Codeship,
-        Mediatemple, Fathom, Sololearn, Centos, Fastapi, Esphome, Citroen, Mailchimp, PowerBi,
-        Clojure, Fandom, Lighthouse, AdobeIllustrator, Evernote, Sketchup, Oculus, CashApp,
-        Streamlit, Ktm, FirefoxBrowser, Mapbox, Buffer, Bitcoin, R, Influxdb, MariadbFoundation,
-        Dhl, AmericanAirlines, Jcb, Gitter, Blender, Skoda, Pimcore, MicrosoftOnedrive, Deepin,
-        GoogleAnalytics, React, NounProject, Caterpillar, Homebrew, Stitcher, ProtoDotIo, Origin,
-        Easyjet, Qi, Wix, Elementary, Atari, Atom, EclipseIde, Dependabot, Jquery, Goodreads,
-        TransportForLondon, Discord, Homeadvisor, Moleculer, Autodesk, Cesium, Photobucket,
-        AzureDataExplorer, Nintendo3ds, MicroDotBlog, ParitySubstrate, Radar, Reddit, Academia,
-        Shell, Flood, Addthis, Reactos, Homebridge, Phabricator, Wetransfer, TryItOnline, Truenas,
-        Directus, Matrix, AdobeCreativeCloud, P5DotJs, Sogou, Pandas, Vauxhall, Scania,
-        YoutubeGaming, Mathworks, ElJueves, Society6, SublimeText, Basecamp, Opengl, Daimler,
-        Playstation4, YamahaCorporation, Hyperledger, Unraid, Gnome, Ted, JiraSoftware, Zingat,
-        Tele5, Element, HackTheBox, ApacheCassandra, Anilist, Synology, Redis, Everplaces, Zdf,
-        Cinema4d, LineWebtoon, Hipchat, Eyeem, Plex, Haveibeenpwned, Soundcloud, Freenas, Oracle,
-        Ansys, PicartoDotTv, Acm, Roundcube, Xero, Gitlab, Fite, Buefy, WiiU, Keycdn, MxLinux,
-        Adobe, Aircall, Trainerroad, Tasmota, Stripe, Spinnaker, Eleventy, AffinityPublisher,
-        BigCartel, ___SimpleIcons, Progress, Ghostery, Justgiving, Unicode, Redwoodjs, Hoppscotch,
-        CSharp, Square, Pluralsight, Indeed, Litecoin, Scribd, Prezi, EpicGames, Webflow,
-        Mastercomfig, Zoom, Saltstack, KhronosGroup, Opencv, Myob, Sketchfab, MaterialDesign,
-        Payoneer, Haskell, Playstation, LetsEncrypt, Hilton, Swagger, CondaForge, GoogleCast,
-        Fujifilm, Eslgaming, Figma, GoogleHangouts, Arduino, Audiomack, PreCommit, Epson,
-        GithubSponsors, Huawei, Plangrid, Transferwise, Npm, Proxmox, Manageiq, Veritas, Xcode,
-        Probot, Qemu, Faceit, Deliveroo, Clubhouse, Redbubble, Tutanota, Cocoapods, Hootsuite,
-        FontAwesome, ApacheRocketmq, Codersrank, MicrosoftAzure, Firebase, Jitsi, Convertio,
-        Integromat, Abbvie, Xiaomi, Jfrog, Xbox, Affinity, AzureDevops, Ea, Vultr, DassaultSystemes,
-        Favro, Grunt, Vim, Automatic, Mitsubishi, Webmoney, CommonWorkflowLanguage, Epel,
-        ApacheKylin, Magisk, Sahibinden, Razer, BmcSoftware, Patreon, JrGroup, Jeep, Uber, Wagtail,
-        Manjaro, Looker, Audible, Leanpub, CounterStrike, SmashingMagazine, SatDot1, Andela,
-        AntDesign, Nissan, TMobile, Ryanair, Issuu, Bitrise, Marketo, TrustedShops, Gatsby, Pandora,
-        Webassembly, ElasticStack, Minecraft, Untappd, Django, Paytm, PlusCodes, BuyMeACoffee,
-        Woocommerce, Angellist, Coinbase, AdobeFonts, Angularjs, PaloAltoSoftware, Hockeyapp,
+        Phonepe, Upwork, Xrp, Laragon, Jetbrains, Acer, BAndRAutomation, Nextdoor, Hackerone,
+        SocketDotIo, Pagekit, GoogleTagManager, Wikidata, Pleroma, Wemo, Devpost, Verizon, PiHole,
+        Sentry, Ceph, Codeship, Mediatemple, Fathom, Sololearn, Centos, Fastapi, Esphome, Citroen,
+        Mailchimp, PowerBi, Clojure, Fandom, Lighthouse, AdobeIllustrator, Evernote, Sketchup,
+        Oculus, CashApp, Streamlit, Ktm, FirefoxBrowser, Mapbox, Buffer, Bitcoin, R, Unacademy,
+        Influxdb, MariadbFoundation, Dhl, AmericanAirlines, Jcb, Gitter, Blender, Skoda, Pimcore,
+        MicrosoftOnedrive, Deepin, GoogleAnalytics, React, NounProject, SouthwestAirlines,
+        Caterpillar, Homebrew, Stitcher, ProtoDotIo, Origin, Easyjet, Qi, Wix, Elementary, Atari,
+        Atom, EclipseIde, Dependabot, Jquery, Goodreads, TransportForLondon, Discord, Homeadvisor,
+        Moleculer, Autodesk, Cesium, Photobucket, AzureDataExplorer, Nintendo3ds, MicroDotBlog,
+        ParitySubstrate, Radar, Reddit, Academia, Shell, Flood, Addthis, Reactos, Homebridge,
+        Phabricator, Wetransfer, TryItOnline, Truenas, Blazor, Directus, Matrix, AdobeCreativeCloud,
+        P5DotJs, Sogou, Pandas, Vauxhall, Scania, YoutubeGaming, Mathworks, ElJueves, Society6,
+        SublimeText, Basecamp, Opengl, Daimler, Playstation4, YamahaCorporation, Hyperledger,
+        Unraid, Gnome, Ted, JiraSoftware, Zingat, Tele5, Element, HackTheBox, ApacheCassandra,
+        Anilist, Synology, Redis, Everplaces, Presto, Zdf, Cinema4d, LineWebtoon, Hipchat, Eyeem,
+        Plex, Haveibeenpwned, Soundcloud, Freenas, Oracle, Ansys, PicartoDotTv, Acm, Roundcube,
+        Xero, Gitlab, Fite, Buefy, WiiU, Keycdn, MxLinux, Adobe, Aircall, Trainerroad, Tasmota,
+        Stripe, Spinnaker, Eleventy, AffinityPublisher, BigCartel, ___SimpleIcons, Progress,
+        Ghostery, Justgiving, Unicode, Redwoodjs, Hoppscotch, CSharp, Square, Pluralsight, Indeed,
+        Litecoin, Scribd, Prezi, EpicGames, Webflow, Mastercomfig, Zoom, Saltstack, KhronosGroup,
+        Opencv, Myob, Sketchfab, MaterialDesign, Payoneer, Haskell, Playstation, LetsEncrypt,
+        Hilton, Swagger, CondaForge, GoogleCast, Fujifilm, Eslgaming, Figma, GoogleHangouts,
+        Arduino, Audiomack, PreCommit, Epson, GithubSponsors, Huawei, Plangrid, Transferwise, Npm,
+        Proxmox, Manageiq, Veritas, Xcode, Probot, Qemu, Faceit, Deliveroo, Clubhouse, Redbubble,
+        Jellyfin, Tutanota, Cocoapods, Hootsuite, FontAwesome, ApacheRocketmq, Codersrank,
+        MicrosoftAzure, Firebase, Jitsi, Convertio, Integromat, Abbvie, Xiaomi, Jfrog, Codemagic,
+        Xbox, Affinity, AzureDevops, Ea, Vultr, DassaultSystemes, Favro, Grunt, Vim, Automatic,
+        Mitsubishi, Webmoney, CommonWorkflowLanguage, Epel, ApacheKylin, Magisk, Sahibinden, Razer,
+        BankOfAmerica, BmcSoftware, Patreon, JrGroup, Jeep, Uber, Wagtail, Manjaro, Looker, Audible,
+        Leanpub, CounterStrike, SmashingMagazine, SatDot1, Andela, AntDesign, Nissan, TMobile,
+        Ryanair, Issuu, Bitrise, Marketo, TrustedShops, Gatsby, Pandora, Webassembly, KaliLinux,
+        ElasticStack, Minecraft, Untappd, Django, Paytm, PlusCodes, BuyMeACoffee, Woocommerce,
+        Angellist, Coinbase, AdobeFonts, Angularjs, PaloAltoSoftware, Hockeyapp,
         MicrosoftPowerpoint, Geeksforgeeks, Angular, NationalGrid, Platzi, Jupyter, ReactRouter,
         Webmin, Ibeacon, Qualtrics, _4d, Monster, Unity, Quest, Fossa, Sqlite, HotelsDotCom,
         RedHatOpenShift, G2a, Nuget, ApacheOpenoffice, Amd, Pinterest, Waze, Vercel, Rewe,
-        AwesomeLists, Strapi, Chocolatey, Teespring, Volkswagen, ApacheCordova, Tableau, Signal,
-        Topcoder, Habr, Aseprite, Hey, Facepunch, Openstreetmap, Arxiv, Whitesource,
-        AdobeAcrobatReader, Jira, Compropago, Codeigniter, Mastercard, FDroid, BbcIplayer, Zomato,
-        Awesomewm, Librarything, GooglePhotos, Shikimori, Cloudbees, Spectrum, Protondb, Consul,
-        Symphony, Vonage, Formstack, Canonical, Sketch, AirFrance, Adonisjs, Feathub, NewRelic,
-        Keepassxc, Codio, Bamboo, Fortran, Greensock, ArchiveOfOurOwn, MailDotRu, OpenaiGym,
-        Toshiba, Numba, GoogleClassroom, MetroDeMadrid, Flask, TheSpritersResource,
-        AffinityDesigner, Nintendo, ArkEcosystem, CodeClimate, Coveralls, Conekta, Suzuki,
-        UnitedAirlines, Runkit, Haxe, Graphql, Smartthings, DiagramsDotNet, Autotask, Thumbtack,
-        Wolfram, InternetArchive, Quantcast, GoogleLens, Cnn, GoogleTranslate, Curl, Qualcomm, Kia,
-        Progate, Smrt, Racket, Rabbitmq, ReasonStudios, Python, Lada, AmazonAlexa, Safari,
-        PodcastAddict, Motorola, Mendeley, ReplDotIt, Doordash, Xsplit, Audacity, Taxbuzz,
-        Microstrategy, Pcgamingwiki, Logstash, SpyderIde, Windows95, SuperUser, Webauthn, Gofundme,
-        Duckduckgo, SamsungPay, Dtube, NodeRed, Gitpod, Snyk, FacebookLive, Fastly, Happycow,
-        Codesandbox, Cpanel, Serverless, Swift, Pycharm, Microbit, Hbo, Netapp, Google, RootsSage,
-        Chevrolet, GoogleMessages, Wechat, Stackshare, ApachePulsar, GnuPrivacyGuard, Hypothesis,
-        Giphy, Bluetooth, Analogue, AdobeDreamweaver, Zillow, Ocaml, Fedora, Iata, Libuv, Nucleo,
-        MoscowMetro, Piwigo, MicrosoftEdge, Nixos, SourceEngine, Kickstarter, JenkinsX, Triller, V,
-        Adblock, AlpineLinux, Buildkite, Mtr, WearOs, Lbry, Fing, Deezer, Tmux, Retroarch, Man,
-        Microsoft, D3DotJs, Lyft, Pypy, TrendMicro, AdobeXd, Codeforces, Delphi, Symantec, Semver,
-        Lichess, Laravel, ApacheKafka, ApacheSpark, PopOs, Scala, Wish, Json, PivotalTracker,
-        Qwiklabs, Inkscape, Freecodecamp, Valve, Metafilter, Bitbucket, Porsche, SpeakerDeck,
-        OpenCollective, FacebookGaming, Drone, Stmicroelectronics, Capacitor, Rstudio, Ruby, Box,
-        CarThrottle, Wii, EmberDotJs, Framer, MicrosoftOutlook, WpEngine, Monzo, Swarm, Songkick,
-        Ghost, Tado, Kirby, Tidal, AtAndT, Pypi, ExpertsExchange, CockroachLabs, Vbulletin, Zeromq,
-        Clickup, Nextcloud, ThreeDotJs, Macys, Xampp, Kahoot, Dlna, Zigbee, Dash, Statuspage,
-        Researchgate, Anaconda, Egnyte, GoogleCloud, Pyup, LandRover, RiotGames, Gravatar, Glitch,
-        MaterialUi, HellyHansen, Ibm, DigiKeyElectronics, Accenture, Overleaf, Opslevel,
-        LinuxFoundation, Peugeot, Vulkan, ShanghaiMetro, Disqus, Actigraph, Rust, Php, Bugsnag,
-        Jekyll, Virtualbox, UnrealEngine, Cloudcannon, Peertube, Radiopublic, Lumen, MicrosoftVisio)
+        AwesomeLists, Strapi, Chocolatey, Teespring, Volkswagen, RottenTomatoes, ApacheCordova,
+        Tableau, Signal, Topcoder, Habr, Aseprite, Hey, Facepunch, Openstreetmap, Arxiv,
+        Whitesource, AdobeAcrobatReader, Jira, Compropago, Playstation5, Codeigniter, Mastercard,
+        FDroid, BbcIplayer, Zomato, Awesomewm, Librarything, GooglePhotos, Shikimori, Cloudbees,
+        Spectrum, Protondb, Consul, Symphony, Vonage, Formstack, Canonical, Sketch, AirFrance,
+        Adonisjs, Feathub, NewRelic, Keepassxc, Codio, Bamboo, Fortran, Greensock, ArchiveOfOurOwn,
+        Vox, MailDotRu, OpenaiGym, Toshiba, Numba, GoogleClassroom, MetroDeMadrid, Flask,
+        TheSpritersResource, AffinityDesigner, Nintendo, ArkEcosystem, CodeClimate, Coveralls,
+        Conekta, Suzuki, UnitedAirlines, Runkit, Haxe, Graphql, Smartthings, DiagramsDotNet,
+        Autotask, Thumbtack, Wolfram, InternetArchive, Quantcast, GoogleLens, Cnn, GoogleTranslate,
+        Curl, Qualcomm, Kia, Progate, Smrt, Racket, Rabbitmq, ReasonStudios, Python, Lada,
+        AmazonAlexa, Safari, PodcastAddict, Motorola, Mendeley, ReplDotIt, Doordash, Xsplit,
+        Audacity, Taxbuzz, Microstrategy, Pcgamingwiki, Logstash, SpyderIde, Windows95, SuperUser,
+        Webauthn, Gofundme, Duckduckgo, SamsungPay, Dtube, NodeRed, Gitpod, Snyk, FacebookLive,
+        Fastly, Happycow, Codesandbox, Cpanel, Serverless, Swift, Pycharm, Microbit, Hbo, Netapp,
+        Google, RootsSage, Chevrolet, GoogleMessages, Wechat, Stackshare, ApachePulsar,
+        GnuPrivacyGuard, Hypothesis, Giphy, Bluetooth, Analogue, AdobeDreamweaver, Zillow, Ocaml,
+        Fedora, Iata, Less, Libuv, Nucleo, MoscowMetro, Piwigo, MicrosoftEdge, Nixos, SourceEngine,
+        Kickstarter, JenkinsX, Triller, V, Adblock, AlpineLinux, Buildkite, Mtr, WearOs, Lbry, Fing,
+        Deezer, Tmux, Retroarch, Man, Microsoft, D3DotJs, Lyft, Pypy, TrendMicro, AdobeXd,
+        Codeforces, Delphi, Symantec, Semver, Lichess, Laravel, ApacheKafka, ApacheSpark, PopOs,
+        Scala, Wish, Json, PivotalTracker, Qwiklabs, Inkscape, Freecodecamp, Valve, Metafilter,
+        Bitbucket, Porsche, SpeakerDeck, OpenCollective, FacebookGaming, Drone, Stmicroelectronics,
+        Capacitor, Rstudio, Ruby, Box, CarThrottle, Wii, EmberDotJs, Framer, MicrosoftOutlook,
+        WpEngine, Monzo, Swarm, Songkick, Ghost, Tado, Kirby, Tidal, AtAndT, Flipkart, Pypi,
+        ExpertsExchange, GameJolt, CockroachLabs, Vbulletin, Zeromq, Clickup, Nextcloud, ThreeDotJs,
+        Macys, Xampp, Kahoot, Dlna, Zigbee, Dash, Statuspage, Researchgate, Anaconda, Egnyte,
+        GoogleCloud, Pyup, LandRover, RiotGames, Gravatar, Glitch, MaterialUi, HellyHansen, Ibm,
+        DigiKeyElectronics, Accenture, Overleaf, Opslevel, LinuxFoundation, Peugeot, Vulkan,
+        ShanghaiMetro, Disqus, Actigraph, Rust, Php, Bugsnag, Jekyll, Virtualbox, UnrealEngine,
+        Cloudcannon, Peertube, Radiopublic, Lumen, MicrosoftVisio)
     return __AllIcons!!
   }

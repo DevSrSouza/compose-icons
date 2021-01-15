@@ -8,19 +8,19 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.evaicons.OutlineGroup
 
-public val OutlineGroup.MessageSquare: VectorAsset
+public val OutlineGroup.MessageSquare: ImageVector
     get() {
         if (_messageSquare != null) {
             return _messageSquare!!
         }
-        _messageSquare = VectorAssetBuilder(name = "MessageSquare", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _messageSquare = Builder(name = "MessageSquare", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF231f20)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -78,4 +78,4 @@ public val OutlineGroup.MessageSquare: VectorAsset
         return _messageSquare!!
     }
 
-private var _messageSquare: VectorAsset? = null
+private var _messageSquare: ImageVector? = null

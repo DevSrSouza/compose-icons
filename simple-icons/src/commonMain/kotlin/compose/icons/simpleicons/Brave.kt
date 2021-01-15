@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Brave: VectorAsset
+public val SimpleIcons.Brave: ImageVector
     get() {
         if (_brave != null) {
             return _brave!!
         }
-        _brave = VectorAssetBuilder(name = "Brave", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _brave = Builder(name = "Brave", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -110,4 +110,4 @@ public val SimpleIcons.Brave: VectorAsset
         return _brave!!
     }
 
-private var _brave: VectorAsset? = null
+private var _brave: ImageVector? = null

@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Zhihu: VectorAsset
+public val SimpleIcons.Zhihu: ImageVector
     get() {
         if (_zhihu != null) {
             return _zhihu!!
         }
-        _zhihu = VectorAssetBuilder(name = "Zhihu", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _zhihu = Builder(name = "Zhihu", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -79,4 +79,4 @@ public val SimpleIcons.Zhihu: VectorAsset
         return _zhihu!!
     }
 
-private var _zhihu: VectorAsset? = null
+private var _zhihu: ImageVector? = null

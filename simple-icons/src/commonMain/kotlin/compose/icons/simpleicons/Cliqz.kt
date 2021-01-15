@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Cliqz: VectorAsset
+public val SimpleIcons.Cliqz: ImageVector
     get() {
         if (_cliqz != null) {
             return _cliqz!!
         }
-        _cliqz = VectorAssetBuilder(name = "Cliqz", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _cliqz = Builder(name = "Cliqz", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -49,4 +49,4 @@ public val SimpleIcons.Cliqz: VectorAsset
         return _cliqz!!
     }
 
-private var _cliqz: VectorAsset? = null
+private var _cliqz: ImageVector? = null

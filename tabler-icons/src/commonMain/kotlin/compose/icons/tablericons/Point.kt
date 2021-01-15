@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Point: VectorAsset
+public val TablerIcons.Point: ImageVector
     get() {
         if (_point != null) {
             return _point!!
         }
-        _point = VectorAssetBuilder(name = "Point", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _point = Builder(name = "Point", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -31,4 +31,4 @@ public val TablerIcons.Point: VectorAsset
         return _point!!
     }
 
-private var _point: VectorAsset? = null
+private var _point: ImageVector? = null

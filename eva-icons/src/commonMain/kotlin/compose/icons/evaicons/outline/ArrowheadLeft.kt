@@ -8,19 +8,19 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.evaicons.OutlineGroup
 
-public val OutlineGroup.ArrowheadLeft: VectorAsset
+public val OutlineGroup.ArrowheadLeft: ImageVector
     get() {
         if (_arrowheadLeft != null) {
             return _arrowheadLeft!!
         }
-        _arrowheadLeft = VectorAssetBuilder(name = "ArrowheadLeft", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _arrowheadLeft = Builder(name = "ArrowheadLeft", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -63,4 +63,4 @@ public val OutlineGroup.ArrowheadLeft: VectorAsset
         return _arrowheadLeft!!
     }
 
-private var _arrowheadLeft: VectorAsset? = null
+private var _arrowheadLeft: ImageVector? = null

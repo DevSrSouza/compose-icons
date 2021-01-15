@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Kodi: VectorAsset
+public val SimpleIcons.Kodi: ImageVector
     get() {
         if (_kodi != null) {
             return _kodi!!
         }
-        _kodi = VectorAssetBuilder(name = "Kodi", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _kodi = Builder(name = "Kodi", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -83,4 +83,4 @@ public val SimpleIcons.Kodi: VectorAsset
         return _kodi!!
     }
 
-private var _kodi: VectorAsset? = null
+private var _kodi: ImageVector? = null

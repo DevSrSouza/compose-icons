@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.ArrowBottomSquare: VectorAsset
+public val TablerIcons.ArrowBottomSquare: ImageVector
     get() {
         if (_arrowBottomSquare != null) {
             return _arrowBottomSquare!!
         }
-        _arrowBottomSquare = VectorAssetBuilder(name = "ArrowBottomSquare", defaultWidth = 24.0.dp,
+        _arrowBottomSquare = Builder(name = "ArrowBottomSquare", defaultWidth = 24.0.dp,
                 defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -47,4 +47,4 @@ public val TablerIcons.ArrowBottomSquare: VectorAsset
         return _arrowBottomSquare!!
     }
 
-private var _arrowBottomSquare: VectorAsset? = null
+private var _arrowBottomSquare: ImageVector? = null

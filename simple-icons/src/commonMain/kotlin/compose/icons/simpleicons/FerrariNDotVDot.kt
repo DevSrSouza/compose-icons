@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.FerrariNDotVDot: VectorAsset
+public val SimpleIcons.FerrariNDotVDot: ImageVector
     get() {
         if (_ferrariNDotVDot != null) {
             return _ferrariNDotVDot!!
         }
-        _ferrariNDotVDot = VectorAssetBuilder(name = "FerrariNDotVDot", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _ferrariNDotVDot = Builder(name = "FerrariNDotVDot", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -175,4 +175,4 @@ public val SimpleIcons.FerrariNDotVDot: VectorAsset
         return _ferrariNDotVDot!!
     }
 
-private var _ferrariNDotVDot: VectorAsset? = null
+private var _ferrariNDotVDot: ImageVector? = null

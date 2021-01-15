@@ -3,7 +3,7 @@
 @file:Repository("https://jetbrains.bintray.com/trove4j")
 
 // svg-to-compose
-@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.4.0")
+@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.5.0")
 @file:DependsOn("com.google.guava:guava:23.0")
 @file:DependsOn("com.android.tools:sdk-common:27.2.0-alpha16")
 @file:DependsOn("com.android.tools:common:27.2.0-alpha16")
@@ -45,7 +45,7 @@ val ignoredIcons = listOf(
 )
 
 val icons = runBlocking {
-    ktorClient.get<SimpleIcons>("https://raw.githubusercontent.com/simple-icons/simple-icons/master/_data/simple-icons.json") {
+    ktorClient.get<SimpleIcons>("https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json") {
         accept(ContentType.Application.Json)
     }
 }.icons
@@ -110,7 +110,7 @@ val iconsFileNames = iconsNamesFixed
         sourceName to fileName
     }
 
-val svgBaseUrl = "https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/%s.svg"
+val svgBaseUrl = "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/%s.svg"
 
 val downloadDir = createTempDir(suffix = "downloaded-icons")
 
@@ -144,7 +144,7 @@ Svg2Compose.parse(
 println("Downloading LICENSE from the Icon pack")
 
 val license = runBlocking {
-    ktorClient.get<String>("https://raw.githubusercontent.com/simple-icons/simple-icons/master/LICENSE.md")
+    ktorClient.get<String>("https://raw.githubusercontent.com/simple-icons/simple-icons/develop/LICENSE.md")
 }
 
 val resDir = File("src/commonMain/resources").apply { mkdirs() }

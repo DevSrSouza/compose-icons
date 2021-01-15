@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Dolby: VectorAsset
+public val SimpleIcons.Dolby: ImageVector
     get() {
         if (_dolby != null) {
             return _dolby!!
         }
-        _dolby = VectorAssetBuilder(name = "Dolby", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _dolby = Builder(name = "Dolby", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -47,4 +47,4 @@ public val SimpleIcons.Dolby: VectorAsset
         return _dolby!!
     }
 
-private var _dolby: VectorAsset? = null
+private var _dolby: ImageVector? = null

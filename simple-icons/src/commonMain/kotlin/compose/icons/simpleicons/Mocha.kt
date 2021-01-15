@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Mocha: VectorAsset
+public val SimpleIcons.Mocha: ImageVector
     get() {
         if (_mocha != null) {
             return _mocha!!
         }
-        _mocha = VectorAssetBuilder(name = "Mocha", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _mocha = Builder(name = "Mocha", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -68,4 +68,4 @@ public val SimpleIcons.Mocha: VectorAsset
         return _mocha!!
     }
 
-private var _mocha: VectorAsset? = null
+private var _mocha: ImageVector? = null

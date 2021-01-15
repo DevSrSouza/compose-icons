@@ -12,7 +12,6 @@ kotlin {
     jvm("desktop") {
         compilations.all {
             kotlinOptions.jvmTarget = "1.8"
-
         }
     }
     sourceSets {
@@ -20,7 +19,7 @@ kotlin {
             dependencies {
                 api(compose.runtime)
                 api(compose.foundation)
-                api(compose.material)
+                api(compose.ui)
             }
         }
         val androidMain by getting

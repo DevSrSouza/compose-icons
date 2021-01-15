@@ -1,6 +1,6 @@
 package compose.icons
 
-import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.ImageVector
 import compose.icons.feathericons.Activity
 import compose.icons.feathericons.Airplay
 import compose.icons.feathericons.AlertCircle
@@ -291,9 +291,9 @@ import kotlin.collections.List as ____KtList
 
 public object FeatherIcons
 
-private var __AllIcons: ____KtList<VectorAsset>? = null
+private var __AllIcons: ____KtList<ImageVector>? = null
 
-public val FeatherIcons.AllIcons: ____KtList<VectorAsset>
+public val FeatherIcons.AllIcons: ____KtList<ImageVector>
   get() {
     if (__AllIcons != null) {
       return __AllIcons!!

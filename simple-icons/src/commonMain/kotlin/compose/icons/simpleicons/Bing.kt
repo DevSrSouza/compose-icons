@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Bing: VectorAsset
+public val SimpleIcons.Bing: ImageVector
     get() {
         if (_bing != null) {
             return _bing!!
         }
-        _bing = VectorAssetBuilder(name = "Bing", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _bing = Builder(name = "Bing", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -39,4 +39,4 @@ public val SimpleIcons.Bing: VectorAsset
         return _bing!!
     }
 
-private var _bing: VectorAsset? = null
+private var _bing: ImageVector? = null

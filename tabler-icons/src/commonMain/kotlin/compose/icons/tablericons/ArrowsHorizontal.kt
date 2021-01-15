@@ -7,19 +7,19 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.ArrowsHorizontal: VectorAsset
+public val TablerIcons.ArrowsHorizontal: ImageVector
     get() {
         if (_arrowsHorizontal != null) {
             return _arrowsHorizontal!!
         }
-        _arrowsHorizontal = VectorAssetBuilder(name = "ArrowsHorizontal", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _arrowsHorizontal = Builder(name = "ArrowsHorizontal", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -45,4 +45,4 @@ public val TablerIcons.ArrowsHorizontal: VectorAsset
         return _arrowsHorizontal!!
     }
 
-private var _arrowsHorizontal: VectorAsset? = null
+private var _arrowsHorizontal: ImageVector? = null

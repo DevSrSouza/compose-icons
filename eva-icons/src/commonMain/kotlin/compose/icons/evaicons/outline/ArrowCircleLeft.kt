@@ -8,19 +8,19 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.evaicons.OutlineGroup
 
-public val OutlineGroup.ArrowCircleLeft: VectorAsset
+public val OutlineGroup.ArrowCircleLeft: ImageVector
     get() {
         if (_arrowCircleLeft != null) {
             return _arrowCircleLeft!!
         }
-        _arrowCircleLeft = VectorAssetBuilder(name = "ArrowCircleLeft", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _arrowCircleLeft = Builder(name = "ArrowCircleLeft", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -70,4 +70,4 @@ public val OutlineGroup.ArrowCircleLeft: VectorAsset
         return _arrowCircleLeft!!
     }
 
-private var _arrowCircleLeft: VectorAsset? = null
+private var _arrowCircleLeft: ImageVector? = null

@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Inbox: VectorAsset
+public val TablerIcons.Inbox: ImageVector
     get() {
         if (_inbox != null) {
             return _inbox!!
         }
-        _inbox = VectorAssetBuilder(name = "Inbox", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _inbox = Builder(name = "Inbox", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -49,4 +49,4 @@ public val TablerIcons.Inbox: VectorAsset
         return _inbox!!
     }
 
-private var _inbox: VectorAsset? = null
+private var _inbox: ImageVector? = null

@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Gimp: VectorAsset
+public val SimpleIcons.Gimp: ImageVector
     get() {
         if (_gimp != null) {
             return _gimp!!
         }
-        _gimp = VectorAssetBuilder(name = "Gimp", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _gimp = Builder(name = "Gimp", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -102,4 +102,4 @@ public val SimpleIcons.Gimp: VectorAsset
         return _gimp!!
     }
 
-private var _gimp: VectorAsset? = null
+private var _gimp: ImageVector? = null

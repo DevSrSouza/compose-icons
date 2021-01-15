@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Moon2: VectorAsset
+public val TablerIcons.Moon2: ImageVector
     get() {
         if (_moon2 != null) {
             return _moon2!!
         }
-        _moon2 = VectorAssetBuilder(name = "Moon2", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _moon2 = Builder(name = "Moon2", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -39,4 +39,4 @@ public val TablerIcons.Moon2: VectorAsset
         return _moon2!!
     }
 
-private var _moon2: VectorAsset? = null
+private var _moon2: ImageVector? = null

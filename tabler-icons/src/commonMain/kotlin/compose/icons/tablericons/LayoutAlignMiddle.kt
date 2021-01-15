@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.LayoutAlignMiddle: VectorAsset
+public val TablerIcons.LayoutAlignMiddle: ImageVector
     get() {
         if (_layoutAlignMiddle != null) {
             return _layoutAlignMiddle!!
         }
-        _layoutAlignMiddle = VectorAssetBuilder(name = "LayoutAlignMiddle", defaultWidth = 24.0.dp,
+        _layoutAlignMiddle = Builder(name = "LayoutAlignMiddle", defaultWidth = 24.0.dp,
                 defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -51,4 +51,4 @@ public val TablerIcons.LayoutAlignMiddle: VectorAsset
         return _layoutAlignMiddle!!
     }
 
-private var _layoutAlignMiddle: VectorAsset? = null
+private var _layoutAlignMiddle: ImageVector? = null

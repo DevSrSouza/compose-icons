@@ -1,6 +1,6 @@
 package compose.icons
 
-import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.ImageVector
 import compose.icons.tablericons.AB
 import compose.icons.tablericons.AccessPoint
 import compose.icons.tablericons.AccessPointOff
@@ -999,9 +999,9 @@ import kotlin.collections.List as ____KtList
 
 public object TablerIcons
 
-private var __AllIcons: ____KtList<VectorAsset>? = null
+private var __AllIcons: ____KtList<ImageVector>? = null
 
-public val TablerIcons.AllIcons: ____KtList<VectorAsset>
+public val TablerIcons.AllIcons: ____KtList<ImageVector>
   get() {
     if (__AllIcons != null) {
       return __AllIcons!!

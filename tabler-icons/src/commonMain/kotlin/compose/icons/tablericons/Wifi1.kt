@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.TablerIcons
 
-public val TablerIcons.Wifi1: VectorAsset
+public val TablerIcons.Wifi1: ImageVector
     get() {
         if (_wifi1 != null) {
             return _wifi1!!
         }
-        _wifi1 = VectorAssetBuilder(name = "Wifi1", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _wifi1 = Builder(name = "Wifi1", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -37,4 +37,4 @@ public val TablerIcons.Wifi1: VectorAsset
         return _wifi1!!
     }
 
-private var _wifi1: VectorAsset? = null
+private var _wifi1: ImageVector? = null

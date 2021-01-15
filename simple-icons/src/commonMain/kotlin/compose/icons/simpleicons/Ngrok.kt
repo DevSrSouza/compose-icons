@@ -5,18 +5,18 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.Ngrok: VectorAsset
+public val SimpleIcons.Ngrok: ImageVector
     get() {
         if (_ngrok != null) {
             return _ngrok!!
         }
-        _ngrok = VectorAssetBuilder(name = "Ngrok", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _ngrok = Builder(name = "Ngrok", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -142,4 +142,4 @@ public val SimpleIcons.Ngrok: VectorAsset
         return _ngrok!!
     }
 
-private var _ngrok: VectorAsset? = null
+private var _ngrok: ImageVector? = null

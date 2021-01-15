@@ -5,20 +5,20 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.OpenContainersInitiative: VectorAsset
+public val SimpleIcons.OpenContainersInitiative: ImageVector
     get() {
         if (_openContainersInitiative != null) {
             return _openContainersInitiative!!
         }
-        _openContainersInitiative = VectorAssetBuilder(name = "OpenContainersInitiative",
-                defaultWidth = 24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 24.0f,
-                viewportHeight = 24.0f).apply {
+        _openContainersInitiative = Builder(name = "OpenContainersInitiative", defaultWidth =
+                24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight =
+                24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -58,4 +58,4 @@ public val SimpleIcons.OpenContainersInitiative: VectorAsset
         return _openContainersInitiative!!
     }
 
-private var _openContainersInitiative: VectorAsset? = null
+private var _openContainersInitiative: ImageVector? = null

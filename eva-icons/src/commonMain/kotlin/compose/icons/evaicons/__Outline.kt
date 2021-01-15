@@ -1,6 +1,6 @@
 package compose.icons.evaicons
 
-import androidx.compose.ui.graphics.vector.VectorAsset
+import androidx.compose.ui.graphics.vector.ImageVector
 import compose.icons.EvaIcons
 import compose.icons.evaicons.outline.Activity
 import compose.icons.evaicons.outline.AlertCircle
@@ -253,9 +253,9 @@ public object OutlineGroup
 public val EvaIcons.Outline: OutlineGroup
   get() = OutlineGroup
 
-private var __AllIcons: ____KtList<VectorAsset>? = null
+private var __AllIcons: ____KtList<ImageVector>? = null
 
-public val OutlineGroup.AllIcons: ____KtList<VectorAsset>
+public val OutlineGroup.AllIcons: ____KtList<ImageVector>
   get() {
     if (__AllIcons != null) {
       return __AllIcons!!

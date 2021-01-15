@@ -8,19 +8,19 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.evaicons.FillGroup
 
-public val FillGroup.Droplet: VectorAsset
+public val FillGroup.Droplet: ImageVector
     get() {
         if (_droplet != null) {
             return _droplet!!
         }
-        _droplet = VectorAssetBuilder(name = "Droplet", defaultWidth = 24.2.dp, defaultHeight =
-                24.2.dp, viewportWidth = 24.2f, viewportHeight = 24.2f).apply {
+        _droplet = Builder(name = "Droplet", defaultWidth = 24.2.dp, defaultHeight = 24.2.dp,
+                viewportWidth = 24.2f, viewportHeight = 24.2f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -50,4 +50,4 @@ public val FillGroup.Droplet: VectorAsset
         return _droplet!!
     }
 
-private var _droplet: VectorAsset? = null
+private var _droplet: ImageVector? = null

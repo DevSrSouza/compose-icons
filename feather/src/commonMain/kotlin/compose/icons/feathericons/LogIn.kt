@@ -7,18 +7,18 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Round
 import androidx.compose.ui.graphics.StrokeJoin
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.FeatherIcons
 
-public val FeatherIcons.LogIn: VectorAsset
+public val FeatherIcons.LogIn: ImageVector
     get() {
         if (_logIn != null) {
             return _logIn!!
         }
-        _logIn = VectorAssetBuilder(name = "LogIn", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _logIn = Builder(name = "LogIn", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -48,4 +48,4 @@ public val FeatherIcons.LogIn: VectorAsset
         return _logIn!!
     }
 
-private var _logIn: VectorAsset? = null
+private var _logIn: ImageVector? = null

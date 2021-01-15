@@ -5,19 +5,19 @@ import androidx.compose.ui.graphics.PathFillType.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Miter
-import androidx.compose.ui.graphics.vector.VectorAsset
-import androidx.compose.ui.graphics.vector.VectorAssetBuilder
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.GnuPrivacyGuard: VectorAsset
+public val SimpleIcons.GnuPrivacyGuard: ImageVector
     get() {
         if (_gnuPrivacyGuard != null) {
             return _gnuPrivacyGuard!!
         }
-        _gnuPrivacyGuard = VectorAssetBuilder(name = "GnuPrivacyGuard", defaultWidth = 24.0.dp,
-                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+        _gnuPrivacyGuard = Builder(name = "GnuPrivacyGuard", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -110,4 +110,4 @@ public val SimpleIcons.GnuPrivacyGuard: VectorAsset
         return _gnuPrivacyGuard!!
     }
 
-private var _gnuPrivacyGuard: VectorAsset? = null
+private var _gnuPrivacyGuard: ImageVector? = null
