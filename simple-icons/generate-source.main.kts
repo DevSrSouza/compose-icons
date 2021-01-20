@@ -44,8 +44,11 @@ val ignoredIcons = listOf(
     "Elsevier"
 )
 
+val version = "4.7.0"
+val repository = "https://raw.githubusercontent.com/simple-icons/simple-icons/$version"
+
 val icons = runBlocking {
-    ktorClient.get<SimpleIcons>("https://raw.githubusercontent.com/simple-icons/simple-icons/develop/_data/simple-icons.json") {
+    ktorClient.get<SimpleIcons>("$repository/_data/simple-icons.json") {
         accept(ContentType.Application.Json)
     }
 }.icons
@@ -110,7 +113,7 @@ val iconsFileNames = iconsNamesFixed
         sourceName to fileName
     }
 
-val svgBaseUrl = "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/%s.svg"
+val svgBaseUrl = "$repository/icons/%s.svg"
 
 val downloadDir = createTempDir(suffix = "downloaded-icons")
 
@@ -129,6 +132,8 @@ runBlocking {
 }
 
 val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
+srcDir.deleteRecursively()
+srcDir.mkdirs()
 
 println("Generating all svg to compose")
 
@@ -144,7 +149,7 @@ Svg2Compose.parse(
 println("Downloading LICENSE from the Icon pack")
 
 val license = runBlocking {
-    ktorClient.get<String>("https://raw.githubusercontent.com/simple-icons/simple-icons/develop/LICENSE.md")
+    ktorClient.get<String>("$repository/LICENSE.md")
 }
 
 val resDir = File("src/commonMain/resources").apply { mkdirs() }

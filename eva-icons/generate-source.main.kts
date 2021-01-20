@@ -26,14 +26,16 @@ fun File.makeDirs() = apply { mkdirs() }
 val buildDir = File("build/").makeDirs()
 
 val repository = "https://github.com/akveo/eva-icons/"
+val version = "v1.1.3"
 
 val repoCloneDir = createTempDir(suffix = "eva-git-repo")
 
 println("Cloning repository")
-Git.cloneRepository()
+val git = Git.cloneRepository()
     .setURI(repository)
     .setDirectory(repoCloneDir)
     .call()
+git.checkout().setName("refs/tags/$version").call()
 
 val repoIcons = File(repoCloneDir, "package/icons")
 
@@ -49,6 +51,8 @@ iconsDir.walkTopDown().filter { it.extension == "svg" }
     }
 
 val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
+srcDir.deleteRecursively()
+srcDir.mkdirs()
 
 fun String.removeSuffix(suffix: String, ignoreCase: Boolean): String {
     if(ignoreCase) {

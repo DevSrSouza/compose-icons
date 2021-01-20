@@ -17,8 +17,6 @@
 
 import br.com.devsrsouza.svg2compose.Svg2Compose
 import br.com.devsrsouza.svg2compose.VectorType
-import kotlinx.coroutines.async
-import kotlinx.coroutines.runBlocking
 import org.eclipse.jgit.api.Git
 import java.io.File
 
@@ -26,15 +24,17 @@ fun File.makeDirs() = apply { mkdirs() }
 
 val buildDir = File("build/").makeDirs()
 
-val featherRepository = "https://github.com/feathericons/feather.git"
+val repository = "https://github.com/feathericons/feather.git"
+val version = "v4.28.0"
 
 val repoCloneDir = createTempDir(suffix = "feather-git-repo")
 
 println("Cloning feather repository")
-Git.cloneRepository()
-    .setURI(featherRepository)
+val git = Git.cloneRepository()
+    .setURI(repository)
     .setDirectory(repoCloneDir)
     .call()
+git.checkout().setName("refs/tags/$version").call()
 
 val iconsDir = File(repoCloneDir, "icons")
 
@@ -46,6 +46,8 @@ iconsDir.listFiles().filter { it.extension == "svg" }
     }
 
 val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
+srcDir.deleteRecursively()
+srcDir.mkdirs()
 
 println("Generating all svg to compose")
 

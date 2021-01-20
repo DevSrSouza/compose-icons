@@ -25,14 +25,16 @@ fun File.makeDirs() = apply { mkdirs() }
 val buildDir = File("build/").makeDirs()
 
 val repository = "https://github.com/tabler/tabler-icons.git"
+val version = "v1.38.1"
 
 val repoCloneDir = createTempDir(suffix = "tabler-git-repo")
 
 println("Cloning tabler-icons repository")
-Git.cloneRepository()
+val git = Git.cloneRepository()
     .setURI(repository)
     .setDirectory(repoCloneDir)
     .call()
+git.checkout().setName("refs/tags/$version").call()
 
 val iconsDir = File(repoCloneDir, "icons")
 
@@ -44,6 +46,8 @@ iconsDir.listFiles().filter { it.extension == "svg" }
     }
 
 val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
+srcDir.deleteRecursively()
+srcDir.mkdirs()
 
 println("Generating all svg to compose")
 

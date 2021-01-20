@@ -6,12 +6,12 @@ Compose icons is a pack of libraries that provide well known Icon Packs to use i
 
 ## Icon Packs
 
-| Icon pack | Dependency | Code accessor |
+| Icon pack | Icon Version | Dependency | Code accessor |
 | --- | --- | --- |
-| [Simple-Icons](https://simpleicons.org/) | TODO | SimpleIcons |
-| [Feather](https://feathericons.com/) | TODO | FeatherIcons |
-| [Tabler Icons](https://github.com/tabler/tabler-icons) | TODO | TablerIcons |
-| [Eva Icons](https://github.com/akveo/eva-icons/) | TODO | EvaIcons |
+| [Simple-Icons](https://simpleicons.org/) | 4.7.0 | TODO | SimpleIcons |
+| [Feather](https://feathericons.com/) | 4.28.0 | TODO | FeatherIcons |
+| [Tabler Icons](https://github.com/tabler/tabler-icons) | 1.38.1 | TODO | TablerIcons |
+| [Eva Icons](https://github.com/akveo/eva-icons/) | 1.1.3 | TODO | EvaIcons |
 
 ## How the project works
 
