@@ -1,17 +1,43 @@
-# compose-icons
+# [compose-icons](https://github.com/DevSrSouza/compose-icons)
 
 Compose icons is a pack of libraries that provide well known Icon Packs to use in Jetpack Compose Multiplatform (it works on Desktop and Android).
 
+Currently, the Jetpack Compose(Android) and Jetbrains Compose (Desktop/Multiplatform) are a separated artifact and builds, this means that for the library to support both is need artifacts for both.
+
+In the future, when Compose Desktop and Android use the same artifact, the project will migrate to it and use only one artifact for both. 
+
 ![](https://i.imgur.com/tkN9U0B.png)
+
+## Compose versions
+
+- Jetpack Compose (Android): `1.0.0-aplha10`
+- Jetbrains Compose (Desktop): `0.3.0-build140`
+
+## Adding to your project
+
+Add the project repository:
+```kotlin
+repositories {
+    maven("https://dl.bintray.com/devsrsouza/compose")
+}
+```
+
+For [Jetpack Compose (Android)](https://developer.android.com/jetpack/compose)
+
+`implementation("compose.icons.android:ICON_PACK:0.1.0-SNAPSHOT")`
+
+For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/)
+
+`implementation("compose.icons.jetbrains:ICON_PACK:0.1.0-SNAPSHOT")`
 
 ## Icon Packs
 
 | Icon pack | Icon Version | Dependency | Code accessor |
-| --- | --- | --- |
-| [Simple-Icons](https://simpleicons.org/) | 4.7.0 | TODO | SimpleIcons |
-| [Feather](https://feathericons.com/) | 4.28.0 | TODO | FeatherIcons |
-| [Tabler Icons](https://github.com/tabler/tabler-icons) | 1.38.1 | TODO | TablerIcons |
-| [Eva Icons](https://github.com/akveo/eva-icons/) | 1.1.3 | TODO | EvaIcons |
+| --- | --- | --- | --- |
+| [Simple-Icons](https://simpleicons.org/) | 4.7.0 | `simple-icons` | SimpleIcons |
+| [Feather](https://feathericons.com/) | 4.28.0 | `feather` | FeatherIcons |
+| [Tabler Icons](https://github.com/tabler/tabler-icons) | 1.38.1 | `tabler-icons` | TablerIcons |
+| [Eva Icons](https://github.com/akveo/eva-icons/) | 1.1.3 | `eva-icons` | EvaIcons |
 
 ## How the project works
 
