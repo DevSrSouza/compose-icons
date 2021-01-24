@@ -1,9 +1,9 @@
 import org.jetbrains.compose.compose
 
 plugins {
+    id("com.android.library")
     kotlin("multiplatform")
     id("org.jetbrains.compose") version Versions.composeDesktopVersion
-    id("com.android.library")
 }
 
 group = "compose.icons.jetbrains"
@@ -21,7 +21,9 @@ android {
 }
 
 kotlin {
-    android()
+    android {
+        publishLibraryVariants("release")
+    }
     jvm("desktop") {
         compilations.all {
             kotlinOptions.jvmTarget = "1.8"
