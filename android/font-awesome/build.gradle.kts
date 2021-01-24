@@ -41,11 +41,17 @@ android {
     }
 }
 
+val sourcesJar by tasks.creating(Jar::class) {
+    archiveClassifier.set("sources")
+    from(android.sourceSets["main"].java.srcDirs)
+}
+
 afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("maven") {
                 from(components["release"])
+                artifact(sourcesJar)
             }
         }
     }
