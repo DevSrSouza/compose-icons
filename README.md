@@ -1,6 +1,6 @@
 # [compose-icons](https://github.com/DevSrSouza/compose-icons)
 
-Compose icons is a pack of libraries that provide well known Icon Packs to use in Jetpack Compose Multiplatform (it works on Desktop and Android).
+Compose icons is a pack of libraries that provide well known Icon Packs to use in Jetpack Compose Multiplatform (it works on Desktop and Android). The library usage is similar to Compose Material Icons.
 
 Currently, the Jetpack Compose(Android) and Jetbrains Compose (Desktop/Multiplatform) are a separated artifact and builds, this means that for the library to support both is need artifacts for both.
 
