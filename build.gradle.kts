@@ -37,7 +37,6 @@ allprojects {
                 setUrl("https://api.bintray.com/maven/devsrsouza/compose/compose-icons/;publish=1;override=0")
 
                 credentials {
-                    println(bintrayUser)
                     username = bintrayUser
                     password = bintrayKey
                 }

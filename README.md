@@ -22,13 +22,15 @@ repositories {
 }
 ```
 
-For [Jetpack Compose (Android)](https://developer.android.com/jetpack/compose)
+For [Jetpack Compose (Android)](https://developer.android.com/jetpack/compose):
+```kotlin
+implementation("compose.icons.android:ICON_PACK:0.1.0-SNAPSHOT")
+```
 
-`implementation("compose.icons.android:ICON_PACK:0.1.0-SNAPSHOT")`
-
-For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/)
-
-`implementation("compose.icons.jetbrains:ICON_PACK:0.1.0-SNAPSHOT")`
+For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/):
+```kotlin
+implementation("compose.icons.jetbrains:ICON_PACK:0.1.0-SNAPSHOT")
+```
 
 ## Icon Packs
 
@@ -38,6 +40,7 @@ For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/)
 | [Feather](https://feathericons.com/) | 4.28.0 | `feather` | FeatherIcons |
 | [Tabler Icons](https://github.com/tabler/tabler-icons) | 1.38.1 | `tabler-icons` | TablerIcons |
 | [Eva Icons](https://github.com/akveo/eva-icons/) | 1.1.3 | `eva-icons` | EvaIcons |
+| [Font Awesome](https://fontawesome.com/) | 5.15.2 | `font-awesome` | FontAwesomeIcons |
 
 ## How the project works
 
@@ -45,4 +48,4 @@ The project uses Kotlin Scripting (main.kts) to download and generate the icons 
 
 ## Contribution
 
-If you know a free icon pack that the project could support, please, submit an issue :D
+If you know a icon pack that the project could support, please, submit an issue :D
