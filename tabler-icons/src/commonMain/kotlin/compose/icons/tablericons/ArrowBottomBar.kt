@@ -24,7 +24,7 @@ public val TablerIcons.ArrowBottomBar: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 3.0f)
-                lineTo(12.0f, 21.0f)
+                verticalLineToRelative(18.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -37,7 +37,7 @@ public val TablerIcons.ArrowBottomBar: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(9.0f, 3.0f)
-                lineTo(15.0f, 3.0f)
+                horizontalLineToRelative(6.0f)
             }
         }
         .build()

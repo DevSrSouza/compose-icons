@@ -23,24 +23,16 @@ public val TablerIcons.Strikethrough: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.0f, 12.0f)
-                lineTo(19.0f, 12.0f)
+                moveTo(7.0f, 5.0f)
+                verticalLineToRelative(9.0f)
+                arcToRelative(5.0f, 5.0f, 0.0f, false, false, 10.0f, 0.0f)
+                verticalLineToRelative(-9.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(16.0f, 6.5f)
-                arcToRelative(4.0f, 2.0f, 0.0f, false, false, -4.0f, -1.5f)
-                horizontalLineToRelative(-1.0f)
-                arcToRelative(3.5f, 3.5f, 0.0f, false, false, 0.0f, 7.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(16.5f, 16.0f)
-                arcToRelative(3.5f, 3.5f, 0.0f, false, true, -3.5f, 3.0f)
-                horizontalLineToRelative(-1.5f)
-                arcToRelative(4.0f, 2.0f, 0.0f, false, true, -4.0f, -1.5f)
+                moveTo(4.0f, 12.0f)
+                horizontalLineToRelative(16.0f)
             }
         }
         .build()

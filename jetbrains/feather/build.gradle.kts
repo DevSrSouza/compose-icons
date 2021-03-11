@@ -34,6 +34,7 @@ kotlin {
 
         val commonMain by getting {
             kotlin.srcDir("../../feather/src/commonMain/kotlin")
+            resources.srcDir("../../feather/src/commonMain/resources")
             dependencies {
                 api(compose.runtime)
                 api(compose.foundation)

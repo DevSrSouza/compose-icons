@@ -24,19 +24,20 @@ public val TablerIcons.ColorPicker: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(11.0f, 7.0f)
-                lineTo(17.0f, 13.0f)
+                lineToRelative(6.0f, 6.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.0f, 19.0f)
-                verticalLineToRelative(-4.0f)
-                lineToRelative(9.7f, -9.7f)
+                moveTo(4.0f, 16.0f)
+                lineToRelative(11.7f, -11.7f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.4f, 0.0f)
                 lineToRelative(2.6f, 2.6f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, 0.0f, 1.4f)
-                lineToRelative(-9.7f, 9.7f)
+                lineToRelative(-11.7f, 11.7f)
                 horizontalLineToRelative(-4.0f)
+                verticalLineToRelative(-4.0f)
+                close()
             }
         }
         .build()

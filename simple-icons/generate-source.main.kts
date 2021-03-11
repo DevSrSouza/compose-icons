@@ -1,135 +1,108 @@
 @file:Repository("https://jitpack.io")
 @file:Repository("https://maven.google.com")
 @file:Repository("https://jetbrains.bintray.com/trove4j")
+@file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
-@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.5.0")
+//@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.5.0")
+@file:DependsOn("br.com.devsrsouza:svg-to-compose:0.6.0-SNAPSHOT")
 @file:DependsOn("com.google.guava:guava:23.0")
 @file:DependsOn("com.android.tools:sdk-common:27.2.0-alpha16")
 @file:DependsOn("com.android.tools:common:27.2.0-alpha16")
 @file:DependsOn("com.squareup:kotlinpoet:1.7.2")
 @file:DependsOn("org.ogce:xpp3:1.1.6")
 
-// ktor
-@file:DependsOn("io.ktor:ktor-client-core:1.4.0")
-@file:DependsOn("io.ktor:ktor-client-core-jvm:1.4.0")
-@file:DependsOn("io.ktor:ktor-client-apache:1.4.0")
-@file:DependsOn("io.ktor:ktor-client-json-jvm:1.4.0")
-@file:DependsOn("io.ktor:ktor-client-gson:1.4.0")
-@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
+// Jgit
+@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:3.5.0.201409260305-r")
 
+import br.com.devsrsouza.svg2compose.ParsingResult
 import br.com.devsrsouza.svg2compose.Svg2Compose
 import br.com.devsrsouza.svg2compose.VectorType
-import io.ktor.client.*
-import io.ktor.client.engine.apache.*
-import io.ktor.client.features.json.*
-import io.ktor.client.request.*
-import io.ktor.http.*
-import kotlinx.coroutines.async
-import kotlinx.coroutines.runBlocking
+import com.google.gson.Gson
+import org.eclipse.jgit.api.Git
 import java.io.File
+import java.text.Normalizer
 
-val ktorClient = HttpClient(Apache) {
-    install(JsonFeature) {
-        serializer = GsonSerializer()
-        acceptContentTypes += ContentType.Text.Plain
-    }
+fun File.makeDirs() = apply { mkdirs() }
 
-}
-
-data class Icon(var title: String, var hex: String, var source: String)
+data class Icon(var title: String, var slug: String?, var hex: String, var source: String)
 data class SimpleIcons(var icons: List<Icon>)
 
 val ignoredIcons = listOf(
     "Elsevier"
 )
 
-val version = "4.7.0"
-val repository = "https://raw.githubusercontent.com/simple-icons/simple-icons/$version"
+val githubId = "simple-icons/simple-icons"
+val repository = "https://github.com/$githubId/"
+val version = "4.14.0"
+val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
 
-val icons = runBlocking {
-    ktorClient.get<SimpleIcons>("$repository/_data/simple-icons.json") {
-        accept(ContentType.Application.Json)
-    }
-}.icons
+val repoCloneDir = createTempDir(suffix = "git-repo-simpleicons")
 
-val replaces2 = listOf(
-    "+" to "plus",
-    "." to "-dot-",
-    "&" to "-and-",
-    "!" to "",
-    ":" to "",
-    "’" to "",
-    "'" to "",
-    "°" to ""
-)
+println("Cloning repository")
+val git = Git.cloneRepository()
+    .setURI(repository)
+    .setDirectory(repoCloneDir)
+    .call()
+git.checkout().setName("refs/tags/$version").call()
 
-val replaces = listOf(
-    "à" to "a",
-    "á" to "a",
-    "â" to "a",
-    "ã" to "a",
-    "ä" to "a",
-    "ç" to "c",
-    "č" to "c",
-    "ć" to "c",
-    "è" to "e",
-    "é" to "e",
-    "ê" to "e",
-    "ë" to "e",
-    "ì" to "i",
-    "í" to "i",
-    "î" to "i",
-    "ï" to "i",
-    "ñ" to "n",
-    "ň" to "n",
-    "ń" to "n",
-    "ò" to "o",
-    "ó" to "o",
-    "ô" to "o",
-    "õ" to "o",
-    "ö" to "o",
-    "š" to "s",
-    "ś" to "s",
-    "ù" to "u",
-    "ú" to "u",
-    "û" to "u",
-    "ü" to "u",
-    "ý" to "y",
-    "ÿ" to "y",
-    "ž" to "z",
-    "ź" to "z"
-) + replaces2
+val iconsJsonFile = File(repoCloneDir, "_data/simple-icons.json")
 
-val iconsNamesFixed = icons.map { it.title }
-    .map { it.toLowerCase() }
-    .map { replaces.fold(it) { acc, pair -> acc.replace(pair.first, pair.second, ignoreCase=true)} }
-    .map { it.removePrefix("-").removeSuffix("-") }
+val icons = Gson().fromJson<SimpleIcons>(iconsJsonFile.readText(), SimpleIcons::class.java).icons
 
+fun String.normalize(form: Normalizer.Form): String {
+    return Normalizer.normalize(this, form)
+}
+
+fun iconTitleToSlug(title: String): String {
+    return title.toLowerCase()
+        .replace("\\+".toRegex(), "plus")
+        .replace("^\\.".toRegex(), "dot-")
+        .replace("\\.$".toRegex(), "-dot")
+        .replace("\\.".toRegex(), "-dot-")
+        .replace("^&".toRegex(), "and-")
+        .replace("&$".toRegex(), "-and")
+        .replace("&".toRegex(), "-and-")
+        .replace("đ".toRegex(), "d")
+        .replace("ħ".toRegex(), "h")
+        .replace("ı".toRegex(), "i")
+        .replace("ĸ".toRegex(), "k")
+        .replace("ŀ".toRegex(), "l")
+        .replace("ł".toRegex(), "l")
+        .replace("ß".toRegex(), "ss")
+        .replace("ŧ".toRegex(), "t")
+        .normalize(Normalizer.Form.NFD)
+        .replace("[\u0300-\u036f]".toRegex(), "")
+        .replace("[^a-z0-9\\-]".toRegex(), "")
+}
+
+val iconsNamesFixed = icons.map { if(it.slug != null) it.slug!! else iconTitleToSlug(it.title) }
+
+val iconsDir = File(repoCloneDir, "icons")
 val iconsFileNames = iconsNamesFixed
-    .map {
-        val sourceName = it.replace(" ", "_").replace("-", "_")
-        val fileName = it.replace(" ", "")
+    .associate {
+        val sourceName = it.replace(" ", "_").replace("-", "_") + ".svg"
+        val fileName = it.replace(" ", "") + ".svg"
+
+        File(iconsDir, fileName).renameTo(File(iconsDir, sourceName))
+
         sourceName to fileName
     }
-
-val svgBaseUrl = "$repository/icons/%s.svg"
-
-val downloadDir = createTempDir(suffix = "downloaded-icons")
-
-runBlocking {
-    iconsFileNames
-        .filterNot {
-            ignoredIcons.any { ignored -> it.first.contains(ignored, ignoreCase = true) }
-        }
-        .forEach {
-            async {
-                val result = ktorClient.get<ByteArray>(svgBaseUrl.format(it.second))
-                println("Finish download ${it.second}")
-                File(downloadDir, "${it.first}.svg").writeBytes(result)
+    .apply {
+        forEach {
+            if (ignoredIcons.any { ignored -> it.value.contains(ignored, ignoreCase = true) }) {
+                File(iconsDir, it.value).delete()
+                println("Removed ignored icon: ${it.key}")
             }
         }
+    }
+
+fun replacePathName(path: String): String {
+    val iconName = path.substringAfterLast('/')
+    return path.replace(iconName, iconsFileNames[iconName]!!)
 }
+
+val svgBaseUrl = "$rawGithubRepository/icons/%s.svg"
 
 val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
 srcDir.deleteRecursively()
@@ -137,21 +110,88 @@ srcDir.mkdirs()
 
 println("Generating all svg to compose")
 
-Svg2Compose.parse(
+val result = Svg2Compose.parse(
     applicationIconPackage = "compose.icons",
     accessorName = "SimpleIcons",
     outputSourceDirectory = srcDir,
-    vectorsDirectory = downloadDir,
+    vectorsDirectory = iconsDir,
     type = VectorType.SVG,
     allAssetsPropertyName = "AllIcons"
 )
 
-println("Downloading LICENSE from the Icon pack")
+println("Copying LICENSE from the Icon pack")
 
-val license = runBlocking {
-    ktorClient.get<String>("$repository/LICENSE.md")
+val licenseFile = File(repoCloneDir, "LICENSE.md")
+
+val resDir = File("src/commonMain/resources").makeDirs()
+val licenseInResource = File(resDir, "simpleicons-license.txt")
+
+licenseFile.copyTo(licenseInResource, overwrite = true)
+
+println("Generating documentation")
+
+data class DocumentationGroup(
+    val groupName: String,
+    val groupAccessingFormat: String,
+    val icons: List<DocumentationIcon>,
+)
+
+data class DocumentationIcon(
+    val accessingFormat: String,
+    val svgFilePathRelativeToRepository: String,
+)
+
+fun ParsingResult.asDocumentationGroupList(
+    previousAccessingGroupFormat: String? = null
+): List<DocumentationGroup> {
+    val accessingGroupFormat = if(previousAccessingGroupFormat != null)
+        "$previousAccessingGroupFormat.${groupName.second}"
+    else groupName.second
+
+    return listOf(asDocumentationGroup(accessingGroupFormat)) + generatedGroups.flatMap {
+        it.asDocumentationGroupList(accessingGroupFormat)
+    }
 }
 
-val resDir = File("src/commonMain/resources").apply { mkdirs() }
+fun ParsingResult.asDocumentationGroup(
+    accessingGroupFormat: String
+): DocumentationGroup {
+    return DocumentationGroup(
+        groupName = groupName.second,
+        groupAccessingFormat = accessingGroupFormat,
+        icons = generatedIconsMemberNames.map {
+            DocumentationIcon(
+                "$accessingGroupFormat.${it.value.simpleName}",
+                it.key.relativeTo(repoCloneDir).path
+            )
+        }
+    )
+}
 
-File(resDir, "simpleicons-license.txt").writeText(license)
+fun List<DocumentationIcon>.iconsTableDocumentation(): String = map {
+    "| ![](${rawGithubRepository + "/" + replacePathName(it.svgFilePathRelativeToRepository) }) | ${it.accessingFormat} |"
+}.joinToString("\n")
+
+val documentationGroups = result.asDocumentationGroupList()
+    .filter { it.icons.isNotEmpty() }
+    .map {
+        """
+            ## ${it.groupName}
+
+            | Icon | In Code |
+            | --- | --- |
+        """.trimIndent() + "\n" + it.icons.iconsTableDocumentation()
+    }.joinToString("\n<br /><br />\n")
+
+val header = """
+    # [Simple Icons](https://simpleicons.org/)
+
+    <br />
+
+""".trimIndent()
+
+File("DOCUMENTATION.md").apply{
+    if(exists().not()) createNewFile()
+}.writeText(
+    header + "\n" + documentationGroups
+)

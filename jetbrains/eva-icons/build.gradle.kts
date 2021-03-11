@@ -33,6 +33,7 @@ kotlin {
 
         val commonMain by getting {
             kotlin.srcDir("../../eva-icons/src/commonMain/kotlin")
+            resources.srcDir("../../eva-icons/src/commonMain/resources")
             dependencies {
                 api(compose.runtime)
                 api(compose.foundation)

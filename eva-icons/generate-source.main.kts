@@ -1,10 +1,11 @@
 @file:Repository("https://jitpack.io")
 @file:Repository("https://maven.google.com")
 @file:Repository("https://jetbrains.bintray.com/trove4j")
-//@file:Repository("file:///home/devsrsouza/.m2/repository")
+@file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
-@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.5.0")
+//@file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.5.0")
+@file:DependsOn("br.com.devsrsouza:svg-to-compose:0.6.0-SNAPSHOT")
 @file:DependsOn("com.google.guava:guava:23.0")
 @file:DependsOn("com.android.tools:sdk-common:27.2.0-alpha16")
 @file:DependsOn("com.android.tools:common:27.2.0-alpha16")
@@ -16,6 +17,7 @@
 // Jgit
 @file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:3.5.0.201409260305-r")
 
+import br.com.devsrsouza.svg2compose.ParsingResult
 import br.com.devsrsouza.svg2compose.Svg2Compose
 import br.com.devsrsouza.svg2compose.VectorType
 import org.eclipse.jgit.api.Git
@@ -25,8 +27,10 @@ fun File.makeDirs() = apply { mkdirs() }
 
 val buildDir = File("build/").makeDirs()
 
-val repository = "https://github.com/akveo/eva-icons/"
+val githubId = "akveo/eva-icons"
+val repository = "https://github.com/$githubId"
 val version = "v1.1.3"
+val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
 
 val repoCloneDir = createTempDir(suffix = "eva-git-repo")
 
@@ -42,6 +46,14 @@ val repoIcons = File(repoCloneDir, "package/icons")
 val iconsDir = File(repoCloneDir, "icons-to-build").makeDirs()
 File(repoIcons, "fill/svg").copyRecursively(File(iconsDir, "fill").makeDirs())
 File(repoIcons, "outline/svg").copyRecursively(File(iconsDir, "outline").makeDirs())
+
+fun replacePathName(path: String): String {
+    val iconName = path.substringAfterLast('/')
+    return path.replace("icons-to-build", "package/icons")
+        .replace(iconName, "svg/$iconName")
+        .replace("_", "-")
+}
+
 
 // renaming to match to svg-to-compose
 iconsDir.walkTopDown().filter { it.extension == "svg" }
@@ -66,7 +78,7 @@ fun String.removeSuffix(suffix: String, ignoreCase: Boolean): String {
 
 println("Generating all svg to compose")
 
-Svg2Compose.parse(
+val result = Svg2Compose.parse(
     applicationIconPackage = "compose.icons",
     accessorName = "EvaIcons",
     outputSourceDirectory = srcDir,
@@ -84,3 +96,71 @@ val resDir = File("src/commonMain/resources").makeDirs()
 val licenseInResource = File(resDir, "eva-license.txt")
 
 licenseFile.copyTo(licenseInResource, overwrite = true)
+
+println("Generating documentation")
+
+data class DocumentationGroup(
+    val groupName: String,
+    val groupAccessingFormat: String,
+    val icons: List<DocumentationIcon>,
+)
+
+data class DocumentationIcon(
+    val accessingFormat: String,
+    val svgFilePathRelativeToRepository: String,
+)
+
+fun ParsingResult.asDocumentationGroupList(
+    previousAccessingGroupFormat: String? = null
+): List<DocumentationGroup> {
+    val accessingGroupFormat = if(previousAccessingGroupFormat != null)
+        "$previousAccessingGroupFormat.${groupName.second}"
+    else groupName.second
+
+    return listOf(asDocumentationGroup(accessingGroupFormat)) + generatedGroups.flatMap {
+        it.asDocumentationGroupList(accessingGroupFormat)
+    }
+}
+
+fun ParsingResult.asDocumentationGroup(
+    accessingGroupFormat: String
+): DocumentationGroup {
+    return DocumentationGroup(
+        groupName = groupName.second,
+        groupAccessingFormat = accessingGroupFormat,
+        icons = generatedIconsMemberNames.map {
+            DocumentationIcon(
+                "$accessingGroupFormat.${it.value.simpleName}",
+                it.key.relativeTo(repoCloneDir).path
+            )
+        }
+    )
+}
+
+fun List<DocumentationIcon>.iconsTableDocumentation(): String = map {
+    "| ![](${rawGithubRepository + "/" + replacePathName(it.svgFilePathRelativeToRepository) }) | ${it.accessingFormat} |"
+}.joinToString("\n")
+
+val documentationGroups = result.asDocumentationGroupList()
+    .filter { it.icons.isNotEmpty() }
+    .map {
+        """
+            ## ${it.groupName}
+            
+            | Icon | In Code |
+            | --- | --- |
+        """.trimIndent() + "\n" + it.icons.iconsTableDocumentation()
+    }.joinToString("\n<br /><br />\n")
+
+val header = """
+    # [Eva Icons](https://akveo.github.io/eva-icons/)
+    
+    <br />
+    
+""".trimIndent()
+
+File("DOCUMENTATION.md").apply{
+    if(exists().not()) createNewFile()
+}.writeText(
+    header + "\n" + documentationGroups
+)

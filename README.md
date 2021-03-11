@@ -10,8 +10,8 @@ In the future, when Compose Desktop and Android use the same artifact, the proje
 
 ## Compose versions
 
-- Jetpack Compose (Android): `1.0.0-aplha10`
-- Jetbrains Compose (Desktop): `0.3.0-build140`
+- Jetpack Compose (Android): `1.0.0-beta01`
+- Jetbrains Compose (Desktop): `0.3.1`
 
 ## Adding to your project
 
@@ -32,15 +32,23 @@ For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/):
 implementation("compose.icons.jetbrains:ICON_PACK:0.1.0-SNAPSHOT")
 ```
 
+## Example
+
+```kotlin
+Icon(
+    imageVector = FontAwesomeIcons.Brands.Github,
+)
+```
+
 ## Icon Packs
 
-| Icon pack | Icon Version | Dependency | Code accessor |
+| Icon pack | Icon Version | Dependency | All Icons Docs |
 | --- | --- | --- | --- |
-| [Simple-Icons](https://simpleicons.org/) | 4.7.0 | `simple-icons` | SimpleIcons |
-| [Feather](https://feathericons.com/) | 4.28.0 | `feather` | FeatherIcons |
-| [Tabler Icons](https://github.com/tabler/tabler-icons) | 1.38.1 | `tabler-icons` | TablerIcons |
-| [Eva Icons](https://github.com/akveo/eva-icons/) | 1.1.3 | `eva-icons` | EvaIcons |
-| [Font Awesome](https://fontawesome.com/) | 5.15.2 | `font-awesome` | FontAwesomeIcons |
+| [Simple-Icons](https://simpleicons.org/) | 4.14.0 | `simple-icons` | [docs](simple-icons/DOCUMENTATION.md) |
+| [Feather](https://feathericons.com/) | 4.28.0 | `feather` | [docs](feather//DOCUMENTATION.md) |
+| [Tabler Icons](https://github.com/tabler/tabler-icons) | 1.39.1 | `tabler-icons` | [docs](tabler-icons/DOCUMENTATION.md) |
+| [Eva Icons](https://github.com/akveo/eva-icons/) | 1.1.3 | `eva-icons` | [docs](eva-icons/DOCUMENTATION.md) |
+| [Font Awesome](https://fontawesome.com/) | 5.15.2 | `font-awesome` | [docs](font-awesome/DOCUMENTATION.md) |
 
 ## How the project works
 

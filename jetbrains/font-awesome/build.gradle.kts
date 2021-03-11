@@ -34,6 +34,7 @@ kotlin {
 
         val commonMain by getting {
             kotlin.srcDir("../../font-awesome/src/commonMain/kotlin")
+            resources.srcDir("../../font-awesome/src/commonMain/resources")
             dependencies {
                 api(compose.runtime)
                 api(compose.foundation)

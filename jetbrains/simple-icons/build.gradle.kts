@@ -34,6 +34,7 @@ kotlin {
 
         val commonMain by getting {
             kotlin.srcDir("../../simple-icons/src/commonMain/kotlin")
+            resources.srcDir("../../simple-icons/src/commonMain/resources")
             dependencies {
                 api(compose.runtime)
                 api(compose.foundation)

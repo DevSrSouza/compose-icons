@@ -23,42 +23,51 @@ public val TablerIcons.Trees: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(8.0f, 3.0f)
-                lineTo(8.0f, 3.0f)
-                arcTo(4.0f, 4.0f, 0.0f, false, true, 12.0f, 7.0f)
-                lineTo(12.0f, 13.0f)
-                arcTo(4.0f, 4.0f, 0.0f, false, true, 8.0f, 17.0f)
-                lineTo(8.0f, 17.0f)
-                arcTo(4.0f, 4.0f, 0.0f, false, true, 4.0f, 13.0f)
-                lineTo(4.0f, 7.0f)
-                arcTo(4.0f, 4.0f, 0.0f, false, true, 8.0f, 3.0f)
-                close()
+                moveTo(16.0f, 5.0f)
+                lineToRelative(3.0f, 3.0f)
+                lineToRelative(-2.0f, 1.0f)
+                lineToRelative(4.0f, 4.0f)
+                lineToRelative(-3.0f, 1.0f)
+                lineToRelative(4.0f, 4.0f)
+                horizontalLineToRelative(-9.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.0f, 7.0f)
-                lineTo(17.0f, 7.0f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 20.0f, 10.0f)
-                lineTo(20.0f, 14.0f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 17.0f, 17.0f)
-                lineTo(15.0f, 17.0f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 12.0f, 14.0f)
-                lineTo(12.0f, 10.0f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 15.0f, 7.0f)
-                close()
+                moveTo(15.0f, 21.0f)
+                lineTo(15.0f, 18.0f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(8.0f, 13.0f)
+                lineToRelative(-2.0f, -2.0f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
+                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(8.0f, 12.0f)
+                lineToRelative(2.0f, -2.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.0f, 21.0f)
-                lineTo(8.0f, 13.0f)
+                verticalLineToRelative(-13.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(16.0f, 21.0f)
-                lineTo(16.0f, 14.0f)
+                moveTo(5.824f, 15.995f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, -2.743f, -3.69f)
+                arcToRelative(2.998f, 2.998f, 0.0f, false, true, 0.304f, -4.833f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, 4.615f, -3.707f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, 4.614f, 3.707f)
+                arcToRelative(2.997f, 2.997f, 0.0f, false, true, 0.305f, 4.833f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, -2.919f, 3.695f)
+                horizontalLineToRelative(0.001f)
+                horizontalLineToRelative(-4.0f)
+                close()
             }
         }
         .build()

@@ -22,8 +22,7 @@ public val SimpleIcons.Automatic: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(12.0f, 6.768f)
-                verticalLineToRelative(0.002f)
-                verticalLineToRelative(-1.237f)
+                verticalLineToRelative(-1.235f)
                 curveToRelative(-0.485f, 0.033f, -0.754f, 0.293f, -0.99f, 0.71f)
                 lineTo(5.87f, 16.72f)
                 horizontalLineToRelative(2.464f)

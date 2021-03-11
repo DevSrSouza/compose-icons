@@ -23,11 +23,11 @@ public val TablerIcons.Flame: ImageVector
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
                 curveToRelative(2.0f, -2.96f, 0.0f, -7.0f, -1.0f, -8.0f)
-                curveToRelative(0.0f, 3.038f, -1.762f, 4.383f, -2.989f, 5.642f)
-                curveToRelative(-1.226f, 1.26f, -2.011f, 2.598f, -2.011f, 4.358f)
+                curveToRelative(0.0f, 3.038f, -1.773f, 4.741f, -3.0f, 6.0f)
+                curveToRelative(-1.226f, 1.26f, -2.0f, 3.24f, -2.0f, 5.0f)
                 arcToRelative(6.0f, 6.0f, 0.0f, true, false, 12.0f, 0.0f)
-                curveToRelative(0.0f, -1.532f, -0.77f, -2.94f, -1.714f, -4.0f)
-                curveToRelative(-1.786f, 3.0f, -3.077f, 3.0f, -4.286f, 2.0f)
+                curveToRelative(0.0f, -1.532f, -1.056f, -3.94f, -2.0f, -5.0f)
+                curveToRelative(-1.786f, 3.0f, -2.791f, 3.0f, -4.0f, 2.0f)
                 close()
             }
         }

@@ -2,126 +2,146 @@ package compose.icons
 
 import androidx.compose.ui.graphics.vector.ImageVector
 import compose.icons.simpleicons.AFrame
-import compose.icons.simpleicons.AbbRobotstudio
+import compose.icons.simpleicons.Abbrobotstudio
 import compose.icons.simpleicons.Abbvie
-import compose.icons.simpleicons.AbletonLive
+import compose.icons.simpleicons.Abletonlive
 import compose.icons.simpleicons.AboutDotMe
 import compose.icons.simpleicons.Abstract
 import compose.icons.simpleicons.Academia
 import compose.icons.simpleicons.Accenture
+import compose.icons.simpleicons.Acclaim
 import compose.icons.simpleicons.Accusoft
 import compose.icons.simpleicons.Acer
 import compose.icons.simpleicons.Acm
 import compose.icons.simpleicons.Actigraph
 import compose.icons.simpleicons.Activision
 import compose.icons.simpleicons.Adblock
-import compose.icons.simpleicons.AdblockPlus
+import compose.icons.simpleicons.Adblockplus
 import compose.icons.simpleicons.Addthis
 import compose.icons.simpleicons.Adguard
 import compose.icons.simpleicons.Adobe
-import compose.icons.simpleicons.AdobeAcrobatReader
-import compose.icons.simpleicons.AdobeAfterEffects
-import compose.icons.simpleicons.AdobeAudition
-import compose.icons.simpleicons.AdobeCreativeCloud
-import compose.icons.simpleicons.AdobeDreamweaver
-import compose.icons.simpleicons.AdobeFonts
-import compose.icons.simpleicons.AdobeIllustrator
-import compose.icons.simpleicons.AdobeIndesign
-import compose.icons.simpleicons.AdobeLightroom
-import compose.icons.simpleicons.AdobeLightroomClassic
-import compose.icons.simpleicons.AdobePhonegap
-import compose.icons.simpleicons.AdobePhotoshop
-import compose.icons.simpleicons.AdobePremierePro
-import compose.icons.simpleicons.AdobeXd
+import compose.icons.simpleicons.Adobeacrobatreader
+import compose.icons.simpleicons.Adobeaftereffects
+import compose.icons.simpleicons.Adobeaudition
+import compose.icons.simpleicons.Adobecreativecloud
+import compose.icons.simpleicons.Adobedreamweaver
+import compose.icons.simpleicons.Adobefonts
+import compose.icons.simpleicons.Adobeillustrator
+import compose.icons.simpleicons.Adobeindesign
+import compose.icons.simpleicons.Adobelightroom
+import compose.icons.simpleicons.Adobelightroomclassic
+import compose.icons.simpleicons.Adobephonegap
+import compose.icons.simpleicons.Adobephotoshop
+import compose.icons.simpleicons.Adobepremierepro
+import compose.icons.simpleicons.Adobexd
 import compose.icons.simpleicons.Adonisjs
-import compose.icons.simpleicons.AerLingus
+import compose.icons.simpleicons.Aerlingus
+import compose.icons.simpleicons.Aeroflot
+import compose.icons.simpleicons.Aeromexico
+import compose.icons.simpleicons.Aerospike
 import compose.icons.simpleicons.Affinity
-import compose.icons.simpleicons.AffinityDesigner
-import compose.icons.simpleicons.AffinityPhoto
-import compose.icons.simpleicons.AffinityPublisher
-import compose.icons.simpleicons.AiDungeon
+import compose.icons.simpleicons.Affinitydesigner
+import compose.icons.simpleicons.Affinityphoto
+import compose.icons.simpleicons.Affinitypublisher
+import compose.icons.simpleicons.Aidungeon
 import compose.icons.simpleicons.Aiohttp
 import compose.icons.simpleicons.Aiqfome
-import compose.icons.simpleicons.AirCanada
-import compose.icons.simpleicons.AirFrance
+import compose.icons.simpleicons.Airasia
 import compose.icons.simpleicons.Airbnb
 import compose.icons.simpleicons.Airbus
 import compose.icons.simpleicons.Aircall
-import compose.icons.simpleicons.AirplayAudio
-import compose.icons.simpleicons.AirplayVideo
+import compose.icons.simpleicons.Aircanada
+import compose.icons.simpleicons.Airchina
+import compose.icons.simpleicons.Airfrance
+import compose.icons.simpleicons.Airplayaudio
+import compose.icons.simpleicons.Airplayvideo
 import compose.icons.simpleicons.Airtable
-import compose.icons.simpleicons.AlfaRomeo
+import compose.icons.simpleicons.Alfaromeo
 import compose.icons.simpleicons.Algolia
+import compose.icons.simpleicons.AlibabaDotCom
+import compose.icons.simpleicons.Alibabacloud
 import compose.icons.simpleicons.Aliexpress
 import compose.icons.simpleicons.Alipay
+import compose.icons.simpleicons.Alitalia
 import compose.icons.simpleicons.Alliedmodders
 import compose.icons.simpleicons.Allocine
-import compose.icons.simpleicons.AlpineLinux
-import compose.icons.simpleicons.AltiumDesigner
+import compose.icons.simpleicons.Alpinelinux
+import compose.icons.simpleicons.Altiumdesigner
 import compose.icons.simpleicons.Amazon
-import compose.icons.simpleicons.AmazonAlexa
-import compose.icons.simpleicons.AmazonAws
-import compose.icons.simpleicons.AmazonFireTv
-import compose.icons.simpleicons.AmazonLumberyard
-import compose.icons.simpleicons.AmazonPrime
+import compose.icons.simpleicons.Amazonalexa
+import compose.icons.simpleicons.Amazonaws
+import compose.icons.simpleicons.Amazondynamodb
+import compose.icons.simpleicons.Amazonfiretv
+import compose.icons.simpleicons.Amazonlumberyard
+import compose.icons.simpleicons.Amazonpay
+import compose.icons.simpleicons.Amazonprime
 import compose.icons.simpleicons.Amd
-import compose.icons.simpleicons.AmericanAirlines
-import compose.icons.simpleicons.AmericanExpress
+import compose.icons.simpleicons.Americanairlines
+import compose.icons.simpleicons.Americanexpress
+import compose.icons.simpleicons.Amp
+import compose.icons.simpleicons.Amul
+import compose.icons.simpleicons.Ana
 import compose.icons.simpleicons.Anaconda
 import compose.icons.simpleicons.Analogue
 import compose.icons.simpleicons.Anchor
 import compose.icons.simpleicons.Andela
 import compose.icons.simpleicons.Android
-import compose.icons.simpleicons.AndroidAuto
-import compose.icons.simpleicons.AndroidStudio
+import compose.icons.simpleicons.Androidauto
+import compose.icons.simpleicons.Androidstudio
 import compose.icons.simpleicons.Angellist
 import compose.icons.simpleicons.Angular
-import compose.icons.simpleicons.AngularUniversal
 import compose.icons.simpleicons.Angularjs
+import compose.icons.simpleicons.Angularuniversal
 import compose.icons.simpleicons.Anilist
 import compose.icons.simpleicons.Ansible
 import compose.icons.simpleicons.Ansys
-import compose.icons.simpleicons.AntDesign
+import compose.icons.simpleicons.Antdesign
 import compose.icons.simpleicons.Antena3
 import compose.icons.simpleicons.Anydesk
+import compose.icons.simpleicons.Aol
 import compose.icons.simpleicons.Apache
-import compose.icons.simpleicons.ApacheAirflow
-import compose.icons.simpleicons.ApacheAnt
-import compose.icons.simpleicons.ApacheCassandra
-import compose.icons.simpleicons.ApacheCloudstack
-import compose.icons.simpleicons.ApacheCordova
-import compose.icons.simpleicons.ApacheDruid
-import compose.icons.simpleicons.ApacheEcharts
-import compose.icons.simpleicons.ApacheFlink
-import compose.icons.simpleicons.ApacheGroovy
-import compose.icons.simpleicons.ApacheJmeter
-import compose.icons.simpleicons.ApacheKafka
-import compose.icons.simpleicons.ApacheKylin
-import compose.icons.simpleicons.ApacheMaven
-import compose.icons.simpleicons.ApacheNetbeansIde
-import compose.icons.simpleicons.ApacheOpenoffice
-import compose.icons.simpleicons.ApachePulsar
-import compose.icons.simpleicons.ApacheRocketmq
-import compose.icons.simpleicons.ApacheSolr
-import compose.icons.simpleicons.ApacheSpark
-import compose.icons.simpleicons.ApacheTomcat
-import compose.icons.simpleicons.ApolloGraphql
-import compose.icons.simpleicons.AppStore
+import compose.icons.simpleicons.Apacheairflow
+import compose.icons.simpleicons.Apacheant
+import compose.icons.simpleicons.Apachecassandra
+import compose.icons.simpleicons.Apachecloudstack
+import compose.icons.simpleicons.Apachecordova
+import compose.icons.simpleicons.Apachedruid
+import compose.icons.simpleicons.Apacheecharts
+import compose.icons.simpleicons.Apacheflink
+import compose.icons.simpleicons.Apachegroovy
+import compose.icons.simpleicons.Apachehive
+import compose.icons.simpleicons.Apachejmeter
+import compose.icons.simpleicons.Apachekafka
+import compose.icons.simpleicons.Apachekylin
+import compose.icons.simpleicons.Apachemaven
+import compose.icons.simpleicons.Apachenetbeanside
+import compose.icons.simpleicons.Apacheopenoffice
+import compose.icons.simpleicons.Apachepulsar
+import compose.icons.simpleicons.Apacherocketmq
+import compose.icons.simpleicons.Apachesolr
+import compose.icons.simpleicons.Apachespark
+import compose.icons.simpleicons.Apachetomcat
+import compose.icons.simpleicons.Aparat
+import compose.icons.simpleicons.Apollographql
+import compose.icons.simpleicons.Apostrophe
 import compose.icons.simpleicons.Apple
-import compose.icons.simpleicons.AppleMusic
-import compose.icons.simpleicons.ApplePay
-import compose.icons.simpleicons.ApplePodcasts
-import compose.icons.simpleicons.AppleTv
+import compose.icons.simpleicons.Applearcade
+import compose.icons.simpleicons.Applemusic
+import compose.icons.simpleicons.Applepay
+import compose.icons.simpleicons.Applepodcasts
+import compose.icons.simpleicons.Appletv
 import compose.icons.simpleicons.Appsignal
+import compose.icons.simpleicons.Appstore
 import compose.icons.simpleicons.Appveyor
 import compose.icons.simpleicons.Aral
-import compose.icons.simpleicons.ArchLinux
 import compose.icons.simpleicons.Archicad
-import compose.icons.simpleicons.ArchiveOfOurOwn
+import compose.icons.simpleicons.Archiveofourown
+import compose.icons.simpleicons.Archlinux
 import compose.icons.simpleicons.Ardour
 import compose.icons.simpleicons.Arduino
-import compose.icons.simpleicons.ArkEcosystem
+import compose.icons.simpleicons.Arkecosystem
 import compose.icons.simpleicons.Arlo
+import compose.icons.simpleicons.Artixlinux
 import compose.icons.simpleicons.Artstation
 import compose.icons.simpleicons.Arxiv
 import compose.icons.simpleicons.Asana
@@ -129,6 +149,7 @@ import compose.icons.simpleicons.Asciidoctor
 import compose.icons.simpleicons.Asciinema
 import compose.icons.simpleicons.Aseprite
 import compose.icons.simpleicons.Askfm
+import compose.icons.simpleicons.Assemblyscript
 import compose.icons.simpleicons.Asus
 import compose.icons.simpleicons.AtAndT
 import compose.icons.simpleicons.Atari
@@ -144,18 +165,19 @@ import compose.icons.simpleicons.Aurelia
 import compose.icons.simpleicons.Auth0
 import compose.icons.simpleicons.Authy
 import compose.icons.simpleicons.Autodesk
+import compose.icons.simpleicons.Autohotkey
 import compose.icons.simpleicons.Automatic
 import compose.icons.simpleicons.Autotask
 import compose.icons.simpleicons.Aventrix
-import compose.icons.simpleicons.AwesomeLists
+import compose.icons.simpleicons.Awesomelists
 import compose.icons.simpleicons.Awesomewm
-import compose.icons.simpleicons.AwsAmplify
-import compose.icons.simpleicons.AzureArtifacts
-import compose.icons.simpleicons.AzureDataExplorer
-import compose.icons.simpleicons.AzureDevops
-import compose.icons.simpleicons.AzureFunctions
-import compose.icons.simpleicons.AzurePipelines
-import compose.icons.simpleicons.BAndRAutomation
+import compose.icons.simpleicons.Awsamplify
+import compose.icons.simpleicons.Azureartifacts
+import compose.icons.simpleicons.Azuredataexplorer
+import compose.icons.simpleicons.Azuredevops
+import compose.icons.simpleicons.Azurefunctions
+import compose.icons.simpleicons.Azurepipelines
+import compose.icons.simpleicons.BAndRautomation
 import compose.icons.simpleicons.Babel
 import compose.icons.simpleicons.Badgr
 import compose.icons.simpleicons.Badoo
@@ -165,41 +187,49 @@ import compose.icons.simpleicons.Bancontact
 import compose.icons.simpleicons.Bandcamp
 import compose.icons.simpleicons.Bandlab
 import compose.icons.simpleicons.Bandsintown
-import compose.icons.simpleicons.BankOfAmerica
+import compose.icons.simpleicons.Bankofamerica
+import compose.icons.simpleicons.Barclays
+import compose.icons.simpleicons.Baremetrics
 import compose.icons.simpleicons.Basecamp
 import compose.icons.simpleicons.Bata
-import compose.icons.simpleicons.BathAsu
+import compose.icons.simpleicons.Bathasu
 import compose.icons.simpleicons.BattleDotNet
-import compose.icons.simpleicons.BbcIplayer
+import compose.icons.simpleicons.Bbc
+import compose.icons.simpleicons.Bbciplayer
 import compose.icons.simpleicons.Beatport
 import compose.icons.simpleicons.Beats
-import compose.icons.simpleicons.BeatsByDre
+import compose.icons.simpleicons.Beatsbydre
 import compose.icons.simpleicons.Behance
-import compose.icons.simpleicons.BeijingSubway
+import compose.icons.simpleicons.Beijingsubway
 import compose.icons.simpleicons.Bentley
-import compose.icons.simpleicons.BigCartel
 import compose.icons.simpleicons.Bigbasket
+import compose.icons.simpleicons.Bigcartel
 import compose.icons.simpleicons.Bigcommerce
 import compose.icons.simpleicons.Bilibili
 import compose.icons.simpleicons.Bing
 import compose.icons.simpleicons.Bit
 import compose.icons.simpleicons.Bitbucket
 import compose.icons.simpleicons.Bitcoin
+import compose.icons.simpleicons.Bitcoincash
+import compose.icons.simpleicons.Bitcoinsv
 import compose.icons.simpleicons.Bitdefender
 import compose.icons.simpleicons.Bitly
 import compose.icons.simpleicons.Bitrise
 import compose.icons.simpleicons.Bitwarden
+import compose.icons.simpleicons.Bitwig
 import compose.icons.simpleicons.Blackberry
 import compose.icons.simpleicons.Blazemeter
 import compose.icons.simpleicons.Blazor
 import compose.icons.simpleicons.Blender
+import compose.icons.simpleicons.BlockchainDotCom
 import compose.icons.simpleicons.Blogger
 import compose.icons.simpleicons.Bloglovin
 import compose.icons.simpleicons.Blueprint
 import compose.icons.simpleicons.Bluetooth
-import compose.icons.simpleicons.BmcSoftware
+import compose.icons.simpleicons.Bmcsoftware
 import compose.icons.simpleicons.Bmw
 import compose.icons.simpleicons.Boeing
+import compose.icons.simpleicons.Bookmeter
 import compose.icons.simpleicons.Boost
 import compose.icons.simpleicons.Bootstrap
 import compose.icons.simpleicons.Bosch
@@ -210,6 +240,7 @@ import compose.icons.simpleicons.BrandDotAi
 import compose.icons.simpleicons.Brandfolder
 import compose.icons.simpleicons.Brave
 import compose.icons.simpleicons.Breaker
+import compose.icons.simpleicons.Britishairways
 import compose.icons.simpleicons.Broadcom
 import compose.icons.simpleicons.Bt
 import compose.icons.simpleicons.Buddy
@@ -221,43 +252,49 @@ import compose.icons.simpleicons.Bugsnag
 import compose.icons.simpleicons.Buildkite
 import compose.icons.simpleicons.Bulma
 import compose.icons.simpleicons.Bunq
-import compose.icons.simpleicons.BuyMeACoffee
+import compose.icons.simpleicons.Buymeacoffee
 import compose.icons.simpleicons.Buzzfeed
 import compose.icons.simpleicons.Byte
 import compose.icons.simpleicons.C
-import compose.icons.simpleicons.CSharp
-import compose.icons.simpleicons.CairoMetro
+import compose.icons.simpleicons.Cachet
+import compose.icons.simpleicons.Cairometro
 import compose.icons.simpleicons.Cakephp
-import compose.icons.simpleicons.CampaignMonitor
+import compose.icons.simpleicons.Campaignmonitor
 import compose.icons.simpleicons.Canonical
 import compose.icons.simpleicons.Canva
 import compose.icons.simpleicons.Capacitor
-import compose.icons.simpleicons.CarThrottle
+import compose.icons.simpleicons.Carthrottle
 import compose.icons.simpleicons.Carto
-import compose.icons.simpleicons.CashApp
+import compose.icons.simpleicons.Cashapp
 import compose.icons.simpleicons.Castbox
 import compose.icons.simpleicons.Castorama
 import compose.icons.simpleicons.Castro
 import compose.icons.simpleicons.Caterpillar
-import compose.icons.simpleicons.CdProjekt
+import compose.icons.simpleicons.Cbs
+import compose.icons.simpleicons.Cdprojekt
 import compose.icons.simpleicons.Celery
 import compose.icons.simpleicons.Centos
 import compose.icons.simpleicons.Ceph
 import compose.icons.simpleicons.Cesium
 import compose.icons.simpleicons.Cevo
+import compose.icons.simpleicons.Chainlink
+import compose.icons.simpleicons.Chakraui
 import compose.icons.simpleicons.Chartmogul
 import compose.icons.simpleicons.Chase
+import compose.icons.simpleicons.Chatbot
 import compose.icons.simpleicons.Checkio
 import compose.icons.simpleicons.Checkmarx
 import compose.icons.simpleicons.Chef
 import compose.icons.simpleicons.Chevrolet
+import compose.icons.simpleicons.Chinaeasternairlines
+import compose.icons.simpleicons.Chinasouthernairlines
 import compose.icons.simpleicons.Chocolatey
 import compose.icons.simpleicons.Chrysler
-import compose.icons.simpleicons.ChupaChups
+import compose.icons.simpleicons.Chupachups
 import compose.icons.simpleicons.Cinema4d
 import compose.icons.simpleicons.Circle
 import compose.icons.simpleicons.Circleci
-import compose.icons.simpleicons.CirrusCi
+import compose.icons.simpleicons.Cirrusci
 import compose.icons.simpleicons.Cisco
 import compose.icons.simpleicons.Citrix
 import compose.icons.simpleicons.Citroen
@@ -270,6 +307,7 @@ import compose.icons.simpleicons.Clojure
 import compose.icons.simpleicons.Cloud66
 import compose.icons.simpleicons.Cloudbees
 import compose.icons.simpleicons.Cloudcannon
+import compose.icons.simpleicons.Cloudera
 import compose.icons.simpleicons.Cloudflare
 import compose.icons.simpleicons.Cloudsmith
 import compose.icons.simpleicons.Cloudways
@@ -278,20 +316,22 @@ import compose.icons.simpleicons.Clyp
 import compose.icons.simpleicons.Cmake
 import compose.icons.simpleicons.Cnn
 import compose.icons.simpleicons.CoOp
-import compose.icons.simpleicons.CockroachLabs
+import compose.icons.simpleicons.Cockroachlabs
 import compose.icons.simpleicons.Cocoapods
 import compose.icons.simpleicons.Cocos
 import compose.icons.simpleicons.Coda
 import compose.icons.simpleicons.Codacy
-import compose.icons.simpleicons.CodeClimate
+import compose.icons.simpleicons.Codeberg
 import compose.icons.simpleicons.Codecademy
 import compose.icons.simpleicons.Codeceptjs
 import compose.icons.simpleicons.Codechef
+import compose.icons.simpleicons.Codeclimate
 import compose.icons.simpleicons.Codecov
 import compose.icons.simpleicons.Codefactor
 import compose.icons.simpleicons.Codeforces
 import compose.icons.simpleicons.Codeigniter
 import compose.icons.simpleicons.Codemagic
+import compose.icons.simpleicons.Codemirror
 import compose.icons.simpleicons.Codepen
 import compose.icons.simpleicons.Codeproject
 import compose.icons.simpleicons.Codersrank
@@ -300,11 +340,12 @@ import compose.icons.simpleicons.Codesandbox
 import compose.icons.simpleicons.Codeship
 import compose.icons.simpleicons.Codewars
 import compose.icons.simpleicons.Codingame
+import compose.icons.simpleicons.Codingninjas
 import compose.icons.simpleicons.Codio
 import compose.icons.simpleicons.Coffeescript
 import compose.icons.simpleicons.Cognizant
 import compose.icons.simpleicons.Coinbase
-import compose.icons.simpleicons.CommonWorkflowLanguage
+import compose.icons.simpleicons.Commonworkflowlanguage
 import compose.icons.simpleicons.Composer
 import compose.icons.simpleicons.Compropago
 import compose.icons.simpleicons.Concourse
@@ -312,48 +353,56 @@ import compose.icons.simpleicons.CondaForge
 import compose.icons.simpleicons.Conekta
 import compose.icons.simpleicons.Confluence
 import compose.icons.simpleicons.Consul
-import compose.icons.simpleicons.ContactlessPayment
+import compose.icons.simpleicons.Contactlesspayment
 import compose.icons.simpleicons.Contentful
 import compose.icons.simpleicons.Convertio
 import compose.icons.simpleicons.Cookiecutter
-import compose.icons.simpleicons.CoronaEngine
-import compose.icons.simpleicons.CoronaRenderer
+import compose.icons.simpleicons.Coronaengine
+import compose.icons.simpleicons.Coronarenderer
+import compose.icons.simpleicons.Corsair
 import compose.icons.simpleicons.Couchbase
 import compose.icons.simpleicons.CounterStrike
+import compose.icons.simpleicons.Countingworkspro
 import compose.icons.simpleicons.Coursera
 import compose.icons.simpleicons.Coveralls
 import compose.icons.simpleicons.Cpanel
 import compose.icons.simpleicons.Cplusplus
-import compose.icons.simpleicons.CraftCms
-import compose.icons.simpleicons.CreativeCommons
+import compose.icons.simpleicons.Craftcms
+import compose.icons.simpleicons.Creativecommons
 import compose.icons.simpleicons.Crehana
 import compose.icons.simpleicons.Crowdin
+import compose.icons.simpleicons.Crowdsource
 import compose.icons.simpleicons.Crunchbase
 import compose.icons.simpleicons.Crunchyroll
 import compose.icons.simpleicons.Cryengine
+import compose.icons.simpleicons.Crystal
+import compose.icons.simpleicons.Csharp
 import compose.icons.simpleicons.Css3
-import compose.icons.simpleicons.CssWizardry
+import compose.icons.simpleicons.Csswizardry
 import compose.icons.simpleicons.Cucumber
 import compose.icons.simpleicons.Curl
 import compose.icons.simpleicons.Curseforge
+import compose.icons.simpleicons.Cycling74
 import compose.icons.simpleicons.Cypress
 import compose.icons.simpleicons.D3DotJs
+import compose.icons.simpleicons.DWavesystems
 import compose.icons.simpleicons.Dacia
 import compose.icons.simpleicons.Daf
 import compose.icons.simpleicons.Dailymotion
 import compose.icons.simpleicons.Daimler
-import compose.icons.simpleicons.DarkReader
+import compose.icons.simpleicons.Darkreader
 import compose.icons.simpleicons.Dart
-import compose.icons.simpleicons.DasErste
+import compose.icons.simpleicons.Daserste
 import compose.icons.simpleicons.Dash
 import compose.icons.simpleicons.Dashlane
-import compose.icons.simpleicons.DassaultSystemes
+import compose.icons.simpleicons.Dassaultsystemes
+import compose.icons.simpleicons.Databricks
 import compose.icons.simpleicons.Datacamp
 import compose.icons.simpleicons.Datadog
 import compose.icons.simpleicons.Datastax
 import compose.icons.simpleicons.Dazn
 import compose.icons.simpleicons.Dblp
-import compose.icons.simpleicons.DcEntertainment
+import compose.icons.simpleicons.Dcentertainment
 import compose.icons.simpleicons.Debian
 import compose.icons.simpleicons.Deepin
 import compose.icons.simpleicons.Deepnote
@@ -363,11 +412,13 @@ import compose.icons.simpleicons.Deliveroo
 import compose.icons.simpleicons.Dell
 import compose.icons.simpleicons.Delonghi
 import compose.icons.simpleicons.Delphi
+import compose.icons.simpleicons.Delta
 import compose.icons.simpleicons.Deno
 import compose.icons.simpleicons.Dependabot
-import compose.icons.simpleicons.DerSpiegel
-import compose.icons.simpleicons.DesignerNews
-import compose.icons.simpleicons.DeutscheBahn
+import compose.icons.simpleicons.Derspiegel
+import compose.icons.simpleicons.Designernews
+import compose.icons.simpleicons.Deutschebahn
+import compose.icons.simpleicons.Deutschebank
 import compose.icons.simpleicons.DevDotTo
 import compose.icons.simpleicons.Deviantart
 import compose.icons.simpleicons.Devpost
@@ -377,7 +428,7 @@ import compose.icons.simpleicons.DiagramsDotNet
 import compose.icons.simpleicons.Dialogflow
 import compose.icons.simpleicons.Diaspora
 import compose.icons.simpleicons.Digg
-import compose.icons.simpleicons.DigiKeyElectronics
+import compose.icons.simpleicons.DigiKeyelectronics
 import compose.icons.simpleicons.Digitalocean
 import compose.icons.simpleicons.Dior
 import compose.icons.simpleicons.Directus
@@ -391,6 +442,7 @@ import compose.icons.simpleicons.Django
 import compose.icons.simpleicons.Dlna
 import compose.icons.simpleicons.Docker
 import compose.icons.simpleicons.Docusign
+import compose.icons.simpleicons.Dogecoin
 import compose.icons.simpleicons.Dolby
 import compose.icons.simpleicons.Doordash
 import compose.icons.simpleicons.DotNet
@@ -401,43 +453,47 @@ import compose.icons.simpleicons.Drone
 import compose.icons.simpleicons.Drooble
 import compose.icons.simpleicons.Dropbox
 import compose.icons.simpleicons.Drupal
-import compose.icons.simpleicons.DsAutomobiles
+import compose.icons.simpleicons.Dsautomobiles
 import compose.icons.simpleicons.Dtube
 import compose.icons.simpleicons.Duckduckgo
 import compose.icons.simpleicons.Dunked
 import compose.icons.simpleicons.Duolingo
+import compose.icons.simpleicons.Dwm
 import compose.icons.simpleicons.Dynamics365
 import compose.icons.simpleicons.Dynatrace
 import compose.icons.simpleicons.Ea
+import compose.icons.simpleicons.Eagle
 import compose.icons.simpleicons.Easyjet
 import compose.icons.simpleicons.Ebay
-import compose.icons.simpleicons.EclipseIde
-import compose.icons.simpleicons.EclipseMosquitto
-import compose.icons.simpleicons.EclipseVertDotX
+import compose.icons.simpleicons.Eclipseche
+import compose.icons.simpleicons.Eclipseide
+import compose.icons.simpleicons.Eclipsemosquitto
+import compose.icons.simpleicons.EclipsevertDotX
 import compose.icons.simpleicons.Edx
 import compose.icons.simpleicons.Egghead
 import compose.icons.simpleicons.Egnyte
-import compose.icons.simpleicons.EightSleep
-import compose.icons.simpleicons.ElJueves
+import compose.icons.simpleicons.Eightsleep
 import compose.icons.simpleicons.Elastic
-import compose.icons.simpleicons.ElasticCloud
-import compose.icons.simpleicons.ElasticStack
+import compose.icons.simpleicons.Elasticcloud
 import compose.icons.simpleicons.Elasticsearch
+import compose.icons.simpleicons.Elasticstack
 import compose.icons.simpleicons.Electron
 import compose.icons.simpleicons.Element
 import compose.icons.simpleicons.Elementary
 import compose.icons.simpleicons.Eleventy
 import compose.icons.simpleicons.Elixir
+import compose.icons.simpleicons.Eljueves
 import compose.icons.simpleicons.Ello
 import compose.icons.simpleicons.Elm
 import compose.icons.simpleicons.Embarcadero
 import compose.icons.simpleicons.EmberDotJs
 import compose.icons.simpleicons.Emby
+import compose.icons.simpleicons.Emirates
 import compose.icons.simpleicons.Emlakjet
-import compose.icons.simpleicons.EmpireKred
+import compose.icons.simpleicons.Empirekred
 import compose.icons.simpleicons.Envato
 import compose.icons.simpleicons.Epel
-import compose.icons.simpleicons.EpicGames
+import compose.icons.simpleicons.Epicgames
 import compose.icons.simpleicons.Epson
 import compose.icons.simpleicons.Erlang
 import compose.icons.simpleicons.Esea
@@ -446,24 +502,27 @@ import compose.icons.simpleicons.Eslint
 import compose.icons.simpleicons.Esphome
 import compose.icons.simpleicons.Espressif
 import compose.icons.simpleicons.Ethereum
+import compose.icons.simpleicons.Ethiopianairlines
+import compose.icons.simpleicons.Etihadairways
 import compose.icons.simpleicons.Etsy
-import compose.icons.simpleicons.EventStore
 import compose.icons.simpleicons.Eventbrite
+import compose.icons.simpleicons.Eventstore
 import compose.icons.simpleicons.Evernote
 import compose.icons.simpleicons.Everplaces
 import compose.icons.simpleicons.Evry
 import compose.icons.simpleicons.Exercism
-import compose.icons.simpleicons.ExpertsExchange
+import compose.icons.simpleicons.Expertsexchange
 import compose.icons.simpleicons.Expo
 import compose.icons.simpleicons.Express
 import compose.icons.simpleicons.Eyeem
 import compose.icons.simpleicons.FDroid
 import compose.icons.simpleicons.FSecure
 import compose.icons.simpleicons.Facebook
-import compose.icons.simpleicons.FacebookGaming
-import compose.icons.simpleicons.FacebookLive
+import compose.icons.simpleicons.Facebookgaming
+import compose.icons.simpleicons.Facebooklive
 import compose.icons.simpleicons.Faceit
 import compose.icons.simpleicons.Facepunch
+import compose.icons.simpleicons.Falcon
 import compose.icons.simpleicons.Fandango
 import compose.icons.simpleicons.Fandom
 import compose.icons.simpleicons.Farfetch
@@ -479,9 +538,9 @@ import compose.icons.simpleicons.Fedora
 import compose.icons.simpleicons.Fedramp
 import compose.icons.simpleicons.Feedly
 import compose.icons.simpleicons.Ferrari
-import compose.icons.simpleicons.FerrariNDotVDot
+import compose.icons.simpleicons.FerrarinDotVDot
 import compose.icons.simpleicons.Fiat
-import compose.icons.simpleicons.FidoAlliance
+import compose.icons.simpleicons.Fidoalliance
 import compose.icons.simpleicons.Fifa
 import compose.icons.simpleicons.Figma
 import compose.icons.simpleicons.Figshare
@@ -490,7 +549,7 @@ import compose.icons.simpleicons.Filezilla
 import compose.icons.simpleicons.Fing
 import compose.icons.simpleicons.Firebase
 import compose.icons.simpleicons.Firefox
-import compose.icons.simpleicons.FirefoxBrowser
+import compose.icons.simpleicons.Firefoxbrowser
 import compose.icons.simpleicons.First
 import compose.icons.simpleicons.Fitbit
 import compose.icons.simpleicons.Fite
@@ -507,15 +566,16 @@ import compose.icons.simpleicons.Fluentd
 import compose.icons.simpleicons.Flutter
 import compose.icons.simpleicons.Fnac
 import compose.icons.simpleicons.Folium
-import compose.icons.simpleicons.FontAwesome
+import compose.icons.simpleicons.Fontawesome
 import compose.icons.simpleicons.Foodpanda
 import compose.icons.simpleicons.Ford
 import compose.icons.simpleicons.Formstack
 import compose.icons.simpleicons.Fortinet
 import compose.icons.simpleicons.Fortran
 import compose.icons.simpleicons.Fossa
-import compose.icons.simpleicons.FossilScm
+import compose.icons.simpleicons.Fossilscm
 import compose.icons.simpleicons.Foursquare
+import compose.icons.simpleicons.Foxtel
 import compose.icons.simpleicons.Fozzy
 import compose.icons.simpleicons.Framer
 import compose.icons.simpleicons.Freebsd
@@ -525,18 +585,18 @@ import compose.icons.simpleicons.Freelancer
 import compose.icons.simpleicons.Freenas
 import compose.icons.simpleicons.Fujifilm
 import compose.icons.simpleicons.Fujitsu
-import compose.icons.simpleicons.FurAffinity
-import compose.icons.simpleicons.FurryNetwork
+import compose.icons.simpleicons.Furaffinity
+import compose.icons.simpleicons.Furrynetwork
 import compose.icons.simpleicons.Futurelearn
 import compose.icons.simpleicons.G2a
-import compose.icons.simpleicons.GameJolt
+import compose.icons.simpleicons.Gamejolt
 import compose.icons.simpleicons.Garmin
 import compose.icons.simpleicons.Gatling
 import compose.icons.simpleicons.Gatsby
 import compose.icons.simpleicons.Gauges
 import compose.icons.simpleicons.Geeksforgeeks
-import compose.icons.simpleicons.GeneralElectric
-import compose.icons.simpleicons.GeneralMotors
+import compose.icons.simpleicons.Generalelectric
+import compose.icons.simpleicons.Generalmotors
 import compose.icons.simpleicons.Genius
 import compose.icons.simpleicons.Gentoo
 import compose.icons.simpleicons.Geocaching
@@ -546,15 +606,15 @@ import compose.icons.simpleicons.Ghostery
 import compose.icons.simpleicons.Gimp
 import compose.icons.simpleicons.Giphy
 import compose.icons.simpleicons.Git
-import compose.icons.simpleicons.GitLfs
 import compose.icons.simpleicons.Gitbook
 import compose.icons.simpleicons.Gitea
 import compose.icons.simpleicons.Gitee
 import compose.icons.simpleicons.Github
-import compose.icons.simpleicons.GithubActions
-import compose.icons.simpleicons.GithubSponsors
+import compose.icons.simpleicons.Githubactions
+import compose.icons.simpleicons.Githubsponsors
 import compose.icons.simpleicons.Gitkraken
 import compose.icons.simpleicons.Gitlab
+import compose.icons.simpleicons.Gitlfs
 import compose.icons.simpleicons.Gitpod
 import compose.icons.simpleicons.Gitter
 import compose.icons.simpleicons.Glassdoor
@@ -562,57 +622,59 @@ import compose.icons.simpleicons.Glitch
 import compose.icons.simpleicons.Gmail
 import compose.icons.simpleicons.Gnome
 import compose.icons.simpleicons.Gnu
-import compose.icons.simpleicons.GnuBash
-import compose.icons.simpleicons.GnuEmacs
-import compose.icons.simpleicons.GnuIcecat
-import compose.icons.simpleicons.GnuPrivacyGuard
-import compose.icons.simpleicons.GnuSocial
+import compose.icons.simpleicons.Gnubash
+import compose.icons.simpleicons.Gnuemacs
+import compose.icons.simpleicons.Gnuicecat
+import compose.icons.simpleicons.Gnuprivacyguard
+import compose.icons.simpleicons.Gnusocial
 import compose.icons.simpleicons.Go
-import compose.icons.simpleicons.GodotEngine
+import compose.icons.simpleicons.Godotengine
 import compose.icons.simpleicons.Gofundme
 import compose.icons.simpleicons.GogDotCom
 import compose.icons.simpleicons.Goldenline
 import compose.icons.simpleicons.Goodreads
 import compose.icons.simpleicons.Google
-import compose.icons.simpleicons.GoogleAds
-import compose.icons.simpleicons.GoogleAdsense
-import compose.icons.simpleicons.GoogleAnalytics
-import compose.icons.simpleicons.GoogleAssistant
-import compose.icons.simpleicons.GoogleCalendar
-import compose.icons.simpleicons.GoogleCardboard
-import compose.icons.simpleicons.GoogleCast
-import compose.icons.simpleicons.GoogleChat
-import compose.icons.simpleicons.GoogleChrome
-import compose.icons.simpleicons.GoogleClassroom
-import compose.icons.simpleicons.GoogleCloud
-import compose.icons.simpleicons.GoogleColab
-import compose.icons.simpleicons.GoogleDomains
-import compose.icons.simpleicons.GoogleDrive
-import compose.icons.simpleicons.GoogleEarth
-import compose.icons.simpleicons.GoogleFit
-import compose.icons.simpleicons.GoogleHangouts
-import compose.icons.simpleicons.GoogleKeep
-import compose.icons.simpleicons.GoogleLens
-import compose.icons.simpleicons.GoogleMaps
-import compose.icons.simpleicons.GoogleMeet
-import compose.icons.simpleicons.GoogleMessages
-import compose.icons.simpleicons.GoogleMyBusiness
-import compose.icons.simpleicons.GoogleNearby
-import compose.icons.simpleicons.GoogleNews
-import compose.icons.simpleicons.GoogleOptimize
-import compose.icons.simpleicons.GooglePay
-import compose.icons.simpleicons.GooglePhotos
-import compose.icons.simpleicons.GooglePlay
-import compose.icons.simpleicons.GooglePodcasts
-import compose.icons.simpleicons.GoogleScholar
-import compose.icons.simpleicons.GoogleSearchConsole
-import compose.icons.simpleicons.GoogleSheets
-import compose.icons.simpleicons.GoogleStreetView
-import compose.icons.simpleicons.GoogleTagManager
-import compose.icons.simpleicons.GoogleTranslate
+import compose.icons.simpleicons.Googleads
+import compose.icons.simpleicons.Googleadsense
+import compose.icons.simpleicons.Googleanalytics
+import compose.icons.simpleicons.Googleassistant
+import compose.icons.simpleicons.Googlecalendar
+import compose.icons.simpleicons.Googlecardboard
+import compose.icons.simpleicons.Googlecast
+import compose.icons.simpleicons.Googlechat
+import compose.icons.simpleicons.Googlechrome
+import compose.icons.simpleicons.Googleclassroom
+import compose.icons.simpleicons.Googlecloud
+import compose.icons.simpleicons.Googlecolab
+import compose.icons.simpleicons.Googledomains
+import compose.icons.simpleicons.Googledrive
+import compose.icons.simpleicons.Googleearth
+import compose.icons.simpleicons.Googlefit
+import compose.icons.simpleicons.Googlehangouts
+import compose.icons.simpleicons.Googlekeep
+import compose.icons.simpleicons.Googlelens
+import compose.icons.simpleicons.Googlemaps
+import compose.icons.simpleicons.Googlemeet
+import compose.icons.simpleicons.Googlemessages
+import compose.icons.simpleicons.Googlemybusiness
+import compose.icons.simpleicons.Googlenearby
+import compose.icons.simpleicons.Googlenews
+import compose.icons.simpleicons.Googleoptimize
+import compose.icons.simpleicons.Googlepay
+import compose.icons.simpleicons.Googlephotos
+import compose.icons.simpleicons.Googleplay
+import compose.icons.simpleicons.Googlepodcasts
+import compose.icons.simpleicons.Googlescholar
+import compose.icons.simpleicons.Googlesearchconsole
+import compose.icons.simpleicons.Googlesheets
+import compose.icons.simpleicons.Googlestreetview
+import compose.icons.simpleicons.Googletagmanager
+import compose.icons.simpleicons.Googletranslate
+import compose.icons.simpleicons.Gotomeeting
 import compose.icons.simpleicons.GovDotUk
 import compose.icons.simpleicons.Gradle
 import compose.icons.simpleicons.Grafana
+import compose.icons.simpleicons.Grammarly
 import compose.icons.simpleicons.Graphcool
 import compose.icons.simpleicons.Graphql
 import compose.icons.simpleicons.Grav
@@ -623,46 +685,51 @@ import compose.icons.simpleicons.Gridsome
 import compose.icons.simpleicons.Groupon
 import compose.icons.simpleicons.Grubhub
 import compose.icons.simpleicons.Grunt
-import compose.icons.simpleicons.GuangzhouMetro
+import compose.icons.simpleicons.Guangzhoumetro
 import compose.icons.simpleicons.Gulp
 import compose.icons.simpleicons.Gumroad
 import compose.icons.simpleicons.Gumtree
 import compose.icons.simpleicons.Gutenberg
 import compose.icons.simpleicons.Habr
-import compose.icons.simpleicons.HackClub
-import compose.icons.simpleicons.HackTheBox
 import compose.icons.simpleicons.Hackaday
+import compose.icons.simpleicons.Hackclub
 import compose.icons.simpleicons.Hackerearth
 import compose.icons.simpleicons.Hackerone
 import compose.icons.simpleicons.Hackerrank
 import compose.icons.simpleicons.Hackhands
 import compose.icons.simpleicons.Hackster
+import compose.icons.simpleicons.Hackthebox
+import compose.icons.simpleicons.Handshake
+import compose.icons.simpleicons.HandshakeProtocol
 import compose.icons.simpleicons.Happycow
 import compose.icons.simpleicons.Harbor
 import compose.icons.simpleicons.Hashnode
 import compose.icons.simpleicons.Haskell
-import compose.icons.simpleicons.HatenaBookmark
+import compose.icons.simpleicons.Hatenabookmark
 import compose.icons.simpleicons.Haveibeenpwned
 import compose.icons.simpleicons.Haxe
 import compose.icons.simpleicons.Hbo
 import compose.icons.simpleicons.Hcl
 import compose.icons.simpleicons.Headspace
 import compose.icons.simpleicons.Hellofresh
-import compose.icons.simpleicons.HellyHansen
+import compose.icons.simpleicons.Hellyhansen
 import compose.icons.simpleicons.Helm
+import compose.icons.simpleicons.Helpdesk
 import compose.icons.simpleicons.Here
 import compose.icons.simpleicons.Heroku
 import compose.icons.simpleicons.Hexo
 import compose.icons.simpleicons.Hey
+import compose.icons.simpleicons.Hibernate
 import compose.icons.simpleicons.Highly
 import compose.icons.simpleicons.Hilton
 import compose.icons.simpleicons.Hipchat
 import compose.icons.simpleicons.Hitachi
 import compose.icons.simpleicons.Hive
+import compose.icons.simpleicons.HiveBlockchain
 import compose.icons.simpleicons.Hockeyapp
-import compose.icons.simpleicons.HomeAssistant
-import compose.icons.simpleicons.HomeAssistantCommunityStore
 import compose.icons.simpleicons.Homeadvisor
+import compose.icons.simpleicons.Homeassistant
+import compose.icons.simpleicons.Homeassistantcommunitystore
 import compose.icons.simpleicons.Homebrew
 import compose.icons.simpleicons.Homebridge
 import compose.icons.simpleicons.Homify
@@ -675,12 +742,13 @@ import compose.icons.simpleicons.Houdini
 import compose.icons.simpleicons.Houzz
 import compose.icons.simpleicons.Hp
 import compose.icons.simpleicons.Html5
-import compose.icons.simpleicons.HtmlAcademy
+import compose.icons.simpleicons.Htmlacademy
 import compose.icons.simpleicons.Huawei
 import compose.icons.simpleicons.Hubspot
 import compose.icons.simpleicons.Hugo
 import compose.icons.simpleicons.Hulu
-import compose.icons.simpleicons.HumbleBundle
+import compose.icons.simpleicons.Humblebundle
+import compose.icons.simpleicons.Hungryjacks
 import compose.icons.simpleicons.Hurriyetemlak
 import compose.icons.simpleicons.Husqvarna
 import compose.icons.simpleicons.Hyperledger
@@ -689,6 +757,7 @@ import compose.icons.simpleicons.Hyundai
 import compose.icons.simpleicons.Iata
 import compose.icons.simpleicons.Ibeacon
 import compose.icons.simpleicons.Ibm
+import compose.icons.simpleicons.Ibmwatson
 import compose.icons.simpleicons.Icloud
 import compose.icons.simpleicons.Icomoon
 import compose.icons.simpleicons.Icon
@@ -697,6 +766,7 @@ import compose.icons.simpleicons.Iconify
 import compose.icons.simpleicons.Iconjar
 import compose.icons.simpleicons.Icq
 import compose.icons.simpleicons.Ideal
+import compose.icons.simpleicons.Ieee
 import compose.icons.simpleicons.Ifixit
 import compose.icons.simpleicons.Ifood
 import compose.icons.simpleicons.Ifttt
@@ -718,12 +788,12 @@ import compose.icons.simpleicons.Instapaper
 import compose.icons.simpleicons.Instructables
 import compose.icons.simpleicons.Integromat
 import compose.icons.simpleicons.Intel
-import compose.icons.simpleicons.IntellijIdea
+import compose.icons.simpleicons.Intellijidea
 import compose.icons.simpleicons.Intercom
-import compose.icons.simpleicons.InternetArchive
-import compose.icons.simpleicons.InternetExplorer
+import compose.icons.simpleicons.Internetarchive
+import compose.icons.simpleicons.Internetexplorer
 import compose.icons.simpleicons.Invision
-import compose.icons.simpleicons.InvoiceNinja
+import compose.icons.simpleicons.Invoiceninja
 import compose.icons.simpleicons.Iobroker
 import compose.icons.simpleicons.Ionic
 import compose.icons.simpleicons.Ios
@@ -736,6 +806,7 @@ import compose.icons.simpleicons.Jabber
 import compose.icons.simpleicons.Jaguar
 import compose.icons.simpleicons.Jamboard
 import compose.icons.simpleicons.Jameson
+import compose.icons.simpleicons.Jamstack
 import compose.icons.simpleicons.Jasmine
 import compose.icons.simpleicons.Java
 import compose.icons.simpleicons.Javascript
@@ -745,35 +816,38 @@ import compose.icons.simpleicons.Jeep
 import compose.icons.simpleicons.Jekyll
 import compose.icons.simpleicons.Jellyfin
 import compose.icons.simpleicons.Jenkins
-import compose.icons.simpleicons.JenkinsX
+import compose.icons.simpleicons.Jenkinsx
 import compose.icons.simpleicons.Jest
 import compose.icons.simpleicons.Jet
 import compose.icons.simpleicons.Jetbrains
 import compose.icons.simpleicons.Jfrog
-import compose.icons.simpleicons.JfrogBintray
+import compose.icons.simpleicons.Jfrogbintray
 import compose.icons.simpleicons.Jinja
 import compose.icons.simpleicons.Jira
-import compose.icons.simpleicons.JiraSoftware
+import compose.icons.simpleicons.Jirasoftware
 import compose.icons.simpleicons.Jitsi
-import compose.icons.simpleicons.JohnDeere
+import compose.icons.simpleicons.Johndeere
 import compose.icons.simpleicons.Joomla
 import compose.icons.simpleicons.Jpeg
 import compose.icons.simpleicons.Jquery
-import compose.icons.simpleicons.JrGroup
+import compose.icons.simpleicons.Jrgroup
 import compose.icons.simpleicons.Jsdelivr
 import compose.icons.simpleicons.Jsfiddle
 import compose.icons.simpleicons.Json
-import compose.icons.simpleicons.JsonWebTokens
+import compose.icons.simpleicons.Jsonwebtokens
 import compose.icons.simpleicons.Julia
+import compose.icons.simpleicons.Junipernetworks
 import compose.icons.simpleicons.Jupyter
-import compose.icons.simpleicons.JustEat
+import compose.icons.simpleicons.Justeat
 import compose.icons.simpleicons.Justgiving
 import compose.icons.simpleicons.Kaggle
 import compose.icons.simpleicons.Kahoot
 import compose.icons.simpleicons.Kaios
 import compose.icons.simpleicons.Kakao
-import compose.icons.simpleicons.KaliLinux
-import compose.icons.simpleicons.KarlsruherVerkehrsverbund
+import compose.icons.simpleicons.Kakaotalk
+import compose.icons.simpleicons.Kalilinux
+import compose.icons.simpleicons.Karlsruherverkehrsverbund
+import compose.icons.simpleicons.Kasasmart
 import compose.icons.simpleicons.Kaspersky
 import compose.icons.simpleicons.Katacoda
 import compose.icons.simpleicons.Katana
@@ -783,8 +857,8 @@ import compose.icons.simpleicons.Kentico
 import compose.icons.simpleicons.Keras
 import compose.icons.simpleicons.Keybase
 import compose.icons.simpleicons.Keycdn
-import compose.icons.simpleicons.KhanAcademy
-import compose.icons.simpleicons.KhronosGroup
+import compose.icons.simpleicons.Khanacademy
+import compose.icons.simpleicons.Khronosgroup
 import compose.icons.simpleicons.Kia
 import compose.icons.simpleicons.Kibana
 import compose.icons.simpleicons.Kickstarter
@@ -794,12 +868,14 @@ import compose.icons.simpleicons.Kitsu
 import compose.icons.simpleicons.Klm
 import compose.icons.simpleicons.Klook
 import compose.icons.simpleicons.Klout
+import compose.icons.simpleicons.Knowledgebase
 import compose.icons.simpleicons.Known
 import compose.icons.simpleicons.KoFi
 import compose.icons.simpleicons.Kodi
 import compose.icons.simpleicons.Koding
 import compose.icons.simpleicons.Kofax
 import compose.icons.simpleicons.Komoot
+import compose.icons.simpleicons.Kongregate
 import compose.icons.simpleicons.Kotlin
 import compose.icons.simpleicons.Krita
 import compose.icons.simpleicons.Ktm
@@ -808,11 +884,11 @@ import compose.icons.simpleicons.Kyocera
 import compose.icons.simpleicons.Labview
 import compose.icons.simpleicons.Lada
 import compose.icons.simpleicons.Lamborghini
-import compose.icons.simpleicons.LandRover
+import compose.icons.simpleicons.Landrover
 import compose.icons.simpleicons.Laragon
 import compose.icons.simpleicons.Laravel
-import compose.icons.simpleicons.LaravelHorizon
-import compose.icons.simpleicons.LaravelNova
+import compose.icons.simpleicons.Laravelhorizon
+import compose.icons.simpleicons.Laravelnova
 import compose.icons.simpleicons.LastDotFm
 import compose.icons.simpleicons.Lastpass
 import compose.icons.simpleicons.Latex
@@ -823,26 +899,30 @@ import compose.icons.simpleicons.Leanpub
 import compose.icons.simpleicons.Leetcode
 import compose.icons.simpleicons.Lenovo
 import compose.icons.simpleicons.Less
-import compose.icons.simpleicons.LetsEncrypt
+import compose.icons.simpleicons.Letsencrypt
 import compose.icons.simpleicons.Letterboxd
 import compose.icons.simpleicons.Lg
 import compose.icons.simpleicons.Lgtm
 import compose.icons.simpleicons.Liberapay
+import compose.icons.simpleicons.LibrariesDotIo
 import compose.icons.simpleicons.Librarything
 import compose.icons.simpleicons.Libreoffice
 import compose.icons.simpleicons.Libuv
 import compose.icons.simpleicons.Lichess
 import compose.icons.simpleicons.Lighthouse
 import compose.icons.simpleicons.Line
-import compose.icons.simpleicons.LineWebtoon
 import compose.icons.simpleicons.Lineageos
+import compose.icons.simpleicons.Linewebtoon
 import compose.icons.simpleicons.Linkedin
 import compose.icons.simpleicons.Linktree
 import compose.icons.simpleicons.Linode
 import compose.icons.simpleicons.Linux
-import compose.icons.simpleicons.LinuxFoundation
-import compose.icons.simpleicons.LinuxMint
+import compose.icons.simpleicons.Linuxcontainers
+import compose.icons.simpleicons.Linuxfoundation
+import compose.icons.simpleicons.Linuxmint
+import compose.icons.simpleicons.Lionair
 import compose.icons.simpleicons.Litecoin
+import compose.icons.simpleicons.Livechat
 import compose.icons.simpleicons.Livejournal
 import compose.icons.simpleicons.Livestream
 import compose.icons.simpleicons.Llvm
@@ -858,20 +938,23 @@ import compose.icons.simpleicons.Lua
 import compose.icons.simpleicons.Lubuntu
 import compose.icons.simpleicons.Lufthansa
 import compose.icons.simpleicons.Lumen
+import compose.icons.simpleicons.Lydia
 import compose.icons.simpleicons.Lyft
 import compose.icons.simpleicons.Maas
+import compose.icons.simpleicons.Macos
 import compose.icons.simpleicons.Macys
 import compose.icons.simpleicons.Magento
 import compose.icons.simpleicons.Magisk
 import compose.icons.simpleicons.MailDotRu
 import compose.icons.simpleicons.Mailchimp
+import compose.icons.simpleicons.Majorleaguehacking
 import compose.icons.simpleicons.Makerbot
 import compose.icons.simpleicons.Man
 import compose.icons.simpleicons.Manageiq
 import compose.icons.simpleicons.Manjaro
 import compose.icons.simpleicons.Mapbox
 import compose.icons.simpleicons.Mariadb
-import compose.icons.simpleicons.MariadbFoundation
+import compose.icons.simpleicons.Mariadbfoundation
 import compose.icons.simpleicons.Markdown
 import compose.icons.simpleicons.Marketo
 import compose.icons.simpleicons.Marriott
@@ -879,21 +962,22 @@ import compose.icons.simpleicons.Maserati
 import compose.icons.simpleicons.Mastercard
 import compose.icons.simpleicons.Mastercomfig
 import compose.icons.simpleicons.Mastodon
-import compose.icons.simpleicons.MaterialDesign
-import compose.icons.simpleicons.MaterialDesignIcons
 import compose.icons.simpleicons.MaterialUi
+import compose.icons.simpleicons.Materialdesign
+import compose.icons.simpleicons.Materialdesignicons
 import compose.icons.simpleicons.Mathworks
 import compose.icons.simpleicons.Matomo
 import compose.icons.simpleicons.Matrix
 import compose.icons.simpleicons.Mattermost
 import compose.icons.simpleicons.Matternet
+import compose.icons.simpleicons.Max
 import compose.icons.simpleicons.MaxPlanckGesellschaft
 import compose.icons.simpleicons.Maytag
 import compose.icons.simpleicons.Mazda
 import compose.icons.simpleicons.Mcafee
 import compose.icons.simpleicons.Mcdonalds
 import compose.icons.simpleicons.Mclaren
-import compose.icons.simpleicons.MdnWebDocs
+import compose.icons.simpleicons.Mdnwebdocs
 import compose.icons.simpleicons.Mediafire
 import compose.icons.simpleicons.Mediatemple
 import compose.icons.simpleicons.Medium
@@ -905,30 +989,30 @@ import compose.icons.simpleicons.Messenger
 import compose.icons.simpleicons.Metafilter
 import compose.icons.simpleicons.Meteor
 import compose.icons.simpleicons.Metro
-import compose.icons.simpleicons.MetroDeLaCiudadDeMexico
-import compose.icons.simpleicons.MetroDeMadrid
-import compose.icons.simpleicons.MetroDeParis
+import compose.icons.simpleicons.Metrodelaciudaddemexico
+import compose.icons.simpleicons.Metrodemadrid
+import compose.icons.simpleicons.Metrodeparis
 import compose.icons.simpleicons.Mewe
 import compose.icons.simpleicons.MicroDotBlog
 import compose.icons.simpleicons.Microbit
 import compose.icons.simpleicons.Microgenetics
 import compose.icons.simpleicons.Microsoft
-import compose.icons.simpleicons.MicrosoftAcademic
-import compose.icons.simpleicons.MicrosoftAccess
-import compose.icons.simpleicons.MicrosoftAzure
-import compose.icons.simpleicons.MicrosoftEdge
-import compose.icons.simpleicons.MicrosoftExcel
-import compose.icons.simpleicons.MicrosoftExchange
-import compose.icons.simpleicons.MicrosoftOffice
-import compose.icons.simpleicons.MicrosoftOnedrive
-import compose.icons.simpleicons.MicrosoftOnenote
-import compose.icons.simpleicons.MicrosoftOutlook
-import compose.icons.simpleicons.MicrosoftPowerpoint
-import compose.icons.simpleicons.MicrosoftSharepoint
-import compose.icons.simpleicons.MicrosoftSqlServer
-import compose.icons.simpleicons.MicrosoftTeams
-import compose.icons.simpleicons.MicrosoftVisio
-import compose.icons.simpleicons.MicrosoftWord
+import compose.icons.simpleicons.Microsoftacademic
+import compose.icons.simpleicons.Microsoftaccess
+import compose.icons.simpleicons.Microsoftazure
+import compose.icons.simpleicons.Microsoftedge
+import compose.icons.simpleicons.Microsoftexcel
+import compose.icons.simpleicons.Microsoftexchange
+import compose.icons.simpleicons.Microsoftoffice
+import compose.icons.simpleicons.Microsoftonedrive
+import compose.icons.simpleicons.Microsoftonenote
+import compose.icons.simpleicons.Microsoftoutlook
+import compose.icons.simpleicons.Microsoftpowerpoint
+import compose.icons.simpleicons.Microsoftsharepoint
+import compose.icons.simpleicons.Microsoftsqlserver
+import compose.icons.simpleicons.Microsoftteams
+import compose.icons.simpleicons.Microsoftvisio
+import compose.icons.simpleicons.Microsoftword
 import compose.icons.simpleicons.Microstrategy
 import compose.icons.simpleicons.Midi
 import compose.icons.simpleicons.Minds
@@ -936,34 +1020,44 @@ import compose.icons.simpleicons.Minecraft
 import compose.icons.simpleicons.Minetest
 import compose.icons.simpleicons.Mini
 import compose.icons.simpleicons.Minutemailer
+import compose.icons.simpleicons.Miro
 import compose.icons.simpleicons.Mitsubishi
 import compose.icons.simpleicons.Mix
 import compose.icons.simpleicons.Mixcloud
+import compose.icons.simpleicons.Mobx
+import compose.icons.simpleicons.MobxStateTree
 import compose.icons.simpleicons.Mocha
-import compose.icons.simpleicons.MojangStudios
+import compose.icons.simpleicons.Modx
+import compose.icons.simpleicons.Mojangstudios
 import compose.icons.simpleicons.Moleculer
 import compose.icons.simpleicons.Momenteo
 import compose.icons.simpleicons.Monero
 import compose.icons.simpleicons.Mongodb
-import compose.icons.simpleicons.MonkeyTie
+import compose.icons.simpleicons.Monkeytie
 import compose.icons.simpleicons.Monogram
 import compose.icons.simpleicons.Monster
 import compose.icons.simpleicons.Monzo
 import compose.icons.simpleicons.Moo
-import compose.icons.simpleicons.MoscowMetro
+import compose.icons.simpleicons.Moscowmetro
 import compose.icons.simpleicons.Motorola
 import compose.icons.simpleicons.Mozilla
 import compose.icons.simpleicons.Mta
 import compose.icons.simpleicons.Mtr
 import compose.icons.simpleicons.Musescore
 import compose.icons.simpleicons.Musicbrainz
-import compose.icons.simpleicons.MxLinux
+import compose.icons.simpleicons.Mxlinux
+import compose.icons.simpleicons.Myanimelist
 import compose.icons.simpleicons.Myob
 import compose.icons.simpleicons.Myspace
 import compose.icons.simpleicons.Mysql
 import compose.icons.simpleicons.N26
-import compose.icons.simpleicons.NationalGrid
+import compose.icons.simpleicons.Namebase
+import compose.icons.simpleicons.Namecheap
+import compose.icons.simpleicons.Nano
+import compose.icons.simpleicons.Nasa
+import compose.icons.simpleicons.Nationalgrid
 import compose.icons.simpleicons.Nativescript
+import compose.icons.simpleicons.Naver
 import compose.icons.simpleicons.Nba
 import compose.icons.simpleicons.Nbb
 import compose.icons.simpleicons.Ndr
@@ -974,9 +1068,9 @@ import compose.icons.simpleicons.Nestjs
 import compose.icons.simpleicons.Netapp
 import compose.icons.simpleicons.Netflix
 import compose.icons.simpleicons.Netlify
-import compose.icons.simpleicons.NewJapanProWrestling
-import compose.icons.simpleicons.NewRelic
-import compose.icons.simpleicons.NewYorkTimes
+import compose.icons.simpleicons.NewjapanproWrestling
+import compose.icons.simpleicons.Newrelic
+import compose.icons.simpleicons.Newyorktimes
 import compose.icons.simpleicons.NextDotJs
 import compose.icons.simpleicons.Nextcloud
 import compose.icons.simpleicons.Nextdoor
@@ -987,20 +1081,22 @@ import compose.icons.simpleicons.Niconico
 import compose.icons.simpleicons.Nim
 import compose.icons.simpleicons.Nintendo
 import compose.icons.simpleicons.Nintendo3ds
-import compose.icons.simpleicons.NintendoGamecube
-import compose.icons.simpleicons.NintendoNetwork
-import compose.icons.simpleicons.NintendoSwitch
+import compose.icons.simpleicons.Nintendogamecube
+import compose.icons.simpleicons.Nintendonetwork
+import compose.icons.simpleicons.Nintendoswitch
 import compose.icons.simpleicons.Nissan
 import compose.icons.simpleicons.Nixos
 import compose.icons.simpleicons.NodeDotJs
 import compose.icons.simpleicons.NodeRed
 import compose.icons.simpleicons.Nodemon
 import compose.icons.simpleicons.Nokia
+import compose.icons.simpleicons.Norwegian
 import compose.icons.simpleicons.Notepadplusplus
 import compose.icons.simpleicons.Notion
 import compose.icons.simpleicons.Notist
-import compose.icons.simpleicons.NounProject
+import compose.icons.simpleicons.Nounproject
 import compose.icons.simpleicons.Npm
+import compose.icons.simpleicons.Nrwl
 import compose.icons.simpleicons.Nubank
 import compose.icons.simpleicons.Nucleo
 import compose.icons.simpleicons.Nuget
@@ -1010,38 +1106,43 @@ import compose.icons.simpleicons.Numpy
 import compose.icons.simpleicons.Nutanix
 import compose.icons.simpleicons.NuxtDotJs
 import compose.icons.simpleicons.Nvidia
-import compose.icons.simpleicons.ObsStudio
+import compose.icons.simpleicons.Nx
 import compose.icons.simpleicons.Observable
+import compose.icons.simpleicons.Obsstudio
 import compose.icons.simpleicons.Ocaml
 import compose.icons.simpleicons.Octave
-import compose.icons.simpleicons.OctopusDeploy
+import compose.icons.simpleicons.Octopusdeploy
 import compose.icons.simpleicons.Oculus
 import compose.icons.simpleicons.Odnoklassniki
 import compose.icons.simpleicons.Okcupid
+import compose.icons.simpleicons.Okta
 import compose.icons.simpleicons.Oneplus
+import compose.icons.simpleicons.Onlyfans
 import compose.icons.simpleicons.Onstar
 import compose.icons.simpleicons.Opel
-import compose.icons.simpleicons.OpenAccess
-import compose.icons.simpleicons.OpenBadges
-import compose.icons.simpleicons.OpenBugBounty
-import compose.icons.simpleicons.OpenCollective
-import compose.icons.simpleicons.OpenContainersInitiative
-import compose.icons.simpleicons.OpenNebula
-import compose.icons.simpleicons.OpenSourceInitiative
+import compose.icons.simpleicons.Openaccess
 import compose.icons.simpleicons.Openai
-import compose.icons.simpleicons.OpenaiGym
-import compose.icons.simpleicons.OpenapiInitiative
+import compose.icons.simpleicons.Openaigym
+import compose.icons.simpleicons.Openapiinitiative
+import compose.icons.simpleicons.Openbadges
 import compose.icons.simpleicons.Openbsd
+import compose.icons.simpleicons.Openbugbounty
+import compose.icons.simpleicons.Opencollective
+import compose.icons.simpleicons.Opencontainersinitiative
 import compose.icons.simpleicons.Opencv
+import compose.icons.simpleicons.Openfaas
 import compose.icons.simpleicons.Opengl
 import compose.icons.simpleicons.Openid
 import compose.icons.simpleicons.Openlayers
+import compose.icons.simpleicons.Opennebula
+import compose.icons.simpleicons.Opensourceinitiative
 import compose.icons.simpleicons.Openssl
 import compose.icons.simpleicons.Openstack
 import compose.icons.simpleicons.Openstreetmap
 import compose.icons.simpleicons.Opensuse
 import compose.icons.simpleicons.Openvpn
 import compose.icons.simpleicons.Opera
+import compose.icons.simpleicons.Opnsense
 import compose.icons.simpleicons.Opsgenie
 import compose.icons.simpleicons.Opslevel
 import compose.icons.simpleicons.Oracle
@@ -1054,18 +1155,20 @@ import compose.icons.simpleicons.Overcast
 import compose.icons.simpleicons.Overleaf
 import compose.icons.simpleicons.Ovh
 import compose.icons.simpleicons.Owasp
+import compose.icons.simpleicons.Oxygen
+import compose.icons.simpleicons.Oyo
 import compose.icons.simpleicons.P5DotJs
 import compose.icons.simpleicons.Packagist
 import compose.icons.simpleicons.Pagekit
 import compose.icons.simpleicons.Pagerduty
-import compose.icons.simpleicons.PagespeedInsights
+import compose.icons.simpleicons.Pagespeedinsights
 import compose.icons.simpleicons.Pagseguro
 import compose.icons.simpleicons.Palantir
-import compose.icons.simpleicons.PaloAltoSoftware
+import compose.icons.simpleicons.Paloaltosoftware
 import compose.icons.simpleicons.Pandas
 import compose.icons.simpleicons.Pandora
 import compose.icons.simpleicons.Pantheon
-import compose.icons.simpleicons.ParitySubstrate
+import compose.icons.simpleicons.Paritysubstrate
 import compose.icons.simpleicons.ParseDotLy
 import compose.icons.simpleicons.Pastebin
 import compose.icons.simpleicons.Patreon
@@ -1074,6 +1177,7 @@ import compose.icons.simpleicons.Paypal
 import compose.icons.simpleicons.Paytm
 import compose.icons.simpleicons.Pcgamingwiki
 import compose.icons.simpleicons.Peertube
+import compose.icons.simpleicons.Pegasusairlines
 import compose.icons.simpleicons.Pelican
 import compose.icons.simpleicons.Peloton
 import compose.icons.simpleicons.Pepsi
@@ -1083,7 +1187,7 @@ import compose.icons.simpleicons.Peugeot
 import compose.icons.simpleicons.Pexels
 import compose.icons.simpleicons.Pfsense
 import compose.icons.simpleicons.Phabricator
-import compose.icons.simpleicons.PhilipsHue
+import compose.icons.simpleicons.Philipshue
 import compose.icons.simpleicons.Phonepe
 import compose.icons.simpleicons.Photobucket
 import compose.icons.simpleicons.Photocrowd
@@ -1091,14 +1195,15 @@ import compose.icons.simpleicons.Php
 import compose.icons.simpleicons.Phpstorm
 import compose.icons.simpleicons.PiHole
 import compose.icons.simpleicons.PicartoDotTv
+import compose.icons.simpleicons.Picnic
 import compose.icons.simpleicons.Picpay
 import compose.icons.simpleicons.Pimcore
 import compose.icons.simpleicons.Pinboard
 import compose.icons.simpleicons.Pingdom
 import compose.icons.simpleicons.Pingup
 import compose.icons.simpleicons.Pinterest
-import compose.icons.simpleicons.PioneerDj
-import compose.icons.simpleicons.PivotalTracker
+import compose.icons.simpleicons.Pioneerdj
+import compose.icons.simpleicons.Pivotaltracker
 import compose.icons.simpleicons.Piwigo
 import compose.icons.simpleicons.Pixabay
 import compose.icons.simpleicons.Pixiv
@@ -1106,48 +1211,52 @@ import compose.icons.simpleicons.Pjsip
 import compose.icons.simpleicons.Planet
 import compose.icons.simpleicons.Plangrid
 import compose.icons.simpleicons.Platzi
+import compose.icons.simpleicons.Playcanvas
 import compose.icons.simpleicons.PlayerDotMe
-import compose.icons.simpleicons.PlayerFm
+import compose.icons.simpleicons.Playerfm
 import compose.icons.simpleicons.Playstation
 import compose.icons.simpleicons.Playstation2
 import compose.icons.simpleicons.Playstation3
 import compose.icons.simpleicons.Playstation4
 import compose.icons.simpleicons.Playstation5
-import compose.icons.simpleicons.PlaystationVita
+import compose.icons.simpleicons.Playstationvita
 import compose.icons.simpleicons.Pleroma
 import compose.icons.simpleicons.Plesk
 import compose.icons.simpleicons.Plex
+import compose.icons.simpleicons.Plotly
 import compose.icons.simpleicons.Pluralsight
 import compose.icons.simpleicons.Plurk
-import compose.icons.simpleicons.PlusCodes
+import compose.icons.simpleicons.Pluscodes
 import compose.icons.simpleicons.Pocket
-import compose.icons.simpleicons.PocketCasts
-import compose.icons.simpleicons.PodcastAddict
+import compose.icons.simpleicons.Pocketcasts
+import compose.icons.simpleicons.Podcastaddict
+import compose.icons.simpleicons.Podman
 import compose.icons.simpleicons.Pokemon
 import compose.icons.simpleicons.Poly
-import compose.icons.simpleicons.PolymerProject
+import compose.icons.simpleicons.Polymerproject
 import compose.icons.simpleicons.PopOs
 import compose.icons.simpleicons.Porsche
 import compose.icons.simpleicons.Postcss
 import compose.icons.simpleicons.Postgresql
 import compose.icons.simpleicons.Postman
 import compose.icons.simpleicons.Postmates
-import compose.icons.simpleicons.PowerBi
+import compose.icons.simpleicons.Powerbi
 import compose.icons.simpleicons.Powers
 import compose.icons.simpleicons.Powershell
 import compose.icons.simpleicons.PrDotCo
 import compose.icons.simpleicons.PreCommit
+import compose.icons.simpleicons.Premierleague
 import compose.icons.simpleicons.Prestashop
 import compose.icons.simpleicons.Presto
 import compose.icons.simpleicons.Prettier
 import compose.icons.simpleicons.Prezi
 import compose.icons.simpleicons.Prime
-import compose.icons.simpleicons.PrimeVideo
+import compose.icons.simpleicons.Primevideo
+import compose.icons.simpleicons.Prisma
 import compose.icons.simpleicons.Prismic
-import compose.icons.simpleicons.ProTools
 import compose.icons.simpleicons.Probot
 import compose.icons.simpleicons.Processwire
-import compose.icons.simpleicons.ProductHunt
+import compose.icons.simpleicons.Producthunt
 import compose.icons.simpleicons.Progate
 import compose.icons.simpleicons.Progress
 import compose.icons.simpleicons.Prometheus
@@ -1156,9 +1265,14 @@ import compose.icons.simpleicons.ProtoDotIo
 import compose.icons.simpleicons.ProtocolsDotIo
 import compose.icons.simpleicons.Protondb
 import compose.icons.simpleicons.Protonmail
+import compose.icons.simpleicons.Protonvpn
+import compose.icons.simpleicons.Protools
 import compose.icons.simpleicons.Proxmox
 import compose.icons.simpleicons.Publons
+import compose.icons.simpleicons.Pubmed
+import compose.icons.simpleicons.Pug
 import compose.icons.simpleicons.Puppet
+import compose.icons.simpleicons.Puppeteer
 import compose.icons.simpleicons.Purescript
 import compose.icons.simpleicons.Pycharm
 import compose.icons.simpleicons.Pypi
@@ -1167,19 +1281,22 @@ import compose.icons.simpleicons.Python
 import compose.icons.simpleicons.Pytorch
 import compose.icons.simpleicons.Pyup
 import compose.icons.simpleicons.Qantas
+import compose.icons.simpleicons.Qatarairways
 import compose.icons.simpleicons.Qemu
 import compose.icons.simpleicons.Qgis
 import compose.icons.simpleicons.Qi
 import compose.icons.simpleicons.Qiita
+import compose.icons.simpleicons.Qiskit
 import compose.icons.simpleicons.Qiwi
 import compose.icons.simpleicons.Qt
 import compose.icons.simpleicons.Qualcomm
 import compose.icons.simpleicons.Qualtrics
 import compose.icons.simpleicons.Quantcast
+import compose.icons.simpleicons.Quantconnect
 import compose.icons.simpleicons.Quantopian
 import compose.icons.simpleicons.Quarkus
 import compose.icons.simpleicons.Quasar
-import compose.icons.simpleicons.QubesOs
+import compose.icons.simpleicons.Qubesos
 import compose.icons.simpleicons.Quest
 import compose.icons.simpleicons.Quickbooks
 import compose.icons.simpleicons.Quicktime
@@ -1194,51 +1311,58 @@ import compose.icons.simpleicons.Radar
 import compose.icons.simpleicons.Radiopublic
 import compose.icons.simpleicons.Rainmeter
 import compose.icons.simpleicons.Rakuten
+import compose.icons.simpleicons.Ram
 import compose.icons.simpleicons.Rancher
-import compose.icons.simpleicons.RaspberryPi
+import compose.icons.simpleicons.Raspberrypi
 import compose.icons.simpleicons.Razer
 import compose.icons.simpleicons.React
-import compose.icons.simpleicons.ReactRouter
 import compose.icons.simpleicons.Reactivex
 import compose.icons.simpleicons.Reactos
-import compose.icons.simpleicons.ReadTheDocs
+import compose.icons.simpleicons.Reactrouter
+import compose.icons.simpleicons.Readthedocs
 import compose.icons.simpleicons.Realm
 import compose.icons.simpleicons.Reason
-import compose.icons.simpleicons.ReasonStudios
-import compose.icons.simpleicons.RedHat
-import compose.icons.simpleicons.RedHatOpenShift
+import compose.icons.simpleicons.Reasonstudios
 import compose.icons.simpleicons.Redbubble
 import compose.icons.simpleicons.Reddit
+import compose.icons.simpleicons.Redhat
+import compose.icons.simpleicons.Redhatopenshift
 import compose.icons.simpleicons.Redis
 import compose.icons.simpleicons.Redux
+import compose.icons.simpleicons.ReduxSaga
 import compose.icons.simpleicons.Redwoodjs
-import compose.icons.simpleicons.RelianceIndustriesLimited
+import compose.icons.simpleicons.Relianceindustrieslimited
 import compose.icons.simpleicons.Renault
 import compose.icons.simpleicons.Renovatebot
 import compose.icons.simpleicons.Renpy
 import compose.icons.simpleicons.Renren
 import compose.icons.simpleicons.ReplDotIt
 import compose.icons.simpleicons.Researchgate
+import compose.icons.simpleicons.Resurrectionremixos
 import compose.icons.simpleicons.Retroarch
 import compose.icons.simpleicons.Retropie
+import compose.icons.simpleicons.RevealDotJs
 import compose.icons.simpleicons.Reverbnation
 import compose.icons.simpleicons.Revolut
 import compose.icons.simpleicons.Revue
 import compose.icons.simpleicons.Rewe
+import compose.icons.simpleicons.Rezgo
 import compose.icons.simpleicons.Rhinoceros
+import compose.icons.simpleicons.Rider
 import compose.icons.simpleicons.Ring
-import compose.icons.simpleicons.RiotGames
+import compose.icons.simpleicons.Riotgames
 import compose.icons.simpleicons.Ripple
 import compose.icons.simpleicons.Riseup
-import compose.icons.simpleicons.RoamResearch
+import compose.icons.simpleicons.Roamresearch
+import compose.icons.simpleicons.Robotframework
 import compose.icons.simpleicons.Roku
 import compose.icons.simpleicons.RollsRoyce
 import compose.icons.simpleicons.RollupDotJs
 import compose.icons.simpleicons.Roots
-import compose.icons.simpleicons.RootsBedrock
-import compose.icons.simpleicons.RootsSage
+import compose.icons.simpleicons.Rootsbedrock
+import compose.icons.simpleicons.Rootssage
 import compose.icons.simpleicons.Ros
-import compose.icons.simpleicons.RottenTomatoes
+import compose.icons.simpleicons.Rottentomatoes
 import compose.icons.simpleicons.Roundcube
 import compose.icons.simpleicons.Rss
 import compose.icons.simpleicons.Rstudio
@@ -1246,24 +1370,25 @@ import compose.icons.simpleicons.Rte
 import compose.icons.simpleicons.Rtl
 import compose.icons.simpleicons.Rtlzwei
 import compose.icons.simpleicons.Ruby
-import compose.icons.simpleicons.RubyOnRails
 import compose.icons.simpleicons.Rubygems
+import compose.icons.simpleicons.Rubyonrails
 import compose.icons.simpleicons.Runkeeper
 import compose.icons.simpleicons.Runkit
 import compose.icons.simpleicons.Rust
 import compose.icons.simpleicons.Ryanair
+import compose.icons.simpleicons.S7airlines
 import compose.icons.simpleicons.Safari
 import compose.icons.simpleicons.Sahibinden
 import compose.icons.simpleicons.Salesforce
 import compose.icons.simpleicons.Saltstack
 import compose.icons.simpleicons.Samsung
-import compose.icons.simpleicons.SamsungPay
-import compose.icons.simpleicons.SanFranciscoMunicipalRailway
-import compose.icons.simpleicons.SaoPauloMetro
+import compose.icons.simpleicons.Samsungpay
+import compose.icons.simpleicons.Sanfranciscomunicipalrailway
+import compose.icons.simpleicons.Saopaulometro
 import compose.icons.simpleicons.Sap
 import compose.icons.simpleicons.Sass
 import compose.icons.simpleicons.SatDot1
-import compose.icons.simpleicons.SauceLabs
+import compose.icons.simpleicons.Saucelabs
 import compose.icons.simpleicons.Scala
 import compose.icons.simpleicons.Scaleway
 import compose.icons.simpleicons.Scania
@@ -1271,38 +1396,46 @@ import compose.icons.simpleicons.ScikitLearn
 import compose.icons.simpleicons.Scipy
 import compose.icons.simpleicons.Scopus
 import compose.icons.simpleicons.Scratch
+import compose.icons.simpleicons.Screencastify
 import compose.icons.simpleicons.Scribd
 import compose.icons.simpleicons.Scrimba
-import compose.icons.simpleicons.ScrutinizerCi
+import compose.icons.simpleicons.Scrutinizerci
 import compose.icons.simpleicons.Seagate
 import compose.icons.simpleicons.Seat
+import compose.icons.simpleicons.Sefaria
 import compose.icons.simpleicons.Sega
 import compose.icons.simpleicons.Selenium
 import compose.icons.simpleicons.Sellfy
-import compose.icons.simpleicons.SemanticUiReact
-import compose.icons.simpleicons.SemanticWeb
-import compose.icons.simpleicons.SemaphoreCi
+import compose.icons.simpleicons.SemanticRelease
+import compose.icons.simpleicons.Semanticuireact
+import compose.icons.simpleicons.Semanticweb
+import compose.icons.simpleicons.Semaphoreci
 import compose.icons.simpleicons.Semver
 import compose.icons.simpleicons.Sencha
 import compose.icons.simpleicons.Sennheiser
 import compose.icons.simpleicons.Sensu
 import compose.icons.simpleicons.Sentry
 import compose.icons.simpleicons.Sepa
-import compose.icons.simpleicons.ServerFault
+import compose.icons.simpleicons.Serverfault
 import compose.icons.simpleicons.Serverless
-import compose.icons.simpleicons.ShanghaiMetro
+import compose.icons.simpleicons.Sfml
+import compose.icons.simpleicons.Shanghaimetro
+import compose.icons.simpleicons.Sharp
 import compose.icons.simpleicons.Shazam
 import compose.icons.simpleicons.Shell
-import compose.icons.simpleicons.ShenzhenMetro
+import compose.icons.simpleicons.Shenzhenmetro
 import compose.icons.simpleicons.ShieldsDotIo
 import compose.icons.simpleicons.Shikimori
 import compose.icons.simpleicons.Shopify
 import compose.icons.simpleicons.Shopware
+import compose.icons.simpleicons.Shotcut
 import compose.icons.simpleicons.Showpad
+import compose.icons.simpleicons.Showtime
 import compose.icons.simpleicons.Shutterstock
 import compose.icons.simpleicons.Siemens
 import compose.icons.simpleicons.Signal
-import compose.icons.simpleicons.SinaWeibo
+import compose.icons.simpleicons.Simpleicons
+import compose.icons.simpleicons.Sinaweibo
 import compose.icons.simpleicons.Singlestore
 import compose.icons.simpleicons.Sitepoint
 import compose.icons.simpleicons.Sketch
@@ -1313,7 +1446,7 @@ import compose.icons.simpleicons.Skoda
 import compose.icons.simpleicons.Sky
 import compose.icons.simpleicons.Skyliner
 import compose.icons.simpleicons.Skype
-import compose.icons.simpleicons.SkypeForBusiness
+import compose.icons.simpleicons.Skypeforbusiness
 import compose.icons.simpleicons.Slack
 import compose.icons.simpleicons.Slackware
 import compose.icons.simpleicons.Slashdot
@@ -1322,7 +1455,7 @@ import compose.icons.simpleicons.Slides
 import compose.icons.simpleicons.Slideshare
 import compose.icons.simpleicons.Smart
 import compose.icons.simpleicons.Smartthings
-import compose.icons.simpleicons.SmashingMagazine
+import compose.icons.simpleicons.Smashingmagazine
 import compose.icons.simpleicons.Smrt
 import compose.icons.simpleicons.Smugmug
 import compose.icons.simpleicons.Snapchat
@@ -1332,6 +1465,7 @@ import compose.icons.simpleicons.Snyk
 import compose.icons.simpleicons.Society6
 import compose.icons.simpleicons.SocketDotIo
 import compose.icons.simpleicons.Sogou
+import compose.icons.simpleicons.Solidity
 import compose.icons.simpleicons.Sololearn
 import compose.icons.simpleicons.Solus
 import compose.icons.simpleicons.Sonarcloud
@@ -1339,20 +1473,22 @@ import compose.icons.simpleicons.Sonarlint
 import compose.icons.simpleicons.Sonarqube
 import compose.icons.simpleicons.Sonarsource
 import compose.icons.simpleicons.Songkick
+import compose.icons.simpleicons.Songoda
 import compose.icons.simpleicons.Sonicwall
 import compose.icons.simpleicons.Sonos
 import compose.icons.simpleicons.Soundcloud
-import compose.icons.simpleicons.SourceEngine
+import compose.icons.simpleicons.Sourceengine
 import compose.icons.simpleicons.Sourceforge
 import compose.icons.simpleicons.Sourcegraph
-import compose.icons.simpleicons.SouthwestAirlines
+import compose.icons.simpleicons.Southwestairlines
 import compose.icons.simpleicons.Spacemacs
 import compose.icons.simpleicons.Spacex
-import compose.icons.simpleicons.SparkAr
+import compose.icons.simpleicons.Sparkar
+import compose.icons.simpleicons.Sparkasse
 import compose.icons.simpleicons.Sparkfun
 import compose.icons.simpleicons.Sparkpost
 import compose.icons.simpleicons.Spdx
-import compose.icons.simpleicons.SpeakerDeck
+import compose.icons.simpleicons.Speakerdeck
 import compose.icons.simpleicons.Spectrum
 import compose.icons.simpleicons.Speedtest
 import compose.icons.simpleicons.Spinnaker
@@ -1363,26 +1499,27 @@ import compose.icons.simpleicons.Spotlight
 import compose.icons.simpleicons.Spreaker
 import compose.icons.simpleicons.Spring
 import compose.icons.simpleicons.Sprint
-import compose.icons.simpleicons.SpyderIde
+import compose.icons.simpleicons.Spyderide
 import compose.icons.simpleicons.Sqlite
 import compose.icons.simpleicons.Square
-import compose.icons.simpleicons.SquareEnix
+import compose.icons.simpleicons.Squareenix
 import compose.icons.simpleicons.Squarespace
 import compose.icons.simpleicons.Ssrn
-import compose.icons.simpleicons.StackExchange
-import compose.icons.simpleicons.StackOverflow
 import compose.icons.simpleicons.Stackbit
+import compose.icons.simpleicons.Stackexchange
+import compose.icons.simpleicons.Stackoverflow
 import compose.icons.simpleicons.Stackpath
 import compose.icons.simpleicons.Stackshare
 import compose.icons.simpleicons.Stadia
 import compose.icons.simpleicons.Staffbase
-import compose.icons.simpleicons.StarTrek
-import compose.icons.simpleicons.StarlingBank
+import compose.icons.simpleicons.Starlingbank
 import compose.icons.simpleicons.Starship
+import compose.icons.simpleicons.Startrek
 import compose.icons.simpleicons.Starz
 import compose.icons.simpleicons.Statamic
 import compose.icons.simpleicons.Staticman
 import compose.icons.simpleicons.Statuspage
+import compose.icons.simpleicons.Statuspal
 import compose.icons.simpleicons.Steam
 import compose.icons.simpleicons.Steamdb
 import compose.icons.simpleicons.Steamworks
@@ -1402,14 +1539,19 @@ import compose.icons.simpleicons.Stripe
 import compose.icons.simpleicons.Strongswan
 import compose.icons.simpleicons.Stubhub
 import compose.icons.simpleicons.StyledComponents
+import compose.icons.simpleicons.Stylelint
 import compose.icons.simpleicons.Styleshare
 import compose.icons.simpleicons.Stylus
 import compose.icons.simpleicons.Subaru
-import compose.icons.simpleicons.SublimeText
+import compose.icons.simpleicons.Sublimetext
 import compose.icons.simpleicons.Substack
 import compose.icons.simpleicons.Subversion
-import compose.icons.simpleicons.SumoLogic
-import compose.icons.simpleicons.SuperUser
+import compose.icons.simpleicons.Suckless
+import compose.icons.simpleicons.Sumologic
+import compose.icons.simpleicons.Supabase
+import compose.icons.simpleicons.Superuser
+import compose.icons.simpleicons.Surveymonkey
+import compose.icons.simpleicons.Suse
 import compose.icons.simpleicons.Suzuki
 import compose.icons.simpleicons.Svelte
 import compose.icons.simpleicons.Svg
@@ -1417,6 +1559,7 @@ import compose.icons.simpleicons.Svgo
 import compose.icons.simpleicons.Swagger
 import compose.icons.simpleicons.Swarm
 import compose.icons.simpleicons.Swift
+import compose.icons.simpleicons.Swiggy
 import compose.icons.simpleicons.Swiper
 import compose.icons.simpleicons.Symantec
 import compose.icons.simpleicons.Symfony
@@ -1426,8 +1569,9 @@ import compose.icons.simpleicons.TMobile
 import compose.icons.simpleicons.Tableau
 import compose.icons.simpleicons.Tado
 import compose.icons.simpleicons.Tails
-import compose.icons.simpleicons.TailwindCss
+import compose.icons.simpleicons.Tailwindcss
 import compose.icons.simpleicons.Talend
+import compose.icons.simpleicons.Tampermonkey
 import compose.icons.simpleicons.Taobao
 import compose.icons.simpleicons.Tapas
 import compose.icons.simpleicons.Tasmota
@@ -1440,23 +1584,25 @@ import compose.icons.simpleicons.Ted
 import compose.icons.simpleicons.Teespring
 import compose.icons.simpleicons.Tele5
 import compose.icons.simpleicons.Telegram
-import compose.icons.simpleicons.TencentQq
-import compose.icons.simpleicons.TencentWeibo
+import compose.icons.simpleicons.Tencentqq
+import compose.icons.simpleicons.Tencentweibo
 import compose.icons.simpleicons.Tensorflow
 import compose.icons.simpleicons.Teradata
+import compose.icons.simpleicons.Teratail
 import compose.icons.simpleicons.Terraform
 import compose.icons.simpleicons.Tesla
 import compose.icons.simpleicons.Testin
-import compose.icons.simpleicons.TestingLibrary
-import compose.icons.simpleicons.TheConversation
-import compose.icons.simpleicons.TheIrishTimes
-import compose.icons.simpleicons.TheMighty
-import compose.icons.simpleicons.TheModelsResource
-import compose.icons.simpleicons.TheMovieDatabase
-import compose.icons.simpleicons.TheRegister
-import compose.icons.simpleicons.TheSoundsResource
-import compose.icons.simpleicons.TheSpritersResource
-import compose.icons.simpleicons.TheWashingtonPost
+import compose.icons.simpleicons.Testinglibrary
+import compose.icons.simpleicons.Textpattern
+import compose.icons.simpleicons.Theconversation
+import compose.icons.simpleicons.Theirishtimes
+import compose.icons.simpleicons.Themighty
+import compose.icons.simpleicons.Themodelsresource
+import compose.icons.simpleicons.Themoviedatabase
+import compose.icons.simpleicons.Theregister
+import compose.icons.simpleicons.Thesoundsresource
+import compose.icons.simpleicons.Thespritersresource
+import compose.icons.simpleicons.Thewashingtonpost
 import compose.icons.simpleicons.Thinkpad
 import compose.icons.simpleicons.ThreeDotJs
 import compose.icons.simpleicons.Threema
@@ -1474,41 +1620,44 @@ import compose.icons.simpleicons.Tinyletter
 import compose.icons.simpleicons.Tmux
 import compose.icons.simpleicons.Todoist
 import compose.icons.simpleicons.Toggl
-import compose.icons.simpleicons.TokyoMetro
+import compose.icons.simpleicons.Tokyometro
 import compose.icons.simpleicons.Tomorrowland
 import compose.icons.simpleicons.Topcoder
 import compose.icons.simpleicons.Toptal
-import compose.icons.simpleicons.TorBrowser
-import compose.icons.simpleicons.TorProject
+import compose.icons.simpleicons.Torbrowser
+import compose.icons.simpleicons.Torproject
 import compose.icons.simpleicons.Toshiba
 import compose.icons.simpleicons.Toyota
 import compose.icons.simpleicons.TpLink
 import compose.icons.simpleicons.Trainerroad
 import compose.icons.simpleicons.Trakt
 import compose.icons.simpleicons.Transferwise
-import compose.icons.simpleicons.TransportForIreland
-import compose.icons.simpleicons.TransportForLondon
-import compose.icons.simpleicons.TravisCi
+import compose.icons.simpleicons.Transportforireland
+import compose.icons.simpleicons.Transportforlondon
+import compose.icons.simpleicons.Travisci
 import compose.icons.simpleicons.Treehouse
 import compose.icons.simpleicons.Trello
-import compose.icons.simpleicons.TrendMicro
+import compose.icons.simpleicons.Trendmicro
 import compose.icons.simpleicons.Treyarch
 import compose.icons.simpleicons.Triller
+import compose.icons.simpleicons.Trino
 import compose.icons.simpleicons.TripDotCom
 import compose.icons.simpleicons.Tripadvisor
 import compose.icons.simpleicons.Trove
 import compose.icons.simpleicons.Truenas
 import compose.icons.simpleicons.Trulia
-import compose.icons.simpleicons.TrustedShops
+import compose.icons.simpleicons.Trustedshops
 import compose.icons.simpleicons.Trustpilot
-import compose.icons.simpleicons.TryItOnline
 import compose.icons.simpleicons.Tryhackme
+import compose.icons.simpleicons.Tryitonline
+import compose.icons.simpleicons.TsNode
 import compose.icons.simpleicons.Tui
 import compose.icons.simpleicons.Tumblr
 import compose.icons.simpleicons.Tunein
 import compose.icons.simpleicons.Turbosquid
-import compose.icons.simpleicons.TurkishAirlines
+import compose.icons.simpleicons.Turkishairlines
 import compose.icons.simpleicons.Tutanota
+import compose.icons.simpleicons.Tvtime
 import compose.icons.simpleicons.Twilio
 import compose.icons.simpleicons.Twitch
 import compose.icons.simpleicons.Twitter
@@ -1516,10 +1665,10 @@ import compose.icons.simpleicons.Twoo
 import compose.icons.simpleicons.Typescript
 import compose.icons.simpleicons.Typo3
 import compose.icons.simpleicons.Uber
-import compose.icons.simpleicons.UberEats
+import compose.icons.simpleicons.Ubereats
 import compose.icons.simpleicons.Ubiquiti
 import compose.icons.simpleicons.Ubisoft
-import compose.icons.simpleicons.UblockOrigin
+import compose.icons.simpleicons.Ublockorigin
 import compose.icons.simpleicons.Ubuntu
 import compose.icons.simpleicons.Udacity
 import compose.icons.simpleicons.Udemy
@@ -1530,10 +1679,10 @@ import compose.icons.simpleicons.Unacademy
 import compose.icons.simpleicons.Undertale
 import compose.icons.simpleicons.Unicode
 import compose.icons.simpleicons.Unilever
-import compose.icons.simpleicons.UnitedAirlines
+import compose.icons.simpleicons.Unitedairlines
 import compose.icons.simpleicons.Unity
 import compose.icons.simpleicons.Unraid
-import compose.icons.simpleicons.UnrealEngine
+import compose.icons.simpleicons.Unrealengine
 import compose.icons.simpleicons.Unsplash
 import compose.icons.simpleicons.Untangle
 import compose.icons.simpleicons.Untappd
@@ -1544,11 +1693,15 @@ import compose.icons.simpleicons.Upwork
 import compose.icons.simpleicons.Usps
 import compose.icons.simpleicons.V
 import compose.icons.simpleicons.V8
+import compose.icons.simpleicons.Vaadin
 import compose.icons.simpleicons.Vagrant
 import compose.icons.simpleicons.Valve
+import compose.icons.simpleicons.Vapor
 import compose.icons.simpleicons.Vault
 import compose.icons.simpleicons.Vauxhall
 import compose.icons.simpleicons.Vbulletin
+import compose.icons.simpleicons.Vectorlogozone
+import compose.icons.simpleicons.Vectorworks
 import compose.icons.simpleicons.Veeam
 import compose.icons.simpleicons.Veepee
 import compose.icons.simpleicons.Venmo
@@ -1560,18 +1713,18 @@ import compose.icons.simpleicons.Viadeo
 import compose.icons.simpleicons.Viber
 import compose.icons.simpleicons.Vim
 import compose.icons.simpleicons.Vimeo
-import compose.icons.simpleicons.VimeoLivestream
+import compose.icons.simpleicons.Vimeolivestream
 import compose.icons.simpleicons.Vine
 import compose.icons.simpleicons.Virb
 import compose.icons.simpleicons.Virtualbox
 import compose.icons.simpleicons.Virustotal
 import compose.icons.simpleicons.Visa
-import compose.icons.simpleicons.VisualStudio
-import compose.icons.simpleicons.VisualStudioCode
+import compose.icons.simpleicons.Visualstudio
+import compose.icons.simpleicons.Visualstudiocode
 import compose.icons.simpleicons.Vivaldi
 import compose.icons.simpleicons.Vivino
 import compose.icons.simpleicons.Vk
-import compose.icons.simpleicons.VlcMediaPlayer
+import compose.icons.simpleicons.Vlcmediaplayer
 import compose.icons.simpleicons.Vmware
 import compose.icons.simpleicons.Vodafone
 import compose.icons.simpleicons.Volkswagen
@@ -1587,14 +1740,16 @@ import compose.icons.simpleicons.W3c
 import compose.icons.simpleicons.Wagtail
 import compose.icons.simpleicons.Wakatime
 import compose.icons.simpleicons.Walkman
-import compose.icons.simpleicons.WarnerBrosDot
+import compose.icons.simpleicons.Wappalyzer
+import compose.icons.simpleicons.WarnerbrosDot
 import compose.icons.simpleicons.Wattpad
 import compose.icons.simpleicons.Waze
-import compose.icons.simpleicons.WearOs
+import compose.icons.simpleicons.Wearos
 import compose.icons.simpleicons.Weasyl
 import compose.icons.simpleicons.Webassembly
 import compose.icons.simpleicons.Webauthn
 import compose.icons.simpleicons.WebcomponentsDotOrg
+import compose.icons.simpleicons.Webdriverio
 import compose.icons.simpleicons.Webflow
 import compose.icons.simpleicons.Webgl
 import compose.icons.simpleicons.Webmin
@@ -1607,18 +1762,19 @@ import compose.icons.simpleicons.WeightsAndBiases
 import compose.icons.simpleicons.Wemo
 import compose.icons.simpleicons.Wetransfer
 import compose.icons.simpleicons.Whatsapp
-import compose.icons.simpleicons.WhenIWork
+import compose.icons.simpleicons.Wheniwork
 import compose.icons.simpleicons.Whitesource
 import compose.icons.simpleicons.Wii
-import compose.icons.simpleicons.WiiU
+import compose.icons.simpleicons.Wiiu
 import compose.icons.simpleicons.Wikidata
-import compose.icons.simpleicons.WikimediaCommons
+import compose.icons.simpleicons.Wikimediacommons
 import compose.icons.simpleicons.Wikipedia
 import compose.icons.simpleicons.Wikiquote
 import compose.icons.simpleicons.Wikivoyage
 import compose.icons.simpleicons.Windows
 import compose.icons.simpleicons.Windows95
-import compose.icons.simpleicons.WindowsXp
+import compose.icons.simpleicons.Windowsterminal
+import compose.icons.simpleicons.Windowsxp
 import compose.icons.simpleicons.Winmate
 import compose.icons.simpleicons.Wipro
 import compose.icons.simpleicons.Wire
@@ -1627,17 +1783,17 @@ import compose.icons.simpleicons.Wireshark
 import compose.icons.simpleicons.Wish
 import compose.icons.simpleicons.Wistia
 import compose.icons.simpleicons.Wix
-import compose.icons.simpleicons.WizzAir
+import compose.icons.simpleicons.Wizzair
 import compose.icons.simpleicons.Wolfram
-import compose.icons.simpleicons.WolframLanguage
-import compose.icons.simpleicons.WolframMathematica
+import compose.icons.simpleicons.Wolframlanguage
+import compose.icons.simpleicons.Wolframmathematica
 import compose.icons.simpleicons.Woo
 import compose.icons.simpleicons.Woocommerce
 import compose.icons.simpleicons.Wordpress
 import compose.icons.simpleicons.Workplace
-import compose.icons.simpleicons.WorldHealthOrganization
-import compose.icons.simpleicons.WpEngine
-import compose.icons.simpleicons.WpRocket
+import compose.icons.simpleicons.Worldhealthorganization
+import compose.icons.simpleicons.Wpengine
+import compose.icons.simpleicons.Wprocket
 import compose.icons.simpleicons.WriteDotAs
 import compose.icons.simpleicons.Wwe
 import compose.icons.simpleicons.XDotOrg
@@ -1647,7 +1803,7 @@ import compose.icons.simpleicons.Xaml
 import compose.icons.simpleicons.Xampp
 import compose.icons.simpleicons.Xbox
 import compose.icons.simpleicons.Xcode
-import compose.icons.simpleicons.XdaDevelopers
+import compose.icons.simpleicons.Xdadevelopers
 import compose.icons.simpleicons.Xero
 import compose.icons.simpleicons.Xfce
 import compose.icons.simpleicons.Xiaomi
@@ -1656,30 +1812,30 @@ import compose.icons.simpleicons.Xing
 import compose.icons.simpleicons.Xmpp
 import compose.icons.simpleicons.Xrp
 import compose.icons.simpleicons.Xsplit
-import compose.icons.simpleicons.YCombinator
 import compose.icons.simpleicons.Yahoo
 import compose.icons.simpleicons.Yale
-import compose.icons.simpleicons.YamahaCorporation
-import compose.icons.simpleicons.YamahaMotorCorporation
+import compose.icons.simpleicons.Yamahacorporation
+import compose.icons.simpleicons.Yamahamotorcorporation
 import compose.icons.simpleicons.Yammer
 import compose.icons.simpleicons.Yandex
 import compose.icons.simpleicons.Yarn
+import compose.icons.simpleicons.Ycombinator
 import compose.icons.simpleicons.Yelp
 import compose.icons.simpleicons.Yoast
 import compose.icons.simpleicons.YourtravelDotTv
 import compose.icons.simpleicons.Youtube
-import compose.icons.simpleicons.YoutubeGaming
-import compose.icons.simpleicons.YoutubeMusic
-import compose.icons.simpleicons.YoutubeStudio
-import compose.icons.simpleicons.YoutubeTv
+import compose.icons.simpleicons.Youtubegaming
+import compose.icons.simpleicons.Youtubemusic
+import compose.icons.simpleicons.Youtubestudio
+import compose.icons.simpleicons.Youtubetv
 import compose.icons.simpleicons.ZWave
 import compose.icons.simpleicons.Zalando
 import compose.icons.simpleicons.Zapier
 import compose.icons.simpleicons.Zdf
 import compose.icons.simpleicons.Zelle
 import compose.icons.simpleicons.Zend
-import compose.icons.simpleicons.ZendFramework
 import compose.icons.simpleicons.Zendesk
+import compose.icons.simpleicons.Zendframework
 import compose.icons.simpleicons.Zenn
 import compose.icons.simpleicons.Zeromq
 import compose.icons.simpleicons.Zerply
@@ -1688,6 +1844,7 @@ import compose.icons.simpleicons.Zigbee
 import compose.icons.simpleicons.Zillow
 import compose.icons.simpleicons.Zingat
 import compose.icons.simpleicons.Zoho
+import compose.icons.simpleicons.Zoiper
 import compose.icons.simpleicons.Zomato
 import compose.icons.simpleicons.Zoom
 import compose.icons.simpleicons.Zorin
@@ -1699,7 +1856,6 @@ import compose.icons.simpleicons._3m
 import compose.icons.simpleicons._42
 import compose.icons.simpleicons._4d
 import compose.icons.simpleicons._500px
-import compose.icons.simpleicons.SimpleIcons as ___SimpleIcons
 import kotlin.collections.List as ____KtList
 
 public object SimpleIcons
@@ -1711,204 +1867,221 @@ public val SimpleIcons.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(MicrosoftSharepoint, Dazn, GooglePay, Quasar, Strongswan, Sellfy, Treehouse,
-        _1001tracklists, Mcdonalds, Deviantart, Pexels, TheIrishTimes, Css3, Blackberry,
-        AbletonLive, Hurriyetemlak, Staticman, Aiohttp, VueDotJs, Cloudflare, DarkReader, Prosieben,
-        Abstract, Taobao, Emby, Fandango, Steam, Lua, Audioboom, Okcupid, GooglePodcasts,
-        EightSleep, Sonarsource, Jaguar, Uplabs, ContactlessPayment, W3c, Fortinet, WriteDotAs,
-        GoogleNews, UblockOrigin, GnuSocial, Smart, Trello, Cloudsmith, Rte, Stencyl, Erlang,
-        Ticketmaster, Atlassian, Notepadplusplus, ApacheAnt, Gumroad, Exercism, Undertale,
-        Gitkraken, Drupal, AdblockPlus, Bentley, FerrariNDotVDot, ScikitLearn, Spinrilla, Mta,
-        ApacheNetbeansIde, Loop, Pocket, Zulip, Badoo, Bootstrap, Jinja, Bandsintown, Houzz,
-        MicrosoftAccess, MicrosoftSqlServer, Periscope, Bmw, Amazon, Libreoffice, Openlayers, Ovh,
-        RoamResearch, Bose, Honda, Ios, Thinkpad, Kibana, Musicbrainz, Subversion, Xamarin, Mewe,
-        RedHat, Ideal, Trustpilot, Aiqfome, GoogleDrive, Momenteo, Pingdom, Nginx, Mocha, Uikit,
-        Checkmarx, Neovim, Sonarqube, Tryhackme, Gmail, ZWave, Sega, Flutter, OpenBugBounty,
-        Clockify, Siemens, Instacart, Snapcraft, Mcafee, Quickbooks, Docusign, Bunq, Purescript,
-        Fluentd, GooglePlay, Vivaldi, Aral, Alipay, Bandcamp, Timescale, Postgresql, Composer,
-        SumoLogic, MetroDeLaCiudadDeMexico, Esea, AdobePhotoshop, Graylog, Brandfolder,
-        AudioTechnica, Bancontact, XPack, DcEntertainment, AzureFunctions, Nodemon, Ring,
-        Crunchbase, Todoist, Ionic, Cliqz, Bower, Gnu, Rubygems, Bandlab, WarnerBrosDot, Vimeo,
-        Webrtc, Tunein, Filezilla, Geocaching, Lenovo, LaravelNova, Dior, DeutscheBahn, Keras,
-        Fiverr, Futurelearn, Eventbrite, AffinityPhoto, Jameson, Babel, Cloud66, Qzone, Pinboard,
-        Youtube, Bosch, Neo4j, JsonWebTokens, Etsy, Sencha, Icloud, Livejournal, Wwe, Cookiecutter,
-        Accusoft, RelianceIndustriesLimited, Sensu, Instagram, Cocos, Lamborghini, Sass, Infosys,
-        Bata, NextDotJs, Byte, Bt, Telegram, Helm, Deepnote, Hellofresh, Crunchyroll, Codeceptjs,
-        Zhihu, Graphcool, Archicad, NodeDotJs, Ifood, Intel, Playstation3, Tinyletter, Fiat,
-        Myspace, Splunk, CssWizardry, Qiwi, Hyundai, Monogram, Ardour, Hackaday, V8, Powers,
-        EmpireKred, Nuke, SkypeForBusiness, Scipy, Brave, Fastlane, Treyarch, Microgenetics,
-        Cplusplus, Labview, Gulp, JustEat, Invision, Delonghi, Iheartradio, Komoot,
-        YamahaMotorCorporation, Tui, Lineageos, Toyota, DotNet, MicrosoftExchange, Prime, Plesk,
-        Quicktime, CraftCms, Storybook, AmericanExpress, StyledComponents, LaravelHorizon,
-        RollupDotJs, Twoo, Opensuse, Letterboxd, Yammer, Go, Perl, Scrimba, Chartmogul, Datacamp,
-        Linkedin, AdobeLightroomClassic, Docker, Ansible, DraugiemDotLv, Ros, GoogleKeep, Viadeo,
-        Meteor, Llvm, Openstack, TheRegister, Heroku, Tide, Wikipedia, Strava, TheMovieDatabase,
-        Spotlight, Chase, Gitea, Notion, Starz, Goldenline, Nba, Toggl, Lubuntu,
-        MaxPlanckGesellschaft, Qiita, Svg, Selenium, ShieldsDotIo, Sap, ApacheJmeter, Fnac,
-        ChupaChups, InvoiceNinja, GeneralMotors, ApacheDruid, Twilio, WpRocket, Grubhub, Audi,
-        AerLingus, TorBrowser, Canva, Openai, GoogleColab, Iconify, Headspace, FurryNetwork,
-        GithubActions, Storify, PagespeedInsights, Facebook, AirplayAudio, OpenNebula, Snowflake,
-        Mercedes, HomeAssistant, Powershell, Blueprint, Express, Stackpath, YoutubeMusic, Statamic,
-        Nfc, Edx, Katana, Imdb, WolframMathematica, Magento, Vine, Sky, Trakt, First, Instapaper,
-        Numpy, Mini, Drooble, AmazonPrime, Rtl, Cryengine, Jabber, DerSpiegel, Dailymotion, Xfce,
-        FSecure, Boeing, Android, MicrosoftAcademic, Moo, Nec, GoogleSearchConsole, Typo3,
-        FidoAlliance, GeneralElectric, Bit, Squarespace, Cisco, Zoho, Roots, Flattr, Toptal,
-        Cakephp, Mediafire, Asana, Opsgenie, DasErste, Deno, SquareEnix, GoogleOptimize, Stadia,
-        Webpack, Baidu, Launchpad, Workplace, Prismic, Cypress, Nbb, C, Peloton, Bigbasket,
-        Buzzfeed, Gutenberg, ApacheTomcat, Coderwall, KoFi, Mysql, Palantir, Monero, Jet, Circle,
-        Buddy, Logitech, Wireshark, Elixir, SanFranciscoMunicipalRailway, Flipboard, Douban,
-        Niconico, Wire, Shopify, Codechef, EventStore, Houdini, Nubank, Qt, Fedramp, Mongodb,
-        BrandDotAi, Slashdot, Checkio, Prometheus, Fitbit, PlayerFm, Cucumber, AmazonFireTv, Volvo,
-        PioneerDj, Airbnb, Appveyor, Hcl, Elm, Tensorflow, Badgr, Turbosquid, XDotOrg,
-        NintendoSwitch, WizzAir, Dynatrace, Kubernetes, Meetup, Bitly, Veepee, Sepa, Hotjar,
-        Livestream, Sourceforge, Evry, Cloudways, Pingup, VlcMediaPlayer, Chrysler, Ethereum,
-        OpenBadges, Mix, Instructables, Owasp, Hackster, Renault, Auth0, Pixabay, Zapier,
-        Skillshare, N26, Netflix, Ferrari, Gumtree, Svelte, Discourse, Swiper, IntellijIdea,
-        ReadTheDocs, Gridsome, Fedex, Playstation2, Rakuten, Scopus, JohnDeere, Snapchat,
-        WorldHealthOrganization, Prestashop, ProtocolsDotIo, Sonicwall, TheConversation, Garmin,
-        Planet, Aurelia, Seagate, TripDotCom, UberEats, Kodi, Matomo, BathAsu, CoronaEngine,
-        Concourse, Metro, MicrosoftWord, SaoPauloMetro, HackClub, Spdx, Styleshare, TestingLibrary,
-        TravisCi, Singlestore, Jbl, AbbRobotstudio, Udacity, GoogleChrome, Revue, Linux, AirCanada,
-        Behance, Renpy, PlayerDotMe, DevDotTo, Tripadvisor, Mclaren, Steem, ApacheSolr, Artstation,
-        TurkishAirlines, Dropbox, Stylus, Emlakjet, WikimediaCommons, Typescript, Opera, Windows,
-        Devrant, AdobeIndesign, AngularUniversal, Java, ParseDotLy, Sitepoint,
-        HomeAssistantCommunityStore, Grav, Hackerearth, AppleTv, Substack, WeightsAndBiases,
-        Salesforce, Zelle, Daf, Infiniti, Sparkfun, Zotero, Wistia, Roku, Askfm, Jsdelivr, Disroot,
-        NewYorkTimes, Tumblr, AlfaRomeo, CreativeCommons, Aventrix, Speedtest, Retropie,
-        MicrosoftOnenote, ZendFramework, XdaDevelopers, Rhinoceros, Vivino, Oshkosh, Vmware, Nokia,
-        QubesOs, Bugcrowd, GoogleScholar, Openid, Messenger, Kyocera, Fifa, Usps, Dunked,
-        StackOverflow, Kaspersky, Teamviewer, _500px, Hexo, Slickpic, Twitter, Castro, Coffeescript,
-        RollsRoyce, GoogleStreetView, Jamboard, Midi, Trulia, MicrosoftOffice, Twitch, Marriott,
-        NintendoGamecube, MdnWebDocs, Notist, Venmo, StackExchange, Maserati, Bitwarden, Crowdin,
-        Lastpass, Bing, Oneplus, Ubuntu, Xaml, GoogleAds, Hulu, Slideshare, Whatsapp, Kaios, Eslint,
-        Embarcadero, Floatplane, ServerFault, Thymeleaf, Figshare, ApacheMaven, Arlo,
-        VisualStudioCode, Svgo, Unilever, Celery, Expo, TheModelsResource, Gerrit, Anchor, Wakatime,
-        Cevo, Gitbook, Spring, Pokemon, Spacemacs, TencentQq, Mazda, KarlsruherVerkehrsverbund,
-        Staffbase, Nativescript, Paypal, Foodpanda, Gimp, ShenzhenMetro, Rainmeter, Flickr, Nestjs,
-        Joomla, Showpad, Sprint, BeatsByDre, Threema, Publons, Confluence, Cmake, Steinberg,
-        WindowsXp, Codewars, Broadcom, Mozilla, AdobePhonegap, GoogleMeet, Codecov, Couchbase,
-        GnuIcecat, RaspberryPi, KhanAcademy, HumbleBundle, Openvpn, Ndr, Dell, Codingame,
-        MicrosoftExcel, Castorama, Vfairs, GnuBash, Sourcegraph, VimeoLivestream, Bulma,
-        GoogleNearby, Ubisoft, Shutterstock, GoogleDomains, Airbus, Fastify, Seat, Ipfs, Zerply,
-        Coda, Ebay, YoutubeStudio, Teamspeak, Dolby, Foursquare, Markdown, Ikea, Blazemeter,
-        Sonarlint, ElasticCloud, Diaspora, Ifttt, Realm, Sonarcloud, Harbor, Untangle, Allocine,
-        Imgur, PrDotCo, Asciidoctor, ObsStudio, Iconjar, Tata, Electron, Zorin, Boost, Crehana,
-        Veeam, Revolut, Dacia, Icq, Stackbit, Asus, BeijingSubway, Kik, Hackhands, Quarkus,
-        CoronaRenderer, Klook, Freelancer, FurAffinity, Vk, Quantopian, Woo, ApacheEcharts, Yale,
-        Viber, Keybase, Postman, Samsung, Xmpp, Minds, Hitachi, Firefox, Beats, TheWashingtonPost,
-        MicrosoftTeams, ScrutinizerCi, Github, Klout, Walkman, Symfony, Orcid, ProTools, Kofax,
-        Stellar, Rtlzwei, Onstar, Pepsi, Envato, Hive, Freebsd, Discover, YourtravelDotTv, Antena3,
-        WolframLanguage, VisualStudio, FossilScm, Here, Mattermost, Starship, GoogleEarth,
-        GoogleCardboard, GoogleMyBusiness, Jpeg, MaterialDesignIcons, Vsco, GoogleAdsense,
-        MonkeyTie, Xilinx, Slackware, GoogleSheets, ApplePodcasts, NintendoNetwork, Renren,
-        Glassdoor, Pelican, Codacy, Steemit, Jsfiddle, GnuEmacs, Chef, Alliedmodders, Puppet,
-        GitLfs, Wikivoyage, Yelp, Javascript, Fujitsu, GogDotCom, AirplayVideo, Tiktok,
-        AzureArtifacts, Hubspot, Activision, Tinder, Visa, PlaystationVita, GuangzhouMetro,
-        CirrusCi, Ssrn, Elasticsearch, TorProject, HatenaBookmark, PhilipsHue, Nim, Apache, Blogger,
-        Clyp, Smugmug, Codecademy, TransportForIreland, Discogs, PrimeVideo, Hashnode, Icon, Kakao,
-        Katacoda, Octave, TencentWeibo, Musescore, Fila, Gradle, Lospec, Line, Spreaker, Riseup,
-        SemanticUiReact, Ingress, Dart, Beatport, Wireguard, GoogleChat, Packagist, CoOp, Talend,
-        Webstorm, Thunderbird, Groupon, Aliexpress, Dblp, Codepen, EclipseMosquitto, Insomnia, Kde,
-        Lgtm, Matternet, OpenContainersInitiative, Logmein, Highly, Citrix, Appsignal, Protonmail,
-        Plurk, Digg, PocketCasts, Mastodon, NuxtDotJs, Virb, Genius, Minetest, Openbsd,
-        JfrogBintray, Curseforge, InternetExplorer, Pytorch, Gitee, StarlingBank, Gatling, Bilibili,
-        Mixcloud, EclipseVertDotX, MetroDeParis, Pjsip, Ford, CdProjekt, Ello, Adguard, Ulule,
-        GoogleAssistant, Weasyl, Debian, Codefactor, Steamworks, TheSoundsResource, Delicious,
-        Prettier, RootsBedrock, Teamcity, Pagerduty, Authy, Fozzy, Yandex, Qgis, Maas, LastDotFm,
-        _3m, ApacheFlink, Iobroker, SemaphoreCi, Pixiv, Tails, Yoast, Html5, DesignerNews,
-        Asciinema, Photocrowd, Tomorrowland, GoogleMaps, Phpstorm, Zend, Stubhub, AdobeLightroom,
-        Klm, WhenIWork, Teradata, AdobeAudition, Vault, Kaggle, Bugatti, Leaflet, Netlify, Solus,
-        Steamdb, Husqvarna, AboutDotMe, Uploaded, Quip, Sonos, Ngrok, Zendesk, AiDungeon,
-        Hackerrank, Renovatebot, Folium, Postcss, FreedesktopDotOrg, Coursera, Kitsu, Apple,
-        OpenSourceInitiative, ItchDotIo, Dashlane, Shopware, Julia, Testin, Reactivex, AmazonAws,
-        ArchLinux, Krita, Anydesk, StarTrek, Contentful, Skyliner, Airtable, Homify, Jenkins,
-        Makerbot, Liberapay, Farfetch, PolymerProject, Wordpress, Itunes, Dribbble, Postmates,
-        Openssl, Minutemailer, Maytag, DsAutomobiles, HtmlAcademy, GodotEngine, TailwindCss,
-        _1password, Elastic, Odnoklassniki, Processwire, Linode, Osmc, Ifixit, Civicrm, Informatica,
-        Runkeeper, Jest, OctopusDeploy, Lufthansa, Rss, LinuxMint, Castbox, Icomoon, Intercom,
-        OpenAccess, Ripple, Cognizant, Ups, Umbraco, Git, Slides, YoutubeTv, TokyoMetro, Circleci,
-        Loom, Dialogflow, Subaru, AFrame, ApolloGraphql, Quora, Egghead, Wikiquote, Rancher,
-        WebcomponentsDotOrg, Lmms, Codeproject, Opel, Vagrant, Pantheon, Jasmine, ApacheAirflow,
-        TpLink, Gentoo, Poly, SemanticWeb, Winmate, Digitalocean, Dynamics365, YCombinator, Hp,
-        AndroidAuto, Picpay, Ubiquiti, Wipro, Terraform, Zalando, Sparkpost, NewJapanProWrestling,
-        Yahoo, Leetcode, Xing, Duolingo, Mariadb, AdobePremierePro, CampaignMonitor, Datastax, Lg,
-        Wattpad, Tesla, Carto, Spacex, Gauges, Reason, Espressif, Webgl, Osano, Flathub, Kentico,
-        Nvidia, ProductHunt, CairoMetro, SauceLabs, Latex, RubyOnRails, Vodafone, Bigcommerce,
-        Bitdefender, AppleMusic, TheMighty, Shazam, ApplePay, Trove, Pagseguro, Tapas, Known, Iveco,
-        Skype, AppStore, Nutanix, _42, Datadog, Scratch, Tile, BattleDotNet, GovDotUk, Virustotal,
-        Linktree, Observable, Sennheiser, Bloglovin, Redux, Udemy, Scaleway, Hugo, Iconfinder, Yarn,
-        AmazonLumberyard, GoogleCalendar, Spotify, SinaWeibo, Kotlin, Medium, Pastebin, Grafana,
-        Zenn, Slack, AzurePipelines, Algolia, AwsAmplify, Breaker, Overcast, AltiumDesigner, Mega,
-        Pfsense, Koding, Vuetify, OpenapiInitiative, ApacheCloudstack, Unsplash, AndroidStudio,
-        Reverbnation, AdobeAfterEffects, Feedly, ApacheGroovy, GoogleFit, Claris, SparkAr,
-        MojangStudios, Qantas, Phonepe, Upwork, Xrp, Laragon, Jetbrains, Acer, BAndRAutomation,
-        Nextdoor, Hackerone, SocketDotIo, Pagekit, GoogleTagManager, Wikidata, Pleroma, Wemo,
-        Devpost, Verizon, PiHole, Sentry, Ceph, Codeship, Mediatemple, Fathom, Sololearn, Centos,
-        Fastapi, Esphome, Citroen, Mailchimp, PowerBi, Clojure, Fandom, Lighthouse,
-        AdobeIllustrator, Evernote, Sketchup, Oculus, CashApp, Streamlit, Ktm, FirefoxBrowser,
-        Mapbox, Buffer, Bitcoin, R, Unacademy, Influxdb, MariadbFoundation, Dhl, AmericanAirlines,
-        Jcb, Gitter, Blender, Skoda, Pimcore, MicrosoftOnedrive, Deepin, GoogleAnalytics, React,
-        NounProject, SouthwestAirlines, Caterpillar, Homebrew, Stitcher, ProtoDotIo, Origin,
-        Easyjet, Qi, Wix, Elementary, Atari, Atom, EclipseIde, Dependabot, Jquery, Goodreads,
-        TransportForLondon, Discord, Homeadvisor, Moleculer, Autodesk, Cesium, Photobucket,
-        AzureDataExplorer, Nintendo3ds, MicroDotBlog, ParitySubstrate, Radar, Reddit, Academia,
-        Shell, Flood, Addthis, Reactos, Homebridge, Phabricator, Wetransfer, TryItOnline, Truenas,
-        Blazor, Directus, Matrix, AdobeCreativeCloud, P5DotJs, Sogou, Pandas, Vauxhall, Scania,
-        YoutubeGaming, Mathworks, ElJueves, Society6, SublimeText, Basecamp, Opengl, Daimler,
-        Playstation4, YamahaCorporation, Hyperledger, Unraid, Gnome, Ted, JiraSoftware, Zingat,
-        Tele5, Element, HackTheBox, ApacheCassandra, Anilist, Synology, Redis, Everplaces, Presto,
-        Zdf, Cinema4d, LineWebtoon, Hipchat, Eyeem, Plex, Haveibeenpwned, Soundcloud, Freenas,
-        Oracle, Ansys, PicartoDotTv, Acm, Roundcube, Xero, Gitlab, Fite, Buefy, WiiU, Keycdn,
-        MxLinux, Adobe, Aircall, Trainerroad, Tasmota, Stripe, Spinnaker, Eleventy,
-        AffinityPublisher, BigCartel, ___SimpleIcons, Progress, Ghostery, Justgiving, Unicode,
-        Redwoodjs, Hoppscotch, CSharp, Square, Pluralsight, Indeed, Litecoin, Scribd, Prezi,
-        EpicGames, Webflow, Mastercomfig, Zoom, Saltstack, KhronosGroup, Opencv, Myob, Sketchfab,
-        MaterialDesign, Payoneer, Haskell, Playstation, LetsEncrypt, Hilton, Swagger, CondaForge,
-        GoogleCast, Fujifilm, Eslgaming, Figma, GoogleHangouts, Arduino, Audiomack, PreCommit,
-        Epson, GithubSponsors, Huawei, Plangrid, Transferwise, Npm, Proxmox, Manageiq, Veritas,
-        Xcode, Probot, Qemu, Faceit, Deliveroo, Clubhouse, Redbubble, Jellyfin, Tutanota, Cocoapods,
-        Hootsuite, FontAwesome, ApacheRocketmq, Codersrank, MicrosoftAzure, Firebase, Jitsi,
-        Convertio, Integromat, Abbvie, Xiaomi, Jfrog, Codemagic, Xbox, Affinity, AzureDevops, Ea,
-        Vultr, DassaultSystemes, Favro, Grunt, Vim, Automatic, Mitsubishi, Webmoney,
-        CommonWorkflowLanguage, Epel, ApacheKylin, Magisk, Sahibinden, Razer, BankOfAmerica,
-        BmcSoftware, Patreon, JrGroup, Jeep, Uber, Wagtail, Manjaro, Looker, Audible, Leanpub,
-        CounterStrike, SmashingMagazine, SatDot1, Andela, AntDesign, Nissan, TMobile, Ryanair,
-        Issuu, Bitrise, Marketo, TrustedShops, Gatsby, Pandora, Webassembly, KaliLinux,
-        ElasticStack, Minecraft, Untappd, Django, Paytm, PlusCodes, BuyMeACoffee, Woocommerce,
-        Angellist, Coinbase, AdobeFonts, Angularjs, PaloAltoSoftware, Hockeyapp,
-        MicrosoftPowerpoint, Geeksforgeeks, Angular, NationalGrid, Platzi, Jupyter, ReactRouter,
-        Webmin, Ibeacon, Qualtrics, _4d, Monster, Unity, Quest, Fossa, Sqlite, HotelsDotCom,
-        RedHatOpenShift, G2a, Nuget, ApacheOpenoffice, Amd, Pinterest, Waze, Vercel, Rewe,
-        AwesomeLists, Strapi, Chocolatey, Teespring, Volkswagen, RottenTomatoes, ApacheCordova,
-        Tableau, Signal, Topcoder, Habr, Aseprite, Hey, Facepunch, Openstreetmap, Arxiv,
-        Whitesource, AdobeAcrobatReader, Jira, Compropago, Playstation5, Codeigniter, Mastercard,
-        FDroid, BbcIplayer, Zomato, Awesomewm, Librarything, GooglePhotos, Shikimori, Cloudbees,
-        Spectrum, Protondb, Consul, Symphony, Vonage, Formstack, Canonical, Sketch, AirFrance,
-        Adonisjs, Feathub, NewRelic, Keepassxc, Codio, Bamboo, Fortran, Greensock, ArchiveOfOurOwn,
-        Vox, MailDotRu, OpenaiGym, Toshiba, Numba, GoogleClassroom, MetroDeMadrid, Flask,
-        TheSpritersResource, AffinityDesigner, Nintendo, ArkEcosystem, CodeClimate, Coveralls,
-        Conekta, Suzuki, UnitedAirlines, Runkit, Haxe, Graphql, Smartthings, DiagramsDotNet,
-        Autotask, Thumbtack, Wolfram, InternetArchive, Quantcast, GoogleLens, Cnn, GoogleTranslate,
-        Curl, Qualcomm, Kia, Progate, Smrt, Racket, Rabbitmq, ReasonStudios, Python, Lada,
-        AmazonAlexa, Safari, PodcastAddict, Motorola, Mendeley, ReplDotIt, Doordash, Xsplit,
-        Audacity, Taxbuzz, Microstrategy, Pcgamingwiki, Logstash, SpyderIde, Windows95, SuperUser,
-        Webauthn, Gofundme, Duckduckgo, SamsungPay, Dtube, NodeRed, Gitpod, Snyk, FacebookLive,
-        Fastly, Happycow, Codesandbox, Cpanel, Serverless, Swift, Pycharm, Microbit, Hbo, Netapp,
-        Google, RootsSage, Chevrolet, GoogleMessages, Wechat, Stackshare, ApachePulsar,
-        GnuPrivacyGuard, Hypothesis, Giphy, Bluetooth, Analogue, AdobeDreamweaver, Zillow, Ocaml,
-        Fedora, Iata, Less, Libuv, Nucleo, MoscowMetro, Piwigo, MicrosoftEdge, Nixos, SourceEngine,
-        Kickstarter, JenkinsX, Triller, V, Adblock, AlpineLinux, Buildkite, Mtr, WearOs, Lbry, Fing,
-        Deezer, Tmux, Retroarch, Man, Microsoft, D3DotJs, Lyft, Pypy, TrendMicro, AdobeXd,
-        Codeforces, Delphi, Symantec, Semver, Lichess, Laravel, ApacheKafka, ApacheSpark, PopOs,
-        Scala, Wish, Json, PivotalTracker, Qwiklabs, Inkscape, Freecodecamp, Valve, Metafilter,
-        Bitbucket, Porsche, SpeakerDeck, OpenCollective, FacebookGaming, Drone, Stmicroelectronics,
-        Capacitor, Rstudio, Ruby, Box, CarThrottle, Wii, EmberDotJs, Framer, MicrosoftOutlook,
-        WpEngine, Monzo, Swarm, Songkick, Ghost, Tado, Kirby, Tidal, AtAndT, Flipkart, Pypi,
-        ExpertsExchange, GameJolt, CockroachLabs, Vbulletin, Zeromq, Clickup, Nextcloud, ThreeDotJs,
-        Macys, Xampp, Kahoot, Dlna, Zigbee, Dash, Statuspage, Researchgate, Anaconda, Egnyte,
-        GoogleCloud, Pyup, LandRover, RiotGames, Gravatar, Glitch, MaterialUi, HellyHansen, Ibm,
-        DigiKeyElectronics, Accenture, Overleaf, Opslevel, LinuxFoundation, Peugeot, Vulkan,
-        ShanghaiMetro, Disqus, Actigraph, Rust, Php, Bugsnag, Jekyll, Virtualbox, UnrealEngine,
-        Cloudcannon, Peertube, Radiopublic, Lumen, MicrosoftVisio)
+    __AllIcons= listOf(Wappalyzer, Bitcoincash, Dazn, Squareenix, Quasar, Strongswan, Sellfy,
+        Treehouse, _1001tracklists, Mcdonalds, Deviantart, Pexels, Css3, Blackberry, Hurriyetemlak,
+        Staticman, Aiohttp, VueDotJs, Cloudflare, Vectorlogozone, Prosieben, Abstract, Taobao,
+        Kalilinux, Emby, Fandango, Steam, Lua, Autohotkey, Htmlacademy, Furrynetwork, Audioboom,
+        Okcupid, Sonarsource, Transportforireland, Jaguar, Uplabs, Premierleague, W3c, Fortinet,
+        WriteDotAs, Qatarairways, Googledomains, Appletv, Smart, Trello, Cloudsmith, Rte, Stencyl,
+        Erlang, Ticketmaster, Atlassian, Dogecoin, Protools, Notepadplusplus, Gumroad, Exercism,
+        Microsoftpowerpoint, Undertale, Gitkraken, Aircanada, Drupal, Bentley, Coronaengine,
+        ScikitLearn, Spinrilla, Mta, Loop, Falcon, Pocket, Zulip, Badoo, Bootstrap, Jirasoftware,
+        Rider, Justeat, Jinja, Bandsintown, Houzz, Wikimediacommons, Naver, Periscope, Bmw, Amazon,
+        Libreoffice, Openlayers, Shotcut, Ovh, Bose, Honda, Ios, Thinkpad, Kibana, Musicbrainz,
+        Subversion, Apostrophe, Xamarin, Apachekylin, Johndeere, Derspiegel, Mewe, Ideal,
+        Trustpilot, Aiqfome, Momenteo, Pingdom, Nginx, Mocha, Uikit, Checkmarx, Homeassistant,
+        Neovim, Sonarqube, Tryhackme, Gmail, ZWave, Sega, Androidauto, Epicgames, Flutter, Clockify,
+        Siemens, Instacart, Snapcraft, Deutschebank, Azuredevops, Trino, Cinema4d, Mcafee,
+        Quickbooks, Docusign, Bunq, Purescript, Fluentd, Vivaldi, Aral, Worldhealthorganization,
+        Alipay, Bandcamp, Newyorktimes, Timescale, Nano, Postgresql, Theconversation,
+        Microsoftonenote, Composer, Tryitonline, Esea, Microsoftteams, Graylog, Linuxcontainers,
+        Brandfolder, Unitedairlines, AudioTechnica, Bancontact, XPack, Tencentweibo, Opencollective,
+        Nodemon, Ring, Crunchbase, Todoist, Ionic, Cliqz, Bower, Gnu, Applemusic, Rubygems, Bandlab,
+        Mobx, Barclays, Vimeo, Plotly, Webrtc, Tunein, Filezilla, Geocaching, Lenovo, Dior, Keras,
+        Fidoalliance, Fiverr, Futurelearn, Eventbrite, Jameson, Csswizardry, Babel, Hungryjacks,
+        Qzone, Visualstudio, Pinboard, Cbs, Youtube, Bosch, Neo4j, Teratail, Etsy, Sencha, Icloud,
+        Livejournal, Googlemessages, Wwe, Cookiecutter, Accusoft, Nasa, Sensu, Instagram, Cocos,
+        Lamborghini, Sass, Infosys, Bata, BAndRautomation, Googleads, Appstore, Materialdesignicons,
+        NextDotJs, Byte, Bt, Telegram, Helm, Deepnote, Hellofresh, Crunchyroll, Codeceptjs, Zhihu,
+        Graphcool, Archicad, NodeDotJs, Ifood, Googledrive, Intel, Tinyletter, Applepay, Fiat,
+        Myspace, Splunk, Qiwi, Hyundai, Monogram, Ardour, Hackaday, V8, Powers, Nuke, Scipy, Vapor,
+        Brave, Fastlane, Airfrance, Wiiu, Apacheopenoffice, Treyarch, Microgenetics, Cplusplus,
+        Labview, Chinaeasternairlines, Gulp, Invision, Delonghi, Iheartradio, WeightsAndBiases,
+        Komoot, Tui, Campaignmonitor, Lineageos, Toyota, DotNet, Prime, Plesk, Quicktime, Storybook,
+        Internetarchive, DigiKeyelectronics, Chainlink, StyledComponents, RollupDotJs, Twoo,
+        Opensuse, Letterboxd, Yammer, Go, Perl, Scrimba, Chartmogul, Datacamp, Linkedin, Apacheant,
+        Docker, Ansible, DraugiemDotLv, Metrodelaciudaddemexico, Ros, Viadeo, Meteor, Ana, Llvm,
+        Apachecassandra, Protonvpn, Fontawesome, Openstack, Heroku, Tide, Wikipedia, Strava,
+        Spotlight, Chase, Gitea, Notion, Starz, Goldenline, Jrgroup, Podcastaddict, Nba, Toggl,
+        Expertsexchange, Lubuntu, Philipshue, MaxPlanckGesellschaft, Norwegian, Qiita,
+        Themodelsresource, Powerbi, Quantconnect, Trendmicro, Svg, Selenium, ShieldsDotIo, Sap,
+        Mariadbfoundation, Fnac, Twilio, Grubhub, NewjapanproWrestling, Audi, Canva, Openai,
+        Vectorworks, Googleadsense, Iconify, Headspace, Playstationvita, Nounproject, Suckless,
+        Playstation2, Hatenabookmark, Storify, Facebook, Snowflake, Mercedes, Vlcmediaplayer,
+        Powershell, Blueprint, Express, Stackpath, Wheniwork, Statamic, Arkecosystem, Nfc, Edx,
+        Katana, Imdb, Antdesign, Redhat, Magento, Vine, Sky, Trakt, First, Instapaper, Openfaas,
+        Etihadairways, Apachejmeter, Numpy, Sharp, Mini, Drooble, Rtl, Angularuniversal, Rootssage,
+        Shenzhenmetro, Cryengine, Jabber, Dailymotion, Windows95, Xfce, FSecure, Boeing, Android,
+        Moo, Designernews, Nec, Typo3, Youtubemusic, Tencentqq, Kasasmart, Bit, Squarespace, Cisco,
+        Amazonprime, Zoho, Roots, Flattr, Toptal, Cakephp, Mediafire, Adobeillustrator, Apachemaven,
+        Asana, Opsgenie, Producthunt, RevealDotJs, Deno, Stadia, Webpack, Baidu, Launchpad,
+        Workplace, Prismic, Cypress, Nbb, Googlechat, C, Peloton, Torproject, Bigbasket, Buzzfeed,
+        Gutenberg, Googlemaps, Yamahamotorcorporation, Coderwall, Reactrouter, KoFi, Mysql,
+        Palantir, Monero, Sublimetext, Jet, Circle, Buddy, Logitech, Vimeolivestream, Nrwl,
+        Wireshark, Elixir, Flipboard, Douban, Testinglibrary, Ublockorigin, Niconico, Generalmotors,
+        Furaffinity, Wire, Shopify, Cycling74, Codechef, Qiskit, Houdini, Nubank, Qt, Fedramp,
+        Mongodb, BrandDotAi, Slashdot, Checkio, Prometheus, Fitbit, Cucumber, Volvo, Airbnb,
+        Appveyor, Hcl, Dsautomobiles, Elm, Assemblyscript, Tensorflow, Badgr, Turbosquid,
+        Applearcade, XDotOrg, Picnic, Myanimelist, Dynatrace, Kubernetes, Apacheairflow, Meetup,
+        Gitlfs, Bitly, Veepee, Paritysubstrate, Sepa, Hotjar, Livestream, Jfrogbintray, Sourceforge,
+        Hellyhansen, Evry, Metrodeparis, Cloudways, Pingup, Chrysler, Ethereum, Mix, Instructables,
+        Owasp, Hackster, Renault, Auth0, Pixabay, Zapier, Skillshare, N26, Netflix, Ferrari,
+        Gumtree, Svelte, Discourse, Swiper, Travisci, Gridsome, Trustedshops, Fedex, Alitalia,
+        Rakuten, Vaadin, Scopus, EclipsevertDotX, Snapchat, Prestashop, Opencontainersinitiative,
+        ProtocolsDotIo, Sonicwall, Garmin, Planet, Aurelia, Seagate, TripDotCom, Kodi, Spyderide,
+        Amazondynamodb, Matomo, Concourse, Metro, Spdx, Bitcoinsv, Styleshare, Singlestore,
+        Britishairways, Jbl, Alfaromeo, Invoiceninja, Udacity, Revue, Aerospike, Linux, Adblockplus,
+        Apachespark, Behance, Renpy, Songoda, PlayerDotMe, DevDotTo, Tripadvisor, Mclaren, Steem,
+        Artstation, Dropbox, Stylus, Dynamics365, Emlakjet, Typescript, Opera, Windows, Devrant,
+        Adobephonegap, Youtubetv, Java, ParseDotLy, Sitepoint, Adobeaftereffects, Grav, Hackerearth,
+        Substack, S7airlines, Zoiper, Bigcartel, Salesforce, Zelle, Daf, Infiniti, Googlephotos,
+        Sparkfun, Zotero, Wistia, Roku, Adobelightroomclassic, Askfm, Jsdelivr, Disroot, Tumblr,
+        Adobecreativecloud, Khanacademy, Aventrix, HiveBlockchain, Carthrottle, Googlescholar,
+        Speedtest, Amazonfiretv, Retropie, Rhinoceros, Vivino, Oshkosh, Vmware, Databricks, Nokia,
+        Linewebtoon, Bugcrowd, Openid, Messenger, Jamstack, Kyocera, Fifa, Usps, Artixlinux, Dunked,
+        Ram, Kaspersky, Teamviewer, _500px, Lionair, Hexo, Slickpic, Twitter, Castro, Coffeescript,
+        RollsRoyce, Homeassistantcommunitystore, Jamboard, Midi, Trulia, Twitch, Marriott, Notist,
+        Venmo, Emirates, Maserati, Bitwarden, Crowdin, Lastpass, Androidstudio, Monkeytie, Bing,
+        Oneplus, Crystal, Ubuntu, Xaml, Hulu, Slideshare, Whatsapp, Chinasouthernairlines, Kaios,
+        Eslint, Embarcadero, Floatplane, Thymeleaf, Figshare, Arlo, Svgo, Unilever, Celery, Expo,
+        Gerrit, Azureartifacts, Anchor, Wakatime, Cevo, Semanticweb, Gitbook, Spring, Pokemon,
+        Spacemacs, Archiveofourown, Mazda, Staffbase, Nativescript, Paypal, Foodpanda, Gimp,
+        LibrariesDotIo, Sparkar, Jsonwebtokens, Rainmeter, Microsoftaccess, Facebookgaming, Flickr,
+        Nestjs, Joomla, Showpad, Sprint, Readthedocs, Threema, Octopusdeploy, Publons, Confluence,
+        Cmake, Apachecordova, Awsamplify, Steinberg, Screencastify, Codewars, Broadcom, Mozilla,
+        Chakraui, Coronarenderer, Codecov, Couchbase, Bbc, Openvpn, Ndr, Dell, Codingame, Sfml,
+        Castorama, Vfairs, Sourcegraph, Materialdesign, Bulma, Googlecardboard, Ubisoft,
+        Shutterstock, Airbus, Robotframework, Buymeacoffee, Fastify, Seat, Ipfs, Zerply, Coda, Ebay,
+        Teamspeak, Dolby, Foursquare, Markdown, Ikea, Blazemeter, DWavesystems, Sonarlint, Diaspora,
+        Nationalgrid, Cashapp, Ifttt, Realm, Turkishairlines, Okta, Sonarcloud, Podman, Harbor,
+        Untangle, Allocine, Imgur, PrDotCo, Asciidoctor, Iconjar, Tata, Electron, Zorin, Boost,
+        Crehana, Veeam, Delta, Revolut, Dacia, Icq, Stackbit, Asus, Adobefonts, Kik, Hackhands,
+        Quarkus, Bitwig, Klook, Freelancer, Sumologic, Vk, Apollographql, Quantopian, Woo, Yale,
+        Viber, Keybase, Microsoftexcel, Postman, Samsung, Pagespeedinsights, Xmpp, Minds, Hitachi,
+        Firefox, Beats, Themighty, Amazonalexa, Github, Laravelnova, Klout, Walkman, Semaphoreci,
+        Symfony, Orcid, Transportforlondon, Sefaria, Kofax, Stellar, Rtlzwei, Onstar,
+        Contactlesspayment, Pepsi, Envato, Hive, Freebsd, Applepodcasts, Unrealengine, Discover,
+        Thesoundsresource, YourtravelDotTv, Corsair, Pubmed, Here, Adobephotoshop, Mattermost,
+        Openbadges, Starship, Apacherocketmq, Jpeg, Vsco, Googlecloud, Chupachups, Xilinx,
+        Linuxfoundation, Googlekeep, Slackware, Amazonpay, Renren, HandshakeProtocol, Glassdoor,
+        Aerlingus, Apachepulsar, Pelican, Codacy, Steemit, Jsfiddle, Googleearth, Americanexpress,
+        Daserste, Googlemeet, Chef, Alliedmodders, Gnuprivacyguard, Puppet, Wikivoyage, Yelp,
+        Microsoftexchange, Javascript, Airasia, Fujitsu, GogDotCom, Tiktok, Craftcms, Hubspot,
+        Chatbot, Activision, Tinder, Acclaim, Visa, Ssrn, Rubyonrails, Elasticsearch, Knowledgebase,
+        Beatsbydre, Gnubash, Nim, Lydia, Apache, Blogger, Aeroflot, Cdprojekt, Clyp, Smugmug,
+        Codecademy, Discogs, Hashnode, Riotgames, Icon, Kakao, Katacoda, Octave, Themoviedatabase,
+        Tailwindcss, Musescore, Fila, Gradle, Ubereats, Openaigym, Lospec, Line, Spreaker, Riseup,
+        Ingress, Dart, Beatport, Wireguard, Apachekafka, Packagist, CoOp, Talend, Webstorm,
+        Apacheecharts, Thunderbird, Groupon, Aliexpress, Dblp, Oxygen, Codepen, Playerfm, Insomnia,
+        Kde, Lgtm, Matternet, Logmein, Apachenetbeanside, Highly, Citrix, Appsignal, Protonmail,
+        Plurk, Nx, Digg, Mastodon, Skypeforbusiness, NuxtDotJs, Virb, Ibmwatson, Genius, Namecheap,
+        Minetest, Openbsd, Curseforge, Pytorch, Gitee, Gatling, Bilibili, Mixcloud, Pjsip, Ford,
+        Ello, Fossilscm, Youtubegaming, Sparkasse, Adguard, Raspberrypi, Ulule, Weasyl, Namebase,
+        Debian, Codefactor, Steamworks, Googlelens, Delicious, Prettier, Teamcity, Gnuicecat,
+        Pagerduty, FerrarinDotVDot, Authy, Fozzy, Yandex, Majorleaguehacking, Superuser, Qgis, Maas,
+        LastDotFm, _3m, Iobroker, Pixiv, Tails, Yoast, Html5, Asciinema, Photocrowd, Tomorrowland,
+        Amp, Phpstorm, Grammarly, Zend, Stubhub, Eagle, Klm, Stackexchange, Teradata, Vault,
+        Adobepremierepro, Kaggle, Bugatti, Leaflet, Netlify, Solus, Steamdb, Husqvarna, AboutDotMe,
+        Onlyfans, Googleassistant, Uploaded, Nintendonetwork, Ycombinator, Quip, Sonos,
+        Codingninjas, Ngrok, Zendesk, Deutschebahn, Hackerrank, Renovatebot, Folium, Postcss,
+        FreedesktopDotOrg, Coursera, Kitsu, Prisma, Apple, Awesomelists, ItchDotIo, Dashlane,
+        Shopware, Julia, Testin, Reactivex, Dcentertainment, Krita, Anydesk, Simpleicons,
+        Stackoverflow, Scrutinizerci, Googlefit, Contentful, Altiumdesigner, Skyliner, Airtable,
+        Codeclimate, Homify, Jenkins, Makerbot, Liberapay, Farfetch, Gotomeeting, Wordpress, Itunes,
+        Dribbble, Postmates, Openssl, Minutemailer, Maytag, _1password, Elastic, Odnoklassniki,
+        Eclipseche, Processwire, Linode, Osmc, Nintendo3ds, Ifixit, Civicrm, Informatica, Runkeeper,
+        Jest, Lufthansa, Rootsbedrock, Rss, Affinitypublisher, Castbox, Icomoon, Intercom, Ripple,
+        Affinitydesigner, Cognizant, Microsoftvisio, Newrelic, Ups, Umbraco, Git, Slides, Circleci,
+        Loom, Dialogflow, Subaru, AFrame, Quora, Playstation4, Egghead, Wikiquote, Intellijidea,
+        Rancher, WebcomponentsDotOrg, Lmms, Codeproject, Opel, Vagrant, Pantheon, Jasmine,
+        BlockchainDotCom, Speakerdeck, Sinaweibo, TpLink, Gentoo, Poly, Max, Windowsterminal,
+        Winmate, Digitalocean, Hp, Picpay, Ubiquiti, Wipro, Reasonstudios, Terraform, Puppeteer,
+        Moscowmetro, Zalando, Sparkpost, Yahoo, Leetcode, Aidungeon, Xing, Paloaltosoftware,
+        Duolingo, Mariadb, Googleoptimize, Datastax, Lg, Wattpad, Hackclub, Tesla, Carto, Spacex,
+        Gauges, Reason, Espressif, Startrek, Webgl, Osano, Flathub, Opennebula, Kentico, Nvidia,
+        Latex, Vodafone, Bigcommerce, Bitdefender, Creativecommons, Shazam, Trove, Oyo, Pagseguro,
+        Tapas, Known, Iveco, Skype, Nutanix, _42, Datadog, Scratch, Googlecolab, Tile, BattleDotNet,
+        GovDotUk, Sanfranciscomunicipalrailway, Virustotal, Linktree, Observable, Sennheiser,
+        Jenkinsx, Gnuemacs, Microsoftacademic, Bloglovin, Redux, Udemy, Scaleway, Openbugbounty,
+        Hugo, Microsoftedge, Iconfinder, Yarn, Laravelhorizon, Googlecast, Spotify, Pivotaltracker,
+        Googlepodcasts, Googlestreetview, Kotlin, Medium, Pastebin, Microsoftsqlserver, Eightsleep,
+        Grafana, Zenn, Slack, Algolia, Breaker, Overcast, Mega, Pfsense, Koding, Googleclassroom,
+        Vuetify, Unsplash, Humblebundle, Reverbnation, Feedly, Claris, Qantas, Phonepe, Landrover,
+        Upwork, Xrp, Laragon, Jetbrains, Acer, Playcanvas, Mojangstudios, Nextdoor, Hackerone,
+        SocketDotIo, Pagekit, Wikidata, Pleroma, Wemo, Devpost, Verizon, PiHole, Sentry,
+        Microsoftoutlook, Ceph, Codeship, Mediatemple, Fathom, Sololearn, Wolframlanguage, Centos,
+        Dwm, Fastapi, Miro, Esphome, Citroen, Mailchimp, Clojure, Fandom, Lighthouse,
+        Junipernetworks, Ieee, Evernote, Sketchup, Dassaultsystemes, Oculus, Streamlit, Ktm,
+        Airchina, Mapbox, Buffer, Solidity, Bitcoin, Googlecalendar, Sourceengine, R, Qubesos,
+        Redhatopenshift, Unacademy, Influxdb, Dhl, Primevideo, Americanairlines, Jcb, Handshake,
+        Gitter, Blender, Skoda, Pimcore, Deepin, React, Torbrowser, Caterpillar, Homebrew, Stitcher,
+        Cockroachlabs, ProtoDotIo, Eclipsemosquitto, Origin, Easyjet, Qi, Wix, Elementary, Atari,
+        Atom, Dependabot, Jquery, Cloudera, Goodreads, Discord, Homeadvisor, Moleculer, Bbciplayer,
+        Autodesk, Cesium, Photobucket, MicroDotBlog, Radar, Alpinelinux, Bmcsoftware, Reddit,
+        Academia, Aeromexico, Shell, Flood, Addthis, Reactos, Codeberg, Homebridge, Phabricator,
+        Alibabacloud, Azurefunctions, Wetransfer, Truenas, Blazor, Directus, Matrix, P5DotJs,
+        Letsencrypt, Opnsense, Sogou, Pandas, Vauxhall, Scania, Mathworks, Adobexd, Googlenearby,
+        Googlesearchconsole, Society6, Cairometro, Basecamp, Opengl, Daimler, Starlingbank,
+        Openaccess, Hyperledger, Visualstudiocode, Googletranslate, Modx, Unraid, Gnome, Ted,
+        Microsoftonedrive, Zingat, Bookmeter, Tele5, Element, Anilist, Pioneerdj, Synology, Csharp,
+        Redis, Pluscodes, Everplaces, Presto, Zdf, Mdnwebdocs, Hipchat, Eyeem, Plex, Apachegroovy,
+        Resurrectionremixos, Haveibeenpwned, Statuspal, Generalelectric, Tvtime, Soundcloud, Cachet,
+        Freenas, Beijingsubway, Oracle, Ansys, PicartoDotTv, Acm, Roundcube, Xero,
+        Thewashingtonpost, Gitlab, Fite, Buefy, Keycdn, Helpdesk, Windowsxp, Samsungpay, Adobe,
+        Aircall, Trainerroad, Showtime, Tasmota, Antena3, Stripe, Spinnaker, Eleventy, TsNode,
+        Progress, Ghostery, Codemirror, Justgiving, Unicode, Redwoodjs, Hoppscotch, Square,
+        Pluralsight, Indeed, Pocketcasts, Litecoin, Scribd, Nintendogamecube, Prezi, Apacheflink,
+        Webflow, Mastercomfig, Zoom, Saltstack, Opencv, Myob, Sketchfab, Payoneer, Haskell,
+        Playstation, Aol, Hilton, Swagger, CondaForge, Fujifilm, Eslgaming, Smashingmagazine,
+        Rottentomatoes, Figma, Arduino, Audiomack, Polymerproject, PreCommit, Epson, Huawei,
+        Plangrid, Affinityphoto, Elasticstack, Archlinux, Transferwise, Firefoxbrowser, Npm,
+        Proxmox, Manageiq, Apachedruid, Veritas, Xcode, Azuredataexplorer, Probot, Qemu, Faceit,
+        Deliveroo, Clubhouse, Redbubble, Jellyfin, Tutanota, Rezgo, Cocoapods, Googletagmanager,
+        AlibabaDotCom, Adobelightroom, Hootsuite, Codersrank, Firebase, Jitsi, Convertio,
+        Integromat, Foxtel, Abbvie, Xiaomi, Jfrog, Pegasusairlines, Codemagic, Xbox, Affinity,
+        Stylelint, Khronosgroup, MobxStateTree, Ea, Vultr, Favro, Metrodemadrid, Grunt, Vim,
+        Googlechrome, Googleanalytics, Automatic, Mitsubishi, Webmoney, Epel, Textpattern, Magisk,
+        Sahibinden, Razer, Theregister, Amazonaws, Patreon, Jeep, Gamejolt, Uber, Guangzhoumetro,
+        Wagtail, Surveymonkey, Manjaro, Looker, Audible, Leanpub, CounterStrike,
+        Opensourceinitiative, SatDot1, Andela, Nissan, TMobile, Ryanair, Issuu, Bitrise, Marketo,
+        Gatsby, Pandora, Aparat, Adobeaudition, Webassembly, Minecraft, Untappd, Django, Paytm,
+        Woocommerce, Angellist, Baremetrics, Serverfault, Coinbase, Angularjs, Wearos,
+        Adobedreamweaver, Swiggy, Hockeyapp, Geeksforgeeks, Angular, Platzi, Jupyter, Eljueves,
+        Webmin, Ibeacon, Qualtrics, Microsoftazure, _4d, Adobeindesign, Monster, Unity, Pug, Quest,
+        Fossa, Adobeacrobatreader, Sqlite, HotelsDotCom, G2a, Nuget, Amd, Pinterest, Waze, Wizzair,
+        Vercel, Rewe, SemanticRelease, Abbrobotstudio, Strapi, Chocolatey, Shanghaimetro, Teespring,
+        Googleplay, Volkswagen, Eclipseide, Tableau, Signal, Apachecloudstack, Topcoder,
+        Elasticcloud, Habr, Thespritersresource, Aseprite, Githubsponsors, Cloud66, Hey, Facepunch,
+        Relianceindustrieslimited, Openstreetmap, Ethiopianairlines, Arxiv, Whitesource, Jira,
+        Compropago, Codeigniter, Mastercard, FDroid, Zomato, Awesomewm, Librarything, Shikimori,
+        Cloudbees, Spectrum, Githubactions, Protondb, Southwestairlines, Consul, Godotengine,
+        Symphony, Vonage, Formstack, Canonical, Sketch, Adonisjs, Playstation5, Feathub,
+        Bankofamerica, Keepassxc, Codio, Airplayaudio, Bamboo, Fortran, Greensock, Vox, MailDotRu,
+        Toshiba, Numba, Crowdsource, Mxlinux, Flask, Nintendo, Microsoftoffice, Coveralls, Conekta,
+        Suzuki, Kakaotalk, Runkit, Microsoftword, Haxe, Cirrusci, Graphql, Smartthings,
+        Internetexplorer, DiagramsDotNet, Autotask, Thumbtack, Wolfram, Quantcast, Cnn, Curl,
+        Qualcomm, Kia, Progate, Hackthebox, Smrt, Racket, Facebooklive, Rabbitmq, Livechat, Python,
+        Roamresearch, Lada, Safari, Motorola, Mendeley, ReplDotIt, Apachesolr, Doordash, Xsplit,
+        Audacity, Googlepay, Taxbuzz, Microstrategy, Pcgamingwiki, Logstash, Eventstore, Webauthn,
+        Gofundme, Duckduckgo, Amazonlumberyard, Dtube, NodeRed, Gitpod, Snyk, Fastly, Hibernate,
+        Happycow, Codesandbox, Cpanel, Serverless, Swift, Pycharm, Microbit, Hbo, Zendframework,
+        Apachetomcat, Netapp, Apachehive, Wolframmathematica, Google, Chevrolet, Xdadevelopers,
+        Wechat, Stackshare, Googlenews, Macos, Hypothesis, Giphy, Bluetooth, Analogue, Zillow,
+        Ocaml, Abletonlive, Fedora, Iata, Less, Webdriverio, Kongregate, Libuv, Linuxmint, Nucleo,
+        Googlesheets, Piwigo, Yamahacorporation, Nixos, Bathasu, Kickstarter, Googlemybusiness,
+        Microsoftsharepoint, Triller, Nintendoswitch, V, Adblock, Buildkite, Mtr, Lbry, Fing,
+        Saucelabs, Deezer, Obsstudio, Tmux, Retroarch, Man, Microsoft, Darkreader, D3DotJs, Lyft,
+        Pypy, Codeforces, Delphi, Symantec, Semver, Lichess, Laravel, PopOs, Scala, Wish, Json,
+        Countingworkspro, ReduxSaga, Qwiklabs, Inkscape, Freecodecamp, Valve, Metafilter, Bitbucket,
+        Karlsruherverkehrsverbund, Airplayvideo, Porsche, Drone, Amul, Stmicroelectronics,
+        Capacitor, Rstudio, Ruby, Tampermonkey, WarnerbrosDot, Box, Wprocket, Wii, EmberDotJs,
+        Framer, Monzo, Swarm, Songkick, Gnusocial, Ghost, Tado, Kirby, Tidal, AtAndT, Flipkart,
+        Playstation3, Pypi, Suse, Vbulletin, Wpengine, Supabase, Zeromq, Clickup, Nextcloud,
+        ThreeDotJs, Macys, Azurepipelines, Xampp, Kahoot, Theirishtimes, Googlehangouts, Dlna,
+        Zigbee, Dash, Statuspage, Researchgate, Semanticuireact, Anaconda, Egnyte, Pyup,
+        Commonworkflowlanguage, Gravatar, Glitch, MaterialUi, Ibm, Accenture, Overleaf, Opslevel,
+        Openapiinitiative, Peugeot, Tokyometro, Vulkan, Disqus, Youtubestudio, Actigraph,
+        Saopaulometro, Rust, Php, Bugsnag, Jekyll, Virtualbox, Empirekred, Cloudcannon, Peertube,
+        Radiopublic, Lumen)
     return __AllIcons!!
   }

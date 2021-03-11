@@ -23,25 +23,25 @@ public val TablerIcons.Mug: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.0f, 6.0f)
-                horizontalLineToRelative(10.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.0f, 1.0f)
-                verticalLineToRelative(8.0f)
-                arcToRelative(4.0f, 4.0f, 0.0f, false, true, -4.0f, 4.0f)
-                horizontalLineToRelative(-4.0f)
-                arcToRelative(4.0f, 4.0f, 0.0f, false, true, -4.0f, -4.0f)
-                verticalLineToRelative(-8.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.0f, -1.0f)
+                moveTo(4.083f, 5.0f)
+                horizontalLineToRelative(10.834f)
+                arcToRelative(1.08f, 1.08f, 0.0f, false, true, 1.083f, 1.077f)
+                verticalLineToRelative(8.615f)
+                curveToRelative(0.0f, 2.38f, -1.94f, 4.308f, -4.333f, 4.308f)
+                horizontalLineToRelative(-4.334f)
+                curveToRelative(-2.393f, 0.0f, -4.333f, -1.929f, -4.333f, -4.308f)
+                verticalLineToRelative(-8.615f)
+                arcToRelative(1.08f, 1.08f, 0.0f, false, true, 1.083f, -1.077f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(16.0f, 9.0f)
-                horizontalLineToRelative(2.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
-                verticalLineToRelative(2.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, 2.0f)
-                horizontalLineToRelative(-2.0f)
+                moveTo(16.0f, 8.0f)
+                horizontalLineToRelative(2.5f)
+                curveToRelative(1.38f, 0.0f, 2.5f, 1.045f, 2.5f, 2.333f)
+                verticalLineToRelative(2.334f)
+                curveToRelative(0.0f, 1.288f, -1.12f, 2.333f, -2.5f, 2.333f)
+                horizontalLineToRelative(-2.5f)
             }
         }
         .build()
