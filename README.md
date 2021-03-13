@@ -18,18 +18,18 @@ In the future, when Compose Desktop and Android use the same artifact, the proje
 Add the project repository:
 ```kotlin
 repositories {
-    maven("https://dl.bintray.com/devsrsouza/compose")
+    mavenCentral()
 }
 ```
 
 For [Jetpack Compose (Android)](https://developer.android.com/jetpack/compose):
 ```kotlin
-implementation("compose.icons.android:ICON_PACK:0.1.0-SNAPSHOT")
+implementation("br.com.devsrsouza.compose.icons.android:ICON_PACK:0.1.0")
 ```
 
 For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/):
 ```kotlin
-implementation("compose.icons.jetbrains:ICON_PACK:0.1.0-SNAPSHOT")
+implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:0.1.0")
 ```
 
 ## Example
