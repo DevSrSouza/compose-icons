@@ -6,7 +6,7 @@ Currently, the Jetpack Compose(Android) and Jetbrains Compose (Desktop/Multiplat
 
 In the future, when Compose Desktop and Android use the same artifact, the project will migrate to it and use only one artifact for both. 
 
-![](https://i.imgur.com/tkN9U0B.png)
+![](https://user-images.githubusercontent.com/29736164/111044124-6b131080-8425-11eb-9b03-0d3b409377a5.png)
 
 ## Compose versions
 
