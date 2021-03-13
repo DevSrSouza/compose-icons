@@ -3,7 +3,7 @@ plugins {
     id("kotlin-android")
 }
 
-group = "compose.icons.android"
+group = Publish.groupAndroid
 
 dependencies {
     api("androidx.compose.runtime:runtime:${Versions.composeAndroidVersion}")
@@ -46,13 +46,21 @@ val sourcesJar by tasks.creating(Jar::class) {
     from(android.sourceSets["main"].java.srcDirs)
 }
 
+val javadocJar = tasks.register("javadocJar", Jar::class.java) {
+    archiveClassifier.set("javadoc")
+}
+
 afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("maven") {
                 from(components["release"])
                 artifact(sourcesJar)
+                artifact(javadocJar)
+                setupPom(project)
             }
         }
     }
+
+    setupSigning()
 }

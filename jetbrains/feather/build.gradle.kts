@@ -6,7 +6,7 @@ plugins {
     id("org.jetbrains.compose") version Versions.composeDesktopVersion
 }
 
-group = "compose.icons.jetbrains"
+group = Publish.groupJetbrains
 
 // https://youtrack.jetbrains.com/issue/KT-43944
 android {
@@ -53,4 +53,14 @@ android {
         minSdkVersion(21)
         targetSdkVersion(29)
     }
+}
+
+val javadocJar = tasks.register("javadocJar", Jar::class.java) {
+    archiveClassifier.set("javadoc")
+}
+
+afterEvaluate {
+    setupSigning()
+
+    applyPomToAllMavenPublications(javadocJar)
 }
