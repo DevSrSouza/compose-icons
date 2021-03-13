@@ -22,7 +22,7 @@ android {
 
 kotlin {
     android {
-        publishLibraryVariants("release")
+        publishAllLibraryVariants()
     }
     jvm("desktop") {
         compilations.all {
