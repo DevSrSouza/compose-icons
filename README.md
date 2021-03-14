@@ -20,12 +20,12 @@ repositories {
 
 For [Jetpack Compose (Android)](https://developer.android.com/jetpack/compose):
 ```kotlin
-implementation("br.com.devsrsouza.compose.icons.android:ICON_PACK:0.1.0")
+implementation("br.com.devsrsouza.compose.icons.android:ICON_PACK:0.1.1")
 ```
 
 For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/):
 ```kotlin
-implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:0.1.0")
+implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:0.1.1")
 ```
 
 ## Example
