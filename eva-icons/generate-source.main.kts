@@ -31,6 +31,7 @@ val githubId = "akveo/eva-icons"
 val repository = "https://github.com/$githubId"
 val version = "v1.1.3"
 val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
+val blobGithubRepository = "$repository/blob/$version"
 
 val repoCloneDir = createTempDir(suffix = "eva-git-repo")
 
@@ -90,7 +91,8 @@ val result = Svg2Compose.parse(
 
 println("Copying LICENSE from the Icon pack")
 
-val licenseFile = File(repoCloneDir, "LICENSE.txt")
+val licensePath = "LICENSE.txt"
+val licenseFile = File(repoCloneDir, licensePath)
 
 val resDir = File("src/commonMain/resources").makeDirs()
 val licenseInResource = File(resDir, "eva-license.txt")
@@ -137,8 +139,17 @@ fun ParsingResult.asDocumentationGroup(
     )
 }
 
-fun List<DocumentationIcon>.iconsTableDocumentation(): String = map {
-    "| ![](${rawGithubRepository + "/" + replacePathName(it.svgFilePathRelativeToRepository) }) | ${it.accessingFormat} |"
+fun markdownSvg(doc: DocumentationIcon): String {
+    return "![](${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) })"
+}
+
+fun markdownIconDocumentation(doc: DocumentationIcon): String {
+    return "${markdownSvg(doc)} | ${doc.accessingFormat}"
+}
+
+fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.accessingFormat }
+    .chunked(3).map {
+    "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
 }.joinToString("\n")
 
 val documentationGroups = result.asDocumentationGroupList()
@@ -147,8 +158,8 @@ val documentationGroups = result.asDocumentationGroupList()
         """
             ## ${it.groupName}
             
-            | Icon | In Code |
-            | --- | --- |
+            | Icon | In Code | Icon | In Code | Icon | In Code |
+            | --- | --- | --- | --- | --- | --- |
         """.trimIndent() + "\n" + it.icons.iconsTableDocumentation()
     }.joinToString("\n<br /><br />\n")
 
@@ -159,8 +170,14 @@ val header = """
     
 """.trimIndent()
 
+val license = """
+    ## [License]($blobGithubRepository/$licensePath)
+    
+    ```
+    """".trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
+
 File("DOCUMENTATION.md").apply{
     if(exists().not()) createNewFile()
 }.writeText(
-    header + "\n" + documentationGroups
+    header + "\n" + license + "\n" + documentationGroups
 )

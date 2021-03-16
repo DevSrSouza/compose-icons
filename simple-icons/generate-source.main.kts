@@ -33,9 +33,10 @@ val ignoredIcons = listOf(
 )
 
 val githubId = "simple-icons/simple-icons"
-val repository = "https://github.com/$githubId/"
+val repository = "https://github.com/$githubId"
 val version = "4.14.0"
 val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
+val blobGithubRepository = "$repository/blob/$version"
 
 val repoCloneDir = createTempDir(suffix = "git-repo-simpleicons")
 
@@ -121,7 +122,8 @@ val result = Svg2Compose.parse(
 
 println("Copying LICENSE from the Icon pack")
 
-val licenseFile = File(repoCloneDir, "LICENSE.md")
+val licensePath = "LICENSE.md"
+val licenseFile = File(repoCloneDir, licensePath)
 
 val resDir = File("src/commonMain/resources").makeDirs()
 val licenseInResource = File(resDir, "simpleicons-license.txt")
@@ -168,18 +170,27 @@ fun ParsingResult.asDocumentationGroup(
     )
 }
 
-fun List<DocumentationIcon>.iconsTableDocumentation(): String = map {
-    "| ![](${rawGithubRepository + "/" + replacePathName(it.svgFilePathRelativeToRepository) }) | ${it.accessingFormat} |"
-}.joinToString("\n")
+fun markdownSvg(doc: DocumentationIcon): String {
+    return "![](${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) })"
+}
+
+fun markdownIconDocumentation(doc: DocumentationIcon): String {
+    return "${markdownSvg(doc)} | ${doc.accessingFormat}"
+}
+
+fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.accessingFormat }
+    .chunked(3).map {
+        "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
+    }.joinToString("\n")
 
 val documentationGroups = result.asDocumentationGroupList()
     .filter { it.icons.isNotEmpty() }
     .map {
         """
             ## ${it.groupName}
-
-            | Icon | In Code |
-            | --- | --- |
+            
+            | Icon | In Code | Icon | In Code | Icon | In Code |
+            | --- | --- | --- | --- | --- | --- |
         """.trimIndent() + "\n" + it.icons.iconsTableDocumentation()
     }.joinToString("\n<br /><br />\n")
 
@@ -190,8 +201,14 @@ val header = """
 
 """.trimIndent()
 
+val license = """
+    ## [License]($blobGithubRepository/$licensePath)
+    
+    ```
+    """".trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
+
 File("DOCUMENTATION.md").apply{
     if(exists().not()) createNewFile()
 }.writeText(
-    header + "\n" + documentationGroups
+    header + "\n" + license + "\n" + documentationGroups
 )

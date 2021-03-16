@@ -28,9 +28,10 @@ fun File.makeDirs() = apply { mkdirs() }
 val buildDir = File("build/").makeDirs()
 
 val githubId = "feathericons/feather"
-val repository = "https://github.com/$githubId.git"
+val repository = "https://github.com/$githubId"
 val version = "v4.28.0"
 val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
+val blobGithubRepository = "$repository/blob/$version"
 
 val repoCloneDir = createTempDir(suffix = "feather-git-repo")
 
@@ -53,7 +54,7 @@ val previousNames: List<Pair<String, String>> = iconsDir.listFiles().filter { it
         name to newFile.name
     }
 
-fun replaceSvgPathWithPreviousName(svgPath: String): String {
+fun replacePathName(svgPath: String): String {
     return previousNames.fold(svgPath) { path, (old, new) -> path.replace(new, old) }
 }
 
@@ -74,7 +75,8 @@ val result = Svg2Compose.parse(
 
 println("Copying LICENSE from the Icon pack")
 
-val licenseFile = File(repoCloneDir, "LICENSE")
+val licensePath = "LICENSE"
+val licenseFile = File(repoCloneDir, licensePath)
 
 val resDir = File("src/commonMain/resources").makeDirs()
 val licenseInResource = File(resDir, "feather-license.txt")
@@ -122,9 +124,18 @@ fun ParsingResult.asDocumentationGroup(
     )
 }
 
-fun List<DocumentationIcon>.iconsTableDocumentation(): String = map {
-    "| ![](${rawGithubRepository + "/" + replaceSvgPathWithPreviousName(it.svgFilePathRelativeToRepository) }) | ${it.accessingFormat} |"
-}.joinToString("\n")
+fun markdownSvg(doc: DocumentationIcon): String {
+    return "![](${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) })"
+}
+
+fun markdownIconDocumentation(doc: DocumentationIcon): String {
+    return "${markdownSvg(doc)} | ${doc.accessingFormat}"
+}
+
+fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.accessingFormat }
+    .chunked(3).map {
+        "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
+    }.joinToString("\n")
 
 val documentationGroups = result.asDocumentationGroupList()
     .filter { it.icons.isNotEmpty() }
@@ -132,8 +143,8 @@ val documentationGroups = result.asDocumentationGroupList()
         """
             ## ${it.groupName}
             
-            | Icon | In Code |
-            | --- | --- |
+            | Icon | In Code | Icon | In Code | Icon | In Code |
+            | --- | --- | --- | --- | --- | --- |
         """.trimIndent() + "\n" + it.icons.iconsTableDocumentation()
     }.joinToString("\n<br /><br />\n")
 
@@ -144,8 +155,15 @@ val header = """
     
 """.trimIndent()
 
+
+val license = """
+    ## [License]($blobGithubRepository/$licensePath)
+    
+    ```
+    """".trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
+
 File("DOCUMENTATION.md").apply{
     if(exists().not()) createNewFile()
 }.writeText(
-    header + "\n" + documentationGroups
+    header + "\n" + license + "\n" + documentationGroups
 )
