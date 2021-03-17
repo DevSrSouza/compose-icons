@@ -147,10 +147,11 @@ fun markdownIconDocumentation(doc: DocumentationIcon): String {
     return "${markdownSvg(doc)} | ${doc.accessingFormat}"
 }
 
+val chunks = 2
 fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.accessingFormat }
-    .chunked(3).map {
-    "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
-}.joinToString("\n")
+    .chunked(chunks).map {
+        "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
+    }.joinToString("\n")
 
 val documentationGroups = result.asDocumentationGroupList()
     .filter { it.icons.isNotEmpty() }
@@ -158,8 +159,8 @@ val documentationGroups = result.asDocumentationGroupList()
         """
             ## ${it.groupName}
             
-            | Icon | In Code | Icon | In Code | Icon | In Code |
-            | --- | --- | --- | --- | --- | --- |
+            |${" Icon | In Code |".repeat(chunks)}
+            |${" --- | --- |".repeat(chunks)}
         """.trimIndent() + "\n" + it.icons.iconsTableDocumentation()
     }.joinToString("\n<br /><br />\n")
 
