@@ -5,7 +5,7 @@
 ## [License](https://github.com/FortAwesome/Font-Awesome/blob/5.15.2/LICENSE.txt)
 
 ```
-"Font Awesome Free License
+Font Awesome Free License
 -------------------------
 
 Font Awesome Free is free, open source, and GPL friendly. You can use it for

@@ -5,7 +5,7 @@
 ## [License](https://github.com/feathericons/feather/blob/v4.28.0/LICENSE)
 
 ```
-"The MIT License (MIT)
+The MIT License (MIT)
 
 Copyright (c) 2013-2017 Cole Bemis
 

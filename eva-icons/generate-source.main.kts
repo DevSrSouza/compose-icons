@@ -175,7 +175,8 @@ val license = """
     ## [License]($blobGithubRepository/$licensePath)
     
     ```
-    """".trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
+    
+    """.trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
 
 File("DOCUMENTATION.md").apply{
     if(exists().not()) createNewFile()

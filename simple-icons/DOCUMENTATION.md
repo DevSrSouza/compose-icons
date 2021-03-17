@@ -5,7 +5,7 @@
 ## [License](https://github.com/simple-icons/simple-icons/blob/4.14.0/LICENSE.md)
 
 ```
-"# CC0 1.0 Universal
+# CC0 1.0 Universal
 
 ## Statement of Purpose
 

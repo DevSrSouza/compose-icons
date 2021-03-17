@@ -5,7 +5,7 @@
 ## [License](https://github.com/akveo/eva-icons/blob/v1.1.3/LICENSE.txt)
 
 ```
-"The MIT License (MIT)
+The MIT License (MIT)
 
 Copyright (c) 2018 Akveo.
 

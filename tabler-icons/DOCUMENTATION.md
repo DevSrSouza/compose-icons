@@ -5,7 +5,7 @@
 ## [License](https://github.com/tabler/tabler-icons/blob/v1.39.1/LICENSE)
 
 ```
-"MIT License
+MIT License
 
 Copyright (c) 2020 Paweł Kuna
 
