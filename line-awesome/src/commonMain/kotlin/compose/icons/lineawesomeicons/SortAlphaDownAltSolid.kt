@@ -1,0 +1,82 @@
+package compose.icons.lineawesomeicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.LineAwesomeIcons
+
+public val LineAwesomeIcons.SortAlphaDownAltSolid: ImageVector
+    get() {
+        if (_sortAlphaDownAltSolid != null) {
+            return _sortAlphaDownAltSolid!!
+        }
+        _sortAlphaDownAltSolid = Builder(name = "SortAlphaDownAltSolid", defaultWidth = 32.0.dp,
+                defaultHeight = 32.0.dp, viewportWidth = 32.0f, viewportHeight = 32.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(5.0f, 5.0f)
+                lineTo(5.0f, 7.0f)
+                lineTo(10.5625f, 7.0f)
+                lineTo(5.2813f, 12.2813f)
+                lineTo(5.0f, 12.5938f)
+                lineTo(5.0f, 15.0f)
+                lineTo(13.0f, 15.0f)
+                lineTo(13.0f, 13.0f)
+                lineTo(7.4375f, 13.0f)
+                lineTo(12.7188f, 7.7188f)
+                lineTo(13.0f, 7.4063f)
+                lineTo(13.0f, 5.0f)
+                close()
+                moveTo(22.0f, 5.0f)
+                lineTo(22.0f, 23.6875f)
+                lineTo(19.4063f, 21.0938f)
+                lineTo(18.0f, 22.5f)
+                lineTo(22.2813f, 26.8125f)
+                lineTo(23.0f, 27.5f)
+                lineTo(23.7188f, 26.8125f)
+                lineTo(28.0f, 22.5f)
+                lineTo(26.5938f, 21.0938f)
+                lineTo(24.0f, 23.6875f)
+                lineTo(24.0f, 5.0f)
+                close()
+                moveTo(8.1875f, 17.0f)
+                lineTo(7.9688f, 17.6563f)
+                lineTo(6.0313f, 23.0f)
+                lineTo(6.0f, 23.0f)
+                lineTo(6.0f, 23.0625f)
+                lineTo(5.0625f, 25.6563f)
+                lineTo(5.0f, 25.8125f)
+                lineTo(5.0f, 27.0f)
+                lineTo(7.0f, 27.0f)
+                lineTo(7.0f, 26.1563f)
+                lineTo(7.4063f, 25.0f)
+                lineTo(10.5938f, 25.0f)
+                lineTo(11.0f, 26.1563f)
+                lineTo(11.0f, 27.0f)
+                lineTo(13.0f, 27.0f)
+                lineTo(13.0f, 25.8125f)
+                lineTo(12.9375f, 25.6563f)
+                lineTo(12.0f, 23.0625f)
+                lineTo(12.0f, 23.0f)
+                lineTo(11.9688f, 23.0f)
+                lineTo(10.0313f, 17.6563f)
+                lineTo(9.8125f, 17.0f)
+                close()
+                moveTo(9.0f, 20.6563f)
+                lineTo(9.8438f, 23.0f)
+                lineTo(8.1563f, 23.0f)
+                close()
+            }
+        }
+        .build()
+        return _sortAlphaDownAltSolid!!
+    }
+
+private var _sortAlphaDownAltSolid: ImageVector? = null

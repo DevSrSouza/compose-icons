@@ -1,0 +1,1810 @@
+package compose.icons
+
+import androidx.compose.ui.graphics.vector.ImageVector
+import compose.icons.lineawesomeicons.AccessibleIcon
+import compose.icons.lineawesomeicons.Accusoft
+import compose.icons.lineawesomeicons.AcquisitionsIncorporated
+import compose.icons.lineawesomeicons.AdSolid
+import compose.icons.lineawesomeicons.AddressBook
+import compose.icons.lineawesomeicons.AddressBookSolid
+import compose.icons.lineawesomeicons.AddressCard
+import compose.icons.lineawesomeicons.AddressCardSolid
+import compose.icons.lineawesomeicons.AdjustSolid
+import compose.icons.lineawesomeicons.Adn
+import compose.icons.lineawesomeicons.Adobe
+import compose.icons.lineawesomeicons.Adversal
+import compose.icons.lineawesomeicons.Affiliatetheme
+import compose.icons.lineawesomeicons.AirFreshenerSolid
+import compose.icons.lineawesomeicons.Airbnb
+import compose.icons.lineawesomeicons.Algolia
+import compose.icons.lineawesomeicons.AlignCenterSolid
+import compose.icons.lineawesomeicons.AlignJustifySolid
+import compose.icons.lineawesomeicons.AlignLeftSolid
+import compose.icons.lineawesomeicons.AlignRightSolid
+import compose.icons.lineawesomeicons.Alipay
+import compose.icons.lineawesomeicons.AllergiesSolid
+import compose.icons.lineawesomeicons.Amazon
+import compose.icons.lineawesomeicons.AmazonPay
+import compose.icons.lineawesomeicons.AmbulanceSolid
+import compose.icons.lineawesomeicons.AmericanSignLanguageInterpretingSolid
+import compose.icons.lineawesomeicons.Amilia
+import compose.icons.lineawesomeicons.AnchorSolid
+import compose.icons.lineawesomeicons.Android
+import compose.icons.lineawesomeicons.Angellist
+import compose.icons.lineawesomeicons.AngleDoubleDownSolid
+import compose.icons.lineawesomeicons.AngleDoubleLeftSolid
+import compose.icons.lineawesomeicons.AngleDoubleRightSolid
+import compose.icons.lineawesomeicons.AngleDoubleUpSolid
+import compose.icons.lineawesomeicons.AngleDownSolid
+import compose.icons.lineawesomeicons.AngleLeftSolid
+import compose.icons.lineawesomeicons.AngleRightSolid
+import compose.icons.lineawesomeicons.AngleUpSolid
+import compose.icons.lineawesomeicons.Angry
+import compose.icons.lineawesomeicons.AngrySolid
+import compose.icons.lineawesomeicons.Angrycreative
+import compose.icons.lineawesomeicons.Angular
+import compose.icons.lineawesomeicons.AnkhSolid
+import compose.icons.lineawesomeicons.AppStore
+import compose.icons.lineawesomeicons.AppStoreIos
+import compose.icons.lineawesomeicons.Apper
+import compose.icons.lineawesomeicons.Apple
+import compose.icons.lineawesomeicons.AppleAltSolid
+import compose.icons.lineawesomeicons.ApplePay
+import compose.icons.lineawesomeicons.ArchiveSolid
+import compose.icons.lineawesomeicons.ArchwaySolid
+import compose.icons.lineawesomeicons.ArrowAltCircleDown
+import compose.icons.lineawesomeicons.ArrowAltCircleDownSolid
+import compose.icons.lineawesomeicons.ArrowAltCircleLeft
+import compose.icons.lineawesomeicons.ArrowAltCircleLeftSolid
+import compose.icons.lineawesomeicons.ArrowAltCircleRight
+import compose.icons.lineawesomeicons.ArrowAltCircleRightSolid
+import compose.icons.lineawesomeicons.ArrowAltCircleUp
+import compose.icons.lineawesomeicons.ArrowAltCircleUpSolid
+import compose.icons.lineawesomeicons.ArrowCircleDownSolid
+import compose.icons.lineawesomeicons.ArrowCircleLeftSolid
+import compose.icons.lineawesomeicons.ArrowCircleRightSolid
+import compose.icons.lineawesomeicons.ArrowCircleUpSolid
+import compose.icons.lineawesomeicons.ArrowDownSolid
+import compose.icons.lineawesomeicons.ArrowLeftSolid
+import compose.icons.lineawesomeicons.ArrowRightSolid
+import compose.icons.lineawesomeicons.ArrowUpSolid
+import compose.icons.lineawesomeicons.ArrowsAltHSolid
+import compose.icons.lineawesomeicons.ArrowsAltSolid
+import compose.icons.lineawesomeicons.ArrowsAltVSolid
+import compose.icons.lineawesomeicons.Artstation
+import compose.icons.lineawesomeicons.AssistiveListeningSystemsSolid
+import compose.icons.lineawesomeicons.AsteriskSolid
+import compose.icons.lineawesomeicons.Asymmetrik
+import compose.icons.lineawesomeicons.AtSolid
+import compose.icons.lineawesomeicons.AtlasSolid
+import compose.icons.lineawesomeicons.Atlassian
+import compose.icons.lineawesomeicons.AtomSolid
+import compose.icons.lineawesomeicons.Audible
+import compose.icons.lineawesomeicons.AudioDescriptionSolid
+import compose.icons.lineawesomeicons.Autoprefixer
+import compose.icons.lineawesomeicons.Avianex
+import compose.icons.lineawesomeicons.Aviato
+import compose.icons.lineawesomeicons.AwardSolid
+import compose.icons.lineawesomeicons.Aws
+import compose.icons.lineawesomeicons.BabyCarriageSolid
+import compose.icons.lineawesomeicons.BabySolid
+import compose.icons.lineawesomeicons.BackspaceSolid
+import compose.icons.lineawesomeicons.BackwardSolid
+import compose.icons.lineawesomeicons.BaconSolid
+import compose.icons.lineawesomeicons.BalanceScaleLeftSolid
+import compose.icons.lineawesomeicons.BalanceScaleRightSolid
+import compose.icons.lineawesomeicons.BalanceScaleSolid
+import compose.icons.lineawesomeicons.BanSolid
+import compose.icons.lineawesomeicons.BandAidSolid
+import compose.icons.lineawesomeicons.Bandcamp
+import compose.icons.lineawesomeicons.BarcodeSolid
+import compose.icons.lineawesomeicons.BarsSolid
+import compose.icons.lineawesomeicons.BaseballBallSolid
+import compose.icons.lineawesomeicons.BasketballBallSolid
+import compose.icons.lineawesomeicons.BathSolid
+import compose.icons.lineawesomeicons.BatteryEmptySolid
+import compose.icons.lineawesomeicons.BatteryFullSolid
+import compose.icons.lineawesomeicons.BatteryHalfSolid
+import compose.icons.lineawesomeicons.BatteryQuarterSolid
+import compose.icons.lineawesomeicons.BatteryThreeQuartersSolid
+import compose.icons.lineawesomeicons.BattleNet
+import compose.icons.lineawesomeicons.BedSolid
+import compose.icons.lineawesomeicons.BeerSolid
+import compose.icons.lineawesomeicons.Behance
+import compose.icons.lineawesomeicons.BehanceSquare
+import compose.icons.lineawesomeicons.Bell
+import compose.icons.lineawesomeicons.BellSlash
+import compose.icons.lineawesomeicons.BellSlashSolid
+import compose.icons.lineawesomeicons.BellSolid
+import compose.icons.lineawesomeicons.BezierCurveSolid
+import compose.icons.lineawesomeicons.BibleSolid
+import compose.icons.lineawesomeicons.BicycleSolid
+import compose.icons.lineawesomeicons.BikingSolid
+import compose.icons.lineawesomeicons.Bimobject
+import compose.icons.lineawesomeicons.BinocularsSolid
+import compose.icons.lineawesomeicons.BiohazardSolid
+import compose.icons.lineawesomeicons.BirthdayCakeSolid
+import compose.icons.lineawesomeicons.Bitbucket
+import compose.icons.lineawesomeicons.Bitcoin
+import compose.icons.lineawesomeicons.Bity
+import compose.icons.lineawesomeicons.BlackTie
+import compose.icons.lineawesomeicons.Blackberry
+import compose.icons.lineawesomeicons.BlenderPhoneSolid
+import compose.icons.lineawesomeicons.BlenderSolid
+import compose.icons.lineawesomeicons.BlindSolid
+import compose.icons.lineawesomeicons.BlogSolid
+import compose.icons.lineawesomeicons.Blogger
+import compose.icons.lineawesomeicons.BloggerB
+import compose.icons.lineawesomeicons.Bluetooth
+import compose.icons.lineawesomeicons.BluetoothB
+import compose.icons.lineawesomeicons.BoldSolid
+import compose.icons.lineawesomeicons.BoltSolid
+import compose.icons.lineawesomeicons.BombSolid
+import compose.icons.lineawesomeicons.BoneSolid
+import compose.icons.lineawesomeicons.BongSolid
+import compose.icons.lineawesomeicons.BookDeadSolid
+import compose.icons.lineawesomeicons.BookMedicalSolid
+import compose.icons.lineawesomeicons.BookOpenSolid
+import compose.icons.lineawesomeicons.BookReaderSolid
+import compose.icons.lineawesomeicons.BookSolid
+import compose.icons.lineawesomeicons.Bookmark
+import compose.icons.lineawesomeicons.BookmarkSolid
+import compose.icons.lineawesomeicons.Bootstrap
+import compose.icons.lineawesomeicons.BorderAllSolid
+import compose.icons.lineawesomeicons.BorderNoneSolid
+import compose.icons.lineawesomeicons.BorderStyleSolid
+import compose.icons.lineawesomeicons.BowlingBallSolid
+import compose.icons.lineawesomeicons.BoxOpenSolid
+import compose.icons.lineawesomeicons.BoxSolid
+import compose.icons.lineawesomeicons.BoxesSolid
+import compose.icons.lineawesomeicons.BrailleSolid
+import compose.icons.lineawesomeicons.BrainSolid
+import compose.icons.lineawesomeicons.BreadSliceSolid
+import compose.icons.lineawesomeicons.BriefcaseMedicalSolid
+import compose.icons.lineawesomeicons.BriefcaseSolid
+import compose.icons.lineawesomeicons.BroadcastTowerSolid
+import compose.icons.lineawesomeicons.BroomSolid
+import compose.icons.lineawesomeicons.BrushSolid
+import compose.icons.lineawesomeicons.Btc
+import compose.icons.lineawesomeicons.Buffer
+import compose.icons.lineawesomeicons.BugSolid
+import compose.icons.lineawesomeicons.Building
+import compose.icons.lineawesomeicons.BuildingSolid
+import compose.icons.lineawesomeicons.BullhornSolid
+import compose.icons.lineawesomeicons.BullseyeSolid
+import compose.icons.lineawesomeicons.BurnSolid
+import compose.icons.lineawesomeicons.Buromobelexperte
+import compose.icons.lineawesomeicons.BusAltSolid
+import compose.icons.lineawesomeicons.BusSolid
+import compose.icons.lineawesomeicons.BusinessTimeSolid
+import compose.icons.lineawesomeicons.BuyNLarge
+import compose.icons.lineawesomeicons.Buysellads
+import compose.icons.lineawesomeicons.CalculatorSolid
+import compose.icons.lineawesomeicons.Calendar
+import compose.icons.lineawesomeicons.CalendarAlt
+import compose.icons.lineawesomeicons.CalendarAltSolid
+import compose.icons.lineawesomeicons.CalendarCheck
+import compose.icons.lineawesomeicons.CalendarCheckSolid
+import compose.icons.lineawesomeicons.CalendarDaySolid
+import compose.icons.lineawesomeicons.CalendarMinus
+import compose.icons.lineawesomeicons.CalendarMinusSolid
+import compose.icons.lineawesomeicons.CalendarPlus
+import compose.icons.lineawesomeicons.CalendarPlusSolid
+import compose.icons.lineawesomeicons.CalendarSolid
+import compose.icons.lineawesomeicons.CalendarTimes
+import compose.icons.lineawesomeicons.CalendarTimesSolid
+import compose.icons.lineawesomeicons.CalendarWeekSolid
+import compose.icons.lineawesomeicons.CameraRetroSolid
+import compose.icons.lineawesomeicons.CameraSolid
+import compose.icons.lineawesomeicons.CampgroundSolid
+import compose.icons.lineawesomeicons.CanadianMapleLeaf
+import compose.icons.lineawesomeicons.CandyCaneSolid
+import compose.icons.lineawesomeicons.CannabisSolid
+import compose.icons.lineawesomeicons.CapsulesSolid
+import compose.icons.lineawesomeicons.CarAltSolid
+import compose.icons.lineawesomeicons.CarBatterySolid
+import compose.icons.lineawesomeicons.CarCrashSolid
+import compose.icons.lineawesomeicons.CarSideSolid
+import compose.icons.lineawesomeicons.CarSolid
+import compose.icons.lineawesomeicons.CaretDownSolid
+import compose.icons.lineawesomeicons.CaretLeftSolid
+import compose.icons.lineawesomeicons.CaretRightSolid
+import compose.icons.lineawesomeicons.CaretSquareDown
+import compose.icons.lineawesomeicons.CaretSquareDownSolid
+import compose.icons.lineawesomeicons.CaretSquareLeft
+import compose.icons.lineawesomeicons.CaretSquareLeftSolid
+import compose.icons.lineawesomeicons.CaretSquareRight
+import compose.icons.lineawesomeicons.CaretSquareRightSolid
+import compose.icons.lineawesomeicons.CaretSquareUp
+import compose.icons.lineawesomeicons.CaretSquareUpSolid
+import compose.icons.lineawesomeicons.CaretUpSolid
+import compose.icons.lineawesomeicons.CarrotSolid
+import compose.icons.lineawesomeicons.CartArrowDownSolid
+import compose.icons.lineawesomeicons.CartPlusSolid
+import compose.icons.lineawesomeicons.CashRegisterSolid
+import compose.icons.lineawesomeicons.CatSolid
+import compose.icons.lineawesomeicons.CcAmazonPay
+import compose.icons.lineawesomeicons.CcAmex
+import compose.icons.lineawesomeicons.CcApplePay
+import compose.icons.lineawesomeicons.CcDinersClub
+import compose.icons.lineawesomeicons.CcDiscover
+import compose.icons.lineawesomeicons.CcJcb
+import compose.icons.lineawesomeicons.CcMastercard
+import compose.icons.lineawesomeicons.CcPaypal
+import compose.icons.lineawesomeicons.CcStripe
+import compose.icons.lineawesomeicons.CcVisa
+import compose.icons.lineawesomeicons.Centercode
+import compose.icons.lineawesomeicons.Centos
+import compose.icons.lineawesomeicons.CertificateSolid
+import compose.icons.lineawesomeicons.ChairSolid
+import compose.icons.lineawesomeicons.ChalkboardSolid
+import compose.icons.lineawesomeicons.ChalkboardTeacherSolid
+import compose.icons.lineawesomeicons.ChargingStationSolid
+import compose.icons.lineawesomeicons.ChartAreaSolid
+import compose.icons.lineawesomeicons.ChartBar
+import compose.icons.lineawesomeicons.ChartBarSolid
+import compose.icons.lineawesomeicons.ChartLineSolid
+import compose.icons.lineawesomeicons.ChartPieSolid
+import compose.icons.lineawesomeicons.CheckCircle
+import compose.icons.lineawesomeicons.CheckCircleSolid
+import compose.icons.lineawesomeicons.CheckDoubleSolid
+import compose.icons.lineawesomeicons.CheckSolid
+import compose.icons.lineawesomeicons.CheckSquare
+import compose.icons.lineawesomeicons.CheckSquareSolid
+import compose.icons.lineawesomeicons.CheeseSolid
+import compose.icons.lineawesomeicons.ChessBishopSolid
+import compose.icons.lineawesomeicons.ChessBoardSolid
+import compose.icons.lineawesomeicons.ChessKingSolid
+import compose.icons.lineawesomeicons.ChessKnightSolid
+import compose.icons.lineawesomeicons.ChessPawnSolid
+import compose.icons.lineawesomeicons.ChessQueenSolid
+import compose.icons.lineawesomeicons.ChessRookSolid
+import compose.icons.lineawesomeicons.ChessSolid
+import compose.icons.lineawesomeicons.ChevronCircleDownSolid
+import compose.icons.lineawesomeicons.ChevronCircleLeftSolid
+import compose.icons.lineawesomeicons.ChevronCircleRightSolid
+import compose.icons.lineawesomeicons.ChevronCircleUpSolid
+import compose.icons.lineawesomeicons.ChevronDownSolid
+import compose.icons.lineawesomeicons.ChevronLeftSolid
+import compose.icons.lineawesomeicons.ChevronRightSolid
+import compose.icons.lineawesomeicons.ChevronUpSolid
+import compose.icons.lineawesomeicons.ChildSolid
+import compose.icons.lineawesomeicons.Chrome
+import compose.icons.lineawesomeicons.Chromecast
+import compose.icons.lineawesomeicons.ChurchSolid
+import compose.icons.lineawesomeicons.Circle
+import compose.icons.lineawesomeicons.CircleNotchSolid
+import compose.icons.lineawesomeicons.CircleSolid
+import compose.icons.lineawesomeicons.CitySolid
+import compose.icons.lineawesomeicons.ClinicMedicalSolid
+import compose.icons.lineawesomeicons.Clipboard
+import compose.icons.lineawesomeicons.ClipboardCheckSolid
+import compose.icons.lineawesomeicons.ClipboardListSolid
+import compose.icons.lineawesomeicons.ClipboardSolid
+import compose.icons.lineawesomeicons.Clock
+import compose.icons.lineawesomeicons.ClockSolid
+import compose.icons.lineawesomeicons.Clone
+import compose.icons.lineawesomeicons.CloneSolid
+import compose.icons.lineawesomeicons.ClosedCaptioning
+import compose.icons.lineawesomeicons.ClosedCaptioningSolid
+import compose.icons.lineawesomeicons.CloudDownloadAltSolid
+import compose.icons.lineawesomeicons.CloudMeatballSolid
+import compose.icons.lineawesomeicons.CloudMoonRainSolid
+import compose.icons.lineawesomeicons.CloudMoonSolid
+import compose.icons.lineawesomeicons.CloudRainSolid
+import compose.icons.lineawesomeicons.CloudShowersHeavySolid
+import compose.icons.lineawesomeicons.CloudSolid
+import compose.icons.lineawesomeicons.CloudSunRainSolid
+import compose.icons.lineawesomeicons.CloudSunSolid
+import compose.icons.lineawesomeicons.CloudUploadAltSolid
+import compose.icons.lineawesomeicons.Cloudscale
+import compose.icons.lineawesomeicons.Cloudsmith
+import compose.icons.lineawesomeicons.Cloudversify
+import compose.icons.lineawesomeicons.CocktailSolid
+import compose.icons.lineawesomeicons.CodeBranchSolid
+import compose.icons.lineawesomeicons.CodeSolid
+import compose.icons.lineawesomeicons.Codepen
+import compose.icons.lineawesomeicons.Codiepie
+import compose.icons.lineawesomeicons.CoffeeSolid
+import compose.icons.lineawesomeicons.CogSolid
+import compose.icons.lineawesomeicons.CogsSolid
+import compose.icons.lineawesomeicons.CoinsSolid
+import compose.icons.lineawesomeicons.ColumnsSolid
+import compose.icons.lineawesomeicons.Comment
+import compose.icons.lineawesomeicons.CommentAlt
+import compose.icons.lineawesomeicons.CommentAltSolid
+import compose.icons.lineawesomeicons.CommentDollarSolid
+import compose.icons.lineawesomeicons.CommentDots
+import compose.icons.lineawesomeicons.CommentDotsSolid
+import compose.icons.lineawesomeicons.CommentMedicalSolid
+import compose.icons.lineawesomeicons.CommentSlashSolid
+import compose.icons.lineawesomeicons.CommentSolid
+import compose.icons.lineawesomeicons.Comments
+import compose.icons.lineawesomeicons.CommentsDollarSolid
+import compose.icons.lineawesomeicons.CommentsSolid
+import compose.icons.lineawesomeicons.CompactDiscSolid
+import compose.icons.lineawesomeicons.Compass
+import compose.icons.lineawesomeicons.CompassSolid
+import compose.icons.lineawesomeicons.CompressArrowsAltSolid
+import compose.icons.lineawesomeicons.CompressSolid
+import compose.icons.lineawesomeicons.ConciergeBellSolid
+import compose.icons.lineawesomeicons.Confluence
+import compose.icons.lineawesomeicons.Connectdevelop
+import compose.icons.lineawesomeicons.Contao
+import compose.icons.lineawesomeicons.CookieBiteSolid
+import compose.icons.lineawesomeicons.CookieSolid
+import compose.icons.lineawesomeicons.Copy
+import compose.icons.lineawesomeicons.CopySolid
+import compose.icons.lineawesomeicons.Copyright
+import compose.icons.lineawesomeicons.CopyrightSolid
+import compose.icons.lineawesomeicons.CottonBureau
+import compose.icons.lineawesomeicons.CouchSolid
+import compose.icons.lineawesomeicons.Cpanel
+import compose.icons.lineawesomeicons.CreativeCommons
+import compose.icons.lineawesomeicons.CreativeCommonsBy
+import compose.icons.lineawesomeicons.CreativeCommonsNc
+import compose.icons.lineawesomeicons.CreativeCommonsNcEu
+import compose.icons.lineawesomeicons.CreativeCommonsNcJp
+import compose.icons.lineawesomeicons.CreativeCommonsNd
+import compose.icons.lineawesomeicons.CreativeCommonsPd
+import compose.icons.lineawesomeicons.CreativeCommonsPdAlt
+import compose.icons.lineawesomeicons.CreativeCommonsRemix
+import compose.icons.lineawesomeicons.CreativeCommonsSa
+import compose.icons.lineawesomeicons.CreativeCommonsSampling
+import compose.icons.lineawesomeicons.CreativeCommonsSamplingPlus
+import compose.icons.lineawesomeicons.CreativeCommonsShare
+import compose.icons.lineawesomeicons.CreativeCommonsZero
+import compose.icons.lineawesomeicons.CreditCard
+import compose.icons.lineawesomeicons.CreditCardSolid
+import compose.icons.lineawesomeicons.CriticalRole
+import compose.icons.lineawesomeicons.CropAltSolid
+import compose.icons.lineawesomeicons.CropSolid
+import compose.icons.lineawesomeicons.CrossSolid
+import compose.icons.lineawesomeicons.CrosshairsSolid
+import compose.icons.lineawesomeicons.CrowSolid
+import compose.icons.lineawesomeicons.CrownSolid
+import compose.icons.lineawesomeicons.CrutchSolid
+import compose.icons.lineawesomeicons.Css3
+import compose.icons.lineawesomeicons.Css3Alt
+import compose.icons.lineawesomeicons.CubeSolid
+import compose.icons.lineawesomeicons.CubesSolid
+import compose.icons.lineawesomeicons.CutSolid
+import compose.icons.lineawesomeicons.Cuttlefish
+import compose.icons.lineawesomeicons.DAndD
+import compose.icons.lineawesomeicons.DAndDBeyond
+import compose.icons.lineawesomeicons.Dashcube
+import compose.icons.lineawesomeicons.DatabaseSolid
+import compose.icons.lineawesomeicons.DeafSolid
+import compose.icons.lineawesomeicons.Delicious
+import compose.icons.lineawesomeicons.DemocratSolid
+import compose.icons.lineawesomeicons.Deploydog
+import compose.icons.lineawesomeicons.Deskpro
+import compose.icons.lineawesomeicons.DesktopSolid
+import compose.icons.lineawesomeicons.Dev
+import compose.icons.lineawesomeicons.Deviantart
+import compose.icons.lineawesomeicons.DharmachakraSolid
+import compose.icons.lineawesomeicons.Dhl
+import compose.icons.lineawesomeicons.DiagnosesSolid
+import compose.icons.lineawesomeicons.Diaspora
+import compose.icons.lineawesomeicons.DiceD20Solid
+import compose.icons.lineawesomeicons.DiceD6Solid
+import compose.icons.lineawesomeicons.DiceFiveSolid
+import compose.icons.lineawesomeicons.DiceFourSolid
+import compose.icons.lineawesomeicons.DiceOneSolid
+import compose.icons.lineawesomeicons.DiceSixSolid
+import compose.icons.lineawesomeicons.DiceSolid
+import compose.icons.lineawesomeicons.DiceThreeSolid
+import compose.icons.lineawesomeicons.DiceTwoSolid
+import compose.icons.lineawesomeicons.Digg
+import compose.icons.lineawesomeicons.DigitalOcean
+import compose.icons.lineawesomeicons.DigitalTachographSolid
+import compose.icons.lineawesomeicons.DirectionsSolid
+import compose.icons.lineawesomeicons.Discord
+import compose.icons.lineawesomeicons.Discourse
+import compose.icons.lineawesomeicons.DivideSolid
+import compose.icons.lineawesomeicons.Dizzy
+import compose.icons.lineawesomeicons.DizzySolid
+import compose.icons.lineawesomeicons.DnaSolid
+import compose.icons.lineawesomeicons.Dochub
+import compose.icons.lineawesomeicons.Docker
+import compose.icons.lineawesomeicons.DogSolid
+import compose.icons.lineawesomeicons.DollarSignSolid
+import compose.icons.lineawesomeicons.DollyFlatbedSolid
+import compose.icons.lineawesomeicons.DollySolid
+import compose.icons.lineawesomeicons.DonateSolid
+import compose.icons.lineawesomeicons.DoorClosedSolid
+import compose.icons.lineawesomeicons.DoorOpenSolid
+import compose.icons.lineawesomeicons.DotCircle
+import compose.icons.lineawesomeicons.DotCircleSolid
+import compose.icons.lineawesomeicons.DoveSolid
+import compose.icons.lineawesomeicons.DownloadSolid
+import compose.icons.lineawesomeicons.Draft2digital
+import compose.icons.lineawesomeicons.DraftingCompassSolid
+import compose.icons.lineawesomeicons.DragonSolid
+import compose.icons.lineawesomeicons.DrawPolygonSolid
+import compose.icons.lineawesomeicons.Dribbble
+import compose.icons.lineawesomeicons.DribbbleSquare
+import compose.icons.lineawesomeicons.Dropbox
+import compose.icons.lineawesomeicons.DrumSolid
+import compose.icons.lineawesomeicons.DrumSteelpanSolid
+import compose.icons.lineawesomeicons.DrumstickBiteSolid
+import compose.icons.lineawesomeicons.Drupal
+import compose.icons.lineawesomeicons.DumbbellSolid
+import compose.icons.lineawesomeicons.DumpsterFireSolid
+import compose.icons.lineawesomeicons.DumpsterSolid
+import compose.icons.lineawesomeicons.DungeonSolid
+import compose.icons.lineawesomeicons.Dyalog
+import compose.icons.lineawesomeicons.Earlybirds
+import compose.icons.lineawesomeicons.Ebay
+import compose.icons.lineawesomeicons.Edge
+import compose.icons.lineawesomeicons.Edit
+import compose.icons.lineawesomeicons.EditSolid
+import compose.icons.lineawesomeicons.EggSolid
+import compose.icons.lineawesomeicons.EjectSolid
+import compose.icons.lineawesomeicons.Elementor
+import compose.icons.lineawesomeicons.EllipsisHSolid
+import compose.icons.lineawesomeicons.EllipsisVSolid
+import compose.icons.lineawesomeicons.Ello
+import compose.icons.lineawesomeicons.Ember
+import compose.icons.lineawesomeicons.Empire
+import compose.icons.lineawesomeicons.Envelope
+import compose.icons.lineawesomeicons.EnvelopeOpen
+import compose.icons.lineawesomeicons.EnvelopeOpenSolid
+import compose.icons.lineawesomeicons.EnvelopeOpenTextSolid
+import compose.icons.lineawesomeicons.EnvelopeSolid
+import compose.icons.lineawesomeicons.EnvelopeSquareSolid
+import compose.icons.lineawesomeicons.Envira
+import compose.icons.lineawesomeicons.EqualsSolid
+import compose.icons.lineawesomeicons.EraserSolid
+import compose.icons.lineawesomeicons.Erlang
+import compose.icons.lineawesomeicons.Ethereum
+import compose.icons.lineawesomeicons.EthernetSolid
+import compose.icons.lineawesomeicons.Etsy
+import compose.icons.lineawesomeicons.EuroSignSolid
+import compose.icons.lineawesomeicons.Evernote
+import compose.icons.lineawesomeicons.ExchangeAltSolid
+import compose.icons.lineawesomeicons.ExclamationCircleSolid
+import compose.icons.lineawesomeicons.ExclamationSolid
+import compose.icons.lineawesomeicons.ExclamationTriangleSolid
+import compose.icons.lineawesomeicons.ExpandArrowsAltSolid
+import compose.icons.lineawesomeicons.ExpandSolid
+import compose.icons.lineawesomeicons.Expeditedssl
+import compose.icons.lineawesomeicons.ExternalLinkAltSolid
+import compose.icons.lineawesomeicons.ExternalLinkSquareAltSolid
+import compose.icons.lineawesomeicons.Eye
+import compose.icons.lineawesomeicons.EyeDropperSolid
+import compose.icons.lineawesomeicons.EyeSlash
+import compose.icons.lineawesomeicons.EyeSlashSolid
+import compose.icons.lineawesomeicons.EyeSolid
+import compose.icons.lineawesomeicons.Facebook
+import compose.icons.lineawesomeicons.FacebookF
+import compose.icons.lineawesomeicons.FacebookMessenger
+import compose.icons.lineawesomeicons.FacebookSquare
+import compose.icons.lineawesomeicons.FanSolid
+import compose.icons.lineawesomeicons.FantasyFlightGames
+import compose.icons.lineawesomeicons.FastBackwardSolid
+import compose.icons.lineawesomeicons.FastForwardSolid
+import compose.icons.lineawesomeicons.FaxSolid
+import compose.icons.lineawesomeicons.FeatherAltSolid
+import compose.icons.lineawesomeicons.FeatherSolid
+import compose.icons.lineawesomeicons.Fedex
+import compose.icons.lineawesomeicons.Fedora
+import compose.icons.lineawesomeicons.FemaleSolid
+import compose.icons.lineawesomeicons.FighterJetSolid
+import compose.icons.lineawesomeicons.Figma
+import compose.icons.lineawesomeicons.File
+import compose.icons.lineawesomeicons.FileAlt
+import compose.icons.lineawesomeicons.FileAltSolid
+import compose.icons.lineawesomeicons.FileArchive
+import compose.icons.lineawesomeicons.FileArchiveSolid
+import compose.icons.lineawesomeicons.FileAudio
+import compose.icons.lineawesomeicons.FileAudioSolid
+import compose.icons.lineawesomeicons.FileCode
+import compose.icons.lineawesomeicons.FileCodeSolid
+import compose.icons.lineawesomeicons.FileContractSolid
+import compose.icons.lineawesomeicons.FileCsvSolid
+import compose.icons.lineawesomeicons.FileDownloadSolid
+import compose.icons.lineawesomeicons.FileExcel
+import compose.icons.lineawesomeicons.FileExcelSolid
+import compose.icons.lineawesomeicons.FileExportSolid
+import compose.icons.lineawesomeicons.FileImage
+import compose.icons.lineawesomeicons.FileImageSolid
+import compose.icons.lineawesomeicons.FileImportSolid
+import compose.icons.lineawesomeicons.FileInvoiceDollarSolid
+import compose.icons.lineawesomeicons.FileInvoiceSolid
+import compose.icons.lineawesomeicons.FileMedicalAltSolid
+import compose.icons.lineawesomeicons.FileMedicalSolid
+import compose.icons.lineawesomeicons.FilePdf
+import compose.icons.lineawesomeicons.FilePdfSolid
+import compose.icons.lineawesomeicons.FilePowerpoint
+import compose.icons.lineawesomeicons.FilePowerpointSolid
+import compose.icons.lineawesomeicons.FilePrescriptionSolid
+import compose.icons.lineawesomeicons.FileSignatureSolid
+import compose.icons.lineawesomeicons.FileSolid
+import compose.icons.lineawesomeicons.FileUploadSolid
+import compose.icons.lineawesomeicons.FileVideo
+import compose.icons.lineawesomeicons.FileVideoSolid
+import compose.icons.lineawesomeicons.FileWord
+import compose.icons.lineawesomeicons.FileWordSolid
+import compose.icons.lineawesomeicons.FillDripSolid
+import compose.icons.lineawesomeicons.FillSolid
+import compose.icons.lineawesomeicons.FilmSolid
+import compose.icons.lineawesomeicons.FilterSolid
+import compose.icons.lineawesomeicons.FingerprintSolid
+import compose.icons.lineawesomeicons.FireAltSolid
+import compose.icons.lineawesomeicons.FireExtinguisherSolid
+import compose.icons.lineawesomeicons.FireSolid
+import compose.icons.lineawesomeicons.Firefox
+import compose.icons.lineawesomeicons.FirstAidSolid
+import compose.icons.lineawesomeicons.FirstOrder
+import compose.icons.lineawesomeicons.FirstOrderAlt
+import compose.icons.lineawesomeicons.Firstdraft
+import compose.icons.lineawesomeicons.FishSolid
+import compose.icons.lineawesomeicons.FistRaisedSolid
+import compose.icons.lineawesomeicons.Flag
+import compose.icons.lineawesomeicons.FlagCheckeredSolid
+import compose.icons.lineawesomeicons.FlagSolid
+import compose.icons.lineawesomeicons.FlagUsaSolid
+import compose.icons.lineawesomeicons.FlaskSolid
+import compose.icons.lineawesomeicons.Flickr
+import compose.icons.lineawesomeicons.Flipboard
+import compose.icons.lineawesomeicons.Flushed
+import compose.icons.lineawesomeicons.FlushedSolid
+import compose.icons.lineawesomeicons.Fly
+import compose.icons.lineawesomeicons.Folder
+import compose.icons.lineawesomeicons.FolderMinusSolid
+import compose.icons.lineawesomeicons.FolderOpen
+import compose.icons.lineawesomeicons.FolderOpenSolid
+import compose.icons.lineawesomeicons.FolderPlusSolid
+import compose.icons.lineawesomeicons.FolderSolid
+import compose.icons.lineawesomeicons.FontAwesome
+import compose.icons.lineawesomeicons.FontAwesomeAlt
+import compose.icons.lineawesomeicons.FontAwesomeFlag
+import compose.icons.lineawesomeicons.FontSolid
+import compose.icons.lineawesomeicons.Fonticons
+import compose.icons.lineawesomeicons.FonticonsFi
+import compose.icons.lineawesomeicons.FootballBallSolid
+import compose.icons.lineawesomeicons.FortAwesome
+import compose.icons.lineawesomeicons.FortAwesomeAlt
+import compose.icons.lineawesomeicons.Forumbee
+import compose.icons.lineawesomeicons.ForwardSolid
+import compose.icons.lineawesomeicons.Foursquare
+import compose.icons.lineawesomeicons.FreeCodeCamp
+import compose.icons.lineawesomeicons.Freebsd
+import compose.icons.lineawesomeicons.FrogSolid
+import compose.icons.lineawesomeicons.Frown
+import compose.icons.lineawesomeicons.FrownOpen
+import compose.icons.lineawesomeicons.FrownOpenSolid
+import compose.icons.lineawesomeicons.FrownSolid
+import compose.icons.lineawesomeicons.Fulcrum
+import compose.icons.lineawesomeicons.FunnelDollarSolid
+import compose.icons.lineawesomeicons.Futbol
+import compose.icons.lineawesomeicons.FutbolSolid
+import compose.icons.lineawesomeicons.GalacticRepublic
+import compose.icons.lineawesomeicons.GalacticSenate
+import compose.icons.lineawesomeicons.GamepadSolid
+import compose.icons.lineawesomeicons.GasPumpSolid
+import compose.icons.lineawesomeicons.GavelSolid
+import compose.icons.lineawesomeicons.Gem
+import compose.icons.lineawesomeicons.GemSolid
+import compose.icons.lineawesomeicons.GenderlessSolid
+import compose.icons.lineawesomeicons.GetPocket
+import compose.icons.lineawesomeicons.Gg
+import compose.icons.lineawesomeicons.GgCircle
+import compose.icons.lineawesomeicons.GhostSolid
+import compose.icons.lineawesomeicons.GiftSolid
+import compose.icons.lineawesomeicons.GiftsSolid
+import compose.icons.lineawesomeicons.Git
+import compose.icons.lineawesomeicons.GitAlt
+import compose.icons.lineawesomeicons.GitSquare
+import compose.icons.lineawesomeicons.Github
+import compose.icons.lineawesomeicons.GithubAlt
+import compose.icons.lineawesomeicons.GithubSquare
+import compose.icons.lineawesomeicons.Gitkraken
+import compose.icons.lineawesomeicons.Gitlab
+import compose.icons.lineawesomeicons.Gitter
+import compose.icons.lineawesomeicons.GlassCheersSolid
+import compose.icons.lineawesomeicons.GlassMartiniAltSolid
+import compose.icons.lineawesomeicons.GlassMartiniSolid
+import compose.icons.lineawesomeicons.GlassWhiskeySolid
+import compose.icons.lineawesomeicons.GlassesSolid
+import compose.icons.lineawesomeicons.Glide
+import compose.icons.lineawesomeicons.GlideG
+import compose.icons.lineawesomeicons.GlobeAfricaSolid
+import compose.icons.lineawesomeicons.GlobeAmericasSolid
+import compose.icons.lineawesomeicons.GlobeAsiaSolid
+import compose.icons.lineawesomeicons.GlobeEuropeSolid
+import compose.icons.lineawesomeicons.GlobeSolid
+import compose.icons.lineawesomeicons.Gofore
+import compose.icons.lineawesomeicons.GolfBallSolid
+import compose.icons.lineawesomeicons.Goodreads
+import compose.icons.lineawesomeicons.GoodreadsG
+import compose.icons.lineawesomeicons.Google
+import compose.icons.lineawesomeicons.GoogleDrive
+import compose.icons.lineawesomeicons.GooglePlay
+import compose.icons.lineawesomeicons.GooglePlus
+import compose.icons.lineawesomeicons.GooglePlusG
+import compose.icons.lineawesomeicons.GooglePlusSquare
+import compose.icons.lineawesomeicons.GoogleWallet
+import compose.icons.lineawesomeicons.GopuramSolid
+import compose.icons.lineawesomeicons.GraduationCapSolid
+import compose.icons.lineawesomeicons.Gratipay
+import compose.icons.lineawesomeicons.Grav
+import compose.icons.lineawesomeicons.GreaterThanEqualSolid
+import compose.icons.lineawesomeicons.GreaterThanSolid
+import compose.icons.lineawesomeicons.Grimace
+import compose.icons.lineawesomeicons.GrimaceSolid
+import compose.icons.lineawesomeicons.Grin
+import compose.icons.lineawesomeicons.GrinAlt
+import compose.icons.lineawesomeicons.GrinAltSolid
+import compose.icons.lineawesomeicons.GrinBeam
+import compose.icons.lineawesomeicons.GrinBeamSolid
+import compose.icons.lineawesomeicons.GrinBeamSweat
+import compose.icons.lineawesomeicons.GrinBeamSweatSolid
+import compose.icons.lineawesomeicons.GrinHearts
+import compose.icons.lineawesomeicons.GrinHeartsSolid
+import compose.icons.lineawesomeicons.GrinSolid
+import compose.icons.lineawesomeicons.GrinSquint
+import compose.icons.lineawesomeicons.GrinSquintSolid
+import compose.icons.lineawesomeicons.GrinSquintTears
+import compose.icons.lineawesomeicons.GrinSquintTearsSolid
+import compose.icons.lineawesomeicons.GrinStars
+import compose.icons.lineawesomeicons.GrinStarsSolid
+import compose.icons.lineawesomeicons.GrinTears
+import compose.icons.lineawesomeicons.GrinTearsSolid
+import compose.icons.lineawesomeicons.GrinTongue
+import compose.icons.lineawesomeicons.GrinTongueSolid
+import compose.icons.lineawesomeicons.GrinTongueSquint
+import compose.icons.lineawesomeicons.GrinTongueSquintSolid
+import compose.icons.lineawesomeicons.GrinTongueWink
+import compose.icons.lineawesomeicons.GrinTongueWinkSolid
+import compose.icons.lineawesomeicons.GrinWink
+import compose.icons.lineawesomeicons.GrinWinkSolid
+import compose.icons.lineawesomeicons.GripHorizontalSolid
+import compose.icons.lineawesomeicons.GripLinesSolid
+import compose.icons.lineawesomeicons.GripLinesVerticalSolid
+import compose.icons.lineawesomeicons.GripVerticalSolid
+import compose.icons.lineawesomeicons.Gripfire
+import compose.icons.lineawesomeicons.Grunt
+import compose.icons.lineawesomeicons.GuitarSolid
+import compose.icons.lineawesomeicons.Gulp
+import compose.icons.lineawesomeicons.HSquareSolid
+import compose.icons.lineawesomeicons.HackerNews
+import compose.icons.lineawesomeicons.HackerNewsSquare
+import compose.icons.lineawesomeicons.Hackerrank
+import compose.icons.lineawesomeicons.HamburgerSolid
+import compose.icons.lineawesomeicons.HammerSolid
+import compose.icons.lineawesomeicons.HamsaSolid
+import compose.icons.lineawesomeicons.HandHoldingHeartSolid
+import compose.icons.lineawesomeicons.HandHoldingSolid
+import compose.icons.lineawesomeicons.HandHoldingUsdSolid
+import compose.icons.lineawesomeicons.HandLizard
+import compose.icons.lineawesomeicons.HandLizardSolid
+import compose.icons.lineawesomeicons.HandMiddleFingerSolid
+import compose.icons.lineawesomeicons.HandPaper
+import compose.icons.lineawesomeicons.HandPaperSolid
+import compose.icons.lineawesomeicons.HandPeace
+import compose.icons.lineawesomeicons.HandPeaceSolid
+import compose.icons.lineawesomeicons.HandPointDown
+import compose.icons.lineawesomeicons.HandPointDownSolid
+import compose.icons.lineawesomeicons.HandPointLeft
+import compose.icons.lineawesomeicons.HandPointLeftSolid
+import compose.icons.lineawesomeicons.HandPointRight
+import compose.icons.lineawesomeicons.HandPointRightSolid
+import compose.icons.lineawesomeicons.HandPointUp
+import compose.icons.lineawesomeicons.HandPointUpSolid
+import compose.icons.lineawesomeicons.HandPointer
+import compose.icons.lineawesomeicons.HandPointerSolid
+import compose.icons.lineawesomeicons.HandRock
+import compose.icons.lineawesomeicons.HandRockSolid
+import compose.icons.lineawesomeicons.HandScissors
+import compose.icons.lineawesomeicons.HandScissorsSolid
+import compose.icons.lineawesomeicons.HandSpock
+import compose.icons.lineawesomeicons.HandSpockSolid
+import compose.icons.lineawesomeicons.HandsHelpingSolid
+import compose.icons.lineawesomeicons.HandsSolid
+import compose.icons.lineawesomeicons.Handshake
+import compose.icons.lineawesomeicons.HandshakeSolid
+import compose.icons.lineawesomeicons.HanukiahSolid
+import compose.icons.lineawesomeicons.HardHatSolid
+import compose.icons.lineawesomeicons.HashtagSolid
+import compose.icons.lineawesomeicons.HatCowboySideSolid
+import compose.icons.lineawesomeicons.HatCowboySolid
+import compose.icons.lineawesomeicons.HatWizardSolid
+import compose.icons.lineawesomeicons.HaykalSolid
+import compose.icons.lineawesomeicons.Hdd
+import compose.icons.lineawesomeicons.HddSolid
+import compose.icons.lineawesomeicons.HeadingSolid
+import compose.icons.lineawesomeicons.HeadphonesAltSolid
+import compose.icons.lineawesomeicons.HeadphonesSolid
+import compose.icons.lineawesomeicons.HeadsetSolid
+import compose.icons.lineawesomeicons.Heart
+import compose.icons.lineawesomeicons.HeartBrokenSolid
+import compose.icons.lineawesomeicons.HeartSolid
+import compose.icons.lineawesomeicons.HeartbeatSolid
+import compose.icons.lineawesomeicons.HelicopterSolid
+import compose.icons.lineawesomeicons.HighlighterSolid
+import compose.icons.lineawesomeicons.HikingSolid
+import compose.icons.lineawesomeicons.HippoSolid
+import compose.icons.lineawesomeicons.Hips
+import compose.icons.lineawesomeicons.HireAHelper
+import compose.icons.lineawesomeicons.HistorySolid
+import compose.icons.lineawesomeicons.HockeyPuckSolid
+import compose.icons.lineawesomeicons.HollyBerrySolid
+import compose.icons.lineawesomeicons.HomeSolid
+import compose.icons.lineawesomeicons.Hooli
+import compose.icons.lineawesomeicons.Hornbill
+import compose.icons.lineawesomeicons.HorseHeadSolid
+import compose.icons.lineawesomeicons.HorseSolid
+import compose.icons.lineawesomeicons.Hospital
+import compose.icons.lineawesomeicons.HospitalAltSolid
+import compose.icons.lineawesomeicons.HospitalSolid
+import compose.icons.lineawesomeicons.HospitalSymbolSolid
+import compose.icons.lineawesomeicons.HotTubSolid
+import compose.icons.lineawesomeicons.HotdogSolid
+import compose.icons.lineawesomeicons.HotelSolid
+import compose.icons.lineawesomeicons.Hotjar
+import compose.icons.lineawesomeicons.Hourglass
+import compose.icons.lineawesomeicons.HourglassEndSolid
+import compose.icons.lineawesomeicons.HourglassHalfSolid
+import compose.icons.lineawesomeicons.HourglassSolid
+import compose.icons.lineawesomeicons.HourglassStartSolid
+import compose.icons.lineawesomeicons.HouseDamageSolid
+import compose.icons.lineawesomeicons.Houzz
+import compose.icons.lineawesomeicons.HryvniaSolid
+import compose.icons.lineawesomeicons.Html5
+import compose.icons.lineawesomeicons.Hubspot
+import compose.icons.lineawesomeicons.ICursorSolid
+import compose.icons.lineawesomeicons.IceCreamSolid
+import compose.icons.lineawesomeicons.IciclesSolid
+import compose.icons.lineawesomeicons.IconsSolid
+import compose.icons.lineawesomeicons.IdBadge
+import compose.icons.lineawesomeicons.IdBadgeSolid
+import compose.icons.lineawesomeicons.IdCard
+import compose.icons.lineawesomeicons.IdCardAltSolid
+import compose.icons.lineawesomeicons.IdCardSolid
+import compose.icons.lineawesomeicons.IglooSolid
+import compose.icons.lineawesomeicons.Image
+import compose.icons.lineawesomeicons.ImageSolid
+import compose.icons.lineawesomeicons.Images
+import compose.icons.lineawesomeicons.ImagesSolid
+import compose.icons.lineawesomeicons.Imdb
+import compose.icons.lineawesomeicons.InboxSolid
+import compose.icons.lineawesomeicons.IndentSolid
+import compose.icons.lineawesomeicons.IndustrySolid
+import compose.icons.lineawesomeicons.InfinitySolid
+import compose.icons.lineawesomeicons.InfoCircleSolid
+import compose.icons.lineawesomeicons.InfoSolid
+import compose.icons.lineawesomeicons.Instagram
+import compose.icons.lineawesomeicons.Intercom
+import compose.icons.lineawesomeicons.InternetExplorer
+import compose.icons.lineawesomeicons.Invision
+import compose.icons.lineawesomeicons.Ioxhost
+import compose.icons.lineawesomeicons.ItalicSolid
+import compose.icons.lineawesomeicons.ItchIo
+import compose.icons.lineawesomeicons.Itunes
+import compose.icons.lineawesomeicons.ItunesNote
+import compose.icons.lineawesomeicons.Java
+import compose.icons.lineawesomeicons.JediOrder
+import compose.icons.lineawesomeicons.JediSolid
+import compose.icons.lineawesomeicons.Jenkins
+import compose.icons.lineawesomeicons.Jira
+import compose.icons.lineawesomeicons.Joget
+import compose.icons.lineawesomeicons.JointSolid
+import compose.icons.lineawesomeicons.Joomla
+import compose.icons.lineawesomeicons.JournalWhillsSolid
+import compose.icons.lineawesomeicons.Js
+import compose.icons.lineawesomeicons.JsSquare
+import compose.icons.lineawesomeicons.Jsfiddle
+import compose.icons.lineawesomeicons.KaabaSolid
+import compose.icons.lineawesomeicons.Kaggle
+import compose.icons.lineawesomeicons.KeySolid
+import compose.icons.lineawesomeicons.Keybase
+import compose.icons.lineawesomeicons.Keyboard
+import compose.icons.lineawesomeicons.KeyboardSolid
+import compose.icons.lineawesomeicons.Keycdn
+import compose.icons.lineawesomeicons.KhandaSolid
+import compose.icons.lineawesomeicons.Kickstarter
+import compose.icons.lineawesomeicons.KickstarterK
+import compose.icons.lineawesomeicons.Kiss
+import compose.icons.lineawesomeicons.KissBeam
+import compose.icons.lineawesomeicons.KissBeamSolid
+import compose.icons.lineawesomeicons.KissSolid
+import compose.icons.lineawesomeicons.KissWinkHeart
+import compose.icons.lineawesomeicons.KissWinkHeartSolid
+import compose.icons.lineawesomeicons.KiwiBirdSolid
+import compose.icons.lineawesomeicons.Korvue
+import compose.icons.lineawesomeicons.LandmarkSolid
+import compose.icons.lineawesomeicons.LanguageSolid
+import compose.icons.lineawesomeicons.LaptopCodeSolid
+import compose.icons.lineawesomeicons.LaptopMedicalSolid
+import compose.icons.lineawesomeicons.LaptopSolid
+import compose.icons.lineawesomeicons.Laravel
+import compose.icons.lineawesomeicons.Lastfm
+import compose.icons.lineawesomeicons.LastfmSquare
+import compose.icons.lineawesomeicons.Laugh
+import compose.icons.lineawesomeicons.LaughBeam
+import compose.icons.lineawesomeicons.LaughBeamSolid
+import compose.icons.lineawesomeicons.LaughSolid
+import compose.icons.lineawesomeicons.LaughSquint
+import compose.icons.lineawesomeicons.LaughSquintSolid
+import compose.icons.lineawesomeicons.LaughWink
+import compose.icons.lineawesomeicons.LaughWinkSolid
+import compose.icons.lineawesomeicons.LayerGroupSolid
+import compose.icons.lineawesomeicons.LeafSolid
+import compose.icons.lineawesomeicons.Leanpub
+import compose.icons.lineawesomeicons.Lemon
+import compose.icons.lineawesomeicons.LemonSolid
+import compose.icons.lineawesomeicons.Less
+import compose.icons.lineawesomeicons.LessThanEqualSolid
+import compose.icons.lineawesomeicons.LessThanSolid
+import compose.icons.lineawesomeicons.LevelDownAltSolid
+import compose.icons.lineawesomeicons.LevelUpAltSolid
+import compose.icons.lineawesomeicons.LifeRing
+import compose.icons.lineawesomeicons.LifeRingSolid
+import compose.icons.lineawesomeicons.Lightbulb
+import compose.icons.lineawesomeicons.LightbulbSolid
+import compose.icons.lineawesomeicons.Line
+import compose.icons.lineawesomeicons.LinkSolid
+import compose.icons.lineawesomeicons.Linkedin
+import compose.icons.lineawesomeicons.LinkedinIn
+import compose.icons.lineawesomeicons.Linode
+import compose.icons.lineawesomeicons.Linux
+import compose.icons.lineawesomeicons.LiraSignSolid
+import compose.icons.lineawesomeicons.ListAlt
+import compose.icons.lineawesomeicons.ListAltSolid
+import compose.icons.lineawesomeicons.ListOlSolid
+import compose.icons.lineawesomeicons.ListSolid
+import compose.icons.lineawesomeicons.ListUlSolid
+import compose.icons.lineawesomeicons.LocationArrowSolid
+import compose.icons.lineawesomeicons.LockOpenSolid
+import compose.icons.lineawesomeicons.LockSolid
+import compose.icons.lineawesomeicons.LongArrowAltDownSolid
+import compose.icons.lineawesomeicons.LongArrowAltLeftSolid
+import compose.icons.lineawesomeicons.LongArrowAltRightSolid
+import compose.icons.lineawesomeicons.LongArrowAltUpSolid
+import compose.icons.lineawesomeicons.LowVisionSolid
+import compose.icons.lineawesomeicons.LuggageCartSolid
+import compose.icons.lineawesomeicons.Lyft
+import compose.icons.lineawesomeicons.Magento
+import compose.icons.lineawesomeicons.MagicSolid
+import compose.icons.lineawesomeicons.MagnetSolid
+import compose.icons.lineawesomeicons.MailBulkSolid
+import compose.icons.lineawesomeicons.Mailchimp
+import compose.icons.lineawesomeicons.MaleSolid
+import compose.icons.lineawesomeicons.Mandalorian
+import compose.icons.lineawesomeicons.Map
+import compose.icons.lineawesomeicons.MapMarkedAltSolid
+import compose.icons.lineawesomeicons.MapMarkedSolid
+import compose.icons.lineawesomeicons.MapMarkerAltSolid
+import compose.icons.lineawesomeicons.MapMarkerSolid
+import compose.icons.lineawesomeicons.MapPinSolid
+import compose.icons.lineawesomeicons.MapSignsSolid
+import compose.icons.lineawesomeicons.MapSolid
+import compose.icons.lineawesomeicons.Markdown
+import compose.icons.lineawesomeicons.MarkerSolid
+import compose.icons.lineawesomeicons.MarsDoubleSolid
+import compose.icons.lineawesomeicons.MarsSolid
+import compose.icons.lineawesomeicons.MarsStrokeHSolid
+import compose.icons.lineawesomeicons.MarsStrokeSolid
+import compose.icons.lineawesomeicons.MarsStrokeVSolid
+import compose.icons.lineawesomeicons.MaskSolid
+import compose.icons.lineawesomeicons.Mastodon
+import compose.icons.lineawesomeicons.Maxcdn
+import compose.icons.lineawesomeicons.Mdb
+import compose.icons.lineawesomeicons.MedalSolid
+import compose.icons.lineawesomeicons.Medapps
+import compose.icons.lineawesomeicons.Medium
+import compose.icons.lineawesomeicons.MediumM
+import compose.icons.lineawesomeicons.MedkitSolid
+import compose.icons.lineawesomeicons.Medrt
+import compose.icons.lineawesomeicons.Meetup
+import compose.icons.lineawesomeicons.Megaport
+import compose.icons.lineawesomeicons.Meh
+import compose.icons.lineawesomeicons.MehBlank
+import compose.icons.lineawesomeicons.MehBlankSolid
+import compose.icons.lineawesomeicons.MehRollingEyes
+import compose.icons.lineawesomeicons.MehRollingEyesSolid
+import compose.icons.lineawesomeicons.MehSolid
+import compose.icons.lineawesomeicons.MemorySolid
+import compose.icons.lineawesomeicons.Mendeley
+import compose.icons.lineawesomeicons.MenorahSolid
+import compose.icons.lineawesomeicons.MercurySolid
+import compose.icons.lineawesomeicons.MeteorSolid
+import compose.icons.lineawesomeicons.MicrochipSolid
+import compose.icons.lineawesomeicons.MicrophoneAltSlashSolid
+import compose.icons.lineawesomeicons.MicrophoneAltSolid
+import compose.icons.lineawesomeicons.MicrophoneSlashSolid
+import compose.icons.lineawesomeicons.MicrophoneSolid
+import compose.icons.lineawesomeicons.MicroscopeSolid
+import compose.icons.lineawesomeicons.Microsoft
+import compose.icons.lineawesomeicons.MinusCircleSolid
+import compose.icons.lineawesomeicons.MinusSolid
+import compose.icons.lineawesomeicons.MinusSquare
+import compose.icons.lineawesomeicons.MinusSquareSolid
+import compose.icons.lineawesomeicons.MittenSolid
+import compose.icons.lineawesomeicons.Mix
+import compose.icons.lineawesomeicons.Mixcloud
+import compose.icons.lineawesomeicons.Mizuni
+import compose.icons.lineawesomeicons.MobileAltSolid
+import compose.icons.lineawesomeicons.MobileSolid
+import compose.icons.lineawesomeicons.Modx
+import compose.icons.lineawesomeicons.Monero
+import compose.icons.lineawesomeicons.MoneyBillAlt
+import compose.icons.lineawesomeicons.MoneyBillAltSolid
+import compose.icons.lineawesomeicons.MoneyBillSolid
+import compose.icons.lineawesomeicons.MoneyBillWaveAltSolid
+import compose.icons.lineawesomeicons.MoneyBillWaveSolid
+import compose.icons.lineawesomeicons.MoneyCheckAltSolid
+import compose.icons.lineawesomeicons.MoneyCheckSolid
+import compose.icons.lineawesomeicons.MonumentSolid
+import compose.icons.lineawesomeicons.Moon
+import compose.icons.lineawesomeicons.MoonSolid
+import compose.icons.lineawesomeicons.MortarPestleSolid
+import compose.icons.lineawesomeicons.MosqueSolid
+import compose.icons.lineawesomeicons.MotorcycleSolid
+import compose.icons.lineawesomeicons.MountainSolid
+import compose.icons.lineawesomeicons.MousePointerSolid
+import compose.icons.lineawesomeicons.MouseSolid
+import compose.icons.lineawesomeicons.MugHotSolid
+import compose.icons.lineawesomeicons.MusicSolid
+import compose.icons.lineawesomeicons.Napster
+import compose.icons.lineawesomeicons.Neos
+import compose.icons.lineawesomeicons.NetworkWiredSolid
+import compose.icons.lineawesomeicons.NeuterSolid
+import compose.icons.lineawesomeicons.Newspaper
+import compose.icons.lineawesomeicons.NewspaperSolid
+import compose.icons.lineawesomeicons.Nimblr
+import compose.icons.lineawesomeicons.Node
+import compose.icons.lineawesomeicons.NodeJs
+import compose.icons.lineawesomeicons.NotEqualSolid
+import compose.icons.lineawesomeicons.NotesMedicalSolid
+import compose.icons.lineawesomeicons.Npm
+import compose.icons.lineawesomeicons.Ns8
+import compose.icons.lineawesomeicons.Nutritionix
+import compose.icons.lineawesomeicons.ObjectGroup
+import compose.icons.lineawesomeicons.ObjectGroupSolid
+import compose.icons.lineawesomeicons.ObjectUngroup
+import compose.icons.lineawesomeicons.ObjectUngroupSolid
+import compose.icons.lineawesomeicons.Odnoklassniki
+import compose.icons.lineawesomeicons.OdnoklassnikiSquare
+import compose.icons.lineawesomeicons.OilCanSolid
+import compose.icons.lineawesomeicons.OldRepublic
+import compose.icons.lineawesomeicons.OmSolid
+import compose.icons.lineawesomeicons.Opencart
+import compose.icons.lineawesomeicons.Openid
+import compose.icons.lineawesomeicons.Opera
+import compose.icons.lineawesomeicons.OptinMonster
+import compose.icons.lineawesomeicons.Orcid
+import compose.icons.lineawesomeicons.Osi
+import compose.icons.lineawesomeicons.OtterSolid
+import compose.icons.lineawesomeicons.OutdentSolid
+import compose.icons.lineawesomeicons.Page4
+import compose.icons.lineawesomeicons.Pagelines
+import compose.icons.lineawesomeicons.PagerSolid
+import compose.icons.lineawesomeicons.PaintBrushSolid
+import compose.icons.lineawesomeicons.PaintRollerSolid
+import compose.icons.lineawesomeicons.PaletteSolid
+import compose.icons.lineawesomeicons.Palfed
+import compose.icons.lineawesomeicons.PalletSolid
+import compose.icons.lineawesomeicons.PaperPlane
+import compose.icons.lineawesomeicons.PaperPlaneSolid
+import compose.icons.lineawesomeicons.PaperclipSolid
+import compose.icons.lineawesomeicons.ParachuteBoxSolid
+import compose.icons.lineawesomeicons.ParagraphSolid
+import compose.icons.lineawesomeicons.ParkingSolid
+import compose.icons.lineawesomeicons.PassportSolid
+import compose.icons.lineawesomeicons.PastafarianismSolid
+import compose.icons.lineawesomeicons.PasteSolid
+import compose.icons.lineawesomeicons.Patreon
+import compose.icons.lineawesomeicons.PauseCircle
+import compose.icons.lineawesomeicons.PauseCircleSolid
+import compose.icons.lineawesomeicons.PauseSolid
+import compose.icons.lineawesomeicons.PawSolid
+import compose.icons.lineawesomeicons.Paypal
+import compose.icons.lineawesomeicons.PeaceSolid
+import compose.icons.lineawesomeicons.PenAltSolid
+import compose.icons.lineawesomeicons.PenFancySolid
+import compose.icons.lineawesomeicons.PenNibSolid
+import compose.icons.lineawesomeicons.PenSolid
+import compose.icons.lineawesomeicons.PenSquareSolid
+import compose.icons.lineawesomeicons.PencilAltSolid
+import compose.icons.lineawesomeicons.PencilRulerSolid
+import compose.icons.lineawesomeicons.PennyArcade
+import compose.icons.lineawesomeicons.PeopleCarrySolid
+import compose.icons.lineawesomeicons.PepperHotSolid
+import compose.icons.lineawesomeicons.PercentSolid
+import compose.icons.lineawesomeicons.PercentageSolid
+import compose.icons.lineawesomeicons.Periscope
+import compose.icons.lineawesomeicons.PersonBoothSolid
+import compose.icons.lineawesomeicons.Phabricator
+import compose.icons.lineawesomeicons.PhoenixFramework
+import compose.icons.lineawesomeicons.PhoenixSquadron
+import compose.icons.lineawesomeicons.PhoneAltSolid
+import compose.icons.lineawesomeicons.PhoneSlashSolid
+import compose.icons.lineawesomeicons.PhoneSolid
+import compose.icons.lineawesomeicons.PhoneSquareAltSolid
+import compose.icons.lineawesomeicons.PhoneSquareSolid
+import compose.icons.lineawesomeicons.PhoneVolumeSolid
+import compose.icons.lineawesomeicons.PhotoVideoSolid
+import compose.icons.lineawesomeicons.Php
+import compose.icons.lineawesomeicons.PiedPiper
+import compose.icons.lineawesomeicons.PiedPiperAlt
+import compose.icons.lineawesomeicons.PiedPiperHat
+import compose.icons.lineawesomeicons.PiedPiperPp
+import compose.icons.lineawesomeicons.PiggyBankSolid
+import compose.icons.lineawesomeicons.PillsSolid
+import compose.icons.lineawesomeicons.Pinterest
+import compose.icons.lineawesomeicons.PinterestP
+import compose.icons.lineawesomeicons.PinterestSquare
+import compose.icons.lineawesomeicons.PizzaSliceSolid
+import compose.icons.lineawesomeicons.PlaceOfWorshipSolid
+import compose.icons.lineawesomeicons.PlaneArrivalSolid
+import compose.icons.lineawesomeicons.PlaneDepartureSolid
+import compose.icons.lineawesomeicons.PlaneSolid
+import compose.icons.lineawesomeicons.PlayCircle
+import compose.icons.lineawesomeicons.PlayCircleSolid
+import compose.icons.lineawesomeicons.PlaySolid
+import compose.icons.lineawesomeicons.Playstation
+import compose.icons.lineawesomeicons.PlugSolid
+import compose.icons.lineawesomeicons.PlusCircleSolid
+import compose.icons.lineawesomeicons.PlusSolid
+import compose.icons.lineawesomeicons.PlusSquare
+import compose.icons.lineawesomeicons.PlusSquareSolid
+import compose.icons.lineawesomeicons.PodcastSolid
+import compose.icons.lineawesomeicons.PollHSolid
+import compose.icons.lineawesomeicons.PollSolid
+import compose.icons.lineawesomeicons.PooSolid
+import compose.icons.lineawesomeicons.PooStormSolid
+import compose.icons.lineawesomeicons.PoopSolid
+import compose.icons.lineawesomeicons.PortraitSolid
+import compose.icons.lineawesomeicons.PoundSignSolid
+import compose.icons.lineawesomeicons.PowerOffSolid
+import compose.icons.lineawesomeicons.PraySolid
+import compose.icons.lineawesomeicons.PrayingHandsSolid
+import compose.icons.lineawesomeicons.PrescriptionBottleAltSolid
+import compose.icons.lineawesomeicons.PrescriptionBottleSolid
+import compose.icons.lineawesomeicons.PrescriptionSolid
+import compose.icons.lineawesomeicons.PrintSolid
+import compose.icons.lineawesomeicons.ProceduresSolid
+import compose.icons.lineawesomeicons.ProductHunt
+import compose.icons.lineawesomeicons.ProjectDiagramSolid
+import compose.icons.lineawesomeicons.Pushed
+import compose.icons.lineawesomeicons.PuzzlePieceSolid
+import compose.icons.lineawesomeicons.Python
+import compose.icons.lineawesomeicons.Qq
+import compose.icons.lineawesomeicons.QrcodeSolid
+import compose.icons.lineawesomeicons.QuestionCircle
+import compose.icons.lineawesomeicons.QuestionCircleSolid
+import compose.icons.lineawesomeicons.QuestionSolid
+import compose.icons.lineawesomeicons.QuidditchSolid
+import compose.icons.lineawesomeicons.Quinscape
+import compose.icons.lineawesomeicons.Quora
+import compose.icons.lineawesomeicons.QuoteLeftSolid
+import compose.icons.lineawesomeicons.QuoteRightSolid
+import compose.icons.lineawesomeicons.QuranSolid
+import compose.icons.lineawesomeicons.RProject
+import compose.icons.lineawesomeicons.RadiationAltSolid
+import compose.icons.lineawesomeicons.RadiationSolid
+import compose.icons.lineawesomeicons.RainbowSolid
+import compose.icons.lineawesomeicons.RandomSolid
+import compose.icons.lineawesomeicons.RaspberryPi
+import compose.icons.lineawesomeicons.Ravelry
+import compose.icons.lineawesomeicons.React
+import compose.icons.lineawesomeicons.Reacteurope
+import compose.icons.lineawesomeicons.Readme
+import compose.icons.lineawesomeicons.Rebel
+import compose.icons.lineawesomeicons.ReceiptSolid
+import compose.icons.lineawesomeicons.RecordVinylSolid
+import compose.icons.lineawesomeicons.RecycleSolid
+import compose.icons.lineawesomeicons.RedRiver
+import compose.icons.lineawesomeicons.Reddit
+import compose.icons.lineawesomeicons.RedditAlien
+import compose.icons.lineawesomeicons.RedditSquare
+import compose.icons.lineawesomeicons.Redhat
+import compose.icons.lineawesomeicons.RedoAltSolid
+import compose.icons.lineawesomeicons.RedoSolid
+import compose.icons.lineawesomeicons.Registered
+import compose.icons.lineawesomeicons.RegisteredSolid
+import compose.icons.lineawesomeicons.RemoveFormatSolid
+import compose.icons.lineawesomeicons.Renren
+import compose.icons.lineawesomeicons.ReplyAllSolid
+import compose.icons.lineawesomeicons.ReplySolid
+import compose.icons.lineawesomeicons.Replyd
+import compose.icons.lineawesomeicons.RepublicanSolid
+import compose.icons.lineawesomeicons.Researchgate
+import compose.icons.lineawesomeicons.Resolving
+import compose.icons.lineawesomeicons.RestroomSolid
+import compose.icons.lineawesomeicons.RetweetSolid
+import compose.icons.lineawesomeicons.Rev
+import compose.icons.lineawesomeicons.RibbonSolid
+import compose.icons.lineawesomeicons.RingSolid
+import compose.icons.lineawesomeicons.RoadSolid
+import compose.icons.lineawesomeicons.RobotSolid
+import compose.icons.lineawesomeicons.RocketSolid
+import compose.icons.lineawesomeicons.Rocketchat
+import compose.icons.lineawesomeicons.Rockrms
+import compose.icons.lineawesomeicons.RouteSolid
+import compose.icons.lineawesomeicons.RssSolid
+import compose.icons.lineawesomeicons.RssSquareSolid
+import compose.icons.lineawesomeicons.RubleSignSolid
+import compose.icons.lineawesomeicons.RulerCombinedSolid
+import compose.icons.lineawesomeicons.RulerHorizontalSolid
+import compose.icons.lineawesomeicons.RulerSolid
+import compose.icons.lineawesomeicons.RulerVerticalSolid
+import compose.icons.lineawesomeicons.RunningSolid
+import compose.icons.lineawesomeicons.RupeeSignSolid
+import compose.icons.lineawesomeicons.SadCry
+import compose.icons.lineawesomeicons.SadCrySolid
+import compose.icons.lineawesomeicons.SadTear
+import compose.icons.lineawesomeicons.SadTearSolid
+import compose.icons.lineawesomeicons.Safari
+import compose.icons.lineawesomeicons.Salesforce
+import compose.icons.lineawesomeicons.Sass
+import compose.icons.lineawesomeicons.SatelliteDishSolid
+import compose.icons.lineawesomeicons.SatelliteSolid
+import compose.icons.lineawesomeicons.Save
+import compose.icons.lineawesomeicons.SaveSolid
+import compose.icons.lineawesomeicons.Schlix
+import compose.icons.lineawesomeicons.SchoolSolid
+import compose.icons.lineawesomeicons.ScrewdriverSolid
+import compose.icons.lineawesomeicons.Scribd
+import compose.icons.lineawesomeicons.ScrollSolid
+import compose.icons.lineawesomeicons.SdCardSolid
+import compose.icons.lineawesomeicons.SearchDollarSolid
+import compose.icons.lineawesomeicons.SearchLocationSolid
+import compose.icons.lineawesomeicons.SearchMinusSolid
+import compose.icons.lineawesomeicons.SearchPlusSolid
+import compose.icons.lineawesomeicons.SearchSolid
+import compose.icons.lineawesomeicons.Searchengin
+import compose.icons.lineawesomeicons.SeedlingSolid
+import compose.icons.lineawesomeicons.Sellcast
+import compose.icons.lineawesomeicons.Sellsy
+import compose.icons.lineawesomeicons.ServerSolid
+import compose.icons.lineawesomeicons.Servicestack
+import compose.icons.lineawesomeicons.ShapesSolid
+import compose.icons.lineawesomeicons.ShareAltSolid
+import compose.icons.lineawesomeicons.ShareAltSquareSolid
+import compose.icons.lineawesomeicons.ShareSolid
+import compose.icons.lineawesomeicons.ShareSquare
+import compose.icons.lineawesomeicons.ShareSquareSolid
+import compose.icons.lineawesomeicons.ShekelSignSolid
+import compose.icons.lineawesomeicons.ShieldAltSolid
+import compose.icons.lineawesomeicons.ShipSolid
+import compose.icons.lineawesomeicons.ShippingFastSolid
+import compose.icons.lineawesomeicons.Shirtsinbulk
+import compose.icons.lineawesomeicons.ShoePrintsSolid
+import compose.icons.lineawesomeicons.ShoppingBagSolid
+import compose.icons.lineawesomeicons.ShoppingBasketSolid
+import compose.icons.lineawesomeicons.ShoppingCartSolid
+import compose.icons.lineawesomeicons.Shopware
+import compose.icons.lineawesomeicons.ShowerSolid
+import compose.icons.lineawesomeicons.ShuttleVanSolid
+import compose.icons.lineawesomeicons.SignInAltSolid
+import compose.icons.lineawesomeicons.SignLanguageSolid
+import compose.icons.lineawesomeicons.SignOutAltSolid
+import compose.icons.lineawesomeicons.SignSolid
+import compose.icons.lineawesomeicons.SignalSolid
+import compose.icons.lineawesomeicons.SignatureSolid
+import compose.icons.lineawesomeicons.SimCardSolid
+import compose.icons.lineawesomeicons.Simplybuilt
+import compose.icons.lineawesomeicons.Sistrix
+import compose.icons.lineawesomeicons.SitemapSolid
+import compose.icons.lineawesomeicons.Sith
+import compose.icons.lineawesomeicons.SkatingSolid
+import compose.icons.lineawesomeicons.Sketch
+import compose.icons.lineawesomeicons.SkiingNordicSolid
+import compose.icons.lineawesomeicons.SkiingSolid
+import compose.icons.lineawesomeicons.SkullCrossbonesSolid
+import compose.icons.lineawesomeicons.SkullSolid
+import compose.icons.lineawesomeicons.Skyatlas
+import compose.icons.lineawesomeicons.Skype
+import compose.icons.lineawesomeicons.Slack
+import compose.icons.lineawesomeicons.SlackHash
+import compose.icons.lineawesomeicons.SlashSolid
+import compose.icons.lineawesomeicons.SleighSolid
+import compose.icons.lineawesomeicons.SlidersHSolid
+import compose.icons.lineawesomeicons.Slideshare
+import compose.icons.lineawesomeicons.Smile
+import compose.icons.lineawesomeicons.SmileBeam
+import compose.icons.lineawesomeicons.SmileBeamSolid
+import compose.icons.lineawesomeicons.SmileSolid
+import compose.icons.lineawesomeicons.SmileWink
+import compose.icons.lineawesomeicons.SmileWinkSolid
+import compose.icons.lineawesomeicons.SmogSolid
+import compose.icons.lineawesomeicons.SmokingBanSolid
+import compose.icons.lineawesomeicons.SmokingSolid
+import compose.icons.lineawesomeicons.SmsSolid
+import compose.icons.lineawesomeicons.Snapchat
+import compose.icons.lineawesomeicons.SnapchatGhost
+import compose.icons.lineawesomeicons.SnapchatSquare
+import compose.icons.lineawesomeicons.SnowboardingSolid
+import compose.icons.lineawesomeicons.Snowflake
+import compose.icons.lineawesomeicons.SnowflakeSolid
+import compose.icons.lineawesomeicons.SnowmanSolid
+import compose.icons.lineawesomeicons.SnowplowSolid
+import compose.icons.lineawesomeicons.SocksSolid
+import compose.icons.lineawesomeicons.SolarPanelSolid
+import compose.icons.lineawesomeicons.SortAlphaDownAltSolid
+import compose.icons.lineawesomeicons.SortAlphaDownSolid
+import compose.icons.lineawesomeicons.SortAlphaUpAltSolid
+import compose.icons.lineawesomeicons.SortAlphaUpSolid
+import compose.icons.lineawesomeicons.SortAmountDownAltSolid
+import compose.icons.lineawesomeicons.SortAmountDownSolid
+import compose.icons.lineawesomeicons.SortAmountUpAltSolid
+import compose.icons.lineawesomeicons.SortAmountUpSolid
+import compose.icons.lineawesomeicons.SortDownSolid
+import compose.icons.lineawesomeicons.SortNumericDownAltSolid
+import compose.icons.lineawesomeicons.SortNumericDownSolid
+import compose.icons.lineawesomeicons.SortNumericUpAltSolid
+import compose.icons.lineawesomeicons.SortNumericUpSolid
+import compose.icons.lineawesomeicons.SortSolid
+import compose.icons.lineawesomeicons.SortUpSolid
+import compose.icons.lineawesomeicons.Soundcloud
+import compose.icons.lineawesomeicons.Sourcetree
+import compose.icons.lineawesomeicons.SpaSolid
+import compose.icons.lineawesomeicons.SpaceShuttleSolid
+import compose.icons.lineawesomeicons.Speakap
+import compose.icons.lineawesomeicons.SpeakerDeck
+import compose.icons.lineawesomeicons.SpellCheckSolid
+import compose.icons.lineawesomeicons.SpiderSolid
+import compose.icons.lineawesomeicons.SpinnerSolid
+import compose.icons.lineawesomeicons.SplotchSolid
+import compose.icons.lineawesomeicons.Spotify
+import compose.icons.lineawesomeicons.SprayCanSolid
+import compose.icons.lineawesomeicons.Square
+import compose.icons.lineawesomeicons.SquareFullSolid
+import compose.icons.lineawesomeicons.SquareRootAltSolid
+import compose.icons.lineawesomeicons.SquareSolid
+import compose.icons.lineawesomeicons.Squarespace
+import compose.icons.lineawesomeicons.StackExchange
+import compose.icons.lineawesomeicons.StackOverflow
+import compose.icons.lineawesomeicons.Stackpath
+import compose.icons.lineawesomeicons.StampSolid
+import compose.icons.lineawesomeicons.Star
+import compose.icons.lineawesomeicons.StarAndCrescentSolid
+import compose.icons.lineawesomeicons.StarHalf
+import compose.icons.lineawesomeicons.StarHalfAltSolid
+import compose.icons.lineawesomeicons.StarHalfSolid
+import compose.icons.lineawesomeicons.StarOfDavidSolid
+import compose.icons.lineawesomeicons.StarOfLifeSolid
+import compose.icons.lineawesomeicons.StarSolid
+import compose.icons.lineawesomeicons.Staylinked
+import compose.icons.lineawesomeicons.Steam
+import compose.icons.lineawesomeicons.SteamSquare
+import compose.icons.lineawesomeicons.SteamSymbol
+import compose.icons.lineawesomeicons.StepBackwardSolid
+import compose.icons.lineawesomeicons.StepForwardSolid
+import compose.icons.lineawesomeicons.StethoscopeSolid
+import compose.icons.lineawesomeicons.StickerMule
+import compose.icons.lineawesomeicons.StickyNote
+import compose.icons.lineawesomeicons.StickyNoteSolid
+import compose.icons.lineawesomeicons.StopCircle
+import compose.icons.lineawesomeicons.StopCircleSolid
+import compose.icons.lineawesomeicons.StopSolid
+import compose.icons.lineawesomeicons.StopwatchSolid
+import compose.icons.lineawesomeicons.StoreAltSolid
+import compose.icons.lineawesomeicons.StoreSolid
+import compose.icons.lineawesomeicons.Strava
+import compose.icons.lineawesomeicons.StreamSolid
+import compose.icons.lineawesomeicons.StreetViewSolid
+import compose.icons.lineawesomeicons.StrikethroughSolid
+import compose.icons.lineawesomeicons.Stripe
+import compose.icons.lineawesomeicons.StripeS
+import compose.icons.lineawesomeicons.StroopwafelSolid
+import compose.icons.lineawesomeicons.Studiovinari
+import compose.icons.lineawesomeicons.Stumbleupon
+import compose.icons.lineawesomeicons.StumbleuponCircle
+import compose.icons.lineawesomeicons.SubscriptSolid
+import compose.icons.lineawesomeicons.SubwaySolid
+import compose.icons.lineawesomeicons.SuitcaseRollingSolid
+import compose.icons.lineawesomeicons.SuitcaseSolid
+import compose.icons.lineawesomeicons.Sun
+import compose.icons.lineawesomeicons.SunSolid
+import compose.icons.lineawesomeicons.Superpowers
+import compose.icons.lineawesomeicons.SuperscriptSolid
+import compose.icons.lineawesomeicons.Supple
+import compose.icons.lineawesomeicons.Surprise
+import compose.icons.lineawesomeicons.SurpriseSolid
+import compose.icons.lineawesomeicons.Suse
+import compose.icons.lineawesomeicons.SwatchbookSolid
+import compose.icons.lineawesomeicons.Swift
+import compose.icons.lineawesomeicons.SwimmerSolid
+import compose.icons.lineawesomeicons.SwimmingPoolSolid
+import compose.icons.lineawesomeicons.Symfony
+import compose.icons.lineawesomeicons.SynagogueSolid
+import compose.icons.lineawesomeicons.SyncAltSolid
+import compose.icons.lineawesomeicons.SyncSolid
+import compose.icons.lineawesomeicons.SyringeSolid
+import compose.icons.lineawesomeicons.TableSolid
+import compose.icons.lineawesomeicons.TableTennisSolid
+import compose.icons.lineawesomeicons.TabletAltSolid
+import compose.icons.lineawesomeicons.TabletSolid
+import compose.icons.lineawesomeicons.TabletsSolid
+import compose.icons.lineawesomeicons.TachometerAltSolid
+import compose.icons.lineawesomeicons.TagSolid
+import compose.icons.lineawesomeicons.TagsSolid
+import compose.icons.lineawesomeicons.TapeSolid
+import compose.icons.lineawesomeicons.TasksSolid
+import compose.icons.lineawesomeicons.TaxiSolid
+import compose.icons.lineawesomeicons.Teamspeak
+import compose.icons.lineawesomeicons.TeethOpenSolid
+import compose.icons.lineawesomeicons.TeethSolid
+import compose.icons.lineawesomeicons.Telegram
+import compose.icons.lineawesomeicons.TelegramPlane
+import compose.icons.lineawesomeicons.TemperatureHighSolid
+import compose.icons.lineawesomeicons.TemperatureLowSolid
+import compose.icons.lineawesomeicons.TencentWeibo
+import compose.icons.lineawesomeicons.TengeSolid
+import compose.icons.lineawesomeicons.TerminalSolid
+import compose.icons.lineawesomeicons.TextHeightSolid
+import compose.icons.lineawesomeicons.TextWidthSolid
+import compose.icons.lineawesomeicons.ThLargeSolid
+import compose.icons.lineawesomeicons.ThListSolid
+import compose.icons.lineawesomeicons.ThSolid
+import compose.icons.lineawesomeicons.TheRedYeti
+import compose.icons.lineawesomeicons.TheaterMasksSolid
+import compose.icons.lineawesomeicons.Themeco
+import compose.icons.lineawesomeicons.Themeisle
+import compose.icons.lineawesomeicons.ThermometerEmptySolid
+import compose.icons.lineawesomeicons.ThermometerFullSolid
+import compose.icons.lineawesomeicons.ThermometerHalfSolid
+import compose.icons.lineawesomeicons.ThermometerQuarterSolid
+import compose.icons.lineawesomeicons.ThermometerSolid
+import compose.icons.lineawesomeicons.ThermometerThreeQuartersSolid
+import compose.icons.lineawesomeicons.ThinkPeaks
+import compose.icons.lineawesomeicons.ThumbsDown
+import compose.icons.lineawesomeicons.ThumbsDownSolid
+import compose.icons.lineawesomeicons.ThumbsUp
+import compose.icons.lineawesomeicons.ThumbsUpSolid
+import compose.icons.lineawesomeicons.ThumbtackSolid
+import compose.icons.lineawesomeicons.TicketAltSolid
+import compose.icons.lineawesomeicons.TimesCircle
+import compose.icons.lineawesomeicons.TimesCircleSolid
+import compose.icons.lineawesomeicons.TimesSolid
+import compose.icons.lineawesomeicons.TintSlashSolid
+import compose.icons.lineawesomeicons.TintSolid
+import compose.icons.lineawesomeicons.Tired
+import compose.icons.lineawesomeicons.TiredSolid
+import compose.icons.lineawesomeicons.ToggleOffSolid
+import compose.icons.lineawesomeicons.ToggleOnSolid
+import compose.icons.lineawesomeicons.ToiletPaperSolid
+import compose.icons.lineawesomeicons.ToiletSolid
+import compose.icons.lineawesomeicons.ToolboxSolid
+import compose.icons.lineawesomeicons.ToolsSolid
+import compose.icons.lineawesomeicons.ToothSolid
+import compose.icons.lineawesomeicons.TorahSolid
+import compose.icons.lineawesomeicons.ToriiGateSolid
+import compose.icons.lineawesomeicons.TractorSolid
+import compose.icons.lineawesomeicons.TradeFederation
+import compose.icons.lineawesomeicons.TrademarkSolid
+import compose.icons.lineawesomeicons.TrafficLightSolid
+import compose.icons.lineawesomeicons.TrainSolid
+import compose.icons.lineawesomeicons.TramSolid
+import compose.icons.lineawesomeicons.TransgenderAltSolid
+import compose.icons.lineawesomeicons.TransgenderSolid
+import compose.icons.lineawesomeicons.TrashAlt
+import compose.icons.lineawesomeicons.TrashAltSolid
+import compose.icons.lineawesomeicons.TrashRestoreAltSolid
+import compose.icons.lineawesomeicons.TrashRestoreSolid
+import compose.icons.lineawesomeicons.TrashSolid
+import compose.icons.lineawesomeicons.TreeSolid
+import compose.icons.lineawesomeicons.Trello
+import compose.icons.lineawesomeicons.Tripadvisor
+import compose.icons.lineawesomeicons.TrophySolid
+import compose.icons.lineawesomeicons.TruckLoadingSolid
+import compose.icons.lineawesomeicons.TruckMonsterSolid
+import compose.icons.lineawesomeicons.TruckMovingSolid
+import compose.icons.lineawesomeicons.TruckPickupSolid
+import compose.icons.lineawesomeicons.TruckSolid
+import compose.icons.lineawesomeicons.TshirtSolid
+import compose.icons.lineawesomeicons.TtySolid
+import compose.icons.lineawesomeicons.Tumblr
+import compose.icons.lineawesomeicons.TumblrSquare
+import compose.icons.lineawesomeicons.TvSolid
+import compose.icons.lineawesomeicons.Twitch
+import compose.icons.lineawesomeicons.Twitter
+import compose.icons.lineawesomeicons.TwitterSquare
+import compose.icons.lineawesomeicons.Typo3
+import compose.icons.lineawesomeicons.Uber
+import compose.icons.lineawesomeicons.Ubuntu
+import compose.icons.lineawesomeicons.Uikit
+import compose.icons.lineawesomeicons.Umbraco
+import compose.icons.lineawesomeicons.UmbrellaBeachSolid
+import compose.icons.lineawesomeicons.UmbrellaSolid
+import compose.icons.lineawesomeicons.UnderlineSolid
+import compose.icons.lineawesomeicons.UndoAltSolid
+import compose.icons.lineawesomeicons.UndoSolid
+import compose.icons.lineawesomeicons.Uniregistry
+import compose.icons.lineawesomeicons.UniversalAccessSolid
+import compose.icons.lineawesomeicons.UniversitySolid
+import compose.icons.lineawesomeicons.UnlinkSolid
+import compose.icons.lineawesomeicons.UnlockAltSolid
+import compose.icons.lineawesomeicons.UnlockSolid
+import compose.icons.lineawesomeicons.Untappd
+import compose.icons.lineawesomeicons.UploadSolid
+import compose.icons.lineawesomeicons.Ups
+import compose.icons.lineawesomeicons.Usb
+import compose.icons.lineawesomeicons.User
+import compose.icons.lineawesomeicons.UserAltSlashSolid
+import compose.icons.lineawesomeicons.UserAltSolid
+import compose.icons.lineawesomeicons.UserAstronautSolid
+import compose.icons.lineawesomeicons.UserCheckSolid
+import compose.icons.lineawesomeicons.UserCircle
+import compose.icons.lineawesomeicons.UserCircleSolid
+import compose.icons.lineawesomeicons.UserClockSolid
+import compose.icons.lineawesomeicons.UserCogSolid
+import compose.icons.lineawesomeicons.UserEditSolid
+import compose.icons.lineawesomeicons.UserFriendsSolid
+import compose.icons.lineawesomeicons.UserGraduateSolid
+import compose.icons.lineawesomeicons.UserInjuredSolid
+import compose.icons.lineawesomeicons.UserLockSolid
+import compose.icons.lineawesomeicons.UserMdSolid
+import compose.icons.lineawesomeicons.UserMinusSolid
+import compose.icons.lineawesomeicons.UserNinjaSolid
+import compose.icons.lineawesomeicons.UserNurseSolid
+import compose.icons.lineawesomeicons.UserPlusSolid
+import compose.icons.lineawesomeicons.UserSecretSolid
+import compose.icons.lineawesomeicons.UserShieldSolid
+import compose.icons.lineawesomeicons.UserSlashSolid
+import compose.icons.lineawesomeicons.UserSolid
+import compose.icons.lineawesomeicons.UserTagSolid
+import compose.icons.lineawesomeicons.UserTieSolid
+import compose.icons.lineawesomeicons.UserTimesSolid
+import compose.icons.lineawesomeicons.UsersCogSolid
+import compose.icons.lineawesomeicons.UsersSolid
+import compose.icons.lineawesomeicons.Usps
+import compose.icons.lineawesomeicons.Ussunnah
+import compose.icons.lineawesomeicons.UtensilSpoonSolid
+import compose.icons.lineawesomeicons.UtensilsSolid
+import compose.icons.lineawesomeicons.Vaadin
+import compose.icons.lineawesomeicons.VectorSquareSolid
+import compose.icons.lineawesomeicons.VenusDoubleSolid
+import compose.icons.lineawesomeicons.VenusMarsSolid
+import compose.icons.lineawesomeicons.VenusSolid
+import compose.icons.lineawesomeicons.Viacoin
+import compose.icons.lineawesomeicons.Viadeo
+import compose.icons.lineawesomeicons.ViadeoSquare
+import compose.icons.lineawesomeicons.VialSolid
+import compose.icons.lineawesomeicons.VialsSolid
+import compose.icons.lineawesomeicons.Viber
+import compose.icons.lineawesomeicons.VideoSlashSolid
+import compose.icons.lineawesomeicons.VideoSolid
+import compose.icons.lineawesomeicons.ViharaSolid
+import compose.icons.lineawesomeicons.Vimeo
+import compose.icons.lineawesomeicons.VimeoSquare
+import compose.icons.lineawesomeicons.VimeoV
+import compose.icons.lineawesomeicons.Vine
+import compose.icons.lineawesomeicons.Vk
+import compose.icons.lineawesomeicons.Vnv
+import compose.icons.lineawesomeicons.VoicemailSolid
+import compose.icons.lineawesomeicons.VolleyballBallSolid
+import compose.icons.lineawesomeicons.VolumeDownSolid
+import compose.icons.lineawesomeicons.VolumeMuteSolid
+import compose.icons.lineawesomeicons.VolumeOffSolid
+import compose.icons.lineawesomeicons.VolumeUpSolid
+import compose.icons.lineawesomeicons.VoteYeaSolid
+import compose.icons.lineawesomeicons.VrCardboardSolid
+import compose.icons.lineawesomeicons.Vuejs
+import compose.icons.lineawesomeicons.WalkingSolid
+import compose.icons.lineawesomeicons.WalletSolid
+import compose.icons.lineawesomeicons.WarehouseSolid
+import compose.icons.lineawesomeicons.WaterSolid
+import compose.icons.lineawesomeicons.WaveSquareSolid
+import compose.icons.lineawesomeicons.Waze
+import compose.icons.lineawesomeicons.Weebly
+import compose.icons.lineawesomeicons.Weibo
+import compose.icons.lineawesomeicons.WeightHangingSolid
+import compose.icons.lineawesomeicons.WeightSolid
+import compose.icons.lineawesomeicons.Weixin
+import compose.icons.lineawesomeicons.Whatsapp
+import compose.icons.lineawesomeicons.WhatsappSquare
+import compose.icons.lineawesomeicons.WheelchairSolid
+import compose.icons.lineawesomeicons.Whmcs
+import compose.icons.lineawesomeicons.WifiSolid
+import compose.icons.lineawesomeicons.WikipediaW
+import compose.icons.lineawesomeicons.WindSolid
+import compose.icons.lineawesomeicons.WindowClose
+import compose.icons.lineawesomeicons.WindowCloseSolid
+import compose.icons.lineawesomeicons.WindowMaximize
+import compose.icons.lineawesomeicons.WindowMaximizeSolid
+import compose.icons.lineawesomeicons.WindowMinimize
+import compose.icons.lineawesomeicons.WindowMinimizeSolid
+import compose.icons.lineawesomeicons.WindowRestore
+import compose.icons.lineawesomeicons.WindowRestoreSolid
+import compose.icons.lineawesomeicons.Windows
+import compose.icons.lineawesomeicons.WineBottleSolid
+import compose.icons.lineawesomeicons.WineGlassAltSolid
+import compose.icons.lineawesomeicons.WineGlassSolid
+import compose.icons.lineawesomeicons.Wix
+import compose.icons.lineawesomeicons.WizardsOfTheCoast
+import compose.icons.lineawesomeicons.WolfPackBattalion
+import compose.icons.lineawesomeicons.WonSignSolid
+import compose.icons.lineawesomeicons.Wordpress
+import compose.icons.lineawesomeicons.WordpressSimple
+import compose.icons.lineawesomeicons.Wpbeginner
+import compose.icons.lineawesomeicons.Wpexplorer
+import compose.icons.lineawesomeicons.Wpforms
+import compose.icons.lineawesomeicons.Wpressr
+import compose.icons.lineawesomeicons.WrenchSolid
+import compose.icons.lineawesomeicons.XRaySolid
+import compose.icons.lineawesomeicons.Xbox
+import compose.icons.lineawesomeicons.Xing
+import compose.icons.lineawesomeicons.XingSquare
+import compose.icons.lineawesomeicons.YCombinator
+import compose.icons.lineawesomeicons.Yahoo
+import compose.icons.lineawesomeicons.Yammer
+import compose.icons.lineawesomeicons.Yandex
+import compose.icons.lineawesomeicons.YandexInternational
+import compose.icons.lineawesomeicons.Yarn
+import compose.icons.lineawesomeicons.Yelp
+import compose.icons.lineawesomeicons.YenSignSolid
+import compose.icons.lineawesomeicons.YinYangSolid
+import compose.icons.lineawesomeicons.Yoast
+import compose.icons.lineawesomeicons.Youtube
+import compose.icons.lineawesomeicons.YoutubeSquare
+import compose.icons.lineawesomeicons.Zhihu
+import compose.icons.lineawesomeicons._500px
+import kotlin.collections.List as ____KtList
+
+public object LineAwesomeIcons
+
+private var __AllIcons: ____KtList<ImageVector>? = null
+
+public val LineAwesomeIcons.AllIcons: ____KtList<ImageVector>
+  get() {
+    if (__AllIcons != null) {
+      return __AllIcons!!
+    }
+    __AllIcons= listOf(AccessibleIcon, WhatsappSquare, GitAlt, GripVerticalSolid, DiceOneSolid,
+        TemperatureHighSolid, MoneyBillWaveAltSolid, BaseballBallSolid, PlusCircleSolid,
+        BlenderPhoneSolid, BoxesSolid, CompressArrowsAltSolid, Deviantart, XRaySolid, CriticalRole,
+        Css3, Blackberry, Keyboard, SubwaySolid, UserInjuredSolid, BorderAllSolid,
+        TachometerAltSolid, BeerSolid, QuestionCircle, Frown, CaretSquareLeftSolid,
+        VrCardboardSolid, Steam, UserShieldSolid, CalendarWeekSolid, Elementor, WindowMinimize,
+        VolumeOffSolid, AdjustSolid, CcMastercard, Studiovinari, HeartBrokenSolid, Trello,
+        ChessKnightSolid, Cloudsmith, RestroomSolid, Map, Erlang, Atlassian, Neos, Dyalog, User,
+        AngleLeftSolid, MapMarkedSolid, BookMedicalSolid, JediSolid, Wpforms, Gitkraken, DogSolid,
+        PhoneAltSolid, Drupal, HandScissors, AngleUpSolid, SatelliteDishSolid, ArrowsAltVSolid,
+        MapSignsSolid, Expeditedssl, Bootstrap, ChevronCircleUpSolid, CoinsSolid, SmileWinkSolid,
+        Houzz, ViharaSolid, Periscope, PencilRulerSolid, ArchwaySolid, Amazon, Heart, CompressSolid,
+        CatSolid, CloneSolid, TransgenderAltSolid, WonSignSolid, Buromobelexperte, Amilia,
+        StrikethroughSolid, MouseSolid, DonateSolid, HandshakeSolid, Angry, GoogleDrive,
+        FilePowerpointSolid, BriefcaseSolid, Uikit, GasPumpSolid, HotdogSolid, LongArrowAltUpSolid,
+        Ns8, ItalicSolid, UserTagSolid, MehSolid, HeartSolid, DragonSolid, CloudRainSolid, Forumbee,
+        PinterestP, BoldSolid, MagnetSolid, MarsSolid, BehanceSquare, GooglePlay, Deploydog,
+        HelicopterSolid, QuoteRightSolid, Alipay, Bandcamp, ChessKingSolid, EjectSolid, VimeoV,
+        GrinSquintSolid, Comment, HandPeaceSolid, DesktopSolid, HanukiahSolid, BibleSolid,
+        VolleyballBallSolid, GemSolid, HackerNewsSquare, CloudMeatballSolid, HandPointUp,
+        SnowmanSolid, ChessSolid, FileMedicalAltSolid, ChevronRightSolid, FontAwesomeFlag,
+        BookSolid, UniversitySolid, Vimeo, ListAlt, HospitalSolid, ListUlSolid, PeopleCarrySolid,
+        ToggleOnSolid, VolumeUpSolid, GrinSquintTearsSolid, CarBatterySolid, TradeFederation,
+        Youtube, LifeRingSolid, TrashAltSolid, VenusMarsSolid, Etsy, CreativeCommonsNc,
+        ToolboxSolid, NewspaperSolid, BombSolid, HryvniaSolid, Accusoft, CrowSolid, DoveSolid,
+        VenusSolid, GgCircle, Instagram, HourglassHalfSolid, Sass, TheRedYeti, Rev, Mandalorian,
+        AtomSolid, FreeCodeCamp, Telegram, CommentMedicalSolid, StumbleuponCircle, Zhihu,
+        FileVideoSolid, VimeoSquare, SearchSolid, SortNumericDownSolid, Comments, BroomSolid,
+        TrashSolid, HeadphonesAltSolid, SignLanguageSolid, GrinAltSolid, GrinTearsSolid,
+        WineGlassSolid, FolderSolid, TelegramPlane, Dev, Hips, HospitalAltSolid, SquareRootAltSolid,
+        UserSolid, LightbulbSolid, HandRock, PooSolid, ChevronCircleDownSolid, Gulp, Invision,
+        KissWinkHeartSolid, Asymmetrik, ThumbtackSolid, UniversalAccessSolid, RedoSolid, Buysellads,
+        BroadcastTowerSolid, ThumbsDown, VideoSolid, ArrowUpSolid, Osi, StreamSolid, FileExcel,
+        UserClockSolid, AmazonPay, CartArrowDownSolid, Yammer, FacebookF, ShowerSolid, Linkedin,
+        MoneyBillAltSolid, Docker, CaretSquareDownSolid, CubesSolid, ChessRookSolid, FileCode,
+        Viadeo, UtensilsSolid, PhoneSolid, CouchSolid, ObjectGroupSolid, IdCardAltSolid, GrinStars,
+        SignalSolid, RoadSolid, Strava, WolfPackBattalion, MicrophoneSlashSolid, BikingSolid,
+        ArrowCircleLeftSolid, SplotchSolid, ChartPieSolid, TrashRestoreSolid, TheaterMasksSolid,
+        ShieldAltSolid, OutdentSolid, RouteSolid, VoicemailSolid, MapSolid, Opencart,
+        CandyCaneSolid, Copy, Save, TabletSolid, BatteryEmptySolid, IglooSolid, BluetoothB,
+        RulerHorizontalSolid, FistRaisedSolid, CalendarMinusSolid, Vnv, Fly, FileArchiveSolid,
+        GlassMartiniSolid, HatCowboySolid, MoneyBillWaveSolid, CreditCard, PhotoVideoSolid,
+        Facebook, EditSolid, Snowflake, UserEditSolid, PennyArcade, GrinAlt, HandHoldingHeartSolid,
+        FileInvoiceDollarSolid, BatteryHalfSolid, BreadSliceSolid, SyncSolid, Stackpath,
+        MortarPestleSolid, ThListSolid, Imdb, SnapchatGhost, Redhat, LowVisionSolid, BookDeadSolid,
+        Magento, Vine, KissBeamSolid, DeafSolid, KickstarterK, ThermometerHalfSolid, PlaneSolid,
+        CommentsSolid, Android, ShuttleVanSolid, PlaceOfWorshipSolid, HotTubSolid, CaretDownSolid,
+        Typo3, ExpandSolid, IdCard, PaintRollerSolid, Squarespace, GitSquare, AppStoreIos,
+        PrayingHandsSolid, CheckDoubleSolid, BathSolid, ArrowAltCircleUpSolid, GlobeAsiaSolid,
+        FrownSolid, Laugh, HandLizard, FacebookSquare, ThumbsDownSolid, MosqueSolid, InboxSolid,
+        FileExcelSolid, FishSolid, CropSolid, Wpexplorer, CodeSolid, DirectionsSolid,
+        CommentSlashSolid, Monero, Circle, Hooli, WindowRestoreSolid, SortAmountDownSolid,
+        SyringeSolid, Bimobject, Flipboard, Sellsy, UndoSolid, FortAwesomeAlt, BezierCurveSolid,
+        DiceD20Solid, SortDownSolid, Edit, ThermometerEmptySolid, DownloadSolid, Weebly, Ioxhost,
+        HomeSolid, Bookmark, IciclesSolid, MehBlankSolid, ChurchSolid, Images, TasksSolid,
+        ArrowRightSolid, CoffeeSolid, LaughBeamSolid, GrinBeam, SteamSymbol, LifeRing,
+        SynagogueSolid, Airbnb, ChartBarSolid, GlassesSolid, HouseDamageSolid, MarsStrokeSolid,
+        ChartAreaSolid, FlagUsaSolid, BowlingBallSolid, PollHSolid, Meetup, GrinBeamSweat,
+        TrashRestoreAltSolid, GithubAlt, ClipboardSolid, CocktailSolid, Star, Hotjar, Firstdraft,
+        CrutchSolid, UserNinjaSolid, WindowMinimizeSolid, DrumSteelpanSolid, CcVisa, JsSquare,
+        PaperclipSolid, Ethereum, CloudDownloadAltSolid, Mix, RubleSignSolid, JediOrder,
+        SkatingSolid, CloudMoonRainSolid, RecycleSolid, SortSolid, TerminalSolid, RegisteredSolid,
+        KissBeam, ExpandArrowsAltSolid, Discourse, KeySolid, Resolving, Sith, Fedex, StickerMule,
+        DiceD6Solid, BalanceScaleLeftSolid, SolarPanelSolid, Vaadin, Snapchat, RingSolid,
+        PercentSolid, ParkingSolid, MarsStrokeVSolid, CheeseSolid, MoonSolid, PodcastSolid,
+        DraftingCompassSolid, SearchMinusSolid, CreativeCommonsNcJp, GrinHeartsSolid,
+        HandPointLeftSolid, BandAidSolid, HighlighterSolid, GoodreadsG, MinusSquare, MedalSolid,
+        ThermometerFullSolid, GlobeEuropeSolid, LaptopMedicalSolid, PlaySolid, QuoteLeftSolid,
+        UserTimesSolid, FileSignatureSolid, ProjectDiagramSolid, HatWizardSolid, Linux,
+        ChevronCircleRightSolid, Behance, UserSecretSolid, Tripadvisor, CarrotSolid,
+        WheelchairSolid, HammerSolid, CarSideSolid, Artstation, DigitalTachographSolid, Dropbox,
+        BuildingSolid, TruckLoadingSolid, MercurySolid, SortUpSolid, Weibo, Opera, Angrycreative,
+        Fonticons, HandPointer, Windows, ImagesSolid, EnvelopeOpenSolid, ShippingFastSolid, Node,
+        HandPaperSolid, Pagelines, BrushSolid, Java, InfinitySolid, Grav, CalendarTimesSolid,
+        FaxSolid, Flag, Calendar, UserSlashSolid, Lastfm, AddressCard, Salesforce, ViadeoSquare,
+        MusicSolid, AdSolid, AnkhSolid, TeethOpenSolid, EyeSlash, ToriiGateSolid, DrumSolid,
+        TramSolid, Tumblr, HardHatSolid, UserCircleSolid, AlignJustifySolid, FlaskSolid,
+        CreativeCommons, Rockrms, GiftsSolid, MedkitSolid, VectorSquareSolid, BarcodeSolid,
+        GreaterThanSolid, DAndDBeyond, TimesCircle, FillSolid, EyeSolid, CcPaypal,
+        CreativeCommonsZero, Openid, ThLargeSolid, Gem, Codiepie, Usps, FireSolid, Ravelry,
+        StackOverflow, _500px, Twitter, PiedPiperHat, PizzaSliceSolid, RocketSolid, LayerGroupSolid,
+        MicrochipSolid, MarsDoubleSolid, PlaneArrivalSolid, LeafSolid, LaughSquintSolid, BabySolid,
+        BaconSolid, LaughSolid, Twitch, PalletSolid, Sun, DoorOpenSolid, PrescriptionSolid,
+        StackExchange, StarHalfSolid, Centercode, ChartBar, Ubuntu, WizardsOfTheCoast, Slideshare,
+        Whatsapp, TshirtSolid, TapeSolid, FileVideo, BlackTie, QrcodeSolid, Clone, GalacticRepublic,
+        BrainSolid, SkiingSolid, Replyd, CodeBranchSolid, MemorySolid, TruckPickupSolid,
+        EnvelopeSquareSolid, SitemapSolid, Paypal, HaykalSolid, ScrollSolid, GrinTongueSolid,
+        ShapesSolid, Flickr, PawSolid, Joomla, PeaceSolid, ArrowAltCircleRight, FirstAidSolid,
+        Confluence, LaptopCodeSolid, SignOutAltSolid, FemaleSolid, AtSolid, OldRepublic, HddSolid,
+        WineBottleSolid, YinYangSolid, XingSquare, ToggleOffSolid, RaspberryPi, TrademarkSolid,
+        PortraitSolid, LessThanSolid, MicrophoneSolid, GlobeSolid, ExclamationCircleSolid, DnaSolid,
+        BuyNLarge, HamburgerSolid, Staylinked, BoneSolid, PlusSquareSolid, PersonBoothSolid, Empire,
+        HandPointRightSolid, GrimaceSolid, WalletSolid, QuranSolid, SnowboardingSolid,
+        ChevronCircleLeftSolid, ArrowAltCircleLeftSolid, JournalWhillsSolid, FillDripSolid,
+        PrescriptionBottleAltSolid, FirstOrderAlt, Grin, WindowRestore, Ebay, DumpsterFireSolid,
+        FontAwesomeAlt, SocksSolid, HandScissorsSolid, Teamspeak, StroopwafelSolid, Newspaper,
+        UsersSolid, CcDinersClub, PillsSolid, Foursquare, Markdown, HorseSolid, StampSolid,
+        Diaspora, ArrowAltCircleUp, UploadSolid, ClosedCaptioningSolid, GopuramSolid,
+        MehRollingEyesSolid, DiceTwoSolid, PiedPiper, FileWord, DollyFlatbedSolid, ListSolid,
+        ChessQueenSolid, Ember, PlusSquare, FileImage, TruckMonsterSolid, ImageSolid, BookmarkSolid,
+        ArchiveSolid, Vk, Grimace, ExternalLinkAltSolid, Viber, Keybase, Wpbeginner, InfoSolid,
+        Clipboard, EthernetSolid, Firefox, Registered, LaptopSolid, Github, Symfony, Orcid,
+        CloudMoonSolid, ChessBishopSolid, StoreSolid, PepperHotSolid, CalendarPlusSolid, VialsSolid,
+        CaretRightSolid, SortAlphaDownSolid, ShoppingCartSolid, Freebsd, Fulcrum, CrosshairsSolid,
+        IndustrySolid, CheckSolid, ChildSolid, KiwiBirdSolid, CaretSquareRight, RadiationSolid,
+        FileInvoiceSolid, AwardSolid, UnderlineSolid, CannabisSolid, UserCircle,
+        PrescriptionBottleSolid, Tired, GlassWhiskeySolid, CreativeCommonsPd, LocationArrowSolid,
+        GrinTongueWinkSolid, FrogSolid, BusinessTimeSolid, Renren, BirthdayCakeSolid, UserCogSolid,
+        TwitterSquare, VoteYeaSolid, MicrophoneAltSolid, GrinTongueWink, Jsfiddle, BicycleSolid,
+        ShareSquare, Flushed, HourglassStartSolid, Themeisle, AlignRightSolid, ObjectUngroup,
+        Compass, DizzySolid, GithubSquare, Yelp, CertificateSolid, Hubspot, WordpressSimple,
+        PhoneSlashSolid, ShoppingBagSolid, DumbbellSolid, SadCrySolid, AppleAltSolid, UnlockSolid,
+        Blogger, RetweetSolid, PooStormSolid, CrownSolid, ArrowAltCircleDownSolid, CottonBureau,
+        MailBulkSolid, SkullSolid, Glide, UserPlusSolid, BorderNoneSolid, TencentWeibo,
+        CalendarMinus, SmsSolid, NotEqualSolid, BabyCarriageSolid, CreativeCommonsSamplingPlus,
+        Line, CreditCardSolid, RulerCombinedSolid, FileAudioSolid, TimesSolid, ICursorSolid,
+        WarehouseSolid, ClinicMedicalSolid, ArrowCircleRightSolid, CalendarAltSolid, FolderOpen,
+        PhoneSquareAltSolid, SmileSolid, CaretSquareRightSolid, Chrome, WrenchSolid, CameraSolid,
+        SignatureSolid, BlenderSolid, StepBackwardSolid, LevelDownAltSolid, Codepen, StarSolid,
+        GraduationCapSolid, SpaceShuttleSolid, Usb, WindowClose, HandPointUpSolid,
+        HourglassEndSolid, MenorahSolid, ChessPawnSolid, PenFancySolid, SaveSolid, Digg, Mastodon,
+        SpellCheckSolid, TabletsSolid, ChevronLeftSolid, EnvelopeOpen, StethoscopeSolid,
+        SwimmerSolid, CommentsDollarSolid, InternetExplorer, Stumbleupon, Mixcloud, HourglassSolid,
+        DatabaseSolid, Contao, DiceSolid, SlackHash, Ello, PauseCircleSolid, FolderOpenSolid, Bity,
+        ArrowDownSolid, ChartLineSolid, Delicious, MarsStrokeHSolid, TransgenderSolid, FrownOpen,
+        BusAltSolid, TabletAltSolid, MagicSolid, Yandex, CookieSolid, HandPointDownSolid, Supple,
+        HandsSolid, LiraSignSolid, TvSolid, GripLinesVerticalSolid, Yoast, CalendarDaySolid, Html5,
+        ArrowCircleDownSolid, ObjectUngroupSolid, FileCodeSolid, ShareSolid, RedRiver, HistorySolid,
+        GuitarSolid, TrafficLightSolid, CreativeCommonsPdAlt, CogSolid, SimCardSolid, Kaggle,
+        MicrophoneAltSlashSolid, JointSolid, TruckSolid, UserGraduateSolid, LaughWink, VialSolid,
+        YenSignSolid, BatteryQuarterSolid, CopyrightSolid, SquareSolid, FileCsvSolid, ReplyAllSolid,
+        PenSquareSolid, HorseHeadSolid, SearchDollarSolid, FolderMinusSolid, RedditSquare,
+        CopySolid, CrossSolid, Adversal, CarCrashSolid, Hackerrank, OptinMonster, DribbbleSquare,
+        AngleRightSolid, HandsHelpingSolid, Adn, ChalkboardTeacherSolid, ChessBoardSolid, Apple,
+        SortAmountDownAltSolid, Shopware, GavelSolid, AtlasSolid, Themeco, DivideSolid, SchoolSolid,
+        ParagraphSolid, ChargingStationSolid, SeedlingSolid, Autoprefixer,
+        AssistiveListeningSystemsSolid, Chromecast, SnowflakeSolid, GrinHearts, DotCircleSolid,
+        SadCry, Jenkins, Wordpress, Itunes, Dribbble, MicroscopeSolid, Skyatlas, Css3Alt,
+        CalendarTimes, LessThanEqualSolid, Page4, SpaSolid, EnvelopeOpenTextSolid, HandPointerSolid,
+        Odnoklassniki, HotelSolid, Linode, WindowMaximizeSolid, SyncAltSolid, NotesMedicalSolid,
+        HandSpock, CheckSquare, RupeeSignSolid, FileContractSolid, Intercom, VolumeDownSolid,
+        ClosedCaptioning, CreativeCommonsNcEu, DrumstickBiteSolid, Ups, Umbraco, Git,
+        BalanceScaleSolid, UsersCogSolid, BoltSolid, AngleDoubleRightSolid, RibbonSolid,
+        EllipsisVSolid, FileDownloadSolid, ShareSquareSolid, FantasyFlightGames, Quora, Vuejs,
+        PhoenixFramework, QuestionCircleSolid, PoopSolid, GrinWinkSolid, ConciergeBellSolid,
+        HandPointLeft, SmileWink, YCombinator, StopwatchSolid, SpinnerSolid, MoneyBillAlt,
+        BlindSolid, SortAmountUpSolid, CreativeCommonsBy, BellSlash, Yahoo, Xing, Futbol,
+        HamsaSolid, GlassCheersSolid, GooglePlusG, MoneyCheckSolid, EllipsisHSolid, ArrowLeftSolid,
+        DungeonSolid, RulerVerticalSolid, ToiletSolid, GrinWink, Edge, Surprise, PlusSolid, ThSolid,
+        BatteryThreeQuartersSolid, ProductHunt, CalendarSolid, MugHotSolid, Js, CloudUploadAltSolid,
+        PassportSolid, PagerSolid, PrintSolid, FileExportSolid, AngleDoubleDownSolid, WeightSolid,
+        ApplePay, HeadphonesSolid, FilmSolid, Schlix, MediumM, AnchorSolid, ExclamationSolid,
+        StopCircle, Skype, AppStore, BrailleSolid, FastBackwardSolid, FilePdf, AngleDoubleLeftSolid,
+        SadTearSolid, UserAltSolid, BookReaderSolid, ExternalLinkSquareAltSolid, SprayCanSolid,
+        Pushed, StickyNoteSolid, CartPlusSolid, SkullCrossbonesSolid, SuitcaseSolid, FileAltSolid,
+        EuroSignSolid, Aws, ToolsSolid, Yarn, PlugSolid, SuperscriptSolid, Spotify, GiftSolid,
+        Medium, OmSolid, AllergiesSolid, Slack, Algolia, LinkedinIn, ServerSolid,
+        PlaneDepartureSolid, RulerSolid, Hornbill, CreativeCommonsRemix, CookieBiteSolid,
+        HikingSolid, HackerNews, FileImportSolid, Searchengin, MapPinSolid, LevelUpAltSolid,
+        UserNurseSolid, PhoneVolumeSolid, SortAlphaUpAltSolid, BackspaceSolid, IdBadgeSolid,
+        SnowplowSolid, FontSolid, AirFreshenerSolid, Quinscape, Reacteurope, FrownOpenSolid,
+        WaterSolid, HandHoldingUsdSolid, UnlockAltSolid, CutSolid, Medapps, GrinTears,
+        GrinTongueSquint, GalacticSenate, TagsSolid, SlashSolid, SmogSolid, StoreAltSolid,
+        PaintBrushSolid, QuidditchSolid, WaveSquareSolid, NetworkWiredSolid,
+        ArrowAltCircleRightSolid, BatteryFullSolid, Centos, HippoSolid, OilCanSolid,
+        HospitalSymbolSolid, RunningSolid, VideoSlashSolid, PiedPiperAlt, Mailchimp,
+        PaperPlaneSolid, StopCircleSolid, UndoAltSolid, Evernote, PenAltSolid, MobileSolid,
+        UtensilSpoonSolid, CloudSunRainSolid, BellSlashSolid, BoxOpenSolid, FootballBallSolid,
+        DollySolid, Hourglass, Buffer, SleighSolid, Bitcoin, Dhl, RadiationAltSolid, Handshake,
+        DigitalOcean, ExchangeAltSolid, Gitter, GamepadSolid, ClockSolid, GlassMartiniAltSolid,
+        SortNumericDownAltSolid, FilePdfSolid, UserMdSolid, Speakap, MonumentSolid, StarHalf,
+        ForwardSolid, BackwardSolid, React, MapMarkerAltSolid, Building, FireAltSolid, MarkerSolid,
+        LuggageCartSolid, UmbrellaBeachSolid, Wpressr, BlogSolid, Image, Megaport, BattleNet, Apper,
+        Korvue, SortNumericUpAltSolid, PhoneSquareSolid, WalkingSolid, CreativeCommonsNd,
+        UserMinusSolid, Wix, MaleSolid, Goodreads, SignInAltSolid, ThumbsUp, Discord,
+        PencilAltSolid, SignSolid, PercentageSolid, AsteriskSolid, FingerprintSolid, Reddit,
+        PuzzlePieceSolid, CalendarCheck, TagSolid, GetPocket, DAndD, Phabricator, ReceiptSolid,
+        ChevronDownSolid, SatelliteSolid, MountainSolid, BookOpenSolid, IdCardSolid,
+        ProceduresSolid, FutbolSolid, HSquareSolid, Eye, AngleDoubleUpSolid, Cloudversify, Modx,
+        Draft2digital, SwatchbookSolid, FanSolid, NodeJs, PlayCircle, GripHorizontalSolid,
+        FeatherAltSolid, HandSpockSolid, TextHeightSolid, WineGlassAltSolid, GrinBeamSweatSolid,
+        HandPeace, CcStripe, ShareAltSolid, Soundcloud, SunSolid, FilePowerpoint, PinterestSquare,
+        CcApplePay, LaughWinkSolid, WeightHangingSolid, PauseCircle, FortAwesome, ToothSolid,
+        CheckCircle, IceCreamSolid, WindowCloseSolid, TemperatureLowSolid, GoogleWallet, Gitlab,
+        MousePointerSolid, Keycdn, LandmarkSolid, EraserSolid, YandexInternational, TiredSolid,
+        Adobe, GrinSquint, Maxcdn, StopSolid, Rebel, Sellcast, ArrowAltCircleDown, CcJcb, Stripe,
+        UserFriendsSolid, Rocketchat, LinkSolid, CaretLeftSolid, StarOfLifeSolid, PenSolid, Square,
+        KaabaSolid, SortAmountUpAltSolid, Gg, PollSolid, AngrySolid, SortAlphaDownAltSolid,
+        StickyNote, ToiletPaperSolid, BinocularsSolid, ObjectGroup, Scribd, CalculatorSolid,
+        ReplySolid, ArrowCircleUpSolid, CampgroundSolid, BellSolid, StreetViewSolid,
+        AmericanSignLanguageInterpretingSolid, StripeS, BriefcaseMedicalSolid, NeuterSolid,
+        Shirtsinbulk, SmileBeam, GreaterThanEqualSolid, LongArrowAltDownSolid, CaretUpSolid,
+        DollarSignSolid, Playstation, FacebookMessenger, GenderlessSolid, CloudSolid, TractorSolid,
+        ThermometerQuarterSolid, FileMedicalSolid, CarAltSolid, PowerOffSolid, Figma,
+        DiagnosesSolid, TumblrSquare, TintSlashSolid, CaretSquareUp, TengeSolid, HandPointRight,
+        HireAHelper, CanadianMapleLeaf, SubscriptSolid, SearchLocationSolid, Npm, LockSolid,
+        ArrowAltCircleLeft, GripLinesSolid, Btc, GrinStarsSolid, WikipediaW, CameraRetroSolid,
+        ColumnsSolid, BorderStyleSolid, BusSolid, UserLockSolid, RedoAltSolid, StarAndCrescentSolid,
+        MobileAltSolid, OdnoklassnikiSquare, GrinSolid, FontAwesome, SquareFullSolid,
+        MehRollingEyes, ListAltSolid, MaskSolid, TrashAlt, BugSolid, Meh, BloggerB,
+        GlobeAmericasSolid, Dizzy, Hospital, Xbox, ShipSolid, MinusCircleSolid, BanSolid,
+        RemoveFormatSolid, Lemon, PlayCircleSolid, DemocratSolid, Grunt, ThinkPeaks,
+        ClipboardCheckSolid, FonticonsFi, AddressBookSolid, PhoenixSquadron, FunnelDollarSolid, Qq,
+        HeartbeatSolid, PaletteSolid, SurpriseSolid, Patreon, UmbrellaSolid, RecordVinylSolid, Uber,
+        CheckCircleSolid, Audible, SortAlphaUpSolid, Leanpub, ItunesNote, Bell,
+        ThermometerThreeQuartersSolid, TreeSolid, YoutubeSquare, VolumeMuteSolid, ChairSolid,
+        Servicestack, PraySolid, Viacoin, ShekelSignSolid, LockOpenSolid, QuestionSolid, LaughBeam,
+        Untappd, ShoePrintsSolid, BullhornSolid, GrinSquintTears, Palfed, Angellist, Nutritionix,
+        CcAmazonPay, FlushedSolid, SortNumericUpSolid, TintSolid, Aviato, Angular, StepForwardSolid,
+        SpiderSolid, BullseyeSolid, FileAudio, OtterSolid, TruckMovingSolid, UserAstronautSolid,
+        BarsSolid, SlidersHSolid, CommentDots, CompactDiscSolid, IdBadge, SteamSquare,
+        CreativeCommonsSampling, WifiSolid, LongArrowAltLeftSolid, CommentSolid, Whmcs, Envelope,
+        Gratipay, HeadsetSolid, Pinterest, Waze, HandMiddleFingerSolid, HandLizardSolid,
+        CommentAltSolid, SuitcaseRollingSolid, HandRockSolid, UserAltSlashSolid,
+        AcquisitionsIncorporated, Moon, SkiingNordicSolid, BasketballBallSolid, CompassSolid,
+        CircleSolid, GlideG, SmokingBanSolid, FilterSolid, CreativeCommonsShare, BurnSolid,
+        CashRegisterSolid, CogsSolid, KhandaSolid, HandPaper, BiohazardSolid, MapMarkerSolid, Jira,
+        SdCardSolid, FileWordSolid, Hdd, CitySolid, Medrt, TextWidthSolid, FileAlt, FlagSolid,
+        EyeDropperSolid, LongArrowAltRightSolid, CaretSquareDown, Sketch, CommentAlt, CalendarAlt,
+        CommentDollarSolid, CropAltSolid, BedSolid, Copyright, RedditAlien, CreativeCommonsSa,
+        SadTear, GooglePlusSquare, TableTennisSolid, Uniregistry, SmokingSolid, RainbowSolid,
+        AlignLeftSolid, MeteorSolid, InfoCircleSolid, PenNibSolid, IconsSolid, CcAmex, EqualsSolid,
+        Cuttlefish, Earlybirds, Nimblr, MoneyBillSolid, StarOfDavidSolid, CircleNotchSolid,
+        KissSolid, CheckSquareSolid, MinusSolid, UserCheckSolid, TaxiSolid, Folder, DiceFiveSolid,
+        Napster, SwimmingPoolSolid, CaretSquareUpSolid, ClipboardListSolid, ParachuteBoxSolid,
+        UnlinkSolid, DotCircle, PastafarianismSolid, ThumbsUpSolid, CapsulesSolid, LaughSquint,
+        FileArchive, AudioDescriptionSolid, RobotSolid, File, Python, FileSolid, Safari, Mendeley,
+        MinusSquareSolid, FlagCheckeredSolid, Clock, Gofore, PauseSolid, AngleDownSolid,
+        BalanceScaleRightSolid, Joget, FirstOrder, Gripfire, RssSquareSolid, BongSolid, Cpanel,
+        Swift, HandHoldingSolid, CloudShowersHeavySolid, RepublicanSolid, HashtagSolid, AddressBook,
+        Google, Smile, CubeSolid, ChevronUpSolid, LastfmSquare, MotorcycleSolid, LanguageSolid,
+        RProject, GlobeAfricaSolid, CcDiscover, Bluetooth, GrinTongue, Fedora, ShoppingBasketSolid,
+        DharmachakraSolid, EnvelopeSolid, DiceThreeSolid, Less, Deskpro, FolderPlusSolid,
+        TorahSolid, Kickstarter, MehBlank, HatCowboySideSolid, WindSolid, UserTieSolid,
+        CaretSquareLeft, SearchPlusSolid, Lightbulb, TimesCircleSolid, TicketAltSolid,
+        ArrowsAltSolid, ListOlSolid, Envira, Avianex, TrainSolid, HeadingSolid, ThermometerSolid,
+        GrinBeamSolid, Connectdevelop, Microsoft, Lyft, RandomSolid, PiggyBankSolid, EggSolid,
+        EyeSlashSolid, Dashcube, DrawPolygonSolid, Kiss, WindowMaximize, KeyboardSolid, Laravel,
+        FileImageSolid, Ussunnah, MapMarkedAltSolid, Readme, StarHalfAltSolid, PiedPiperPp,
+        CloudSunSolid, IndentSolid, TeethSolid, AlignCenterSolid, Bitbucket, SpeakerDeck,
+        TrophySolid, Superpowers, ArrowsAltHSolid, Sistrix, FilePrescriptionSolid,
+        FireExtinguisherSolid, Mizuni, HandPointDown, ExclamationTriangleSolid, MittenSolid,
+        Cloudscale, ChalkboardSolid, GolfBallSolid, HollyBerrySolid, DiceSixSolid, TtySolid,
+        FastForwardSolid, DumpsterSolid, DoorClosedSolid, ItchIo, Weixin, GooglePlus,
+        FighterJetSolid, TableSolid, PoundSignSolid, CalendarPlus, Suse, ShareAltSquareSolid,
+        CalendarCheckSolid, GrinTongueSquintSolid, ScrewdriverSolid, SnapchatSquare, KissWinkHeart,
+        MoneyCheckAltSolid, CommentDotsSolid, Mdb, Sourcetree, LemonSolid, VenusDoubleSolid,
+        CarSolid, PaperPlane, HockeyPuckSolid, Researchgate, DiceFourSolid, SmileBeamSolid,
+        BoxSolid, FileUploadSolid, Simplybuilt, PasteSolid, Affiliatetheme, Php, FeatherSolid,
+        AmbulanceSolid, GhostSolid, AddressCardSolid, Dochub, RssSolid)
+    return __AllIcons!!
+  }

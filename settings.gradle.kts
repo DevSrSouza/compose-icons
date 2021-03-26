@@ -20,7 +20,8 @@ include(
     "jetbrains:tabler-icons",
     "jetbrains:eva-icons",
     "jetbrains:font-awesome",
-    "jetbrains:erikflowers-weather-icons"
+    "jetbrains:erikflowers-weather-icons",
+    "jetbrains:line-awesome"
 )
 include(
     "android:simple-icons",
@@ -28,5 +29,6 @@ include(
     "android:tabler-icons",
     "android:eva-icons",
     "android:font-awesome",
-    "android:erikflowers-weather-icons"
+    "android:erikflowers-weather-icons",
+    "android:line-awesome"
 )

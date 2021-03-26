@@ -1,0 +1,152 @@
+package compose.icons.lineawesomeicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.LineAwesomeIcons
+
+public val LineAwesomeIcons.SnapchatGhost: ImageVector
+    get() {
+        if (_snapchatGhost != null) {
+            return _snapchatGhost!!
+        }
+        _snapchatGhost = Builder(name = "SnapchatGhost", defaultWidth = 32.0.dp, defaultHeight =
+                32.0.dp, viewportWidth = 32.0f, viewportHeight = 32.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(15.6875f, 4.0f)
+                curveTo(15.0977f, 4.0039f, 13.9492f, 4.0977f, 12.6563f, 4.6563f)
+                curveTo(11.3398f, 5.2227f, 9.9141f, 6.3125f, 9.0313f, 8.25f)
+                curveTo(8.3359f, 9.7773f, 8.5469f, 11.6836f, 8.6563f, 13.25f)
+                curveTo(8.4961f, 13.2188f, 8.3633f, 13.2344f, 8.125f, 13.125f)
+                curveTo(7.8945f, 13.0195f, 7.6641f, 12.9688f, 7.4375f, 12.9688f)
+                curveTo(7.0313f, 12.9688f, 6.6836f, 13.0781f, 6.3438f, 13.2813f)
+                curveTo(6.0039f, 13.4844f, 5.6094f, 13.8125f, 5.5f, 14.375f)
+                curveTo(5.4336f, 14.7266f, 5.5352f, 15.25f, 5.8438f, 15.625f)
+                curveTo(6.1523f, 16.0f, 6.6094f, 16.2656f, 7.2188f, 16.5f)
+                curveTo(7.3633f, 16.5547f, 7.4727f, 16.6172f, 7.5938f, 16.6563f)
+                curveTo(7.8516f, 16.7344f, 8.1328f, 16.8125f, 8.3125f, 16.9063f)
+                curveTo(8.4922f, 17.0f, 8.5195f, 17.0742f, 8.5f, 17.0313f)
+                curveTo(8.4961f, 17.0664f, 8.4727f, 17.1523f, 8.4063f, 17.2813f)
+                curveTo(8.3945f, 17.293f, 8.3867f, 17.3008f, 8.375f, 17.3125f)
+                curveTo(8.3477f, 17.3711f, 6.9336f, 20.4453f, 4.0625f, 20.9063f)
+                curveTo(3.4414f, 21.0039f, 2.9648f, 21.5742f, 3.0f, 22.2188f)
+                curveTo(3.0117f, 22.3945f, 3.0664f, 22.5508f, 3.125f, 22.6875f)
+                curveTo(3.3477f, 23.1992f, 3.7891f, 23.5273f, 4.375f, 23.7813f)
+                curveTo(4.8477f, 23.9844f, 5.6055f, 24.1289f, 6.4375f, 24.2813f)
+                curveTo(6.4531f, 24.3359f, 6.4531f, 24.332f, 6.4688f, 24.4063f)
+                curveTo(6.5078f, 24.582f, 6.5547f, 24.8047f, 6.625f, 25.0313f)
+                curveTo(6.7148f, 25.3281f, 6.957f, 25.6523f, 7.25f, 25.8125f)
+                curveTo(7.543f, 25.9727f, 7.7969f, 25.9688f, 7.9375f, 25.9688f)
+                curveTo(8.2383f, 25.9688f, 8.4258f, 25.9141f, 8.625f, 25.875f)
+                curveTo(8.9531f, 25.8125f, 9.3086f, 25.75f, 9.7813f, 25.75f)
+                curveTo(10.043f, 25.75f, 10.3438f, 25.7656f, 10.625f, 25.8125f)
+                curveTo(11.0156f, 25.875f, 11.4531f, 26.1719f, 12.0625f, 26.5938f)
+                curveTo(12.9453f, 27.2031f, 14.125f, 28.0f, 15.8438f, 28.0f)
+                curveTo(15.8633f, 28.0f, 15.8867f, 28.0f, 15.9063f, 28.0f)
+                curveTo(15.957f, 28.0f, 16.0234f, 28.0039f, 16.0625f, 28.0f)
+                curveTo(16.0938f, 28.0f, 16.125f, 28.0f, 16.1563f, 28.0f)
+                curveTo(17.875f, 28.0f, 19.0508f, 27.2031f, 19.9375f, 26.5938f)
+                curveTo(20.5469f, 26.1758f, 21.0156f, 25.875f, 21.4063f, 25.8125f)
+                curveTo(21.6875f, 25.7656f, 21.957f, 25.75f, 22.2188f, 25.75f)
+                curveTo(22.6836f, 25.75f, 23.0156f, 25.8086f, 23.375f, 25.875f)
+                curveTo(23.625f, 25.9219f, 23.8242f, 25.9688f, 24.0625f, 25.9688f)
+                lineTo(24.0938f, 25.9688f)
+                curveTo(24.3242f, 25.9688f, 24.6445f, 25.9063f, 24.9063f, 25.7188f)
+                curveTo(25.168f, 25.5313f, 25.3086f, 25.2266f, 25.375f, 25.0f)
+                curveTo(25.4414f, 24.7773f, 25.4883f, 24.5898f, 25.5313f, 24.4063f)
+                curveTo(25.5469f, 24.3281f, 25.5469f, 24.3359f, 25.5625f, 24.2813f)
+                curveTo(26.3945f, 24.1289f, 27.1523f, 23.9844f, 27.625f, 23.7813f)
+                curveTo(28.2109f, 23.5273f, 28.6523f, 23.1992f, 28.875f, 22.6875f)
+                curveTo(28.9336f, 22.5469f, 28.9883f, 22.3906f, 29.0f, 22.2188f)
+                curveTo(29.0352f, 21.5859f, 28.5781f, 21.0078f, 27.9688f, 20.9063f)
+                curveTo(27.957f, 20.9063f, 27.9492f, 20.9063f, 27.9375f, 20.9063f)
+                curveTo(26.5f, 20.6758f, 25.4492f, 19.8398f, 24.7188f, 19.0f)
+                curveTo(23.9883f, 18.1602f, 23.6211f, 17.332f, 23.625f, 17.3438f)
+                curveTo(23.6172f, 17.332f, 23.5938f, 17.2813f, 23.5938f, 17.2813f)
+                curveTo(23.5273f, 17.1523f, 23.5039f, 17.0664f, 23.5f, 17.0313f)
+                curveTo(23.4805f, 17.0742f, 23.5078f, 17.0f, 23.6875f, 16.9063f)
+                curveTo(23.8672f, 16.8125f, 24.1484f, 16.7344f, 24.4063f, 16.6563f)
+                curveTo(24.5352f, 16.6172f, 24.668f, 16.5547f, 24.8125f, 16.5f)
+                curveTo(25.3477f, 16.293f, 25.7266f, 16.0898f, 26.0313f, 15.7813f)
+                curveTo(26.3359f, 15.4727f, 26.5391f, 15.0117f, 26.5313f, 14.625f)
+                curveTo(26.5156f, 13.7969f, 25.9063f, 13.3398f, 25.3125f, 13.125f)
+                curveTo(25.3086f, 13.125f, 25.3164f, 13.0938f, 25.3125f, 13.0938f)
+                curveTo(25.3008f, 13.0898f, 25.293f, 13.0977f, 25.2813f, 13.0938f)
+                curveTo(25.0313f, 12.9961f, 24.793f, 12.9688f, 24.5313f, 12.9688f)
+                curveTo(24.3516f, 12.9688f, 24.0859f, 12.9727f, 23.75f, 13.125f)
+                curveTo(23.5781f, 13.2031f, 23.4766f, 13.1836f, 23.3438f, 13.2188f)
+                curveTo(23.4531f, 11.6602f, 23.6641f, 9.7695f, 22.9688f, 8.25f)
+                curveTo(22.0859f, 6.3125f, 20.6641f, 5.1953f, 19.3438f, 4.625f)
+                curveTo(18.0234f, 4.0547f, 16.8281f, 4.0f, 16.25f, 4.0f)
+                lineTo(16.1875f, 4.0f)
+                curveTo(16.1875f, 4.0f, 16.0742f, 4.0f, 15.9688f, 4.0f)
+                curveTo(15.918f, 4.0f, 15.8555f, 4.0f, 15.8125f, 4.0f)
+                curveTo(15.7891f, 4.0f, 15.7578f, 4.0f, 15.75f, 4.0f)
+                curveTo(15.7422f, 4.0f, 15.7773f, 3.9922f, 15.6875f, 4.0f)
+                close()
+                moveTo(15.75f, 6.0f)
+                curveTo(15.7813f, 6.0f, 15.8125f, 6.0f, 15.8438f, 6.0f)
+                curveTo(15.8828f, 6.0f, 15.9492f, 6.0f, 16.0f, 6.0f)
+                curveTo(16.1016f, 6.0f, 16.1875f, 6.0f, 16.1875f, 6.0f)
+                lineTo(16.25f, 6.0f)
+                curveTo(16.6484f, 6.0f, 17.5664f, 6.0547f, 18.5313f, 6.4688f)
+                curveTo(19.4961f, 6.8828f, 20.4844f, 7.625f, 21.1563f, 9.0938f)
+                curveTo(21.4648f, 9.7734f, 21.4805f, 11.7461f, 21.375f, 13.3438f)
+                lineTo(21.3438f, 13.4063f)
+                curveTo(21.3281f, 13.6289f, 21.3242f, 13.8516f, 21.3125f, 14.0625f)
+                curveTo(21.2969f, 14.3398f, 21.3984f, 14.6133f, 21.5938f, 14.8125f)
+                curveTo(21.7109f, 14.9297f, 22.168f, 15.1406f, 22.6563f, 15.25f)
+                curveTo(22.293f, 15.457f, 21.8828f, 15.7266f, 21.6563f, 16.25f)
+                curveTo(21.4063f, 16.8281f, 21.5195f, 17.4297f, 21.75f, 17.9688f)
+                curveTo(21.7578f, 18.0f, 21.7695f, 18.0313f, 21.7813f, 18.0625f)
+                curveTo(21.7852f, 18.0703f, 21.7773f, 18.0859f, 21.7813f, 18.0938f)
+                curveTo(21.7813f, 18.0977f, 21.7813f, 18.1211f, 21.7813f, 18.125f)
+                curveTo(21.7891f, 18.1367f, 21.8047f, 18.1445f, 21.8125f, 18.1563f)
+                curveTo(21.8906f, 18.3359f, 22.3047f, 19.2617f, 23.2188f, 20.3125f)
+                curveTo(23.8281f, 21.0117f, 24.7383f, 21.6641f, 25.8125f, 22.1875f)
+                curveTo(25.4727f, 22.2734f, 25.3203f, 22.3555f, 24.7813f, 22.4375f)
+                curveTo(24.2969f, 22.5117f, 23.9297f, 22.9492f, 23.8125f, 23.2188f)
+                curveTo(23.7031f, 23.4648f, 23.6758f, 23.6758f, 23.625f, 23.9063f)
+                curveTo(23.2344f, 23.8359f, 22.7969f, 23.75f, 22.2188f, 23.75f)
+                curveTo(21.8438f, 23.75f, 21.4414f, 23.7813f, 21.0625f, 23.8438f)
+                curveTo(20.0977f, 24.0f, 19.418f, 24.5195f, 18.8125f, 24.9375f)
+                curveTo(17.9219f, 25.5469f, 17.2813f, 26.0f, 16.1563f, 26.0f)
+                curveTo(16.1172f, 26.0f, 16.0781f, 26.0039f, 16.0313f, 26.0f)
+                curveTo(15.9883f, 25.9961f, 15.9492f, 25.9961f, 15.9063f, 26.0f)
+                curveTo(15.8867f, 26.0f, 15.8516f, 26.0f, 15.8438f, 26.0f)
+                curveTo(14.7188f, 26.0f, 14.0703f, 25.5469f, 13.1875f, 24.9375f)
+                curveTo(12.5781f, 24.5195f, 11.9063f, 24.0f, 10.9375f, 23.8438f)
+                curveTo(10.5586f, 23.7813f, 10.1563f, 23.75f, 9.7813f, 23.75f)
+                curveTo(9.1758f, 23.75f, 8.7422f, 23.8125f, 8.4063f, 23.875f)
+                curveTo(8.3633f, 23.6758f, 8.3164f, 23.4805f, 8.2188f, 23.25f)
+                curveTo(8.1055f, 22.9844f, 7.7578f, 22.5195f, 7.2188f, 22.4375f)
+                curveTo(6.6953f, 22.3594f, 6.5547f, 22.2734f, 6.2188f, 22.1875f)
+                curveTo(8.8516f, 20.9141f, 10.0703f, 18.4531f, 10.1875f, 18.1875f)
+                curveTo(10.1875f, 18.1875f, 10.1875f, 18.1563f, 10.1875f, 18.1563f)
+                curveTo(10.1875f, 18.1523f, 10.2148f, 18.1328f, 10.2188f, 18.125f)
+                curveTo(10.2344f, 18.0977f, 10.2539f, 18.0781f, 10.2813f, 17.9688f)
+                lineTo(10.2188f, 17.9375f)
+                curveTo(10.4414f, 17.3984f, 10.5938f, 16.8203f, 10.3438f, 16.25f)
+                curveTo(10.1094f, 15.7109f, 9.6836f, 15.4258f, 9.3125f, 15.2188f)
+                curveTo(9.7773f, 15.1211f, 10.2422f, 14.9805f, 10.4063f, 14.8125f)
+                curveTo(10.6016f, 14.6133f, 10.7031f, 14.3398f, 10.6875f, 14.0625f)
+                curveTo(10.6758f, 13.8281f, 10.6719f, 13.5938f, 10.6563f, 13.3438f)
+                curveTo(10.5547f, 11.7422f, 10.5352f, 9.7734f, 10.8438f, 9.0938f)
+                curveTo(11.5156f, 7.625f, 12.5078f, 6.8828f, 13.4688f, 6.4688f)
+                curveTo(14.4297f, 6.0547f, 15.3555f, 6.0f, 15.75f, 6.0f)
+                close()
+            }
+        }
+        .build()
+        return _snapchatGhost!!
+    }
+
+private var _snapchatGhost: ImageVector? = null
