@@ -1,0 +1,64 @@
+package compose.icons.lineaicons.arrows
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
+import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeCap.Butt
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.StrokeJoin.Bevel
+import androidx.compose.ui.graphics.StrokeJoin.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.lineaicons.ArrowsGroup
+
+public val ArrowsGroup.StretchVertical1: ImageVector
+    get() {
+        if (_stretchVertical1 != null) {
+            return _stretchVertical1!!
+        }
+        _stretchVertical1 = Builder(name = "StretchVertical1", defaultWidth = 64.0.dp, defaultHeight
+                = 64.0.dp, viewportWidth = 64.0f, viewportHeight = 64.0f).apply {
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Bevel,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(40.0f, 9.0f)
+                lineToRelative(-8.0f, -8.0f)
+                lineToRelative(-8.0f, 8.0f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Bevel,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(24.0f, 55.0f)
+                lineToRelative(8.0f, 8.0f)
+                lineToRelative(8.0f, -8.0f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(32.0f, 62.0f)
+                lineToRelative(0.0f, -9.677f)
+                lineToRelative(0.0f, -14.323f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(32.0f, 26.0f)
+                lineToRelative(0.0f, -3.677f)
+                lineToRelative(0.0f, -20.323f)
+            }
+            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
+                    strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(21.0f, 32.0f)
+                lineTo(43.0f, 32.0f)
+            }
+        }
+        .build()
+        return _stretchVertical1!!
+    }
+
+private var _stretchVertical1: ImageVector? = null

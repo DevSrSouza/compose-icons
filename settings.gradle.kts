@@ -21,7 +21,8 @@ include(
     "jetbrains:eva-icons",
     "jetbrains:font-awesome",
     "jetbrains:erikflowers-weather-icons",
-    "jetbrains:line-awesome"
+    "jetbrains:line-awesome",
+    "jetbrains:linea"
 )
 include(
     "android:simple-icons",
@@ -30,5 +31,6 @@ include(
     "android:eva-icons",
     "android:font-awesome",
     "android:erikflowers-weather-icons",
-    "android:line-awesome"
+    "android:line-awesome",
+    "android:linea"
 )
