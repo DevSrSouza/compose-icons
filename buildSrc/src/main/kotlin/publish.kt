@@ -6,7 +6,7 @@ import org.gradle.api.tasks.bundling.Jar
 
 object Publish {
     val groupId = "br.com.devsrsouza.compose.icons"
-    val version = "0.2.0-SNAPSHOT"
+    val version = "0.2.0"
 
     val groupAndroid = "$groupId.android"
     val groupJetbrains = "$groupId.jetbrains"
