@@ -23,7 +23,8 @@ include(
     "jetbrains:erikflowers-weather-icons",
     "jetbrains:line-awesome",
     "jetbrains:linea",
-    "jetbrains:octicons"
+    "jetbrains:octicons",
+    "jetbrains:css-gg"
 )
 include(
     "android:simple-icons",
@@ -34,5 +35,6 @@ include(
     "android:erikflowers-weather-icons",
     "android:line-awesome",
     "android:linea",
-    "android:octicons"
+    "android:octicons",
+    "android:css-gg"
 )
