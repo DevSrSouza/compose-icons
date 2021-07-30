@@ -20,7 +20,7 @@ public val LineaIcons.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= Weather.AllIcons + Arrows.AllIcons + Software.AllIcons + Basic.AllIcons +
-        Music.AllIcons + Ecommerce.AllIcons + BasicElaboration.AllIcons + listOf()
+    __AllIcons= Software.AllIcons + Ecommerce.AllIcons + Music.AllIcons +
+        BasicElaboration.AllIcons + Weather.AllIcons + Basic.AllIcons + Arrows.AllIcons + listOf()
     return __AllIcons!!
   }

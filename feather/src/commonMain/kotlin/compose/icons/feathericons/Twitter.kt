@@ -1,9 +1,9 @@
 package compose.icons.feathericons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.StrokeCap.Round
+import androidx.compose.ui.graphics.StrokeCap.Companion.Round
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
@@ -20,7 +20,7 @@ public val FeatherIcons.Twitter: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(23.0f, 3.0f)
                 arcToRelative(10.9f, 10.9f, 0.0f, false, true, -3.14f, 1.53f)
                 arcToRelative(4.48f, 4.48f, 0.0f, false, false, -7.86f, 3.0f)

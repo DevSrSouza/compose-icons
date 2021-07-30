@@ -2,10 +2,10 @@ package compose.icons.tablericons
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
-import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.graphics.StrokeCap.Round
+import androidx.compose.ui.graphics.StrokeCap.Companion.Round
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
@@ -22,7 +22,7 @@ public val TablerIcons.BrandFirefox: ImageVector
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.028f, 7.82f)
                 arcToRelative(9.0f, 9.0f, 0.0f, true, false, 12.823f, -3.4f)
                 curveToRelative(-1.636f, -1.02f, -3.064f, -1.02f, -4.851f, -1.02f)
@@ -30,7 +30,7 @@ public val TablerIcons.BrandFirefox: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.914f, 9.485f)
                 curveToRelative(-1.756f, -1.569f, -0.805f, -5.38f, 0.109f, -6.17f)
                 curveToRelative(0.086f, 0.896f, 0.585f, 1.208f, 1.111f, 1.685f)

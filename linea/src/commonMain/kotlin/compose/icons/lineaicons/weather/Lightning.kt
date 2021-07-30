@@ -1,10 +1,10 @@
 package compose.icons.lineaicons.weather
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.StrokeCap.Butt
-import androidx.compose.ui.graphics.StrokeJoin.Bevel
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Bevel
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path

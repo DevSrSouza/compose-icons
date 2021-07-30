@@ -2,10 +2,10 @@ package compose.icons.feathericons
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
-import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.graphics.StrokeCap.Round
+import androidx.compose.ui.graphics.StrokeCap.Companion.Round
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
@@ -22,7 +22,7 @@ public val FeatherIcons.Volume2: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(11.0f, 5.0f)
                 lineToRelative(-5.0f, 4.0f)
                 lineToRelative(-4.0f, 0.0f)
@@ -34,7 +34,7 @@ public val FeatherIcons.Volume2: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.07f, 4.93f)
                 arcToRelative(10.0f, 10.0f, 0.0f, false, true, 0.0f, 14.14f)
                 moveTo(15.54f, 8.46f)

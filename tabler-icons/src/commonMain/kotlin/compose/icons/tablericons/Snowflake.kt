@@ -2,10 +2,10 @@ package compose.icons.tablericons
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
-import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.graphics.StrokeCap.Round
+import androidx.compose.ui.graphics.StrokeCap.Companion.Round
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
@@ -22,7 +22,7 @@ public val TablerIcons.Snowflake: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(10.0f, 4.0f)
                 lineToRelative(2.0f, 1.0f)
                 lineToRelative(2.0f, -1.0f)
@@ -32,7 +32,7 @@ public val TablerIcons.Snowflake: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(17.9282f, 6.2679f)
                 lineToRelative(0.134f, 2.2321f)
                 lineToRelative(1.866f, 1.2321f)
@@ -42,7 +42,7 @@ public val TablerIcons.Snowflake: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.9282f, 14.2679f)
                 lineToRelative(-1.866f, 1.2321f)
                 lineToRelative(-0.134f, 2.2321f)
@@ -52,7 +52,7 @@ public val TablerIcons.Snowflake: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(14.0f, 20.0f)
                 lineToRelative(-2.0f, -1.0f)
                 lineToRelative(-2.0f, 1.0f)
@@ -62,7 +62,7 @@ public val TablerIcons.Snowflake: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(6.0718f, 17.732f)
                 lineToRelative(-0.134f, -2.2321f)
                 lineToRelative(-1.866f, -1.2321f)
@@ -72,7 +72,7 @@ public val TablerIcons.Snowflake: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.0718f, 9.7321f)
                 lineToRelative(1.866f, -1.2321f)
                 lineToRelative(0.134f, -2.2321f)

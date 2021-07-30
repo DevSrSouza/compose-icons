@@ -151,21 +151,21 @@ public val BasicGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Info, MailOpen, CardsDiamonds, Webpage, Case, Video, Target, Diamonds,
-        SheetMultiple, Pin2, MagnifierMinus, Download, Exclamation, Accelerator, ServerCloud, Todo,
-        Map, Mixer2, Key, Calendar, Message, Floppydisk, World, Paperplane, Ipod, Clockwise, Link,
-        Folder, CardsHearts, Bolt, TodoPen, PictureMultiple, SheetPencil, Female, Settings, Hammer,
-        SheetPen, TodolistPencil, Spread, Flag1, BookPencil, Mail, Compass, Lock, MagicMouse,
-        Lightbulb, HeartBroken, TrashcanRefresh, Home, `Geolocalize-05`, Archive, Pin1, Display,
-        Clock, Watch, BatteryCharge, Trashcan, Magnifier, Alarm, Male, BatteryFull, Usb, Upload,
-        Eye, Clubs, `Geolocalize-01`, LifeBuoy, MessageTxt, Rss, Gunsight, ServerDownload, Photo,
-        Mouse, Helm, Chronometer, MessageMultiple, Signs, Question, Sheet, MailMultiple, Keyboard,
-        Picture, BatteryHalf, LockOpen, BookPen, MailOpenText, Notebook, Share, SheetTxt,
-        PencilRuler, Gear, Server, ArchiveFull, SpreadText, Joypad, EyeClosed, NotebookPencil, Book,
-        Calculator, Clessidre, WebpageMultiple, SpreadBookmark, Smartphone, PencilRulerPen,
-        WebpageImgTxt, NotebookPen, ServerUpload, WebpageTxt, PostcardMultiple, Anchor, Star,
-        Postcard, Bookmark, Heart, Cloud, Headset, TodoPencil, TrashcanRemove, SpreadTextBookmark,
-        Ban, TodoTxt, TrashcanFull, BatteryEmpty, Laptop, Globe, TodolistPen, Printer, Tablet, Cup,
-        Server2, Flag2, Spades, Anticlockwise, FolderMultiple, MagnifierPlus)
+    __AllIcons= listOf(MailOpenText, Archive, Bookmark, Mixer2, Clessidre, BookPencil, LifeBuoy,
+        Display, MagnifierMinus, Printer, Globe, Clockwise, Flag1, Gear, Map, Pin1, Headset,
+        TodoPen, Question, SheetMultiple, Anticlockwise, Calendar, Lock, BatteryFull, Case,
+        TrashcanRefresh, Key, Rss, MagnifierPlus, Notebook, Anchor, Cup, Mail, Photo, BatteryEmpty,
+        Chronometer, Diamonds, `Geolocalize-01`, Postcard, PostcardMultiple, SheetPen, CardsHearts,
+        ServerCloud, Message, Calculator, TodoTxt, Server, TrashcanFull, `Geolocalize-05`, World,
+        Home, Heart, Link, LockOpen, MessageMultiple, Download, MailOpen, Picture, Webpage, Usb,
+        WebpageImgTxt, Keyboard, Ban, MessageTxt, EyeClosed, Signs, TodoPencil, WebpageMultiple,
+        TrashcanRemove, Clubs, Floppydisk, HeartBroken, Spades, MagicMouse, Joypad, Target, Upload,
+        CardsDiamonds, TodolistPencil, Flag2, FolderMultiple, ServerUpload, WebpageTxt, Clock, Pin2,
+        Mouse, Video, Star, Accelerator, Exclamation, SpreadBookmark, PencilRulerPen, Laptop, Ipod,
+        SheetPencil, MailMultiple, Magnifier, Eye, Trashcan, Gunsight, Female, PencilRuler, Book,
+        SheetTxt, Folder, Male, Todo, Smartphone, ArchiveFull, Cloud, Lightbulb, Compass,
+        NotebookPencil, BatteryCharge, SpreadTextBookmark, Paperplane, Watch, Settings, Server2,
+        Sheet, SpreadText, Bolt, BatteryHalf, PictureMultiple, BookPen, Alarm, ServerDownload, Helm,
+        Hammer, TodolistPen, Info, Share, Spread, NotebookPen, Tablet)
     return __AllIcons!!
   }

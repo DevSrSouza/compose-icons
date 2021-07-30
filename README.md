@@ -6,8 +6,8 @@ Compose icons is a pack of libraries that provide well known Icon Packs to use i
 
 ## Compose versions
 
-- Jetpack Compose (Android): `1.0.0-beta01`
-- Jetbrains Compose (Desktop): `0.3.1`
+- Jetpack Compose (Android): `1.0.0`
+- Jetbrains Compose (Desktop): `0.5.0-build235`
 
 ## Adding to your project
 
@@ -20,12 +20,12 @@ repositories {
 
 For [Jetpack Compose (Android)](https://developer.android.com/jetpack/compose):
 ```kotlin
-implementation("br.com.devsrsouza.compose.icons.android:ICON_PACK:0.2.0")
+implementation("br.com.devsrsouza.compose.icons.android:ICON_PACK:1.0.0")
 ```
 
 For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/):
 ```kotlin
-implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:0.2.0")
+implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:1.0.0")
 ```
 
 ## Example

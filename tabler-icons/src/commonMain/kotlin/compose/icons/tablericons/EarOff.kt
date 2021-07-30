@@ -2,10 +2,10 @@ package compose.icons.tablericons
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
-import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.graphics.StrokeCap.Round
+import androidx.compose.ui.graphics.StrokeCap.Companion.Round
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
@@ -22,7 +22,7 @@ public val TablerIcons.EarOff: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(6.0f, 10.0f)
                 curveToRelative(0.0f, -1.146f, 0.277f, -2.245f, 0.78f, -3.219f)
                 moveToRelative(1.792f, -2.208f)
@@ -34,13 +34,13 @@ public val TablerIcons.EarOff: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(11.42f, 7.414f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, 4.131f, 4.13f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 3.0f)
                 lineTo(21.0f, 21.0f)
             }

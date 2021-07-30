@@ -1,10 +1,10 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
 import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.StrokeCap.Butt
-import androidx.compose.ui.graphics.StrokeJoin.Miter
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
 import androidx.compose.ui.graphics.vector.path

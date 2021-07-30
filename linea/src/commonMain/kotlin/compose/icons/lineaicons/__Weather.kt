@@ -101,16 +101,16 @@ public val WeatherGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(HailSun, LastQuarter, WindNe, Move2, StormHalfmoon, CloudSnowflake,
-        MoondownFull, StormSun, SnowHalfmoon, MistyrainHalfmoon, Leo, WindS, Fog, WaningGibbous,
-        VariableHalfmoon, Virgo, Sundown, FirstQuarter, Sun, CloudDrop, WindHalfmoon, Aquarius,
-        SnowFullmoon, Taurus, Libra, Mistyrain, Lightning, SnowSun, CloudLightning, Drop, Sunset,
-        Capricorn, WindN, WindNw, VariableSun, FogSun, Rain, DownpourSun, MoonsetFull, HailHalfmoon,
-        Cancer, Snowflake, HailFullmoon, WindSun, MistyrainSun, DownpourHalfmoon, WindW, Gemini,
-        TempestSun, WindSw, RainFullmoon, Fullmoon, Wind, `Storm-32`, Scorpio, WaxingCresent, Snow,
-        MistyrainFullmoon, MoondownHalf, Hail, WaxingGibbous, RainSun, WindSe, Moon, Star,
-        DownpourFullmoon, WindE, Cloud, Windgust, Aries, TempestHalfmoon, VariableFullmoon,
-        TempestFullmoon, RainHalfmoon, WindFullmoon, MoonsetHalf, Newmoon, FogHalfmoon, Sagittarius,
-        Pisces, `Storm-11`, StormFullmoon, WaningCresent, FogFullmoon, Tempest)
+    __AllIcons= listOf(Sun, Wind, WindFullmoon, VariableSun, CloudDrop, FogSun, Snowflake, Scorpio,
+        Windgust, WaningCresent, TempestHalfmoon, WindSe, Aquarius, `Storm-11`, Hail, RainFullmoon,
+        HailSun, MistyrainSun, WindNw, Moon, WindN, DownpourSun, `Storm-32`, SnowFullmoon,
+        FogFullmoon, VariableHalfmoon, StormSun, DownpourFullmoon, HailFullmoon, Lightning,
+        MoondownHalf, CloudSnowflake, Taurus, SnowSun, Rain, WindSw, WaxingGibbous, RainHalfmoon,
+        Newmoon, Mistyrain, Snow, WindSun, WaxingCresent, VariableFullmoon, Fullmoon, WindE, Fog,
+        TempestSun, WindNe, DownpourHalfmoon, Sagittarius, Tempest, StormHalfmoon, HailHalfmoon,
+        Star, RainSun, Sunset, FogHalfmoon, Aries, Capricorn, Move2, MoonsetFull, Pisces,
+        TempestFullmoon, WindS, MistyrainHalfmoon, Leo, Sundown, WaningGibbous, StormFullmoon,
+        MistyrainFullmoon, Cloud, CloudLightning, Drop, WindW, FirstQuarter, SnowHalfmoon, Virgo,
+        MoondownFull, MoonsetHalf, Cancer, Libra, WindHalfmoon, Gemini, LastQuarter)
     return __AllIcons!!
   }

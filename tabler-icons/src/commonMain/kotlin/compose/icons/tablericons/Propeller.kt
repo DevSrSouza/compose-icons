@@ -2,10 +2,10 @@ package compose.icons.tablericons
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
-import androidx.compose.ui.graphics.PathFillType.NonZero
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
-import androidx.compose.ui.graphics.StrokeCap.Round
+import androidx.compose.ui.graphics.StrokeCap.Companion.Round
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.graphics.vector.ImageVector.Builder
@@ -22,7 +22,7 @@ public val TablerIcons.Propeller: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 13.0f)
                 moveToRelative(-3.0f, 0.0f)
                 arcToRelative(3.0f, 3.0f, 0.0f, true, true, 6.0f, 0.0f)
@@ -30,7 +30,7 @@ public val TablerIcons.Propeller: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(14.167f, 10.5f)
                 curveToRelative(0.722f, -1.538f, 1.156f, -3.043f, 1.303f, -4.514f)
                 curveToRelative(0.22f, -1.63f, -0.762f, -2.986f, -3.47f, -2.986f)
@@ -39,7 +39,7 @@ public val TablerIcons.Propeller: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(13.169f, 16.751f)
                 curveToRelative(0.97f, 1.395f, 2.057f, 2.523f, 3.257f, 3.386f)
                 curveToRelative(1.3f, 1.006f, 2.967f, 0.833f, 4.321f, -1.512f)
@@ -48,7 +48,7 @@ public val TablerIcons.Propeller: ImageVector
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.664f, 12.999f)
                 curveToRelative(-1.693f, 0.143f, -3.213f, 0.52f, -4.56f, 1.128f)
                 curveToRelative(-1.522f, 0.623f, -2.206f, 2.153f, -0.852f, 4.498f)
