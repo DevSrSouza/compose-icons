@@ -28,6 +28,10 @@ For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/):
 implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:1.0.0")
 ```
 
+** `ICON_PACK` is a placeholder, you should replace it with your icon pack of choose.
+
+example: `br.com.devsrsouza.compose.icons.android:simple-icons:1.0.0`
+
 ## Example
 
 ```kotlin
