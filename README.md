@@ -6,8 +6,7 @@ Compose icons is a pack of libraries that provide well known Icon Packs to use i
 
 ## Compose versions
 
-- Jetpack Compose (Android): `1.0.0`
-- Jetbrains Compose (Desktop): `0.5.0-build235`
+- Jetpack Compose : `1.2.2`
 
 ## Adding to your project
 
@@ -18,17 +17,11 @@ repositories {
 }
 ```
 
-For [Jetpack Compose (Android)](https://developer.android.com/jetpack/compose):
-```kotlin
-implementation("br.com.devsrsouza.compose.icons.android:ICON_PACK:1.0.0")
-```
-
-For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/):
 ```kotlin
 implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:1.0.0")
 ```
 
-** `ICON_PACK` is a placeholder, you should replace it with your icon pack of choose.
+** `ICON_PACK` is a placeholder, you should replace it with your icon pack of choice.
 
 example: `br.com.devsrsouza.compose.icons.android:simple-icons:1.0.0`
 
@@ -54,6 +47,7 @@ Icon(
 | [Line Awesome](https://icons8.com/line-awesome)                               | 1.3.0 (a60f113) | `line-awesome`              | [docs](line-awesome/DOCUMENTATION.md)              |
 | [Weather Icons by Erik Flowers](https://github.com/erikflowers/weather-icons) | 2.0.12          | `erikflowers-weather-icons` | [docs](erikflowers-weather-icons/DOCUMENTATION.md) |
 | [css.gg](https://css.gg/)                                                     | 2.0.0           | `css-gg`                    | [docs](css-gg/DOCUMENTATION.md)                    |
+| [MaterialDesignIcons](https://materialdesignicons.com/)                       | 1c3c13e         | `materialdesignicons`       | [docs](materialdesignicons/DOCUMENTATION.md)       |
 
 ## How the project works
 

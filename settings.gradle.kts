@@ -26,3 +26,9 @@ include(
     "css-gg",
     "materialdesignicons"
 )
+
+include(
+    "demo:android",
+    "demo:common",
+    "demo:desktop"
+)
