@@ -24,7 +24,8 @@ include(
     "jetbrains:line-awesome",
     "jetbrains:linea",
     "jetbrains:octicons",
-    "jetbrains:css-gg"
+    "jetbrains:css-gg",
+    "jetbrains:materialdesignicons"
 )
 include(
     "android:simple-icons",
@@ -36,5 +37,6 @@ include(
     "android:line-awesome",
     "android:linea",
     "android:octicons",
-    "android:css-gg"
+    "android:css-gg",
+    "android:materialdesignicons"
 )
