@@ -13,30 +13,16 @@ pluginManagement {
 
 rootProject.name = "compose-icons"
 
-//include("simple-icons", "feather", "tabler-icons", "eva-icons")
 include(
-    "jetbrains:simple-icons",
-    "jetbrains:feather",
-    "jetbrains:tabler-icons",
-    "jetbrains:eva-icons",
-    "jetbrains:font-awesome",
-    "jetbrains:erikflowers-weather-icons",
-    "jetbrains:line-awesome",
-    "jetbrains:linea",
-    "jetbrains:octicons",
-    "jetbrains:css-gg",
-    "jetbrains:materialdesignicons"
-)
-include(
-    "android:simple-icons",
-    "android:feather",
-    "android:tabler-icons",
-    "android:eva-icons",
-    "android:font-awesome",
-    "android:erikflowers-weather-icons",
-    "android:line-awesome",
-    "android:linea",
-    "android:octicons",
-    "android:css-gg",
-    "android:materialdesignicons"
+    "simple-icons",
+    "feather",
+    "tabler-icons",
+    "eva-icons",
+    "font-awesome",
+    "erikflowers-weather-icons",
+    "line-awesome",
+    "linea",
+    "octicons",
+    "css-gg",
+    "materialdesignicons"
 )

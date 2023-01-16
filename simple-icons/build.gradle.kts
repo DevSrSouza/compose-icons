@@ -1,18 +1,18 @@
-import org.jetbrains.compose.compose
-
 plugins {
     kotlin("multiplatform")
-    id("org.jetbrains.compose")
+    id("org.jetbrains.compose").version(Versions.composeVersion)
     id("com.android.library")
-    id("kotlin-android-extensions")
 }
 
+group = Publish.groupJetbrains
+
 kotlin {
-    android()
+    android {
+        publishLibraryVariants()
+    }
     jvm("desktop") {
         compilations.all {
             kotlinOptions.jvmTarget = "1.8"
-
         }
     }
     sourceSets {
@@ -35,4 +35,13 @@ android {
         minSdk = 21
         targetSdk = 33
     }
+}
+
+val javadocJar = tasks.register("javadocJar", Jar::class.java) {
+    archiveClassifier.set("javadoc")
+}
+
+afterEvaluate {
+    setupSigning()
+    applyPomToAllMavenPublications(javadocJar)
 }
