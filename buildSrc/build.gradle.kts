@@ -1,5 +1,7 @@
 repositories {
     jcenter()
+    mavenCentral()
+    google()
 }
 
 plugins {

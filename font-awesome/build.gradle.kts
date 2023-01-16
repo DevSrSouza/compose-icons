@@ -28,10 +28,10 @@ kotlin {
 }
 
 android {
-    compileSdkVersion(29)
+    compileSdk = 33
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
-        minSdkVersion(21)
-        targetSdkVersion(29)
+        minSdk = 21
+        targetSdk = 33
     }
 }

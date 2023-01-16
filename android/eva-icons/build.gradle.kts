@@ -14,10 +14,10 @@ dependencies {
 android {
     sourceSets["main"].java.srcDir("../../eva-icons/src/commonMain/kotlin")
 
-    compileSdkVersion(29)
+    compileSdk = 33
     defaultConfig {
-        minSdkVersion(21)
-        targetSdkVersion(29)
+        minSdk = 21
+        targetSdk = 33
     }
 
     compileOptions {
@@ -26,14 +26,10 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
-        useIR = true
+//        useIR = true
     }
     buildFeatures {
         compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = Versions.composeAndroidVersion
-        kotlinCompilerVersion = "1.4.21"
     }
 }
 
