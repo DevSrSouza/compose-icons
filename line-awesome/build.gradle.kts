@@ -15,6 +15,10 @@ kotlin {
             kotlinOptions.jvmTarget = "1.8"
         }
     }
+    js(IR) {
+        browser()
+        binaries.executable()
+    }
     sourceSets {
         val commonMain by getting {
             dependencies {
@@ -25,6 +29,11 @@ kotlin {
         }
         val androidMain by getting
         val desktopMain by getting
+        named("jsMain") {
+            dependencies {
+                api(compose.web.core)
+            }
+        }
     }
 }
 
