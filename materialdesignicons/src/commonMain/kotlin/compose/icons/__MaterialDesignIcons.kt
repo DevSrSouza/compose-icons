@@ -1,0 +1,8541 @@
+package compose.icons
+
+import androidx.compose.ui.graphics.vector.ImageVector
+import compose.icons.materialdesignicons.AbTesting
+import compose.icons.materialdesignicons.Abacus
+import compose.icons.materialdesignicons.AbjadArabic
+import compose.icons.materialdesignicons.AbjadHebrew
+import compose.icons.materialdesignicons.AbugidaDevanagari
+import compose.icons.materialdesignicons.AbugidaThai
+import compose.icons.materialdesignicons.AccessPoint
+import compose.icons.materialdesignicons.AccessPointCheck
+import compose.icons.materialdesignicons.AccessPointMinus
+import compose.icons.materialdesignicons.AccessPointNetwork
+import compose.icons.materialdesignicons.AccessPointNetworkOff
+import compose.icons.materialdesignicons.AccessPointOff
+import compose.icons.materialdesignicons.AccessPointPlus
+import compose.icons.materialdesignicons.AccessPointRemove
+import compose.icons.materialdesignicons.Account
+import compose.icons.materialdesignicons.AccountAlert
+import compose.icons.materialdesignicons.AccountAlertOutline
+import compose.icons.materialdesignicons.AccountArrowDown
+import compose.icons.materialdesignicons.AccountArrowDownOutline
+import compose.icons.materialdesignicons.AccountArrowLeft
+import compose.icons.materialdesignicons.AccountArrowLeftOutline
+import compose.icons.materialdesignicons.AccountArrowRight
+import compose.icons.materialdesignicons.AccountArrowRightOutline
+import compose.icons.materialdesignicons.AccountArrowUp
+import compose.icons.materialdesignicons.AccountArrowUpOutline
+import compose.icons.materialdesignicons.AccountBadge
+import compose.icons.materialdesignicons.AccountBadgeOutline
+import compose.icons.materialdesignicons.AccountBox
+import compose.icons.materialdesignicons.AccountBoxMultiple
+import compose.icons.materialdesignicons.AccountBoxMultipleOutline
+import compose.icons.materialdesignicons.AccountBoxOutline
+import compose.icons.materialdesignicons.AccountCancel
+import compose.icons.materialdesignicons.AccountCancelOutline
+import compose.icons.materialdesignicons.AccountCard
+import compose.icons.materialdesignicons.AccountCardOutline
+import compose.icons.materialdesignicons.AccountCash
+import compose.icons.materialdesignicons.AccountCashOutline
+import compose.icons.materialdesignicons.AccountCheck
+import compose.icons.materialdesignicons.AccountCheckOutline
+import compose.icons.materialdesignicons.AccountChild
+import compose.icons.materialdesignicons.AccountChildCircle
+import compose.icons.materialdesignicons.AccountChildOutline
+import compose.icons.materialdesignicons.AccountCircle
+import compose.icons.materialdesignicons.AccountCircleOutline
+import compose.icons.materialdesignicons.AccountClock
+import compose.icons.materialdesignicons.AccountClockOutline
+import compose.icons.materialdesignicons.AccountCog
+import compose.icons.materialdesignicons.AccountCogOutline
+import compose.icons.materialdesignicons.AccountConvert
+import compose.icons.materialdesignicons.AccountConvertOutline
+import compose.icons.materialdesignicons.AccountCowboyHat
+import compose.icons.materialdesignicons.AccountCowboyHatOutline
+import compose.icons.materialdesignicons.AccountCreditCard
+import compose.icons.materialdesignicons.AccountCreditCardOutline
+import compose.icons.materialdesignicons.AccountDetails
+import compose.icons.materialdesignicons.AccountDetailsOutline
+import compose.icons.materialdesignicons.AccountEdit
+import compose.icons.materialdesignicons.AccountEditOutline
+import compose.icons.materialdesignicons.AccountEye
+import compose.icons.materialdesignicons.AccountEyeOutline
+import compose.icons.materialdesignicons.AccountFilter
+import compose.icons.materialdesignicons.AccountFilterOutline
+import compose.icons.materialdesignicons.AccountGroup
+import compose.icons.materialdesignicons.AccountGroupOutline
+import compose.icons.materialdesignicons.AccountHardHat
+import compose.icons.materialdesignicons.AccountHardHatOutline
+import compose.icons.materialdesignicons.AccountHeart
+import compose.icons.materialdesignicons.AccountHeartOutline
+import compose.icons.materialdesignicons.AccountInjury
+import compose.icons.materialdesignicons.AccountInjuryOutline
+import compose.icons.materialdesignicons.AccountKey
+import compose.icons.materialdesignicons.AccountKeyOutline
+import compose.icons.materialdesignicons.AccountLock
+import compose.icons.materialdesignicons.AccountLockOpen
+import compose.icons.materialdesignicons.AccountLockOpenOutline
+import compose.icons.materialdesignicons.AccountLockOutline
+import compose.icons.materialdesignicons.AccountMinus
+import compose.icons.materialdesignicons.AccountMinusOutline
+import compose.icons.materialdesignicons.AccountMultiple
+import compose.icons.materialdesignicons.AccountMultipleCheck
+import compose.icons.materialdesignicons.AccountMultipleCheckOutline
+import compose.icons.materialdesignicons.AccountMultipleMinus
+import compose.icons.materialdesignicons.AccountMultipleMinusOutline
+import compose.icons.materialdesignicons.AccountMultipleOutline
+import compose.icons.materialdesignicons.AccountMultiplePlus
+import compose.icons.materialdesignicons.AccountMultiplePlusOutline
+import compose.icons.materialdesignicons.AccountMultipleRemove
+import compose.icons.materialdesignicons.AccountMultipleRemoveOutline
+import compose.icons.materialdesignicons.AccountMusic
+import compose.icons.materialdesignicons.AccountMusicOutline
+import compose.icons.materialdesignicons.AccountNetwork
+import compose.icons.materialdesignicons.AccountNetworkOff
+import compose.icons.materialdesignicons.AccountNetworkOffOutline
+import compose.icons.materialdesignicons.AccountNetworkOutline
+import compose.icons.materialdesignicons.AccountOff
+import compose.icons.materialdesignicons.AccountOffOutline
+import compose.icons.materialdesignicons.AccountOutline
+import compose.icons.materialdesignicons.AccountPlus
+import compose.icons.materialdesignicons.AccountPlusOutline
+import compose.icons.materialdesignicons.AccountQuestion
+import compose.icons.materialdesignicons.AccountQuestionOutline
+import compose.icons.materialdesignicons.AccountReactivate
+import compose.icons.materialdesignicons.AccountReactivateOutline
+import compose.icons.materialdesignicons.AccountRemove
+import compose.icons.materialdesignicons.AccountRemoveOutline
+import compose.icons.materialdesignicons.AccountSchool
+import compose.icons.materialdesignicons.AccountSchoolOutline
+import compose.icons.materialdesignicons.AccountSearch
+import compose.icons.materialdesignicons.AccountSearchOutline
+import compose.icons.materialdesignicons.AccountSettings
+import compose.icons.materialdesignicons.AccountSettingsOutline
+import compose.icons.materialdesignicons.AccountStar
+import compose.icons.materialdesignicons.AccountStarOutline
+import compose.icons.materialdesignicons.AccountSupervisor
+import compose.icons.materialdesignicons.AccountSupervisorCircle
+import compose.icons.materialdesignicons.AccountSupervisorCircleOutline
+import compose.icons.materialdesignicons.AccountSupervisorOutline
+import compose.icons.materialdesignicons.AccountSwitch
+import compose.icons.materialdesignicons.AccountSwitchOutline
+import compose.icons.materialdesignicons.AccountSync
+import compose.icons.materialdesignicons.AccountSyncOutline
+import compose.icons.materialdesignicons.AccountTag
+import compose.icons.materialdesignicons.AccountTagOutline
+import compose.icons.materialdesignicons.AccountTie
+import compose.icons.materialdesignicons.AccountTieHat
+import compose.icons.materialdesignicons.AccountTieHatOutline
+import compose.icons.materialdesignicons.AccountTieOutline
+import compose.icons.materialdesignicons.AccountTieVoice
+import compose.icons.materialdesignicons.AccountTieVoiceOff
+import compose.icons.materialdesignicons.AccountTieVoiceOffOutline
+import compose.icons.materialdesignicons.AccountTieVoiceOutline
+import compose.icons.materialdesignicons.AccountTieWoman
+import compose.icons.materialdesignicons.AccountVoice
+import compose.icons.materialdesignicons.AccountVoiceOff
+import compose.icons.materialdesignicons.AccountWrench
+import compose.icons.materialdesignicons.AccountWrenchOutline
+import compose.icons.materialdesignicons.Adjust
+import compose.icons.materialdesignicons.Advertisements
+import compose.icons.materialdesignicons.AdvertisementsOff
+import compose.icons.materialdesignicons.AirConditioner
+import compose.icons.materialdesignicons.AirFilter
+import compose.icons.materialdesignicons.AirHorn
+import compose.icons.materialdesignicons.AirHumidifier
+import compose.icons.materialdesignicons.AirHumidifierOff
+import compose.icons.materialdesignicons.AirPurifier
+import compose.icons.materialdesignicons.AirPurifierOff
+import compose.icons.materialdesignicons.Airbag
+import compose.icons.materialdesignicons.Airballoon
+import compose.icons.materialdesignicons.AirballoonOutline
+import compose.icons.materialdesignicons.Airplane
+import compose.icons.materialdesignicons.AirplaneAlert
+import compose.icons.materialdesignicons.AirplaneCheck
+import compose.icons.materialdesignicons.AirplaneClock
+import compose.icons.materialdesignicons.AirplaneCog
+import compose.icons.materialdesignicons.AirplaneEdit
+import compose.icons.materialdesignicons.AirplaneLanding
+import compose.icons.materialdesignicons.AirplaneMarker
+import compose.icons.materialdesignicons.AirplaneMinus
+import compose.icons.materialdesignicons.AirplaneOff
+import compose.icons.materialdesignicons.AirplanePlus
+import compose.icons.materialdesignicons.AirplaneRemove
+import compose.icons.materialdesignicons.AirplaneSearch
+import compose.icons.materialdesignicons.AirplaneSettings
+import compose.icons.materialdesignicons.AirplaneTakeoff
+import compose.icons.materialdesignicons.Airport
+import compose.icons.materialdesignicons.Alarm
+import compose.icons.materialdesignicons.AlarmBell
+import compose.icons.materialdesignicons.AlarmCheck
+import compose.icons.materialdesignicons.AlarmLight
+import compose.icons.materialdesignicons.AlarmLightOff
+import compose.icons.materialdesignicons.AlarmLightOffOutline
+import compose.icons.materialdesignicons.AlarmLightOutline
+import compose.icons.materialdesignicons.AlarmMultiple
+import compose.icons.materialdesignicons.AlarmNote
+import compose.icons.materialdesignicons.AlarmNoteOff
+import compose.icons.materialdesignicons.AlarmOff
+import compose.icons.materialdesignicons.AlarmPanel
+import compose.icons.materialdesignicons.AlarmPanelOutline
+import compose.icons.materialdesignicons.AlarmPlus
+import compose.icons.materialdesignicons.AlarmSnooze
+import compose.icons.materialdesignicons.Album
+import compose.icons.materialdesignicons.Alert
+import compose.icons.materialdesignicons.AlertBox
+import compose.icons.materialdesignicons.AlertBoxOutline
+import compose.icons.materialdesignicons.AlertCircle
+import compose.icons.materialdesignicons.AlertCircleCheck
+import compose.icons.materialdesignicons.AlertCircleCheckOutline
+import compose.icons.materialdesignicons.AlertCircleOutline
+import compose.icons.materialdesignicons.AlertDecagram
+import compose.icons.materialdesignicons.AlertDecagramOutline
+import compose.icons.materialdesignicons.AlertMinus
+import compose.icons.materialdesignicons.AlertMinusOutline
+import compose.icons.materialdesignicons.AlertOctagon
+import compose.icons.materialdesignicons.AlertOctagonOutline
+import compose.icons.materialdesignicons.AlertOctagram
+import compose.icons.materialdesignicons.AlertOctagramOutline
+import compose.icons.materialdesignicons.AlertOutline
+import compose.icons.materialdesignicons.AlertPlus
+import compose.icons.materialdesignicons.AlertPlusOutline
+import compose.icons.materialdesignicons.AlertRemove
+import compose.icons.materialdesignicons.AlertRemoveOutline
+import compose.icons.materialdesignicons.AlertRhombus
+import compose.icons.materialdesignicons.AlertRhombusOutline
+import compose.icons.materialdesignicons.Alien
+import compose.icons.materialdesignicons.AlienOutline
+import compose.icons.materialdesignicons.AlignHorizontalCenter
+import compose.icons.materialdesignicons.AlignHorizontalDistribute
+import compose.icons.materialdesignicons.AlignHorizontalLeft
+import compose.icons.materialdesignicons.AlignHorizontalRight
+import compose.icons.materialdesignicons.AlignVerticalBottom
+import compose.icons.materialdesignicons.AlignVerticalCenter
+import compose.icons.materialdesignicons.AlignVerticalDistribute
+import compose.icons.materialdesignicons.AlignVerticalTop
+import compose.icons.materialdesignicons.AllInclusive
+import compose.icons.materialdesignicons.AllInclusiveBox
+import compose.icons.materialdesignicons.AllInclusiveBoxOutline
+import compose.icons.materialdesignicons.Allergy
+import compose.icons.materialdesignicons.Alpha
+import compose.icons.materialdesignicons.AlphaA
+import compose.icons.materialdesignicons.AlphaABox
+import compose.icons.materialdesignicons.AlphaABoxOutline
+import compose.icons.materialdesignicons.AlphaACircle
+import compose.icons.materialdesignicons.AlphaACircleOutline
+import compose.icons.materialdesignicons.AlphaB
+import compose.icons.materialdesignicons.AlphaBBox
+import compose.icons.materialdesignicons.AlphaBBoxOutline
+import compose.icons.materialdesignicons.AlphaBCircle
+import compose.icons.materialdesignicons.AlphaBCircleOutline
+import compose.icons.materialdesignicons.AlphaC
+import compose.icons.materialdesignicons.AlphaCBox
+import compose.icons.materialdesignicons.AlphaCBoxOutline
+import compose.icons.materialdesignicons.AlphaCCircle
+import compose.icons.materialdesignicons.AlphaCCircleOutline
+import compose.icons.materialdesignicons.AlphaD
+import compose.icons.materialdesignicons.AlphaDBox
+import compose.icons.materialdesignicons.AlphaDBoxOutline
+import compose.icons.materialdesignicons.AlphaDCircle
+import compose.icons.materialdesignicons.AlphaDCircleOutline
+import compose.icons.materialdesignicons.AlphaE
+import compose.icons.materialdesignicons.AlphaEBox
+import compose.icons.materialdesignicons.AlphaEBoxOutline
+import compose.icons.materialdesignicons.AlphaECircle
+import compose.icons.materialdesignicons.AlphaECircleOutline
+import compose.icons.materialdesignicons.AlphaF
+import compose.icons.materialdesignicons.AlphaFBox
+import compose.icons.materialdesignicons.AlphaFBoxOutline
+import compose.icons.materialdesignicons.AlphaFCircle
+import compose.icons.materialdesignicons.AlphaFCircleOutline
+import compose.icons.materialdesignicons.AlphaG
+import compose.icons.materialdesignicons.AlphaGBox
+import compose.icons.materialdesignicons.AlphaGBoxOutline
+import compose.icons.materialdesignicons.AlphaGCircle
+import compose.icons.materialdesignicons.AlphaGCircleOutline
+import compose.icons.materialdesignicons.AlphaH
+import compose.icons.materialdesignicons.AlphaHBox
+import compose.icons.materialdesignicons.AlphaHBoxOutline
+import compose.icons.materialdesignicons.AlphaHCircle
+import compose.icons.materialdesignicons.AlphaHCircleOutline
+import compose.icons.materialdesignicons.AlphaI
+import compose.icons.materialdesignicons.AlphaIBox
+import compose.icons.materialdesignicons.AlphaIBoxOutline
+import compose.icons.materialdesignicons.AlphaICircle
+import compose.icons.materialdesignicons.AlphaICircleOutline
+import compose.icons.materialdesignicons.AlphaJ
+import compose.icons.materialdesignicons.AlphaJBox
+import compose.icons.materialdesignicons.AlphaJBoxOutline
+import compose.icons.materialdesignicons.AlphaJCircle
+import compose.icons.materialdesignicons.AlphaJCircleOutline
+import compose.icons.materialdesignicons.AlphaK
+import compose.icons.materialdesignicons.AlphaKBox
+import compose.icons.materialdesignicons.AlphaKBoxOutline
+import compose.icons.materialdesignicons.AlphaKCircle
+import compose.icons.materialdesignicons.AlphaKCircleOutline
+import compose.icons.materialdesignicons.AlphaL
+import compose.icons.materialdesignicons.AlphaLBox
+import compose.icons.materialdesignicons.AlphaLBoxOutline
+import compose.icons.materialdesignicons.AlphaLCircle
+import compose.icons.materialdesignicons.AlphaLCircleOutline
+import compose.icons.materialdesignicons.AlphaM
+import compose.icons.materialdesignicons.AlphaMBox
+import compose.icons.materialdesignicons.AlphaMBoxOutline
+import compose.icons.materialdesignicons.AlphaMCircle
+import compose.icons.materialdesignicons.AlphaMCircleOutline
+import compose.icons.materialdesignicons.AlphaN
+import compose.icons.materialdesignicons.AlphaNBox
+import compose.icons.materialdesignicons.AlphaNBoxOutline
+import compose.icons.materialdesignicons.AlphaNCircle
+import compose.icons.materialdesignicons.AlphaNCircleOutline
+import compose.icons.materialdesignicons.AlphaO
+import compose.icons.materialdesignicons.AlphaOBox
+import compose.icons.materialdesignicons.AlphaOBoxOutline
+import compose.icons.materialdesignicons.AlphaOCircle
+import compose.icons.materialdesignicons.AlphaOCircleOutline
+import compose.icons.materialdesignicons.AlphaP
+import compose.icons.materialdesignicons.AlphaPBox
+import compose.icons.materialdesignicons.AlphaPBoxOutline
+import compose.icons.materialdesignicons.AlphaPCircle
+import compose.icons.materialdesignicons.AlphaPCircleOutline
+import compose.icons.materialdesignicons.AlphaQ
+import compose.icons.materialdesignicons.AlphaQBox
+import compose.icons.materialdesignicons.AlphaQBoxOutline
+import compose.icons.materialdesignicons.AlphaQCircle
+import compose.icons.materialdesignicons.AlphaQCircleOutline
+import compose.icons.materialdesignicons.AlphaR
+import compose.icons.materialdesignicons.AlphaRBox
+import compose.icons.materialdesignicons.AlphaRBoxOutline
+import compose.icons.materialdesignicons.AlphaRCircle
+import compose.icons.materialdesignicons.AlphaRCircleOutline
+import compose.icons.materialdesignicons.AlphaS
+import compose.icons.materialdesignicons.AlphaSBox
+import compose.icons.materialdesignicons.AlphaSBoxOutline
+import compose.icons.materialdesignicons.AlphaSCircle
+import compose.icons.materialdesignicons.AlphaSCircleOutline
+import compose.icons.materialdesignicons.AlphaT
+import compose.icons.materialdesignicons.AlphaTBox
+import compose.icons.materialdesignicons.AlphaTBoxOutline
+import compose.icons.materialdesignicons.AlphaTCircle
+import compose.icons.materialdesignicons.AlphaTCircleOutline
+import compose.icons.materialdesignicons.AlphaU
+import compose.icons.materialdesignicons.AlphaUBox
+import compose.icons.materialdesignicons.AlphaUBoxOutline
+import compose.icons.materialdesignicons.AlphaUCircle
+import compose.icons.materialdesignicons.AlphaUCircleOutline
+import compose.icons.materialdesignicons.AlphaV
+import compose.icons.materialdesignicons.AlphaVBox
+import compose.icons.materialdesignicons.AlphaVBoxOutline
+import compose.icons.materialdesignicons.AlphaVCircle
+import compose.icons.materialdesignicons.AlphaVCircleOutline
+import compose.icons.materialdesignicons.AlphaW
+import compose.icons.materialdesignicons.AlphaWBox
+import compose.icons.materialdesignicons.AlphaWBoxOutline
+import compose.icons.materialdesignicons.AlphaWCircle
+import compose.icons.materialdesignicons.AlphaWCircleOutline
+import compose.icons.materialdesignicons.AlphaX
+import compose.icons.materialdesignicons.AlphaXBox
+import compose.icons.materialdesignicons.AlphaXBoxOutline
+import compose.icons.materialdesignicons.AlphaXCircle
+import compose.icons.materialdesignicons.AlphaXCircleOutline
+import compose.icons.materialdesignicons.AlphaY
+import compose.icons.materialdesignicons.AlphaYBox
+import compose.icons.materialdesignicons.AlphaYBoxOutline
+import compose.icons.materialdesignicons.AlphaYCircle
+import compose.icons.materialdesignicons.AlphaYCircleOutline
+import compose.icons.materialdesignicons.AlphaZ
+import compose.icons.materialdesignicons.AlphaZBox
+import compose.icons.materialdesignicons.AlphaZBoxOutline
+import compose.icons.materialdesignicons.AlphaZCircle
+import compose.icons.materialdesignicons.AlphaZCircleOutline
+import compose.icons.materialdesignicons.AlphabetAurebesh
+import compose.icons.materialdesignicons.AlphabetCyrillic
+import compose.icons.materialdesignicons.AlphabetGreek
+import compose.icons.materialdesignicons.AlphabetLatin
+import compose.icons.materialdesignicons.AlphabetPiqad
+import compose.icons.materialdesignicons.AlphabetTengwar
+import compose.icons.materialdesignicons.Alphabetical
+import compose.icons.materialdesignicons.AlphabeticalOff
+import compose.icons.materialdesignicons.AlphabeticalVariant
+import compose.icons.materialdesignicons.AlphabeticalVariantOff
+import compose.icons.materialdesignicons.Altimeter
+import compose.icons.materialdesignicons.Ambulance
+import compose.icons.materialdesignicons.Ammunition
+import compose.icons.materialdesignicons.Ampersand
+import compose.icons.materialdesignicons.Amplifier
+import compose.icons.materialdesignicons.AmplifierOff
+import compose.icons.materialdesignicons.Anchor
+import compose.icons.materialdesignicons.Android
+import compose.icons.materialdesignicons.AndroidStudio
+import compose.icons.materialdesignicons.AngleAcute
+import compose.icons.materialdesignicons.AngleObtuse
+import compose.icons.materialdesignicons.AngleRight
+import compose.icons.materialdesignicons.Angular
+import compose.icons.materialdesignicons.Angularjs
+import compose.icons.materialdesignicons.Animation
+import compose.icons.materialdesignicons.AnimationOutline
+import compose.icons.materialdesignicons.AnimationPlay
+import compose.icons.materialdesignicons.AnimationPlayOutline
+import compose.icons.materialdesignicons.Ansible
+import compose.icons.materialdesignicons.Antenna
+import compose.icons.materialdesignicons.Anvil
+import compose.icons.materialdesignicons.ApacheKafka
+import compose.icons.materialdesignicons.Api
+import compose.icons.materialdesignicons.ApiOff
+import compose.icons.materialdesignicons.Apple
+import compose.icons.materialdesignicons.AppleFinder
+import compose.icons.materialdesignicons.AppleIcloud
+import compose.icons.materialdesignicons.AppleIos
+import compose.icons.materialdesignicons.AppleKeyboardCaps
+import compose.icons.materialdesignicons.AppleKeyboardCommand
+import compose.icons.materialdesignicons.AppleKeyboardControl
+import compose.icons.materialdesignicons.AppleKeyboardOption
+import compose.icons.materialdesignicons.AppleKeyboardShift
+import compose.icons.materialdesignicons.AppleSafari
+import compose.icons.materialdesignicons.Application
+import compose.icons.materialdesignicons.ApplicationArray
+import compose.icons.materialdesignicons.ApplicationArrayOutline
+import compose.icons.materialdesignicons.ApplicationBraces
+import compose.icons.materialdesignicons.ApplicationBracesOutline
+import compose.icons.materialdesignicons.ApplicationBrackets
+import compose.icons.materialdesignicons.ApplicationBracketsOutline
+import compose.icons.materialdesignicons.ApplicationCog
+import compose.icons.materialdesignicons.ApplicationCogOutline
+import compose.icons.materialdesignicons.ApplicationEdit
+import compose.icons.materialdesignicons.ApplicationEditOutline
+import compose.icons.materialdesignicons.ApplicationExport
+import compose.icons.materialdesignicons.ApplicationImport
+import compose.icons.materialdesignicons.ApplicationOutline
+import compose.icons.materialdesignicons.ApplicationParentheses
+import compose.icons.materialdesignicons.ApplicationParenthesesOutline
+import compose.icons.materialdesignicons.ApplicationSettings
+import compose.icons.materialdesignicons.ApplicationSettingsOutline
+import compose.icons.materialdesignicons.ApplicationVariable
+import compose.icons.materialdesignicons.ApplicationVariableOutline
+import compose.icons.materialdesignicons.ApproximatelyEqual
+import compose.icons.materialdesignicons.ApproximatelyEqualBox
+import compose.icons.materialdesignicons.Apps
+import compose.icons.materialdesignicons.AppsBox
+import compose.icons.materialdesignicons.Arch
+import compose.icons.materialdesignicons.Archive
+import compose.icons.materialdesignicons.ArchiveAlert
+import compose.icons.materialdesignicons.ArchiveAlertOutline
+import compose.icons.materialdesignicons.ArchiveArrowDown
+import compose.icons.materialdesignicons.ArchiveArrowDownOutline
+import compose.icons.materialdesignicons.ArchiveArrowUp
+import compose.icons.materialdesignicons.ArchiveArrowUpOutline
+import compose.icons.materialdesignicons.ArchiveCancel
+import compose.icons.materialdesignicons.ArchiveCancelOutline
+import compose.icons.materialdesignicons.ArchiveCheck
+import compose.icons.materialdesignicons.ArchiveCheckOutline
+import compose.icons.materialdesignicons.ArchiveClock
+import compose.icons.materialdesignicons.ArchiveClockOutline
+import compose.icons.materialdesignicons.ArchiveCog
+import compose.icons.materialdesignicons.ArchiveCogOutline
+import compose.icons.materialdesignicons.ArchiveEdit
+import compose.icons.materialdesignicons.ArchiveEditOutline
+import compose.icons.materialdesignicons.ArchiveEye
+import compose.icons.materialdesignicons.ArchiveEyeOutline
+import compose.icons.materialdesignicons.ArchiveLock
+import compose.icons.materialdesignicons.ArchiveLockOpen
+import compose.icons.materialdesignicons.ArchiveLockOpenOutline
+import compose.icons.materialdesignicons.ArchiveLockOutline
+import compose.icons.materialdesignicons.ArchiveMarker
+import compose.icons.materialdesignicons.ArchiveMarkerOutline
+import compose.icons.materialdesignicons.ArchiveMinus
+import compose.icons.materialdesignicons.ArchiveMinusOutline
+import compose.icons.materialdesignicons.ArchiveMusic
+import compose.icons.materialdesignicons.ArchiveMusicOutline
+import compose.icons.materialdesignicons.ArchiveOff
+import compose.icons.materialdesignicons.ArchiveOffOutline
+import compose.icons.materialdesignicons.ArchiveOutline
+import compose.icons.materialdesignicons.ArchivePlus
+import compose.icons.materialdesignicons.ArchivePlusOutline
+import compose.icons.materialdesignicons.ArchiveRefresh
+import compose.icons.materialdesignicons.ArchiveRefreshOutline
+import compose.icons.materialdesignicons.ArchiveRemove
+import compose.icons.materialdesignicons.ArchiveRemoveOutline
+import compose.icons.materialdesignicons.ArchiveSearch
+import compose.icons.materialdesignicons.ArchiveSearchOutline
+import compose.icons.materialdesignicons.ArchiveSettings
+import compose.icons.materialdesignicons.ArchiveSettingsOutline
+import compose.icons.materialdesignicons.ArchiveStar
+import compose.icons.materialdesignicons.ArchiveStarOutline
+import compose.icons.materialdesignicons.ArchiveSync
+import compose.icons.materialdesignicons.ArchiveSyncOutline
+import compose.icons.materialdesignicons.ArmFlex
+import compose.icons.materialdesignicons.ArmFlexOutline
+import compose.icons.materialdesignicons.ArrangeBringForward
+import compose.icons.materialdesignicons.ArrangeBringToFront
+import compose.icons.materialdesignicons.ArrangeSendBackward
+import compose.icons.materialdesignicons.ArrangeSendToBack
+import compose.icons.materialdesignicons.ArrowAll
+import compose.icons.materialdesignicons.ArrowBottomLeft
+import compose.icons.materialdesignicons.ArrowBottomLeftBoldBox
+import compose.icons.materialdesignicons.ArrowBottomLeftBoldBoxOutline
+import compose.icons.materialdesignicons.ArrowBottomLeftBoldOutline
+import compose.icons.materialdesignicons.ArrowBottomLeftThick
+import compose.icons.materialdesignicons.ArrowBottomLeftThin
+import compose.icons.materialdesignicons.ArrowBottomLeftThinCircleOutline
+import compose.icons.materialdesignicons.ArrowBottomRight
+import compose.icons.materialdesignicons.ArrowBottomRightBoldBox
+import compose.icons.materialdesignicons.ArrowBottomRightBoldBoxOutline
+import compose.icons.materialdesignicons.ArrowBottomRightBoldOutline
+import compose.icons.materialdesignicons.ArrowBottomRightThick
+import compose.icons.materialdesignicons.ArrowBottomRightThin
+import compose.icons.materialdesignicons.ArrowBottomRightThinCircleOutline
+import compose.icons.materialdesignicons.ArrowCollapse
+import compose.icons.materialdesignicons.ArrowCollapseAll
+import compose.icons.materialdesignicons.ArrowCollapseDown
+import compose.icons.materialdesignicons.ArrowCollapseHorizontal
+import compose.icons.materialdesignicons.ArrowCollapseLeft
+import compose.icons.materialdesignicons.ArrowCollapseRight
+import compose.icons.materialdesignicons.ArrowCollapseUp
+import compose.icons.materialdesignicons.ArrowCollapseVertical
+import compose.icons.materialdesignicons.ArrowDecision
+import compose.icons.materialdesignicons.ArrowDecisionAuto
+import compose.icons.materialdesignicons.ArrowDecisionAutoOutline
+import compose.icons.materialdesignicons.ArrowDecisionOutline
+import compose.icons.materialdesignicons.ArrowDown
+import compose.icons.materialdesignicons.ArrowDownBold
+import compose.icons.materialdesignicons.ArrowDownBoldBox
+import compose.icons.materialdesignicons.ArrowDownBoldBoxOutline
+import compose.icons.materialdesignicons.ArrowDownBoldCircle
+import compose.icons.materialdesignicons.ArrowDownBoldCircleOutline
+import compose.icons.materialdesignicons.ArrowDownBoldHexagonOutline
+import compose.icons.materialdesignicons.ArrowDownBoldOutline
+import compose.icons.materialdesignicons.ArrowDownBox
+import compose.icons.materialdesignicons.ArrowDownCircle
+import compose.icons.materialdesignicons.ArrowDownCircleOutline
+import compose.icons.materialdesignicons.ArrowDownDropCircle
+import compose.icons.materialdesignicons.ArrowDownDropCircleOutline
+import compose.icons.materialdesignicons.ArrowDownLeft
+import compose.icons.materialdesignicons.ArrowDownLeftBold
+import compose.icons.materialdesignicons.ArrowDownRight
+import compose.icons.materialdesignicons.ArrowDownRightBold
+import compose.icons.materialdesignicons.ArrowDownThick
+import compose.icons.materialdesignicons.ArrowDownThin
+import compose.icons.materialdesignicons.ArrowDownThinCircleOutline
+import compose.icons.materialdesignicons.ArrowExpand
+import compose.icons.materialdesignicons.ArrowExpandAll
+import compose.icons.materialdesignicons.ArrowExpandDown
+import compose.icons.materialdesignicons.ArrowExpandHorizontal
+import compose.icons.materialdesignicons.ArrowExpandLeft
+import compose.icons.materialdesignicons.ArrowExpandRight
+import compose.icons.materialdesignicons.ArrowExpandUp
+import compose.icons.materialdesignicons.ArrowExpandVertical
+import compose.icons.materialdesignicons.ArrowHorizontalLock
+import compose.icons.materialdesignicons.ArrowLeft
+import compose.icons.materialdesignicons.ArrowLeftBold
+import compose.icons.materialdesignicons.ArrowLeftBoldBox
+import compose.icons.materialdesignicons.ArrowLeftBoldBoxOutline
+import compose.icons.materialdesignicons.ArrowLeftBoldCircle
+import compose.icons.materialdesignicons.ArrowLeftBoldCircleOutline
+import compose.icons.materialdesignicons.ArrowLeftBoldHexagonOutline
+import compose.icons.materialdesignicons.ArrowLeftBoldOutline
+import compose.icons.materialdesignicons.ArrowLeftBottom
+import compose.icons.materialdesignicons.ArrowLeftBottomBold
+import compose.icons.materialdesignicons.ArrowLeftBox
+import compose.icons.materialdesignicons.ArrowLeftCircle
+import compose.icons.materialdesignicons.ArrowLeftCircleOutline
+import compose.icons.materialdesignicons.ArrowLeftDropCircle
+import compose.icons.materialdesignicons.ArrowLeftDropCircleOutline
+import compose.icons.materialdesignicons.ArrowLeftRight
+import compose.icons.materialdesignicons.ArrowLeftRightBold
+import compose.icons.materialdesignicons.ArrowLeftRightBoldOutline
+import compose.icons.materialdesignicons.ArrowLeftThick
+import compose.icons.materialdesignicons.ArrowLeftThin
+import compose.icons.materialdesignicons.ArrowLeftThinCircleOutline
+import compose.icons.materialdesignicons.ArrowLeftTop
+import compose.icons.materialdesignicons.ArrowLeftTopBold
+import compose.icons.materialdesignicons.ArrowProjectile
+import compose.icons.materialdesignicons.ArrowProjectileMultiple
+import compose.icons.materialdesignicons.ArrowRight
+import compose.icons.materialdesignicons.ArrowRightBold
+import compose.icons.materialdesignicons.ArrowRightBoldBox
+import compose.icons.materialdesignicons.ArrowRightBoldBoxOutline
+import compose.icons.materialdesignicons.ArrowRightBoldCircle
+import compose.icons.materialdesignicons.ArrowRightBoldCircleOutline
+import compose.icons.materialdesignicons.ArrowRightBoldHexagonOutline
+import compose.icons.materialdesignicons.ArrowRightBoldOutline
+import compose.icons.materialdesignicons.ArrowRightBottom
+import compose.icons.materialdesignicons.ArrowRightBottomBold
+import compose.icons.materialdesignicons.ArrowRightBox
+import compose.icons.materialdesignicons.ArrowRightCircle
+import compose.icons.materialdesignicons.ArrowRightCircleOutline
+import compose.icons.materialdesignicons.ArrowRightDropCircle
+import compose.icons.materialdesignicons.ArrowRightDropCircleOutline
+import compose.icons.materialdesignicons.ArrowRightThick
+import compose.icons.materialdesignicons.ArrowRightThin
+import compose.icons.materialdesignicons.ArrowRightThinCircleOutline
+import compose.icons.materialdesignicons.ArrowRightTop
+import compose.icons.materialdesignicons.ArrowRightTopBold
+import compose.icons.materialdesignicons.ArrowSplitHorizontal
+import compose.icons.materialdesignicons.ArrowSplitVertical
+import compose.icons.materialdesignicons.ArrowTopLeft
+import compose.icons.materialdesignicons.ArrowTopLeftBoldBox
+import compose.icons.materialdesignicons.ArrowTopLeftBoldBoxOutline
+import compose.icons.materialdesignicons.ArrowTopLeftBoldOutline
+import compose.icons.materialdesignicons.ArrowTopLeftBottomRight
+import compose.icons.materialdesignicons.ArrowTopLeftBottomRightBold
+import compose.icons.materialdesignicons.ArrowTopLeftThick
+import compose.icons.materialdesignicons.ArrowTopLeftThin
+import compose.icons.materialdesignicons.ArrowTopLeftThinCircleOutline
+import compose.icons.materialdesignicons.ArrowTopRight
+import compose.icons.materialdesignicons.ArrowTopRightBoldBox
+import compose.icons.materialdesignicons.ArrowTopRightBoldBoxOutline
+import compose.icons.materialdesignicons.ArrowTopRightBoldOutline
+import compose.icons.materialdesignicons.ArrowTopRightBottomLeft
+import compose.icons.materialdesignicons.ArrowTopRightBottomLeftBold
+import compose.icons.materialdesignicons.ArrowTopRightThick
+import compose.icons.materialdesignicons.ArrowTopRightThin
+import compose.icons.materialdesignicons.ArrowTopRightThinCircleOutline
+import compose.icons.materialdesignicons.ArrowUDownLeft
+import compose.icons.materialdesignicons.ArrowUDownLeftBold
+import compose.icons.materialdesignicons.ArrowUDownRight
+import compose.icons.materialdesignicons.ArrowUDownRightBold
+import compose.icons.materialdesignicons.ArrowULeftBottom
+import compose.icons.materialdesignicons.ArrowULeftBottomBold
+import compose.icons.materialdesignicons.ArrowULeftTop
+import compose.icons.materialdesignicons.ArrowULeftTopBold
+import compose.icons.materialdesignicons.ArrowURightBottom
+import compose.icons.materialdesignicons.ArrowURightBottomBold
+import compose.icons.materialdesignicons.ArrowURightTop
+import compose.icons.materialdesignicons.ArrowURightTopBold
+import compose.icons.materialdesignicons.ArrowUUpLeft
+import compose.icons.materialdesignicons.ArrowUUpLeftBold
+import compose.icons.materialdesignicons.ArrowUUpRight
+import compose.icons.materialdesignicons.ArrowUUpRightBold
+import compose.icons.materialdesignicons.ArrowUp
+import compose.icons.materialdesignicons.ArrowUpBold
+import compose.icons.materialdesignicons.ArrowUpBoldBox
+import compose.icons.materialdesignicons.ArrowUpBoldBoxOutline
+import compose.icons.materialdesignicons.ArrowUpBoldCircle
+import compose.icons.materialdesignicons.ArrowUpBoldCircleOutline
+import compose.icons.materialdesignicons.ArrowUpBoldHexagonOutline
+import compose.icons.materialdesignicons.ArrowUpBoldOutline
+import compose.icons.materialdesignicons.ArrowUpBox
+import compose.icons.materialdesignicons.ArrowUpCircle
+import compose.icons.materialdesignicons.ArrowUpCircleOutline
+import compose.icons.materialdesignicons.ArrowUpDown
+import compose.icons.materialdesignicons.ArrowUpDownBold
+import compose.icons.materialdesignicons.ArrowUpDownBoldOutline
+import compose.icons.materialdesignicons.ArrowUpDropCircle
+import compose.icons.materialdesignicons.ArrowUpDropCircleOutline
+import compose.icons.materialdesignicons.ArrowUpLeft
+import compose.icons.materialdesignicons.ArrowUpLeftBold
+import compose.icons.materialdesignicons.ArrowUpRight
+import compose.icons.materialdesignicons.ArrowUpRightBold
+import compose.icons.materialdesignicons.ArrowUpThick
+import compose.icons.materialdesignicons.ArrowUpThin
+import compose.icons.materialdesignicons.ArrowUpThinCircleOutline
+import compose.icons.materialdesignicons.ArrowVerticalLock
+import compose.icons.materialdesignicons.Artboard
+import compose.icons.materialdesignicons.Artstation
+import compose.icons.materialdesignicons.AspectRatio
+import compose.icons.materialdesignicons.Assistant
+import compose.icons.materialdesignicons.Asterisk
+import compose.icons.materialdesignicons.AsteriskCircleOutline
+import compose.icons.materialdesignicons.At
+import compose.icons.materialdesignicons.Atlassian
+import compose.icons.materialdesignicons.Atm
+import compose.icons.materialdesignicons.Atom
+import compose.icons.materialdesignicons.AtomVariant
+import compose.icons.materialdesignicons.Attachment
+import compose.icons.materialdesignicons.AttachmentCheck
+import compose.icons.materialdesignicons.AttachmentLock
+import compose.icons.materialdesignicons.AttachmentMinus
+import compose.icons.materialdesignicons.AttachmentOff
+import compose.icons.materialdesignicons.AttachmentPlus
+import compose.icons.materialdesignicons.AttachmentRemove
+import compose.icons.materialdesignicons.Atv
+import compose.icons.materialdesignicons.AudioInputRca
+import compose.icons.materialdesignicons.AudioInputStereoMinijack
+import compose.icons.materialdesignicons.AudioInputXlr
+import compose.icons.materialdesignicons.AudioVideo
+import compose.icons.materialdesignicons.AudioVideoOff
+import compose.icons.materialdesignicons.AugmentedReality
+import compose.icons.materialdesignicons.Aurora
+import compose.icons.materialdesignicons.AutoDownload
+import compose.icons.materialdesignicons.AutoFix
+import compose.icons.materialdesignicons.AutoUpload
+import compose.icons.materialdesignicons.Autorenew
+import compose.icons.materialdesignicons.AutorenewOff
+import compose.icons.materialdesignicons.AvTimer
+import compose.icons.materialdesignicons.Awning
+import compose.icons.materialdesignicons.AwningOutline
+import compose.icons.materialdesignicons.Aws
+import compose.icons.materialdesignicons.Axe
+import compose.icons.materialdesignicons.AxeBattle
+import compose.icons.materialdesignicons.Axis
+import compose.icons.materialdesignicons.AxisArrow
+import compose.icons.materialdesignicons.AxisArrowInfo
+import compose.icons.materialdesignicons.AxisArrowLock
+import compose.icons.materialdesignicons.AxisLock
+import compose.icons.materialdesignicons.AxisXArrow
+import compose.icons.materialdesignicons.AxisXArrowLock
+import compose.icons.materialdesignicons.AxisXRotateClockwise
+import compose.icons.materialdesignicons.AxisXRotateCounterclockwise
+import compose.icons.materialdesignicons.AxisXYArrowLock
+import compose.icons.materialdesignicons.AxisYArrow
+import compose.icons.materialdesignicons.AxisYArrowLock
+import compose.icons.materialdesignicons.AxisYRotateClockwise
+import compose.icons.materialdesignicons.AxisYRotateCounterclockwise
+import compose.icons.materialdesignicons.AxisZArrow
+import compose.icons.materialdesignicons.AxisZArrowLock
+import compose.icons.materialdesignicons.AxisZRotateClockwise
+import compose.icons.materialdesignicons.AxisZRotateCounterclockwise
+import compose.icons.materialdesignicons.Babel
+import compose.icons.materialdesignicons.Baby
+import compose.icons.materialdesignicons.BabyBottle
+import compose.icons.materialdesignicons.BabyBottleOutline
+import compose.icons.materialdesignicons.BabyBuggy
+import compose.icons.materialdesignicons.BabyBuggyOff
+import compose.icons.materialdesignicons.BabyCarriage
+import compose.icons.materialdesignicons.BabyCarriageOff
+import compose.icons.materialdesignicons.BabyFace
+import compose.icons.materialdesignicons.BabyFaceOutline
+import compose.icons.materialdesignicons.Backburger
+import compose.icons.materialdesignicons.Backspace
+import compose.icons.materialdesignicons.BackspaceOutline
+import compose.icons.materialdesignicons.BackspaceReverse
+import compose.icons.materialdesignicons.BackspaceReverseOutline
+import compose.icons.materialdesignicons.BackupRestore
+import compose.icons.materialdesignicons.Bacteria
+import compose.icons.materialdesignicons.BacteriaOutline
+import compose.icons.materialdesignicons.BadgeAccount
+import compose.icons.materialdesignicons.BadgeAccountAlert
+import compose.icons.materialdesignicons.BadgeAccountAlertOutline
+import compose.icons.materialdesignicons.BadgeAccountHorizontal
+import compose.icons.materialdesignicons.BadgeAccountHorizontalOutline
+import compose.icons.materialdesignicons.BadgeAccountOutline
+import compose.icons.materialdesignicons.Badminton
+import compose.icons.materialdesignicons.BagCarryOn
+import compose.icons.materialdesignicons.BagCarryOnCheck
+import compose.icons.materialdesignicons.BagCarryOnOff
+import compose.icons.materialdesignicons.BagChecked
+import compose.icons.materialdesignicons.BagPersonal
+import compose.icons.materialdesignicons.BagPersonalOff
+import compose.icons.materialdesignicons.BagPersonalOffOutline
+import compose.icons.materialdesignicons.BagPersonalOutline
+import compose.icons.materialdesignicons.BagPersonalTag
+import compose.icons.materialdesignicons.BagPersonalTagOutline
+import compose.icons.materialdesignicons.BagSuitcase
+import compose.icons.materialdesignicons.BagSuitcaseOff
+import compose.icons.materialdesignicons.BagSuitcaseOffOutline
+import compose.icons.materialdesignicons.BagSuitcaseOutline
+import compose.icons.materialdesignicons.Baguette
+import compose.icons.materialdesignicons.Balcony
+import compose.icons.materialdesignicons.Balloon
+import compose.icons.materialdesignicons.Ballot
+import compose.icons.materialdesignicons.BallotOutline
+import compose.icons.materialdesignicons.BallotRecount
+import compose.icons.materialdesignicons.BallotRecountOutline
+import compose.icons.materialdesignicons.Bandage
+import compose.icons.materialdesignicons.Bank
+import compose.icons.materialdesignicons.BankCheck
+import compose.icons.materialdesignicons.BankCircle
+import compose.icons.materialdesignicons.BankCircleOutline
+import compose.icons.materialdesignicons.BankMinus
+import compose.icons.materialdesignicons.BankOff
+import compose.icons.materialdesignicons.BankOffOutline
+import compose.icons.materialdesignicons.BankOutline
+import compose.icons.materialdesignicons.BankPlus
+import compose.icons.materialdesignicons.BankRemove
+import compose.icons.materialdesignicons.BankTransfer
+import compose.icons.materialdesignicons.BankTransferIn
+import compose.icons.materialdesignicons.BankTransferOut
+import compose.icons.materialdesignicons.Barcode
+import compose.icons.materialdesignicons.BarcodeOff
+import compose.icons.materialdesignicons.BarcodeScan
+import compose.icons.materialdesignicons.Barley
+import compose.icons.materialdesignicons.BarleyOff
+import compose.icons.materialdesignicons.Barn
+import compose.icons.materialdesignicons.Barrel
+import compose.icons.materialdesignicons.BarrelOutline
+import compose.icons.materialdesignicons.Baseball
+import compose.icons.materialdesignicons.BaseballBat
+import compose.icons.materialdesignicons.BaseballDiamond
+import compose.icons.materialdesignicons.BaseballDiamondOutline
+import compose.icons.materialdesignicons.Bash
+import compose.icons.materialdesignicons.Basket
+import compose.icons.materialdesignicons.BasketCheck
+import compose.icons.materialdesignicons.BasketCheckOutline
+import compose.icons.materialdesignicons.BasketFill
+import compose.icons.materialdesignicons.BasketMinus
+import compose.icons.materialdesignicons.BasketMinusOutline
+import compose.icons.materialdesignicons.BasketOff
+import compose.icons.materialdesignicons.BasketOffOutline
+import compose.icons.materialdesignicons.BasketOutline
+import compose.icons.materialdesignicons.BasketPlus
+import compose.icons.materialdesignicons.BasketPlusOutline
+import compose.icons.materialdesignicons.BasketRemove
+import compose.icons.materialdesignicons.BasketRemoveOutline
+import compose.icons.materialdesignicons.BasketUnfill
+import compose.icons.materialdesignicons.Basketball
+import compose.icons.materialdesignicons.BasketballHoop
+import compose.icons.materialdesignicons.BasketballHoopOutline
+import compose.icons.materialdesignicons.Bat
+import compose.icons.materialdesignicons.Bathtub
+import compose.icons.materialdesignicons.BathtubOutline
+import compose.icons.materialdesignicons.Battery
+import compose.icons.materialdesignicons.Battery10
+import compose.icons.materialdesignicons.Battery10Bluetooth
+import compose.icons.materialdesignicons.Battery20
+import compose.icons.materialdesignicons.Battery20Bluetooth
+import compose.icons.materialdesignicons.Battery30
+import compose.icons.materialdesignicons.Battery30Bluetooth
+import compose.icons.materialdesignicons.Battery40
+import compose.icons.materialdesignicons.Battery40Bluetooth
+import compose.icons.materialdesignicons.Battery50
+import compose.icons.materialdesignicons.Battery50Bluetooth
+import compose.icons.materialdesignicons.Battery60
+import compose.icons.materialdesignicons.Battery60Bluetooth
+import compose.icons.materialdesignicons.Battery70
+import compose.icons.materialdesignicons.Battery70Bluetooth
+import compose.icons.materialdesignicons.Battery80
+import compose.icons.materialdesignicons.Battery80Bluetooth
+import compose.icons.materialdesignicons.Battery90
+import compose.icons.materialdesignicons.Battery90Bluetooth
+import compose.icons.materialdesignicons.BatteryAlert
+import compose.icons.materialdesignicons.BatteryAlertBluetooth
+import compose.icons.materialdesignicons.BatteryAlertVariant
+import compose.icons.materialdesignicons.BatteryAlertVariantOutline
+import compose.icons.materialdesignicons.BatteryArrowDown
+import compose.icons.materialdesignicons.BatteryArrowDownOutline
+import compose.icons.materialdesignicons.BatteryArrowUp
+import compose.icons.materialdesignicons.BatteryArrowUpOutline
+import compose.icons.materialdesignicons.BatteryBluetooth
+import compose.icons.materialdesignicons.BatteryBluetoothVariant
+import compose.icons.materialdesignicons.BatteryCharging
+import compose.icons.materialdesignicons.BatteryCharging10
+import compose.icons.materialdesignicons.BatteryCharging100
+import compose.icons.materialdesignicons.BatteryCharging20
+import compose.icons.materialdesignicons.BatteryCharging30
+import compose.icons.materialdesignicons.BatteryCharging40
+import compose.icons.materialdesignicons.BatteryCharging50
+import compose.icons.materialdesignicons.BatteryCharging60
+import compose.icons.materialdesignicons.BatteryCharging70
+import compose.icons.materialdesignicons.BatteryCharging80
+import compose.icons.materialdesignicons.BatteryCharging90
+import compose.icons.materialdesignicons.BatteryChargingHigh
+import compose.icons.materialdesignicons.BatteryChargingLow
+import compose.icons.materialdesignicons.BatteryChargingMedium
+import compose.icons.materialdesignicons.BatteryChargingOutline
+import compose.icons.materialdesignicons.BatteryChargingWireless
+import compose.icons.materialdesignicons.BatteryChargingWireless10
+import compose.icons.materialdesignicons.BatteryChargingWireless20
+import compose.icons.materialdesignicons.BatteryChargingWireless30
+import compose.icons.materialdesignicons.BatteryChargingWireless40
+import compose.icons.materialdesignicons.BatteryChargingWireless50
+import compose.icons.materialdesignicons.BatteryChargingWireless60
+import compose.icons.materialdesignicons.BatteryChargingWireless70
+import compose.icons.materialdesignicons.BatteryChargingWireless80
+import compose.icons.materialdesignicons.BatteryChargingWireless90
+import compose.icons.materialdesignicons.BatteryChargingWirelessAlert
+import compose.icons.materialdesignicons.BatteryChargingWirelessOutline
+import compose.icons.materialdesignicons.BatteryCheck
+import compose.icons.materialdesignicons.BatteryCheckOutline
+import compose.icons.materialdesignicons.BatteryClock
+import compose.icons.materialdesignicons.BatteryClockOutline
+import compose.icons.materialdesignicons.BatteryHeart
+import compose.icons.materialdesignicons.BatteryHeartOutline
+import compose.icons.materialdesignicons.BatteryHeartVariant
+import compose.icons.materialdesignicons.BatteryHigh
+import compose.icons.materialdesignicons.BatteryLock
+import compose.icons.materialdesignicons.BatteryLockOpen
+import compose.icons.materialdesignicons.BatteryLow
+import compose.icons.materialdesignicons.BatteryMedium
+import compose.icons.materialdesignicons.BatteryMinus
+import compose.icons.materialdesignicons.BatteryMinusOutline
+import compose.icons.materialdesignicons.BatteryMinusVariant
+import compose.icons.materialdesignicons.BatteryNegative
+import compose.icons.materialdesignicons.BatteryOff
+import compose.icons.materialdesignicons.BatteryOffOutline
+import compose.icons.materialdesignicons.BatteryOutline
+import compose.icons.materialdesignicons.BatteryPlus
+import compose.icons.materialdesignicons.BatteryPlusOutline
+import compose.icons.materialdesignicons.BatteryPlusVariant
+import compose.icons.materialdesignicons.BatteryPositive
+import compose.icons.materialdesignicons.BatteryRemove
+import compose.icons.materialdesignicons.BatteryRemoveOutline
+import compose.icons.materialdesignicons.BatterySync
+import compose.icons.materialdesignicons.BatterySyncOutline
+import compose.icons.materialdesignicons.BatteryUnknown
+import compose.icons.materialdesignicons.BatteryUnknownBluetooth
+import compose.icons.materialdesignicons.Beach
+import compose.icons.materialdesignicons.Beaker
+import compose.icons.materialdesignicons.BeakerAlert
+import compose.icons.materialdesignicons.BeakerAlertOutline
+import compose.icons.materialdesignicons.BeakerCheck
+import compose.icons.materialdesignicons.BeakerCheckOutline
+import compose.icons.materialdesignicons.BeakerMinus
+import compose.icons.materialdesignicons.BeakerMinusOutline
+import compose.icons.materialdesignicons.BeakerOutline
+import compose.icons.materialdesignicons.BeakerPlus
+import compose.icons.materialdesignicons.BeakerPlusOutline
+import compose.icons.materialdesignicons.BeakerQuestion
+import compose.icons.materialdesignicons.BeakerQuestionOutline
+import compose.icons.materialdesignicons.BeakerRemove
+import compose.icons.materialdesignicons.BeakerRemoveOutline
+import compose.icons.materialdesignicons.Bed
+import compose.icons.materialdesignicons.BedClock
+import compose.icons.materialdesignicons.BedDouble
+import compose.icons.materialdesignicons.BedDoubleOutline
+import compose.icons.materialdesignicons.BedEmpty
+import compose.icons.materialdesignicons.BedKing
+import compose.icons.materialdesignicons.BedKingOutline
+import compose.icons.materialdesignicons.BedOutline
+import compose.icons.materialdesignicons.BedQueen
+import compose.icons.materialdesignicons.BedQueenOutline
+import compose.icons.materialdesignicons.BedSingle
+import compose.icons.materialdesignicons.BedSingleOutline
+import compose.icons.materialdesignicons.Bee
+import compose.icons.materialdesignicons.BeeFlower
+import compose.icons.materialdesignicons.BeehiveOffOutline
+import compose.icons.materialdesignicons.BeehiveOutline
+import compose.icons.materialdesignicons.Beekeeper
+import compose.icons.materialdesignicons.Beer
+import compose.icons.materialdesignicons.BeerOutline
+import compose.icons.materialdesignicons.Bell
+import compose.icons.materialdesignicons.BellAlert
+import compose.icons.materialdesignicons.BellAlertOutline
+import compose.icons.materialdesignicons.BellBadge
+import compose.icons.materialdesignicons.BellBadgeOutline
+import compose.icons.materialdesignicons.BellCancel
+import compose.icons.materialdesignicons.BellCancelOutline
+import compose.icons.materialdesignicons.BellCheck
+import compose.icons.materialdesignicons.BellCheckOutline
+import compose.icons.materialdesignicons.BellCircle
+import compose.icons.materialdesignicons.BellCircleOutline
+import compose.icons.materialdesignicons.BellCog
+import compose.icons.materialdesignicons.BellCogOutline
+import compose.icons.materialdesignicons.BellMinus
+import compose.icons.materialdesignicons.BellMinusOutline
+import compose.icons.materialdesignicons.BellOff
+import compose.icons.materialdesignicons.BellOffOutline
+import compose.icons.materialdesignicons.BellOutline
+import compose.icons.materialdesignicons.BellPlus
+import compose.icons.materialdesignicons.BellPlusOutline
+import compose.icons.materialdesignicons.BellRemove
+import compose.icons.materialdesignicons.BellRemoveOutline
+import compose.icons.materialdesignicons.BellRing
+import compose.icons.materialdesignicons.BellRingOutline
+import compose.icons.materialdesignicons.BellSleep
+import compose.icons.materialdesignicons.BellSleepOutline
+import compose.icons.materialdesignicons.Beta
+import compose.icons.materialdesignicons.Betamax
+import compose.icons.materialdesignicons.Biathlon
+import compose.icons.materialdesignicons.Bicycle
+import compose.icons.materialdesignicons.BicycleBasket
+import compose.icons.materialdesignicons.BicycleCargo
+import compose.icons.materialdesignicons.BicycleElectric
+import compose.icons.materialdesignicons.BicyclePennyFarthing
+import compose.icons.materialdesignicons.Bike
+import compose.icons.materialdesignicons.BikeFast
+import compose.icons.materialdesignicons.Billboard
+import compose.icons.materialdesignicons.Billiards
+import compose.icons.materialdesignicons.BilliardsRack
+import compose.icons.materialdesignicons.Binoculars
+import compose.icons.materialdesignicons.Bio
+import compose.icons.materialdesignicons.Biohazard
+import compose.icons.materialdesignicons.Bird
+import compose.icons.materialdesignicons.Bitbucket
+import compose.icons.materialdesignicons.Bitcoin
+import compose.icons.materialdesignicons.BlackMesa
+import compose.icons.materialdesignicons.Blender
+import compose.icons.materialdesignicons.BlenderOutline
+import compose.icons.materialdesignicons.BlenderSoftware
+import compose.icons.materialdesignicons.Blinds
+import compose.icons.materialdesignicons.BlindsHorizontal
+import compose.icons.materialdesignicons.BlindsHorizontalClosed
+import compose.icons.materialdesignicons.BlindsOpen
+import compose.icons.materialdesignicons.BlindsVertical
+import compose.icons.materialdesignicons.BlindsVerticalClosed
+import compose.icons.materialdesignicons.BlockHelper
+import compose.icons.materialdesignicons.BloodBag
+import compose.icons.materialdesignicons.Bluetooth
+import compose.icons.materialdesignicons.BluetoothAudio
+import compose.icons.materialdesignicons.BluetoothConnect
+import compose.icons.materialdesignicons.BluetoothOff
+import compose.icons.materialdesignicons.BluetoothSettings
+import compose.icons.materialdesignicons.BluetoothTransfer
+import compose.icons.materialdesignicons.Blur
+import compose.icons.materialdesignicons.BlurLinear
+import compose.icons.materialdesignicons.BlurOff
+import compose.icons.materialdesignicons.BlurRadial
+import compose.icons.materialdesignicons.Bolt
+import compose.icons.materialdesignicons.Bomb
+import compose.icons.materialdesignicons.BombOff
+import compose.icons.materialdesignicons.Bone
+import compose.icons.materialdesignicons.BoneOff
+import compose.icons.materialdesignicons.Book
+import compose.icons.materialdesignicons.BookAccount
+import compose.icons.materialdesignicons.BookAccountOutline
+import compose.icons.materialdesignicons.BookAlert
+import compose.icons.materialdesignicons.BookAlertOutline
+import compose.icons.materialdesignicons.BookAlphabet
+import compose.icons.materialdesignicons.BookArrowDown
+import compose.icons.materialdesignicons.BookArrowDownOutline
+import compose.icons.materialdesignicons.BookArrowLeft
+import compose.icons.materialdesignicons.BookArrowLeftOutline
+import compose.icons.materialdesignicons.BookArrowRight
+import compose.icons.materialdesignicons.BookArrowRightOutline
+import compose.icons.materialdesignicons.BookArrowUp
+import compose.icons.materialdesignicons.BookArrowUpOutline
+import compose.icons.materialdesignicons.BookCancel
+import compose.icons.materialdesignicons.BookCancelOutline
+import compose.icons.materialdesignicons.BookCheck
+import compose.icons.materialdesignicons.BookCheckOutline
+import compose.icons.materialdesignicons.BookClock
+import compose.icons.materialdesignicons.BookClockOutline
+import compose.icons.materialdesignicons.BookCog
+import compose.icons.materialdesignicons.BookCogOutline
+import compose.icons.materialdesignicons.BookCross
+import compose.icons.materialdesignicons.BookEdit
+import compose.icons.materialdesignicons.BookEditOutline
+import compose.icons.materialdesignicons.BookEducation
+import compose.icons.materialdesignicons.BookEducationOutline
+import compose.icons.materialdesignicons.BookHeart
+import compose.icons.materialdesignicons.BookHeartOutline
+import compose.icons.materialdesignicons.BookInformationVariant
+import compose.icons.materialdesignicons.BookLock
+import compose.icons.materialdesignicons.BookLockOpen
+import compose.icons.materialdesignicons.BookLockOpenOutline
+import compose.icons.materialdesignicons.BookLockOutline
+import compose.icons.materialdesignicons.BookMarker
+import compose.icons.materialdesignicons.BookMarkerOutline
+import compose.icons.materialdesignicons.BookMinus
+import compose.icons.materialdesignicons.BookMinusMultiple
+import compose.icons.materialdesignicons.BookMinusMultipleOutline
+import compose.icons.materialdesignicons.BookMinusOutline
+import compose.icons.materialdesignicons.BookMultiple
+import compose.icons.materialdesignicons.BookMultipleOutline
+import compose.icons.materialdesignicons.BookMusic
+import compose.icons.materialdesignicons.BookMusicOutline
+import compose.icons.materialdesignicons.BookOff
+import compose.icons.materialdesignicons.BookOffOutline
+import compose.icons.materialdesignicons.BookOpen
+import compose.icons.materialdesignicons.BookOpenBlankVariant
+import compose.icons.materialdesignicons.BookOpenOutline
+import compose.icons.materialdesignicons.BookOpenPageVariant
+import compose.icons.materialdesignicons.BookOpenPageVariantOutline
+import compose.icons.materialdesignicons.BookOpenVariant
+import compose.icons.materialdesignicons.BookOutline
+import compose.icons.materialdesignicons.BookPlay
+import compose.icons.materialdesignicons.BookPlayOutline
+import compose.icons.materialdesignicons.BookPlus
+import compose.icons.materialdesignicons.BookPlusMultiple
+import compose.icons.materialdesignicons.BookPlusMultipleOutline
+import compose.icons.materialdesignicons.BookPlusOutline
+import compose.icons.materialdesignicons.BookRefresh
+import compose.icons.materialdesignicons.BookRefreshOutline
+import compose.icons.materialdesignicons.BookRemove
+import compose.icons.materialdesignicons.BookRemoveMultiple
+import compose.icons.materialdesignicons.BookRemoveMultipleOutline
+import compose.icons.materialdesignicons.BookRemoveOutline
+import compose.icons.materialdesignicons.BookSearch
+import compose.icons.materialdesignicons.BookSearchOutline
+import compose.icons.materialdesignicons.BookSettings
+import compose.icons.materialdesignicons.BookSettingsOutline
+import compose.icons.materialdesignicons.BookSync
+import compose.icons.materialdesignicons.BookSyncOutline
+import compose.icons.materialdesignicons.BookVariant
+import compose.icons.materialdesignicons.Bookmark
+import compose.icons.materialdesignicons.BookmarkBox
+import compose.icons.materialdesignicons.BookmarkBoxMultiple
+import compose.icons.materialdesignicons.BookmarkBoxMultipleOutline
+import compose.icons.materialdesignicons.BookmarkBoxOutline
+import compose.icons.materialdesignicons.BookmarkCheck
+import compose.icons.materialdesignicons.BookmarkCheckOutline
+import compose.icons.materialdesignicons.BookmarkMinus
+import compose.icons.materialdesignicons.BookmarkMinusOutline
+import compose.icons.materialdesignicons.BookmarkMultiple
+import compose.icons.materialdesignicons.BookmarkMultipleOutline
+import compose.icons.materialdesignicons.BookmarkMusic
+import compose.icons.materialdesignicons.BookmarkMusicOutline
+import compose.icons.materialdesignicons.BookmarkOff
+import compose.icons.materialdesignicons.BookmarkOffOutline
+import compose.icons.materialdesignicons.BookmarkOutline
+import compose.icons.materialdesignicons.BookmarkPlus
+import compose.icons.materialdesignicons.BookmarkPlusOutline
+import compose.icons.materialdesignicons.BookmarkRemove
+import compose.icons.materialdesignicons.BookmarkRemoveOutline
+import compose.icons.materialdesignicons.Bookshelf
+import compose.icons.materialdesignicons.BoomGate
+import compose.icons.materialdesignicons.BoomGateAlert
+import compose.icons.materialdesignicons.BoomGateAlertOutline
+import compose.icons.materialdesignicons.BoomGateArrowDown
+import compose.icons.materialdesignicons.BoomGateArrowDownOutline
+import compose.icons.materialdesignicons.BoomGateArrowUp
+import compose.icons.materialdesignicons.BoomGateArrowUpOutline
+import compose.icons.materialdesignicons.BoomGateOutline
+import compose.icons.materialdesignicons.BoomGateUp
+import compose.icons.materialdesignicons.BoomGateUpOutline
+import compose.icons.materialdesignicons.Boombox
+import compose.icons.materialdesignicons.Boomerang
+import compose.icons.materialdesignicons.Bootstrap
+import compose.icons.materialdesignicons.BorderAll
+import compose.icons.materialdesignicons.BorderAllVariant
+import compose.icons.materialdesignicons.BorderBottom
+import compose.icons.materialdesignicons.BorderBottomVariant
+import compose.icons.materialdesignicons.BorderColor
+import compose.icons.materialdesignicons.BorderHorizontal
+import compose.icons.materialdesignicons.BorderInside
+import compose.icons.materialdesignicons.BorderLeft
+import compose.icons.materialdesignicons.BorderLeftVariant
+import compose.icons.materialdesignicons.BorderNone
+import compose.icons.materialdesignicons.BorderNoneVariant
+import compose.icons.materialdesignicons.BorderOutside
+import compose.icons.materialdesignicons.BorderRadius
+import compose.icons.materialdesignicons.BorderRight
+import compose.icons.materialdesignicons.BorderRightVariant
+import compose.icons.materialdesignicons.BorderStyle
+import compose.icons.materialdesignicons.BorderTop
+import compose.icons.materialdesignicons.BorderTopVariant
+import compose.icons.materialdesignicons.BorderVertical
+import compose.icons.materialdesignicons.BottleSoda
+import compose.icons.materialdesignicons.BottleSodaClassic
+import compose.icons.materialdesignicons.BottleSodaClassicOutline
+import compose.icons.materialdesignicons.BottleSodaOutline
+import compose.icons.materialdesignicons.BottleTonic
+import compose.icons.materialdesignicons.BottleTonicOutline
+import compose.icons.materialdesignicons.BottleTonicPlus
+import compose.icons.materialdesignicons.BottleTonicPlusOutline
+import compose.icons.materialdesignicons.BottleTonicSkull
+import compose.icons.materialdesignicons.BottleTonicSkullOutline
+import compose.icons.materialdesignicons.BottleWine
+import compose.icons.materialdesignicons.BottleWineOutline
+import compose.icons.materialdesignicons.BowArrow
+import compose.icons.materialdesignicons.BowTie
+import compose.icons.materialdesignicons.Bowl
+import compose.icons.materialdesignicons.BowlMix
+import compose.icons.materialdesignicons.BowlMixOutline
+import compose.icons.materialdesignicons.BowlOutline
+import compose.icons.materialdesignicons.Bowling
+import compose.icons.materialdesignicons.Box
+import compose.icons.materialdesignicons.BoxCutter
+import compose.icons.materialdesignicons.BoxCutterOff
+import compose.icons.materialdesignicons.BoxShadow
+import compose.icons.materialdesignicons.BoxingGlove
+import compose.icons.materialdesignicons.Braille
+import compose.icons.materialdesignicons.Brain
+import compose.icons.materialdesignicons.BreadSlice
+import compose.icons.materialdesignicons.BreadSliceOutline
+import compose.icons.materialdesignicons.Bridge
+import compose.icons.materialdesignicons.Briefcase
+import compose.icons.materialdesignicons.BriefcaseAccount
+import compose.icons.materialdesignicons.BriefcaseAccountOutline
+import compose.icons.materialdesignicons.BriefcaseArrowLeftRight
+import compose.icons.materialdesignicons.BriefcaseArrowLeftRightOutline
+import compose.icons.materialdesignicons.BriefcaseArrowUpDown
+import compose.icons.materialdesignicons.BriefcaseArrowUpDownOutline
+import compose.icons.materialdesignicons.BriefcaseCheck
+import compose.icons.materialdesignicons.BriefcaseCheckOutline
+import compose.icons.materialdesignicons.BriefcaseClock
+import compose.icons.materialdesignicons.BriefcaseClockOutline
+import compose.icons.materialdesignicons.BriefcaseDownload
+import compose.icons.materialdesignicons.BriefcaseDownloadOutline
+import compose.icons.materialdesignicons.BriefcaseEdit
+import compose.icons.materialdesignicons.BriefcaseEditOutline
+import compose.icons.materialdesignicons.BriefcaseEye
+import compose.icons.materialdesignicons.BriefcaseEyeOutline
+import compose.icons.materialdesignicons.BriefcaseMinus
+import compose.icons.materialdesignicons.BriefcaseMinusOutline
+import compose.icons.materialdesignicons.BriefcaseOff
+import compose.icons.materialdesignicons.BriefcaseOffOutline
+import compose.icons.materialdesignicons.BriefcaseOutline
+import compose.icons.materialdesignicons.BriefcasePlus
+import compose.icons.materialdesignicons.BriefcasePlusOutline
+import compose.icons.materialdesignicons.BriefcaseRemove
+import compose.icons.materialdesignicons.BriefcaseRemoveOutline
+import compose.icons.materialdesignicons.BriefcaseSearch
+import compose.icons.materialdesignicons.BriefcaseSearchOutline
+import compose.icons.materialdesignicons.BriefcaseUpload
+import compose.icons.materialdesignicons.BriefcaseUploadOutline
+import compose.icons.materialdesignicons.BriefcaseVariant
+import compose.icons.materialdesignicons.BriefcaseVariantOff
+import compose.icons.materialdesignicons.BriefcaseVariantOffOutline
+import compose.icons.materialdesignicons.BriefcaseVariantOutline
+import compose.icons.materialdesignicons.Brightness1
+import compose.icons.materialdesignicons.Brightness2
+import compose.icons.materialdesignicons.Brightness3
+import compose.icons.materialdesignicons.Brightness4
+import compose.icons.materialdesignicons.Brightness5
+import compose.icons.materialdesignicons.Brightness6
+import compose.icons.materialdesignicons.Brightness7
+import compose.icons.materialdesignicons.BrightnessAuto
+import compose.icons.materialdesignicons.BrightnessPercent
+import compose.icons.materialdesignicons.Broadcast
+import compose.icons.materialdesignicons.BroadcastOff
+import compose.icons.materialdesignicons.Broom
+import compose.icons.materialdesignicons.Brush
+import compose.icons.materialdesignicons.BrushOff
+import compose.icons.materialdesignicons.BrushOutline
+import compose.icons.materialdesignicons.BrushVariant
+import compose.icons.materialdesignicons.Bucket
+import compose.icons.materialdesignicons.BucketOutline
+import compose.icons.materialdesignicons.Buffet
+import compose.icons.materialdesignicons.Bug
+import compose.icons.materialdesignicons.BugCheck
+import compose.icons.materialdesignicons.BugCheckOutline
+import compose.icons.materialdesignicons.BugOutline
+import compose.icons.materialdesignicons.BugPause
+import compose.icons.materialdesignicons.BugPauseOutline
+import compose.icons.materialdesignicons.BugPlay
+import compose.icons.materialdesignicons.BugPlayOutline
+import compose.icons.materialdesignicons.BugStop
+import compose.icons.materialdesignicons.BugStopOutline
+import compose.icons.materialdesignicons.Bugle
+import compose.icons.materialdesignicons.BulkheadLight
+import compose.icons.materialdesignicons.Bulldozer
+import compose.icons.materialdesignicons.Bullet
+import compose.icons.materialdesignicons.BulletinBoard
+import compose.icons.materialdesignicons.Bullhorn
+import compose.icons.materialdesignicons.BullhornOutline
+import compose.icons.materialdesignicons.BullhornVariant
+import compose.icons.materialdesignicons.BullhornVariantOutline
+import compose.icons.materialdesignicons.Bullseye
+import compose.icons.materialdesignicons.BullseyeArrow
+import compose.icons.materialdesignicons.Bulma
+import compose.icons.materialdesignicons.BunkBed
+import compose.icons.materialdesignicons.BunkBedOutline
+import compose.icons.materialdesignicons.Bus
+import compose.icons.materialdesignicons.BusAlert
+import compose.icons.materialdesignicons.BusArticulatedEnd
+import compose.icons.materialdesignicons.BusArticulatedFront
+import compose.icons.materialdesignicons.BusClock
+import compose.icons.materialdesignicons.BusDoubleDecker
+import compose.icons.materialdesignicons.BusElectric
+import compose.icons.materialdesignicons.BusMarker
+import compose.icons.materialdesignicons.BusMultiple
+import compose.icons.materialdesignicons.BusSchool
+import compose.icons.materialdesignicons.BusSide
+import compose.icons.materialdesignicons.BusStop
+import compose.icons.materialdesignicons.BusStopCovered
+import compose.icons.materialdesignicons.BusStopUncovered
+import compose.icons.materialdesignicons.Butterfly
+import compose.icons.materialdesignicons.ButterflyOutline
+import compose.icons.materialdesignicons.ButtonCursor
+import compose.icons.materialdesignicons.ButtonPointer
+import compose.icons.materialdesignicons.CabinAFrame
+import compose.icons.materialdesignicons.CableData
+import compose.icons.materialdesignicons.Cached
+import compose.icons.materialdesignicons.Cactus
+import compose.icons.materialdesignicons.Cake
+import compose.icons.materialdesignicons.CakeLayered
+import compose.icons.materialdesignicons.CakeVariant
+import compose.icons.materialdesignicons.CakeVariantOutline
+import compose.icons.materialdesignicons.Calculator
+import compose.icons.materialdesignicons.CalculatorVariant
+import compose.icons.materialdesignicons.CalculatorVariantOutline
+import compose.icons.materialdesignicons.Calendar
+import compose.icons.materialdesignicons.CalendarAccount
+import compose.icons.materialdesignicons.CalendarAccountOutline
+import compose.icons.materialdesignicons.CalendarAlert
+import compose.icons.materialdesignicons.CalendarAlertOutline
+import compose.icons.materialdesignicons.CalendarArrowLeft
+import compose.icons.materialdesignicons.CalendarArrowRight
+import compose.icons.materialdesignicons.CalendarBadge
+import compose.icons.materialdesignicons.CalendarBadgeOutline
+import compose.icons.materialdesignicons.CalendarBlank
+import compose.icons.materialdesignicons.CalendarBlankMultiple
+import compose.icons.materialdesignicons.CalendarBlankOutline
+import compose.icons.materialdesignicons.CalendarCheck
+import compose.icons.materialdesignicons.CalendarCheckOutline
+import compose.icons.materialdesignicons.CalendarClock
+import compose.icons.materialdesignicons.CalendarClockOutline
+import compose.icons.materialdesignicons.CalendarCollapseHorizontal
+import compose.icons.materialdesignicons.CalendarCollapseHorizontalOutline
+import compose.icons.materialdesignicons.CalendarCursor
+import compose.icons.materialdesignicons.CalendarCursorOutline
+import compose.icons.materialdesignicons.CalendarEdit
+import compose.icons.materialdesignicons.CalendarEditOutline
+import compose.icons.materialdesignicons.CalendarEnd
+import compose.icons.materialdesignicons.CalendarEndOutline
+import compose.icons.materialdesignicons.CalendarExpandHorizontal
+import compose.icons.materialdesignicons.CalendarExpandHorizontalOutline
+import compose.icons.materialdesignicons.CalendarExport
+import compose.icons.materialdesignicons.CalendarExportOutline
+import compose.icons.materialdesignicons.CalendarFilter
+import compose.icons.materialdesignicons.CalendarFilterOutline
+import compose.icons.materialdesignicons.CalendarHeart
+import compose.icons.materialdesignicons.CalendarHeartOutline
+import compose.icons.materialdesignicons.CalendarImport
+import compose.icons.materialdesignicons.CalendarImportOutline
+import compose.icons.materialdesignicons.CalendarLock
+import compose.icons.materialdesignicons.CalendarLockOpen
+import compose.icons.materialdesignicons.CalendarLockOpenOutline
+import compose.icons.materialdesignicons.CalendarLockOutline
+import compose.icons.materialdesignicons.CalendarMinus
+import compose.icons.materialdesignicons.CalendarMinusOutline
+import compose.icons.materialdesignicons.CalendarMonth
+import compose.icons.materialdesignicons.CalendarMonthOutline
+import compose.icons.materialdesignicons.CalendarMultiple
+import compose.icons.materialdesignicons.CalendarMultipleCheck
+import compose.icons.materialdesignicons.CalendarMultiselect
+import compose.icons.materialdesignicons.CalendarMultiselectOutline
+import compose.icons.materialdesignicons.CalendarOutline
+import compose.icons.materialdesignicons.CalendarPlus
+import compose.icons.materialdesignicons.CalendarPlusOutline
+import compose.icons.materialdesignicons.CalendarQuestion
+import compose.icons.materialdesignicons.CalendarQuestionOutline
+import compose.icons.materialdesignicons.CalendarRange
+import compose.icons.materialdesignicons.CalendarRangeOutline
+import compose.icons.materialdesignicons.CalendarRefresh
+import compose.icons.materialdesignicons.CalendarRefreshOutline
+import compose.icons.materialdesignicons.CalendarRemove
+import compose.icons.materialdesignicons.CalendarRemoveOutline
+import compose.icons.materialdesignicons.CalendarSearch
+import compose.icons.materialdesignicons.CalendarSearchOutline
+import compose.icons.materialdesignicons.CalendarStar
+import compose.icons.materialdesignicons.CalendarStarFourPoints
+import compose.icons.materialdesignicons.CalendarStarOutline
+import compose.icons.materialdesignicons.CalendarStart
+import compose.icons.materialdesignicons.CalendarStartOutline
+import compose.icons.materialdesignicons.CalendarSync
+import compose.icons.materialdesignicons.CalendarSyncOutline
+import compose.icons.materialdesignicons.CalendarText
+import compose.icons.materialdesignicons.CalendarTextOutline
+import compose.icons.materialdesignicons.CalendarToday
+import compose.icons.materialdesignicons.CalendarTodayOutline
+import compose.icons.materialdesignicons.CalendarWeek
+import compose.icons.materialdesignicons.CalendarWeekBegin
+import compose.icons.materialdesignicons.CalendarWeekBeginOutline
+import compose.icons.materialdesignicons.CalendarWeekOutline
+import compose.icons.materialdesignicons.CalendarWeekend
+import compose.icons.materialdesignicons.CalendarWeekendOutline
+import compose.icons.materialdesignicons.CallMade
+import compose.icons.materialdesignicons.CallMerge
+import compose.icons.materialdesignicons.CallMissed
+import compose.icons.materialdesignicons.CallReceived
+import compose.icons.materialdesignicons.CallSplit
+import compose.icons.materialdesignicons.Camcorder
+import compose.icons.materialdesignicons.CamcorderOff
+import compose.icons.materialdesignicons.Camera
+import compose.icons.materialdesignicons.CameraAccount
+import compose.icons.materialdesignicons.CameraBurst
+import compose.icons.materialdesignicons.CameraControl
+import compose.icons.materialdesignicons.CameraDocument
+import compose.icons.materialdesignicons.CameraDocumentOff
+import compose.icons.materialdesignicons.CameraEnhance
+import compose.icons.materialdesignicons.CameraEnhanceOutline
+import compose.icons.materialdesignicons.CameraFlip
+import compose.icons.materialdesignicons.CameraFlipOutline
+import compose.icons.materialdesignicons.CameraFront
+import compose.icons.materialdesignicons.CameraFrontVariant
+import compose.icons.materialdesignicons.CameraGopro
+import compose.icons.materialdesignicons.CameraImage
+import compose.icons.materialdesignicons.CameraIris
+import compose.icons.materialdesignicons.CameraLock
+import compose.icons.materialdesignicons.CameraLockOpen
+import compose.icons.materialdesignicons.CameraLockOpenOutline
+import compose.icons.materialdesignicons.CameraLockOutline
+import compose.icons.materialdesignicons.CameraMarker
+import compose.icons.materialdesignicons.CameraMarkerOutline
+import compose.icons.materialdesignicons.CameraMeteringCenter
+import compose.icons.materialdesignicons.CameraMeteringMatrix
+import compose.icons.materialdesignicons.CameraMeteringPartial
+import compose.icons.materialdesignicons.CameraMeteringSpot
+import compose.icons.materialdesignicons.CameraOff
+import compose.icons.materialdesignicons.CameraOffOutline
+import compose.icons.materialdesignicons.CameraOutline
+import compose.icons.materialdesignicons.CameraPartyMode
+import compose.icons.materialdesignicons.CameraPlus
+import compose.icons.materialdesignicons.CameraPlusOutline
+import compose.icons.materialdesignicons.CameraRear
+import compose.icons.materialdesignicons.CameraRearVariant
+import compose.icons.materialdesignicons.CameraRetake
+import compose.icons.materialdesignicons.CameraRetakeOutline
+import compose.icons.materialdesignicons.CameraSwitch
+import compose.icons.materialdesignicons.CameraSwitchOutline
+import compose.icons.materialdesignicons.CameraTimer
+import compose.icons.materialdesignicons.CameraWireless
+import compose.icons.materialdesignicons.CameraWirelessOutline
+import compose.icons.materialdesignicons.Campfire
+import compose.icons.materialdesignicons.Cancel
+import compose.icons.materialdesignicons.Candelabra
+import compose.icons.materialdesignicons.CandelabraFire
+import compose.icons.materialdesignicons.Candle
+import compose.icons.materialdesignicons.Candy
+import compose.icons.materialdesignicons.CandyOff
+import compose.icons.materialdesignicons.CandyOffOutline
+import compose.icons.materialdesignicons.CandyOutline
+import compose.icons.materialdesignicons.Candycane
+import compose.icons.materialdesignicons.Cannabis
+import compose.icons.materialdesignicons.CannabisOff
+import compose.icons.materialdesignicons.CapsLock
+import compose.icons.materialdesignicons.Car
+import compose.icons.materialdesignicons.Car2Plus
+import compose.icons.materialdesignicons.Car3Plus
+import compose.icons.materialdesignicons.CarArrowLeft
+import compose.icons.materialdesignicons.CarArrowRight
+import compose.icons.materialdesignicons.CarBack
+import compose.icons.materialdesignicons.CarBattery
+import compose.icons.materialdesignicons.CarBrakeAbs
+import compose.icons.materialdesignicons.CarBrakeAlert
+import compose.icons.materialdesignicons.CarBrakeFluidLevel
+import compose.icons.materialdesignicons.CarBrakeHold
+import compose.icons.materialdesignicons.CarBrakeLowPressure
+import compose.icons.materialdesignicons.CarBrakeParking
+import compose.icons.materialdesignicons.CarBrakeRetarder
+import compose.icons.materialdesignicons.CarBrakeTemperature
+import compose.icons.materialdesignicons.CarBrakeWornLinings
+import compose.icons.materialdesignicons.CarChildSeat
+import compose.icons.materialdesignicons.CarClock
+import compose.icons.materialdesignicons.CarClutch
+import compose.icons.materialdesignicons.CarCog
+import compose.icons.materialdesignicons.CarConnected
+import compose.icons.materialdesignicons.CarConvertible
+import compose.icons.materialdesignicons.CarCoolantLevel
+import compose.icons.materialdesignicons.CarCruiseControl
+import compose.icons.materialdesignicons.CarDefrostFront
+import compose.icons.materialdesignicons.CarDefrostRear
+import compose.icons.materialdesignicons.CarDoor
+import compose.icons.materialdesignicons.CarDoorLock
+import compose.icons.materialdesignicons.CarElectric
+import compose.icons.materialdesignicons.CarElectricOutline
+import compose.icons.materialdesignicons.CarEmergency
+import compose.icons.materialdesignicons.CarEsp
+import compose.icons.materialdesignicons.CarEstate
+import compose.icons.materialdesignicons.CarHatchback
+import compose.icons.materialdesignicons.CarInfo
+import compose.icons.materialdesignicons.CarKey
+import compose.icons.materialdesignicons.CarLiftedPickup
+import compose.icons.materialdesignicons.CarLightAlert
+import compose.icons.materialdesignicons.CarLightDimmed
+import compose.icons.materialdesignicons.CarLightFog
+import compose.icons.materialdesignicons.CarLightHigh
+import compose.icons.materialdesignicons.CarLimousine
+import compose.icons.materialdesignicons.CarMultiple
+import compose.icons.materialdesignicons.CarOff
+import compose.icons.materialdesignicons.CarOutline
+import compose.icons.materialdesignicons.CarParkingLights
+import compose.icons.materialdesignicons.CarPickup
+import compose.icons.materialdesignicons.CarSearch
+import compose.icons.materialdesignicons.CarSearchOutline
+import compose.icons.materialdesignicons.CarSeat
+import compose.icons.materialdesignicons.CarSeatCooler
+import compose.icons.materialdesignicons.CarSeatHeater
+import compose.icons.materialdesignicons.CarSelect
+import compose.icons.materialdesignicons.CarSettings
+import compose.icons.materialdesignicons.CarShiftPattern
+import compose.icons.materialdesignicons.CarSide
+import compose.icons.materialdesignicons.CarSpeedLimiter
+import compose.icons.materialdesignicons.CarSports
+import compose.icons.materialdesignicons.CarTireAlert
+import compose.icons.materialdesignicons.CarTractionControl
+import compose.icons.materialdesignicons.CarTurbocharger
+import compose.icons.materialdesignicons.CarWash
+import compose.icons.materialdesignicons.CarWindshield
+import compose.icons.materialdesignicons.CarWindshieldOutline
+import compose.icons.materialdesignicons.CarWireless
+import compose.icons.materialdesignicons.CarWrench
+import compose.icons.materialdesignicons.Carabiner
+import compose.icons.materialdesignicons.Caravan
+import compose.icons.materialdesignicons.Card
+import compose.icons.materialdesignicons.CardAccountDetails
+import compose.icons.materialdesignicons.CardAccountDetailsOutline
+import compose.icons.materialdesignicons.CardAccountDetailsStar
+import compose.icons.materialdesignicons.CardAccountDetailsStarOutline
+import compose.icons.materialdesignicons.CardAccountMail
+import compose.icons.materialdesignicons.CardAccountMailOutline
+import compose.icons.materialdesignicons.CardAccountPhone
+import compose.icons.materialdesignicons.CardAccountPhoneOutline
+import compose.icons.materialdesignicons.CardBulleted
+import compose.icons.materialdesignicons.CardBulletedOff
+import compose.icons.materialdesignicons.CardBulletedOffOutline
+import compose.icons.materialdesignicons.CardBulletedOutline
+import compose.icons.materialdesignicons.CardBulletedSettings
+import compose.icons.materialdesignicons.CardBulletedSettingsOutline
+import compose.icons.materialdesignicons.CardMinus
+import compose.icons.materialdesignicons.CardMinusOutline
+import compose.icons.materialdesignicons.CardMultiple
+import compose.icons.materialdesignicons.CardMultipleOutline
+import compose.icons.materialdesignicons.CardOff
+import compose.icons.materialdesignicons.CardOffOutline
+import compose.icons.materialdesignicons.CardOutline
+import compose.icons.materialdesignicons.CardPlus
+import compose.icons.materialdesignicons.CardPlusOutline
+import compose.icons.materialdesignicons.CardRemove
+import compose.icons.materialdesignicons.CardRemoveOutline
+import compose.icons.materialdesignicons.CardSearch
+import compose.icons.materialdesignicons.CardSearchOutline
+import compose.icons.materialdesignicons.CardText
+import compose.icons.materialdesignicons.CardTextOutline
+import compose.icons.materialdesignicons.Cards
+import compose.icons.materialdesignicons.CardsClub
+import compose.icons.materialdesignicons.CardsClubOutline
+import compose.icons.materialdesignicons.CardsDiamond
+import compose.icons.materialdesignicons.CardsDiamondOutline
+import compose.icons.materialdesignicons.CardsHeart
+import compose.icons.materialdesignicons.CardsHeartOutline
+import compose.icons.materialdesignicons.CardsOutline
+import compose.icons.materialdesignicons.CardsPlaying
+import compose.icons.materialdesignicons.CardsPlayingClub
+import compose.icons.materialdesignicons.CardsPlayingClubMultiple
+import compose.icons.materialdesignicons.CardsPlayingClubMultipleOutline
+import compose.icons.materialdesignicons.CardsPlayingClubOutline
+import compose.icons.materialdesignicons.CardsPlayingDiamond
+import compose.icons.materialdesignicons.CardsPlayingDiamondMultiple
+import compose.icons.materialdesignicons.CardsPlayingDiamondMultipleOutline
+import compose.icons.materialdesignicons.CardsPlayingDiamondOutline
+import compose.icons.materialdesignicons.CardsPlayingHeart
+import compose.icons.materialdesignicons.CardsPlayingHeartMultiple
+import compose.icons.materialdesignicons.CardsPlayingHeartMultipleOutline
+import compose.icons.materialdesignicons.CardsPlayingHeartOutline
+import compose.icons.materialdesignicons.CardsPlayingOutline
+import compose.icons.materialdesignicons.CardsPlayingSpade
+import compose.icons.materialdesignicons.CardsPlayingSpadeMultiple
+import compose.icons.materialdesignicons.CardsPlayingSpadeMultipleOutline
+import compose.icons.materialdesignicons.CardsPlayingSpadeOutline
+import compose.icons.materialdesignicons.CardsSpade
+import compose.icons.materialdesignicons.CardsSpadeOutline
+import compose.icons.materialdesignicons.CardsVariant
+import compose.icons.materialdesignicons.Carrot
+import compose.icons.materialdesignicons.Cart
+import compose.icons.materialdesignicons.CartArrowDown
+import compose.icons.materialdesignicons.CartArrowRight
+import compose.icons.materialdesignicons.CartArrowUp
+import compose.icons.materialdesignicons.CartCheck
+import compose.icons.materialdesignicons.CartHeart
+import compose.icons.materialdesignicons.CartMinus
+import compose.icons.materialdesignicons.CartOff
+import compose.icons.materialdesignicons.CartOutline
+import compose.icons.materialdesignicons.CartPercent
+import compose.icons.materialdesignicons.CartPlus
+import compose.icons.materialdesignicons.CartRemove
+import compose.icons.materialdesignicons.CartVariant
+import compose.icons.materialdesignicons.CaseSensitiveAlt
+import compose.icons.materialdesignicons.Cash
+import compose.icons.materialdesignicons.Cash100
+import compose.icons.materialdesignicons.CashCheck
+import compose.icons.materialdesignicons.CashClock
+import compose.icons.materialdesignicons.CashFast
+import compose.icons.materialdesignicons.CashLock
+import compose.icons.materialdesignicons.CashLockOpen
+import compose.icons.materialdesignicons.CashMarker
+import compose.icons.materialdesignicons.CashMinus
+import compose.icons.materialdesignicons.CashMultiple
+import compose.icons.materialdesignicons.CashPlus
+import compose.icons.materialdesignicons.CashRefund
+import compose.icons.materialdesignicons.CashRegister
+import compose.icons.materialdesignicons.CashRemove
+import compose.icons.materialdesignicons.CashSync
+import compose.icons.materialdesignicons.Cassette
+import compose.icons.materialdesignicons.Cast
+import compose.icons.materialdesignicons.CastAudio
+import compose.icons.materialdesignicons.CastAudioVariant
+import compose.icons.materialdesignicons.CastConnected
+import compose.icons.materialdesignicons.CastEducation
+import compose.icons.materialdesignicons.CastOff
+import compose.icons.materialdesignicons.CastVariant
+import compose.icons.materialdesignicons.Castle
+import compose.icons.materialdesignicons.Cat
+import compose.icons.materialdesignicons.Cctv
+import compose.icons.materialdesignicons.CctvOff
+import compose.icons.materialdesignicons.CeilingFan
+import compose.icons.materialdesignicons.CeilingFanLight
+import compose.icons.materialdesignicons.CeilingLight
+import compose.icons.materialdesignicons.CeilingLightMultiple
+import compose.icons.materialdesignicons.CeilingLightMultipleOutline
+import compose.icons.materialdesignicons.CeilingLightOutline
+import compose.icons.materialdesignicons.Cellphone
+import compose.icons.materialdesignicons.CellphoneArrowDown
+import compose.icons.materialdesignicons.CellphoneArrowDownVariant
+import compose.icons.materialdesignicons.CellphoneBasic
+import compose.icons.materialdesignicons.CellphoneCharging
+import compose.icons.materialdesignicons.CellphoneCheck
+import compose.icons.materialdesignicons.CellphoneCog
+import compose.icons.materialdesignicons.CellphoneDock
+import compose.icons.materialdesignicons.CellphoneInformation
+import compose.icons.materialdesignicons.CellphoneKey
+import compose.icons.materialdesignicons.CellphoneLink
+import compose.icons.materialdesignicons.CellphoneLinkOff
+import compose.icons.materialdesignicons.CellphoneLock
+import compose.icons.materialdesignicons.CellphoneMarker
+import compose.icons.materialdesignicons.CellphoneMessage
+import compose.icons.materialdesignicons.CellphoneMessageOff
+import compose.icons.materialdesignicons.CellphoneNfc
+import compose.icons.materialdesignicons.CellphoneNfcOff
+import compose.icons.materialdesignicons.CellphoneOff
+import compose.icons.materialdesignicons.CellphonePlay
+import compose.icons.materialdesignicons.CellphoneRemove
+import compose.icons.materialdesignicons.CellphoneScreenshot
+import compose.icons.materialdesignicons.CellphoneSettings
+import compose.icons.materialdesignicons.CellphoneSound
+import compose.icons.materialdesignicons.CellphoneText
+import compose.icons.materialdesignicons.CellphoneWireless
+import compose.icons.materialdesignicons.Centos
+import compose.icons.materialdesignicons.Certificate
+import compose.icons.materialdesignicons.CertificateOutline
+import compose.icons.materialdesignicons.ChairRolling
+import compose.icons.materialdesignicons.ChairSchool
+import compose.icons.materialdesignicons.Chandelier
+import compose.icons.materialdesignicons.Charity
+import compose.icons.materialdesignicons.ChartArc
+import compose.icons.materialdesignicons.ChartAreaspline
+import compose.icons.materialdesignicons.ChartAreasplineVariant
+import compose.icons.materialdesignicons.ChartBar
+import compose.icons.materialdesignicons.ChartBarStacked
+import compose.icons.materialdesignicons.ChartBellCurve
+import compose.icons.materialdesignicons.ChartBellCurveCumulative
+import compose.icons.materialdesignicons.ChartBox
+import compose.icons.materialdesignicons.ChartBoxOutline
+import compose.icons.materialdesignicons.ChartBoxPlusOutline
+import compose.icons.materialdesignicons.ChartBubble
+import compose.icons.materialdesignicons.ChartDonut
+import compose.icons.materialdesignicons.ChartDonutVariant
+import compose.icons.materialdesignicons.ChartGantt
+import compose.icons.materialdesignicons.ChartHistogram
+import compose.icons.materialdesignicons.ChartLine
+import compose.icons.materialdesignicons.ChartLineStacked
+import compose.icons.materialdesignicons.ChartLineVariant
+import compose.icons.materialdesignicons.ChartMultiline
+import compose.icons.materialdesignicons.ChartMultiple
+import compose.icons.materialdesignicons.ChartPie
+import compose.icons.materialdesignicons.ChartPieOutline
+import compose.icons.materialdesignicons.ChartPpf
+import compose.icons.materialdesignicons.ChartSankey
+import compose.icons.materialdesignicons.ChartSankeyVariant
+import compose.icons.materialdesignicons.ChartScatterPlot
+import compose.icons.materialdesignicons.ChartScatterPlotHexbin
+import compose.icons.materialdesignicons.ChartTimeline
+import compose.icons.materialdesignicons.ChartTimelineVariant
+import compose.icons.materialdesignicons.ChartTimelineVariantShimmer
+import compose.icons.materialdesignicons.ChartTree
+import compose.icons.materialdesignicons.ChartWaterfall
+import compose.icons.materialdesignicons.Chat
+import compose.icons.materialdesignicons.ChatAlert
+import compose.icons.materialdesignicons.ChatAlertOutline
+import compose.icons.materialdesignicons.ChatMinus
+import compose.icons.materialdesignicons.ChatMinusOutline
+import compose.icons.materialdesignicons.ChatOutline
+import compose.icons.materialdesignicons.ChatPlus
+import compose.icons.materialdesignicons.ChatPlusOutline
+import compose.icons.materialdesignicons.ChatProcessing
+import compose.icons.materialdesignicons.ChatProcessingOutline
+import compose.icons.materialdesignicons.ChatQuestion
+import compose.icons.materialdesignicons.ChatQuestionOutline
+import compose.icons.materialdesignicons.ChatRemove
+import compose.icons.materialdesignicons.ChatRemoveOutline
+import compose.icons.materialdesignicons.ChatSleep
+import compose.icons.materialdesignicons.ChatSleepOutline
+import compose.icons.materialdesignicons.Check
+import compose.icons.materialdesignicons.CheckAll
+import compose.icons.materialdesignicons.CheckBold
+import compose.icons.materialdesignicons.CheckCircle
+import compose.icons.materialdesignicons.CheckCircleOutline
+import compose.icons.materialdesignicons.CheckDecagram
+import compose.icons.materialdesignicons.CheckDecagramOutline
+import compose.icons.materialdesignicons.CheckNetwork
+import compose.icons.materialdesignicons.CheckNetworkOutline
+import compose.icons.materialdesignicons.CheckOutline
+import compose.icons.materialdesignicons.CheckUnderline
+import compose.icons.materialdesignicons.CheckUnderlineCircle
+import compose.icons.materialdesignicons.CheckUnderlineCircleOutline
+import compose.icons.materialdesignicons.Checkbook
+import compose.icons.materialdesignicons.CheckbookArrowLeft
+import compose.icons.materialdesignicons.CheckbookArrowRight
+import compose.icons.materialdesignicons.CheckboxBlank
+import compose.icons.materialdesignicons.CheckboxBlankBadge
+import compose.icons.materialdesignicons.CheckboxBlankBadgeOutline
+import compose.icons.materialdesignicons.CheckboxBlankCircle
+import compose.icons.materialdesignicons.CheckboxBlankCircleOutline
+import compose.icons.materialdesignicons.CheckboxBlankOff
+import compose.icons.materialdesignicons.CheckboxBlankOffOutline
+import compose.icons.materialdesignicons.CheckboxBlankOutline
+import compose.icons.materialdesignicons.CheckboxIntermediate
+import compose.icons.materialdesignicons.CheckboxIntermediateVariant
+import compose.icons.materialdesignicons.CheckboxMarked
+import compose.icons.materialdesignicons.CheckboxMarkedCircle
+import compose.icons.materialdesignicons.CheckboxMarkedCircleOutline
+import compose.icons.materialdesignicons.CheckboxMarkedCirclePlusOutline
+import compose.icons.materialdesignicons.CheckboxMarkedOutline
+import compose.icons.materialdesignicons.CheckboxMultipleBlank
+import compose.icons.materialdesignicons.CheckboxMultipleBlankCircle
+import compose.icons.materialdesignicons.CheckboxMultipleBlankCircleOutline
+import compose.icons.materialdesignicons.CheckboxMultipleBlankOutline
+import compose.icons.materialdesignicons.CheckboxMultipleMarked
+import compose.icons.materialdesignicons.CheckboxMultipleMarkedCircle
+import compose.icons.materialdesignicons.CheckboxMultipleMarkedCircleOutline
+import compose.icons.materialdesignicons.CheckboxMultipleMarkedOutline
+import compose.icons.materialdesignicons.CheckboxMultipleOutline
+import compose.icons.materialdesignicons.CheckboxOutline
+import compose.icons.materialdesignicons.Checkerboard
+import compose.icons.materialdesignicons.CheckerboardMinus
+import compose.icons.materialdesignicons.CheckerboardPlus
+import compose.icons.materialdesignicons.CheckerboardRemove
+import compose.icons.materialdesignicons.Cheese
+import compose.icons.materialdesignicons.CheeseOff
+import compose.icons.materialdesignicons.ChefHat
+import compose.icons.materialdesignicons.ChemicalWeapon
+import compose.icons.materialdesignicons.ChessBishop
+import compose.icons.materialdesignicons.ChessKing
+import compose.icons.materialdesignicons.ChessKnight
+import compose.icons.materialdesignicons.ChessPawn
+import compose.icons.materialdesignicons.ChessQueen
+import compose.icons.materialdesignicons.ChessRook
+import compose.icons.materialdesignicons.ChevronDoubleDown
+import compose.icons.materialdesignicons.ChevronDoubleLeft
+import compose.icons.materialdesignicons.ChevronDoubleRight
+import compose.icons.materialdesignicons.ChevronDoubleUp
+import compose.icons.materialdesignicons.ChevronDown
+import compose.icons.materialdesignicons.ChevronDownBox
+import compose.icons.materialdesignicons.ChevronDownBoxOutline
+import compose.icons.materialdesignicons.ChevronDownCircle
+import compose.icons.materialdesignicons.ChevronDownCircleOutline
+import compose.icons.materialdesignicons.ChevronLeft
+import compose.icons.materialdesignicons.ChevronLeftBox
+import compose.icons.materialdesignicons.ChevronLeftBoxOutline
+import compose.icons.materialdesignicons.ChevronLeftCircle
+import compose.icons.materialdesignicons.ChevronLeftCircleOutline
+import compose.icons.materialdesignicons.ChevronRight
+import compose.icons.materialdesignicons.ChevronRightBox
+import compose.icons.materialdesignicons.ChevronRightBoxOutline
+import compose.icons.materialdesignicons.ChevronRightCircle
+import compose.icons.materialdesignicons.ChevronRightCircleOutline
+import compose.icons.materialdesignicons.ChevronTripleDown
+import compose.icons.materialdesignicons.ChevronTripleLeft
+import compose.icons.materialdesignicons.ChevronTripleRight
+import compose.icons.materialdesignicons.ChevronTripleUp
+import compose.icons.materialdesignicons.ChevronUp
+import compose.icons.materialdesignicons.ChevronUpBox
+import compose.icons.materialdesignicons.ChevronUpBoxOutline
+import compose.icons.materialdesignicons.ChevronUpCircle
+import compose.icons.materialdesignicons.ChevronUpCircleOutline
+import compose.icons.materialdesignicons.ChiliAlert
+import compose.icons.materialdesignicons.ChiliAlertOutline
+import compose.icons.materialdesignicons.ChiliHot
+import compose.icons.materialdesignicons.ChiliHotOutline
+import compose.icons.materialdesignicons.ChiliMedium
+import compose.icons.materialdesignicons.ChiliMediumOutline
+import compose.icons.materialdesignicons.ChiliMild
+import compose.icons.materialdesignicons.ChiliMildOutline
+import compose.icons.materialdesignicons.ChiliOff
+import compose.icons.materialdesignicons.ChiliOffOutline
+import compose.icons.materialdesignicons.Chip
+import compose.icons.materialdesignicons.Church
+import compose.icons.materialdesignicons.ChurchOutline
+import compose.icons.materialdesignicons.Cigar
+import compose.icons.materialdesignicons.CigarOff
+import compose.icons.materialdesignicons.Circle
+import compose.icons.materialdesignicons.CircleBox
+import compose.icons.materialdesignicons.CircleBoxOutline
+import compose.icons.materialdesignicons.CircleDouble
+import compose.icons.materialdesignicons.CircleEditOutline
+import compose.icons.materialdesignicons.CircleExpand
+import compose.icons.materialdesignicons.CircleHalf
+import compose.icons.materialdesignicons.CircleHalfFull
+import compose.icons.materialdesignicons.CircleMedium
+import compose.icons.materialdesignicons.CircleMultiple
+import compose.icons.materialdesignicons.CircleMultipleOutline
+import compose.icons.materialdesignicons.CircleOffOutline
+import compose.icons.materialdesignicons.CircleOpacity
+import compose.icons.materialdesignicons.CircleOutline
+import compose.icons.materialdesignicons.CircleSlice1
+import compose.icons.materialdesignicons.CircleSlice2
+import compose.icons.materialdesignicons.CircleSlice3
+import compose.icons.materialdesignicons.CircleSlice4
+import compose.icons.materialdesignicons.CircleSlice5
+import compose.icons.materialdesignicons.CircleSlice6
+import compose.icons.materialdesignicons.CircleSlice7
+import compose.icons.materialdesignicons.CircleSlice8
+import compose.icons.materialdesignicons.CircleSmall
+import compose.icons.materialdesignicons.CircularSaw
+import compose.icons.materialdesignicons.City
+import compose.icons.materialdesignicons.CityVariant
+import compose.icons.materialdesignicons.CityVariantOutline
+import compose.icons.materialdesignicons.Clipboard
+import compose.icons.materialdesignicons.ClipboardAccount
+import compose.icons.materialdesignicons.ClipboardAccountOutline
+import compose.icons.materialdesignicons.ClipboardAlert
+import compose.icons.materialdesignicons.ClipboardAlertOutline
+import compose.icons.materialdesignicons.ClipboardArrowDown
+import compose.icons.materialdesignicons.ClipboardArrowDownOutline
+import compose.icons.materialdesignicons.ClipboardArrowLeft
+import compose.icons.materialdesignicons.ClipboardArrowLeftOutline
+import compose.icons.materialdesignicons.ClipboardArrowRight
+import compose.icons.materialdesignicons.ClipboardArrowRightOutline
+import compose.icons.materialdesignicons.ClipboardArrowUp
+import compose.icons.materialdesignicons.ClipboardArrowUpOutline
+import compose.icons.materialdesignicons.ClipboardCheck
+import compose.icons.materialdesignicons.ClipboardCheckMultiple
+import compose.icons.materialdesignicons.ClipboardCheckMultipleOutline
+import compose.icons.materialdesignicons.ClipboardCheckOutline
+import compose.icons.materialdesignicons.ClipboardClock
+import compose.icons.materialdesignicons.ClipboardClockOutline
+import compose.icons.materialdesignicons.ClipboardEdit
+import compose.icons.materialdesignicons.ClipboardEditOutline
+import compose.icons.materialdesignicons.ClipboardFile
+import compose.icons.materialdesignicons.ClipboardFileOutline
+import compose.icons.materialdesignicons.ClipboardFlow
+import compose.icons.materialdesignicons.ClipboardFlowOutline
+import compose.icons.materialdesignicons.ClipboardList
+import compose.icons.materialdesignicons.ClipboardListOutline
+import compose.icons.materialdesignicons.ClipboardMinus
+import compose.icons.materialdesignicons.ClipboardMinusOutline
+import compose.icons.materialdesignicons.ClipboardMultiple
+import compose.icons.materialdesignicons.ClipboardMultipleOutline
+import compose.icons.materialdesignicons.ClipboardOff
+import compose.icons.materialdesignicons.ClipboardOffOutline
+import compose.icons.materialdesignicons.ClipboardOutline
+import compose.icons.materialdesignicons.ClipboardPlay
+import compose.icons.materialdesignicons.ClipboardPlayMultiple
+import compose.icons.materialdesignicons.ClipboardPlayMultipleOutline
+import compose.icons.materialdesignicons.ClipboardPlayOutline
+import compose.icons.materialdesignicons.ClipboardPlus
+import compose.icons.materialdesignicons.ClipboardPlusOutline
+import compose.icons.materialdesignicons.ClipboardPulse
+import compose.icons.materialdesignicons.ClipboardPulseOutline
+import compose.icons.materialdesignicons.ClipboardRemove
+import compose.icons.materialdesignicons.ClipboardRemoveOutline
+import compose.icons.materialdesignicons.ClipboardSearch
+import compose.icons.materialdesignicons.ClipboardSearchOutline
+import compose.icons.materialdesignicons.ClipboardText
+import compose.icons.materialdesignicons.ClipboardTextClock
+import compose.icons.materialdesignicons.ClipboardTextClockOutline
+import compose.icons.materialdesignicons.ClipboardTextMultiple
+import compose.icons.materialdesignicons.ClipboardTextMultipleOutline
+import compose.icons.materialdesignicons.ClipboardTextOff
+import compose.icons.materialdesignicons.ClipboardTextOffOutline
+import compose.icons.materialdesignicons.ClipboardTextOutline
+import compose.icons.materialdesignicons.ClipboardTextPlay
+import compose.icons.materialdesignicons.ClipboardTextPlayOutline
+import compose.icons.materialdesignicons.ClipboardTextSearch
+import compose.icons.materialdesignicons.ClipboardTextSearchOutline
+import compose.icons.materialdesignicons.Clippy
+import compose.icons.materialdesignicons.Clock
+import compose.icons.materialdesignicons.ClockAlert
+import compose.icons.materialdesignicons.ClockAlertOutline
+import compose.icons.materialdesignicons.ClockCheck
+import compose.icons.materialdesignicons.ClockCheckOutline
+import compose.icons.materialdesignicons.ClockDigital
+import compose.icons.materialdesignicons.ClockEdit
+import compose.icons.materialdesignicons.ClockEditOutline
+import compose.icons.materialdesignicons.ClockEnd
+import compose.icons.materialdesignicons.ClockFast
+import compose.icons.materialdesignicons.ClockIn
+import compose.icons.materialdesignicons.ClockMinus
+import compose.icons.materialdesignicons.ClockMinusOutline
+import compose.icons.materialdesignicons.ClockOut
+import compose.icons.materialdesignicons.ClockOutline
+import compose.icons.materialdesignicons.ClockPlus
+import compose.icons.materialdesignicons.ClockPlusOutline
+import compose.icons.materialdesignicons.ClockRemove
+import compose.icons.materialdesignicons.ClockRemoveOutline
+import compose.icons.materialdesignicons.ClockStart
+import compose.icons.materialdesignicons.ClockTimeEight
+import compose.icons.materialdesignicons.ClockTimeEightOutline
+import compose.icons.materialdesignicons.ClockTimeEleven
+import compose.icons.materialdesignicons.ClockTimeElevenOutline
+import compose.icons.materialdesignicons.ClockTimeFive
+import compose.icons.materialdesignicons.ClockTimeFiveOutline
+import compose.icons.materialdesignicons.ClockTimeFour
+import compose.icons.materialdesignicons.ClockTimeFourOutline
+import compose.icons.materialdesignicons.ClockTimeNine
+import compose.icons.materialdesignicons.ClockTimeNineOutline
+import compose.icons.materialdesignicons.ClockTimeOne
+import compose.icons.materialdesignicons.ClockTimeOneOutline
+import compose.icons.materialdesignicons.ClockTimeSeven
+import compose.icons.materialdesignicons.ClockTimeSevenOutline
+import compose.icons.materialdesignicons.ClockTimeSix
+import compose.icons.materialdesignicons.ClockTimeSixOutline
+import compose.icons.materialdesignicons.ClockTimeTen
+import compose.icons.materialdesignicons.ClockTimeTenOutline
+import compose.icons.materialdesignicons.ClockTimeThree
+import compose.icons.materialdesignicons.ClockTimeThreeOutline
+import compose.icons.materialdesignicons.ClockTimeTwelve
+import compose.icons.materialdesignicons.ClockTimeTwelveOutline
+import compose.icons.materialdesignicons.ClockTimeTwo
+import compose.icons.materialdesignicons.ClockTimeTwoOutline
+import compose.icons.materialdesignicons.Close
+import compose.icons.materialdesignicons.CloseBox
+import compose.icons.materialdesignicons.CloseBoxMultiple
+import compose.icons.materialdesignicons.CloseBoxMultipleOutline
+import compose.icons.materialdesignicons.CloseBoxOutline
+import compose.icons.materialdesignicons.CloseCircle
+import compose.icons.materialdesignicons.CloseCircleMultiple
+import compose.icons.materialdesignicons.CloseCircleMultipleOutline
+import compose.icons.materialdesignicons.CloseCircleOutline
+import compose.icons.materialdesignicons.CloseNetwork
+import compose.icons.materialdesignicons.CloseNetworkOutline
+import compose.icons.materialdesignicons.CloseOctagon
+import compose.icons.materialdesignicons.CloseOctagonOutline
+import compose.icons.materialdesignicons.CloseOutline
+import compose.icons.materialdesignicons.CloseThick
+import compose.icons.materialdesignicons.ClosedCaption
+import compose.icons.materialdesignicons.ClosedCaptionOutline
+import compose.icons.materialdesignicons.Cloud
+import compose.icons.materialdesignicons.CloudAlert
+import compose.icons.materialdesignicons.CloudAlertOutline
+import compose.icons.materialdesignicons.CloudArrowDown
+import compose.icons.materialdesignicons.CloudArrowDownOutline
+import compose.icons.materialdesignicons.CloudArrowLeft
+import compose.icons.materialdesignicons.CloudArrowLeftOutline
+import compose.icons.materialdesignicons.CloudArrowRight
+import compose.icons.materialdesignicons.CloudArrowRightOutline
+import compose.icons.materialdesignicons.CloudArrowUp
+import compose.icons.materialdesignicons.CloudArrowUpOutline
+import compose.icons.materialdesignicons.CloudBraces
+import compose.icons.materialdesignicons.CloudCancel
+import compose.icons.materialdesignicons.CloudCancelOutline
+import compose.icons.materialdesignicons.CloudCheck
+import compose.icons.materialdesignicons.CloudCheckOutline
+import compose.icons.materialdesignicons.CloudCheckVariant
+import compose.icons.materialdesignicons.CloudCheckVariantOutline
+import compose.icons.materialdesignicons.CloudCircle
+import compose.icons.materialdesignicons.CloudCircleOutline
+import compose.icons.materialdesignicons.CloudClock
+import compose.icons.materialdesignicons.CloudClockOutline
+import compose.icons.materialdesignicons.CloudCog
+import compose.icons.materialdesignicons.CloudCogOutline
+import compose.icons.materialdesignicons.CloudDownload
+import compose.icons.materialdesignicons.CloudDownloadOutline
+import compose.icons.materialdesignicons.CloudLock
+import compose.icons.materialdesignicons.CloudLockOpen
+import compose.icons.materialdesignicons.CloudLockOpenOutline
+import compose.icons.materialdesignicons.CloudLockOutline
+import compose.icons.materialdesignicons.CloudMinus
+import compose.icons.materialdesignicons.CloudMinusOutline
+import compose.icons.materialdesignicons.CloudOff
+import compose.icons.materialdesignicons.CloudOffOutline
+import compose.icons.materialdesignicons.CloudOutline
+import compose.icons.materialdesignicons.CloudPercent
+import compose.icons.materialdesignicons.CloudPercentOutline
+import compose.icons.materialdesignicons.CloudPlus
+import compose.icons.materialdesignicons.CloudPlusOutline
+import compose.icons.materialdesignicons.CloudPrint
+import compose.icons.materialdesignicons.CloudPrintOutline
+import compose.icons.materialdesignicons.CloudQuestion
+import compose.icons.materialdesignicons.CloudQuestionOutline
+import compose.icons.materialdesignicons.CloudRefresh
+import compose.icons.materialdesignicons.CloudRefreshOutline
+import compose.icons.materialdesignicons.CloudRefreshVariant
+import compose.icons.materialdesignicons.CloudRefreshVariantOutline
+import compose.icons.materialdesignicons.CloudRemove
+import compose.icons.materialdesignicons.CloudRemoveOutline
+import compose.icons.materialdesignicons.CloudSearch
+import compose.icons.materialdesignicons.CloudSearchOutline
+import compose.icons.materialdesignicons.CloudSync
+import compose.icons.materialdesignicons.CloudSyncOutline
+import compose.icons.materialdesignicons.CloudTags
+import compose.icons.materialdesignicons.CloudUpload
+import compose.icons.materialdesignicons.CloudUploadOutline
+import compose.icons.materialdesignicons.Clouds
+import compose.icons.materialdesignicons.Clover
+import compose.icons.materialdesignicons.CoachLamp
+import compose.icons.materialdesignicons.CoachLampVariant
+import compose.icons.materialdesignicons.CoatRack
+import compose.icons.materialdesignicons.CodeArray
+import compose.icons.materialdesignicons.CodeBraces
+import compose.icons.materialdesignicons.CodeBracesBox
+import compose.icons.materialdesignicons.CodeBrackets
+import compose.icons.materialdesignicons.CodeEqual
+import compose.icons.materialdesignicons.CodeGreaterThan
+import compose.icons.materialdesignicons.CodeGreaterThanOrEqual
+import compose.icons.materialdesignicons.CodeJson
+import compose.icons.materialdesignicons.CodeLessThan
+import compose.icons.materialdesignicons.CodeLessThanOrEqual
+import compose.icons.materialdesignicons.CodeNotEqual
+import compose.icons.materialdesignicons.CodeNotEqualVariant
+import compose.icons.materialdesignicons.CodeParentheses
+import compose.icons.materialdesignicons.CodeParenthesesBox
+import compose.icons.materialdesignicons.CodeString
+import compose.icons.materialdesignicons.CodeTags
+import compose.icons.materialdesignicons.CodeTagsCheck
+import compose.icons.materialdesignicons.Codepen
+import compose.icons.materialdesignicons.Coffee
+import compose.icons.materialdesignicons.CoffeeMaker
+import compose.icons.materialdesignicons.CoffeeMakerCheck
+import compose.icons.materialdesignicons.CoffeeMakerCheckOutline
+import compose.icons.materialdesignicons.CoffeeMakerOutline
+import compose.icons.materialdesignicons.CoffeeOff
+import compose.icons.materialdesignicons.CoffeeOffOutline
+import compose.icons.materialdesignicons.CoffeeOutline
+import compose.icons.materialdesignicons.CoffeeToGo
+import compose.icons.materialdesignicons.CoffeeToGoOutline
+import compose.icons.materialdesignicons.Coffin
+import compose.icons.materialdesignicons.Cog
+import compose.icons.materialdesignicons.CogBox
+import compose.icons.materialdesignicons.CogClockwise
+import compose.icons.materialdesignicons.CogCounterclockwise
+import compose.icons.materialdesignicons.CogOff
+import compose.icons.materialdesignicons.CogOffOutline
+import compose.icons.materialdesignicons.CogOutline
+import compose.icons.materialdesignicons.CogPause
+import compose.icons.materialdesignicons.CogPauseOutline
+import compose.icons.materialdesignicons.CogPlay
+import compose.icons.materialdesignicons.CogPlayOutline
+import compose.icons.materialdesignicons.CogRefresh
+import compose.icons.materialdesignicons.CogRefreshOutline
+import compose.icons.materialdesignicons.CogStop
+import compose.icons.materialdesignicons.CogStopOutline
+import compose.icons.materialdesignicons.CogSync
+import compose.icons.materialdesignicons.CogSyncOutline
+import compose.icons.materialdesignicons.CogTransfer
+import compose.icons.materialdesignicons.CogTransferOutline
+import compose.icons.materialdesignicons.Cogs
+import compose.icons.materialdesignicons.Collage
+import compose.icons.materialdesignicons.CollapseAll
+import compose.icons.materialdesignicons.CollapseAllOutline
+import compose.icons.materialdesignicons.ColorHelper
+import compose.icons.materialdesignicons.Comma
+import compose.icons.materialdesignicons.CommaBox
+import compose.icons.materialdesignicons.CommaBoxOutline
+import compose.icons.materialdesignicons.CommaCircle
+import compose.icons.materialdesignicons.CommaCircleOutline
+import compose.icons.materialdesignicons.Comment
+import compose.icons.materialdesignicons.CommentAccount
+import compose.icons.materialdesignicons.CommentAccountOutline
+import compose.icons.materialdesignicons.CommentAlert
+import compose.icons.materialdesignicons.CommentAlertOutline
+import compose.icons.materialdesignicons.CommentArrowLeft
+import compose.icons.materialdesignicons.CommentArrowLeftOutline
+import compose.icons.materialdesignicons.CommentArrowRight
+import compose.icons.materialdesignicons.CommentArrowRightOutline
+import compose.icons.materialdesignicons.CommentBookmark
+import compose.icons.materialdesignicons.CommentBookmarkOutline
+import compose.icons.materialdesignicons.CommentCheck
+import compose.icons.materialdesignicons.CommentCheckOutline
+import compose.icons.materialdesignicons.CommentEdit
+import compose.icons.materialdesignicons.CommentEditOutline
+import compose.icons.materialdesignicons.CommentEye
+import compose.icons.materialdesignicons.CommentEyeOutline
+import compose.icons.materialdesignicons.CommentFlash
+import compose.icons.materialdesignicons.CommentFlashOutline
+import compose.icons.materialdesignicons.CommentMinus
+import compose.icons.materialdesignicons.CommentMinusOutline
+import compose.icons.materialdesignicons.CommentMultiple
+import compose.icons.materialdesignicons.CommentMultipleOutline
+import compose.icons.materialdesignicons.CommentOff
+import compose.icons.materialdesignicons.CommentOffOutline
+import compose.icons.materialdesignicons.CommentOutline
+import compose.icons.materialdesignicons.CommentPlus
+import compose.icons.materialdesignicons.CommentPlusOutline
+import compose.icons.materialdesignicons.CommentProcessing
+import compose.icons.materialdesignicons.CommentProcessingOutline
+import compose.icons.materialdesignicons.CommentQuestion
+import compose.icons.materialdesignicons.CommentQuestionOutline
+import compose.icons.materialdesignicons.CommentQuote
+import compose.icons.materialdesignicons.CommentQuoteOutline
+import compose.icons.materialdesignicons.CommentRemove
+import compose.icons.materialdesignicons.CommentRemoveOutline
+import compose.icons.materialdesignicons.CommentSearch
+import compose.icons.materialdesignicons.CommentSearchOutline
+import compose.icons.materialdesignicons.CommentText
+import compose.icons.materialdesignicons.CommentTextMultiple
+import compose.icons.materialdesignicons.CommentTextMultipleOutline
+import compose.icons.materialdesignicons.CommentTextOutline
+import compose.icons.materialdesignicons.Compare
+import compose.icons.materialdesignicons.CompareHorizontal
+import compose.icons.materialdesignicons.CompareRemove
+import compose.icons.materialdesignicons.CompareVertical
+import compose.icons.materialdesignicons.Compass
+import compose.icons.materialdesignicons.CompassOff
+import compose.icons.materialdesignicons.CompassOffOutline
+import compose.icons.materialdesignicons.CompassOutline
+import compose.icons.materialdesignicons.CompassRose
+import compose.icons.materialdesignicons.Compost
+import compose.icons.materialdesignicons.Cone
+import compose.icons.materialdesignicons.ConeOff
+import compose.icons.materialdesignicons.Connection
+import compose.icons.materialdesignicons.Console
+import compose.icons.materialdesignicons.ConsoleLine
+import compose.icons.materialdesignicons.ConsoleNetwork
+import compose.icons.materialdesignicons.ConsoleNetworkOutline
+import compose.icons.materialdesignicons.Consolidate
+import compose.icons.materialdesignicons.ContactlessPayment
+import compose.icons.materialdesignicons.ContactlessPaymentCircle
+import compose.icons.materialdesignicons.ContactlessPaymentCircleOutline
+import compose.icons.materialdesignicons.Contacts
+import compose.icons.materialdesignicons.ContactsOutline
+import compose.icons.materialdesignicons.Contain
+import compose.icons.materialdesignicons.ContainEnd
+import compose.icons.materialdesignicons.ContainStart
+import compose.icons.materialdesignicons.ContentCopy
+import compose.icons.materialdesignicons.ContentCut
+import compose.icons.materialdesignicons.ContentDuplicate
+import compose.icons.materialdesignicons.ContentPaste
+import compose.icons.materialdesignicons.ContentSave
+import compose.icons.materialdesignicons.ContentSaveAlert
+import compose.icons.materialdesignicons.ContentSaveAlertOutline
+import compose.icons.materialdesignicons.ContentSaveAll
+import compose.icons.materialdesignicons.ContentSaveAllOutline
+import compose.icons.materialdesignicons.ContentSaveCheck
+import compose.icons.materialdesignicons.ContentSaveCheckOutline
+import compose.icons.materialdesignicons.ContentSaveCog
+import compose.icons.materialdesignicons.ContentSaveCogOutline
+import compose.icons.materialdesignicons.ContentSaveEdit
+import compose.icons.materialdesignicons.ContentSaveEditOutline
+import compose.icons.materialdesignicons.ContentSaveMinus
+import compose.icons.materialdesignicons.ContentSaveMinusOutline
+import compose.icons.materialdesignicons.ContentSaveMove
+import compose.icons.materialdesignicons.ContentSaveMoveOutline
+import compose.icons.materialdesignicons.ContentSaveOff
+import compose.icons.materialdesignicons.ContentSaveOffOutline
+import compose.icons.materialdesignicons.ContentSaveOutline
+import compose.icons.materialdesignicons.ContentSavePlus
+import compose.icons.materialdesignicons.ContentSavePlusOutline
+import compose.icons.materialdesignicons.ContentSaveSettings
+import compose.icons.materialdesignicons.ContentSaveSettingsOutline
+import compose.icons.materialdesignicons.Contrast
+import compose.icons.materialdesignicons.ContrastBox
+import compose.icons.materialdesignicons.ContrastCircle
+import compose.icons.materialdesignicons.Controller
+import compose.icons.materialdesignicons.ControllerClassic
+import compose.icons.materialdesignicons.ControllerClassicOutline
+import compose.icons.materialdesignicons.ControllerOff
+import compose.icons.materialdesignicons.Cookie
+import compose.icons.materialdesignicons.CookieAlert
+import compose.icons.materialdesignicons.CookieAlertOutline
+import compose.icons.materialdesignicons.CookieCheck
+import compose.icons.materialdesignicons.CookieCheckOutline
+import compose.icons.materialdesignicons.CookieClock
+import compose.icons.materialdesignicons.CookieClockOutline
+import compose.icons.materialdesignicons.CookieCog
+import compose.icons.materialdesignicons.CookieCogOutline
+import compose.icons.materialdesignicons.CookieEdit
+import compose.icons.materialdesignicons.CookieEditOutline
+import compose.icons.materialdesignicons.CookieLock
+import compose.icons.materialdesignicons.CookieLockOutline
+import compose.icons.materialdesignicons.CookieMinus
+import compose.icons.materialdesignicons.CookieMinusOutline
+import compose.icons.materialdesignicons.CookieOff
+import compose.icons.materialdesignicons.CookieOffOutline
+import compose.icons.materialdesignicons.CookieOutline
+import compose.icons.materialdesignicons.CookiePlus
+import compose.icons.materialdesignicons.CookiePlusOutline
+import compose.icons.materialdesignicons.CookieRefresh
+import compose.icons.materialdesignicons.CookieRefreshOutline
+import compose.icons.materialdesignicons.CookieRemove
+import compose.icons.materialdesignicons.CookieRemoveOutline
+import compose.icons.materialdesignicons.CookieSettings
+import compose.icons.materialdesignicons.CookieSettingsOutline
+import compose.icons.materialdesignicons.CoolantTemperature
+import compose.icons.materialdesignicons.Copyleft
+import compose.icons.materialdesignicons.Copyright
+import compose.icons.materialdesignicons.Cordova
+import compose.icons.materialdesignicons.Corn
+import compose.icons.materialdesignicons.CornOff
+import compose.icons.materialdesignicons.CosineWave
+import compose.icons.materialdesignicons.Counter
+import compose.icons.materialdesignicons.Countertop
+import compose.icons.materialdesignicons.CountertopOutline
+import compose.icons.materialdesignicons.Cow
+import compose.icons.materialdesignicons.CowOff
+import compose.icons.materialdesignicons.Cpu32Bit
+import compose.icons.materialdesignicons.Cpu64Bit
+import compose.icons.materialdesignicons.Cradle
+import compose.icons.materialdesignicons.CradleOutline
+import compose.icons.materialdesignicons.Crane
+import compose.icons.materialdesignicons.Creation
+import compose.icons.materialdesignicons.CreativeCommons
+import compose.icons.materialdesignicons.CreditCard
+import compose.icons.materialdesignicons.CreditCardCheck
+import compose.icons.materialdesignicons.CreditCardCheckOutline
+import compose.icons.materialdesignicons.CreditCardChip
+import compose.icons.materialdesignicons.CreditCardChipOutline
+import compose.icons.materialdesignicons.CreditCardClock
+import compose.icons.materialdesignicons.CreditCardClockOutline
+import compose.icons.materialdesignicons.CreditCardEdit
+import compose.icons.materialdesignicons.CreditCardEditOutline
+import compose.icons.materialdesignicons.CreditCardFast
+import compose.icons.materialdesignicons.CreditCardFastOutline
+import compose.icons.materialdesignicons.CreditCardLock
+import compose.icons.materialdesignicons.CreditCardLockOutline
+import compose.icons.materialdesignicons.CreditCardMarker
+import compose.icons.materialdesignicons.CreditCardMarkerOutline
+import compose.icons.materialdesignicons.CreditCardMinus
+import compose.icons.materialdesignicons.CreditCardMinusOutline
+import compose.icons.materialdesignicons.CreditCardMultiple
+import compose.icons.materialdesignicons.CreditCardMultipleOutline
+import compose.icons.materialdesignicons.CreditCardOff
+import compose.icons.materialdesignicons.CreditCardOffOutline
+import compose.icons.materialdesignicons.CreditCardOutline
+import compose.icons.materialdesignicons.CreditCardPlus
+import compose.icons.materialdesignicons.CreditCardPlusOutline
+import compose.icons.materialdesignicons.CreditCardRefresh
+import compose.icons.materialdesignicons.CreditCardRefreshOutline
+import compose.icons.materialdesignicons.CreditCardRefund
+import compose.icons.materialdesignicons.CreditCardRefundOutline
+import compose.icons.materialdesignicons.CreditCardRemove
+import compose.icons.materialdesignicons.CreditCardRemoveOutline
+import compose.icons.materialdesignicons.CreditCardScan
+import compose.icons.materialdesignicons.CreditCardScanOutline
+import compose.icons.materialdesignicons.CreditCardSearch
+import compose.icons.materialdesignicons.CreditCardSearchOutline
+import compose.icons.materialdesignicons.CreditCardSettings
+import compose.icons.materialdesignicons.CreditCardSettingsOutline
+import compose.icons.materialdesignicons.CreditCardSync
+import compose.icons.materialdesignicons.CreditCardSyncOutline
+import compose.icons.materialdesignicons.CreditCardWireless
+import compose.icons.materialdesignicons.CreditCardWirelessOff
+import compose.icons.materialdesignicons.CreditCardWirelessOffOutline
+import compose.icons.materialdesignicons.CreditCardWirelessOutline
+import compose.icons.materialdesignicons.Cricket
+import compose.icons.materialdesignicons.Crop
+import compose.icons.materialdesignicons.CropFree
+import compose.icons.materialdesignicons.CropLandscape
+import compose.icons.materialdesignicons.CropPortrait
+import compose.icons.materialdesignicons.CropRotate
+import compose.icons.materialdesignicons.CropSquare
+import compose.icons.materialdesignicons.Cross
+import compose.icons.materialdesignicons.CrossBolnisi
+import compose.icons.materialdesignicons.CrossCeltic
+import compose.icons.materialdesignicons.CrossOutline
+import compose.icons.materialdesignicons.Crosshairs
+import compose.icons.materialdesignicons.CrosshairsGps
+import compose.icons.materialdesignicons.CrosshairsOff
+import compose.icons.materialdesignicons.CrosshairsQuestion
+import compose.icons.materialdesignicons.Crowd
+import compose.icons.materialdesignicons.Crown
+import compose.icons.materialdesignicons.CrownCircle
+import compose.icons.materialdesignicons.CrownCircleOutline
+import compose.icons.materialdesignicons.CrownOutline
+import compose.icons.materialdesignicons.Cryengine
+import compose.icons.materialdesignicons.CrystalBall
+import compose.icons.materialdesignicons.Cube
+import compose.icons.materialdesignicons.CubeOff
+import compose.icons.materialdesignicons.CubeOffOutline
+import compose.icons.materialdesignicons.CubeOutline
+import compose.icons.materialdesignicons.CubeScan
+import compose.icons.materialdesignicons.CubeSend
+import compose.icons.materialdesignicons.CubeUnfolded
+import compose.icons.materialdesignicons.Cup
+import compose.icons.materialdesignicons.CupOff
+import compose.icons.materialdesignicons.CupOffOutline
+import compose.icons.materialdesignicons.CupOutline
+import compose.icons.materialdesignicons.CupWater
+import compose.icons.materialdesignicons.Cupboard
+import compose.icons.materialdesignicons.CupboardOutline
+import compose.icons.materialdesignicons.Cupcake
+import compose.icons.materialdesignicons.Curling
+import compose.icons.materialdesignicons.CurrencyBdt
+import compose.icons.materialdesignicons.CurrencyBrl
+import compose.icons.materialdesignicons.CurrencyBtc
+import compose.icons.materialdesignicons.CurrencyCny
+import compose.icons.materialdesignicons.CurrencyEth
+import compose.icons.materialdesignicons.CurrencyEur
+import compose.icons.materialdesignicons.CurrencyEurOff
+import compose.icons.materialdesignicons.CurrencyFra
+import compose.icons.materialdesignicons.CurrencyGbp
+import compose.icons.materialdesignicons.CurrencyIls
+import compose.icons.materialdesignicons.CurrencyInr
+import compose.icons.materialdesignicons.CurrencyJpy
+import compose.icons.materialdesignicons.CurrencyKrw
+import compose.icons.materialdesignicons.CurrencyKzt
+import compose.icons.materialdesignicons.CurrencyMnt
+import compose.icons.materialdesignicons.CurrencyNgn
+import compose.icons.materialdesignicons.CurrencyPhp
+import compose.icons.materialdesignicons.CurrencyRial
+import compose.icons.materialdesignicons.CurrencyRub
+import compose.icons.materialdesignicons.CurrencyRupee
+import compose.icons.materialdesignicons.CurrencySign
+import compose.icons.materialdesignicons.CurrencyThb
+import compose.icons.materialdesignicons.CurrencyTry
+import compose.icons.materialdesignicons.CurrencyTwd
+import compose.icons.materialdesignicons.CurrencyUah
+import compose.icons.materialdesignicons.CurrencyUsd
+import compose.icons.materialdesignicons.CurrencyUsdOff
+import compose.icons.materialdesignicons.CurrentAc
+import compose.icons.materialdesignicons.CurrentDc
+import compose.icons.materialdesignicons.CursorDefault
+import compose.icons.materialdesignicons.CursorDefaultClick
+import compose.icons.materialdesignicons.CursorDefaultClickOutline
+import compose.icons.materialdesignicons.CursorDefaultGesture
+import compose.icons.materialdesignicons.CursorDefaultGestureOutline
+import compose.icons.materialdesignicons.CursorDefaultOutline
+import compose.icons.materialdesignicons.CursorMove
+import compose.icons.materialdesignicons.CursorPointer
+import compose.icons.materialdesignicons.CursorText
+import compose.icons.materialdesignicons.Curtains
+import compose.icons.materialdesignicons.CurtainsClosed
+import compose.icons.materialdesignicons.Cylinder
+import compose.icons.materialdesignicons.CylinderOff
+import compose.icons.materialdesignicons.DanceBallroom
+import compose.icons.materialdesignicons.DancePole
+import compose.icons.materialdesignicons.DataMatrix
+import compose.icons.materialdesignicons.DataMatrixEdit
+import compose.icons.materialdesignicons.DataMatrixMinus
+import compose.icons.materialdesignicons.DataMatrixPlus
+import compose.icons.materialdesignicons.DataMatrixRemove
+import compose.icons.materialdesignicons.DataMatrixScan
+import compose.icons.materialdesignicons.Database
+import compose.icons.materialdesignicons.DatabaseAlert
+import compose.icons.materialdesignicons.DatabaseAlertOutline
+import compose.icons.materialdesignicons.DatabaseArrowDown
+import compose.icons.materialdesignicons.DatabaseArrowDownOutline
+import compose.icons.materialdesignicons.DatabaseArrowLeft
+import compose.icons.materialdesignicons.DatabaseArrowLeftOutline
+import compose.icons.materialdesignicons.DatabaseArrowRight
+import compose.icons.materialdesignicons.DatabaseArrowRightOutline
+import compose.icons.materialdesignicons.DatabaseArrowUp
+import compose.icons.materialdesignicons.DatabaseArrowUpOutline
+import compose.icons.materialdesignicons.DatabaseCheck
+import compose.icons.materialdesignicons.DatabaseCheckOutline
+import compose.icons.materialdesignicons.DatabaseClock
+import compose.icons.materialdesignicons.DatabaseClockOutline
+import compose.icons.materialdesignicons.DatabaseCog
+import compose.icons.materialdesignicons.DatabaseCogOutline
+import compose.icons.materialdesignicons.DatabaseEdit
+import compose.icons.materialdesignicons.DatabaseEditOutline
+import compose.icons.materialdesignicons.DatabaseExport
+import compose.icons.materialdesignicons.DatabaseExportOutline
+import compose.icons.materialdesignicons.DatabaseEye
+import compose.icons.materialdesignicons.DatabaseEyeOff
+import compose.icons.materialdesignicons.DatabaseEyeOffOutline
+import compose.icons.materialdesignicons.DatabaseEyeOutline
+import compose.icons.materialdesignicons.DatabaseImport
+import compose.icons.materialdesignicons.DatabaseImportOutline
+import compose.icons.materialdesignicons.DatabaseLock
+import compose.icons.materialdesignicons.DatabaseLockOutline
+import compose.icons.materialdesignicons.DatabaseMarker
+import compose.icons.materialdesignicons.DatabaseMarkerOutline
+import compose.icons.materialdesignicons.DatabaseMinus
+import compose.icons.materialdesignicons.DatabaseMinusOutline
+import compose.icons.materialdesignicons.DatabaseOff
+import compose.icons.materialdesignicons.DatabaseOffOutline
+import compose.icons.materialdesignicons.DatabaseOutline
+import compose.icons.materialdesignicons.DatabasePlus
+import compose.icons.materialdesignicons.DatabasePlusOutline
+import compose.icons.materialdesignicons.DatabaseRefresh
+import compose.icons.materialdesignicons.DatabaseRefreshOutline
+import compose.icons.materialdesignicons.DatabaseRemove
+import compose.icons.materialdesignicons.DatabaseRemoveOutline
+import compose.icons.materialdesignicons.DatabaseSearch
+import compose.icons.materialdesignicons.DatabaseSearchOutline
+import compose.icons.materialdesignicons.DatabaseSettings
+import compose.icons.materialdesignicons.DatabaseSettingsOutline
+import compose.icons.materialdesignicons.DatabaseSync
+import compose.icons.materialdesignicons.DatabaseSyncOutline
+import compose.icons.materialdesignicons.DeathStar
+import compose.icons.materialdesignicons.DeathStarVariant
+import compose.icons.materialdesignicons.DeathlyHallows
+import compose.icons.materialdesignicons.Debian
+import compose.icons.materialdesignicons.DebugStepInto
+import compose.icons.materialdesignicons.DebugStepOut
+import compose.icons.materialdesignicons.DebugStepOver
+import compose.icons.materialdesignicons.Decagram
+import compose.icons.materialdesignicons.DecagramOutline
+import compose.icons.materialdesignicons.Decimal
+import compose.icons.materialdesignicons.DecimalComma
+import compose.icons.materialdesignicons.DecimalCommaDecrease
+import compose.icons.materialdesignicons.DecimalCommaIncrease
+import compose.icons.materialdesignicons.DecimalDecrease
+import compose.icons.materialdesignicons.DecimalIncrease
+import compose.icons.materialdesignicons.Delete
+import compose.icons.materialdesignicons.DeleteAlert
+import compose.icons.materialdesignicons.DeleteAlertOutline
+import compose.icons.materialdesignicons.DeleteCircle
+import compose.icons.materialdesignicons.DeleteCircleOutline
+import compose.icons.materialdesignicons.DeleteClock
+import compose.icons.materialdesignicons.DeleteClockOutline
+import compose.icons.materialdesignicons.DeleteEmpty
+import compose.icons.materialdesignicons.DeleteEmptyOutline
+import compose.icons.materialdesignicons.DeleteForever
+import compose.icons.materialdesignicons.DeleteForeverOutline
+import compose.icons.materialdesignicons.DeleteOff
+import compose.icons.materialdesignicons.DeleteOffOutline
+import compose.icons.materialdesignicons.DeleteOutline
+import compose.icons.materialdesignicons.DeleteRestore
+import compose.icons.materialdesignicons.DeleteSweep
+import compose.icons.materialdesignicons.DeleteSweepOutline
+import compose.icons.materialdesignicons.DeleteVariant
+import compose.icons.materialdesignicons.Delta
+import compose.icons.materialdesignicons.Desk
+import compose.icons.materialdesignicons.DeskLamp
+import compose.icons.materialdesignicons.DeskLampOff
+import compose.icons.materialdesignicons.DeskLampOn
+import compose.icons.materialdesignicons.Deskphone
+import compose.icons.materialdesignicons.DesktopClassic
+import compose.icons.materialdesignicons.DesktopTower
+import compose.icons.materialdesignicons.DesktopTowerMonitor
+import compose.icons.materialdesignicons.Details
+import compose.icons.materialdesignicons.DevTo
+import compose.icons.materialdesignicons.DeveloperBoard
+import compose.icons.materialdesignicons.Deviantart
+import compose.icons.materialdesignicons.Devices
+import compose.icons.materialdesignicons.Dharmachakra
+import compose.icons.materialdesignicons.Diabetes
+import compose.icons.materialdesignicons.Dialpad
+import compose.icons.materialdesignicons.Diameter
+import compose.icons.materialdesignicons.DiameterOutline
+import compose.icons.materialdesignicons.DiameterVariant
+import compose.icons.materialdesignicons.Diamond
+import compose.icons.materialdesignicons.DiamondOutline
+import compose.icons.materialdesignicons.DiamondStone
+import compose.icons.materialdesignicons.Dice1
+import compose.icons.materialdesignicons.Dice1Outline
+import compose.icons.materialdesignicons.Dice2
+import compose.icons.materialdesignicons.Dice2Outline
+import compose.icons.materialdesignicons.Dice3
+import compose.icons.materialdesignicons.Dice3Outline
+import compose.icons.materialdesignicons.Dice4
+import compose.icons.materialdesignicons.Dice4Outline
+import compose.icons.materialdesignicons.Dice5
+import compose.icons.materialdesignicons.Dice5Outline
+import compose.icons.materialdesignicons.Dice6
+import compose.icons.materialdesignicons.Dice6Outline
+import compose.icons.materialdesignicons.DiceD10
+import compose.icons.materialdesignicons.DiceD10Outline
+import compose.icons.materialdesignicons.DiceD12
+import compose.icons.materialdesignicons.DiceD12Outline
+import compose.icons.materialdesignicons.DiceD20
+import compose.icons.materialdesignicons.DiceD20Outline
+import compose.icons.materialdesignicons.DiceD4
+import compose.icons.materialdesignicons.DiceD4Outline
+import compose.icons.materialdesignicons.DiceD6
+import compose.icons.materialdesignicons.DiceD6Outline
+import compose.icons.materialdesignicons.DiceD8
+import compose.icons.materialdesignicons.DiceD8Outline
+import compose.icons.materialdesignicons.DiceMultiple
+import compose.icons.materialdesignicons.DiceMultipleOutline
+import compose.icons.materialdesignicons.DigitalOcean
+import compose.icons.materialdesignicons.DipSwitch
+import compose.icons.materialdesignicons.Directions
+import compose.icons.materialdesignicons.DirectionsFork
+import compose.icons.materialdesignicons.Disc
+import compose.icons.materialdesignicons.DiscAlert
+import compose.icons.materialdesignicons.DiscPlayer
+import compose.icons.materialdesignicons.Dishwasher
+import compose.icons.materialdesignicons.DishwasherAlert
+import compose.icons.materialdesignicons.DishwasherOff
+import compose.icons.materialdesignicons.Disqus
+import compose.icons.materialdesignicons.DistributeHorizontalCenter
+import compose.icons.materialdesignicons.DistributeHorizontalLeft
+import compose.icons.materialdesignicons.DistributeHorizontalRight
+import compose.icons.materialdesignicons.DistributeVerticalBottom
+import compose.icons.materialdesignicons.DistributeVerticalCenter
+import compose.icons.materialdesignicons.DistributeVerticalTop
+import compose.icons.materialdesignicons.Diversify
+import compose.icons.materialdesignicons.Diving
+import compose.icons.materialdesignicons.DivingFlippers
+import compose.icons.materialdesignicons.DivingHelmet
+import compose.icons.materialdesignicons.DivingScuba
+import compose.icons.materialdesignicons.DivingScubaFlag
+import compose.icons.materialdesignicons.DivingScubaMask
+import compose.icons.materialdesignicons.DivingScubaTank
+import compose.icons.materialdesignicons.DivingScubaTankMultiple
+import compose.icons.materialdesignicons.DivingSnorkel
+import compose.icons.materialdesignicons.Division
+import compose.icons.materialdesignicons.DivisionBox
+import compose.icons.materialdesignicons.Dlna
+import compose.icons.materialdesignicons.Dna
+import compose.icons.materialdesignicons.Dns
+import compose.icons.materialdesignicons.DnsOutline
+import compose.icons.materialdesignicons.DockBottom
+import compose.icons.materialdesignicons.DockLeft
+import compose.icons.materialdesignicons.DockRight
+import compose.icons.materialdesignicons.DockTop
+import compose.icons.materialdesignicons.DockWindow
+import compose.icons.materialdesignicons.Docker
+import compose.icons.materialdesignicons.Doctor
+import compose.icons.materialdesignicons.Dog
+import compose.icons.materialdesignicons.DogService
+import compose.icons.materialdesignicons.DogSide
+import compose.icons.materialdesignicons.DogSideOff
+import compose.icons.materialdesignicons.Dolby
+import compose.icons.materialdesignicons.Dolly
+import compose.icons.materialdesignicons.Dolphin
+import compose.icons.materialdesignicons.Domain
+import compose.icons.materialdesignicons.DomainOff
+import compose.icons.materialdesignicons.DomainPlus
+import compose.icons.materialdesignicons.DomainRemove
+import compose.icons.materialdesignicons.DomeLight
+import compose.icons.materialdesignicons.DominoMask
+import compose.icons.materialdesignicons.Donkey
+import compose.icons.materialdesignicons.Door
+import compose.icons.materialdesignicons.DoorClosed
+import compose.icons.materialdesignicons.DoorClosedLock
+import compose.icons.materialdesignicons.DoorOpen
+import compose.icons.materialdesignicons.DoorSliding
+import compose.icons.materialdesignicons.DoorSlidingLock
+import compose.icons.materialdesignicons.DoorSlidingOpen
+import compose.icons.materialdesignicons.Doorbell
+import compose.icons.materialdesignicons.DoorbellVideo
+import compose.icons.materialdesignicons.DotNet
+import compose.icons.materialdesignicons.DotsCircle
+import compose.icons.materialdesignicons.DotsGrid
+import compose.icons.materialdesignicons.DotsHexagon
+import compose.icons.materialdesignicons.DotsHorizontal
+import compose.icons.materialdesignicons.DotsHorizontalCircle
+import compose.icons.materialdesignicons.DotsHorizontalCircleOutline
+import compose.icons.materialdesignicons.DotsSquare
+import compose.icons.materialdesignicons.DotsTriangle
+import compose.icons.materialdesignicons.DotsVertical
+import compose.icons.materialdesignicons.DotsVerticalCircle
+import compose.icons.materialdesignicons.DotsVerticalCircleOutline
+import compose.icons.materialdesignicons.Download
+import compose.icons.materialdesignicons.DownloadBox
+import compose.icons.materialdesignicons.DownloadBoxOutline
+import compose.icons.materialdesignicons.DownloadCircle
+import compose.icons.materialdesignicons.DownloadCircleOutline
+import compose.icons.materialdesignicons.DownloadLock
+import compose.icons.materialdesignicons.DownloadLockOutline
+import compose.icons.materialdesignicons.DownloadMultiple
+import compose.icons.materialdesignicons.DownloadNetwork
+import compose.icons.materialdesignicons.DownloadNetworkOutline
+import compose.icons.materialdesignicons.DownloadOff
+import compose.icons.materialdesignicons.DownloadOffOutline
+import compose.icons.materialdesignicons.DownloadOutline
+import compose.icons.materialdesignicons.Drag
+import compose.icons.materialdesignicons.DragHorizontal
+import compose.icons.materialdesignicons.DragHorizontalVariant
+import compose.icons.materialdesignicons.DragVariant
+import compose.icons.materialdesignicons.DragVertical
+import compose.icons.materialdesignicons.DragVerticalVariant
+import compose.icons.materialdesignicons.DramaMasks
+import compose.icons.materialdesignicons.Draw
+import compose.icons.materialdesignicons.DrawPen
+import compose.icons.materialdesignicons.Drawing
+import compose.icons.materialdesignicons.DrawingBox
+import compose.icons.materialdesignicons.Dresser
+import compose.icons.materialdesignicons.DresserOutline
+import compose.icons.materialdesignicons.Drone
+import compose.icons.materialdesignicons.Dropbox
+import compose.icons.materialdesignicons.Drupal
+import compose.icons.materialdesignicons.Duck
+import compose.icons.materialdesignicons.Dumbbell
+import compose.icons.materialdesignicons.DumpTruck
+import compose.icons.materialdesignicons.EarHearing
+import compose.icons.materialdesignicons.EarHearingLoop
+import compose.icons.materialdesignicons.EarHearingOff
+import compose.icons.materialdesignicons.Earbuds
+import compose.icons.materialdesignicons.EarbudsOff
+import compose.icons.materialdesignicons.EarbudsOffOutline
+import compose.icons.materialdesignicons.EarbudsOutline
+import compose.icons.materialdesignicons.Earth
+import compose.icons.materialdesignicons.EarthArrowRight
+import compose.icons.materialdesignicons.EarthBox
+import compose.icons.materialdesignicons.EarthBoxMinus
+import compose.icons.materialdesignicons.EarthBoxOff
+import compose.icons.materialdesignicons.EarthBoxPlus
+import compose.icons.materialdesignicons.EarthBoxRemove
+import compose.icons.materialdesignicons.EarthMinus
+import compose.icons.materialdesignicons.EarthOff
+import compose.icons.materialdesignicons.EarthPlus
+import compose.icons.materialdesignicons.EarthRemove
+import compose.icons.materialdesignicons.Egg
+import compose.icons.materialdesignicons.EggEaster
+import compose.icons.materialdesignicons.EggFried
+import compose.icons.materialdesignicons.EggOff
+import compose.icons.materialdesignicons.EggOffOutline
+import compose.icons.materialdesignicons.EggOutline
+import compose.icons.materialdesignicons.EiffelTower
+import compose.icons.materialdesignicons.EightTrack
+import compose.icons.materialdesignicons.Eject
+import compose.icons.materialdesignicons.EjectCircle
+import compose.icons.materialdesignicons.EjectCircleOutline
+import compose.icons.materialdesignicons.EjectOutline
+import compose.icons.materialdesignicons.ElectricSwitch
+import compose.icons.materialdesignicons.ElectricSwitchClosed
+import compose.icons.materialdesignicons.ElectronFramework
+import compose.icons.materialdesignicons.Elephant
+import compose.icons.materialdesignicons.ElevationDecline
+import compose.icons.materialdesignicons.ElevationRise
+import compose.icons.materialdesignicons.Elevator
+import compose.icons.materialdesignicons.ElevatorDown
+import compose.icons.materialdesignicons.ElevatorPassenger
+import compose.icons.materialdesignicons.ElevatorPassengerOff
+import compose.icons.materialdesignicons.ElevatorPassengerOffOutline
+import compose.icons.materialdesignicons.ElevatorPassengerOutline
+import compose.icons.materialdesignicons.ElevatorUp
+import compose.icons.materialdesignicons.Ellipse
+import compose.icons.materialdesignicons.EllipseOutline
+import compose.icons.materialdesignicons.Email
+import compose.icons.materialdesignicons.EmailAlert
+import compose.icons.materialdesignicons.EmailAlertOutline
+import compose.icons.materialdesignicons.EmailArrowLeft
+import compose.icons.materialdesignicons.EmailArrowLeftOutline
+import compose.icons.materialdesignicons.EmailArrowRight
+import compose.icons.materialdesignicons.EmailArrowRightOutline
+import compose.icons.materialdesignicons.EmailBox
+import compose.icons.materialdesignicons.EmailCheck
+import compose.icons.materialdesignicons.EmailCheckOutline
+import compose.icons.materialdesignicons.EmailEdit
+import compose.icons.materialdesignicons.EmailEditOutline
+import compose.icons.materialdesignicons.EmailFast
+import compose.icons.materialdesignicons.EmailFastOutline
+import compose.icons.materialdesignicons.EmailLock
+import compose.icons.materialdesignicons.EmailLockOutline
+import compose.icons.materialdesignicons.EmailMarkAsUnread
+import compose.icons.materialdesignicons.EmailMinus
+import compose.icons.materialdesignicons.EmailMinusOutline
+import compose.icons.materialdesignicons.EmailMultiple
+import compose.icons.materialdesignicons.EmailMultipleOutline
+import compose.icons.materialdesignicons.EmailNewsletter
+import compose.icons.materialdesignicons.EmailOff
+import compose.icons.materialdesignicons.EmailOffOutline
+import compose.icons.materialdesignicons.EmailOpen
+import compose.icons.materialdesignicons.EmailOpenMultiple
+import compose.icons.materialdesignicons.EmailOpenMultipleOutline
+import compose.icons.materialdesignicons.EmailOpenOutline
+import compose.icons.materialdesignicons.EmailOutline
+import compose.icons.materialdesignicons.EmailPlus
+import compose.icons.materialdesignicons.EmailPlusOutline
+import compose.icons.materialdesignicons.EmailRemove
+import compose.icons.materialdesignicons.EmailRemoveOutline
+import compose.icons.materialdesignicons.EmailSeal
+import compose.icons.materialdesignicons.EmailSealOutline
+import compose.icons.materialdesignicons.EmailSearch
+import compose.icons.materialdesignicons.EmailSearchOutline
+import compose.icons.materialdesignicons.EmailSync
+import compose.icons.materialdesignicons.EmailSyncOutline
+import compose.icons.materialdesignicons.EmailVariant
+import compose.icons.materialdesignicons.Ember
+import compose.icons.materialdesignicons.Emby
+import compose.icons.materialdesignicons.Emoticon
+import compose.icons.materialdesignicons.EmoticonAngry
+import compose.icons.materialdesignicons.EmoticonAngryOutline
+import compose.icons.materialdesignicons.EmoticonConfused
+import compose.icons.materialdesignicons.EmoticonConfusedOutline
+import compose.icons.materialdesignicons.EmoticonCool
+import compose.icons.materialdesignicons.EmoticonCoolOutline
+import compose.icons.materialdesignicons.EmoticonCry
+import compose.icons.materialdesignicons.EmoticonCryOutline
+import compose.icons.materialdesignicons.EmoticonDead
+import compose.icons.materialdesignicons.EmoticonDeadOutline
+import compose.icons.materialdesignicons.EmoticonDevil
+import compose.icons.materialdesignicons.EmoticonDevilOutline
+import compose.icons.materialdesignicons.EmoticonExcited
+import compose.icons.materialdesignicons.EmoticonExcitedOutline
+import compose.icons.materialdesignicons.EmoticonFrown
+import compose.icons.materialdesignicons.EmoticonFrownOutline
+import compose.icons.materialdesignicons.EmoticonHappy
+import compose.icons.materialdesignicons.EmoticonHappyOutline
+import compose.icons.materialdesignicons.EmoticonKiss
+import compose.icons.materialdesignicons.EmoticonKissOutline
+import compose.icons.materialdesignicons.EmoticonLol
+import compose.icons.materialdesignicons.EmoticonLolOutline
+import compose.icons.materialdesignicons.EmoticonNeutral
+import compose.icons.materialdesignicons.EmoticonNeutralOutline
+import compose.icons.materialdesignicons.EmoticonOutline
+import compose.icons.materialdesignicons.EmoticonPoop
+import compose.icons.materialdesignicons.EmoticonPoopOutline
+import compose.icons.materialdesignicons.EmoticonSad
+import compose.icons.materialdesignicons.EmoticonSadOutline
+import compose.icons.materialdesignicons.EmoticonSick
+import compose.icons.materialdesignicons.EmoticonSickOutline
+import compose.icons.materialdesignicons.EmoticonTongue
+import compose.icons.materialdesignicons.EmoticonTongueOutline
+import compose.icons.materialdesignicons.EmoticonWink
+import compose.icons.materialdesignicons.EmoticonWinkOutline
+import compose.icons.materialdesignicons.Engine
+import compose.icons.materialdesignicons.EngineOff
+import compose.icons.materialdesignicons.EngineOffOutline
+import compose.icons.materialdesignicons.EngineOutline
+import compose.icons.materialdesignicons.Epsilon
+import compose.icons.materialdesignicons.Equal
+import compose.icons.materialdesignicons.EqualBox
+import compose.icons.materialdesignicons.Equalizer
+import compose.icons.materialdesignicons.EqualizerOutline
+import compose.icons.materialdesignicons.Eraser
+import compose.icons.materialdesignicons.EraserVariant
+import compose.icons.materialdesignicons.Escalator
+import compose.icons.materialdesignicons.EscalatorBox
+import compose.icons.materialdesignicons.EscalatorDown
+import compose.icons.materialdesignicons.EscalatorUp
+import compose.icons.materialdesignicons.Eslint
+import compose.icons.materialdesignicons.Et
+import compose.icons.materialdesignicons.Ethereum
+import compose.icons.materialdesignicons.Ethernet
+import compose.icons.materialdesignicons.EthernetCable
+import compose.icons.materialdesignicons.EthernetCableOff
+import compose.icons.materialdesignicons.EvPlugCcs1
+import compose.icons.materialdesignicons.EvPlugCcs2
+import compose.icons.materialdesignicons.EvPlugChademo
+import compose.icons.materialdesignicons.EvPlugTesla
+import compose.icons.materialdesignicons.EvPlugType1
+import compose.icons.materialdesignicons.EvPlugType2
+import compose.icons.materialdesignicons.EvStation
+import compose.icons.materialdesignicons.Evernote
+import compose.icons.materialdesignicons.Excavator
+import compose.icons.materialdesignicons.Exclamation
+import compose.icons.materialdesignicons.ExclamationThick
+import compose.icons.materialdesignicons.ExitRun
+import compose.icons.materialdesignicons.ExitToApp
+import compose.icons.materialdesignicons.ExpandAll
+import compose.icons.materialdesignicons.ExpandAllOutline
+import compose.icons.materialdesignicons.ExpansionCard
+import compose.icons.materialdesignicons.ExpansionCardVariant
+import compose.icons.materialdesignicons.Exponent
+import compose.icons.materialdesignicons.ExponentBox
+import compose.icons.materialdesignicons.Export
+import compose.icons.materialdesignicons.ExportVariant
+import compose.icons.materialdesignicons.Eye
+import compose.icons.materialdesignicons.EyeArrowLeft
+import compose.icons.materialdesignicons.EyeArrowLeftOutline
+import compose.icons.materialdesignicons.EyeArrowRight
+import compose.icons.materialdesignicons.EyeArrowRightOutline
+import compose.icons.materialdesignicons.EyeCheck
+import compose.icons.materialdesignicons.EyeCheckOutline
+import compose.icons.materialdesignicons.EyeCircle
+import compose.icons.materialdesignicons.EyeCircleOutline
+import compose.icons.materialdesignicons.EyeLock
+import compose.icons.materialdesignicons.EyeLockOpen
+import compose.icons.materialdesignicons.EyeLockOpenOutline
+import compose.icons.materialdesignicons.EyeLockOutline
+import compose.icons.materialdesignicons.EyeMinus
+import compose.icons.materialdesignicons.EyeMinusOutline
+import compose.icons.materialdesignicons.EyeOff
+import compose.icons.materialdesignicons.EyeOffOutline
+import compose.icons.materialdesignicons.EyeOutline
+import compose.icons.materialdesignicons.EyePlus
+import compose.icons.materialdesignicons.EyePlusOutline
+import compose.icons.materialdesignicons.EyeRefresh
+import compose.icons.materialdesignicons.EyeRefreshOutline
+import compose.icons.materialdesignicons.EyeRemove
+import compose.icons.materialdesignicons.EyeRemoveOutline
+import compose.icons.materialdesignicons.EyeSettings
+import compose.icons.materialdesignicons.EyeSettingsOutline
+import compose.icons.materialdesignicons.Eyedropper
+import compose.icons.materialdesignicons.EyedropperMinus
+import compose.icons.materialdesignicons.EyedropperOff
+import compose.icons.materialdesignicons.EyedropperPlus
+import compose.icons.materialdesignicons.EyedropperRemove
+import compose.icons.materialdesignicons.EyedropperVariant
+import compose.icons.materialdesignicons.FaceAgent
+import compose.icons.materialdesignicons.FaceMan
+import compose.icons.materialdesignicons.FaceManOutline
+import compose.icons.materialdesignicons.FaceManProfile
+import compose.icons.materialdesignicons.FaceManShimmer
+import compose.icons.materialdesignicons.FaceManShimmerOutline
+import compose.icons.materialdesignicons.FaceMask
+import compose.icons.materialdesignicons.FaceMaskOutline
+import compose.icons.materialdesignicons.FaceRecognition
+import compose.icons.materialdesignicons.FaceWoman
+import compose.icons.materialdesignicons.FaceWomanOutline
+import compose.icons.materialdesignicons.FaceWomanProfile
+import compose.icons.materialdesignicons.FaceWomanShimmer
+import compose.icons.materialdesignicons.FaceWomanShimmerOutline
+import compose.icons.materialdesignicons.Facebook
+import compose.icons.materialdesignicons.FacebookGaming
+import compose.icons.materialdesignicons.FacebookMessenger
+import compose.icons.materialdesignicons.FacebookWorkplace
+import compose.icons.materialdesignicons.Factory
+import compose.icons.materialdesignicons.FamilyTree
+import compose.icons.materialdesignicons.Fan
+import compose.icons.materialdesignicons.FanAlert
+import compose.icons.materialdesignicons.FanAuto
+import compose.icons.materialdesignicons.FanChevronDown
+import compose.icons.materialdesignicons.FanChevronUp
+import compose.icons.materialdesignicons.FanClock
+import compose.icons.materialdesignicons.FanMinus
+import compose.icons.materialdesignicons.FanOff
+import compose.icons.materialdesignicons.FanPlus
+import compose.icons.materialdesignicons.FanRemove
+import compose.icons.materialdesignicons.FanSpeed1
+import compose.icons.materialdesignicons.FanSpeed2
+import compose.icons.materialdesignicons.FanSpeed3
+import compose.icons.materialdesignicons.FastForward
+import compose.icons.materialdesignicons.FastForward10
+import compose.icons.materialdesignicons.FastForward15
+import compose.icons.materialdesignicons.FastForward30
+import compose.icons.materialdesignicons.FastForward45
+import compose.icons.materialdesignicons.FastForward5
+import compose.icons.materialdesignicons.FastForward60
+import compose.icons.materialdesignicons.FastForwardOutline
+import compose.icons.materialdesignicons.Faucet
+import compose.icons.materialdesignicons.FaucetVariant
+import compose.icons.materialdesignicons.Fax
+import compose.icons.materialdesignicons.Feather
+import compose.icons.materialdesignicons.FeatureSearch
+import compose.icons.materialdesignicons.FeatureSearchOutline
+import compose.icons.materialdesignicons.Fedora
+import compose.icons.materialdesignicons.Fence
+import compose.icons.materialdesignicons.FenceElectric
+import compose.icons.materialdesignicons.Fencing
+import compose.icons.materialdesignicons.FerrisWheel
+import compose.icons.materialdesignicons.Ferry
+import compose.icons.materialdesignicons.File
+import compose.icons.materialdesignicons.FileAccount
+import compose.icons.materialdesignicons.FileAccountOutline
+import compose.icons.materialdesignicons.FileAlert
+import compose.icons.materialdesignicons.FileAlertOutline
+import compose.icons.materialdesignicons.FileArrowLeftRight
+import compose.icons.materialdesignicons.FileArrowLeftRightOutline
+import compose.icons.materialdesignicons.FileArrowUpDown
+import compose.icons.materialdesignicons.FileArrowUpDownOutline
+import compose.icons.materialdesignicons.FileCabinet
+import compose.icons.materialdesignicons.FileCad
+import compose.icons.materialdesignicons.FileCadBox
+import compose.icons.materialdesignicons.FileCancel
+import compose.icons.materialdesignicons.FileCancelOutline
+import compose.icons.materialdesignicons.FileCertificate
+import compose.icons.materialdesignicons.FileCertificateOutline
+import compose.icons.materialdesignicons.FileChart
+import compose.icons.materialdesignicons.FileChartCheck
+import compose.icons.materialdesignicons.FileChartCheckOutline
+import compose.icons.materialdesignicons.FileChartOutline
+import compose.icons.materialdesignicons.FileCheck
+import compose.icons.materialdesignicons.FileCheckOutline
+import compose.icons.materialdesignicons.FileClock
+import compose.icons.materialdesignicons.FileClockOutline
+import compose.icons.materialdesignicons.FileCloud
+import compose.icons.materialdesignicons.FileCloudOutline
+import compose.icons.materialdesignicons.FileCode
+import compose.icons.materialdesignicons.FileCodeOutline
+import compose.icons.materialdesignicons.FileCog
+import compose.icons.materialdesignicons.FileCogOutline
+import compose.icons.materialdesignicons.FileCompare
+import compose.icons.materialdesignicons.FileDelimited
+import compose.icons.materialdesignicons.FileDelimitedOutline
+import compose.icons.materialdesignicons.FileDocument
+import compose.icons.materialdesignicons.FileDocumentAlert
+import compose.icons.materialdesignicons.FileDocumentAlertOutline
+import compose.icons.materialdesignicons.FileDocumentArrowRight
+import compose.icons.materialdesignicons.FileDocumentArrowRightOutline
+import compose.icons.materialdesignicons.FileDocumentCheck
+import compose.icons.materialdesignicons.FileDocumentCheckOutline
+import compose.icons.materialdesignicons.FileDocumentEdit
+import compose.icons.materialdesignicons.FileDocumentEditOutline
+import compose.icons.materialdesignicons.FileDocumentMinus
+import compose.icons.materialdesignicons.FileDocumentMinusOutline
+import compose.icons.materialdesignicons.FileDocumentMultiple
+import compose.icons.materialdesignicons.FileDocumentMultipleOutline
+import compose.icons.materialdesignicons.FileDocumentOutline
+import compose.icons.materialdesignicons.FileDocumentPlus
+import compose.icons.materialdesignicons.FileDocumentPlusOutline
+import compose.icons.materialdesignicons.FileDocumentRemove
+import compose.icons.materialdesignicons.FileDocumentRemoveOutline
+import compose.icons.materialdesignicons.FileDownload
+import compose.icons.materialdesignicons.FileDownloadOutline
+import compose.icons.materialdesignicons.FileEdit
+import compose.icons.materialdesignicons.FileEditOutline
+import compose.icons.materialdesignicons.FileExcel
+import compose.icons.materialdesignicons.FileExcelBox
+import compose.icons.materialdesignicons.FileExcelBoxOutline
+import compose.icons.materialdesignicons.FileExcelOutline
+import compose.icons.materialdesignicons.FileExport
+import compose.icons.materialdesignicons.FileExportOutline
+import compose.icons.materialdesignicons.FileEye
+import compose.icons.materialdesignicons.FileEyeOutline
+import compose.icons.materialdesignicons.FileFind
+import compose.icons.materialdesignicons.FileFindOutline
+import compose.icons.materialdesignicons.FileGifBox
+import compose.icons.materialdesignicons.FileHidden
+import compose.icons.materialdesignicons.FileImage
+import compose.icons.materialdesignicons.FileImageMarker
+import compose.icons.materialdesignicons.FileImageMarkerOutline
+import compose.icons.materialdesignicons.FileImageMinus
+import compose.icons.materialdesignicons.FileImageMinusOutline
+import compose.icons.materialdesignicons.FileImageOutline
+import compose.icons.materialdesignicons.FileImagePlus
+import compose.icons.materialdesignicons.FileImagePlusOutline
+import compose.icons.materialdesignicons.FileImageRemove
+import compose.icons.materialdesignicons.FileImageRemoveOutline
+import compose.icons.materialdesignicons.FileImport
+import compose.icons.materialdesignicons.FileImportOutline
+import compose.icons.materialdesignicons.FileJpgBox
+import compose.icons.materialdesignicons.FileKey
+import compose.icons.materialdesignicons.FileKeyOutline
+import compose.icons.materialdesignicons.FileLink
+import compose.icons.materialdesignicons.FileLinkOutline
+import compose.icons.materialdesignicons.FileLock
+import compose.icons.materialdesignicons.FileLockOpen
+import compose.icons.materialdesignicons.FileLockOpenOutline
+import compose.icons.materialdesignicons.FileLockOutline
+import compose.icons.materialdesignicons.FileMarker
+import compose.icons.materialdesignicons.FileMarkerOutline
+import compose.icons.materialdesignicons.FileMinus
+import compose.icons.materialdesignicons.FileMinusOutline
+import compose.icons.materialdesignicons.FileMove
+import compose.icons.materialdesignicons.FileMoveOutline
+import compose.icons.materialdesignicons.FileMultiple
+import compose.icons.materialdesignicons.FileMultipleOutline
+import compose.icons.materialdesignicons.FileMusic
+import compose.icons.materialdesignicons.FileMusicOutline
+import compose.icons.materialdesignicons.FileOutline
+import compose.icons.materialdesignicons.FilePdfBox
+import compose.icons.materialdesignicons.FilePercent
+import compose.icons.materialdesignicons.FilePercentOutline
+import compose.icons.materialdesignicons.FilePhone
+import compose.icons.materialdesignicons.FilePhoneOutline
+import compose.icons.materialdesignicons.FilePlus
+import compose.icons.materialdesignicons.FilePlusOutline
+import compose.icons.materialdesignicons.FilePngBox
+import compose.icons.materialdesignicons.FilePowerpoint
+import compose.icons.materialdesignicons.FilePowerpointBox
+import compose.icons.materialdesignicons.FilePowerpointBoxOutline
+import compose.icons.materialdesignicons.FilePowerpointOutline
+import compose.icons.materialdesignicons.FilePresentationBox
+import compose.icons.materialdesignicons.FileQuestion
+import compose.icons.materialdesignicons.FileQuestionOutline
+import compose.icons.materialdesignicons.FileRefresh
+import compose.icons.materialdesignicons.FileRefreshOutline
+import compose.icons.materialdesignicons.FileRemove
+import compose.icons.materialdesignicons.FileRemoveOutline
+import compose.icons.materialdesignicons.FileReplace
+import compose.icons.materialdesignicons.FileReplaceOutline
+import compose.icons.materialdesignicons.FileRestore
+import compose.icons.materialdesignicons.FileRestoreOutline
+import compose.icons.materialdesignicons.FileRotateLeft
+import compose.icons.materialdesignicons.FileRotateLeftOutline
+import compose.icons.materialdesignicons.FileRotateRight
+import compose.icons.materialdesignicons.FileRotateRightOutline
+import compose.icons.materialdesignicons.FileSearch
+import compose.icons.materialdesignicons.FileSearchOutline
+import compose.icons.materialdesignicons.FileSend
+import compose.icons.materialdesignicons.FileSendOutline
+import compose.icons.materialdesignicons.FileSettings
+import compose.icons.materialdesignicons.FileSettingsOutline
+import compose.icons.materialdesignicons.FileSign
+import compose.icons.materialdesignicons.FileStar
+import compose.icons.materialdesignicons.FileStarOutline
+import compose.icons.materialdesignicons.FileSwap
+import compose.icons.materialdesignicons.FileSwapOutline
+import compose.icons.materialdesignicons.FileSync
+import compose.icons.materialdesignicons.FileSyncOutline
+import compose.icons.materialdesignicons.FileTable
+import compose.icons.materialdesignicons.FileTableBox
+import compose.icons.materialdesignicons.FileTableBoxMultiple
+import compose.icons.materialdesignicons.FileTableBoxMultipleOutline
+import compose.icons.materialdesignicons.FileTableBoxOutline
+import compose.icons.materialdesignicons.FileTableOutline
+import compose.icons.materialdesignicons.FileTree
+import compose.icons.materialdesignicons.FileTreeOutline
+import compose.icons.materialdesignicons.FileUndo
+import compose.icons.materialdesignicons.FileUndoOutline
+import compose.icons.materialdesignicons.FileUpload
+import compose.icons.materialdesignicons.FileUploadOutline
+import compose.icons.materialdesignicons.FileVideo
+import compose.icons.materialdesignicons.FileVideoOutline
+import compose.icons.materialdesignicons.FileWord
+import compose.icons.materialdesignicons.FileWordBox
+import compose.icons.materialdesignicons.FileWordBoxOutline
+import compose.icons.materialdesignicons.FileWordOutline
+import compose.icons.materialdesignicons.FileXmlBox
+import compose.icons.materialdesignicons.Film
+import compose.icons.materialdesignicons.Filmstrip
+import compose.icons.materialdesignicons.FilmstripBox
+import compose.icons.materialdesignicons.FilmstripBoxMultiple
+import compose.icons.materialdesignicons.FilmstripOff
+import compose.icons.materialdesignicons.Filter
+import compose.icons.materialdesignicons.FilterCheck
+import compose.icons.materialdesignicons.FilterCheckOutline
+import compose.icons.materialdesignicons.FilterCog
+import compose.icons.materialdesignicons.FilterCogOutline
+import compose.icons.materialdesignicons.FilterMenu
+import compose.icons.materialdesignicons.FilterMenuOutline
+import compose.icons.materialdesignicons.FilterMinus
+import compose.icons.materialdesignicons.FilterMinusOutline
+import compose.icons.materialdesignicons.FilterMultiple
+import compose.icons.materialdesignicons.FilterMultipleOutline
+import compose.icons.materialdesignicons.FilterOff
+import compose.icons.materialdesignicons.FilterOffOutline
+import compose.icons.materialdesignicons.FilterOutline
+import compose.icons.materialdesignicons.FilterPlus
+import compose.icons.materialdesignicons.FilterPlusOutline
+import compose.icons.materialdesignicons.FilterRemove
+import compose.icons.materialdesignicons.FilterRemoveOutline
+import compose.icons.materialdesignicons.FilterSettings
+import compose.icons.materialdesignicons.FilterSettingsOutline
+import compose.icons.materialdesignicons.FilterVariant
+import compose.icons.materialdesignicons.FilterVariantMinus
+import compose.icons.materialdesignicons.FilterVariantPlus
+import compose.icons.materialdesignicons.FilterVariantRemove
+import compose.icons.materialdesignicons.Finance
+import compose.icons.materialdesignicons.FindReplace
+import compose.icons.materialdesignicons.Fingerprint
+import compose.icons.materialdesignicons.FingerprintOff
+import compose.icons.materialdesignicons.Fire
+import compose.icons.materialdesignicons.FireAlert
+import compose.icons.materialdesignicons.FireCircle
+import compose.icons.materialdesignicons.FireExtinguisher
+import compose.icons.materialdesignicons.FireHydrant
+import compose.icons.materialdesignicons.FireHydrantAlert
+import compose.icons.materialdesignicons.FireHydrantOff
+import compose.icons.materialdesignicons.FireOff
+import compose.icons.materialdesignicons.FireTruck
+import compose.icons.materialdesignicons.Firebase
+import compose.icons.materialdesignicons.Firefox
+import compose.icons.materialdesignicons.Fireplace
+import compose.icons.materialdesignicons.FireplaceOff
+import compose.icons.materialdesignicons.Firewire
+import compose.icons.materialdesignicons.Firework
+import compose.icons.materialdesignicons.FireworkOff
+import compose.icons.materialdesignicons.Fish
+import compose.icons.materialdesignicons.FishOff
+import compose.icons.materialdesignicons.Fishbowl
+import compose.icons.materialdesignicons.FishbowlOutline
+import compose.icons.materialdesignicons.FitToPage
+import compose.icons.materialdesignicons.FitToPageOutline
+import compose.icons.materialdesignicons.FitToScreen
+import compose.icons.materialdesignicons.FitToScreenOutline
+import compose.icons.materialdesignicons.Flag
+import compose.icons.materialdesignicons.FlagCheckered
+import compose.icons.materialdesignicons.FlagMinus
+import compose.icons.materialdesignicons.FlagMinusOutline
+import compose.icons.materialdesignicons.FlagOff
+import compose.icons.materialdesignicons.FlagOffOutline
+import compose.icons.materialdesignicons.FlagOutline
+import compose.icons.materialdesignicons.FlagPlus
+import compose.icons.materialdesignicons.FlagPlusOutline
+import compose.icons.materialdesignicons.FlagRemove
+import compose.icons.materialdesignicons.FlagRemoveOutline
+import compose.icons.materialdesignicons.FlagTriangle
+import compose.icons.materialdesignicons.FlagVariant
+import compose.icons.materialdesignicons.FlagVariantMinus
+import compose.icons.materialdesignicons.FlagVariantMinusOutline
+import compose.icons.materialdesignicons.FlagVariantOff
+import compose.icons.materialdesignicons.FlagVariantOffOutline
+import compose.icons.materialdesignicons.FlagVariantOutline
+import compose.icons.materialdesignicons.FlagVariantPlus
+import compose.icons.materialdesignicons.FlagVariantPlusOutline
+import compose.icons.materialdesignicons.FlagVariantRemove
+import compose.icons.materialdesignicons.FlagVariantRemoveOutline
+import compose.icons.materialdesignicons.Flare
+import compose.icons.materialdesignicons.Flash
+import compose.icons.materialdesignicons.FlashAlert
+import compose.icons.materialdesignicons.FlashAlertOutline
+import compose.icons.materialdesignicons.FlashAuto
+import compose.icons.materialdesignicons.FlashOff
+import compose.icons.materialdesignicons.FlashOffOutline
+import compose.icons.materialdesignicons.FlashOutline
+import compose.icons.materialdesignicons.FlashRedEye
+import compose.icons.materialdesignicons.FlashTriangle
+import compose.icons.materialdesignicons.FlashTriangleOutline
+import compose.icons.materialdesignicons.Flashlight
+import compose.icons.materialdesignicons.FlashlightOff
+import compose.icons.materialdesignicons.Flask
+import compose.icons.materialdesignicons.FlaskEmpty
+import compose.icons.materialdesignicons.FlaskEmptyMinus
+import compose.icons.materialdesignicons.FlaskEmptyMinusOutline
+import compose.icons.materialdesignicons.FlaskEmptyOff
+import compose.icons.materialdesignicons.FlaskEmptyOffOutline
+import compose.icons.materialdesignicons.FlaskEmptyOutline
+import compose.icons.materialdesignicons.FlaskEmptyPlus
+import compose.icons.materialdesignicons.FlaskEmptyPlusOutline
+import compose.icons.materialdesignicons.FlaskEmptyRemove
+import compose.icons.materialdesignicons.FlaskEmptyRemoveOutline
+import compose.icons.materialdesignicons.FlaskMinus
+import compose.icons.materialdesignicons.FlaskMinusOutline
+import compose.icons.materialdesignicons.FlaskOff
+import compose.icons.materialdesignicons.FlaskOffOutline
+import compose.icons.materialdesignicons.FlaskOutline
+import compose.icons.materialdesignicons.FlaskPlus
+import compose.icons.materialdesignicons.FlaskPlusOutline
+import compose.icons.materialdesignicons.FlaskRemove
+import compose.icons.materialdesignicons.FlaskRemoveOutline
+import compose.icons.materialdesignicons.FlaskRoundBottom
+import compose.icons.materialdesignicons.FlaskRoundBottomEmpty
+import compose.icons.materialdesignicons.FlaskRoundBottomEmptyOutline
+import compose.icons.materialdesignicons.FlaskRoundBottomOutline
+import compose.icons.materialdesignicons.FleurDeLis
+import compose.icons.materialdesignicons.FlipHorizontal
+import compose.icons.materialdesignicons.FlipToBack
+import compose.icons.materialdesignicons.FlipToFront
+import compose.icons.materialdesignicons.FlipVertical
+import compose.icons.materialdesignicons.FloorLamp
+import compose.icons.materialdesignicons.FloorLampDual
+import compose.icons.materialdesignicons.FloorLampDualOutline
+import compose.icons.materialdesignicons.FloorLampOutline
+import compose.icons.materialdesignicons.FloorLampTorchiere
+import compose.icons.materialdesignicons.FloorLampTorchiereOutline
+import compose.icons.materialdesignicons.FloorLampTorchiereVariant
+import compose.icons.materialdesignicons.FloorLampTorchiereVariantOutline
+import compose.icons.materialdesignicons.FloorPlan
+import compose.icons.materialdesignicons.Floppy
+import compose.icons.materialdesignicons.FloppyVariant
+import compose.icons.materialdesignicons.Flower
+import compose.icons.materialdesignicons.FlowerOutline
+import compose.icons.materialdesignicons.FlowerPollen
+import compose.icons.materialdesignicons.FlowerPollenOutline
+import compose.icons.materialdesignicons.FlowerPoppy
+import compose.icons.materialdesignicons.FlowerTulip
+import compose.icons.materialdesignicons.FlowerTulipOutline
+import compose.icons.materialdesignicons.FocusAuto
+import compose.icons.materialdesignicons.FocusField
+import compose.icons.materialdesignicons.FocusFieldHorizontal
+import compose.icons.materialdesignicons.FocusFieldVertical
+import compose.icons.materialdesignicons.Folder
+import compose.icons.materialdesignicons.FolderAccount
+import compose.icons.materialdesignicons.FolderAccountOutline
+import compose.icons.materialdesignicons.FolderAlert
+import compose.icons.materialdesignicons.FolderAlertOutline
+import compose.icons.materialdesignicons.FolderArrowDown
+import compose.icons.materialdesignicons.FolderArrowDownOutline
+import compose.icons.materialdesignicons.FolderArrowLeft
+import compose.icons.materialdesignicons.FolderArrowLeftOutline
+import compose.icons.materialdesignicons.FolderArrowLeftRight
+import compose.icons.materialdesignicons.FolderArrowLeftRightOutline
+import compose.icons.materialdesignicons.FolderArrowRight
+import compose.icons.materialdesignicons.FolderArrowRightOutline
+import compose.icons.materialdesignicons.FolderArrowUp
+import compose.icons.materialdesignicons.FolderArrowUpDown
+import compose.icons.materialdesignicons.FolderArrowUpDownOutline
+import compose.icons.materialdesignicons.FolderArrowUpOutline
+import compose.icons.materialdesignicons.FolderCancel
+import compose.icons.materialdesignicons.FolderCancelOutline
+import compose.icons.materialdesignicons.FolderCheck
+import compose.icons.materialdesignicons.FolderCheckOutline
+import compose.icons.materialdesignicons.FolderClock
+import compose.icons.materialdesignicons.FolderClockOutline
+import compose.icons.materialdesignicons.FolderCog
+import compose.icons.materialdesignicons.FolderCogOutline
+import compose.icons.materialdesignicons.FolderDownload
+import compose.icons.materialdesignicons.FolderDownloadOutline
+import compose.icons.materialdesignicons.FolderEdit
+import compose.icons.materialdesignicons.FolderEditOutline
+import compose.icons.materialdesignicons.FolderEye
+import compose.icons.materialdesignicons.FolderEyeOutline
+import compose.icons.materialdesignicons.FolderFile
+import compose.icons.materialdesignicons.FolderFileOutline
+import compose.icons.materialdesignicons.FolderGoogleDrive
+import compose.icons.materialdesignicons.FolderHeart
+import compose.icons.materialdesignicons.FolderHeartOutline
+import compose.icons.materialdesignicons.FolderHidden
+import compose.icons.materialdesignicons.FolderHome
+import compose.icons.materialdesignicons.FolderHomeOutline
+import compose.icons.materialdesignicons.FolderImage
+import compose.icons.materialdesignicons.FolderInformation
+import compose.icons.materialdesignicons.FolderInformationOutline
+import compose.icons.materialdesignicons.FolderKey
+import compose.icons.materialdesignicons.FolderKeyNetwork
+import compose.icons.materialdesignicons.FolderKeyNetworkOutline
+import compose.icons.materialdesignicons.FolderKeyOutline
+import compose.icons.materialdesignicons.FolderLock
+import compose.icons.materialdesignicons.FolderLockOpen
+import compose.icons.materialdesignicons.FolderLockOpenOutline
+import compose.icons.materialdesignicons.FolderLockOutline
+import compose.icons.materialdesignicons.FolderMarker
+import compose.icons.materialdesignicons.FolderMarkerOutline
+import compose.icons.materialdesignicons.FolderMinus
+import compose.icons.materialdesignicons.FolderMinusOutline
+import compose.icons.materialdesignicons.FolderMove
+import compose.icons.materialdesignicons.FolderMoveOutline
+import compose.icons.materialdesignicons.FolderMultiple
+import compose.icons.materialdesignicons.FolderMultipleImage
+import compose.icons.materialdesignicons.FolderMultipleOutline
+import compose.icons.materialdesignicons.FolderMultiplePlus
+import compose.icons.materialdesignicons.FolderMultiplePlusOutline
+import compose.icons.materialdesignicons.FolderMusic
+import compose.icons.materialdesignicons.FolderMusicOutline
+import compose.icons.materialdesignicons.FolderNetwork
+import compose.icons.materialdesignicons.FolderNetworkOutline
+import compose.icons.materialdesignicons.FolderOff
+import compose.icons.materialdesignicons.FolderOffOutline
+import compose.icons.materialdesignicons.FolderOpen
+import compose.icons.materialdesignicons.FolderOpenOutline
+import compose.icons.materialdesignicons.FolderOutline
+import compose.icons.materialdesignicons.FolderPlay
+import compose.icons.materialdesignicons.FolderPlayOutline
+import compose.icons.materialdesignicons.FolderPlus
+import compose.icons.materialdesignicons.FolderPlusOutline
+import compose.icons.materialdesignicons.FolderPound
+import compose.icons.materialdesignicons.FolderPoundOutline
+import compose.icons.materialdesignicons.FolderQuestion
+import compose.icons.materialdesignicons.FolderQuestionOutline
+import compose.icons.materialdesignicons.FolderRefresh
+import compose.icons.materialdesignicons.FolderRefreshOutline
+import compose.icons.materialdesignicons.FolderRemove
+import compose.icons.materialdesignicons.FolderRemoveOutline
+import compose.icons.materialdesignicons.FolderSearch
+import compose.icons.materialdesignicons.FolderSearchOutline
+import compose.icons.materialdesignicons.FolderSettings
+import compose.icons.materialdesignicons.FolderSettingsOutline
+import compose.icons.materialdesignicons.FolderStar
+import compose.icons.materialdesignicons.FolderStarMultiple
+import compose.icons.materialdesignicons.FolderStarMultipleOutline
+import compose.icons.materialdesignicons.FolderStarOutline
+import compose.icons.materialdesignicons.FolderSwap
+import compose.icons.materialdesignicons.FolderSwapOutline
+import compose.icons.materialdesignicons.FolderSync
+import compose.icons.materialdesignicons.FolderSyncOutline
+import compose.icons.materialdesignicons.FolderTable
+import compose.icons.materialdesignicons.FolderTableOutline
+import compose.icons.materialdesignicons.FolderText
+import compose.icons.materialdesignicons.FolderTextOutline
+import compose.icons.materialdesignicons.FolderUpload
+import compose.icons.materialdesignicons.FolderUploadOutline
+import compose.icons.materialdesignicons.FolderWrench
+import compose.icons.materialdesignicons.FolderWrenchOutline
+import compose.icons.materialdesignicons.FolderZip
+import compose.icons.materialdesignicons.FolderZipOutline
+import compose.icons.materialdesignicons.FontAwesome
+import compose.icons.materialdesignicons.Food
+import compose.icons.materialdesignicons.FoodApple
+import compose.icons.materialdesignicons.FoodAppleOutline
+import compose.icons.materialdesignicons.FoodCroissant
+import compose.icons.materialdesignicons.FoodDrumstick
+import compose.icons.materialdesignicons.FoodDrumstickOff
+import compose.icons.materialdesignicons.FoodDrumstickOffOutline
+import compose.icons.materialdesignicons.FoodDrumstickOutline
+import compose.icons.materialdesignicons.FoodForkDrink
+import compose.icons.materialdesignicons.FoodHalal
+import compose.icons.materialdesignicons.FoodHotDog
+import compose.icons.materialdesignicons.FoodKosher
+import compose.icons.materialdesignicons.FoodOff
+import compose.icons.materialdesignicons.FoodOffOutline
+import compose.icons.materialdesignicons.FoodOutline
+import compose.icons.materialdesignicons.FoodSteak
+import compose.icons.materialdesignicons.FoodSteakOff
+import compose.icons.materialdesignicons.FoodTakeoutBox
+import compose.icons.materialdesignicons.FoodTakeoutBoxOutline
+import compose.icons.materialdesignicons.FoodTurkey
+import compose.icons.materialdesignicons.FoodVariant
+import compose.icons.materialdesignicons.FoodVariantOff
+import compose.icons.materialdesignicons.FootPrint
+import compose.icons.materialdesignicons.Football
+import compose.icons.materialdesignicons.FootballAustralian
+import compose.icons.materialdesignicons.FootballHelmet
+import compose.icons.materialdesignicons.Forest
+import compose.icons.materialdesignicons.Forklift
+import compose.icons.materialdesignicons.FormDropdown
+import compose.icons.materialdesignicons.FormSelect
+import compose.icons.materialdesignicons.FormTextarea
+import compose.icons.materialdesignicons.FormTextbox
+import compose.icons.materialdesignicons.FormTextboxLock
+import compose.icons.materialdesignicons.FormTextboxPassword
+import compose.icons.materialdesignicons.FormatAlignBottom
+import compose.icons.materialdesignicons.FormatAlignCenter
+import compose.icons.materialdesignicons.FormatAlignJustify
+import compose.icons.materialdesignicons.FormatAlignLeft
+import compose.icons.materialdesignicons.FormatAlignMiddle
+import compose.icons.materialdesignicons.FormatAlignRight
+import compose.icons.materialdesignicons.FormatAlignTop
+import compose.icons.materialdesignicons.FormatAnnotationMinus
+import compose.icons.materialdesignicons.FormatAnnotationPlus
+import compose.icons.materialdesignicons.FormatBold
+import compose.icons.materialdesignicons.FormatClear
+import compose.icons.materialdesignicons.FormatColorFill
+import compose.icons.materialdesignicons.FormatColorHighlight
+import compose.icons.materialdesignicons.FormatColorMarkerCancel
+import compose.icons.materialdesignicons.FormatColorText
+import compose.icons.materialdesignicons.FormatColumns
+import compose.icons.materialdesignicons.FormatFloatCenter
+import compose.icons.materialdesignicons.FormatFloatLeft
+import compose.icons.materialdesignicons.FormatFloatNone
+import compose.icons.materialdesignicons.FormatFloatRight
+import compose.icons.materialdesignicons.FormatFont
+import compose.icons.materialdesignicons.FormatFontSizeDecrease
+import compose.icons.materialdesignicons.FormatFontSizeIncrease
+import compose.icons.materialdesignicons.FormatHeader1
+import compose.icons.materialdesignicons.FormatHeader2
+import compose.icons.materialdesignicons.FormatHeader3
+import compose.icons.materialdesignicons.FormatHeader4
+import compose.icons.materialdesignicons.FormatHeader5
+import compose.icons.materialdesignicons.FormatHeader6
+import compose.icons.materialdesignicons.FormatHeaderDecrease
+import compose.icons.materialdesignicons.FormatHeaderEqual
+import compose.icons.materialdesignicons.FormatHeaderIncrease
+import compose.icons.materialdesignicons.FormatHeaderPound
+import compose.icons.materialdesignicons.FormatHorizontalAlignCenter
+import compose.icons.materialdesignicons.FormatHorizontalAlignLeft
+import compose.icons.materialdesignicons.FormatHorizontalAlignRight
+import compose.icons.materialdesignicons.FormatIndentDecrease
+import compose.icons.materialdesignicons.FormatIndentIncrease
+import compose.icons.materialdesignicons.FormatItalic
+import compose.icons.materialdesignicons.FormatLetterCase
+import compose.icons.materialdesignicons.FormatLetterCaseLower
+import compose.icons.materialdesignicons.FormatLetterCaseUpper
+import compose.icons.materialdesignicons.FormatLetterEndsWith
+import compose.icons.materialdesignicons.FormatLetterMatches
+import compose.icons.materialdesignicons.FormatLetterSpacing
+import compose.icons.materialdesignicons.FormatLetterSpacingVariant
+import compose.icons.materialdesignicons.FormatLetterStartsWith
+import compose.icons.materialdesignicons.FormatLineHeight
+import compose.icons.materialdesignicons.FormatLineSpacing
+import compose.icons.materialdesignicons.FormatLineStyle
+import compose.icons.materialdesignicons.FormatLineWeight
+import compose.icons.materialdesignicons.FormatListBulleted
+import compose.icons.materialdesignicons.FormatListBulletedSquare
+import compose.icons.materialdesignicons.FormatListBulletedTriangle
+import compose.icons.materialdesignicons.FormatListBulletedType
+import compose.icons.materialdesignicons.FormatListCheckbox
+import compose.icons.materialdesignicons.FormatListChecks
+import compose.icons.materialdesignicons.FormatListGroup
+import compose.icons.materialdesignicons.FormatListGroupPlus
+import compose.icons.materialdesignicons.FormatListNumbered
+import compose.icons.materialdesignicons.FormatListNumberedRtl
+import compose.icons.materialdesignicons.FormatListText
+import compose.icons.materialdesignicons.FormatOverline
+import compose.icons.materialdesignicons.FormatPageBreak
+import compose.icons.materialdesignicons.FormatPageSplit
+import compose.icons.materialdesignicons.FormatPaint
+import compose.icons.materialdesignicons.FormatParagraph
+import compose.icons.materialdesignicons.FormatParagraphSpacing
+import compose.icons.materialdesignicons.FormatPilcrow
+import compose.icons.materialdesignicons.FormatPilcrowArrowLeft
+import compose.icons.materialdesignicons.FormatPilcrowArrowRight
+import compose.icons.materialdesignicons.FormatQuoteClose
+import compose.icons.materialdesignicons.FormatQuoteCloseOutline
+import compose.icons.materialdesignicons.FormatQuoteOpen
+import compose.icons.materialdesignicons.FormatQuoteOpenOutline
+import compose.icons.materialdesignicons.FormatRotate90
+import compose.icons.materialdesignicons.FormatSection
+import compose.icons.materialdesignicons.FormatSize
+import compose.icons.materialdesignicons.FormatStrikethrough
+import compose.icons.materialdesignicons.FormatStrikethroughVariant
+import compose.icons.materialdesignicons.FormatSubscript
+import compose.icons.materialdesignicons.FormatSuperscript
+import compose.icons.materialdesignicons.FormatText
+import compose.icons.materialdesignicons.FormatTextRotationAngleDown
+import compose.icons.materialdesignicons.FormatTextRotationAngleUp
+import compose.icons.materialdesignicons.FormatTextRotationDown
+import compose.icons.materialdesignicons.FormatTextRotationDownVertical
+import compose.icons.materialdesignicons.FormatTextRotationNone
+import compose.icons.materialdesignicons.FormatTextRotationUp
+import compose.icons.materialdesignicons.FormatTextRotationVertical
+import compose.icons.materialdesignicons.FormatTextVariant
+import compose.icons.materialdesignicons.FormatTextVariantOutline
+import compose.icons.materialdesignicons.FormatTextWrappingClip
+import compose.icons.materialdesignicons.FormatTextWrappingOverflow
+import compose.icons.materialdesignicons.FormatTextWrappingWrap
+import compose.icons.materialdesignicons.FormatTextbox
+import compose.icons.materialdesignicons.FormatTitle
+import compose.icons.materialdesignicons.FormatUnderline
+import compose.icons.materialdesignicons.FormatUnderlineWavy
+import compose.icons.materialdesignicons.FormatVerticalAlignBottom
+import compose.icons.materialdesignicons.FormatVerticalAlignCenter
+import compose.icons.materialdesignicons.FormatVerticalAlignTop
+import compose.icons.materialdesignicons.FormatWrapInline
+import compose.icons.materialdesignicons.FormatWrapSquare
+import compose.icons.materialdesignicons.FormatWrapTight
+import compose.icons.materialdesignicons.FormatWrapTopBottom
+import compose.icons.materialdesignicons.Forum
+import compose.icons.materialdesignicons.ForumMinus
+import compose.icons.materialdesignicons.ForumMinusOutline
+import compose.icons.materialdesignicons.ForumOutline
+import compose.icons.materialdesignicons.ForumPlus
+import compose.icons.materialdesignicons.ForumPlusOutline
+import compose.icons.materialdesignicons.ForumRemove
+import compose.icons.materialdesignicons.ForumRemoveOutline
+import compose.icons.materialdesignicons.Forward
+import compose.icons.materialdesignicons.Forwardburger
+import compose.icons.materialdesignicons.Fountain
+import compose.icons.materialdesignicons.FountainPen
+import compose.icons.materialdesignicons.FountainPenTip
+import compose.icons.materialdesignicons.FractionOneHalf
+import compose.icons.materialdesignicons.Freebsd
+import compose.icons.materialdesignicons.FrenchFries
+import compose.icons.materialdesignicons.FrequentlyAskedQuestions
+import compose.icons.materialdesignicons.Fridge
+import compose.icons.materialdesignicons.FridgeAlert
+import compose.icons.materialdesignicons.FridgeAlertOutline
+import compose.icons.materialdesignicons.FridgeBottom
+import compose.icons.materialdesignicons.FridgeIndustrial
+import compose.icons.materialdesignicons.FridgeIndustrialAlert
+import compose.icons.materialdesignicons.FridgeIndustrialAlertOutline
+import compose.icons.materialdesignicons.FridgeIndustrialOff
+import compose.icons.materialdesignicons.FridgeIndustrialOffOutline
+import compose.icons.materialdesignicons.FridgeIndustrialOutline
+import compose.icons.materialdesignicons.FridgeOff
+import compose.icons.materialdesignicons.FridgeOffOutline
+import compose.icons.materialdesignicons.FridgeOutline
+import compose.icons.materialdesignicons.FridgeTop
+import compose.icons.materialdesignicons.FridgeVariant
+import compose.icons.materialdesignicons.FridgeVariantAlert
+import compose.icons.materialdesignicons.FridgeVariantAlertOutline
+import compose.icons.materialdesignicons.FridgeVariantOff
+import compose.icons.materialdesignicons.FridgeVariantOffOutline
+import compose.icons.materialdesignicons.FridgeVariantOutline
+import compose.icons.materialdesignicons.FruitCherries
+import compose.icons.materialdesignicons.FruitCherriesOff
+import compose.icons.materialdesignicons.FruitCitrus
+import compose.icons.materialdesignicons.FruitCitrusOff
+import compose.icons.materialdesignicons.FruitGrapes
+import compose.icons.materialdesignicons.FruitGrapesOutline
+import compose.icons.materialdesignicons.FruitPear
+import compose.icons.materialdesignicons.FruitPineapple
+import compose.icons.materialdesignicons.FruitWatermelon
+import compose.icons.materialdesignicons.Fuel
+import compose.icons.materialdesignicons.FuelCell
+import compose.icons.materialdesignicons.Fullscreen
+import compose.icons.materialdesignicons.FullscreenExit
+import compose.icons.materialdesignicons.Function
+import compose.icons.materialdesignicons.FunctionVariant
+import compose.icons.materialdesignicons.FuriganaHorizontal
+import compose.icons.materialdesignicons.FuriganaVertical
+import compose.icons.materialdesignicons.Fuse
+import compose.icons.materialdesignicons.FuseAlert
+import compose.icons.materialdesignicons.FuseBlade
+import compose.icons.materialdesignicons.FuseOff
+import compose.icons.materialdesignicons.Gamepad
+import compose.icons.materialdesignicons.GamepadCircle
+import compose.icons.materialdesignicons.GamepadCircleDown
+import compose.icons.materialdesignicons.GamepadCircleLeft
+import compose.icons.materialdesignicons.GamepadCircleOutline
+import compose.icons.materialdesignicons.GamepadCircleRight
+import compose.icons.materialdesignicons.GamepadCircleUp
+import compose.icons.materialdesignicons.GamepadDown
+import compose.icons.materialdesignicons.GamepadLeft
+import compose.icons.materialdesignicons.GamepadOutline
+import compose.icons.materialdesignicons.GamepadRight
+import compose.icons.materialdesignicons.GamepadRound
+import compose.icons.materialdesignicons.GamepadRoundDown
+import compose.icons.materialdesignicons.GamepadRoundLeft
+import compose.icons.materialdesignicons.GamepadRoundOutline
+import compose.icons.materialdesignicons.GamepadRoundRight
+import compose.icons.materialdesignicons.GamepadRoundUp
+import compose.icons.materialdesignicons.GamepadSquare
+import compose.icons.materialdesignicons.GamepadSquareOutline
+import compose.icons.materialdesignicons.GamepadUp
+import compose.icons.materialdesignicons.GamepadVariant
+import compose.icons.materialdesignicons.GamepadVariantOutline
+import compose.icons.materialdesignicons.Gamma
+import compose.icons.materialdesignicons.GantryCrane
+import compose.icons.materialdesignicons.Garage
+import compose.icons.materialdesignicons.GarageAlert
+import compose.icons.materialdesignicons.GarageAlertVariant
+import compose.icons.materialdesignicons.GarageLock
+import compose.icons.materialdesignicons.GarageOpen
+import compose.icons.materialdesignicons.GarageOpenVariant
+import compose.icons.materialdesignicons.GarageVariant
+import compose.icons.materialdesignicons.GarageVariantLock
+import compose.icons.materialdesignicons.GasBurner
+import compose.icons.materialdesignicons.GasCylinder
+import compose.icons.materialdesignicons.GasStation
+import compose.icons.materialdesignicons.GasStationOff
+import compose.icons.materialdesignicons.GasStationOffOutline
+import compose.icons.materialdesignicons.GasStationOutline
+import compose.icons.materialdesignicons.Gate
+import compose.icons.materialdesignicons.GateAlert
+import compose.icons.materialdesignicons.GateAnd
+import compose.icons.materialdesignicons.GateArrowLeft
+import compose.icons.materialdesignicons.GateArrowRight
+import compose.icons.materialdesignicons.GateBuffer
+import compose.icons.materialdesignicons.GateNand
+import compose.icons.materialdesignicons.GateNor
+import compose.icons.materialdesignicons.GateNot
+import compose.icons.materialdesignicons.GateOpen
+import compose.icons.materialdesignicons.GateOr
+import compose.icons.materialdesignicons.GateXnor
+import compose.icons.materialdesignicons.GateXor
+import compose.icons.materialdesignicons.Gatsby
+import compose.icons.materialdesignicons.Gauge
+import compose.icons.materialdesignicons.GaugeEmpty
+import compose.icons.materialdesignicons.GaugeFull
+import compose.icons.materialdesignicons.GaugeLow
+import compose.icons.materialdesignicons.Gavel
+import compose.icons.materialdesignicons.GenderFemale
+import compose.icons.materialdesignicons.GenderMale
+import compose.icons.materialdesignicons.GenderMaleFemale
+import compose.icons.materialdesignicons.GenderMaleFemaleVariant
+import compose.icons.materialdesignicons.GenderNonBinary
+import compose.icons.materialdesignicons.GenderTransgender
+import compose.icons.materialdesignicons.Gentoo
+import compose.icons.materialdesignicons.Gesture
+import compose.icons.materialdesignicons.GestureDoubleTap
+import compose.icons.materialdesignicons.GesturePinch
+import compose.icons.materialdesignicons.GestureSpread
+import compose.icons.materialdesignicons.GestureSwipe
+import compose.icons.materialdesignicons.GestureSwipeDown
+import compose.icons.materialdesignicons.GestureSwipeHorizontal
+import compose.icons.materialdesignicons.GestureSwipeLeft
+import compose.icons.materialdesignicons.GestureSwipeRight
+import compose.icons.materialdesignicons.GestureSwipeUp
+import compose.icons.materialdesignicons.GestureSwipeVertical
+import compose.icons.materialdesignicons.GestureTap
+import compose.icons.materialdesignicons.GestureTapBox
+import compose.icons.materialdesignicons.GestureTapButton
+import compose.icons.materialdesignicons.GestureTapHold
+import compose.icons.materialdesignicons.GestureTwoDoubleTap
+import compose.icons.materialdesignicons.GestureTwoTap
+import compose.icons.materialdesignicons.Ghost
+import compose.icons.materialdesignicons.GhostOff
+import compose.icons.materialdesignicons.GhostOffOutline
+import compose.icons.materialdesignicons.GhostOutline
+import compose.icons.materialdesignicons.Gift
+import compose.icons.materialdesignicons.GiftOff
+import compose.icons.materialdesignicons.GiftOffOutline
+import compose.icons.materialdesignicons.GiftOpen
+import compose.icons.materialdesignicons.GiftOpenOutline
+import compose.icons.materialdesignicons.GiftOutline
+import compose.icons.materialdesignicons.Git
+import compose.icons.materialdesignicons.Github
+import compose.icons.materialdesignicons.Gitlab
+import compose.icons.materialdesignicons.GlassCocktail
+import compose.icons.materialdesignicons.GlassCocktailOff
+import compose.icons.materialdesignicons.GlassFlute
+import compose.icons.materialdesignicons.GlassFragile
+import compose.icons.materialdesignicons.GlassMug
+import compose.icons.materialdesignicons.GlassMugOff
+import compose.icons.materialdesignicons.GlassMugVariant
+import compose.icons.materialdesignicons.GlassMugVariantOff
+import compose.icons.materialdesignicons.GlassPintOutline
+import compose.icons.materialdesignicons.GlassStange
+import compose.icons.materialdesignicons.GlassTulip
+import compose.icons.materialdesignicons.GlassWine
+import compose.icons.materialdesignicons.Glasses
+import compose.icons.materialdesignicons.GlobeLight
+import compose.icons.materialdesignicons.GlobeLightOutline
+import compose.icons.materialdesignicons.GlobeModel
+import compose.icons.materialdesignicons.Gmail
+import compose.icons.materialdesignicons.Gnome
+import compose.icons.materialdesignicons.GoKart
+import compose.icons.materialdesignicons.GoKartTrack
+import compose.icons.materialdesignicons.Gog
+import compose.icons.materialdesignicons.Gold
+import compose.icons.materialdesignicons.Golf
+import compose.icons.materialdesignicons.GolfCart
+import compose.icons.materialdesignicons.GolfTee
+import compose.icons.materialdesignicons.Gondola
+import compose.icons.materialdesignicons.Goodreads
+import compose.icons.materialdesignicons.Google
+import compose.icons.materialdesignicons.GoogleAds
+import compose.icons.materialdesignicons.GoogleAnalytics
+import compose.icons.materialdesignicons.GoogleAssistant
+import compose.icons.materialdesignicons.GoogleCardboard
+import compose.icons.materialdesignicons.GoogleChrome
+import compose.icons.materialdesignicons.GoogleCircles
+import compose.icons.materialdesignicons.GoogleCirclesCommunities
+import compose.icons.materialdesignicons.GoogleCirclesExtended
+import compose.icons.materialdesignicons.GoogleCirclesGroup
+import compose.icons.materialdesignicons.GoogleClassroom
+import compose.icons.materialdesignicons.GoogleCloud
+import compose.icons.materialdesignicons.GoogleDownasaur
+import compose.icons.materialdesignicons.GoogleDrive
+import compose.icons.materialdesignicons.GoogleEarth
+import compose.icons.materialdesignicons.GoogleFit
+import compose.icons.materialdesignicons.GoogleGlass
+import compose.icons.materialdesignicons.GoogleHangouts
+import compose.icons.materialdesignicons.GoogleKeep
+import compose.icons.materialdesignicons.GoogleLens
+import compose.icons.materialdesignicons.GoogleMaps
+import compose.icons.materialdesignicons.GoogleMyBusiness
+import compose.icons.materialdesignicons.GoogleNearby
+import compose.icons.materialdesignicons.GooglePlay
+import compose.icons.materialdesignicons.GooglePlus
+import compose.icons.materialdesignicons.GooglePodcast
+import compose.icons.materialdesignicons.GoogleSpreadsheet
+import compose.icons.materialdesignicons.GoogleStreetView
+import compose.icons.materialdesignicons.GoogleTranslate
+import compose.icons.materialdesignicons.GradientHorizontal
+import compose.icons.materialdesignicons.GradientVertical
+import compose.icons.materialdesignicons.Grain
+import compose.icons.materialdesignicons.Graph
+import compose.icons.materialdesignicons.GraphOutline
+import compose.icons.materialdesignicons.Graphql
+import compose.icons.materialdesignicons.Grass
+import compose.icons.materialdesignicons.GraveStone
+import compose.icons.materialdesignicons.GreasePencil
+import compose.icons.materialdesignicons.GreaterThan
+import compose.icons.materialdesignicons.GreaterThanOrEqual
+import compose.icons.materialdesignicons.Greenhouse
+import compose.icons.materialdesignicons.Grid
+import compose.icons.materialdesignicons.GridLarge
+import compose.icons.materialdesignicons.GridOff
+import compose.icons.materialdesignicons.Grill
+import compose.icons.materialdesignicons.GrillOutline
+import compose.icons.materialdesignicons.Group
+import compose.icons.materialdesignicons.GuitarAcoustic
+import compose.icons.materialdesignicons.GuitarElectric
+import compose.icons.materialdesignicons.GuitarPick
+import compose.icons.materialdesignicons.GuitarPickOutline
+import compose.icons.materialdesignicons.GuyFawkesMask
+import compose.icons.materialdesignicons.Gymnastics
+import compose.icons.materialdesignicons.Hail
+import compose.icons.materialdesignicons.HairDryer
+import compose.icons.materialdesignicons.HairDryerOutline
+import compose.icons.materialdesignicons.Halloween
+import compose.icons.materialdesignicons.Hamburger
+import compose.icons.materialdesignicons.HamburgerCheck
+import compose.icons.materialdesignicons.HamburgerMinus
+import compose.icons.materialdesignicons.HamburgerOff
+import compose.icons.materialdesignicons.HamburgerPlus
+import compose.icons.materialdesignicons.HamburgerRemove
+import compose.icons.materialdesignicons.Hammer
+import compose.icons.materialdesignicons.HammerScrewdriver
+import compose.icons.materialdesignicons.HammerSickle
+import compose.icons.materialdesignicons.HammerWrench
+import compose.icons.materialdesignicons.HandBackLeft
+import compose.icons.materialdesignicons.HandBackLeftOff
+import compose.icons.materialdesignicons.HandBackLeftOffOutline
+import compose.icons.materialdesignicons.HandBackLeftOutline
+import compose.icons.materialdesignicons.HandBackRight
+import compose.icons.materialdesignicons.HandBackRightOff
+import compose.icons.materialdesignicons.HandBackRightOffOutline
+import compose.icons.materialdesignicons.HandBackRightOutline
+import compose.icons.materialdesignicons.HandClap
+import compose.icons.materialdesignicons.HandClapOff
+import compose.icons.materialdesignicons.HandCoin
+import compose.icons.materialdesignicons.HandCoinOutline
+import compose.icons.materialdesignicons.HandCycle
+import compose.icons.materialdesignicons.HandExtended
+import compose.icons.materialdesignicons.HandExtendedOutline
+import compose.icons.materialdesignicons.HandFrontLeft
+import compose.icons.materialdesignicons.HandFrontLeftOutline
+import compose.icons.materialdesignicons.HandFrontRight
+import compose.icons.materialdesignicons.HandFrontRightOutline
+import compose.icons.materialdesignicons.HandHeart
+import compose.icons.materialdesignicons.HandHeartOutline
+import compose.icons.materialdesignicons.HandOkay
+import compose.icons.materialdesignicons.HandPeace
+import compose.icons.materialdesignicons.HandPeaceVariant
+import compose.icons.materialdesignicons.HandPointingDown
+import compose.icons.materialdesignicons.HandPointingLeft
+import compose.icons.materialdesignicons.HandPointingRight
+import compose.icons.materialdesignicons.HandPointingUp
+import compose.icons.materialdesignicons.HandSaw
+import compose.icons.materialdesignicons.HandWash
+import compose.icons.materialdesignicons.HandWashOutline
+import compose.icons.materialdesignicons.HandWater
+import compose.icons.materialdesignicons.HandWave
+import compose.icons.materialdesignicons.HandWaveOutline
+import compose.icons.materialdesignicons.Handball
+import compose.icons.materialdesignicons.Handcuffs
+import compose.icons.materialdesignicons.HandsPray
+import compose.icons.materialdesignicons.Handshake
+import compose.icons.materialdesignicons.HandshakeOutline
+import compose.icons.materialdesignicons.Hanger
+import compose.icons.materialdesignicons.HardHat
+import compose.icons.materialdesignicons.Harddisk
+import compose.icons.materialdesignicons.HarddiskPlus
+import compose.icons.materialdesignicons.HarddiskRemove
+import compose.icons.materialdesignicons.HatFedora
+import compose.icons.materialdesignicons.HazardLights
+import compose.icons.materialdesignicons.HdmiPort
+import compose.icons.materialdesignicons.Hdr
+import compose.icons.materialdesignicons.HdrOff
+import compose.icons.materialdesignicons.Head
+import compose.icons.materialdesignicons.HeadAlert
+import compose.icons.materialdesignicons.HeadAlertOutline
+import compose.icons.materialdesignicons.HeadCheck
+import compose.icons.materialdesignicons.HeadCheckOutline
+import compose.icons.materialdesignicons.HeadCog
+import compose.icons.materialdesignicons.HeadCogOutline
+import compose.icons.materialdesignicons.HeadDotsHorizontal
+import compose.icons.materialdesignicons.HeadDotsHorizontalOutline
+import compose.icons.materialdesignicons.HeadFlash
+import compose.icons.materialdesignicons.HeadFlashOutline
+import compose.icons.materialdesignicons.HeadHeart
+import compose.icons.materialdesignicons.HeadHeartOutline
+import compose.icons.materialdesignicons.HeadLightbulb
+import compose.icons.materialdesignicons.HeadLightbulbOutline
+import compose.icons.materialdesignicons.HeadMinus
+import compose.icons.materialdesignicons.HeadMinusOutline
+import compose.icons.materialdesignicons.HeadOutline
+import compose.icons.materialdesignicons.HeadPlus
+import compose.icons.materialdesignicons.HeadPlusOutline
+import compose.icons.materialdesignicons.HeadQuestion
+import compose.icons.materialdesignicons.HeadQuestionOutline
+import compose.icons.materialdesignicons.HeadRemove
+import compose.icons.materialdesignicons.HeadRemoveOutline
+import compose.icons.materialdesignicons.HeadSnowflake
+import compose.icons.materialdesignicons.HeadSnowflakeOutline
+import compose.icons.materialdesignicons.HeadSync
+import compose.icons.materialdesignicons.HeadSyncOutline
+import compose.icons.materialdesignicons.Headphones
+import compose.icons.materialdesignicons.HeadphonesBluetooth
+import compose.icons.materialdesignicons.HeadphonesBox
+import compose.icons.materialdesignicons.HeadphonesOff
+import compose.icons.materialdesignicons.HeadphonesSettings
+import compose.icons.materialdesignicons.Headset
+import compose.icons.materialdesignicons.HeadsetDock
+import compose.icons.materialdesignicons.HeadsetOff
+import compose.icons.materialdesignicons.Heart
+import compose.icons.materialdesignicons.HeartBox
+import compose.icons.materialdesignicons.HeartBoxOutline
+import compose.icons.materialdesignicons.HeartBroken
+import compose.icons.materialdesignicons.HeartBrokenOutline
+import compose.icons.materialdesignicons.HeartCircle
+import compose.icons.materialdesignicons.HeartCircleOutline
+import compose.icons.materialdesignicons.HeartCog
+import compose.icons.materialdesignicons.HeartCogOutline
+import compose.icons.materialdesignicons.HeartFlash
+import compose.icons.materialdesignicons.HeartHalf
+import compose.icons.materialdesignicons.HeartHalfFull
+import compose.icons.materialdesignicons.HeartHalfOutline
+import compose.icons.materialdesignicons.HeartMinus
+import compose.icons.materialdesignicons.HeartMinusOutline
+import compose.icons.materialdesignicons.HeartMultiple
+import compose.icons.materialdesignicons.HeartMultipleOutline
+import compose.icons.materialdesignicons.HeartOff
+import compose.icons.materialdesignicons.HeartOffOutline
+import compose.icons.materialdesignicons.HeartOutline
+import compose.icons.materialdesignicons.HeartPlus
+import compose.icons.materialdesignicons.HeartPlusOutline
+import compose.icons.materialdesignicons.HeartPulse
+import compose.icons.materialdesignicons.HeartRemove
+import compose.icons.materialdesignicons.HeartRemoveOutline
+import compose.icons.materialdesignicons.HeartSettings
+import compose.icons.materialdesignicons.HeartSettingsOutline
+import compose.icons.materialdesignicons.HeatPump
+import compose.icons.materialdesignicons.HeatPumpOutline
+import compose.icons.materialdesignicons.HeatWave
+import compose.icons.materialdesignicons.HeatingCoil
+import compose.icons.materialdesignicons.Helicopter
+import compose.icons.materialdesignicons.Help
+import compose.icons.materialdesignicons.HelpBox
+import compose.icons.materialdesignicons.HelpBoxMultiple
+import compose.icons.materialdesignicons.HelpBoxMultipleOutline
+import compose.icons.materialdesignicons.HelpBoxOutline
+import compose.icons.materialdesignicons.HelpCircle
+import compose.icons.materialdesignicons.HelpCircleOutline
+import compose.icons.materialdesignicons.HelpNetwork
+import compose.icons.materialdesignicons.HelpNetworkOutline
+import compose.icons.materialdesignicons.HelpRhombus
+import compose.icons.materialdesignicons.HelpRhombusOutline
+import compose.icons.materialdesignicons.Hexadecimal
+import compose.icons.materialdesignicons.Hexagon
+import compose.icons.materialdesignicons.HexagonMultiple
+import compose.icons.materialdesignicons.HexagonMultipleOutline
+import compose.icons.materialdesignicons.HexagonOutline
+import compose.icons.materialdesignicons.HexagonSlice1
+import compose.icons.materialdesignicons.HexagonSlice2
+import compose.icons.materialdesignicons.HexagonSlice3
+import compose.icons.materialdesignicons.HexagonSlice4
+import compose.icons.materialdesignicons.HexagonSlice5
+import compose.icons.materialdesignicons.HexagonSlice6
+import compose.icons.materialdesignicons.Hexagram
+import compose.icons.materialdesignicons.HexagramOutline
+import compose.icons.materialdesignicons.HighDefinition
+import compose.icons.materialdesignicons.HighDefinitionBox
+import compose.icons.materialdesignicons.Highway
+import compose.icons.materialdesignicons.Hiking
+import compose.icons.materialdesignicons.History
+import compose.icons.materialdesignicons.HockeyPuck
+import compose.icons.materialdesignicons.HockeySticks
+import compose.icons.materialdesignicons.Hololens
+import compose.icons.materialdesignicons.Home
+import compose.icons.materialdesignicons.HomeAccount
+import compose.icons.materialdesignicons.HomeAlert
+import compose.icons.materialdesignicons.HomeAlertOutline
+import compose.icons.materialdesignicons.HomeAnalytics
+import compose.icons.materialdesignicons.HomeAssistant
+import compose.icons.materialdesignicons.HomeAutomation
+import compose.icons.materialdesignicons.HomeBattery
+import compose.icons.materialdesignicons.HomeBatteryOutline
+import compose.icons.materialdesignicons.HomeCircle
+import compose.icons.materialdesignicons.HomeCircleOutline
+import compose.icons.materialdesignicons.HomeCity
+import compose.icons.materialdesignicons.HomeCityOutline
+import compose.icons.materialdesignicons.HomeClock
+import compose.icons.materialdesignicons.HomeClockOutline
+import compose.icons.materialdesignicons.HomeEdit
+import compose.icons.materialdesignicons.HomeEditOutline
+import compose.icons.materialdesignicons.HomeExportOutline
+import compose.icons.materialdesignicons.HomeFlood
+import compose.icons.materialdesignicons.HomeFloor0
+import compose.icons.materialdesignicons.HomeFloor1
+import compose.icons.materialdesignicons.HomeFloor2
+import compose.icons.materialdesignicons.HomeFloor3
+import compose.icons.materialdesignicons.HomeFloorA
+import compose.icons.materialdesignicons.HomeFloorB
+import compose.icons.materialdesignicons.HomeFloorG
+import compose.icons.materialdesignicons.HomeFloorL
+import compose.icons.materialdesignicons.HomeFloorNegative1
+import compose.icons.materialdesignicons.HomeGroup
+import compose.icons.materialdesignicons.HomeGroupMinus
+import compose.icons.materialdesignicons.HomeGroupPlus
+import compose.icons.materialdesignicons.HomeGroupRemove
+import compose.icons.materialdesignicons.HomeHeart
+import compose.icons.materialdesignicons.HomeImportOutline
+import compose.icons.materialdesignicons.HomeLightbulb
+import compose.icons.materialdesignicons.HomeLightbulbOutline
+import compose.icons.materialdesignicons.HomeLightningBolt
+import compose.icons.materialdesignicons.HomeLightningBoltOutline
+import compose.icons.materialdesignicons.HomeLock
+import compose.icons.materialdesignicons.HomeLockOpen
+import compose.icons.materialdesignicons.HomeMapMarker
+import compose.icons.materialdesignicons.HomeMinus
+import compose.icons.materialdesignicons.HomeMinusOutline
+import compose.icons.materialdesignicons.HomeModern
+import compose.icons.materialdesignicons.HomeOff
+import compose.icons.materialdesignicons.HomeOffOutline
+import compose.icons.materialdesignicons.HomeOutline
+import compose.icons.materialdesignicons.HomePlus
+import compose.icons.materialdesignicons.HomePlusOutline
+import compose.icons.materialdesignicons.HomeRemove
+import compose.icons.materialdesignicons.HomeRemoveOutline
+import compose.icons.materialdesignicons.HomeRoof
+import compose.icons.materialdesignicons.HomeSearch
+import compose.icons.materialdesignicons.HomeSearchOutline
+import compose.icons.materialdesignicons.HomeSilo
+import compose.icons.materialdesignicons.HomeSiloOutline
+import compose.icons.materialdesignicons.HomeSwitch
+import compose.icons.materialdesignicons.HomeSwitchOutline
+import compose.icons.materialdesignicons.HomeThermometer
+import compose.icons.materialdesignicons.HomeThermometerOutline
+import compose.icons.materialdesignicons.HomeVariant
+import compose.icons.materialdesignicons.HomeVariantOutline
+import compose.icons.materialdesignicons.Hook
+import compose.icons.materialdesignicons.HookOff
+import compose.icons.materialdesignicons.HoopHouse
+import compose.icons.materialdesignicons.Hops
+import compose.icons.materialdesignicons.HorizontalRotateClockwise
+import compose.icons.materialdesignicons.HorizontalRotateCounterclockwise
+import compose.icons.materialdesignicons.Horse
+import compose.icons.materialdesignicons.HorseHuman
+import compose.icons.materialdesignicons.HorseVariant
+import compose.icons.materialdesignicons.HorseVariantFast
+import compose.icons.materialdesignicons.Horseshoe
+import compose.icons.materialdesignicons.Hospital
+import compose.icons.materialdesignicons.HospitalBox
+import compose.icons.materialdesignicons.HospitalBoxOutline
+import compose.icons.materialdesignicons.HospitalBuilding
+import compose.icons.materialdesignicons.HospitalMarker
+import compose.icons.materialdesignicons.HotTub
+import compose.icons.materialdesignicons.Hours24
+import compose.icons.materialdesignicons.Hubspot
+import compose.icons.materialdesignicons.Hulu
+import compose.icons.materialdesignicons.Human
+import compose.icons.materialdesignicons.HumanBabyChangingTable
+import compose.icons.materialdesignicons.HumanCane
+import compose.icons.materialdesignicons.HumanCapacityDecrease
+import compose.icons.materialdesignicons.HumanCapacityIncrease
+import compose.icons.materialdesignicons.HumanChild
+import compose.icons.materialdesignicons.HumanDolly
+import compose.icons.materialdesignicons.HumanEdit
+import compose.icons.materialdesignicons.HumanFemale
+import compose.icons.materialdesignicons.HumanFemaleBoy
+import compose.icons.materialdesignicons.HumanFemaleDance
+import compose.icons.materialdesignicons.HumanFemaleFemale
+import compose.icons.materialdesignicons.HumanFemaleGirl
+import compose.icons.materialdesignicons.HumanGreeting
+import compose.icons.materialdesignicons.HumanGreetingProximity
+import compose.icons.materialdesignicons.HumanGreetingVariant
+import compose.icons.materialdesignicons.HumanHandsdown
+import compose.icons.materialdesignicons.HumanHandsup
+import compose.icons.materialdesignicons.HumanMale
+import compose.icons.materialdesignicons.HumanMaleBoard
+import compose.icons.materialdesignicons.HumanMaleBoardPoll
+import compose.icons.materialdesignicons.HumanMaleBoy
+import compose.icons.materialdesignicons.HumanMaleChild
+import compose.icons.materialdesignicons.HumanMaleFemale
+import compose.icons.materialdesignicons.HumanMaleFemaleChild
+import compose.icons.materialdesignicons.HumanMaleGirl
+import compose.icons.materialdesignicons.HumanMaleHeight
+import compose.icons.materialdesignicons.HumanMaleHeightVariant
+import compose.icons.materialdesignicons.HumanMaleMale
+import compose.icons.materialdesignicons.HumanNonBinary
+import compose.icons.materialdesignicons.HumanPregnant
+import compose.icons.materialdesignicons.HumanQueue
+import compose.icons.materialdesignicons.HumanScooter
+import compose.icons.materialdesignicons.HumanWalker
+import compose.icons.materialdesignicons.HumanWheelchair
+import compose.icons.materialdesignicons.HumanWhiteCane
+import compose.icons.materialdesignicons.HumbleBundle
+import compose.icons.materialdesignicons.Hvac
+import compose.icons.materialdesignicons.HvacOff
+import compose.icons.materialdesignicons.HydraulicOilLevel
+import compose.icons.materialdesignicons.HydraulicOilTemperature
+import compose.icons.materialdesignicons.HydroPower
+import compose.icons.materialdesignicons.HydrogenStation
+import compose.icons.materialdesignicons.IceCream
+import compose.icons.materialdesignicons.IceCreamOff
+import compose.icons.materialdesignicons.IcePop
+import compose.icons.materialdesignicons.IdCard
+import compose.icons.materialdesignicons.Identifier
+import compose.icons.materialdesignicons.IdeogramCjk
+import compose.icons.materialdesignicons.IdeogramCjkVariant
+import compose.icons.materialdesignicons.Image
+import compose.icons.materialdesignicons.ImageAlbum
+import compose.icons.materialdesignicons.ImageArea
+import compose.icons.materialdesignicons.ImageAreaClose
+import compose.icons.materialdesignicons.ImageAutoAdjust
+import compose.icons.materialdesignicons.ImageBroken
+import compose.icons.materialdesignicons.ImageBrokenVariant
+import compose.icons.materialdesignicons.ImageCheck
+import compose.icons.materialdesignicons.ImageCheckOutline
+import compose.icons.materialdesignicons.ImageEdit
+import compose.icons.materialdesignicons.ImageEditOutline
+import compose.icons.materialdesignicons.ImageFilterBlackWhite
+import compose.icons.materialdesignicons.ImageFilterCenterFocus
+import compose.icons.materialdesignicons.ImageFilterCenterFocusStrong
+import compose.icons.materialdesignicons.ImageFilterCenterFocusStrongOutline
+import compose.icons.materialdesignicons.ImageFilterCenterFocusWeak
+import compose.icons.materialdesignicons.ImageFilterDrama
+import compose.icons.materialdesignicons.ImageFilterDramaOutline
+import compose.icons.materialdesignicons.ImageFilterFrames
+import compose.icons.materialdesignicons.ImageFilterHdr
+import compose.icons.materialdesignicons.ImageFilterNone
+import compose.icons.materialdesignicons.ImageFilterTiltShift
+import compose.icons.materialdesignicons.ImageFilterVintage
+import compose.icons.materialdesignicons.ImageFrame
+import compose.icons.materialdesignicons.ImageLock
+import compose.icons.materialdesignicons.ImageLockOutline
+import compose.icons.materialdesignicons.ImageMarker
+import compose.icons.materialdesignicons.ImageMarkerOutline
+import compose.icons.materialdesignicons.ImageMinus
+import compose.icons.materialdesignicons.ImageMinusOutline
+import compose.icons.materialdesignicons.ImageMove
+import compose.icons.materialdesignicons.ImageMultiple
+import compose.icons.materialdesignicons.ImageMultipleOutline
+import compose.icons.materialdesignicons.ImageOff
+import compose.icons.materialdesignicons.ImageOffOutline
+import compose.icons.materialdesignicons.ImageOutline
+import compose.icons.materialdesignicons.ImagePlus
+import compose.icons.materialdesignicons.ImagePlusOutline
+import compose.icons.materialdesignicons.ImageRefresh
+import compose.icons.materialdesignicons.ImageRefreshOutline
+import compose.icons.materialdesignicons.ImageRemove
+import compose.icons.materialdesignicons.ImageRemoveOutline
+import compose.icons.materialdesignicons.ImageSearch
+import compose.icons.materialdesignicons.ImageSearchOutline
+import compose.icons.materialdesignicons.ImageSizeSelectActual
+import compose.icons.materialdesignicons.ImageSizeSelectLarge
+import compose.icons.materialdesignicons.ImageSizeSelectSmall
+import compose.icons.materialdesignicons.ImageSync
+import compose.icons.materialdesignicons.ImageSyncOutline
+import compose.icons.materialdesignicons.ImageText
+import compose.icons.materialdesignicons.Import
+import compose.icons.materialdesignicons.Inbox
+import compose.icons.materialdesignicons.InboxArrowDown
+import compose.icons.materialdesignicons.InboxArrowDownOutline
+import compose.icons.materialdesignicons.InboxArrowUp
+import compose.icons.materialdesignicons.InboxArrowUpOutline
+import compose.icons.materialdesignicons.InboxFull
+import compose.icons.materialdesignicons.InboxFullOutline
+import compose.icons.materialdesignicons.InboxMultiple
+import compose.icons.materialdesignicons.InboxMultipleOutline
+import compose.icons.materialdesignicons.InboxOutline
+import compose.icons.materialdesignicons.InboxRemove
+import compose.icons.materialdesignicons.InboxRemoveOutline
+import compose.icons.materialdesignicons.Incognito
+import compose.icons.materialdesignicons.IncognitoCircle
+import compose.icons.materialdesignicons.IncognitoCircleOff
+import compose.icons.materialdesignicons.IncognitoOff
+import compose.icons.materialdesignicons.Induction
+import compose.icons.materialdesignicons.Infinity
+import compose.icons.materialdesignicons.Information
+import compose.icons.materialdesignicons.InformationOff
+import compose.icons.materialdesignicons.InformationOffOutline
+import compose.icons.materialdesignicons.InformationOutline
+import compose.icons.materialdesignicons.InformationVariant
+import compose.icons.materialdesignicons.Instagram
+import compose.icons.materialdesignicons.InstrumentTriangle
+import compose.icons.materialdesignicons.IntegratedCircuitChip
+import compose.icons.materialdesignicons.InvertColors
+import compose.icons.materialdesignicons.InvertColorsOff
+import compose.icons.materialdesignicons.Iobroker
+import compose.icons.materialdesignicons.Ip
+import compose.icons.materialdesignicons.IpNetwork
+import compose.icons.materialdesignicons.IpNetworkOutline
+import compose.icons.materialdesignicons.IpOutline
+import compose.icons.materialdesignicons.Ipod
+import compose.icons.materialdesignicons.Iron
+import compose.icons.materialdesignicons.IronBoard
+import compose.icons.materialdesignicons.IronOutline
+import compose.icons.materialdesignicons.Island
+import compose.icons.materialdesignicons.IvBag
+import compose.icons.materialdesignicons.Jabber
+import compose.icons.materialdesignicons.Jeepney
+import compose.icons.materialdesignicons.Jellyfish
+import compose.icons.materialdesignicons.JellyfishOutline
+import compose.icons.materialdesignicons.Jira
+import compose.icons.materialdesignicons.Jquery
+import compose.icons.materialdesignicons.Jsfiddle
+import compose.icons.materialdesignicons.JumpRope
+import compose.icons.materialdesignicons.Kabaddi
+import compose.icons.materialdesignicons.Kangaroo
+import compose.icons.materialdesignicons.Karate
+import compose.icons.materialdesignicons.Kayaking
+import compose.icons.materialdesignicons.Keg
+import compose.icons.materialdesignicons.Kettle
+import compose.icons.materialdesignicons.KettleAlert
+import compose.icons.materialdesignicons.KettleAlertOutline
+import compose.icons.materialdesignicons.KettleOff
+import compose.icons.materialdesignicons.KettleOffOutline
+import compose.icons.materialdesignicons.KettleOutline
+import compose.icons.materialdesignicons.KettlePourOver
+import compose.icons.materialdesignicons.KettleSteam
+import compose.icons.materialdesignicons.KettleSteamOutline
+import compose.icons.materialdesignicons.Kettlebell
+import compose.icons.materialdesignicons.Key
+import compose.icons.materialdesignicons.KeyAlert
+import compose.icons.materialdesignicons.KeyAlertOutline
+import compose.icons.materialdesignicons.KeyArrowRight
+import compose.icons.materialdesignicons.KeyChain
+import compose.icons.materialdesignicons.KeyChainVariant
+import compose.icons.materialdesignicons.KeyChange
+import compose.icons.materialdesignicons.KeyLink
+import compose.icons.materialdesignicons.KeyMinus
+import compose.icons.materialdesignicons.KeyOutline
+import compose.icons.materialdesignicons.KeyPlus
+import compose.icons.materialdesignicons.KeyRemove
+import compose.icons.materialdesignicons.KeyStar
+import compose.icons.materialdesignicons.KeyVariant
+import compose.icons.materialdesignicons.KeyWireless
+import compose.icons.materialdesignicons.Keyboard
+import compose.icons.materialdesignicons.KeyboardBackspace
+import compose.icons.materialdesignicons.KeyboardCaps
+import compose.icons.materialdesignicons.KeyboardClose
+import compose.icons.materialdesignicons.KeyboardCloseOutline
+import compose.icons.materialdesignicons.KeyboardEsc
+import compose.icons.materialdesignicons.KeyboardF1
+import compose.icons.materialdesignicons.KeyboardF10
+import compose.icons.materialdesignicons.KeyboardF11
+import compose.icons.materialdesignicons.KeyboardF12
+import compose.icons.materialdesignicons.KeyboardF2
+import compose.icons.materialdesignicons.KeyboardF3
+import compose.icons.materialdesignicons.KeyboardF4
+import compose.icons.materialdesignicons.KeyboardF5
+import compose.icons.materialdesignicons.KeyboardF6
+import compose.icons.materialdesignicons.KeyboardF7
+import compose.icons.materialdesignicons.KeyboardF8
+import compose.icons.materialdesignicons.KeyboardF9
+import compose.icons.materialdesignicons.KeyboardOff
+import compose.icons.materialdesignicons.KeyboardOffOutline
+import compose.icons.materialdesignicons.KeyboardOutline
+import compose.icons.materialdesignicons.KeyboardReturn
+import compose.icons.materialdesignicons.KeyboardSettings
+import compose.icons.materialdesignicons.KeyboardSettingsOutline
+import compose.icons.materialdesignicons.KeyboardSpace
+import compose.icons.materialdesignicons.KeyboardTab
+import compose.icons.materialdesignicons.KeyboardTabReverse
+import compose.icons.materialdesignicons.KeyboardVariant
+import compose.icons.materialdesignicons.Khanda
+import compose.icons.materialdesignicons.Kickstarter
+import compose.icons.materialdesignicons.Kite
+import compose.icons.materialdesignicons.KiteOutline
+import compose.icons.materialdesignicons.Kitesurfing
+import compose.icons.materialdesignicons.Klingon
+import compose.icons.materialdesignicons.Knife
+import compose.icons.materialdesignicons.KnifeMilitary
+import compose.icons.materialdesignicons.Knob
+import compose.icons.materialdesignicons.Koala
+import compose.icons.materialdesignicons.Kodi
+import compose.icons.materialdesignicons.Kubernetes
+import compose.icons.materialdesignicons.Label
+import compose.icons.materialdesignicons.LabelMultiple
+import compose.icons.materialdesignicons.LabelMultipleOutline
+import compose.icons.materialdesignicons.LabelOff
+import compose.icons.materialdesignicons.LabelOffOutline
+import compose.icons.materialdesignicons.LabelOutline
+import compose.icons.materialdesignicons.LabelPercent
+import compose.icons.materialdesignicons.LabelPercentOutline
+import compose.icons.materialdesignicons.LabelVariant
+import compose.icons.materialdesignicons.LabelVariantOutline
+import compose.icons.materialdesignicons.Ladder
+import compose.icons.materialdesignicons.Ladybug
+import compose.icons.materialdesignicons.Lambda
+import compose.icons.materialdesignicons.Lamp
+import compose.icons.materialdesignicons.LampOutline
+import compose.icons.materialdesignicons.Lamps
+import compose.icons.materialdesignicons.LampsOutline
+import compose.icons.materialdesignicons.Lan
+import compose.icons.materialdesignicons.LanCheck
+import compose.icons.materialdesignicons.LanConnect
+import compose.icons.materialdesignicons.LanDisconnect
+import compose.icons.materialdesignicons.LanPending
+import compose.icons.materialdesignicons.LandFields
+import compose.icons.materialdesignicons.LandPlots
+import compose.icons.materialdesignicons.LandPlotsCircle
+import compose.icons.materialdesignicons.LandPlotsCircleVariant
+import compose.icons.materialdesignicons.LandRowsHorizontal
+import compose.icons.materialdesignicons.LandRowsVertical
+import compose.icons.materialdesignicons.Landslide
+import compose.icons.materialdesignicons.LandslideOutline
+import compose.icons.materialdesignicons.LanguageC
+import compose.icons.materialdesignicons.LanguageCpp
+import compose.icons.materialdesignicons.LanguageCsharp
+import compose.icons.materialdesignicons.LanguageCss3
+import compose.icons.materialdesignicons.LanguageFortran
+import compose.icons.materialdesignicons.LanguageGo
+import compose.icons.materialdesignicons.LanguageHaskell
+import compose.icons.materialdesignicons.LanguageHtml5
+import compose.icons.materialdesignicons.LanguageJava
+import compose.icons.materialdesignicons.LanguageJavascript
+import compose.icons.materialdesignicons.LanguageKotlin
+import compose.icons.materialdesignicons.LanguageLua
+import compose.icons.materialdesignicons.LanguageMarkdown
+import compose.icons.materialdesignicons.LanguageMarkdownOutline
+import compose.icons.materialdesignicons.LanguagePhp
+import compose.icons.materialdesignicons.LanguagePython
+import compose.icons.materialdesignicons.LanguageR
+import compose.icons.materialdesignicons.LanguageRuby
+import compose.icons.materialdesignicons.LanguageRubyOnRails
+import compose.icons.materialdesignicons.LanguageRust
+import compose.icons.materialdesignicons.LanguageSwift
+import compose.icons.materialdesignicons.LanguageTypescript
+import compose.icons.materialdesignicons.LanguageXaml
+import compose.icons.materialdesignicons.Laptop
+import compose.icons.materialdesignicons.LaptopAccount
+import compose.icons.materialdesignicons.LaptopOff
+import compose.icons.materialdesignicons.Laravel
+import compose.icons.materialdesignicons.LaserPointer
+import compose.icons.materialdesignicons.Lasso
+import compose.icons.materialdesignicons.Lastpass
+import compose.icons.materialdesignicons.Latitude
+import compose.icons.materialdesignicons.Launch
+import compose.icons.materialdesignicons.LavaLamp
+import compose.icons.materialdesignicons.Layers
+import compose.icons.materialdesignicons.LayersEdit
+import compose.icons.materialdesignicons.LayersMinus
+import compose.icons.materialdesignicons.LayersOff
+import compose.icons.materialdesignicons.LayersOffOutline
+import compose.icons.materialdesignicons.LayersOutline
+import compose.icons.materialdesignicons.LayersPlus
+import compose.icons.materialdesignicons.LayersRemove
+import compose.icons.materialdesignicons.LayersSearch
+import compose.icons.materialdesignicons.LayersSearchOutline
+import compose.icons.materialdesignicons.LayersTriple
+import compose.icons.materialdesignicons.LayersTripleOutline
+import compose.icons.materialdesignicons.LeadPencil
+import compose.icons.materialdesignicons.Leaf
+import compose.icons.materialdesignicons.LeafCircle
+import compose.icons.materialdesignicons.LeafCircleOutline
+import compose.icons.materialdesignicons.LeafMaple
+import compose.icons.materialdesignicons.LeafMapleOff
+import compose.icons.materialdesignicons.LeafOff
+import compose.icons.materialdesignicons.Leak
+import compose.icons.materialdesignicons.LeakOff
+import compose.icons.materialdesignicons.Lectern
+import compose.icons.materialdesignicons.LedOff
+import compose.icons.materialdesignicons.LedOn
+import compose.icons.materialdesignicons.LedOutline
+import compose.icons.materialdesignicons.LedStrip
+import compose.icons.materialdesignicons.LedStripVariant
+import compose.icons.materialdesignicons.LedStripVariantOff
+import compose.icons.materialdesignicons.LedVariantOff
+import compose.icons.materialdesignicons.LedVariantOn
+import compose.icons.materialdesignicons.LedVariantOutline
+import compose.icons.materialdesignicons.Leek
+import compose.icons.materialdesignicons.LessThan
+import compose.icons.materialdesignicons.LessThanOrEqual
+import compose.icons.materialdesignicons.Library
+import compose.icons.materialdesignicons.LibraryOutline
+import compose.icons.materialdesignicons.LibraryShelves
+import compose.icons.materialdesignicons.License
+import compose.icons.materialdesignicons.Lifebuoy
+import compose.icons.materialdesignicons.LightFloodDown
+import compose.icons.materialdesignicons.LightFloodUp
+import compose.icons.materialdesignicons.LightRecessed
+import compose.icons.materialdesignicons.LightSwitch
+import compose.icons.materialdesignicons.LightSwitchOff
+import compose.icons.materialdesignicons.Lightbulb
+import compose.icons.materialdesignicons.LightbulbAlert
+import compose.icons.materialdesignicons.LightbulbAlertOutline
+import compose.icons.materialdesignicons.LightbulbAuto
+import compose.icons.materialdesignicons.LightbulbAutoOutline
+import compose.icons.materialdesignicons.LightbulbCfl
+import compose.icons.materialdesignicons.LightbulbCflOff
+import compose.icons.materialdesignicons.LightbulbCflSpiral
+import compose.icons.materialdesignicons.LightbulbCflSpiralOff
+import compose.icons.materialdesignicons.LightbulbFluorescentTube
+import compose.icons.materialdesignicons.LightbulbFluorescentTubeOutline
+import compose.icons.materialdesignicons.LightbulbGroup
+import compose.icons.materialdesignicons.LightbulbGroupOff
+import compose.icons.materialdesignicons.LightbulbGroupOffOutline
+import compose.icons.materialdesignicons.LightbulbGroupOutline
+import compose.icons.materialdesignicons.LightbulbMultiple
+import compose.icons.materialdesignicons.LightbulbMultipleOff
+import compose.icons.materialdesignicons.LightbulbMultipleOffOutline
+import compose.icons.materialdesignicons.LightbulbMultipleOutline
+import compose.icons.materialdesignicons.LightbulbNight
+import compose.icons.materialdesignicons.LightbulbNightOutline
+import compose.icons.materialdesignicons.LightbulbOff
+import compose.icons.materialdesignicons.LightbulbOffOutline
+import compose.icons.materialdesignicons.LightbulbOn
+import compose.icons.materialdesignicons.LightbulbOn10
+import compose.icons.materialdesignicons.LightbulbOn20
+import compose.icons.materialdesignicons.LightbulbOn30
+import compose.icons.materialdesignicons.LightbulbOn40
+import compose.icons.materialdesignicons.LightbulbOn50
+import compose.icons.materialdesignicons.LightbulbOn60
+import compose.icons.materialdesignicons.LightbulbOn70
+import compose.icons.materialdesignicons.LightbulbOn80
+import compose.icons.materialdesignicons.LightbulbOn90
+import compose.icons.materialdesignicons.LightbulbOnOutline
+import compose.icons.materialdesignicons.LightbulbOutline
+import compose.icons.materialdesignicons.LightbulbQuestion
+import compose.icons.materialdesignicons.LightbulbQuestionOutline
+import compose.icons.materialdesignicons.LightbulbSpot
+import compose.icons.materialdesignicons.LightbulbSpotOff
+import compose.icons.materialdesignicons.LightbulbVariant
+import compose.icons.materialdesignicons.LightbulbVariantOutline
+import compose.icons.materialdesignicons.Lighthouse
+import compose.icons.materialdesignicons.LighthouseOn
+import compose.icons.materialdesignicons.LightningBolt
+import compose.icons.materialdesignicons.LightningBoltCircle
+import compose.icons.materialdesignicons.LightningBoltOutline
+import compose.icons.materialdesignicons.LineScan
+import compose.icons.materialdesignicons.Lingerie
+import compose.icons.materialdesignicons.Link
+import compose.icons.materialdesignicons.LinkBox
+import compose.icons.materialdesignicons.LinkBoxOutline
+import compose.icons.materialdesignicons.LinkBoxVariant
+import compose.icons.materialdesignicons.LinkBoxVariantOutline
+import compose.icons.materialdesignicons.LinkLock
+import compose.icons.materialdesignicons.LinkOff
+import compose.icons.materialdesignicons.LinkPlus
+import compose.icons.materialdesignicons.LinkVariant
+import compose.icons.materialdesignicons.LinkVariantMinus
+import compose.icons.materialdesignicons.LinkVariantOff
+import compose.icons.materialdesignicons.LinkVariantPlus
+import compose.icons.materialdesignicons.LinkVariantRemove
+import compose.icons.materialdesignicons.Linkedin
+import compose.icons.materialdesignicons.Linux
+import compose.icons.materialdesignicons.LinuxMint
+import compose.icons.materialdesignicons.Lipstick
+import compose.icons.materialdesignicons.LiquidSpot
+import compose.icons.materialdesignicons.Liquor
+import compose.icons.materialdesignicons.ListBox
+import compose.icons.materialdesignicons.ListBoxOutline
+import compose.icons.materialdesignicons.ListStatus
+import compose.icons.materialdesignicons.Litecoin
+import compose.icons.materialdesignicons.Loading
+import compose.icons.materialdesignicons.LocationEnter
+import compose.icons.materialdesignicons.LocationExit
+import compose.icons.materialdesignicons.Lock
+import compose.icons.materialdesignicons.LockAlert
+import compose.icons.materialdesignicons.LockAlertOutline
+import compose.icons.materialdesignicons.LockCheck
+import compose.icons.materialdesignicons.LockCheckOutline
+import compose.icons.materialdesignicons.LockClock
+import compose.icons.materialdesignicons.LockMinus
+import compose.icons.materialdesignicons.LockMinusOutline
+import compose.icons.materialdesignicons.LockOff
+import compose.icons.materialdesignicons.LockOffOutline
+import compose.icons.materialdesignicons.LockOpen
+import compose.icons.materialdesignicons.LockOpenAlert
+import compose.icons.materialdesignicons.LockOpenAlertOutline
+import compose.icons.materialdesignicons.LockOpenCheck
+import compose.icons.materialdesignicons.LockOpenCheckOutline
+import compose.icons.materialdesignicons.LockOpenMinus
+import compose.icons.materialdesignicons.LockOpenMinusOutline
+import compose.icons.materialdesignicons.LockOpenOutline
+import compose.icons.materialdesignicons.LockOpenPlus
+import compose.icons.materialdesignicons.LockOpenPlusOutline
+import compose.icons.materialdesignicons.LockOpenRemove
+import compose.icons.materialdesignicons.LockOpenRemoveOutline
+import compose.icons.materialdesignicons.LockOpenVariant
+import compose.icons.materialdesignicons.LockOpenVariantOutline
+import compose.icons.materialdesignicons.LockOutline
+import compose.icons.materialdesignicons.LockPattern
+import compose.icons.materialdesignicons.LockPercent
+import compose.icons.materialdesignicons.LockPercentOpen
+import compose.icons.materialdesignicons.LockPercentOpenOutline
+import compose.icons.materialdesignicons.LockPercentOpenVariant
+import compose.icons.materialdesignicons.LockPercentOpenVariantOutline
+import compose.icons.materialdesignicons.LockPercentOutline
+import compose.icons.materialdesignicons.LockPlus
+import compose.icons.materialdesignicons.LockPlusOutline
+import compose.icons.materialdesignicons.LockQuestion
+import compose.icons.materialdesignicons.LockRemove
+import compose.icons.materialdesignicons.LockRemoveOutline
+import compose.icons.materialdesignicons.LockReset
+import compose.icons.materialdesignicons.LockSmart
+import compose.icons.materialdesignicons.Locker
+import compose.icons.materialdesignicons.LockerMultiple
+import compose.icons.materialdesignicons.Login
+import compose.icons.materialdesignicons.LoginVariant
+import compose.icons.materialdesignicons.Logout
+import compose.icons.materialdesignicons.LogoutVariant
+import compose.icons.materialdesignicons.Longitude
+import compose.icons.materialdesignicons.Looks
+import compose.icons.materialdesignicons.Lotion
+import compose.icons.materialdesignicons.LotionOutline
+import compose.icons.materialdesignicons.LotionPlus
+import compose.icons.materialdesignicons.LotionPlusOutline
+import compose.icons.materialdesignicons.Loupe
+import compose.icons.materialdesignicons.Lumx
+import compose.icons.materialdesignicons.Lungs
+import compose.icons.materialdesignicons.Mace
+import compose.icons.materialdesignicons.MagazinePistol
+import compose.icons.materialdesignicons.MagazineRifle
+import compose.icons.materialdesignicons.MagicStaff
+import compose.icons.materialdesignicons.Magnet
+import compose.icons.materialdesignicons.MagnetOn
+import compose.icons.materialdesignicons.Magnify
+import compose.icons.materialdesignicons.MagnifyClose
+import compose.icons.materialdesignicons.MagnifyExpand
+import compose.icons.materialdesignicons.MagnifyMinus
+import compose.icons.materialdesignicons.MagnifyMinusCursor
+import compose.icons.materialdesignicons.MagnifyMinusOutline
+import compose.icons.materialdesignicons.MagnifyPlus
+import compose.icons.materialdesignicons.MagnifyPlusCursor
+import compose.icons.materialdesignicons.MagnifyPlusOutline
+import compose.icons.materialdesignicons.MagnifyRemoveCursor
+import compose.icons.materialdesignicons.MagnifyRemoveOutline
+import compose.icons.materialdesignicons.MagnifyScan
+import compose.icons.materialdesignicons.Mail
+import compose.icons.materialdesignicons.Mailbox
+import compose.icons.materialdesignicons.MailboxOpen
+import compose.icons.materialdesignicons.MailboxOpenOutline
+import compose.icons.materialdesignicons.MailboxOpenUp
+import compose.icons.materialdesignicons.MailboxOpenUpOutline
+import compose.icons.materialdesignicons.MailboxOutline
+import compose.icons.materialdesignicons.MailboxUp
+import compose.icons.materialdesignicons.MailboxUpOutline
+import compose.icons.materialdesignicons.Manjaro
+import compose.icons.materialdesignicons.Map
+import compose.icons.materialdesignicons.MapCheck
+import compose.icons.materialdesignicons.MapCheckOutline
+import compose.icons.materialdesignicons.MapClock
+import compose.icons.materialdesignicons.MapClockOutline
+import compose.icons.materialdesignicons.MapLegend
+import compose.icons.materialdesignicons.MapMarker
+import compose.icons.materialdesignicons.MapMarkerAccount
+import compose.icons.materialdesignicons.MapMarkerAccountOutline
+import compose.icons.materialdesignicons.MapMarkerAlert
+import compose.icons.materialdesignicons.MapMarkerAlertOutline
+import compose.icons.materialdesignicons.MapMarkerCheck
+import compose.icons.materialdesignicons.MapMarkerCheckOutline
+import compose.icons.materialdesignicons.MapMarkerCircle
+import compose.icons.materialdesignicons.MapMarkerDistance
+import compose.icons.materialdesignicons.MapMarkerDown
+import compose.icons.materialdesignicons.MapMarkerLeft
+import compose.icons.materialdesignicons.MapMarkerLeftOutline
+import compose.icons.materialdesignicons.MapMarkerMinus
+import compose.icons.materialdesignicons.MapMarkerMinusOutline
+import compose.icons.materialdesignicons.MapMarkerMultiple
+import compose.icons.materialdesignicons.MapMarkerMultipleOutline
+import compose.icons.materialdesignicons.MapMarkerOff
+import compose.icons.materialdesignicons.MapMarkerOffOutline
+import compose.icons.materialdesignicons.MapMarkerOutline
+import compose.icons.materialdesignicons.MapMarkerPath
+import compose.icons.materialdesignicons.MapMarkerPlus
+import compose.icons.materialdesignicons.MapMarkerPlusOutline
+import compose.icons.materialdesignicons.MapMarkerQuestion
+import compose.icons.materialdesignicons.MapMarkerQuestionOutline
+import compose.icons.materialdesignicons.MapMarkerRadius
+import compose.icons.materialdesignicons.MapMarkerRadiusOutline
+import compose.icons.materialdesignicons.MapMarkerRemove
+import compose.icons.materialdesignicons.MapMarkerRemoveOutline
+import compose.icons.materialdesignicons.MapMarkerRemoveVariant
+import compose.icons.materialdesignicons.MapMarkerRight
+import compose.icons.materialdesignicons.MapMarkerRightOutline
+import compose.icons.materialdesignicons.MapMarkerStar
+import compose.icons.materialdesignicons.MapMarkerStarOutline
+import compose.icons.materialdesignicons.MapMarkerUp
+import compose.icons.materialdesignicons.MapMinus
+import compose.icons.materialdesignicons.MapOutline
+import compose.icons.materialdesignicons.MapPlus
+import compose.icons.materialdesignicons.MapSearch
+import compose.icons.materialdesignicons.MapSearchOutline
+import compose.icons.materialdesignicons.Mapbox
+import compose.icons.materialdesignicons.Margin
+import compose.icons.materialdesignicons.Marker
+import compose.icons.materialdesignicons.MarkerCancel
+import compose.icons.materialdesignicons.MarkerCheck
+import compose.icons.materialdesignicons.Mastodon
+import compose.icons.materialdesignicons.MaterialDesign
+import compose.icons.materialdesignicons.MaterialUi
+import compose.icons.materialdesignicons.MathCompass
+import compose.icons.materialdesignicons.MathCos
+import compose.icons.materialdesignicons.MathIntegral
+import compose.icons.materialdesignicons.MathIntegralBox
+import compose.icons.materialdesignicons.MathLog
+import compose.icons.materialdesignicons.MathNorm
+import compose.icons.materialdesignicons.MathNormBox
+import compose.icons.materialdesignicons.MathSin
+import compose.icons.materialdesignicons.MathTan
+import compose.icons.materialdesignicons.Matrix
+import compose.icons.materialdesignicons.Medal
+import compose.icons.materialdesignicons.MedalOutline
+import compose.icons.materialdesignicons.MedicalBag
+import compose.icons.materialdesignicons.MedicalCottonSwab
+import compose.icons.materialdesignicons.Medication
+import compose.icons.materialdesignicons.MedicationOutline
+import compose.icons.materialdesignicons.Meditation
+import compose.icons.materialdesignicons.Memory
+import compose.icons.materialdesignicons.Menorah
+import compose.icons.materialdesignicons.MenorahFire
+import compose.icons.materialdesignicons.Menu
+import compose.icons.materialdesignicons.MenuDown
+import compose.icons.materialdesignicons.MenuDownOutline
+import compose.icons.materialdesignicons.MenuLeft
+import compose.icons.materialdesignicons.MenuLeftOutline
+import compose.icons.materialdesignicons.MenuOpen
+import compose.icons.materialdesignicons.MenuRight
+import compose.icons.materialdesignicons.MenuRightOutline
+import compose.icons.materialdesignicons.MenuSwap
+import compose.icons.materialdesignicons.MenuSwapOutline
+import compose.icons.materialdesignicons.MenuUp
+import compose.icons.materialdesignicons.MenuUpOutline
+import compose.icons.materialdesignicons.Merge
+import compose.icons.materialdesignicons.Message
+import compose.icons.materialdesignicons.MessageAlert
+import compose.icons.materialdesignicons.MessageAlertOutline
+import compose.icons.materialdesignicons.MessageArrowLeft
+import compose.icons.materialdesignicons.MessageArrowLeftOutline
+import compose.icons.materialdesignicons.MessageArrowRight
+import compose.icons.materialdesignicons.MessageArrowRightOutline
+import compose.icons.materialdesignicons.MessageBadge
+import compose.icons.materialdesignicons.MessageBadgeOutline
+import compose.icons.materialdesignicons.MessageBookmark
+import compose.icons.materialdesignicons.MessageBookmarkOutline
+import compose.icons.materialdesignicons.MessageBulleted
+import compose.icons.materialdesignicons.MessageBulletedOff
+import compose.icons.materialdesignicons.MessageCheck
+import compose.icons.materialdesignicons.MessageCheckOutline
+import compose.icons.materialdesignicons.MessageCog
+import compose.icons.materialdesignicons.MessageCogOutline
+import compose.icons.materialdesignicons.MessageDraw
+import compose.icons.materialdesignicons.MessageFast
+import compose.icons.materialdesignicons.MessageFastOutline
+import compose.icons.materialdesignicons.MessageFlash
+import compose.icons.materialdesignicons.MessageFlashOutline
+import compose.icons.materialdesignicons.MessageImage
+import compose.icons.materialdesignicons.MessageImageOutline
+import compose.icons.materialdesignicons.MessageLock
+import compose.icons.materialdesignicons.MessageLockOutline
+import compose.icons.materialdesignicons.MessageMinus
+import compose.icons.materialdesignicons.MessageMinusOutline
+import compose.icons.materialdesignicons.MessageOff
+import compose.icons.materialdesignicons.MessageOffOutline
+import compose.icons.materialdesignicons.MessageOutline
+import compose.icons.materialdesignicons.MessagePlus
+import compose.icons.materialdesignicons.MessagePlusOutline
+import compose.icons.materialdesignicons.MessageProcessing
+import compose.icons.materialdesignicons.MessageProcessingOutline
+import compose.icons.materialdesignicons.MessageQuestion
+import compose.icons.materialdesignicons.MessageQuestionOutline
+import compose.icons.materialdesignicons.MessageReply
+import compose.icons.materialdesignicons.MessageReplyOutline
+import compose.icons.materialdesignicons.MessageReplyText
+import compose.icons.materialdesignicons.MessageReplyTextOutline
+import compose.icons.materialdesignicons.MessageSettings
+import compose.icons.materialdesignicons.MessageSettingsOutline
+import compose.icons.materialdesignicons.MessageStar
+import compose.icons.materialdesignicons.MessageStarOutline
+import compose.icons.materialdesignicons.MessageText
+import compose.icons.materialdesignicons.MessageTextClock
+import compose.icons.materialdesignicons.MessageTextClockOutline
+import compose.icons.materialdesignicons.MessageTextFast
+import compose.icons.materialdesignicons.MessageTextFastOutline
+import compose.icons.materialdesignicons.MessageTextLock
+import compose.icons.materialdesignicons.MessageTextLockOutline
+import compose.icons.materialdesignicons.MessageTextOutline
+import compose.icons.materialdesignicons.MessageVideo
+import compose.icons.materialdesignicons.Meteor
+import compose.icons.materialdesignicons.MeterElectric
+import compose.icons.materialdesignicons.MeterElectricOutline
+import compose.icons.materialdesignicons.MeterGas
+import compose.icons.materialdesignicons.MeterGasOutline
+import compose.icons.materialdesignicons.Metronome
+import compose.icons.materialdesignicons.MetronomeTick
+import compose.icons.materialdesignicons.MicroSd
+import compose.icons.materialdesignicons.Microphone
+import compose.icons.materialdesignicons.MicrophoneMessage
+import compose.icons.materialdesignicons.MicrophoneMessageOff
+import compose.icons.materialdesignicons.MicrophoneMinus
+import compose.icons.materialdesignicons.MicrophoneOff
+import compose.icons.materialdesignicons.MicrophoneOutline
+import compose.icons.materialdesignicons.MicrophonePlus
+import compose.icons.materialdesignicons.MicrophoneQuestion
+import compose.icons.materialdesignicons.MicrophoneQuestionOutline
+import compose.icons.materialdesignicons.MicrophoneSettings
+import compose.icons.materialdesignicons.MicrophoneVariant
+import compose.icons.materialdesignicons.MicrophoneVariantOff
+import compose.icons.materialdesignicons.Microscope
+import compose.icons.materialdesignicons.Microsoft
+import compose.icons.materialdesignicons.MicrosoftAccess
+import compose.icons.materialdesignicons.MicrosoftAzure
+import compose.icons.materialdesignicons.MicrosoftAzureDevops
+import compose.icons.materialdesignicons.MicrosoftBing
+import compose.icons.materialdesignicons.MicrosoftDynamics365
+import compose.icons.materialdesignicons.MicrosoftEdge
+import compose.icons.materialdesignicons.MicrosoftExcel
+import compose.icons.materialdesignicons.MicrosoftInternetExplorer
+import compose.icons.materialdesignicons.MicrosoftOffice
+import compose.icons.materialdesignicons.MicrosoftOnedrive
+import compose.icons.materialdesignicons.MicrosoftOnenote
+import compose.icons.materialdesignicons.MicrosoftOutlook
+import compose.icons.materialdesignicons.MicrosoftPowerpoint
+import compose.icons.materialdesignicons.MicrosoftSharepoint
+import compose.icons.materialdesignicons.MicrosoftTeams
+import compose.icons.materialdesignicons.MicrosoftVisualStudio
+import compose.icons.materialdesignicons.MicrosoftVisualStudioCode
+import compose.icons.materialdesignicons.MicrosoftWindows
+import compose.icons.materialdesignicons.MicrosoftWindowsClassic
+import compose.icons.materialdesignicons.MicrosoftWord
+import compose.icons.materialdesignicons.MicrosoftXbox
+import compose.icons.materialdesignicons.MicrosoftXboxController
+import compose.icons.materialdesignicons.MicrosoftXboxControllerBatteryAlert
+import compose.icons.materialdesignicons.MicrosoftXboxControllerBatteryCharging
+import compose.icons.materialdesignicons.MicrosoftXboxControllerBatteryEmpty
+import compose.icons.materialdesignicons.MicrosoftXboxControllerBatteryFull
+import compose.icons.materialdesignicons.MicrosoftXboxControllerBatteryLow
+import compose.icons.materialdesignicons.MicrosoftXboxControllerBatteryMedium
+import compose.icons.materialdesignicons.MicrosoftXboxControllerBatteryUnknown
+import compose.icons.materialdesignicons.MicrosoftXboxControllerMenu
+import compose.icons.materialdesignicons.MicrosoftXboxControllerOff
+import compose.icons.materialdesignicons.MicrosoftXboxControllerView
+import compose.icons.materialdesignicons.Microwave
+import compose.icons.materialdesignicons.MicrowaveOff
+import compose.icons.materialdesignicons.Middleware
+import compose.icons.materialdesignicons.MiddlewareOutline
+import compose.icons.materialdesignicons.Midi
+import compose.icons.materialdesignicons.MidiPort
+import compose.icons.materialdesignicons.Mine
+import compose.icons.materialdesignicons.Minecraft
+import compose.icons.materialdesignicons.MiniSd
+import compose.icons.materialdesignicons.Minidisc
+import compose.icons.materialdesignicons.Minus
+import compose.icons.materialdesignicons.MinusBox
+import compose.icons.materialdesignicons.MinusBoxMultiple
+import compose.icons.materialdesignicons.MinusBoxMultipleOutline
+import compose.icons.materialdesignicons.MinusBoxOutline
+import compose.icons.materialdesignicons.MinusCircle
+import compose.icons.materialdesignicons.MinusCircleMultiple
+import compose.icons.materialdesignicons.MinusCircleMultipleOutline
+import compose.icons.materialdesignicons.MinusCircleOff
+import compose.icons.materialdesignicons.MinusCircleOffOutline
+import compose.icons.materialdesignicons.MinusCircleOutline
+import compose.icons.materialdesignicons.MinusNetwork
+import compose.icons.materialdesignicons.MinusNetworkOutline
+import compose.icons.materialdesignicons.MinusThick
+import compose.icons.materialdesignicons.Mirror
+import compose.icons.materialdesignicons.MirrorRectangle
+import compose.icons.materialdesignicons.MirrorVariant
+import compose.icons.materialdesignicons.MixedMartialArts
+import compose.icons.materialdesignicons.MixedReality
+import compose.icons.materialdesignicons.Molecule
+import compose.icons.materialdesignicons.MoleculeCo
+import compose.icons.materialdesignicons.MoleculeCo2
+import compose.icons.materialdesignicons.Monitor
+import compose.icons.materialdesignicons.MonitorAccount
+import compose.icons.materialdesignicons.MonitorArrowDown
+import compose.icons.materialdesignicons.MonitorArrowDownVariant
+import compose.icons.materialdesignicons.MonitorCellphone
+import compose.icons.materialdesignicons.MonitorCellphoneStar
+import compose.icons.materialdesignicons.MonitorDashboard
+import compose.icons.materialdesignicons.MonitorEdit
+import compose.icons.materialdesignicons.MonitorEye
+import compose.icons.materialdesignicons.MonitorLock
+import compose.icons.materialdesignicons.MonitorMultiple
+import compose.icons.materialdesignicons.MonitorOff
+import compose.icons.materialdesignicons.MonitorScreenshot
+import compose.icons.materialdesignicons.MonitorShare
+import compose.icons.materialdesignicons.MonitorShimmer
+import compose.icons.materialdesignicons.MonitorSmall
+import compose.icons.materialdesignicons.MonitorSpeaker
+import compose.icons.materialdesignicons.MonitorSpeakerOff
+import compose.icons.materialdesignicons.MonitorStar
+import compose.icons.materialdesignicons.MoonFirstQuarter
+import compose.icons.materialdesignicons.MoonFull
+import compose.icons.materialdesignicons.MoonLastQuarter
+import compose.icons.materialdesignicons.MoonNew
+import compose.icons.materialdesignicons.MoonWaningCrescent
+import compose.icons.materialdesignicons.MoonWaningGibbous
+import compose.icons.materialdesignicons.MoonWaxingCrescent
+import compose.icons.materialdesignicons.MoonWaxingGibbous
+import compose.icons.materialdesignicons.Moped
+import compose.icons.materialdesignicons.MopedElectric
+import compose.icons.materialdesignicons.MopedElectricOutline
+import compose.icons.materialdesignicons.MopedOutline
+import compose.icons.materialdesignicons.More
+import compose.icons.materialdesignicons.MortarPestle
+import compose.icons.materialdesignicons.MortarPestlePlus
+import compose.icons.materialdesignicons.Mosque
+import compose.icons.materialdesignicons.MosqueOutline
+import compose.icons.materialdesignicons.MotherHeart
+import compose.icons.materialdesignicons.MotherNurse
+import compose.icons.materialdesignicons.Motion
+import compose.icons.materialdesignicons.MotionOutline
+import compose.icons.materialdesignicons.MotionPause
+import compose.icons.materialdesignicons.MotionPauseOutline
+import compose.icons.materialdesignicons.MotionPlay
+import compose.icons.materialdesignicons.MotionPlayOutline
+import compose.icons.materialdesignicons.MotionSensor
+import compose.icons.materialdesignicons.MotionSensorOff
+import compose.icons.materialdesignicons.Motorbike
+import compose.icons.materialdesignicons.MotorbikeElectric
+import compose.icons.materialdesignicons.MotorbikeOff
+import compose.icons.materialdesignicons.Mouse
+import compose.icons.materialdesignicons.MouseBluetooth
+import compose.icons.materialdesignicons.MouseMoveDown
+import compose.icons.materialdesignicons.MouseMoveUp
+import compose.icons.materialdesignicons.MouseMoveVertical
+import compose.icons.materialdesignicons.MouseOff
+import compose.icons.materialdesignicons.MouseVariant
+import compose.icons.materialdesignicons.MouseVariantOff
+import compose.icons.materialdesignicons.MoveResize
+import compose.icons.materialdesignicons.MoveResizeVariant
+import compose.icons.materialdesignicons.Movie
+import compose.icons.materialdesignicons.MovieCheck
+import compose.icons.materialdesignicons.MovieCheckOutline
+import compose.icons.materialdesignicons.MovieCog
+import compose.icons.materialdesignicons.MovieCogOutline
+import compose.icons.materialdesignicons.MovieEdit
+import compose.icons.materialdesignicons.MovieEditOutline
+import compose.icons.materialdesignicons.MovieFilter
+import compose.icons.materialdesignicons.MovieFilterOutline
+import compose.icons.materialdesignicons.MovieMinus
+import compose.icons.materialdesignicons.MovieMinusOutline
+import compose.icons.materialdesignicons.MovieOff
+import compose.icons.materialdesignicons.MovieOffOutline
+import compose.icons.materialdesignicons.MovieOpen
+import compose.icons.materialdesignicons.MovieOpenCheck
+import compose.icons.materialdesignicons.MovieOpenCheckOutline
+import compose.icons.materialdesignicons.MovieOpenCog
+import compose.icons.materialdesignicons.MovieOpenCogOutline
+import compose.icons.materialdesignicons.MovieOpenEdit
+import compose.icons.materialdesignicons.MovieOpenEditOutline
+import compose.icons.materialdesignicons.MovieOpenMinus
+import compose.icons.materialdesignicons.MovieOpenMinusOutline
+import compose.icons.materialdesignicons.MovieOpenOff
+import compose.icons.materialdesignicons.MovieOpenOffOutline
+import compose.icons.materialdesignicons.MovieOpenOutline
+import compose.icons.materialdesignicons.MovieOpenPlay
+import compose.icons.materialdesignicons.MovieOpenPlayOutline
+import compose.icons.materialdesignicons.MovieOpenPlus
+import compose.icons.materialdesignicons.MovieOpenPlusOutline
+import compose.icons.materialdesignicons.MovieOpenRemove
+import compose.icons.materialdesignicons.MovieOpenRemoveOutline
+import compose.icons.materialdesignicons.MovieOpenSettings
+import compose.icons.materialdesignicons.MovieOpenSettingsOutline
+import compose.icons.materialdesignicons.MovieOpenStar
+import compose.icons.materialdesignicons.MovieOpenStarOutline
+import compose.icons.materialdesignicons.MovieOutline
+import compose.icons.materialdesignicons.MoviePlay
+import compose.icons.materialdesignicons.MoviePlayOutline
+import compose.icons.materialdesignicons.MoviePlus
+import compose.icons.materialdesignicons.MoviePlusOutline
+import compose.icons.materialdesignicons.MovieRemove
+import compose.icons.materialdesignicons.MovieRemoveOutline
+import compose.icons.materialdesignicons.MovieRoll
+import compose.icons.materialdesignicons.MovieSearch
+import compose.icons.materialdesignicons.MovieSearchOutline
+import compose.icons.materialdesignicons.MovieSettings
+import compose.icons.materialdesignicons.MovieSettingsOutline
+import compose.icons.materialdesignicons.MovieStar
+import compose.icons.materialdesignicons.MovieStarOutline
+import compose.icons.materialdesignicons.Mower
+import compose.icons.materialdesignicons.MowerBag
+import compose.icons.materialdesignicons.MowerBagOn
+import compose.icons.materialdesignicons.MowerOn
+import compose.icons.materialdesignicons.Muffin
+import compose.icons.materialdesignicons.Multicast
+import compose.icons.materialdesignicons.Multimedia
+import compose.icons.materialdesignicons.Multiplication
+import compose.icons.materialdesignicons.MultiplicationBox
+import compose.icons.materialdesignicons.Mushroom
+import compose.icons.materialdesignicons.MushroomOff
+import compose.icons.materialdesignicons.MushroomOffOutline
+import compose.icons.materialdesignicons.MushroomOutline
+import compose.icons.materialdesignicons.Music
+import compose.icons.materialdesignicons.MusicAccidentalDoubleFlat
+import compose.icons.materialdesignicons.MusicAccidentalDoubleSharp
+import compose.icons.materialdesignicons.MusicAccidentalFlat
+import compose.icons.materialdesignicons.MusicAccidentalNatural
+import compose.icons.materialdesignicons.MusicAccidentalSharp
+import compose.icons.materialdesignicons.MusicBox
+import compose.icons.materialdesignicons.MusicBoxMultiple
+import compose.icons.materialdesignicons.MusicBoxMultipleOutline
+import compose.icons.materialdesignicons.MusicBoxOutline
+import compose.icons.materialdesignicons.MusicCircle
+import compose.icons.materialdesignicons.MusicCircleOutline
+import compose.icons.materialdesignicons.MusicClefAlto
+import compose.icons.materialdesignicons.MusicClefBass
+import compose.icons.materialdesignicons.MusicClefTreble
+import compose.icons.materialdesignicons.MusicNote
+import compose.icons.materialdesignicons.MusicNoteBluetooth
+import compose.icons.materialdesignicons.MusicNoteBluetoothOff
+import compose.icons.materialdesignicons.MusicNoteEighth
+import compose.icons.materialdesignicons.MusicNoteEighthDotted
+import compose.icons.materialdesignicons.MusicNoteHalf
+import compose.icons.materialdesignicons.MusicNoteHalfDotted
+import compose.icons.materialdesignicons.MusicNoteMinus
+import compose.icons.materialdesignicons.MusicNoteOff
+import compose.icons.materialdesignicons.MusicNoteOffOutline
+import compose.icons.materialdesignicons.MusicNoteOutline
+import compose.icons.materialdesignicons.MusicNotePlus
+import compose.icons.materialdesignicons.MusicNoteQuarter
+import compose.icons.materialdesignicons.MusicNoteQuarterDotted
+import compose.icons.materialdesignicons.MusicNoteSixteenth
+import compose.icons.materialdesignicons.MusicNoteSixteenthDotted
+import compose.icons.materialdesignicons.MusicNoteWhole
+import compose.icons.materialdesignicons.MusicNoteWholeDotted
+import compose.icons.materialdesignicons.MusicOff
+import compose.icons.materialdesignicons.MusicRestEighth
+import compose.icons.materialdesignicons.MusicRestHalf
+import compose.icons.materialdesignicons.MusicRestQuarter
+import compose.icons.materialdesignicons.MusicRestSixteenth
+import compose.icons.materialdesignicons.MusicRestWhole
+import compose.icons.materialdesignicons.Mustache
+import compose.icons.materialdesignicons.Nail
+import compose.icons.materialdesignicons.Nas
+import compose.icons.materialdesignicons.Nativescript
+import compose.icons.materialdesignicons.Nature
+import compose.icons.materialdesignicons.NaturePeople
+import compose.icons.materialdesignicons.Navigation
+import compose.icons.materialdesignicons.NavigationOutline
+import compose.icons.materialdesignicons.NavigationVariant
+import compose.icons.materialdesignicons.NavigationVariantOutline
+import compose.icons.materialdesignicons.NearMe
+import compose.icons.materialdesignicons.Necklace
+import compose.icons.materialdesignicons.Needle
+import compose.icons.materialdesignicons.NeedleOff
+import compose.icons.materialdesignicons.Netflix
+import compose.icons.materialdesignicons.Network
+import compose.icons.materialdesignicons.NetworkOff
+import compose.icons.materialdesignicons.NetworkOffOutline
+import compose.icons.materialdesignicons.NetworkOutline
+import compose.icons.materialdesignicons.NetworkPos
+import compose.icons.materialdesignicons.NetworkStrength1
+import compose.icons.materialdesignicons.NetworkStrength1Alert
+import compose.icons.materialdesignicons.NetworkStrength2
+import compose.icons.materialdesignicons.NetworkStrength2Alert
+import compose.icons.materialdesignicons.NetworkStrength3
+import compose.icons.materialdesignicons.NetworkStrength3Alert
+import compose.icons.materialdesignicons.NetworkStrength4
+import compose.icons.materialdesignicons.NetworkStrength4Alert
+import compose.icons.materialdesignicons.NetworkStrength4Cog
+import compose.icons.materialdesignicons.NetworkStrengthOff
+import compose.icons.materialdesignicons.NetworkStrengthOffOutline
+import compose.icons.materialdesignicons.NetworkStrengthOutline
+import compose.icons.materialdesignicons.NewBox
+import compose.icons.materialdesignicons.Newspaper
+import compose.icons.materialdesignicons.NewspaperCheck
+import compose.icons.materialdesignicons.NewspaperMinus
+import compose.icons.materialdesignicons.NewspaperPlus
+import compose.icons.materialdesignicons.NewspaperRemove
+import compose.icons.materialdesignicons.NewspaperVariant
+import compose.icons.materialdesignicons.NewspaperVariantMultiple
+import compose.icons.materialdesignicons.NewspaperVariantMultipleOutline
+import compose.icons.materialdesignicons.NewspaperVariantOutline
+import compose.icons.materialdesignicons.Nfc
+import compose.icons.materialdesignicons.NfcSearchVariant
+import compose.icons.materialdesignicons.NfcTap
+import compose.icons.materialdesignicons.NfcVariant
+import compose.icons.materialdesignicons.NfcVariantOff
+import compose.icons.materialdesignicons.Ninja
+import compose.icons.materialdesignicons.NintendoGameBoy
+import compose.icons.materialdesignicons.NintendoSwitch
+import compose.icons.materialdesignicons.NintendoWii
+import compose.icons.materialdesignicons.NintendoWiiu
+import compose.icons.materialdesignicons.Nix
+import compose.icons.materialdesignicons.Nodejs
+import compose.icons.materialdesignicons.Noodles
+import compose.icons.materialdesignicons.NotEqual
+import compose.icons.materialdesignicons.NotEqualVariant
+import compose.icons.materialdesignicons.Note
+import compose.icons.materialdesignicons.NoteAlert
+import compose.icons.materialdesignicons.NoteAlertOutline
+import compose.icons.materialdesignicons.NoteCheck
+import compose.icons.materialdesignicons.NoteCheckOutline
+import compose.icons.materialdesignicons.NoteEdit
+import compose.icons.materialdesignicons.NoteEditOutline
+import compose.icons.materialdesignicons.NoteMinus
+import compose.icons.materialdesignicons.NoteMinusOutline
+import compose.icons.materialdesignicons.NoteMultiple
+import compose.icons.materialdesignicons.NoteMultipleOutline
+import compose.icons.materialdesignicons.NoteOff
+import compose.icons.materialdesignicons.NoteOffOutline
+import compose.icons.materialdesignicons.NoteOutline
+import compose.icons.materialdesignicons.NotePlus
+import compose.icons.materialdesignicons.NotePlusOutline
+import compose.icons.materialdesignicons.NoteRemove
+import compose.icons.materialdesignicons.NoteRemoveOutline
+import compose.icons.materialdesignicons.NoteSearch
+import compose.icons.materialdesignicons.NoteSearchOutline
+import compose.icons.materialdesignicons.NoteText
+import compose.icons.materialdesignicons.NoteTextOutline
+import compose.icons.materialdesignicons.Notebook
+import compose.icons.materialdesignicons.NotebookCheck
+import compose.icons.materialdesignicons.NotebookCheckOutline
+import compose.icons.materialdesignicons.NotebookEdit
+import compose.icons.materialdesignicons.NotebookEditOutline
+import compose.icons.materialdesignicons.NotebookHeart
+import compose.icons.materialdesignicons.NotebookHeartOutline
+import compose.icons.materialdesignicons.NotebookMinus
+import compose.icons.materialdesignicons.NotebookMinusOutline
+import compose.icons.materialdesignicons.NotebookMultiple
+import compose.icons.materialdesignicons.NotebookOutline
+import compose.icons.materialdesignicons.NotebookPlus
+import compose.icons.materialdesignicons.NotebookPlusOutline
+import compose.icons.materialdesignicons.NotebookRemove
+import compose.icons.materialdesignicons.NotebookRemoveOutline
+import compose.icons.materialdesignicons.NotificationClearAll
+import compose.icons.materialdesignicons.Npm
+import compose.icons.materialdesignicons.Nuke
+import compose.icons.materialdesignicons.Null
+import compose.icons.materialdesignicons.Numeric
+import compose.icons.materialdesignicons.Numeric0
+import compose.icons.materialdesignicons.Numeric0Box
+import compose.icons.materialdesignicons.Numeric0BoxMultiple
+import compose.icons.materialdesignicons.Numeric0BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric0BoxOutline
+import compose.icons.materialdesignicons.Numeric0Circle
+import compose.icons.materialdesignicons.Numeric0CircleOutline
+import compose.icons.materialdesignicons.Numeric1
+import compose.icons.materialdesignicons.Numeric10
+import compose.icons.materialdesignicons.Numeric10Box
+import compose.icons.materialdesignicons.Numeric10BoxMultiple
+import compose.icons.materialdesignicons.Numeric10BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric10BoxOutline
+import compose.icons.materialdesignicons.Numeric10Circle
+import compose.icons.materialdesignicons.Numeric10CircleOutline
+import compose.icons.materialdesignicons.Numeric1Box
+import compose.icons.materialdesignicons.Numeric1BoxMultiple
+import compose.icons.materialdesignicons.Numeric1BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric1BoxOutline
+import compose.icons.materialdesignicons.Numeric1Circle
+import compose.icons.materialdesignicons.Numeric1CircleOutline
+import compose.icons.materialdesignicons.Numeric2
+import compose.icons.materialdesignicons.Numeric2Box
+import compose.icons.materialdesignicons.Numeric2BoxMultiple
+import compose.icons.materialdesignicons.Numeric2BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric2BoxOutline
+import compose.icons.materialdesignicons.Numeric2Circle
+import compose.icons.materialdesignicons.Numeric2CircleOutline
+import compose.icons.materialdesignicons.Numeric3
+import compose.icons.materialdesignicons.Numeric3Box
+import compose.icons.materialdesignicons.Numeric3BoxMultiple
+import compose.icons.materialdesignicons.Numeric3BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric3BoxOutline
+import compose.icons.materialdesignicons.Numeric3Circle
+import compose.icons.materialdesignicons.Numeric3CircleOutline
+import compose.icons.materialdesignicons.Numeric4
+import compose.icons.materialdesignicons.Numeric4Box
+import compose.icons.materialdesignicons.Numeric4BoxMultiple
+import compose.icons.materialdesignicons.Numeric4BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric4BoxOutline
+import compose.icons.materialdesignicons.Numeric4Circle
+import compose.icons.materialdesignicons.Numeric4CircleOutline
+import compose.icons.materialdesignicons.Numeric5
+import compose.icons.materialdesignicons.Numeric5Box
+import compose.icons.materialdesignicons.Numeric5BoxMultiple
+import compose.icons.materialdesignicons.Numeric5BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric5BoxOutline
+import compose.icons.materialdesignicons.Numeric5Circle
+import compose.icons.materialdesignicons.Numeric5CircleOutline
+import compose.icons.materialdesignicons.Numeric6
+import compose.icons.materialdesignicons.Numeric6Box
+import compose.icons.materialdesignicons.Numeric6BoxMultiple
+import compose.icons.materialdesignicons.Numeric6BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric6BoxOutline
+import compose.icons.materialdesignicons.Numeric6Circle
+import compose.icons.materialdesignicons.Numeric6CircleOutline
+import compose.icons.materialdesignicons.Numeric7
+import compose.icons.materialdesignicons.Numeric7Box
+import compose.icons.materialdesignicons.Numeric7BoxMultiple
+import compose.icons.materialdesignicons.Numeric7BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric7BoxOutline
+import compose.icons.materialdesignicons.Numeric7Circle
+import compose.icons.materialdesignicons.Numeric7CircleOutline
+import compose.icons.materialdesignicons.Numeric8
+import compose.icons.materialdesignicons.Numeric8Box
+import compose.icons.materialdesignicons.Numeric8BoxMultiple
+import compose.icons.materialdesignicons.Numeric8BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric8BoxOutline
+import compose.icons.materialdesignicons.Numeric8Circle
+import compose.icons.materialdesignicons.Numeric8CircleOutline
+import compose.icons.materialdesignicons.Numeric9
+import compose.icons.materialdesignicons.Numeric9Box
+import compose.icons.materialdesignicons.Numeric9BoxMultiple
+import compose.icons.materialdesignicons.Numeric9BoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric9BoxOutline
+import compose.icons.materialdesignicons.Numeric9Circle
+import compose.icons.materialdesignicons.Numeric9CircleOutline
+import compose.icons.materialdesignicons.Numeric9Plus
+import compose.icons.materialdesignicons.Numeric9PlusBox
+import compose.icons.materialdesignicons.Numeric9PlusBoxMultiple
+import compose.icons.materialdesignicons.Numeric9PlusBoxMultipleOutline
+import compose.icons.materialdesignicons.Numeric9PlusBoxOutline
+import compose.icons.materialdesignicons.Numeric9PlusCircle
+import compose.icons.materialdesignicons.Numeric9PlusCircleOutline
+import compose.icons.materialdesignicons.NumericNegative1
+import compose.icons.materialdesignicons.NumericOff
+import compose.icons.materialdesignicons.NumericPositive1
+import compose.icons.materialdesignicons.Nut
+import compose.icons.materialdesignicons.Nutrition
+import compose.icons.materialdesignicons.Nuxt
+import compose.icons.materialdesignicons.Oar
+import compose.icons.materialdesignicons.Ocarina
+import compose.icons.materialdesignicons.Oci
+import compose.icons.materialdesignicons.Ocr
+import compose.icons.materialdesignicons.Octagon
+import compose.icons.materialdesignicons.OctagonOutline
+import compose.icons.materialdesignicons.Octagram
+import compose.icons.materialdesignicons.OctagramOutline
+import compose.icons.materialdesignicons.Octahedron
+import compose.icons.materialdesignicons.OctahedronOff
+import compose.icons.materialdesignicons.Odnoklassniki
+import compose.icons.materialdesignicons.Offer
+import compose.icons.materialdesignicons.OfficeBuilding
+import compose.icons.materialdesignicons.OfficeBuildingCog
+import compose.icons.materialdesignicons.OfficeBuildingCogOutline
+import compose.icons.materialdesignicons.OfficeBuildingMarker
+import compose.icons.materialdesignicons.OfficeBuildingMarkerOutline
+import compose.icons.materialdesignicons.OfficeBuildingMinus
+import compose.icons.materialdesignicons.OfficeBuildingMinusOutline
+import compose.icons.materialdesignicons.OfficeBuildingOutline
+import compose.icons.materialdesignicons.OfficeBuildingPlus
+import compose.icons.materialdesignicons.OfficeBuildingPlusOutline
+import compose.icons.materialdesignicons.OfficeBuildingRemove
+import compose.icons.materialdesignicons.OfficeBuildingRemoveOutline
+import compose.icons.materialdesignicons.Oil
+import compose.icons.materialdesignicons.OilLamp
+import compose.icons.materialdesignicons.OilLevel
+import compose.icons.materialdesignicons.OilTemperature
+import compose.icons.materialdesignicons.Om
+import compose.icons.materialdesignicons.Omega
+import compose.icons.materialdesignicons.OneUp
+import compose.icons.materialdesignicons.Onepassword
+import compose.icons.materialdesignicons.Opacity
+import compose.icons.materialdesignicons.OpenInApp
+import compose.icons.materialdesignicons.OpenInNew
+import compose.icons.materialdesignicons.OpenSourceInitiative
+import compose.icons.materialdesignicons.Openid
+import compose.icons.materialdesignicons.Opera
+import compose.icons.materialdesignicons.Orbit
+import compose.icons.materialdesignicons.OrbitVariant
+import compose.icons.materialdesignicons.OrderAlphabeticalAscending
+import compose.icons.materialdesignicons.OrderAlphabeticalDescending
+import compose.icons.materialdesignicons.OrderBoolAscending
+import compose.icons.materialdesignicons.OrderBoolAscendingVariant
+import compose.icons.materialdesignicons.OrderBoolDescending
+import compose.icons.materialdesignicons.OrderBoolDescendingVariant
+import compose.icons.materialdesignicons.OrderNumericAscending
+import compose.icons.materialdesignicons.OrderNumericDescending
+import compose.icons.materialdesignicons.Origin
+import compose.icons.materialdesignicons.Ornament
+import compose.icons.materialdesignicons.OrnamentVariant
+import compose.icons.materialdesignicons.OutdoorLamp
+import compose.icons.materialdesignicons.Overscan
+import compose.icons.materialdesignicons.Owl
+import compose.icons.materialdesignicons.PacMan
+import compose.icons.materialdesignicons.Package
+import compose.icons.materialdesignicons.PackageCheck
+import compose.icons.materialdesignicons.PackageDown
+import compose.icons.materialdesignicons.PackageUp
+import compose.icons.materialdesignicons.PackageVariant
+import compose.icons.materialdesignicons.PackageVariantClosed
+import compose.icons.materialdesignicons.PackageVariantClosedCheck
+import compose.icons.materialdesignicons.PackageVariantClosedMinus
+import compose.icons.materialdesignicons.PackageVariantClosedPlus
+import compose.icons.materialdesignicons.PackageVariantClosedRemove
+import compose.icons.materialdesignicons.PackageVariantMinus
+import compose.icons.materialdesignicons.PackageVariantPlus
+import compose.icons.materialdesignicons.PackageVariantRemove
+import compose.icons.materialdesignicons.PageFirst
+import compose.icons.materialdesignicons.PageLast
+import compose.icons.materialdesignicons.PageLayoutBody
+import compose.icons.materialdesignicons.PageLayoutFooter
+import compose.icons.materialdesignicons.PageLayoutHeader
+import compose.icons.materialdesignicons.PageLayoutHeaderFooter
+import compose.icons.materialdesignicons.PageLayoutSidebarLeft
+import compose.icons.materialdesignicons.PageLayoutSidebarRight
+import compose.icons.materialdesignicons.PageNext
+import compose.icons.materialdesignicons.PageNextOutline
+import compose.icons.materialdesignicons.PagePrevious
+import compose.icons.materialdesignicons.PagePreviousOutline
+import compose.icons.materialdesignicons.Pail
+import compose.icons.materialdesignicons.PailMinus
+import compose.icons.materialdesignicons.PailMinusOutline
+import compose.icons.materialdesignicons.PailOff
+import compose.icons.materialdesignicons.PailOffOutline
+import compose.icons.materialdesignicons.PailOutline
+import compose.icons.materialdesignicons.PailPlus
+import compose.icons.materialdesignicons.PailPlusOutline
+import compose.icons.materialdesignicons.PailRemove
+import compose.icons.materialdesignicons.PailRemoveOutline
+import compose.icons.materialdesignicons.Palette
+import compose.icons.materialdesignicons.PaletteAdvanced
+import compose.icons.materialdesignicons.PaletteOutline
+import compose.icons.materialdesignicons.PaletteSwatch
+import compose.icons.materialdesignicons.PaletteSwatchOutline
+import compose.icons.materialdesignicons.PaletteSwatchVariant
+import compose.icons.materialdesignicons.PalmTree
+import compose.icons.materialdesignicons.Pan
+import compose.icons.materialdesignicons.PanBottomLeft
+import compose.icons.materialdesignicons.PanBottomRight
+import compose.icons.materialdesignicons.PanDown
+import compose.icons.materialdesignicons.PanHorizontal
+import compose.icons.materialdesignicons.PanLeft
+import compose.icons.materialdesignicons.PanRight
+import compose.icons.materialdesignicons.PanTopLeft
+import compose.icons.materialdesignicons.PanTopRight
+import compose.icons.materialdesignicons.PanUp
+import compose.icons.materialdesignicons.PanVertical
+import compose.icons.materialdesignicons.Panda
+import compose.icons.materialdesignicons.Pandora
+import compose.icons.materialdesignicons.Panorama
+import compose.icons.materialdesignicons.PanoramaFisheye
+import compose.icons.materialdesignicons.PanoramaHorizontal
+import compose.icons.materialdesignicons.PanoramaHorizontalOutline
+import compose.icons.materialdesignicons.PanoramaOutline
+import compose.icons.materialdesignicons.PanoramaSphere
+import compose.icons.materialdesignicons.PanoramaSphereOutline
+import compose.icons.materialdesignicons.PanoramaVariant
+import compose.icons.materialdesignicons.PanoramaVariantOutline
+import compose.icons.materialdesignicons.PanoramaVertical
+import compose.icons.materialdesignicons.PanoramaVerticalOutline
+import compose.icons.materialdesignicons.PanoramaWideAngle
+import compose.icons.materialdesignicons.PanoramaWideAngleOutline
+import compose.icons.materialdesignicons.PaperCutVertical
+import compose.icons.materialdesignicons.PaperRoll
+import compose.icons.materialdesignicons.PaperRollOutline
+import compose.icons.materialdesignicons.Paperclip
+import compose.icons.materialdesignicons.PaperclipCheck
+import compose.icons.materialdesignicons.PaperclipLock
+import compose.icons.materialdesignicons.PaperclipMinus
+import compose.icons.materialdesignicons.PaperclipOff
+import compose.icons.materialdesignicons.PaperclipPlus
+import compose.icons.materialdesignicons.PaperclipRemove
+import compose.icons.materialdesignicons.Parachute
+import compose.icons.materialdesignicons.ParachuteOutline
+import compose.icons.materialdesignicons.Paragliding
+import compose.icons.materialdesignicons.Parking
+import compose.icons.materialdesignicons.PartyPopper
+import compose.icons.materialdesignicons.Passport
+import compose.icons.materialdesignicons.PassportBiometric
+import compose.icons.materialdesignicons.Pasta
+import compose.icons.materialdesignicons.PatioHeater
+import compose.icons.materialdesignicons.Patreon
+import compose.icons.materialdesignicons.Pause
+import compose.icons.materialdesignicons.PauseBox
+import compose.icons.materialdesignicons.PauseBoxOutline
+import compose.icons.materialdesignicons.PauseCircle
+import compose.icons.materialdesignicons.PauseCircleOutline
+import compose.icons.materialdesignicons.PauseOctagon
+import compose.icons.materialdesignicons.PauseOctagonOutline
+import compose.icons.materialdesignicons.Paw
+import compose.icons.materialdesignicons.PawOff
+import compose.icons.materialdesignicons.PawOffOutline
+import compose.icons.materialdesignicons.PawOutline
+import compose.icons.materialdesignicons.Peace
+import compose.icons.materialdesignicons.Peanut
+import compose.icons.materialdesignicons.PeanutOff
+import compose.icons.materialdesignicons.PeanutOffOutline
+import compose.icons.materialdesignicons.PeanutOutline
+import compose.icons.materialdesignicons.Pen
+import compose.icons.materialdesignicons.PenLock
+import compose.icons.materialdesignicons.PenMinus
+import compose.icons.materialdesignicons.PenOff
+import compose.icons.materialdesignicons.PenPlus
+import compose.icons.materialdesignicons.PenRemove
+import compose.icons.materialdesignicons.Pencil
+import compose.icons.materialdesignicons.PencilBox
+import compose.icons.materialdesignicons.PencilBoxMultiple
+import compose.icons.materialdesignicons.PencilBoxMultipleOutline
+import compose.icons.materialdesignicons.PencilBoxOutline
+import compose.icons.materialdesignicons.PencilCircle
+import compose.icons.materialdesignicons.PencilCircleOutline
+import compose.icons.materialdesignicons.PencilLock
+import compose.icons.materialdesignicons.PencilLockOutline
+import compose.icons.materialdesignicons.PencilMinus
+import compose.icons.materialdesignicons.PencilMinusOutline
+import compose.icons.materialdesignicons.PencilOff
+import compose.icons.materialdesignicons.PencilOffOutline
+import compose.icons.materialdesignicons.PencilOutline
+import compose.icons.materialdesignicons.PencilPlus
+import compose.icons.materialdesignicons.PencilPlusOutline
+import compose.icons.materialdesignicons.PencilRemove
+import compose.icons.materialdesignicons.PencilRemoveOutline
+import compose.icons.materialdesignicons.PencilRuler
+import compose.icons.materialdesignicons.PencilRulerOutline
+import compose.icons.materialdesignicons.Penguin
+import compose.icons.materialdesignicons.Pentagon
+import compose.icons.materialdesignicons.PentagonOutline
+import compose.icons.materialdesignicons.Pentagram
+import compose.icons.materialdesignicons.Percent
+import compose.icons.materialdesignicons.PercentBox
+import compose.icons.materialdesignicons.PercentBoxOutline
+import compose.icons.materialdesignicons.PercentCircle
+import compose.icons.materialdesignicons.PercentCircleOutline
+import compose.icons.materialdesignicons.PercentOutline
+import compose.icons.materialdesignicons.PeriodicTable
+import compose.icons.materialdesignicons.PerspectiveLess
+import compose.icons.materialdesignicons.PerspectiveMore
+import compose.icons.materialdesignicons.Ph
+import compose.icons.materialdesignicons.Phone
+import compose.icons.materialdesignicons.PhoneAlert
+import compose.icons.materialdesignicons.PhoneAlertOutline
+import compose.icons.materialdesignicons.PhoneBluetooth
+import compose.icons.materialdesignicons.PhoneBluetoothOutline
+import compose.icons.materialdesignicons.PhoneCancel
+import compose.icons.materialdesignicons.PhoneCancelOutline
+import compose.icons.materialdesignicons.PhoneCheck
+import compose.icons.materialdesignicons.PhoneCheckOutline
+import compose.icons.materialdesignicons.PhoneClassic
+import compose.icons.materialdesignicons.PhoneClassicOff
+import compose.icons.materialdesignicons.PhoneClock
+import compose.icons.materialdesignicons.PhoneDial
+import compose.icons.materialdesignicons.PhoneDialOutline
+import compose.icons.materialdesignicons.PhoneForward
+import compose.icons.materialdesignicons.PhoneForwardOutline
+import compose.icons.materialdesignicons.PhoneHangup
+import compose.icons.materialdesignicons.PhoneHangupOutline
+import compose.icons.materialdesignicons.PhoneInTalk
+import compose.icons.materialdesignicons.PhoneInTalkOutline
+import compose.icons.materialdesignicons.PhoneIncoming
+import compose.icons.materialdesignicons.PhoneIncomingOutgoing
+import compose.icons.materialdesignicons.PhoneIncomingOutgoingOutline
+import compose.icons.materialdesignicons.PhoneIncomingOutline
+import compose.icons.materialdesignicons.PhoneLock
+import compose.icons.materialdesignicons.PhoneLockOutline
+import compose.icons.materialdesignicons.PhoneLog
+import compose.icons.materialdesignicons.PhoneLogOutline
+import compose.icons.materialdesignicons.PhoneMessage
+import compose.icons.materialdesignicons.PhoneMessageOutline
+import compose.icons.materialdesignicons.PhoneMinus
+import compose.icons.materialdesignicons.PhoneMinusOutline
+import compose.icons.materialdesignicons.PhoneMissed
+import compose.icons.materialdesignicons.PhoneMissedOutline
+import compose.icons.materialdesignicons.PhoneOff
+import compose.icons.materialdesignicons.PhoneOffOutline
+import compose.icons.materialdesignicons.PhoneOutgoing
+import compose.icons.materialdesignicons.PhoneOutgoingOutline
+import compose.icons.materialdesignicons.PhoneOutline
+import compose.icons.materialdesignicons.PhonePaused
+import compose.icons.materialdesignicons.PhonePausedOutline
+import compose.icons.materialdesignicons.PhonePlus
+import compose.icons.materialdesignicons.PhonePlusOutline
+import compose.icons.materialdesignicons.PhoneRefresh
+import compose.icons.materialdesignicons.PhoneRefreshOutline
+import compose.icons.materialdesignicons.PhoneRemove
+import compose.icons.materialdesignicons.PhoneRemoveOutline
+import compose.icons.materialdesignicons.PhoneReturn
+import compose.icons.materialdesignicons.PhoneReturnOutline
+import compose.icons.materialdesignicons.PhoneRing
+import compose.icons.materialdesignicons.PhoneRingOutline
+import compose.icons.materialdesignicons.PhoneRotateLandscape
+import compose.icons.materialdesignicons.PhoneRotatePortrait
+import compose.icons.materialdesignicons.PhoneSettings
+import compose.icons.materialdesignicons.PhoneSettingsOutline
+import compose.icons.materialdesignicons.PhoneSync
+import compose.icons.materialdesignicons.PhoneSyncOutline
+import compose.icons.materialdesignicons.PhoneVoip
+import compose.icons.materialdesignicons.Pi
+import compose.icons.materialdesignicons.PiBox
+import compose.icons.materialdesignicons.PiHole
+import compose.icons.materialdesignicons.Piano
+import compose.icons.materialdesignicons.PianoOff
+import compose.icons.materialdesignicons.Pickaxe
+import compose.icons.materialdesignicons.PictureInPictureBottomRight
+import compose.icons.materialdesignicons.PictureInPictureBottomRightOutline
+import compose.icons.materialdesignicons.PictureInPictureTopRight
+import compose.icons.materialdesignicons.PictureInPictureTopRightOutline
+import compose.icons.materialdesignicons.Pier
+import compose.icons.materialdesignicons.PierCrane
+import compose.icons.materialdesignicons.Pig
+import compose.icons.materialdesignicons.PigVariant
+import compose.icons.materialdesignicons.PigVariantOutline
+import compose.icons.materialdesignicons.PiggyBank
+import compose.icons.materialdesignicons.PiggyBankOutline
+import compose.icons.materialdesignicons.Pill
+import compose.icons.materialdesignicons.PillMultiple
+import compose.icons.materialdesignicons.PillOff
+import compose.icons.materialdesignicons.Pillar
+import compose.icons.materialdesignicons.Pin
+import compose.icons.materialdesignicons.PinOff
+import compose.icons.materialdesignicons.PinOffOutline
+import compose.icons.materialdesignicons.PinOutline
+import compose.icons.materialdesignicons.PineTree
+import compose.icons.materialdesignicons.PineTreeBox
+import compose.icons.materialdesignicons.PineTreeFire
+import compose.icons.materialdesignicons.Pinterest
+import compose.icons.materialdesignicons.Pinwheel
+import compose.icons.materialdesignicons.PinwheelOutline
+import compose.icons.materialdesignicons.Pipe
+import compose.icons.materialdesignicons.PipeDisconnected
+import compose.icons.materialdesignicons.PipeLeak
+import compose.icons.materialdesignicons.PipeValve
+import compose.icons.materialdesignicons.PipeWrench
+import compose.icons.materialdesignicons.Pirate
+import compose.icons.materialdesignicons.Pistol
+import compose.icons.materialdesignicons.Piston
+import compose.icons.materialdesignicons.Pitchfork
+import compose.icons.materialdesignicons.Pizza
+import compose.icons.materialdesignicons.PlaneCar
+import compose.icons.materialdesignicons.PlaneTrain
+import compose.icons.materialdesignicons.Play
+import compose.icons.materialdesignicons.PlayBox
+import compose.icons.materialdesignicons.PlayBoxLock
+import compose.icons.materialdesignicons.PlayBoxLockOpen
+import compose.icons.materialdesignicons.PlayBoxLockOpenOutline
+import compose.icons.materialdesignicons.PlayBoxLockOutline
+import compose.icons.materialdesignicons.PlayBoxMultiple
+import compose.icons.materialdesignicons.PlayBoxMultipleOutline
+import compose.icons.materialdesignicons.PlayBoxOutline
+import compose.icons.materialdesignicons.PlayCircle
+import compose.icons.materialdesignicons.PlayCircleOutline
+import compose.icons.materialdesignicons.PlayNetwork
+import compose.icons.materialdesignicons.PlayNetworkOutline
+import compose.icons.materialdesignicons.PlayOutline
+import compose.icons.materialdesignicons.PlayPause
+import compose.icons.materialdesignicons.PlayProtectedContent
+import compose.icons.materialdesignicons.PlaySpeed
+import compose.icons.materialdesignicons.PlaylistCheck
+import compose.icons.materialdesignicons.PlaylistEdit
+import compose.icons.materialdesignicons.PlaylistMinus
+import compose.icons.materialdesignicons.PlaylistMusic
+import compose.icons.materialdesignicons.PlaylistMusicOutline
+import compose.icons.materialdesignicons.PlaylistPlay
+import compose.icons.materialdesignicons.PlaylistPlus
+import compose.icons.materialdesignicons.PlaylistRemove
+import compose.icons.materialdesignicons.PlaylistStar
+import compose.icons.materialdesignicons.Plex
+import compose.icons.materialdesignicons.Pliers
+import compose.icons.materialdesignicons.Plus
+import compose.icons.materialdesignicons.PlusBox
+import compose.icons.materialdesignicons.PlusBoxMultiple
+import compose.icons.materialdesignicons.PlusBoxMultipleOutline
+import compose.icons.materialdesignicons.PlusBoxOutline
+import compose.icons.materialdesignicons.PlusCircle
+import compose.icons.materialdesignicons.PlusCircleMultiple
+import compose.icons.materialdesignicons.PlusCircleMultipleOutline
+import compose.icons.materialdesignicons.PlusCircleOutline
+import compose.icons.materialdesignicons.PlusLock
+import compose.icons.materialdesignicons.PlusLockOpen
+import compose.icons.materialdesignicons.PlusMinus
+import compose.icons.materialdesignicons.PlusMinusBox
+import compose.icons.materialdesignicons.PlusMinusVariant
+import compose.icons.materialdesignicons.PlusNetwork
+import compose.icons.materialdesignicons.PlusNetworkOutline
+import compose.icons.materialdesignicons.PlusOutline
+import compose.icons.materialdesignicons.PlusThick
+import compose.icons.materialdesignicons.Podcast
+import compose.icons.materialdesignicons.Podium
+import compose.icons.materialdesignicons.PodiumBronze
+import compose.icons.materialdesignicons.PodiumGold
+import compose.icons.materialdesignicons.PodiumSilver
+import compose.icons.materialdesignicons.PointOfSale
+import compose.icons.materialdesignicons.Pokeball
+import compose.icons.materialdesignicons.PokemonGo
+import compose.icons.materialdesignicons.PokerChip
+import compose.icons.materialdesignicons.Polaroid
+import compose.icons.materialdesignicons.PoliceBadge
+import compose.icons.materialdesignicons.PoliceBadgeOutline
+import compose.icons.materialdesignicons.PoliceStation
+import compose.icons.materialdesignicons.Poll
+import compose.icons.materialdesignicons.Polo
+import compose.icons.materialdesignicons.Polymer
+import compose.icons.materialdesignicons.Pool
+import compose.icons.materialdesignicons.PoolThermometer
+import compose.icons.materialdesignicons.Popcorn
+import compose.icons.materialdesignicons.Post
+import compose.icons.materialdesignicons.PostLamp
+import compose.icons.materialdesignicons.PostOutline
+import compose.icons.materialdesignicons.PostageStamp
+import compose.icons.materialdesignicons.Pot
+import compose.icons.materialdesignicons.PotMix
+import compose.icons.materialdesignicons.PotMixOutline
+import compose.icons.materialdesignicons.PotOutline
+import compose.icons.materialdesignicons.PotSteam
+import compose.icons.materialdesignicons.PotSteamOutline
+import compose.icons.materialdesignicons.Pound
+import compose.icons.materialdesignicons.PoundBox
+import compose.icons.materialdesignicons.PoundBoxOutline
+import compose.icons.materialdesignicons.Power
+import compose.icons.materialdesignicons.PowerCycle
+import compose.icons.materialdesignicons.PowerOff
+import compose.icons.materialdesignicons.PowerOn
+import compose.icons.materialdesignicons.PowerPlug
+import compose.icons.materialdesignicons.PowerPlugOff
+import compose.icons.materialdesignicons.PowerPlugOffOutline
+import compose.icons.materialdesignicons.PowerPlugOutline
+import compose.icons.materialdesignicons.PowerSettings
+import compose.icons.materialdesignicons.PowerSleep
+import compose.icons.materialdesignicons.PowerSocket
+import compose.icons.materialdesignicons.PowerSocketAu
+import compose.icons.materialdesignicons.PowerSocketCh
+import compose.icons.materialdesignicons.PowerSocketDe
+import compose.icons.materialdesignicons.PowerSocketEu
+import compose.icons.materialdesignicons.PowerSocketFr
+import compose.icons.materialdesignicons.PowerSocketIt
+import compose.icons.materialdesignicons.PowerSocketJp
+import compose.icons.materialdesignicons.PowerSocketUk
+import compose.icons.materialdesignicons.PowerSocketUs
+import compose.icons.materialdesignicons.PowerStandby
+import compose.icons.materialdesignicons.Powershell
+import compose.icons.materialdesignicons.Prescription
+import compose.icons.materialdesignicons.Presentation
+import compose.icons.materialdesignicons.PresentationPlay
+import compose.icons.materialdesignicons.Pretzel
+import compose.icons.materialdesignicons.Printer
+import compose.icons.materialdesignicons.Printer3d
+import compose.icons.materialdesignicons.Printer3dNozzle
+import compose.icons.materialdesignicons.Printer3dNozzleAlert
+import compose.icons.materialdesignicons.Printer3dNozzleAlertOutline
+import compose.icons.materialdesignicons.Printer3dNozzleHeat
+import compose.icons.materialdesignicons.Printer3dNozzleHeatOutline
+import compose.icons.materialdesignicons.Printer3dNozzleOff
+import compose.icons.materialdesignicons.Printer3dNozzleOffOutline
+import compose.icons.materialdesignicons.Printer3dNozzleOutline
+import compose.icons.materialdesignicons.Printer3dOff
+import compose.icons.materialdesignicons.PrinterAlert
+import compose.icons.materialdesignicons.PrinterCheck
+import compose.icons.materialdesignicons.PrinterEye
+import compose.icons.materialdesignicons.PrinterOff
+import compose.icons.materialdesignicons.PrinterOffOutline
+import compose.icons.materialdesignicons.PrinterOutline
+import compose.icons.materialdesignicons.PrinterPos
+import compose.icons.materialdesignicons.PrinterPosAlert
+import compose.icons.materialdesignicons.PrinterPosAlertOutline
+import compose.icons.materialdesignicons.PrinterPosCancel
+import compose.icons.materialdesignicons.PrinterPosCancelOutline
+import compose.icons.materialdesignicons.PrinterPosCheck
+import compose.icons.materialdesignicons.PrinterPosCheckOutline
+import compose.icons.materialdesignicons.PrinterPosCog
+import compose.icons.materialdesignicons.PrinterPosCogOutline
+import compose.icons.materialdesignicons.PrinterPosEdit
+import compose.icons.materialdesignicons.PrinterPosEditOutline
+import compose.icons.materialdesignicons.PrinterPosMinus
+import compose.icons.materialdesignicons.PrinterPosMinusOutline
+import compose.icons.materialdesignicons.PrinterPosNetwork
+import compose.icons.materialdesignicons.PrinterPosNetworkOutline
+import compose.icons.materialdesignicons.PrinterPosOff
+import compose.icons.materialdesignicons.PrinterPosOffOutline
+import compose.icons.materialdesignicons.PrinterPosOutline
+import compose.icons.materialdesignicons.PrinterPosPause
+import compose.icons.materialdesignicons.PrinterPosPauseOutline
+import compose.icons.materialdesignicons.PrinterPosPlay
+import compose.icons.materialdesignicons.PrinterPosPlayOutline
+import compose.icons.materialdesignicons.PrinterPosPlus
+import compose.icons.materialdesignicons.PrinterPosPlusOutline
+import compose.icons.materialdesignicons.PrinterPosRefresh
+import compose.icons.materialdesignicons.PrinterPosRefreshOutline
+import compose.icons.materialdesignicons.PrinterPosRemove
+import compose.icons.materialdesignicons.PrinterPosRemoveOutline
+import compose.icons.materialdesignicons.PrinterPosStar
+import compose.icons.materialdesignicons.PrinterPosStarOutline
+import compose.icons.materialdesignicons.PrinterPosStop
+import compose.icons.materialdesignicons.PrinterPosStopOutline
+import compose.icons.materialdesignicons.PrinterPosSync
+import compose.icons.materialdesignicons.PrinterPosSyncOutline
+import compose.icons.materialdesignicons.PrinterPosWrench
+import compose.icons.materialdesignicons.PrinterPosWrenchOutline
+import compose.icons.materialdesignicons.PrinterSearch
+import compose.icons.materialdesignicons.PrinterSettings
+import compose.icons.materialdesignicons.PrinterWireless
+import compose.icons.materialdesignicons.PriorityHigh
+import compose.icons.materialdesignicons.PriorityLow
+import compose.icons.materialdesignicons.ProfessionalHexagon
+import compose.icons.materialdesignicons.ProgressAlert
+import compose.icons.materialdesignicons.ProgressCheck
+import compose.icons.materialdesignicons.ProgressClock
+import compose.icons.materialdesignicons.ProgressClose
+import compose.icons.materialdesignicons.ProgressDownload
+import compose.icons.materialdesignicons.ProgressHelper
+import compose.icons.materialdesignicons.ProgressPencil
+import compose.icons.materialdesignicons.ProgressQuestion
+import compose.icons.materialdesignicons.ProgressStar
+import compose.icons.materialdesignicons.ProgressUpload
+import compose.icons.materialdesignicons.ProgressWrench
+import compose.icons.materialdesignicons.Projector
+import compose.icons.materialdesignicons.ProjectorOff
+import compose.icons.materialdesignicons.ProjectorScreen
+import compose.icons.materialdesignicons.ProjectorScreenOff
+import compose.icons.materialdesignicons.ProjectorScreenOffOutline
+import compose.icons.materialdesignicons.ProjectorScreenOutline
+import compose.icons.materialdesignicons.ProjectorScreenVariant
+import compose.icons.materialdesignicons.ProjectorScreenVariantOff
+import compose.icons.materialdesignicons.ProjectorScreenVariantOffOutline
+import compose.icons.materialdesignicons.ProjectorScreenVariantOutline
+import compose.icons.materialdesignicons.PropaneTank
+import compose.icons.materialdesignicons.PropaneTankOutline
+import compose.icons.materialdesignicons.Protocol
+import compose.icons.materialdesignicons.Publish
+import compose.icons.materialdesignicons.PublishOff
+import compose.icons.materialdesignicons.Pulse
+import compose.icons.materialdesignicons.Pump
+import compose.icons.materialdesignicons.PumpOff
+import compose.icons.materialdesignicons.Pumpkin
+import compose.icons.materialdesignicons.Purse
+import compose.icons.materialdesignicons.PurseOutline
+import compose.icons.materialdesignicons.Puzzle
+import compose.icons.materialdesignicons.PuzzleCheck
+import compose.icons.materialdesignicons.PuzzleCheckOutline
+import compose.icons.materialdesignicons.PuzzleEdit
+import compose.icons.materialdesignicons.PuzzleEditOutline
+import compose.icons.materialdesignicons.PuzzleHeart
+import compose.icons.materialdesignicons.PuzzleHeartOutline
+import compose.icons.materialdesignicons.PuzzleMinus
+import compose.icons.materialdesignicons.PuzzleMinusOutline
+import compose.icons.materialdesignicons.PuzzleOutline
+import compose.icons.materialdesignicons.PuzzlePlus
+import compose.icons.materialdesignicons.PuzzlePlusOutline
+import compose.icons.materialdesignicons.PuzzleRemove
+import compose.icons.materialdesignicons.PuzzleRemoveOutline
+import compose.icons.materialdesignicons.PuzzleStar
+import compose.icons.materialdesignicons.PuzzleStarOutline
+import compose.icons.materialdesignicons.Pyramid
+import compose.icons.materialdesignicons.PyramidOff
+import compose.icons.materialdesignicons.Qi
+import compose.icons.materialdesignicons.Qqchat
+import compose.icons.materialdesignicons.Qrcode
+import compose.icons.materialdesignicons.QrcodeEdit
+import compose.icons.materialdesignicons.QrcodeMinus
+import compose.icons.materialdesignicons.QrcodePlus
+import compose.icons.materialdesignicons.QrcodeRemove
+import compose.icons.materialdesignicons.QrcodeScan
+import compose.icons.materialdesignicons.Quadcopter
+import compose.icons.materialdesignicons.QualityHigh
+import compose.icons.materialdesignicons.QualityLow
+import compose.icons.materialdesignicons.QualityMedium
+import compose.icons.materialdesignicons.Quora
+import compose.icons.materialdesignicons.Rabbit
+import compose.icons.materialdesignicons.RabbitVariant
+import compose.icons.materialdesignicons.RabbitVariantOutline
+import compose.icons.materialdesignicons.RacingHelmet
+import compose.icons.materialdesignicons.Racquetball
+import compose.icons.materialdesignicons.Radar
+import compose.icons.materialdesignicons.Radiator
+import compose.icons.materialdesignicons.RadiatorDisabled
+import compose.icons.materialdesignicons.RadiatorOff
+import compose.icons.materialdesignicons.Radio
+import compose.icons.materialdesignicons.RadioAm
+import compose.icons.materialdesignicons.RadioFm
+import compose.icons.materialdesignicons.RadioHandheld
+import compose.icons.materialdesignicons.RadioOff
+import compose.icons.materialdesignicons.RadioTower
+import compose.icons.materialdesignicons.Radioactive
+import compose.icons.materialdesignicons.RadioactiveCircle
+import compose.icons.materialdesignicons.RadioactiveCircleOutline
+import compose.icons.materialdesignicons.RadioactiveOff
+import compose.icons.materialdesignicons.RadioboxBlank
+import compose.icons.materialdesignicons.RadioboxMarked
+import compose.icons.materialdesignicons.RadiologyBox
+import compose.icons.materialdesignicons.RadiologyBoxOutline
+import compose.icons.materialdesignicons.Radius
+import compose.icons.materialdesignicons.RadiusOutline
+import compose.icons.materialdesignicons.RailroadLight
+import compose.icons.materialdesignicons.Rake
+import compose.icons.materialdesignicons.RaspberryPi
+import compose.icons.materialdesignicons.Raw
+import compose.icons.materialdesignicons.RawOff
+import compose.icons.materialdesignicons.RayEnd
+import compose.icons.materialdesignicons.RayEndArrow
+import compose.icons.materialdesignicons.RayStart
+import compose.icons.materialdesignicons.RayStartArrow
+import compose.icons.materialdesignicons.RayStartEnd
+import compose.icons.materialdesignicons.RayStartVertexEnd
+import compose.icons.materialdesignicons.RayVertex
+import compose.icons.materialdesignicons.RazorDoubleEdge
+import compose.icons.materialdesignicons.RazorSingleEdge
+import compose.icons.materialdesignicons.React
+import compose.icons.materialdesignicons.Read
+import compose.icons.materialdesignicons.Receipt
+import compose.icons.materialdesignicons.ReceiptOutline
+import compose.icons.materialdesignicons.ReceiptText
+import compose.icons.materialdesignicons.ReceiptTextCheck
+import compose.icons.materialdesignicons.ReceiptTextCheckOutline
+import compose.icons.materialdesignicons.ReceiptTextMinus
+import compose.icons.materialdesignicons.ReceiptTextMinusOutline
+import compose.icons.materialdesignicons.ReceiptTextOutline
+import compose.icons.materialdesignicons.ReceiptTextPlus
+import compose.icons.materialdesignicons.ReceiptTextPlusOutline
+import compose.icons.materialdesignicons.ReceiptTextRemove
+import compose.icons.materialdesignicons.ReceiptTextRemoveOutline
+import compose.icons.materialdesignicons.Record
+import compose.icons.materialdesignicons.RecordCircle
+import compose.icons.materialdesignicons.RecordCircleOutline
+import compose.icons.materialdesignicons.RecordPlayer
+import compose.icons.materialdesignicons.RecordRec
+import compose.icons.materialdesignicons.Rectangle
+import compose.icons.materialdesignicons.RectangleOutline
+import compose.icons.materialdesignicons.Recycle
+import compose.icons.materialdesignicons.RecycleVariant
+import compose.icons.materialdesignicons.Reddit
+import compose.icons.materialdesignicons.Redhat
+import compose.icons.materialdesignicons.Redo
+import compose.icons.materialdesignicons.RedoVariant
+import compose.icons.materialdesignicons.ReflectHorizontal
+import compose.icons.materialdesignicons.ReflectVertical
+import compose.icons.materialdesignicons.Refresh
+import compose.icons.materialdesignicons.RefreshAuto
+import compose.icons.materialdesignicons.RefreshCircle
+import compose.icons.materialdesignicons.Regex
+import compose.icons.materialdesignicons.RegisteredTrademark
+import compose.icons.materialdesignicons.Reiterate
+import compose.icons.materialdesignicons.RelationManyToMany
+import compose.icons.materialdesignicons.RelationManyToOne
+import compose.icons.materialdesignicons.RelationManyToOneOrMany
+import compose.icons.materialdesignicons.RelationManyToOnlyOne
+import compose.icons.materialdesignicons.RelationManyToZeroOrMany
+import compose.icons.materialdesignicons.RelationManyToZeroOrOne
+import compose.icons.materialdesignicons.RelationOneOrManyToMany
+import compose.icons.materialdesignicons.RelationOneOrManyToOne
+import compose.icons.materialdesignicons.RelationOneOrManyToOneOrMany
+import compose.icons.materialdesignicons.RelationOneOrManyToOnlyOne
+import compose.icons.materialdesignicons.RelationOneOrManyToZeroOrMany
+import compose.icons.materialdesignicons.RelationOneOrManyToZeroOrOne
+import compose.icons.materialdesignicons.RelationOneToMany
+import compose.icons.materialdesignicons.RelationOneToOne
+import compose.icons.materialdesignicons.RelationOneToOneOrMany
+import compose.icons.materialdesignicons.RelationOneToOnlyOne
+import compose.icons.materialdesignicons.RelationOneToZeroOrMany
+import compose.icons.materialdesignicons.RelationOneToZeroOrOne
+import compose.icons.materialdesignicons.RelationOnlyOneToMany
+import compose.icons.materialdesignicons.RelationOnlyOneToOne
+import compose.icons.materialdesignicons.RelationOnlyOneToOneOrMany
+import compose.icons.materialdesignicons.RelationOnlyOneToOnlyOne
+import compose.icons.materialdesignicons.RelationOnlyOneToZeroOrMany
+import compose.icons.materialdesignicons.RelationOnlyOneToZeroOrOne
+import compose.icons.materialdesignicons.RelationZeroOrManyToMany
+import compose.icons.materialdesignicons.RelationZeroOrManyToOne
+import compose.icons.materialdesignicons.RelationZeroOrManyToOneOrMany
+import compose.icons.materialdesignicons.RelationZeroOrManyToOnlyOne
+import compose.icons.materialdesignicons.RelationZeroOrManyToZeroOrMany
+import compose.icons.materialdesignicons.RelationZeroOrManyToZeroOrOne
+import compose.icons.materialdesignicons.RelationZeroOrOneToMany
+import compose.icons.materialdesignicons.RelationZeroOrOneToOne
+import compose.icons.materialdesignicons.RelationZeroOrOneToOneOrMany
+import compose.icons.materialdesignicons.RelationZeroOrOneToOnlyOne
+import compose.icons.materialdesignicons.RelationZeroOrOneToZeroOrMany
+import compose.icons.materialdesignicons.RelationZeroOrOneToZeroOrOne
+import compose.icons.materialdesignicons.RelativeScale
+import compose.icons.materialdesignicons.Reload
+import compose.icons.materialdesignicons.ReloadAlert
+import compose.icons.materialdesignicons.Reminder
+import compose.icons.materialdesignicons.Remote
+import compose.icons.materialdesignicons.RemoteDesktop
+import compose.icons.materialdesignicons.RemoteOff
+import compose.icons.materialdesignicons.RemoteTv
+import compose.icons.materialdesignicons.RemoteTvOff
+import compose.icons.materialdesignicons.Rename
+import compose.icons.materialdesignicons.RenameBox
+import compose.icons.materialdesignicons.RenameBoxOutline
+import compose.icons.materialdesignicons.RenameOutline
+import compose.icons.materialdesignicons.ReorderHorizontal
+import compose.icons.materialdesignicons.ReorderVertical
+import compose.icons.materialdesignicons.Repeat
+import compose.icons.materialdesignicons.RepeatOff
+import compose.icons.materialdesignicons.RepeatOnce
+import compose.icons.materialdesignicons.RepeatVariant
+import compose.icons.materialdesignicons.Replay
+import compose.icons.materialdesignicons.Reply
+import compose.icons.materialdesignicons.ReplyAll
+import compose.icons.materialdesignicons.ReplyAllOutline
+import compose.icons.materialdesignicons.ReplyCircle
+import compose.icons.materialdesignicons.ReplyOutline
+import compose.icons.materialdesignicons.Reproduction
+import compose.icons.materialdesignicons.Resistor
+import compose.icons.materialdesignicons.ResistorNodes
+import compose.icons.materialdesignicons.Resize
+import compose.icons.materialdesignicons.ResizeBottomRight
+import compose.icons.materialdesignicons.Responsive
+import compose.icons.materialdesignicons.Restart
+import compose.icons.materialdesignicons.RestartAlert
+import compose.icons.materialdesignicons.RestartOff
+import compose.icons.materialdesignicons.Restore
+import compose.icons.materialdesignicons.RestoreAlert
+import compose.icons.materialdesignicons.Rewind
+import compose.icons.materialdesignicons.Rewind10
+import compose.icons.materialdesignicons.Rewind15
+import compose.icons.materialdesignicons.Rewind30
+import compose.icons.materialdesignicons.Rewind45
+import compose.icons.materialdesignicons.Rewind5
+import compose.icons.materialdesignicons.Rewind60
+import compose.icons.materialdesignicons.RewindOutline
+import compose.icons.materialdesignicons.Rhombus
+import compose.icons.materialdesignicons.RhombusMedium
+import compose.icons.materialdesignicons.RhombusMediumOutline
+import compose.icons.materialdesignicons.RhombusOutline
+import compose.icons.materialdesignicons.RhombusSplit
+import compose.icons.materialdesignicons.RhombusSplitOutline
+import compose.icons.materialdesignicons.Ribbon
+import compose.icons.materialdesignicons.Rice
+import compose.icons.materialdesignicons.Rickshaw
+import compose.icons.materialdesignicons.RickshawElectric
+import compose.icons.materialdesignicons.Ring
+import compose.icons.materialdesignicons.Rivet
+import compose.icons.materialdesignicons.Road
+import compose.icons.materialdesignicons.RoadVariant
+import compose.icons.materialdesignicons.Robber
+import compose.icons.materialdesignicons.Robot
+import compose.icons.materialdesignicons.RobotAngry
+import compose.icons.materialdesignicons.RobotAngryOutline
+import compose.icons.materialdesignicons.RobotConfused
+import compose.icons.materialdesignicons.RobotConfusedOutline
+import compose.icons.materialdesignicons.RobotDead
+import compose.icons.materialdesignicons.RobotDeadOutline
+import compose.icons.materialdesignicons.RobotExcited
+import compose.icons.materialdesignicons.RobotExcitedOutline
+import compose.icons.materialdesignicons.RobotHappy
+import compose.icons.materialdesignicons.RobotHappyOutline
+import compose.icons.materialdesignicons.RobotIndustrial
+import compose.icons.materialdesignicons.RobotIndustrialOutline
+import compose.icons.materialdesignicons.RobotLove
+import compose.icons.materialdesignicons.RobotLoveOutline
+import compose.icons.materialdesignicons.RobotMower
+import compose.icons.materialdesignicons.RobotMowerOutline
+import compose.icons.materialdesignicons.RobotOff
+import compose.icons.materialdesignicons.RobotOffOutline
+import compose.icons.materialdesignicons.RobotOutline
+import compose.icons.materialdesignicons.RobotVacuum
+import compose.icons.materialdesignicons.RobotVacuumAlert
+import compose.icons.materialdesignicons.RobotVacuumOff
+import compose.icons.materialdesignicons.RobotVacuumVariant
+import compose.icons.materialdesignicons.RobotVacuumVariantAlert
+import compose.icons.materialdesignicons.RobotVacuumVariantOff
+import compose.icons.materialdesignicons.Rocket
+import compose.icons.materialdesignicons.RocketLaunch
+import compose.icons.materialdesignicons.RocketLaunchOutline
+import compose.icons.materialdesignicons.RocketOutline
+import compose.icons.materialdesignicons.Rodent
+import compose.icons.materialdesignicons.RollerShade
+import compose.icons.materialdesignicons.RollerShadeClosed
+import compose.icons.materialdesignicons.RollerSkate
+import compose.icons.materialdesignicons.RollerSkateOff
+import compose.icons.materialdesignicons.Rollerblade
+import compose.icons.materialdesignicons.RollerbladeOff
+import compose.icons.materialdesignicons.Rollupjs
+import compose.icons.materialdesignicons.Rolodex
+import compose.icons.materialdesignicons.RolodexOutline
+import compose.icons.materialdesignicons.RomanNumeral1
+import compose.icons.materialdesignicons.RomanNumeral10
+import compose.icons.materialdesignicons.RomanNumeral2
+import compose.icons.materialdesignicons.RomanNumeral3
+import compose.icons.materialdesignicons.RomanNumeral4
+import compose.icons.materialdesignicons.RomanNumeral5
+import compose.icons.materialdesignicons.RomanNumeral6
+import compose.icons.materialdesignicons.RomanNumeral7
+import compose.icons.materialdesignicons.RomanNumeral8
+import compose.icons.materialdesignicons.RomanNumeral9
+import compose.icons.materialdesignicons.RoomService
+import compose.icons.materialdesignicons.RoomServiceOutline
+import compose.icons.materialdesignicons.Rotate360
+import compose.icons.materialdesignicons.Rotate3d
+import compose.icons.materialdesignicons.Rotate3dVariant
+import compose.icons.materialdesignicons.RotateLeft
+import compose.icons.materialdesignicons.RotateLeftVariant
+import compose.icons.materialdesignicons.RotateOrbit
+import compose.icons.materialdesignicons.RotateRight
+import compose.icons.materialdesignicons.RotateRightVariant
+import compose.icons.materialdesignicons.RoundedCorner
+import compose.icons.materialdesignicons.Router
+import compose.icons.materialdesignicons.RouterNetwork
+import compose.icons.materialdesignicons.RouterWireless
+import compose.icons.materialdesignicons.RouterWirelessOff
+import compose.icons.materialdesignicons.RouterWirelessSettings
+import compose.icons.materialdesignicons.Routes
+import compose.icons.materialdesignicons.RoutesClock
+import compose.icons.materialdesignicons.Rowing
+import compose.icons.materialdesignicons.Rss
+import compose.icons.materialdesignicons.RssBox
+import compose.icons.materialdesignicons.RssOff
+import compose.icons.materialdesignicons.Rug
+import compose.icons.materialdesignicons.Rugby
+import compose.icons.materialdesignicons.Ruler
+import compose.icons.materialdesignicons.RulerSquare
+import compose.icons.materialdesignicons.RulerSquareCompass
+import compose.icons.materialdesignicons.Run
+import compose.icons.materialdesignicons.RunFast
+import compose.icons.materialdesignicons.RvTruck
+import compose.icons.materialdesignicons.Sack
+import compose.icons.materialdesignicons.SackPercent
+import compose.icons.materialdesignicons.Safe
+import compose.icons.materialdesignicons.SafeSquare
+import compose.icons.materialdesignicons.SafeSquareOutline
+import compose.icons.materialdesignicons.SafetyGoggles
+import compose.icons.materialdesignicons.SailBoat
+import compose.icons.materialdesignicons.SailBoatSink
+import compose.icons.materialdesignicons.Sale
+import compose.icons.materialdesignicons.SaleOutline
+import compose.icons.materialdesignicons.Salesforce
+import compose.icons.materialdesignicons.Sass
+import compose.icons.materialdesignicons.Satellite
+import compose.icons.materialdesignicons.SatelliteUplink
+import compose.icons.materialdesignicons.SatelliteVariant
+import compose.icons.materialdesignicons.Sausage
+import compose.icons.materialdesignicons.SausageOff
+import compose.icons.materialdesignicons.SawBlade
+import compose.icons.materialdesignicons.SawtoothWave
+import compose.icons.materialdesignicons.Saxophone
+import compose.icons.materialdesignicons.Scale
+import compose.icons.materialdesignicons.ScaleBalance
+import compose.icons.materialdesignicons.ScaleBathroom
+import compose.icons.materialdesignicons.ScaleOff
+import compose.icons.materialdesignicons.ScaleUnbalanced
+import compose.icons.materialdesignicons.ScanHelper
+import compose.icons.materialdesignicons.Scanner
+import compose.icons.materialdesignicons.ScannerOff
+import compose.icons.materialdesignicons.ScatterPlot
+import compose.icons.materialdesignicons.ScatterPlotOutline
+import compose.icons.materialdesignicons.Scent
+import compose.icons.materialdesignicons.ScentOff
+import compose.icons.materialdesignicons.School
+import compose.icons.materialdesignicons.SchoolOutline
+import compose.icons.materialdesignicons.ScissorsCutting
+import compose.icons.materialdesignicons.Scooter
+import compose.icons.materialdesignicons.ScooterElectric
+import compose.icons.materialdesignicons.Scoreboard
+import compose.icons.materialdesignicons.ScoreboardOutline
+import compose.icons.materialdesignicons.ScreenRotation
+import compose.icons.materialdesignicons.ScreenRotationLock
+import compose.icons.materialdesignicons.ScrewFlatTop
+import compose.icons.materialdesignicons.ScrewLag
+import compose.icons.materialdesignicons.ScrewMachineFlatTop
+import compose.icons.materialdesignicons.ScrewMachineRoundTop
+import compose.icons.materialdesignicons.ScrewRoundTop
+import compose.icons.materialdesignicons.Screwdriver
+import compose.icons.materialdesignicons.Script
+import compose.icons.materialdesignicons.ScriptOutline
+import compose.icons.materialdesignicons.ScriptText
+import compose.icons.materialdesignicons.ScriptTextKey
+import compose.icons.materialdesignicons.ScriptTextKeyOutline
+import compose.icons.materialdesignicons.ScriptTextOutline
+import compose.icons.materialdesignicons.ScriptTextPlay
+import compose.icons.materialdesignicons.ScriptTextPlayOutline
+import compose.icons.materialdesignicons.Sd
+import compose.icons.materialdesignicons.Seal
+import compose.icons.materialdesignicons.SealVariant
+import compose.icons.materialdesignicons.SearchWeb
+import compose.icons.materialdesignicons.Seat
+import compose.icons.materialdesignicons.SeatFlat
+import compose.icons.materialdesignicons.SeatFlatAngled
+import compose.icons.materialdesignicons.SeatIndividualSuite
+import compose.icons.materialdesignicons.SeatLegroomExtra
+import compose.icons.materialdesignicons.SeatLegroomNormal
+import compose.icons.materialdesignicons.SeatLegroomReduced
+import compose.icons.materialdesignicons.SeatOutline
+import compose.icons.materialdesignicons.SeatPassenger
+import compose.icons.materialdesignicons.SeatReclineExtra
+import compose.icons.materialdesignicons.SeatReclineNormal
+import compose.icons.materialdesignicons.Seatbelt
+import compose.icons.materialdesignicons.Security
+import compose.icons.materialdesignicons.SecurityNetwork
+import compose.icons.materialdesignicons.Seed
+import compose.icons.materialdesignicons.SeedOff
+import compose.icons.materialdesignicons.SeedOffOutline
+import compose.icons.materialdesignicons.SeedOutline
+import compose.icons.materialdesignicons.SeedPlus
+import compose.icons.materialdesignicons.SeedPlusOutline
+import compose.icons.materialdesignicons.Seesaw
+import compose.icons.materialdesignicons.Segment
+import compose.icons.materialdesignicons.Select
+import compose.icons.materialdesignicons.SelectAll
+import compose.icons.materialdesignicons.SelectArrowDown
+import compose.icons.materialdesignicons.SelectArrowUp
+import compose.icons.materialdesignicons.SelectColor
+import compose.icons.materialdesignicons.SelectCompare
+import compose.icons.materialdesignicons.SelectDrag
+import compose.icons.materialdesignicons.SelectGroup
+import compose.icons.materialdesignicons.SelectInverse
+import compose.icons.materialdesignicons.SelectMarker
+import compose.icons.materialdesignicons.SelectMultiple
+import compose.icons.materialdesignicons.SelectMultipleMarker
+import compose.icons.materialdesignicons.SelectOff
+import compose.icons.materialdesignicons.SelectPlace
+import compose.icons.materialdesignicons.SelectRemove
+import compose.icons.materialdesignicons.SelectSearch
+import compose.icons.materialdesignicons.Selection
+import compose.icons.materialdesignicons.SelectionDrag
+import compose.icons.materialdesignicons.SelectionEllipse
+import compose.icons.materialdesignicons.SelectionEllipseArrowInside
+import compose.icons.materialdesignicons.SelectionEllipseRemove
+import compose.icons.materialdesignicons.SelectionMarker
+import compose.icons.materialdesignicons.SelectionMultiple
+import compose.icons.materialdesignicons.SelectionMultipleMarker
+import compose.icons.materialdesignicons.SelectionOff
+import compose.icons.materialdesignicons.SelectionRemove
+import compose.icons.materialdesignicons.SelectionSearch
+import compose.icons.materialdesignicons.SemanticWeb
+import compose.icons.materialdesignicons.Send
+import compose.icons.materialdesignicons.SendCheck
+import compose.icons.materialdesignicons.SendCheckOutline
+import compose.icons.materialdesignicons.SendCircle
+import compose.icons.materialdesignicons.SendCircleOutline
+import compose.icons.materialdesignicons.SendClock
+import compose.icons.materialdesignicons.SendClockOutline
+import compose.icons.materialdesignicons.SendLock
+import compose.icons.materialdesignicons.SendLockOutline
+import compose.icons.materialdesignicons.SendOutline
+import compose.icons.materialdesignicons.SerialPort
+import compose.icons.materialdesignicons.Server
+import compose.icons.materialdesignicons.ServerMinus
+import compose.icons.materialdesignicons.ServerNetwork
+import compose.icons.materialdesignicons.ServerNetworkOff
+import compose.icons.materialdesignicons.ServerOff
+import compose.icons.materialdesignicons.ServerPlus
+import compose.icons.materialdesignicons.ServerRemove
+import compose.icons.materialdesignicons.ServerSecurity
+import compose.icons.materialdesignicons.SetAll
+import compose.icons.materialdesignicons.SetCenter
+import compose.icons.materialdesignicons.SetCenterRight
+import compose.icons.materialdesignicons.SetLeft
+import compose.icons.materialdesignicons.SetLeftCenter
+import compose.icons.materialdesignicons.SetLeftRight
+import compose.icons.materialdesignicons.SetMerge
+import compose.icons.materialdesignicons.SetNone
+import compose.icons.materialdesignicons.SetRight
+import compose.icons.materialdesignicons.SetSplit
+import compose.icons.materialdesignicons.SetSquare
+import compose.icons.materialdesignicons.SetTopBox
+import compose.icons.materialdesignicons.SettingsHelper
+import compose.icons.materialdesignicons.Shaker
+import compose.icons.materialdesignicons.ShakerOutline
+import compose.icons.materialdesignicons.Shape
+import compose.icons.materialdesignicons.ShapeCirclePlus
+import compose.icons.materialdesignicons.ShapeOutline
+import compose.icons.materialdesignicons.ShapeOvalPlus
+import compose.icons.materialdesignicons.ShapePlus
+import compose.icons.materialdesignicons.ShapePolygonPlus
+import compose.icons.materialdesignicons.ShapeRectanglePlus
+import compose.icons.materialdesignicons.ShapeSquarePlus
+import compose.icons.materialdesignicons.ShapeSquareRoundedPlus
+import compose.icons.materialdesignicons.Share
+import compose.icons.materialdesignicons.ShareAll
+import compose.icons.materialdesignicons.ShareAllOutline
+import compose.icons.materialdesignicons.ShareCircle
+import compose.icons.materialdesignicons.ShareOff
+import compose.icons.materialdesignicons.ShareOffOutline
+import compose.icons.materialdesignicons.ShareOutline
+import compose.icons.materialdesignicons.ShareVariant
+import compose.icons.materialdesignicons.ShareVariantOutline
+import compose.icons.materialdesignicons.Shark
+import compose.icons.materialdesignicons.SharkFin
+import compose.icons.materialdesignicons.SharkFinOutline
+import compose.icons.materialdesignicons.SharkOff
+import compose.icons.materialdesignicons.Sheep
+import compose.icons.materialdesignicons.Shield
+import compose.icons.materialdesignicons.ShieldAccount
+import compose.icons.materialdesignicons.ShieldAccountOutline
+import compose.icons.materialdesignicons.ShieldAccountVariant
+import compose.icons.materialdesignicons.ShieldAccountVariantOutline
+import compose.icons.materialdesignicons.ShieldAirplane
+import compose.icons.materialdesignicons.ShieldAirplaneOutline
+import compose.icons.materialdesignicons.ShieldAlert
+import compose.icons.materialdesignicons.ShieldAlertOutline
+import compose.icons.materialdesignicons.ShieldBug
+import compose.icons.materialdesignicons.ShieldBugOutline
+import compose.icons.materialdesignicons.ShieldCar
+import compose.icons.materialdesignicons.ShieldCheck
+import compose.icons.materialdesignicons.ShieldCheckOutline
+import compose.icons.materialdesignicons.ShieldCross
+import compose.icons.materialdesignicons.ShieldCrossOutline
+import compose.icons.materialdesignicons.ShieldCrown
+import compose.icons.materialdesignicons.ShieldCrownOutline
+import compose.icons.materialdesignicons.ShieldEdit
+import compose.icons.materialdesignicons.ShieldEditOutline
+import compose.icons.materialdesignicons.ShieldHalf
+import compose.icons.materialdesignicons.ShieldHalfFull
+import compose.icons.materialdesignicons.ShieldHome
+import compose.icons.materialdesignicons.ShieldHomeOutline
+import compose.icons.materialdesignicons.ShieldKey
+import compose.icons.materialdesignicons.ShieldKeyOutline
+import compose.icons.materialdesignicons.ShieldLinkVariant
+import compose.icons.materialdesignicons.ShieldLinkVariantOutline
+import compose.icons.materialdesignicons.ShieldLock
+import compose.icons.materialdesignicons.ShieldLockOpen
+import compose.icons.materialdesignicons.ShieldLockOpenOutline
+import compose.icons.materialdesignicons.ShieldLockOutline
+import compose.icons.materialdesignicons.ShieldMoon
+import compose.icons.materialdesignicons.ShieldMoonOutline
+import compose.icons.materialdesignicons.ShieldOff
+import compose.icons.materialdesignicons.ShieldOffOutline
+import compose.icons.materialdesignicons.ShieldOutline
+import compose.icons.materialdesignicons.ShieldPlus
+import compose.icons.materialdesignicons.ShieldPlusOutline
+import compose.icons.materialdesignicons.ShieldRefresh
+import compose.icons.materialdesignicons.ShieldRefreshOutline
+import compose.icons.materialdesignicons.ShieldRemove
+import compose.icons.materialdesignicons.ShieldRemoveOutline
+import compose.icons.materialdesignicons.ShieldSearch
+import compose.icons.materialdesignicons.ShieldStar
+import compose.icons.materialdesignicons.ShieldStarOutline
+import compose.icons.materialdesignicons.ShieldSun
+import compose.icons.materialdesignicons.ShieldSunOutline
+import compose.icons.materialdesignicons.ShieldSword
+import compose.icons.materialdesignicons.ShieldSwordOutline
+import compose.icons.materialdesignicons.ShieldSync
+import compose.icons.materialdesignicons.ShieldSyncOutline
+import compose.icons.materialdesignicons.Shimmer
+import compose.icons.materialdesignicons.ShipWheel
+import compose.icons.materialdesignicons.ShippingPallet
+import compose.icons.materialdesignicons.ShoeBallet
+import compose.icons.materialdesignicons.ShoeCleat
+import compose.icons.materialdesignicons.ShoeFormal
+import compose.icons.materialdesignicons.ShoeHeel
+import compose.icons.materialdesignicons.ShoePrint
+import compose.icons.materialdesignicons.ShoeSneaker
+import compose.icons.materialdesignicons.Shopping
+import compose.icons.materialdesignicons.ShoppingMusic
+import compose.icons.materialdesignicons.ShoppingOutline
+import compose.icons.materialdesignicons.ShoppingSearch
+import compose.icons.materialdesignicons.ShoppingSearchOutline
+import compose.icons.materialdesignicons.Shore
+import compose.icons.materialdesignicons.Shovel
+import compose.icons.materialdesignicons.ShovelOff
+import compose.icons.materialdesignicons.Shower
+import compose.icons.materialdesignicons.ShowerHead
+import compose.icons.materialdesignicons.Shredder
+import compose.icons.materialdesignicons.Shuffle
+import compose.icons.materialdesignicons.ShuffleDisabled
+import compose.icons.materialdesignicons.ShuffleVariant
+import compose.icons.materialdesignicons.Shuriken
+import compose.icons.materialdesignicons.Sickle
+import compose.icons.materialdesignicons.Sigma
+import compose.icons.materialdesignicons.SigmaLower
+import compose.icons.materialdesignicons.SignCaution
+import compose.icons.materialdesignicons.SignDirection
+import compose.icons.materialdesignicons.SignDirectionMinus
+import compose.icons.materialdesignicons.SignDirectionPlus
+import compose.icons.materialdesignicons.SignDirectionRemove
+import compose.icons.materialdesignicons.SignLanguage
+import compose.icons.materialdesignicons.SignLanguageOutline
+import compose.icons.materialdesignicons.SignPole
+import compose.icons.materialdesignicons.SignRealEstate
+import compose.icons.materialdesignicons.SignText
+import compose.icons.materialdesignicons.SignYield
+import compose.icons.materialdesignicons.Signal
+import compose.icons.materialdesignicons.Signal2g
+import compose.icons.materialdesignicons.Signal3g
+import compose.icons.materialdesignicons.Signal4g
+import compose.icons.materialdesignicons.Signal5g
+import compose.icons.materialdesignicons.SignalCellular1
+import compose.icons.materialdesignicons.SignalCellular2
+import compose.icons.materialdesignicons.SignalCellular3
+import compose.icons.materialdesignicons.SignalCellularOutline
+import compose.icons.materialdesignicons.SignalDistanceVariant
+import compose.icons.materialdesignicons.SignalHspa
+import compose.icons.materialdesignicons.SignalHspaPlus
+import compose.icons.materialdesignicons.SignalOff
+import compose.icons.materialdesignicons.SignalVariant
+import compose.icons.materialdesignicons.Signature
+import compose.icons.materialdesignicons.SignatureFreehand
+import compose.icons.materialdesignicons.SignatureImage
+import compose.icons.materialdesignicons.SignatureText
+import compose.icons.materialdesignicons.Silo
+import compose.icons.materialdesignicons.SiloOutline
+import compose.icons.materialdesignicons.Silverware
+import compose.icons.materialdesignicons.SilverwareClean
+import compose.icons.materialdesignicons.SilverwareFork
+import compose.icons.materialdesignicons.SilverwareForkKnife
+import compose.icons.materialdesignicons.SilverwareSpoon
+import compose.icons.materialdesignicons.SilverwareVariant
+import compose.icons.materialdesignicons.Sim
+import compose.icons.materialdesignicons.SimAlert
+import compose.icons.materialdesignicons.SimAlertOutline
+import compose.icons.materialdesignicons.SimOff
+import compose.icons.materialdesignicons.SimOffOutline
+import compose.icons.materialdesignicons.SimOutline
+import compose.icons.materialdesignicons.SimpleIcons
+import compose.icons.materialdesignicons.SinaWeibo
+import compose.icons.materialdesignicons.SineWave
+import compose.icons.materialdesignicons.Sitemap
+import compose.icons.materialdesignicons.SitemapOutline
+import compose.icons.materialdesignicons.SizeL
+import compose.icons.materialdesignicons.SizeM
+import compose.icons.materialdesignicons.SizeS
+import compose.icons.materialdesignicons.SizeXl
+import compose.icons.materialdesignicons.SizeXs
+import compose.icons.materialdesignicons.SizeXxl
+import compose.icons.materialdesignicons.SizeXxs
+import compose.icons.materialdesignicons.SizeXxxl
+import compose.icons.materialdesignicons.Skate
+import compose.icons.materialdesignicons.SkateOff
+import compose.icons.materialdesignicons.Skateboard
+import compose.icons.materialdesignicons.Skateboarding
+import compose.icons.materialdesignicons.SkewLess
+import compose.icons.materialdesignicons.SkewMore
+import compose.icons.materialdesignicons.Ski
+import compose.icons.materialdesignicons.SkiCrossCountry
+import compose.icons.materialdesignicons.SkiWater
+import compose.icons.materialdesignicons.SkipBackward
+import compose.icons.materialdesignicons.SkipBackwardOutline
+import compose.icons.materialdesignicons.SkipForward
+import compose.icons.materialdesignicons.SkipForwardOutline
+import compose.icons.materialdesignicons.SkipNext
+import compose.icons.materialdesignicons.SkipNextCircle
+import compose.icons.materialdesignicons.SkipNextCircleOutline
+import compose.icons.materialdesignicons.SkipNextOutline
+import compose.icons.materialdesignicons.SkipPrevious
+import compose.icons.materialdesignicons.SkipPreviousCircle
+import compose.icons.materialdesignicons.SkipPreviousCircleOutline
+import compose.icons.materialdesignicons.SkipPreviousOutline
+import compose.icons.materialdesignicons.Skull
+import compose.icons.materialdesignicons.SkullCrossbones
+import compose.icons.materialdesignicons.SkullCrossbonesOutline
+import compose.icons.materialdesignicons.SkullOutline
+import compose.icons.materialdesignicons.SkullScan
+import compose.icons.materialdesignicons.SkullScanOutline
+import compose.icons.materialdesignicons.Skype
+import compose.icons.materialdesignicons.SkypeBusiness
+import compose.icons.materialdesignicons.Slack
+import compose.icons.materialdesignicons.SlashForward
+import compose.icons.materialdesignicons.SlashForwardBox
+import compose.icons.materialdesignicons.Sledding
+import compose.icons.materialdesignicons.Sleep
+import compose.icons.materialdesignicons.SleepOff
+import compose.icons.materialdesignicons.Slide
+import compose.icons.materialdesignicons.SlopeDownhill
+import compose.icons.materialdesignicons.SlopeUphill
+import compose.icons.materialdesignicons.SlotMachine
+import compose.icons.materialdesignicons.SlotMachineOutline
+import compose.icons.materialdesignicons.SmartCard
+import compose.icons.materialdesignicons.SmartCardOff
+import compose.icons.materialdesignicons.SmartCardOffOutline
+import compose.icons.materialdesignicons.SmartCardOutline
+import compose.icons.materialdesignicons.SmartCardReader
+import compose.icons.materialdesignicons.SmartCardReaderOutline
+import compose.icons.materialdesignicons.Smog
+import compose.icons.materialdesignicons.Smoke
+import compose.icons.materialdesignicons.SmokeDetector
+import compose.icons.materialdesignicons.SmokeDetectorAlert
+import compose.icons.materialdesignicons.SmokeDetectorAlertOutline
+import compose.icons.materialdesignicons.SmokeDetectorOff
+import compose.icons.materialdesignicons.SmokeDetectorOffOutline
+import compose.icons.materialdesignicons.SmokeDetectorOutline
+import compose.icons.materialdesignicons.SmokeDetectorVariant
+import compose.icons.materialdesignicons.SmokeDetectorVariantAlert
+import compose.icons.materialdesignicons.SmokeDetectorVariantOff
+import compose.icons.materialdesignicons.Smoking
+import compose.icons.materialdesignicons.SmokingOff
+import compose.icons.materialdesignicons.SmokingPipe
+import compose.icons.materialdesignicons.SmokingPipeOff
+import compose.icons.materialdesignicons.Snail
+import compose.icons.materialdesignicons.Snake
+import compose.icons.materialdesignicons.Snapchat
+import compose.icons.materialdesignicons.Snowboard
+import compose.icons.materialdesignicons.Snowflake
+import compose.icons.materialdesignicons.SnowflakeAlert
+import compose.icons.materialdesignicons.SnowflakeCheck
+import compose.icons.materialdesignicons.SnowflakeMelt
+import compose.icons.materialdesignicons.SnowflakeOff
+import compose.icons.materialdesignicons.SnowflakeThermometer
+import compose.icons.materialdesignicons.SnowflakeVariant
+import compose.icons.materialdesignicons.Snowman
+import compose.icons.materialdesignicons.Snowmobile
+import compose.icons.materialdesignicons.Snowshoeing
+import compose.icons.materialdesignicons.Soccer
+import compose.icons.materialdesignicons.SoccerField
+import compose.icons.materialdesignicons.SocialDistance2Meters
+import compose.icons.materialdesignicons.SocialDistance6Feet
+import compose.icons.materialdesignicons.Sofa
+import compose.icons.materialdesignicons.SofaOutline
+import compose.icons.materialdesignicons.SofaSingle
+import compose.icons.materialdesignicons.SofaSingleOutline
+import compose.icons.materialdesignicons.SolarPanel
+import compose.icons.materialdesignicons.SolarPanelLarge
+import compose.icons.materialdesignicons.SolarPower
+import compose.icons.materialdesignicons.SolarPowerVariant
+import compose.icons.materialdesignicons.SolarPowerVariantOutline
+import compose.icons.materialdesignicons.SolderingIron
+import compose.icons.materialdesignicons.Solid
+import compose.icons.materialdesignicons.SonyPlaystation
+import compose.icons.materialdesignicons.Sort
+import compose.icons.materialdesignicons.SortAlphabeticalAscending
+import compose.icons.materialdesignicons.SortAlphabeticalAscendingVariant
+import compose.icons.materialdesignicons.SortAlphabeticalDescending
+import compose.icons.materialdesignicons.SortAlphabeticalDescendingVariant
+import compose.icons.materialdesignicons.SortAlphabeticalVariant
+import compose.icons.materialdesignicons.SortAscending
+import compose.icons.materialdesignicons.SortBoolAscending
+import compose.icons.materialdesignicons.SortBoolAscendingVariant
+import compose.icons.materialdesignicons.SortBoolDescending
+import compose.icons.materialdesignicons.SortBoolDescendingVariant
+import compose.icons.materialdesignicons.SortCalendarAscending
+import compose.icons.materialdesignicons.SortCalendarDescending
+import compose.icons.materialdesignicons.SortClockAscending
+import compose.icons.materialdesignicons.SortClockAscendingOutline
+import compose.icons.materialdesignicons.SortClockDescending
+import compose.icons.materialdesignicons.SortClockDescendingOutline
+import compose.icons.materialdesignicons.SortDescending
+import compose.icons.materialdesignicons.SortNumericAscending
+import compose.icons.materialdesignicons.SortNumericAscendingVariant
+import compose.icons.materialdesignicons.SortNumericDescending
+import compose.icons.materialdesignicons.SortNumericDescendingVariant
+import compose.icons.materialdesignicons.SortNumericVariant
+import compose.icons.materialdesignicons.SortReverseVariant
+import compose.icons.materialdesignicons.SortVariant
+import compose.icons.materialdesignicons.SortVariantLock
+import compose.icons.materialdesignicons.SortVariantLockOpen
+import compose.icons.materialdesignicons.SortVariantOff
+import compose.icons.materialdesignicons.SortVariantRemove
+import compose.icons.materialdesignicons.Soundbar
+import compose.icons.materialdesignicons.Soundcloud
+import compose.icons.materialdesignicons.SourceBranch
+import compose.icons.materialdesignicons.SourceBranchCheck
+import compose.icons.materialdesignicons.SourceBranchMinus
+import compose.icons.materialdesignicons.SourceBranchPlus
+import compose.icons.materialdesignicons.SourceBranchRefresh
+import compose.icons.materialdesignicons.SourceBranchRemove
+import compose.icons.materialdesignicons.SourceBranchSync
+import compose.icons.materialdesignicons.SourceCommit
+import compose.icons.materialdesignicons.SourceCommitEnd
+import compose.icons.materialdesignicons.SourceCommitEndLocal
+import compose.icons.materialdesignicons.SourceCommitLocal
+import compose.icons.materialdesignicons.SourceCommitNextLocal
+import compose.icons.materialdesignicons.SourceCommitStart
+import compose.icons.materialdesignicons.SourceCommitStartNextLocal
+import compose.icons.materialdesignicons.SourceFork
+import compose.icons.materialdesignicons.SourceMerge
+import compose.icons.materialdesignicons.SourcePull
+import compose.icons.materialdesignicons.SourceRepository
+import compose.icons.materialdesignicons.SourceRepositoryMultiple
+import compose.icons.materialdesignicons.SoySauce
+import compose.icons.materialdesignicons.SoySauceOff
+import compose.icons.materialdesignicons.Spa
+import compose.icons.materialdesignicons.SpaOutline
+import compose.icons.materialdesignicons.SpaceInvaders
+import compose.icons.materialdesignicons.SpaceStation
+import compose.icons.materialdesignicons.Spade
+import compose.icons.materialdesignicons.Speaker
+import compose.icons.materialdesignicons.SpeakerBluetooth
+import compose.icons.materialdesignicons.SpeakerMessage
+import compose.icons.materialdesignicons.SpeakerMultiple
+import compose.icons.materialdesignicons.SpeakerOff
+import compose.icons.materialdesignicons.SpeakerPause
+import compose.icons.materialdesignicons.SpeakerPlay
+import compose.icons.materialdesignicons.SpeakerStop
+import compose.icons.materialdesignicons.SpeakerWireless
+import compose.icons.materialdesignicons.Spear
+import compose.icons.materialdesignicons.Speedometer
+import compose.icons.materialdesignicons.SpeedometerMedium
+import compose.icons.materialdesignicons.SpeedometerSlow
+import compose.icons.materialdesignicons.Spellcheck
+import compose.icons.materialdesignicons.Sphere
+import compose.icons.materialdesignicons.SphereOff
+import compose.icons.materialdesignicons.Spider
+import compose.icons.materialdesignicons.SpiderThread
+import compose.icons.materialdesignicons.SpiderWeb
+import compose.icons.materialdesignicons.SpiritLevel
+import compose.icons.materialdesignicons.SpoonSugar
+import compose.icons.materialdesignicons.Spotify
+import compose.icons.materialdesignicons.Spotlight
+import compose.icons.materialdesignicons.SpotlightBeam
+import compose.icons.materialdesignicons.Spray
+import compose.icons.materialdesignicons.SprayBottle
+import compose.icons.materialdesignicons.Sprinkler
+import compose.icons.materialdesignicons.SprinklerFire
+import compose.icons.materialdesignicons.SprinklerVariant
+import compose.icons.materialdesignicons.Sprout
+import compose.icons.materialdesignicons.SproutOutline
+import compose.icons.materialdesignicons.Square
+import compose.icons.materialdesignicons.SquareCircle
+import compose.icons.materialdesignicons.SquareEditOutline
+import compose.icons.materialdesignicons.SquareMedium
+import compose.icons.materialdesignicons.SquareMediumOutline
+import compose.icons.materialdesignicons.SquareOff
+import compose.icons.materialdesignicons.SquareOffOutline
+import compose.icons.materialdesignicons.SquareOpacity
+import compose.icons.materialdesignicons.SquareOutline
+import compose.icons.materialdesignicons.SquareRoot
+import compose.icons.materialdesignicons.SquareRootBox
+import compose.icons.materialdesignicons.SquareRounded
+import compose.icons.materialdesignicons.SquareRoundedBadge
+import compose.icons.materialdesignicons.SquareRoundedBadgeOutline
+import compose.icons.materialdesignicons.SquareRoundedOutline
+import compose.icons.materialdesignicons.SquareSmall
+import compose.icons.materialdesignicons.SquareWave
+import compose.icons.materialdesignicons.Squeegee
+import compose.icons.materialdesignicons.Ssh
+import compose.icons.materialdesignicons.StackExchange
+import compose.icons.materialdesignicons.StackOverflow
+import compose.icons.materialdesignicons.Stackpath
+import compose.icons.materialdesignicons.Stadium
+import compose.icons.materialdesignicons.StadiumOutline
+import compose.icons.materialdesignicons.StadiumVariant
+import compose.icons.materialdesignicons.Stairs
+import compose.icons.materialdesignicons.StairsBox
+import compose.icons.materialdesignicons.StairsDown
+import compose.icons.materialdesignicons.StairsUp
+import compose.icons.materialdesignicons.Stamper
+import compose.icons.materialdesignicons.StandardDefinition
+import compose.icons.materialdesignicons.Star
+import compose.icons.materialdesignicons.StarBox
+import compose.icons.materialdesignicons.StarBoxMultiple
+import compose.icons.materialdesignicons.StarBoxMultipleOutline
+import compose.icons.materialdesignicons.StarBoxOutline
+import compose.icons.materialdesignicons.StarCheck
+import compose.icons.materialdesignicons.StarCheckOutline
+import compose.icons.materialdesignicons.StarCircle
+import compose.icons.materialdesignicons.StarCircleOutline
+import compose.icons.materialdesignicons.StarCog
+import compose.icons.materialdesignicons.StarCogOutline
+import compose.icons.materialdesignicons.StarCrescent
+import compose.icons.materialdesignicons.StarDavid
+import compose.icons.materialdesignicons.StarFace
+import compose.icons.materialdesignicons.StarFourPoints
+import compose.icons.materialdesignicons.StarFourPointsOutline
+import compose.icons.materialdesignicons.StarHalf
+import compose.icons.materialdesignicons.StarHalfFull
+import compose.icons.materialdesignicons.StarMinus
+import compose.icons.materialdesignicons.StarMinusOutline
+import compose.icons.materialdesignicons.StarOff
+import compose.icons.materialdesignicons.StarOffOutline
+import compose.icons.materialdesignicons.StarOutline
+import compose.icons.materialdesignicons.StarPlus
+import compose.icons.materialdesignicons.StarPlusOutline
+import compose.icons.materialdesignicons.StarRemove
+import compose.icons.materialdesignicons.StarRemoveOutline
+import compose.icons.materialdesignicons.StarSettings
+import compose.icons.materialdesignicons.StarSettingsOutline
+import compose.icons.materialdesignicons.StarShooting
+import compose.icons.materialdesignicons.StarShootingOutline
+import compose.icons.materialdesignicons.StarThreePoints
+import compose.icons.materialdesignicons.StarThreePointsOutline
+import compose.icons.materialdesignicons.StateMachine
+import compose.icons.materialdesignicons.Steam
+import compose.icons.materialdesignicons.Steering
+import compose.icons.materialdesignicons.SteeringOff
+import compose.icons.materialdesignicons.StepBackward
+import compose.icons.materialdesignicons.StepBackward2
+import compose.icons.materialdesignicons.StepForward
+import compose.icons.materialdesignicons.StepForward2
+import compose.icons.materialdesignicons.Stethoscope
+import compose.icons.materialdesignicons.Sticker
+import compose.icons.materialdesignicons.StickerAlert
+import compose.icons.materialdesignicons.StickerAlertOutline
+import compose.icons.materialdesignicons.StickerCheck
+import compose.icons.materialdesignicons.StickerCheckOutline
+import compose.icons.materialdesignicons.StickerCircleOutline
+import compose.icons.materialdesignicons.StickerEmoji
+import compose.icons.materialdesignicons.StickerMinus
+import compose.icons.materialdesignicons.StickerMinusOutline
+import compose.icons.materialdesignicons.StickerOutline
+import compose.icons.materialdesignicons.StickerPlus
+import compose.icons.materialdesignicons.StickerPlusOutline
+import compose.icons.materialdesignicons.StickerRemove
+import compose.icons.materialdesignicons.StickerRemoveOutline
+import compose.icons.materialdesignicons.StickerText
+import compose.icons.materialdesignicons.StickerTextOutline
+import compose.icons.materialdesignicons.Stocking
+import compose.icons.materialdesignicons.Stomach
+import compose.icons.materialdesignicons.Stool
+import compose.icons.materialdesignicons.StoolOutline
+import compose.icons.materialdesignicons.Stop
+import compose.icons.materialdesignicons.StopCircle
+import compose.icons.materialdesignicons.StopCircleOutline
+import compose.icons.materialdesignicons.StorageTank
+import compose.icons.materialdesignicons.StorageTankOutline
+import compose.icons.materialdesignicons.Store
+import compose.icons.materialdesignicons.Store24Hour
+import compose.icons.materialdesignicons.StoreAlert
+import compose.icons.materialdesignicons.StoreAlertOutline
+import compose.icons.materialdesignicons.StoreCheck
+import compose.icons.materialdesignicons.StoreCheckOutline
+import compose.icons.materialdesignicons.StoreClock
+import compose.icons.materialdesignicons.StoreClockOutline
+import compose.icons.materialdesignicons.StoreCog
+import compose.icons.materialdesignicons.StoreCogOutline
+import compose.icons.materialdesignicons.StoreEdit
+import compose.icons.materialdesignicons.StoreEditOutline
+import compose.icons.materialdesignicons.StoreMarker
+import compose.icons.materialdesignicons.StoreMarkerOutline
+import compose.icons.materialdesignicons.StoreMinus
+import compose.icons.materialdesignicons.StoreMinusOutline
+import compose.icons.materialdesignicons.StoreOff
+import compose.icons.materialdesignicons.StoreOffOutline
+import compose.icons.materialdesignicons.StoreOutline
+import compose.icons.materialdesignicons.StorePlus
+import compose.icons.materialdesignicons.StorePlusOutline
+import compose.icons.materialdesignicons.StoreRemove
+import compose.icons.materialdesignicons.StoreRemoveOutline
+import compose.icons.materialdesignicons.StoreSearch
+import compose.icons.materialdesignicons.StoreSearchOutline
+import compose.icons.materialdesignicons.StoreSettings
+import compose.icons.materialdesignicons.StoreSettingsOutline
+import compose.icons.materialdesignicons.Storefront
+import compose.icons.materialdesignicons.StorefrontCheck
+import compose.icons.materialdesignicons.StorefrontCheckOutline
+import compose.icons.materialdesignicons.StorefrontEdit
+import compose.icons.materialdesignicons.StorefrontEditOutline
+import compose.icons.materialdesignicons.StorefrontMinus
+import compose.icons.materialdesignicons.StorefrontMinusOutline
+import compose.icons.materialdesignicons.StorefrontOutline
+import compose.icons.materialdesignicons.StorefrontPlus
+import compose.icons.materialdesignicons.StorefrontPlusOutline
+import compose.icons.materialdesignicons.StorefrontRemove
+import compose.icons.materialdesignicons.StorefrontRemoveOutline
+import compose.icons.materialdesignicons.Stove
+import compose.icons.materialdesignicons.Strategy
+import compose.icons.materialdesignicons.StretchToPage
+import compose.icons.materialdesignicons.StretchToPageOutline
+import compose.icons.materialdesignicons.StringLights
+import compose.icons.materialdesignicons.StringLightsOff
+import compose.icons.materialdesignicons.SubdirectoryArrowLeft
+import compose.icons.materialdesignicons.SubdirectoryArrowRight
+import compose.icons.materialdesignicons.Submarine
+import compose.icons.materialdesignicons.Subtitles
+import compose.icons.materialdesignicons.SubtitlesOutline
+import compose.icons.materialdesignicons.Subway
+import compose.icons.materialdesignicons.SubwayAlertVariant
+import compose.icons.materialdesignicons.SubwayVariant
+import compose.icons.materialdesignicons.Summit
+import compose.icons.materialdesignicons.SunAngle
+import compose.icons.materialdesignicons.SunAngleOutline
+import compose.icons.materialdesignicons.SunClock
+import compose.icons.materialdesignicons.SunClockOutline
+import compose.icons.materialdesignicons.SunCompass
+import compose.icons.materialdesignicons.SunSnowflake
+import compose.icons.materialdesignicons.SunSnowflakeVariant
+import compose.icons.materialdesignicons.SunThermometer
+import compose.icons.materialdesignicons.SunThermometerOutline
+import compose.icons.materialdesignicons.SunWireless
+import compose.icons.materialdesignicons.SunWirelessOutline
+import compose.icons.materialdesignicons.Sunglasses
+import compose.icons.materialdesignicons.Surfing
+import compose.icons.materialdesignicons.SurroundSound
+import compose.icons.materialdesignicons.SurroundSound20
+import compose.icons.materialdesignicons.SurroundSound21
+import compose.icons.materialdesignicons.SurroundSound31
+import compose.icons.materialdesignicons.SurroundSound51
+import compose.icons.materialdesignicons.SurroundSound512
+import compose.icons.materialdesignicons.SurroundSound71
+import compose.icons.materialdesignicons.Svg
+import compose.icons.materialdesignicons.SwapHorizontal
+import compose.icons.materialdesignicons.SwapHorizontalBold
+import compose.icons.materialdesignicons.SwapHorizontalCircle
+import compose.icons.materialdesignicons.SwapHorizontalCircleOutline
+import compose.icons.materialdesignicons.SwapHorizontalVariant
+import compose.icons.materialdesignicons.SwapVertical
+import compose.icons.materialdesignicons.SwapVerticalBold
+import compose.icons.materialdesignicons.SwapVerticalCircle
+import compose.icons.materialdesignicons.SwapVerticalCircleOutline
+import compose.icons.materialdesignicons.SwapVerticalVariant
+import compose.icons.materialdesignicons.Swim
+import compose.icons.materialdesignicons.Switch
+import compose.icons.materialdesignicons.Sword
+import compose.icons.materialdesignicons.SwordCross
+import compose.icons.materialdesignicons.SyllabaryHangul
+import compose.icons.materialdesignicons.SyllabaryHiragana
+import compose.icons.materialdesignicons.SyllabaryKatakana
+import compose.icons.materialdesignicons.SyllabaryKatakanaHalfwidth
+import compose.icons.materialdesignicons.Symbol
+import compose.icons.materialdesignicons.Symfony
+import compose.icons.materialdesignicons.Synagogue
+import compose.icons.materialdesignicons.SynagogueOutline
+import compose.icons.materialdesignicons.Sync
+import compose.icons.materialdesignicons.SyncAlert
+import compose.icons.materialdesignicons.SyncCircle
+import compose.icons.materialdesignicons.SyncOff
+import compose.icons.materialdesignicons.Tab
+import compose.icons.materialdesignicons.TabMinus
+import compose.icons.materialdesignicons.TabPlus
+import compose.icons.materialdesignicons.TabRemove
+import compose.icons.materialdesignicons.TabSearch
+import compose.icons.materialdesignicons.TabUnselected
+import compose.icons.materialdesignicons.Table
+import compose.icons.materialdesignicons.TableAccount
+import compose.icons.materialdesignicons.TableAlert
+import compose.icons.materialdesignicons.TableArrowDown
+import compose.icons.materialdesignicons.TableArrowLeft
+import compose.icons.materialdesignicons.TableArrowRight
+import compose.icons.materialdesignicons.TableArrowUp
+import compose.icons.materialdesignicons.TableBorder
+import compose.icons.materialdesignicons.TableCancel
+import compose.icons.materialdesignicons.TableChair
+import compose.icons.materialdesignicons.TableCheck
+import compose.icons.materialdesignicons.TableClock
+import compose.icons.materialdesignicons.TableCog
+import compose.icons.materialdesignicons.TableColumn
+import compose.icons.materialdesignicons.TableColumnPlusAfter
+import compose.icons.materialdesignicons.TableColumnPlusBefore
+import compose.icons.materialdesignicons.TableColumnRemove
+import compose.icons.materialdesignicons.TableColumnWidth
+import compose.icons.materialdesignicons.TableEdit
+import compose.icons.materialdesignicons.TableEye
+import compose.icons.materialdesignicons.TableEyeOff
+import compose.icons.materialdesignicons.TableFilter
+import compose.icons.materialdesignicons.TableFurniture
+import compose.icons.materialdesignicons.TableHeadersEye
+import compose.icons.materialdesignicons.TableHeadersEyeOff
+import compose.icons.materialdesignicons.TableHeart
+import compose.icons.materialdesignicons.TableKey
+import compose.icons.materialdesignicons.TableLarge
+import compose.icons.materialdesignicons.TableLargePlus
+import compose.icons.materialdesignicons.TableLargeRemove
+import compose.icons.materialdesignicons.TableLock
+import compose.icons.materialdesignicons.TableMergeCells
+import compose.icons.materialdesignicons.TableMinus
+import compose.icons.materialdesignicons.TableMultiple
+import compose.icons.materialdesignicons.TableNetwork
+import compose.icons.materialdesignicons.TableOfContents
+import compose.icons.materialdesignicons.TableOff
+import compose.icons.materialdesignicons.TablePicnic
+import compose.icons.materialdesignicons.TablePivot
+import compose.icons.materialdesignicons.TablePlus
+import compose.icons.materialdesignicons.TableQuestion
+import compose.icons.materialdesignicons.TableRefresh
+import compose.icons.materialdesignicons.TableRemove
+import compose.icons.materialdesignicons.TableRow
+import compose.icons.materialdesignicons.TableRowHeight
+import compose.icons.materialdesignicons.TableRowPlusAfter
+import compose.icons.materialdesignicons.TableRowPlusBefore
+import compose.icons.materialdesignicons.TableRowRemove
+import compose.icons.materialdesignicons.TableSearch
+import compose.icons.materialdesignicons.TableSettings
+import compose.icons.materialdesignicons.TableSplitCell
+import compose.icons.materialdesignicons.TableStar
+import compose.icons.materialdesignicons.TableSync
+import compose.icons.materialdesignicons.TableTennis
+import compose.icons.materialdesignicons.Tablet
+import compose.icons.materialdesignicons.TabletCellphone
+import compose.icons.materialdesignicons.TabletDashboard
+import compose.icons.materialdesignicons.Taco
+import compose.icons.materialdesignicons.Tag
+import compose.icons.materialdesignicons.TagArrowDown
+import compose.icons.materialdesignicons.TagArrowDownOutline
+import compose.icons.materialdesignicons.TagArrowLeft
+import compose.icons.materialdesignicons.TagArrowLeftOutline
+import compose.icons.materialdesignicons.TagArrowRight
+import compose.icons.materialdesignicons.TagArrowRightOutline
+import compose.icons.materialdesignicons.TagArrowUp
+import compose.icons.materialdesignicons.TagArrowUpOutline
+import compose.icons.materialdesignicons.TagCheck
+import compose.icons.materialdesignicons.TagCheckOutline
+import compose.icons.materialdesignicons.TagFaces
+import compose.icons.materialdesignicons.TagHeart
+import compose.icons.materialdesignicons.TagHeartOutline
+import compose.icons.materialdesignicons.TagMinus
+import compose.icons.materialdesignicons.TagMinusOutline
+import compose.icons.materialdesignicons.TagMultiple
+import compose.icons.materialdesignicons.TagMultipleOutline
+import compose.icons.materialdesignicons.TagOff
+import compose.icons.materialdesignicons.TagOffOutline
+import compose.icons.materialdesignicons.TagOutline
+import compose.icons.materialdesignicons.TagPlus
+import compose.icons.materialdesignicons.TagPlusOutline
+import compose.icons.materialdesignicons.TagRemove
+import compose.icons.materialdesignicons.TagRemoveOutline
+import compose.icons.materialdesignicons.TagSearch
+import compose.icons.materialdesignicons.TagSearchOutline
+import compose.icons.materialdesignicons.TagText
+import compose.icons.materialdesignicons.TagTextOutline
+import compose.icons.materialdesignicons.Tailwind
+import compose.icons.materialdesignicons.TallyMark1
+import compose.icons.materialdesignicons.TallyMark2
+import compose.icons.materialdesignicons.TallyMark3
+import compose.icons.materialdesignicons.TallyMark4
+import compose.icons.materialdesignicons.TallyMark5
+import compose.icons.materialdesignicons.Tangram
+import compose.icons.materialdesignicons.Tank
+import compose.icons.materialdesignicons.TankerTruck
+import compose.icons.materialdesignicons.TapeDrive
+import compose.icons.materialdesignicons.TapeMeasure
+import compose.icons.materialdesignicons.Target
+import compose.icons.materialdesignicons.TargetAccount
+import compose.icons.materialdesignicons.TargetVariant
+import compose.icons.materialdesignicons.Taxi
+import compose.icons.materialdesignicons.Tea
+import compose.icons.materialdesignicons.TeaOutline
+import compose.icons.materialdesignicons.Teamviewer
+import compose.icons.materialdesignicons.TeddyBear
+import compose.icons.materialdesignicons.Telescope
+import compose.icons.materialdesignicons.Television
+import compose.icons.materialdesignicons.TelevisionAmbientLight
+import compose.icons.materialdesignicons.TelevisionBox
+import compose.icons.materialdesignicons.TelevisionClassic
+import compose.icons.materialdesignicons.TelevisionClassicOff
+import compose.icons.materialdesignicons.TelevisionGuide
+import compose.icons.materialdesignicons.TelevisionOff
+import compose.icons.materialdesignicons.TelevisionPause
+import compose.icons.materialdesignicons.TelevisionPlay
+import compose.icons.materialdesignicons.TelevisionShimmer
+import compose.icons.materialdesignicons.TelevisionSpeaker
+import compose.icons.materialdesignicons.TelevisionSpeakerOff
+import compose.icons.materialdesignicons.TelevisionStop
+import compose.icons.materialdesignicons.TemperatureCelsius
+import compose.icons.materialdesignicons.TemperatureFahrenheit
+import compose.icons.materialdesignicons.TemperatureKelvin
+import compose.icons.materialdesignicons.TempleBuddhist
+import compose.icons.materialdesignicons.TempleBuddhistOutline
+import compose.icons.materialdesignicons.TempleHindu
+import compose.icons.materialdesignicons.TempleHinduOutline
+import compose.icons.materialdesignicons.Tennis
+import compose.icons.materialdesignicons.TennisBall
+import compose.icons.materialdesignicons.Tent
+import compose.icons.materialdesignicons.Terraform
+import compose.icons.materialdesignicons.Terrain
+import compose.icons.materialdesignicons.TestTube
+import compose.icons.materialdesignicons.TestTubeEmpty
+import compose.icons.materialdesignicons.TestTubeOff
+import compose.icons.materialdesignicons.Text
+import compose.icons.materialdesignicons.TextAccount
+import compose.icons.materialdesignicons.TextBox
+import compose.icons.materialdesignicons.TextBoxCheck
+import compose.icons.materialdesignicons.TextBoxCheckOutline
+import compose.icons.materialdesignicons.TextBoxEdit
+import compose.icons.materialdesignicons.TextBoxEditOutline
+import compose.icons.materialdesignicons.TextBoxMinus
+import compose.icons.materialdesignicons.TextBoxMinusOutline
+import compose.icons.materialdesignicons.TextBoxMultiple
+import compose.icons.materialdesignicons.TextBoxMultipleOutline
+import compose.icons.materialdesignicons.TextBoxOutline
+import compose.icons.materialdesignicons.TextBoxPlus
+import compose.icons.materialdesignicons.TextBoxPlusOutline
+import compose.icons.materialdesignicons.TextBoxRemove
+import compose.icons.materialdesignicons.TextBoxRemoveOutline
+import compose.icons.materialdesignicons.TextBoxSearch
+import compose.icons.materialdesignicons.TextBoxSearchOutline
+import compose.icons.materialdesignicons.TextLong
+import compose.icons.materialdesignicons.TextRecognition
+import compose.icons.materialdesignicons.TextSearch
+import compose.icons.materialdesignicons.TextSearchVariant
+import compose.icons.materialdesignicons.TextShadow
+import compose.icons.materialdesignicons.TextShort
+import compose.icons.materialdesignicons.Texture
+import compose.icons.materialdesignicons.TextureBox
+import compose.icons.materialdesignicons.Theater
+import compose.icons.materialdesignicons.ThemeLightDark
+import compose.icons.materialdesignicons.Thermometer
+import compose.icons.materialdesignicons.ThermometerAlert
+import compose.icons.materialdesignicons.ThermometerAuto
+import compose.icons.materialdesignicons.ThermometerBluetooth
+import compose.icons.materialdesignicons.ThermometerCheck
+import compose.icons.materialdesignicons.ThermometerChevronDown
+import compose.icons.materialdesignicons.ThermometerChevronUp
+import compose.icons.materialdesignicons.ThermometerHigh
+import compose.icons.materialdesignicons.ThermometerLines
+import compose.icons.materialdesignicons.ThermometerLow
+import compose.icons.materialdesignicons.ThermometerMinus
+import compose.icons.materialdesignicons.ThermometerOff
+import compose.icons.materialdesignicons.ThermometerPlus
+import compose.icons.materialdesignicons.ThermometerProbe
+import compose.icons.materialdesignicons.ThermometerProbeOff
+import compose.icons.materialdesignicons.ThermometerWater
+import compose.icons.materialdesignicons.Thermostat
+import compose.icons.materialdesignicons.ThermostatAuto
+import compose.icons.materialdesignicons.ThermostatBox
+import compose.icons.materialdesignicons.ThermostatBoxAuto
+import compose.icons.materialdesignicons.ThoughtBubble
+import compose.icons.materialdesignicons.ThoughtBubbleOutline
+import compose.icons.materialdesignicons.ThumbDown
+import compose.icons.materialdesignicons.ThumbDownOutline
+import compose.icons.materialdesignicons.ThumbUp
+import compose.icons.materialdesignicons.ThumbUpOutline
+import compose.icons.materialdesignicons.ThumbsUpDown
+import compose.icons.materialdesignicons.ThumbsUpDownOutline
+import compose.icons.materialdesignicons.Ticket
+import compose.icons.materialdesignicons.TicketAccount
+import compose.icons.materialdesignicons.TicketConfirmation
+import compose.icons.materialdesignicons.TicketConfirmationOutline
+import compose.icons.materialdesignicons.TicketOutline
+import compose.icons.materialdesignicons.TicketPercent
+import compose.icons.materialdesignicons.TicketPercentOutline
+import compose.icons.materialdesignicons.Tie
+import compose.icons.materialdesignicons.Tilde
+import compose.icons.materialdesignicons.TildeOff
+import compose.icons.materialdesignicons.Timelapse
+import compose.icons.materialdesignicons.Timeline
+import compose.icons.materialdesignicons.TimelineAlert
+import compose.icons.materialdesignicons.TimelineAlertOutline
+import compose.icons.materialdesignicons.TimelineCheck
+import compose.icons.materialdesignicons.TimelineCheckOutline
+import compose.icons.materialdesignicons.TimelineClock
+import compose.icons.materialdesignicons.TimelineClockOutline
+import compose.icons.materialdesignicons.TimelineMinus
+import compose.icons.materialdesignicons.TimelineMinusOutline
+import compose.icons.materialdesignicons.TimelineOutline
+import compose.icons.materialdesignicons.TimelinePlus
+import compose.icons.materialdesignicons.TimelinePlusOutline
+import compose.icons.materialdesignicons.TimelineQuestion
+import compose.icons.materialdesignicons.TimelineQuestionOutline
+import compose.icons.materialdesignicons.TimelineRemove
+import compose.icons.materialdesignicons.TimelineRemoveOutline
+import compose.icons.materialdesignicons.TimelineText
+import compose.icons.materialdesignicons.TimelineTextOutline
+import compose.icons.materialdesignicons.Timer
+import compose.icons.materialdesignicons.Timer10
+import compose.icons.materialdesignicons.Timer3
+import compose.icons.materialdesignicons.TimerAlert
+import compose.icons.materialdesignicons.TimerAlertOutline
+import compose.icons.materialdesignicons.TimerCancel
+import compose.icons.materialdesignicons.TimerCancelOutline
+import compose.icons.materialdesignicons.TimerCheck
+import compose.icons.materialdesignicons.TimerCheckOutline
+import compose.icons.materialdesignicons.TimerCog
+import compose.icons.materialdesignicons.TimerCogOutline
+import compose.icons.materialdesignicons.TimerEdit
+import compose.icons.materialdesignicons.TimerEditOutline
+import compose.icons.materialdesignicons.TimerLock
+import compose.icons.materialdesignicons.TimerLockOpen
+import compose.icons.materialdesignicons.TimerLockOpenOutline
+import compose.icons.materialdesignicons.TimerLockOutline
+import compose.icons.materialdesignicons.TimerMarker
+import compose.icons.materialdesignicons.TimerMarkerOutline
+import compose.icons.materialdesignicons.TimerMinus
+import compose.icons.materialdesignicons.TimerMinusOutline
+import compose.icons.materialdesignicons.TimerMusic
+import compose.icons.materialdesignicons.TimerMusicOutline
+import compose.icons.materialdesignicons.TimerOff
+import compose.icons.materialdesignicons.TimerOffOutline
+import compose.icons.materialdesignicons.TimerOutline
+import compose.icons.materialdesignicons.TimerPause
+import compose.icons.materialdesignicons.TimerPauseOutline
+import compose.icons.materialdesignicons.TimerPlay
+import compose.icons.materialdesignicons.TimerPlayOutline
+import compose.icons.materialdesignicons.TimerPlus
+import compose.icons.materialdesignicons.TimerPlusOutline
+import compose.icons.materialdesignicons.TimerRefresh
+import compose.icons.materialdesignicons.TimerRefreshOutline
+import compose.icons.materialdesignicons.TimerRemove
+import compose.icons.materialdesignicons.TimerRemoveOutline
+import compose.icons.materialdesignicons.TimerSand
+import compose.icons.materialdesignicons.TimerSandComplete
+import compose.icons.materialdesignicons.TimerSandEmpty
+import compose.icons.materialdesignicons.TimerSandFull
+import compose.icons.materialdesignicons.TimerSandPaused
+import compose.icons.materialdesignicons.TimerSettings
+import compose.icons.materialdesignicons.TimerSettingsOutline
+import compose.icons.materialdesignicons.TimerStar
+import compose.icons.materialdesignicons.TimerStarOutline
+import compose.icons.materialdesignicons.TimerStop
+import compose.icons.materialdesignicons.TimerStopOutline
+import compose.icons.materialdesignicons.TimerSync
+import compose.icons.materialdesignicons.TimerSyncOutline
+import compose.icons.materialdesignicons.Timetable
+import compose.icons.materialdesignicons.Tire
+import compose.icons.materialdesignicons.Toaster
+import compose.icons.materialdesignicons.ToasterOff
+import compose.icons.materialdesignicons.ToasterOven
+import compose.icons.materialdesignicons.ToggleSwitch
+import compose.icons.materialdesignicons.ToggleSwitchOff
+import compose.icons.materialdesignicons.ToggleSwitchOffOutline
+import compose.icons.materialdesignicons.ToggleSwitchOutline
+import compose.icons.materialdesignicons.ToggleSwitchVariant
+import compose.icons.materialdesignicons.ToggleSwitchVariantOff
+import compose.icons.materialdesignicons.Toilet
+import compose.icons.materialdesignicons.Toolbox
+import compose.icons.materialdesignicons.ToolboxOutline
+import compose.icons.materialdesignicons.Tools
+import compose.icons.materialdesignicons.Tooltip
+import compose.icons.materialdesignicons.TooltipAccount
+import compose.icons.materialdesignicons.TooltipCellphone
+import compose.icons.materialdesignicons.TooltipCheck
+import compose.icons.materialdesignicons.TooltipCheckOutline
+import compose.icons.materialdesignicons.TooltipEdit
+import compose.icons.materialdesignicons.TooltipEditOutline
+import compose.icons.materialdesignicons.TooltipImage
+import compose.icons.materialdesignicons.TooltipImageOutline
+import compose.icons.materialdesignicons.TooltipMinus
+import compose.icons.materialdesignicons.TooltipMinusOutline
+import compose.icons.materialdesignicons.TooltipOutline
+import compose.icons.materialdesignicons.TooltipPlus
+import compose.icons.materialdesignicons.TooltipPlusOutline
+import compose.icons.materialdesignicons.TooltipQuestion
+import compose.icons.materialdesignicons.TooltipQuestionOutline
+import compose.icons.materialdesignicons.TooltipRemove
+import compose.icons.materialdesignicons.TooltipRemoveOutline
+import compose.icons.materialdesignicons.TooltipText
+import compose.icons.materialdesignicons.TooltipTextOutline
+import compose.icons.materialdesignicons.Tooth
+import compose.icons.materialdesignicons.ToothOutline
+import compose.icons.materialdesignicons.Toothbrush
+import compose.icons.materialdesignicons.ToothbrushElectric
+import compose.icons.materialdesignicons.ToothbrushPaste
+import compose.icons.materialdesignicons.Torch
+import compose.icons.materialdesignicons.Tortoise
+import compose.icons.materialdesignicons.Toslink
+import compose.icons.materialdesignicons.Tournament
+import compose.icons.materialdesignicons.TowTruck
+import compose.icons.materialdesignicons.TowerBeach
+import compose.icons.materialdesignicons.TowerFire
+import compose.icons.materialdesignicons.TownHall
+import compose.icons.materialdesignicons.ToyBrick
+import compose.icons.materialdesignicons.ToyBrickMarker
+import compose.icons.materialdesignicons.ToyBrickMarkerOutline
+import compose.icons.materialdesignicons.ToyBrickMinus
+import compose.icons.materialdesignicons.ToyBrickMinusOutline
+import compose.icons.materialdesignicons.ToyBrickOutline
+import compose.icons.materialdesignicons.ToyBrickPlus
+import compose.icons.materialdesignicons.ToyBrickPlusOutline
+import compose.icons.materialdesignicons.ToyBrickRemove
+import compose.icons.materialdesignicons.ToyBrickRemoveOutline
+import compose.icons.materialdesignicons.ToyBrickSearch
+import compose.icons.materialdesignicons.ToyBrickSearchOutline
+import compose.icons.materialdesignicons.TrackLight
+import compose.icons.materialdesignicons.TrackLightOff
+import compose.icons.materialdesignicons.Trackpad
+import compose.icons.materialdesignicons.TrackpadLock
+import compose.icons.materialdesignicons.Tractor
+import compose.icons.materialdesignicons.TractorVariant
+import compose.icons.materialdesignicons.Trademark
+import compose.icons.materialdesignicons.TrafficCone
+import compose.icons.materialdesignicons.TrafficLight
+import compose.icons.materialdesignicons.TrafficLightOutline
+import compose.icons.materialdesignicons.Train
+import compose.icons.materialdesignicons.TrainCar
+import compose.icons.materialdesignicons.TrainCarAutorack
+import compose.icons.materialdesignicons.TrainCarBox
+import compose.icons.materialdesignicons.TrainCarBoxFull
+import compose.icons.materialdesignicons.TrainCarBoxOpen
+import compose.icons.materialdesignicons.TrainCarCaboose
+import compose.icons.materialdesignicons.TrainCarCenterbeam
+import compose.icons.materialdesignicons.TrainCarCenterbeamFull
+import compose.icons.materialdesignicons.TrainCarContainer
+import compose.icons.materialdesignicons.TrainCarFlatbed
+import compose.icons.materialdesignicons.TrainCarFlatbedCar
+import compose.icons.materialdesignicons.TrainCarFlatbedTank
+import compose.icons.materialdesignicons.TrainCarGondola
+import compose.icons.materialdesignicons.TrainCarGondolaFull
+import compose.icons.materialdesignicons.TrainCarHopper
+import compose.icons.materialdesignicons.TrainCarHopperCovered
+import compose.icons.materialdesignicons.TrainCarHopperFull
+import compose.icons.materialdesignicons.TrainCarIntermodal
+import compose.icons.materialdesignicons.TrainCarPassenger
+import compose.icons.materialdesignicons.TrainCarPassengerDoor
+import compose.icons.materialdesignicons.TrainCarPassengerDoorOpen
+import compose.icons.materialdesignicons.TrainCarPassengerVariant
+import compose.icons.materialdesignicons.TrainCarTank
+import compose.icons.materialdesignicons.TrainVariant
+import compose.icons.materialdesignicons.Tram
+import compose.icons.materialdesignicons.TramSide
+import compose.icons.materialdesignicons.Transcribe
+import compose.icons.materialdesignicons.TranscribeClose
+import compose.icons.materialdesignicons.Transfer
+import compose.icons.materialdesignicons.TransferDown
+import compose.icons.materialdesignicons.TransferLeft
+import compose.icons.materialdesignicons.TransferRight
+import compose.icons.materialdesignicons.TransferUp
+import compose.icons.materialdesignicons.TransitConnection
+import compose.icons.materialdesignicons.TransitConnectionHorizontal
+import compose.icons.materialdesignicons.TransitConnectionVariant
+import compose.icons.materialdesignicons.TransitDetour
+import compose.icons.materialdesignicons.TransitSkip
+import compose.icons.materialdesignicons.TransitTransfer
+import compose.icons.materialdesignicons.Transition
+import compose.icons.materialdesignicons.TransitionMasked
+import compose.icons.materialdesignicons.Translate
+import compose.icons.materialdesignicons.TranslateOff
+import compose.icons.materialdesignicons.TranslateVariant
+import compose.icons.materialdesignicons.TransmissionTower
+import compose.icons.materialdesignicons.TransmissionTowerExport
+import compose.icons.materialdesignicons.TransmissionTowerImport
+import compose.icons.materialdesignicons.TransmissionTowerOff
+import compose.icons.materialdesignicons.TrashCan
+import compose.icons.materialdesignicons.TrashCanOutline
+import compose.icons.materialdesignicons.Tray
+import compose.icons.materialdesignicons.TrayAlert
+import compose.icons.materialdesignicons.TrayArrowDown
+import compose.icons.materialdesignicons.TrayArrowUp
+import compose.icons.materialdesignicons.TrayFull
+import compose.icons.materialdesignicons.TrayMinus
+import compose.icons.materialdesignicons.TrayPlus
+import compose.icons.materialdesignicons.TrayRemove
+import compose.icons.materialdesignicons.TreasureChest
+import compose.icons.materialdesignicons.Tree
+import compose.icons.materialdesignicons.TreeOutline
+import compose.icons.materialdesignicons.Trello
+import compose.icons.materialdesignicons.TrendingDown
+import compose.icons.materialdesignicons.TrendingNeutral
+import compose.icons.materialdesignicons.TrendingUp
+import compose.icons.materialdesignicons.Triangle
+import compose.icons.materialdesignicons.TriangleOutline
+import compose.icons.materialdesignicons.TriangleSmallDown
+import compose.icons.materialdesignicons.TriangleSmallUp
+import compose.icons.materialdesignicons.TriangleWave
+import compose.icons.materialdesignicons.Triforce
+import compose.icons.materialdesignicons.Trophy
+import compose.icons.materialdesignicons.TrophyAward
+import compose.icons.materialdesignicons.TrophyBroken
+import compose.icons.materialdesignicons.TrophyOutline
+import compose.icons.materialdesignicons.TrophyVariant
+import compose.icons.materialdesignicons.TrophyVariantOutline
+import compose.icons.materialdesignicons.Truck
+import compose.icons.materialdesignicons.TruckAlert
+import compose.icons.materialdesignicons.TruckAlertOutline
+import compose.icons.materialdesignicons.TruckCargoContainer
+import compose.icons.materialdesignicons.TruckCheck
+import compose.icons.materialdesignicons.TruckCheckOutline
+import compose.icons.materialdesignicons.TruckDelivery
+import compose.icons.materialdesignicons.TruckDeliveryOutline
+import compose.icons.materialdesignicons.TruckFast
+import compose.icons.materialdesignicons.TruckFastOutline
+import compose.icons.materialdesignicons.TruckFlatbed
+import compose.icons.materialdesignicons.TruckMinus
+import compose.icons.materialdesignicons.TruckMinusOutline
+import compose.icons.materialdesignicons.TruckOutline
+import compose.icons.materialdesignicons.TruckPlus
+import compose.icons.materialdesignicons.TruckPlusOutline
+import compose.icons.materialdesignicons.TruckRemove
+import compose.icons.materialdesignicons.TruckRemoveOutline
+import compose.icons.materialdesignicons.TruckSnowflake
+import compose.icons.materialdesignicons.TruckTrailer
+import compose.icons.materialdesignicons.Trumpet
+import compose.icons.materialdesignicons.TshirtCrew
+import compose.icons.materialdesignicons.TshirtCrewOutline
+import compose.icons.materialdesignicons.TshirtV
+import compose.icons.materialdesignicons.TshirtVOutline
+import compose.icons.materialdesignicons.Tsunami
+import compose.icons.materialdesignicons.TumbleDryer
+import compose.icons.materialdesignicons.TumbleDryerAlert
+import compose.icons.materialdesignicons.TumbleDryerOff
+import compose.icons.materialdesignicons.Tune
+import compose.icons.materialdesignicons.TuneVariant
+import compose.icons.materialdesignicons.TuneVertical
+import compose.icons.materialdesignicons.TuneVerticalVariant
+import compose.icons.materialdesignicons.Tunnel
+import compose.icons.materialdesignicons.TunnelOutline
+import compose.icons.materialdesignicons.Turbine
+import compose.icons.materialdesignicons.Turkey
+import compose.icons.materialdesignicons.Turnstile
+import compose.icons.materialdesignicons.TurnstileOutline
+import compose.icons.materialdesignicons.Turtle
+import compose.icons.materialdesignicons.Twitch
+import compose.icons.materialdesignicons.Twitter
+import compose.icons.materialdesignicons.TwoFactorAuthentication
+import compose.icons.materialdesignicons.Typewriter
+import compose.icons.materialdesignicons.Ubisoft
+import compose.icons.materialdesignicons.Ubuntu
+import compose.icons.materialdesignicons.Ufo
+import compose.icons.materialdesignicons.UfoOutline
+import compose.icons.materialdesignicons.UltraHighDefinition
+import compose.icons.materialdesignicons.Umbraco
+import compose.icons.materialdesignicons.Umbrella
+import compose.icons.materialdesignicons.UmbrellaBeach
+import compose.icons.materialdesignicons.UmbrellaBeachOutline
+import compose.icons.materialdesignicons.UmbrellaClosed
+import compose.icons.materialdesignicons.UmbrellaClosedOutline
+import compose.icons.materialdesignicons.UmbrellaClosedVariant
+import compose.icons.materialdesignicons.UmbrellaOutline
+import compose.icons.materialdesignicons.Undo
+import compose.icons.materialdesignicons.UndoVariant
+import compose.icons.materialdesignicons.UnfoldLessHorizontal
+import compose.icons.materialdesignicons.UnfoldLessVertical
+import compose.icons.materialdesignicons.UnfoldMoreHorizontal
+import compose.icons.materialdesignicons.UnfoldMoreVertical
+import compose.icons.materialdesignicons.Ungroup
+import compose.icons.materialdesignicons.Unicode
+import compose.icons.materialdesignicons.Unicorn
+import compose.icons.materialdesignicons.UnicornVariant
+import compose.icons.materialdesignicons.Unicycle
+import compose.icons.materialdesignicons.Unity
+import compose.icons.materialdesignicons.Unreal
+import compose.icons.materialdesignicons.Update
+import compose.icons.materialdesignicons.Upload
+import compose.icons.materialdesignicons.UploadLock
+import compose.icons.materialdesignicons.UploadLockOutline
+import compose.icons.materialdesignicons.UploadMultiple
+import compose.icons.materialdesignicons.UploadNetwork
+import compose.icons.materialdesignicons.UploadNetworkOutline
+import compose.icons.materialdesignicons.UploadOff
+import compose.icons.materialdesignicons.UploadOffOutline
+import compose.icons.materialdesignicons.UploadOutline
+import compose.icons.materialdesignicons.Usb
+import compose.icons.materialdesignicons.UsbFlashDrive
+import compose.icons.materialdesignicons.UsbFlashDriveOutline
+import compose.icons.materialdesignicons.UsbPort
+import compose.icons.materialdesignicons.Vacuum
+import compose.icons.materialdesignicons.VacuumOutline
+import compose.icons.materialdesignicons.Valve
+import compose.icons.materialdesignicons.ValveClosed
+import compose.icons.materialdesignicons.ValveOpen
+import compose.icons.materialdesignicons.VanPassenger
+import compose.icons.materialdesignicons.VanUtility
+import compose.icons.materialdesignicons.Vanish
+import compose.icons.materialdesignicons.VanishQuarter
+import compose.icons.materialdesignicons.VanityLight
+import compose.icons.materialdesignicons.Variable
+import compose.icons.materialdesignicons.VariableBox
+import compose.icons.materialdesignicons.VectorArrangeAbove
+import compose.icons.materialdesignicons.VectorArrangeBelow
+import compose.icons.materialdesignicons.VectorBezier
+import compose.icons.materialdesignicons.VectorCircle
+import compose.icons.materialdesignicons.VectorCircleVariant
+import compose.icons.materialdesignicons.VectorCombine
+import compose.icons.materialdesignicons.VectorCurve
+import compose.icons.materialdesignicons.VectorDifference
+import compose.icons.materialdesignicons.VectorDifferenceAb
+import compose.icons.materialdesignicons.VectorDifferenceBa
+import compose.icons.materialdesignicons.VectorEllipse
+import compose.icons.materialdesignicons.VectorIntersection
+import compose.icons.materialdesignicons.VectorLine
+import compose.icons.materialdesignicons.VectorLink
+import compose.icons.materialdesignicons.VectorPoint
+import compose.icons.materialdesignicons.VectorPointEdit
+import compose.icons.materialdesignicons.VectorPointMinus
+import compose.icons.materialdesignicons.VectorPointPlus
+import compose.icons.materialdesignicons.VectorPointSelect
+import compose.icons.materialdesignicons.VectorPolygon
+import compose.icons.materialdesignicons.VectorPolygonVariant
+import compose.icons.materialdesignicons.VectorPolyline
+import compose.icons.materialdesignicons.VectorPolylineEdit
+import compose.icons.materialdesignicons.VectorPolylineMinus
+import compose.icons.materialdesignicons.VectorPolylinePlus
+import compose.icons.materialdesignicons.VectorPolylineRemove
+import compose.icons.materialdesignicons.VectorRadius
+import compose.icons.materialdesignicons.VectorRectangle
+import compose.icons.materialdesignicons.VectorSelection
+import compose.icons.materialdesignicons.VectorSquare
+import compose.icons.materialdesignicons.VectorSquareClose
+import compose.icons.materialdesignicons.VectorSquareEdit
+import compose.icons.materialdesignicons.VectorSquareMinus
+import compose.icons.materialdesignicons.VectorSquareOpen
+import compose.icons.materialdesignicons.VectorSquarePlus
+import compose.icons.materialdesignicons.VectorSquareRemove
+import compose.icons.materialdesignicons.VectorTriangle
+import compose.icons.materialdesignicons.VectorUnion
+import compose.icons.materialdesignicons.Vhs
+import compose.icons.materialdesignicons.Vibrate
+import compose.icons.materialdesignicons.VibrateOff
+import compose.icons.materialdesignicons.Video
+import compose.icons.materialdesignicons.Video2d
+import compose.icons.materialdesignicons.Video3d
+import compose.icons.materialdesignicons.Video3dOff
+import compose.icons.materialdesignicons.Video3dVariant
+import compose.icons.materialdesignicons.Video4kBox
+import compose.icons.materialdesignicons.VideoAccount
+import compose.icons.materialdesignicons.VideoBox
+import compose.icons.materialdesignicons.VideoBoxOff
+import compose.icons.materialdesignicons.VideoCheck
+import compose.icons.materialdesignicons.VideoCheckOutline
+import compose.icons.materialdesignicons.VideoHighDefinition
+import compose.icons.materialdesignicons.VideoImage
+import compose.icons.materialdesignicons.VideoInputAntenna
+import compose.icons.materialdesignicons.VideoInputComponent
+import compose.icons.materialdesignicons.VideoInputHdmi
+import compose.icons.materialdesignicons.VideoInputScart
+import compose.icons.materialdesignicons.VideoInputSvideo
+import compose.icons.materialdesignicons.VideoMarker
+import compose.icons.materialdesignicons.VideoMarkerOutline
+import compose.icons.materialdesignicons.VideoMinus
+import compose.icons.materialdesignicons.VideoMinusOutline
+import compose.icons.materialdesignicons.VideoOff
+import compose.icons.materialdesignicons.VideoOffOutline
+import compose.icons.materialdesignicons.VideoOutline
+import compose.icons.materialdesignicons.VideoPlus
+import compose.icons.materialdesignicons.VideoPlusOutline
+import compose.icons.materialdesignicons.VideoStabilization
+import compose.icons.materialdesignicons.VideoSwitch
+import compose.icons.materialdesignicons.VideoSwitchOutline
+import compose.icons.materialdesignicons.VideoVintage
+import compose.icons.materialdesignicons.VideoWireless
+import compose.icons.materialdesignicons.VideoWirelessOutline
+import compose.icons.materialdesignicons.ViewAgenda
+import compose.icons.materialdesignicons.ViewAgendaOutline
+import compose.icons.materialdesignicons.ViewArray
+import compose.icons.materialdesignicons.ViewArrayOutline
+import compose.icons.materialdesignicons.ViewCarousel
+import compose.icons.materialdesignicons.ViewCarouselOutline
+import compose.icons.materialdesignicons.ViewColumn
+import compose.icons.materialdesignicons.ViewColumnOutline
+import compose.icons.materialdesignicons.ViewComfy
+import compose.icons.materialdesignicons.ViewComfyOutline
+import compose.icons.materialdesignicons.ViewCompact
+import compose.icons.materialdesignicons.ViewCompactOutline
+import compose.icons.materialdesignicons.ViewDashboard
+import compose.icons.materialdesignicons.ViewDashboardEdit
+import compose.icons.materialdesignicons.ViewDashboardEditOutline
+import compose.icons.materialdesignicons.ViewDashboardOutline
+import compose.icons.materialdesignicons.ViewDashboardVariant
+import compose.icons.materialdesignicons.ViewDashboardVariantOutline
+import compose.icons.materialdesignicons.ViewDay
+import compose.icons.materialdesignicons.ViewDayOutline
+import compose.icons.materialdesignicons.ViewGallery
+import compose.icons.materialdesignicons.ViewGalleryOutline
+import compose.icons.materialdesignicons.ViewGrid
+import compose.icons.materialdesignicons.ViewGridOutline
+import compose.icons.materialdesignicons.ViewGridPlus
+import compose.icons.materialdesignicons.ViewGridPlusOutline
+import compose.icons.materialdesignicons.ViewHeadline
+import compose.icons.materialdesignicons.ViewList
+import compose.icons.materialdesignicons.ViewListOutline
+import compose.icons.materialdesignicons.ViewModule
+import compose.icons.materialdesignicons.ViewModuleOutline
+import compose.icons.materialdesignicons.ViewParallel
+import compose.icons.materialdesignicons.ViewParallelOutline
+import compose.icons.materialdesignicons.ViewQuilt
+import compose.icons.materialdesignicons.ViewQuiltOutline
+import compose.icons.materialdesignicons.ViewSequential
+import compose.icons.materialdesignicons.ViewSequentialOutline
+import compose.icons.materialdesignicons.ViewSplitHorizontal
+import compose.icons.materialdesignicons.ViewSplitVertical
+import compose.icons.materialdesignicons.ViewStream
+import compose.icons.materialdesignicons.ViewStreamOutline
+import compose.icons.materialdesignicons.ViewWeek
+import compose.icons.materialdesignicons.ViewWeekOutline
+import compose.icons.materialdesignicons.Vimeo
+import compose.icons.materialdesignicons.Violin
+import compose.icons.materialdesignicons.VirtualReality
+import compose.icons.materialdesignicons.Virus
+import compose.icons.materialdesignicons.VirusOff
+import compose.icons.materialdesignicons.VirusOffOutline
+import compose.icons.materialdesignicons.VirusOutline
+import compose.icons.materialdesignicons.Vlc
+import compose.icons.materialdesignicons.Voicemail
+import compose.icons.materialdesignicons.Volcano
+import compose.icons.materialdesignicons.VolcanoOutline
+import compose.icons.materialdesignicons.Volleyball
+import compose.icons.materialdesignicons.VolumeEqual
+import compose.icons.materialdesignicons.VolumeHigh
+import compose.icons.materialdesignicons.VolumeLow
+import compose.icons.materialdesignicons.VolumeMedium
+import compose.icons.materialdesignicons.VolumeMinus
+import compose.icons.materialdesignicons.VolumeMute
+import compose.icons.materialdesignicons.VolumeOff
+import compose.icons.materialdesignicons.VolumePlus
+import compose.icons.materialdesignicons.VolumeSource
+import compose.icons.materialdesignicons.VolumeVariantOff
+import compose.icons.materialdesignicons.VolumeVibrate
+import compose.icons.materialdesignicons.Vote
+import compose.icons.materialdesignicons.VoteOutline
+import compose.icons.materialdesignicons.Vpn
+import compose.icons.materialdesignicons.Vuejs
+import compose.icons.materialdesignicons.Vuetify
+import compose.icons.materialdesignicons.Walk
+import compose.icons.materialdesignicons.Wall
+import compose.icons.materialdesignicons.WallFire
+import compose.icons.materialdesignicons.WallSconce
+import compose.icons.materialdesignicons.WallSconceFlat
+import compose.icons.materialdesignicons.WallSconceFlatOutline
+import compose.icons.materialdesignicons.WallSconceFlatVariant
+import compose.icons.materialdesignicons.WallSconceFlatVariantOutline
+import compose.icons.materialdesignicons.WallSconceOutline
+import compose.icons.materialdesignicons.WallSconceRound
+import compose.icons.materialdesignicons.WallSconceRoundOutline
+import compose.icons.materialdesignicons.WallSconceRoundVariant
+import compose.icons.materialdesignicons.WallSconceRoundVariantOutline
+import compose.icons.materialdesignicons.Wallet
+import compose.icons.materialdesignicons.WalletGiftcard
+import compose.icons.materialdesignicons.WalletMembership
+import compose.icons.materialdesignicons.WalletOutline
+import compose.icons.materialdesignicons.WalletPlus
+import compose.icons.materialdesignicons.WalletPlusOutline
+import compose.icons.materialdesignicons.WalletTravel
+import compose.icons.materialdesignicons.Wallpaper
+import compose.icons.materialdesignicons.Wan
+import compose.icons.materialdesignicons.Wardrobe
+import compose.icons.materialdesignicons.WardrobeOutline
+import compose.icons.materialdesignicons.Warehouse
+import compose.icons.materialdesignicons.WashingMachine
+import compose.icons.materialdesignicons.WashingMachineAlert
+import compose.icons.materialdesignicons.WashingMachineOff
+import compose.icons.materialdesignicons.Watch
+import compose.icons.materialdesignicons.WatchExport
+import compose.icons.materialdesignicons.WatchExportVariant
+import compose.icons.materialdesignicons.WatchImport
+import compose.icons.materialdesignicons.WatchImportVariant
+import compose.icons.materialdesignicons.WatchVariant
+import compose.icons.materialdesignicons.WatchVibrate
+import compose.icons.materialdesignicons.WatchVibrateOff
+import compose.icons.materialdesignicons.Water
+import compose.icons.materialdesignicons.WaterAlert
+import compose.icons.materialdesignicons.WaterAlertOutline
+import compose.icons.materialdesignicons.WaterBoiler
+import compose.icons.materialdesignicons.WaterBoilerAlert
+import compose.icons.materialdesignicons.WaterBoilerAuto
+import compose.icons.materialdesignicons.WaterBoilerOff
+import compose.icons.materialdesignicons.WaterCheck
+import compose.icons.materialdesignicons.WaterCheckOutline
+import compose.icons.materialdesignicons.WaterCircle
+import compose.icons.materialdesignicons.WaterMinus
+import compose.icons.materialdesignicons.WaterMinusOutline
+import compose.icons.materialdesignicons.WaterOff
+import compose.icons.materialdesignicons.WaterOffOutline
+import compose.icons.materialdesignicons.WaterOpacity
+import compose.icons.materialdesignicons.WaterOutline
+import compose.icons.materialdesignicons.WaterPercent
+import compose.icons.materialdesignicons.WaterPercentAlert
+import compose.icons.materialdesignicons.WaterPlus
+import compose.icons.materialdesignicons.WaterPlusOutline
+import compose.icons.materialdesignicons.WaterPolo
+import compose.icons.materialdesignicons.WaterPump
+import compose.icons.materialdesignicons.WaterPumpOff
+import compose.icons.materialdesignicons.WaterRemove
+import compose.icons.materialdesignicons.WaterRemoveOutline
+import compose.icons.materialdesignicons.WaterSync
+import compose.icons.materialdesignicons.WaterThermometer
+import compose.icons.materialdesignicons.WaterThermometerOutline
+import compose.icons.materialdesignicons.WaterWell
+import compose.icons.materialdesignicons.WaterWellOutline
+import compose.icons.materialdesignicons.Waterfall
+import compose.icons.materialdesignicons.WateringCan
+import compose.icons.materialdesignicons.WateringCanOutline
+import compose.icons.materialdesignicons.Watermark
+import compose.icons.materialdesignicons.Wave
+import compose.icons.materialdesignicons.Waveform
+import compose.icons.materialdesignicons.Waves
+import compose.icons.materialdesignicons.WavesArrowLeft
+import compose.icons.materialdesignicons.WavesArrowRight
+import compose.icons.materialdesignicons.WavesArrowUp
+import compose.icons.materialdesignicons.Waze
+import compose.icons.materialdesignicons.WeatherCloudy
+import compose.icons.materialdesignicons.WeatherCloudyAlert
+import compose.icons.materialdesignicons.WeatherCloudyArrowRight
+import compose.icons.materialdesignicons.WeatherCloudyClock
+import compose.icons.materialdesignicons.WeatherDust
+import compose.icons.materialdesignicons.WeatherFog
+import compose.icons.materialdesignicons.WeatherHail
+import compose.icons.materialdesignicons.WeatherHazy
+import compose.icons.materialdesignicons.WeatherHurricane
+import compose.icons.materialdesignicons.WeatherLightning
+import compose.icons.materialdesignicons.WeatherLightningRainy
+import compose.icons.materialdesignicons.WeatherNight
+import compose.icons.materialdesignicons.WeatherNightPartlyCloudy
+import compose.icons.materialdesignicons.WeatherPartlyCloudy
+import compose.icons.materialdesignicons.WeatherPartlyLightning
+import compose.icons.materialdesignicons.WeatherPartlyRainy
+import compose.icons.materialdesignicons.WeatherPartlySnowy
+import compose.icons.materialdesignicons.WeatherPartlySnowyRainy
+import compose.icons.materialdesignicons.WeatherPouring
+import compose.icons.materialdesignicons.WeatherRainy
+import compose.icons.materialdesignicons.WeatherSnowy
+import compose.icons.materialdesignicons.WeatherSnowyHeavy
+import compose.icons.materialdesignicons.WeatherSnowyRainy
+import compose.icons.materialdesignicons.WeatherSunny
+import compose.icons.materialdesignicons.WeatherSunnyAlert
+import compose.icons.materialdesignicons.WeatherSunnyOff
+import compose.icons.materialdesignicons.WeatherSunset
+import compose.icons.materialdesignicons.WeatherSunsetDown
+import compose.icons.materialdesignicons.WeatherSunsetUp
+import compose.icons.materialdesignicons.WeatherTornado
+import compose.icons.materialdesignicons.WeatherWindy
+import compose.icons.materialdesignicons.WeatherWindyVariant
+import compose.icons.materialdesignicons.Web
+import compose.icons.materialdesignicons.WebBox
+import compose.icons.materialdesignicons.WebCancel
+import compose.icons.materialdesignicons.WebCheck
+import compose.icons.materialdesignicons.WebClock
+import compose.icons.materialdesignicons.WebMinus
+import compose.icons.materialdesignicons.WebOff
+import compose.icons.materialdesignicons.WebPlus
+import compose.icons.materialdesignicons.WebRefresh
+import compose.icons.materialdesignicons.WebRemove
+import compose.icons.materialdesignicons.WebSync
+import compose.icons.materialdesignicons.Webcam
+import compose.icons.materialdesignicons.WebcamOff
+import compose.icons.materialdesignicons.Webhook
+import compose.icons.materialdesignicons.Webpack
+import compose.icons.materialdesignicons.Webrtc
+import compose.icons.materialdesignicons.Wechat
+import compose.icons.materialdesignicons.Weight
+import compose.icons.materialdesignicons.WeightGram
+import compose.icons.materialdesignicons.WeightKilogram
+import compose.icons.materialdesignicons.WeightLifter
+import compose.icons.materialdesignicons.WeightPound
+import compose.icons.materialdesignicons.Whatsapp
+import compose.icons.materialdesignicons.WheelBarrow
+import compose.icons.materialdesignicons.Wheelchair
+import compose.icons.materialdesignicons.WheelchairAccessibility
+import compose.icons.materialdesignicons.Whistle
+import compose.icons.materialdesignicons.WhistleOutline
+import compose.icons.materialdesignicons.WhiteBalanceAuto
+import compose.icons.materialdesignicons.WhiteBalanceIncandescent
+import compose.icons.materialdesignicons.WhiteBalanceIridescent
+import compose.icons.materialdesignicons.WhiteBalanceSunny
+import compose.icons.materialdesignicons.Widgets
+import compose.icons.materialdesignicons.WidgetsOutline
+import compose.icons.materialdesignicons.Wifi
+import compose.icons.materialdesignicons.WifiAlert
+import compose.icons.materialdesignicons.WifiArrowDown
+import compose.icons.materialdesignicons.WifiArrowLeft
+import compose.icons.materialdesignicons.WifiArrowLeftRight
+import compose.icons.materialdesignicons.WifiArrowRight
+import compose.icons.materialdesignicons.WifiArrowUp
+import compose.icons.materialdesignicons.WifiArrowUpDown
+import compose.icons.materialdesignicons.WifiCancel
+import compose.icons.materialdesignicons.WifiCheck
+import compose.icons.materialdesignicons.WifiCog
+import compose.icons.materialdesignicons.WifiLock
+import compose.icons.materialdesignicons.WifiLockOpen
+import compose.icons.materialdesignicons.WifiMarker
+import compose.icons.materialdesignicons.WifiMinus
+import compose.icons.materialdesignicons.WifiOff
+import compose.icons.materialdesignicons.WifiPlus
+import compose.icons.materialdesignicons.WifiRefresh
+import compose.icons.materialdesignicons.WifiRemove
+import compose.icons.materialdesignicons.WifiSettings
+import compose.icons.materialdesignicons.WifiStar
+import compose.icons.materialdesignicons.WifiStrength1
+import compose.icons.materialdesignicons.WifiStrength1Alert
+import compose.icons.materialdesignicons.WifiStrength1Lock
+import compose.icons.materialdesignicons.WifiStrength1LockOpen
+import compose.icons.materialdesignicons.WifiStrength2
+import compose.icons.materialdesignicons.WifiStrength2Alert
+import compose.icons.materialdesignicons.WifiStrength2Lock
+import compose.icons.materialdesignicons.WifiStrength2LockOpen
+import compose.icons.materialdesignicons.WifiStrength3
+import compose.icons.materialdesignicons.WifiStrength3Alert
+import compose.icons.materialdesignicons.WifiStrength3Lock
+import compose.icons.materialdesignicons.WifiStrength3LockOpen
+import compose.icons.materialdesignicons.WifiStrength4
+import compose.icons.materialdesignicons.WifiStrength4Alert
+import compose.icons.materialdesignicons.WifiStrength4Lock
+import compose.icons.materialdesignicons.WifiStrength4LockOpen
+import compose.icons.materialdesignicons.WifiStrengthAlertOutline
+import compose.icons.materialdesignicons.WifiStrengthLockOpenOutline
+import compose.icons.materialdesignicons.WifiStrengthLockOutline
+import compose.icons.materialdesignicons.WifiStrengthOff
+import compose.icons.materialdesignicons.WifiStrengthOffOutline
+import compose.icons.materialdesignicons.WifiStrengthOutline
+import compose.icons.materialdesignicons.WifiSync
+import compose.icons.materialdesignicons.Wikipedia
+import compose.icons.materialdesignicons.WindPower
+import compose.icons.materialdesignicons.WindPowerOutline
+import compose.icons.materialdesignicons.WindTurbine
+import compose.icons.materialdesignicons.WindTurbineAlert
+import compose.icons.materialdesignicons.WindTurbineCheck
+import compose.icons.materialdesignicons.WindowClose
+import compose.icons.materialdesignicons.WindowClosed
+import compose.icons.materialdesignicons.WindowClosedVariant
+import compose.icons.materialdesignicons.WindowMaximize
+import compose.icons.materialdesignicons.WindowMinimize
+import compose.icons.materialdesignicons.WindowOpen
+import compose.icons.materialdesignicons.WindowOpenVariant
+import compose.icons.materialdesignicons.WindowRestore
+import compose.icons.materialdesignicons.WindowShutter
+import compose.icons.materialdesignicons.WindowShutterAlert
+import compose.icons.materialdesignicons.WindowShutterAuto
+import compose.icons.materialdesignicons.WindowShutterCog
+import compose.icons.materialdesignicons.WindowShutterOpen
+import compose.icons.materialdesignicons.WindowShutterSettings
+import compose.icons.materialdesignicons.Windsock
+import compose.icons.materialdesignicons.Wiper
+import compose.icons.materialdesignicons.WiperWash
+import compose.icons.materialdesignicons.WiperWashAlert
+import compose.icons.materialdesignicons.WizardHat
+import compose.icons.materialdesignicons.Wordpress
+import compose.icons.materialdesignicons.Wrap
+import compose.icons.materialdesignicons.WrapDisabled
+import compose.icons.materialdesignicons.Wrench
+import compose.icons.materialdesignicons.WrenchCheck
+import compose.icons.materialdesignicons.WrenchCheckOutline
+import compose.icons.materialdesignicons.WrenchClock
+import compose.icons.materialdesignicons.WrenchClockOutline
+import compose.icons.materialdesignicons.WrenchCog
+import compose.icons.materialdesignicons.WrenchCogOutline
+import compose.icons.materialdesignicons.WrenchOutline
+import compose.icons.materialdesignicons.Xamarin
+import compose.icons.materialdesignicons.Xml
+import compose.icons.materialdesignicons.Xmpp
+import compose.icons.materialdesignicons.Yahoo
+import compose.icons.materialdesignicons.Yeast
+import compose.icons.materialdesignicons.YinYang
+import compose.icons.materialdesignicons.Yoga
+import compose.icons.materialdesignicons.Youtube
+import compose.icons.materialdesignicons.YoutubeGaming
+import compose.icons.materialdesignicons.YoutubeStudio
+import compose.icons.materialdesignicons.YoutubeSubscription
+import compose.icons.materialdesignicons.YoutubeTv
+import compose.icons.materialdesignicons.Yurt
+import compose.icons.materialdesignicons.ZWave
+import compose.icons.materialdesignicons.Zend
+import compose.icons.materialdesignicons.Zigbee
+import compose.icons.materialdesignicons.ZipBox
+import compose.icons.materialdesignicons.ZipBoxOutline
+import compose.icons.materialdesignicons.ZipDisk
+import compose.icons.materialdesignicons.ZodiacAquarius
+import compose.icons.materialdesignicons.ZodiacAries
+import compose.icons.materialdesignicons.ZodiacCancer
+import compose.icons.materialdesignicons.ZodiacCapricorn
+import compose.icons.materialdesignicons.ZodiacGemini
+import compose.icons.materialdesignicons.ZodiacLeo
+import compose.icons.materialdesignicons.ZodiacLibra
+import compose.icons.materialdesignicons.ZodiacPisces
+import compose.icons.materialdesignicons.ZodiacSagittarius
+import compose.icons.materialdesignicons.ZodiacScorpio
+import compose.icons.materialdesignicons.ZodiacTaurus
+import compose.icons.materialdesignicons.ZodiacVirgo
+import kotlin.collections.List as ____KtList
+
+public object MaterialDesignIcons
+
+private var __AllIcons: ____KtList<ImageVector>? = null
+
+public val MaterialDesignIcons.AllIcons: ____KtList<ImageVector>
+  get() {
+    if (__AllIcons != null) {
+      return __AllIcons!!
+    }
+    __AllIcons= listOf(Abacus, AbjadArabic, AbjadHebrew, AbugidaDevanagari, AbugidaThai, AbTesting,
+        AccessPoint, AccessPointCheck, AccessPointMinus, AccessPointNetwork, AccessPointNetworkOff,
+        AccessPointOff, AccessPointPlus, AccessPointRemove, Account, AccountAlert,
+        AccountAlertOutline, AccountArrowDown, AccountArrowDownOutline, AccountArrowLeft,
+        AccountArrowLeftOutline, AccountArrowRight, AccountArrowRightOutline, AccountArrowUp,
+        AccountArrowUpOutline, AccountBadge, AccountBadgeOutline, AccountBox, AccountBoxMultiple,
+        AccountBoxMultipleOutline, AccountBoxOutline, AccountCancel, AccountCancelOutline,
+        AccountCard, AccountCardOutline, AccountCash, AccountCashOutline, AccountCheck,
+        AccountCheckOutline, AccountChild, AccountChildCircle, AccountChildOutline, AccountCircle,
+        AccountCircleOutline, AccountClock, AccountClockOutline, AccountCog, AccountCogOutline,
+        AccountConvert, AccountConvertOutline, AccountCowboyHat, AccountCowboyHatOutline,
+        AccountCreditCard, AccountCreditCardOutline, AccountDetails, AccountDetailsOutline,
+        AccountEdit, AccountEditOutline, AccountEye, AccountEyeOutline, AccountFilter,
+        AccountFilterOutline, AccountGroup, AccountGroupOutline, AccountHardHat,
+        AccountHardHatOutline, AccountHeart, AccountHeartOutline, AccountInjury,
+        AccountInjuryOutline, AccountKey, AccountKeyOutline, AccountLock, AccountLockOpen,
+        AccountLockOpenOutline, AccountLockOutline, AccountMinus, AccountMinusOutline,
+        AccountMultiple, AccountMultipleCheck, AccountMultipleCheckOutline, AccountMultipleMinus,
+        AccountMultipleMinusOutline, AccountMultipleOutline, AccountMultiplePlus,
+        AccountMultiplePlusOutline, AccountMultipleRemove, AccountMultipleRemoveOutline,
+        AccountMusic, AccountMusicOutline, AccountNetwork, AccountNetworkOff,
+        AccountNetworkOffOutline, AccountNetworkOutline, AccountOff, AccountOffOutline,
+        AccountOutline, AccountPlus, AccountPlusOutline, AccountQuestion, AccountQuestionOutline,
+        AccountReactivate, AccountReactivateOutline, AccountRemove, AccountRemoveOutline,
+        AccountSchool, AccountSchoolOutline, AccountSearch, AccountSearchOutline, AccountSettings,
+        AccountSettingsOutline, AccountStar, AccountStarOutline, AccountSupervisor,
+        AccountSupervisorCircle, AccountSupervisorCircleOutline, AccountSupervisorOutline,
+        AccountSwitch, AccountSwitchOutline, AccountSync, AccountSyncOutline, AccountTag,
+        AccountTagOutline, AccountTie, AccountTieHat, AccountTieHatOutline, AccountTieOutline,
+        AccountTieVoice, AccountTieVoiceOff, AccountTieVoiceOffOutline, AccountTieVoiceOutline,
+        AccountTieWoman, AccountVoice, AccountVoiceOff, AccountWrench, AccountWrenchOutline, Adjust,
+        Advertisements, AdvertisementsOff, Airbag, Airballoon, AirballoonOutline, Airplane,
+        AirplaneAlert, AirplaneCheck, AirplaneClock, AirplaneCog, AirplaneEdit, AirplaneLanding,
+        AirplaneMarker, AirplaneMinus, AirplaneOff, AirplanePlus, AirplaneRemove, AirplaneSearch,
+        AirplaneSettings, AirplaneTakeoff, Airport, AirConditioner, AirFilter, AirHorn,
+        AirHumidifier, AirHumidifierOff, AirPurifier, AirPurifierOff, Alarm, AlarmBell, AlarmCheck,
+        AlarmLight, AlarmLightOff, AlarmLightOffOutline, AlarmLightOutline, AlarmMultiple,
+        AlarmNote, AlarmNoteOff, AlarmOff, AlarmPanel, AlarmPanelOutline, AlarmPlus, AlarmSnooze,
+        Album, Alert, AlertBox, AlertBoxOutline, AlertCircle, AlertCircleCheck,
+        AlertCircleCheckOutline, AlertCircleOutline, AlertDecagram, AlertDecagramOutline,
+        AlertMinus, AlertMinusOutline, AlertOctagon, AlertOctagonOutline, AlertOctagram,
+        AlertOctagramOutline, AlertOutline, AlertPlus, AlertPlusOutline, AlertRemove,
+        AlertRemoveOutline, AlertRhombus, AlertRhombusOutline, Alien, AlienOutline,
+        AlignHorizontalCenter, AlignHorizontalDistribute, AlignHorizontalLeft, AlignHorizontalRight,
+        AlignVerticalBottom, AlignVerticalCenter, AlignVerticalDistribute, AlignVerticalTop,
+        Allergy, AllInclusive, AllInclusiveBox, AllInclusiveBoxOutline, Alpha, Alphabetical,
+        AlphabeticalOff, AlphabeticalVariant, AlphabeticalVariantOff, AlphabetAurebesh,
+        AlphabetCyrillic, AlphabetGreek, AlphabetLatin, AlphabetPiqad, AlphabetTengwar, AlphaA,
+        AlphaABox, AlphaABoxOutline, AlphaACircle, AlphaACircleOutline, AlphaB, AlphaBBox,
+        AlphaBBoxOutline, AlphaBCircle, AlphaBCircleOutline, AlphaC, AlphaCBox, AlphaCBoxOutline,
+        AlphaCCircle, AlphaCCircleOutline, AlphaD, AlphaDBox, AlphaDBoxOutline, AlphaDCircle,
+        AlphaDCircleOutline, AlphaE, AlphaEBox, AlphaEBoxOutline, AlphaECircle, AlphaECircleOutline,
+        AlphaF, AlphaFBox, AlphaFBoxOutline, AlphaFCircle, AlphaFCircleOutline, AlphaG, AlphaGBox,
+        AlphaGBoxOutline, AlphaGCircle, AlphaGCircleOutline, AlphaH, AlphaHBox, AlphaHBoxOutline,
+        AlphaHCircle, AlphaHCircleOutline, AlphaI, AlphaIBox, AlphaIBoxOutline, AlphaICircle,
+        AlphaICircleOutline, AlphaJ, AlphaJBox, AlphaJBoxOutline, AlphaJCircle, AlphaJCircleOutline,
+        AlphaK, AlphaKBox, AlphaKBoxOutline, AlphaKCircle, AlphaKCircleOutline, AlphaL, AlphaLBox,
+        AlphaLBoxOutline, AlphaLCircle, AlphaLCircleOutline, AlphaM, AlphaMBox, AlphaMBoxOutline,
+        AlphaMCircle, AlphaMCircleOutline, AlphaN, AlphaNBox, AlphaNBoxOutline, AlphaNCircle,
+        AlphaNCircleOutline, AlphaO, AlphaOBox, AlphaOBoxOutline, AlphaOCircle, AlphaOCircleOutline,
+        AlphaP, AlphaPBox, AlphaPBoxOutline, AlphaPCircle, AlphaPCircleOutline, AlphaQ, AlphaQBox,
+        AlphaQBoxOutline, AlphaQCircle, AlphaQCircleOutline, AlphaR, AlphaRBox, AlphaRBoxOutline,
+        AlphaRCircle, AlphaRCircleOutline, AlphaS, AlphaSBox, AlphaSBoxOutline, AlphaSCircle,
+        AlphaSCircleOutline, AlphaT, AlphaTBox, AlphaTBoxOutline, AlphaTCircle, AlphaTCircleOutline,
+        AlphaU, AlphaUBox, AlphaUBoxOutline, AlphaUCircle, AlphaUCircleOutline, AlphaV, AlphaVBox,
+        AlphaVBoxOutline, AlphaVCircle, AlphaVCircleOutline, AlphaW, AlphaWBox, AlphaWBoxOutline,
+        AlphaWCircle, AlphaWCircleOutline, AlphaX, AlphaXBox, AlphaXBoxOutline, AlphaXCircle,
+        AlphaXCircleOutline, AlphaY, AlphaYBox, AlphaYBoxOutline, AlphaYCircle, AlphaYCircleOutline,
+        AlphaZ, AlphaZBox, AlphaZBoxOutline, AlphaZCircle, AlphaZCircleOutline, Altimeter,
+        Ambulance, Ammunition, Ampersand, Amplifier, AmplifierOff, Anchor, Android, AndroidStudio,
+        AngleAcute, AngleObtuse, AngleRight, Angular, Angularjs, Animation, AnimationOutline,
+        AnimationPlay, AnimationPlayOutline, Ansible, Antenna, Anvil, ApacheKafka, Api, ApiOff,
+        Apple, AppleFinder, AppleIcloud, AppleIos, AppleKeyboardCaps, AppleKeyboardCommand,
+        AppleKeyboardControl, AppleKeyboardOption, AppleKeyboardShift, AppleSafari, Application,
+        ApplicationArray, ApplicationArrayOutline, ApplicationBraces, ApplicationBracesOutline,
+        ApplicationBrackets, ApplicationBracketsOutline, ApplicationCog, ApplicationCogOutline,
+        ApplicationEdit, ApplicationEditOutline, ApplicationExport, ApplicationImport,
+        ApplicationOutline, ApplicationParentheses, ApplicationParenthesesOutline,
+        ApplicationSettings, ApplicationSettingsOutline, ApplicationVariable,
+        ApplicationVariableOutline, ApproximatelyEqual, ApproximatelyEqualBox, Apps, AppsBox, Arch,
+        Archive, ArchiveAlert, ArchiveAlertOutline, ArchiveArrowDown, ArchiveArrowDownOutline,
+        ArchiveArrowUp, ArchiveArrowUpOutline, ArchiveCancel, ArchiveCancelOutline, ArchiveCheck,
+        ArchiveCheckOutline, ArchiveClock, ArchiveClockOutline, ArchiveCog, ArchiveCogOutline,
+        ArchiveEdit, ArchiveEditOutline, ArchiveEye, ArchiveEyeOutline, ArchiveLock,
+        ArchiveLockOpen, ArchiveLockOpenOutline, ArchiveLockOutline, ArchiveMarker,
+        ArchiveMarkerOutline, ArchiveMinus, ArchiveMinusOutline, ArchiveMusic, ArchiveMusicOutline,
+        ArchiveOff, ArchiveOffOutline, ArchiveOutline, ArchivePlus, ArchivePlusOutline,
+        ArchiveRefresh, ArchiveRefreshOutline, ArchiveRemove, ArchiveRemoveOutline, ArchiveSearch,
+        ArchiveSearchOutline, ArchiveSettings, ArchiveSettingsOutline, ArchiveStar,
+        ArchiveStarOutline, ArchiveSync, ArchiveSyncOutline, ArmFlex, ArmFlexOutline,
+        ArrangeBringForward, ArrangeBringToFront, ArrangeSendBackward, ArrangeSendToBack, ArrowAll,
+        ArrowBottomLeft, ArrowBottomLeftBoldBox, ArrowBottomLeftBoldBoxOutline,
+        ArrowBottomLeftBoldOutline, ArrowBottomLeftThick, ArrowBottomLeftThin,
+        ArrowBottomLeftThinCircleOutline, ArrowBottomRight, ArrowBottomRightBoldBox,
+        ArrowBottomRightBoldBoxOutline, ArrowBottomRightBoldOutline, ArrowBottomRightThick,
+        ArrowBottomRightThin, ArrowBottomRightThinCircleOutline, ArrowCollapse, ArrowCollapseAll,
+        ArrowCollapseDown, ArrowCollapseHorizontal, ArrowCollapseLeft, ArrowCollapseRight,
+        ArrowCollapseUp, ArrowCollapseVertical, ArrowDecision, ArrowDecisionAuto,
+        ArrowDecisionAutoOutline, ArrowDecisionOutline, ArrowDown, ArrowDownBold, ArrowDownBoldBox,
+        ArrowDownBoldBoxOutline, ArrowDownBoldCircle, ArrowDownBoldCircleOutline,
+        ArrowDownBoldHexagonOutline, ArrowDownBoldOutline, ArrowDownBox, ArrowDownCircle,
+        ArrowDownCircleOutline, ArrowDownDropCircle, ArrowDownDropCircleOutline, ArrowDownLeft,
+        ArrowDownLeftBold, ArrowDownRight, ArrowDownRightBold, ArrowDownThick, ArrowDownThin,
+        ArrowDownThinCircleOutline, ArrowExpand, ArrowExpandAll, ArrowExpandDown,
+        ArrowExpandHorizontal, ArrowExpandLeft, ArrowExpandRight, ArrowExpandUp,
+        ArrowExpandVertical, ArrowHorizontalLock, ArrowLeft, ArrowLeftBold, ArrowLeftBoldBox,
+        ArrowLeftBoldBoxOutline, ArrowLeftBoldCircle, ArrowLeftBoldCircleOutline,
+        ArrowLeftBoldHexagonOutline, ArrowLeftBoldOutline, ArrowLeftBottom, ArrowLeftBottomBold,
+        ArrowLeftBox, ArrowLeftCircle, ArrowLeftCircleOutline, ArrowLeftDropCircle,
+        ArrowLeftDropCircleOutline, ArrowLeftRight, ArrowLeftRightBold, ArrowLeftRightBoldOutline,
+        ArrowLeftThick, ArrowLeftThin, ArrowLeftThinCircleOutline, ArrowLeftTop, ArrowLeftTopBold,
+        ArrowProjectile, ArrowProjectileMultiple, ArrowRight, ArrowRightBold, ArrowRightBoldBox,
+        ArrowRightBoldBoxOutline, ArrowRightBoldCircle, ArrowRightBoldCircleOutline,
+        ArrowRightBoldHexagonOutline, ArrowRightBoldOutline, ArrowRightBottom, ArrowRightBottomBold,
+        ArrowRightBox, ArrowRightCircle, ArrowRightCircleOutline, ArrowRightDropCircle,
+        ArrowRightDropCircleOutline, ArrowRightThick, ArrowRightThin, ArrowRightThinCircleOutline,
+        ArrowRightTop, ArrowRightTopBold, ArrowSplitHorizontal, ArrowSplitVertical, ArrowTopLeft,
+        ArrowTopLeftBoldBox, ArrowTopLeftBoldBoxOutline, ArrowTopLeftBoldOutline,
+        ArrowTopLeftBottomRight, ArrowTopLeftBottomRightBold, ArrowTopLeftThick, ArrowTopLeftThin,
+        ArrowTopLeftThinCircleOutline, ArrowTopRight, ArrowTopRightBoldBox,
+        ArrowTopRightBoldBoxOutline, ArrowTopRightBoldOutline, ArrowTopRightBottomLeft,
+        ArrowTopRightBottomLeftBold, ArrowTopRightThick, ArrowTopRightThin,
+        ArrowTopRightThinCircleOutline, ArrowUp, ArrowUpBold, ArrowUpBoldBox, ArrowUpBoldBoxOutline,
+        ArrowUpBoldCircle, ArrowUpBoldCircleOutline, ArrowUpBoldHexagonOutline, ArrowUpBoldOutline,
+        ArrowUpBox, ArrowUpCircle, ArrowUpCircleOutline, ArrowUpDown, ArrowUpDownBold,
+        ArrowUpDownBoldOutline, ArrowUpDropCircle, ArrowUpDropCircleOutline, ArrowUpLeft,
+        ArrowUpLeftBold, ArrowUpRight, ArrowUpRightBold, ArrowUpThick, ArrowUpThin,
+        ArrowUpThinCircleOutline, ArrowUDownLeft, ArrowUDownLeftBold, ArrowUDownRight,
+        ArrowUDownRightBold, ArrowULeftBottom, ArrowULeftBottomBold, ArrowULeftTop,
+        ArrowULeftTopBold, ArrowURightBottom, ArrowURightBottomBold, ArrowURightTop,
+        ArrowURightTopBold, ArrowUUpLeft, ArrowUUpLeftBold, ArrowUUpRight, ArrowUUpRightBold,
+        ArrowVerticalLock, Artboard, Artstation, AspectRatio, Assistant, Asterisk,
+        AsteriskCircleOutline, At, Atlassian, Atm, Atom, AtomVariant, Attachment, AttachmentCheck,
+        AttachmentLock, AttachmentMinus, AttachmentOff, AttachmentPlus, AttachmentRemove, Atv,
+        AudioInputRca, AudioInputStereoMinijack, AudioInputXlr, AudioVideo, AudioVideoOff,
+        AugmentedReality, Aurora, Autorenew, AutorenewOff, AutoDownload, AutoFix, AutoUpload,
+        AvTimer, Awning, AwningOutline, Aws, Axe, AxeBattle, Axis, AxisArrow, AxisArrowInfo,
+        AxisArrowLock, AxisLock, AxisXArrow, AxisXArrowLock, AxisXRotateClockwise,
+        AxisXRotateCounterclockwise, AxisXYArrowLock, AxisYArrow, AxisYArrowLock,
+        AxisYRotateClockwise, AxisYRotateCounterclockwise, AxisZArrow, AxisZArrowLock,
+        AxisZRotateClockwise, AxisZRotateCounterclockwise, Babel, Baby, BabyBottle,
+        BabyBottleOutline, BabyBuggy, BabyBuggyOff, BabyCarriage, BabyCarriageOff, BabyFace,
+        BabyFaceOutline, Backburger, Backspace, BackspaceOutline, BackspaceReverse,
+        BackspaceReverseOutline, BackupRestore, Bacteria, BacteriaOutline, BadgeAccount,
+        BadgeAccountAlert, BadgeAccountAlertOutline, BadgeAccountHorizontal,
+        BadgeAccountHorizontalOutline, BadgeAccountOutline, Badminton, Baguette, BagCarryOn,
+        BagCarryOnCheck, BagCarryOnOff, BagChecked, BagPersonal, BagPersonalOff,
+        BagPersonalOffOutline, BagPersonalOutline, BagPersonalTag, BagPersonalTagOutline,
+        BagSuitcase, BagSuitcaseOff, BagSuitcaseOffOutline, BagSuitcaseOutline, Balcony, Balloon,
+        Ballot, BallotOutline, BallotRecount, BallotRecountOutline, Bandage, Bank, BankCheck,
+        BankCircle, BankCircleOutline, BankMinus, BankOff, BankOffOutline, BankOutline, BankPlus,
+        BankRemove, BankTransfer, BankTransferIn, BankTransferOut, Barcode, BarcodeOff, BarcodeScan,
+        Barley, BarleyOff, Barn, Barrel, BarrelOutline, Baseball, BaseballBat, BaseballDiamond,
+        BaseballDiamondOutline, Bash, Basket, Basketball, BasketballHoop, BasketballHoopOutline,
+        BasketCheck, BasketCheckOutline, BasketFill, BasketMinus, BasketMinusOutline, BasketOff,
+        BasketOffOutline, BasketOutline, BasketPlus, BasketPlusOutline, BasketRemove,
+        BasketRemoveOutline, BasketUnfill, Bat, Bathtub, BathtubOutline, Battery, Battery10,
+        Battery10Bluetooth, Battery20, Battery20Bluetooth, Battery30, Battery30Bluetooth, Battery40,
+        Battery40Bluetooth, Battery50, Battery50Bluetooth, Battery60, Battery60Bluetooth, Battery70,
+        Battery70Bluetooth, Battery80, Battery80Bluetooth, Battery90, Battery90Bluetooth,
+        BatteryAlert, BatteryAlertBluetooth, BatteryAlertVariant, BatteryAlertVariantOutline,
+        BatteryArrowDown, BatteryArrowDownOutline, BatteryArrowUp, BatteryArrowUpOutline,
+        BatteryBluetooth, BatteryBluetoothVariant, BatteryCharging, BatteryCharging10,
+        BatteryCharging100, BatteryCharging20, BatteryCharging30, BatteryCharging40,
+        BatteryCharging50, BatteryCharging60, BatteryCharging70, BatteryCharging80,
+        BatteryCharging90, BatteryChargingHigh, BatteryChargingLow, BatteryChargingMedium,
+        BatteryChargingOutline, BatteryChargingWireless, BatteryChargingWireless10,
+        BatteryChargingWireless20, BatteryChargingWireless30, BatteryChargingWireless40,
+        BatteryChargingWireless50, BatteryChargingWireless60, BatteryChargingWireless70,
+        BatteryChargingWireless80, BatteryChargingWireless90, BatteryChargingWirelessAlert,
+        BatteryChargingWirelessOutline, BatteryCheck, BatteryCheckOutline, BatteryClock,
+        BatteryClockOutline, BatteryHeart, BatteryHeartOutline, BatteryHeartVariant, BatteryHigh,
+        BatteryLock, BatteryLockOpen, BatteryLow, BatteryMedium, BatteryMinus, BatteryMinusOutline,
+        BatteryMinusVariant, BatteryNegative, BatteryOff, BatteryOffOutline, BatteryOutline,
+        BatteryPlus, BatteryPlusOutline, BatteryPlusVariant, BatteryPositive, BatteryRemove,
+        BatteryRemoveOutline, BatterySync, BatterySyncOutline, BatteryUnknown,
+        BatteryUnknownBluetooth, Beach, Beaker, BeakerAlert, BeakerAlertOutline, BeakerCheck,
+        BeakerCheckOutline, BeakerMinus, BeakerMinusOutline, BeakerOutline, BeakerPlus,
+        BeakerPlusOutline, BeakerQuestion, BeakerQuestionOutline, BeakerRemove, BeakerRemoveOutline,
+        Bed, BedClock, BedDouble, BedDoubleOutline, BedEmpty, BedKing, BedKingOutline, BedOutline,
+        BedQueen, BedQueenOutline, BedSingle, BedSingleOutline, Bee, BeehiveOffOutline,
+        BeehiveOutline, Beekeeper, Beer, BeerOutline, BeeFlower, Bell, BellAlert, BellAlertOutline,
+        BellBadge, BellBadgeOutline, BellCancel, BellCancelOutline, BellCheck, BellCheckOutline,
+        BellCircle, BellCircleOutline, BellCog, BellCogOutline, BellMinus, BellMinusOutline,
+        BellOff, BellOffOutline, BellOutline, BellPlus, BellPlusOutline, BellRemove,
+        BellRemoveOutline, BellRing, BellRingOutline, BellSleep, BellSleepOutline, Beta, Betamax,
+        Biathlon, Bicycle, BicycleBasket, BicycleCargo, BicycleElectric, BicyclePennyFarthing, Bike,
+        BikeFast, Billboard, Billiards, BilliardsRack, Binoculars, Bio, Biohazard, Bird, Bitbucket,
+        Bitcoin, BlackMesa, Blender, BlenderOutline, BlenderSoftware, Blinds, BlindsHorizontal,
+        BlindsHorizontalClosed, BlindsOpen, BlindsVertical, BlindsVerticalClosed, BlockHelper,
+        BloodBag, Bluetooth, BluetoothAudio, BluetoothConnect, BluetoothOff, BluetoothSettings,
+        BluetoothTransfer, Blur, BlurLinear, BlurOff, BlurRadial, Bolt, Bomb, BombOff, Bone,
+        BoneOff, Book, Bookmark, BookmarkBox, BookmarkBoxMultiple, BookmarkBoxMultipleOutline,
+        BookmarkBoxOutline, BookmarkCheck, BookmarkCheckOutline, BookmarkMinus,
+        BookmarkMinusOutline, BookmarkMultiple, BookmarkMultipleOutline, BookmarkMusic,
+        BookmarkMusicOutline, BookmarkOff, BookmarkOffOutline, BookmarkOutline, BookmarkPlus,
+        BookmarkPlusOutline, BookmarkRemove, BookmarkRemoveOutline, Bookshelf, BookAccount,
+        BookAccountOutline, BookAlert, BookAlertOutline, BookAlphabet, BookArrowDown,
+        BookArrowDownOutline, BookArrowLeft, BookArrowLeftOutline, BookArrowRight,
+        BookArrowRightOutline, BookArrowUp, BookArrowUpOutline, BookCancel, BookCancelOutline,
+        BookCheck, BookCheckOutline, BookClock, BookClockOutline, BookCog, BookCogOutline,
+        BookCross, BookEdit, BookEditOutline, BookEducation, BookEducationOutline, BookHeart,
+        BookHeartOutline, BookInformationVariant, BookLock, BookLockOpen, BookLockOpenOutline,
+        BookLockOutline, BookMarker, BookMarkerOutline, BookMinus, BookMinusMultiple,
+        BookMinusMultipleOutline, BookMinusOutline, BookMultiple, BookMultipleOutline, BookMusic,
+        BookMusicOutline, BookOff, BookOffOutline, BookOpen, BookOpenBlankVariant, BookOpenOutline,
+        BookOpenPageVariant, BookOpenPageVariantOutline, BookOpenVariant, BookOutline, BookPlay,
+        BookPlayOutline, BookPlus, BookPlusMultiple, BookPlusMultipleOutline, BookPlusOutline,
+        BookRefresh, BookRefreshOutline, BookRemove, BookRemoveMultiple, BookRemoveMultipleOutline,
+        BookRemoveOutline, BookSearch, BookSearchOutline, BookSettings, BookSettingsOutline,
+        BookSync, BookSyncOutline, BookVariant, Boombox, Boomerang, BoomGate, BoomGateAlert,
+        BoomGateAlertOutline, BoomGateArrowDown, BoomGateArrowDownOutline, BoomGateArrowUp,
+        BoomGateArrowUpOutline, BoomGateOutline, BoomGateUp, BoomGateUpOutline, Bootstrap,
+        BorderAll, BorderAllVariant, BorderBottom, BorderBottomVariant, BorderColor,
+        BorderHorizontal, BorderInside, BorderLeft, BorderLeftVariant, BorderNone,
+        BorderNoneVariant, BorderOutside, BorderRadius, BorderRight, BorderRightVariant,
+        BorderStyle, BorderTop, BorderTopVariant, BorderVertical, BottleSoda, BottleSodaClassic,
+        BottleSodaClassicOutline, BottleSodaOutline, BottleTonic, BottleTonicOutline,
+        BottleTonicPlus, BottleTonicPlusOutline, BottleTonicSkull, BottleTonicSkullOutline,
+        BottleWine, BottleWineOutline, Bowl, Bowling, BowlMix, BowlMixOutline, BowlOutline,
+        BowArrow, BowTie, Box, BoxingGlove, BoxCutter, BoxCutterOff, BoxShadow, Braille, Brain,
+        BreadSlice, BreadSliceOutline, Bridge, Briefcase, BriefcaseAccount, BriefcaseAccountOutline,
+        BriefcaseArrowLeftRight, BriefcaseArrowLeftRightOutline, BriefcaseArrowUpDown,
+        BriefcaseArrowUpDownOutline, BriefcaseCheck, BriefcaseCheckOutline, BriefcaseClock,
+        BriefcaseClockOutline, BriefcaseDownload, BriefcaseDownloadOutline, BriefcaseEdit,
+        BriefcaseEditOutline, BriefcaseEye, BriefcaseEyeOutline, BriefcaseMinus,
+        BriefcaseMinusOutline, BriefcaseOff, BriefcaseOffOutline, BriefcaseOutline, BriefcasePlus,
+        BriefcasePlusOutline, BriefcaseRemove, BriefcaseRemoveOutline, BriefcaseSearch,
+        BriefcaseSearchOutline, BriefcaseUpload, BriefcaseUploadOutline, BriefcaseVariant,
+        BriefcaseVariantOff, BriefcaseVariantOffOutline, BriefcaseVariantOutline, Brightness1,
+        Brightness2, Brightness3, Brightness4, Brightness5, Brightness6, Brightness7,
+        BrightnessAuto, BrightnessPercent, Broadcast, BroadcastOff, Broom, Brush, BrushOff,
+        BrushOutline, BrushVariant, Bucket, BucketOutline, Buffet, Bug, Bugle, BugCheck,
+        BugCheckOutline, BugOutline, BugPause, BugPauseOutline, BugPlay, BugPlayOutline, BugStop,
+        BugStopOutline, BulkheadLight, Bulldozer, Bullet, BulletinBoard, Bullhorn, BullhornOutline,
+        BullhornVariant, BullhornVariantOutline, Bullseye, BullseyeArrow, Bulma, BunkBed,
+        BunkBedOutline, Bus, BusAlert, BusArticulatedEnd, BusArticulatedFront, BusClock,
+        BusDoubleDecker, BusElectric, BusMarker, BusMultiple, BusSchool, BusSide, BusStop,
+        BusStopCovered, BusStopUncovered, Butterfly, ButterflyOutline, ButtonCursor, ButtonPointer,
+        CabinAFrame, CableData, Cached, Cactus, Cake, CakeLayered, CakeVariant, CakeVariantOutline,
+        Calculator, CalculatorVariant, CalculatorVariantOutline, Calendar, CalendarAccount,
+        CalendarAccountOutline, CalendarAlert, CalendarAlertOutline, CalendarArrowLeft,
+        CalendarArrowRight, CalendarBadge, CalendarBadgeOutline, CalendarBlank,
+        CalendarBlankMultiple, CalendarBlankOutline, CalendarCheck, CalendarCheckOutline,
+        CalendarClock, CalendarClockOutline, CalendarCollapseHorizontal,
+        CalendarCollapseHorizontalOutline, CalendarCursor, CalendarCursorOutline, CalendarEdit,
+        CalendarEditOutline, CalendarEnd, CalendarEndOutline, CalendarExpandHorizontal,
+        CalendarExpandHorizontalOutline, CalendarExport, CalendarExportOutline, CalendarFilter,
+        CalendarFilterOutline, CalendarHeart, CalendarHeartOutline, CalendarImport,
+        CalendarImportOutline, CalendarLock, CalendarLockOpen, CalendarLockOpenOutline,
+        CalendarLockOutline, CalendarMinus, CalendarMinusOutline, CalendarMonth,
+        CalendarMonthOutline, CalendarMultiple, CalendarMultipleCheck, CalendarMultiselect,
+        CalendarMultiselectOutline, CalendarOutline, CalendarPlus, CalendarPlusOutline,
+        CalendarQuestion, CalendarQuestionOutline, CalendarRange, CalendarRangeOutline,
+        CalendarRefresh, CalendarRefreshOutline, CalendarRemove, CalendarRemoveOutline,
+        CalendarSearch, CalendarSearchOutline, CalendarStar, CalendarStart, CalendarStartOutline,
+        CalendarStarFourPoints, CalendarStarOutline, CalendarSync, CalendarSyncOutline,
+        CalendarText, CalendarTextOutline, CalendarToday, CalendarTodayOutline, CalendarWeek,
+        CalendarWeekend, CalendarWeekendOutline, CalendarWeekBegin, CalendarWeekBeginOutline,
+        CalendarWeekOutline, CallMade, CallMerge, CallMissed, CallReceived, CallSplit, Camcorder,
+        CamcorderOff, Camera, CameraAccount, CameraBurst, CameraControl, CameraDocument,
+        CameraDocumentOff, CameraEnhance, CameraEnhanceOutline, CameraFlip, CameraFlipOutline,
+        CameraFront, CameraFrontVariant, CameraGopro, CameraImage, CameraIris, CameraLock,
+        CameraLockOpen, CameraLockOpenOutline, CameraLockOutline, CameraMarker, CameraMarkerOutline,
+        CameraMeteringCenter, CameraMeteringMatrix, CameraMeteringPartial, CameraMeteringSpot,
+        CameraOff, CameraOffOutline, CameraOutline, CameraPartyMode, CameraPlus, CameraPlusOutline,
+        CameraRear, CameraRearVariant, CameraRetake, CameraRetakeOutline, CameraSwitch,
+        CameraSwitchOutline, CameraTimer, CameraWireless, CameraWirelessOutline, Campfire, Cancel,
+        Candelabra, CandelabraFire, Candle, Candy, Candycane, CandyOff, CandyOffOutline,
+        CandyOutline, Cannabis, CannabisOff, CapsLock, Car, Carabiner, Caravan, Card, Cards,
+        CardsClub, CardsClubOutline, CardsDiamond, CardsDiamondOutline, CardsHeart,
+        CardsHeartOutline, CardsOutline, CardsPlaying, CardsPlayingClub, CardsPlayingClubMultiple,
+        CardsPlayingClubMultipleOutline, CardsPlayingClubOutline, CardsPlayingDiamond,
+        CardsPlayingDiamondMultiple, CardsPlayingDiamondMultipleOutline, CardsPlayingDiamondOutline,
+        CardsPlayingHeart, CardsPlayingHeartMultiple, CardsPlayingHeartMultipleOutline,
+        CardsPlayingHeartOutline, CardsPlayingOutline, CardsPlayingSpade, CardsPlayingSpadeMultiple,
+        CardsPlayingSpadeMultipleOutline, CardsPlayingSpadeOutline, CardsSpade, CardsSpadeOutline,
+        CardsVariant, CardAccountDetails, CardAccountDetailsOutline, CardAccountDetailsStar,
+        CardAccountDetailsStarOutline, CardAccountMail, CardAccountMailOutline, CardAccountPhone,
+        CardAccountPhoneOutline, CardBulleted, CardBulletedOff, CardBulletedOffOutline,
+        CardBulletedOutline, CardBulletedSettings, CardBulletedSettingsOutline, CardMinus,
+        CardMinusOutline, CardMultiple, CardMultipleOutline, CardOff, CardOffOutline, CardOutline,
+        CardPlus, CardPlusOutline, CardRemove, CardRemoveOutline, CardSearch, CardSearchOutline,
+        CardText, CardTextOutline, Carrot, Cart, CartArrowDown, CartArrowRight, CartArrowUp,
+        CartCheck, CartHeart, CartMinus, CartOff, CartOutline, CartPercent, CartPlus, CartRemove,
+        CartVariant, Car2Plus, Car3Plus, CarArrowLeft, CarArrowRight, CarBack, CarBattery,
+        CarBrakeAbs, CarBrakeAlert, CarBrakeFluidLevel, CarBrakeHold, CarBrakeLowPressure,
+        CarBrakeParking, CarBrakeRetarder, CarBrakeTemperature, CarBrakeWornLinings, CarChildSeat,
+        CarClock, CarClutch, CarCog, CarConnected, CarConvertible, CarCoolantLevel,
+        CarCruiseControl, CarDefrostFront, CarDefrostRear, CarDoor, CarDoorLock, CarElectric,
+        CarElectricOutline, CarEmergency, CarEsp, CarEstate, CarHatchback, CarInfo, CarKey,
+        CarLiftedPickup, CarLightAlert, CarLightDimmed, CarLightFog, CarLightHigh, CarLimousine,
+        CarMultiple, CarOff, CarOutline, CarParkingLights, CarPickup, CarSearch, CarSearchOutline,
+        CarSeat, CarSeatCooler, CarSeatHeater, CarSelect, CarSettings, CarShiftPattern, CarSide,
+        CarSpeedLimiter, CarSports, CarTireAlert, CarTractionControl, CarTurbocharger, CarWash,
+        CarWindshield, CarWindshieldOutline, CarWireless, CarWrench, CaseSensitiveAlt, Cash,
+        Cash100, CashCheck, CashClock, CashFast, CashLock, CashLockOpen, CashMarker, CashMinus,
+        CashMultiple, CashPlus, CashRefund, CashRegister, CashRemove, CashSync, Cassette, Cast,
+        Castle, CastAudio, CastAudioVariant, CastConnected, CastEducation, CastOff, CastVariant,
+        Cat, Cctv, CctvOff, CeilingFan, CeilingFanLight, CeilingLight, CeilingLightMultiple,
+        CeilingLightMultipleOutline, CeilingLightOutline, Cellphone, CellphoneArrowDown,
+        CellphoneArrowDownVariant, CellphoneBasic, CellphoneCharging, CellphoneCheck, CellphoneCog,
+        CellphoneDock, CellphoneInformation, CellphoneKey, CellphoneLink, CellphoneLinkOff,
+        CellphoneLock, CellphoneMarker, CellphoneMessage, CellphoneMessageOff, CellphoneNfc,
+        CellphoneNfcOff, CellphoneOff, CellphonePlay, CellphoneRemove, CellphoneScreenshot,
+        CellphoneSettings, CellphoneSound, CellphoneText, CellphoneWireless, Centos, Certificate,
+        CertificateOutline, ChairRolling, ChairSchool, Chandelier, Charity, ChartArc,
+        ChartAreaspline, ChartAreasplineVariant, ChartBar, ChartBarStacked, ChartBellCurve,
+        ChartBellCurveCumulative, ChartBox, ChartBoxOutline, ChartBoxPlusOutline, ChartBubble,
+        ChartDonut, ChartDonutVariant, ChartGantt, ChartHistogram, ChartLine, ChartLineStacked,
+        ChartLineVariant, ChartMultiline, ChartMultiple, ChartPie, ChartPieOutline, ChartPpf,
+        ChartSankey, ChartSankeyVariant, ChartScatterPlot, ChartScatterPlotHexbin, ChartTimeline,
+        ChartTimelineVariant, ChartTimelineVariantShimmer, ChartTree, ChartWaterfall, Chat,
+        ChatAlert, ChatAlertOutline, ChatMinus, ChatMinusOutline, ChatOutline, ChatPlus,
+        ChatPlusOutline, ChatProcessing, ChatProcessingOutline, ChatQuestion, ChatQuestionOutline,
+        ChatRemove, ChatRemoveOutline, ChatSleep, ChatSleepOutline, Check, Checkbook,
+        CheckbookArrowLeft, CheckbookArrowRight, CheckboxBlank, CheckboxBlankBadge,
+        CheckboxBlankBadgeOutline, CheckboxBlankCircle, CheckboxBlankCircleOutline,
+        CheckboxBlankOff, CheckboxBlankOffOutline, CheckboxBlankOutline, CheckboxIntermediate,
+        CheckboxIntermediateVariant, CheckboxMarked, CheckboxMarkedCircle,
+        CheckboxMarkedCircleOutline, CheckboxMarkedCirclePlusOutline, CheckboxMarkedOutline,
+        CheckboxMultipleBlank, CheckboxMultipleBlankCircle, CheckboxMultipleBlankCircleOutline,
+        CheckboxMultipleBlankOutline, CheckboxMultipleMarked, CheckboxMultipleMarkedCircle,
+        CheckboxMultipleMarkedCircleOutline, CheckboxMultipleMarkedOutline, CheckboxMultipleOutline,
+        CheckboxOutline, Checkerboard, CheckerboardMinus, CheckerboardPlus, CheckerboardRemove,
+        CheckAll, CheckBold, CheckCircle, CheckCircleOutline, CheckDecagram, CheckDecagramOutline,
+        CheckNetwork, CheckNetworkOutline, CheckOutline, CheckUnderline, CheckUnderlineCircle,
+        CheckUnderlineCircleOutline, Cheese, CheeseOff, ChefHat, ChemicalWeapon, ChessBishop,
+        ChessKing, ChessKnight, ChessPawn, ChessQueen, ChessRook, ChevronDoubleDown,
+        ChevronDoubleLeft, ChevronDoubleRight, ChevronDoubleUp, ChevronDown, ChevronDownBox,
+        ChevronDownBoxOutline, ChevronDownCircle, ChevronDownCircleOutline, ChevronLeft,
+        ChevronLeftBox, ChevronLeftBoxOutline, ChevronLeftCircle, ChevronLeftCircleOutline,
+        ChevronRight, ChevronRightBox, ChevronRightBoxOutline, ChevronRightCircle,
+        ChevronRightCircleOutline, ChevronTripleDown, ChevronTripleLeft, ChevronTripleRight,
+        ChevronTripleUp, ChevronUp, ChevronUpBox, ChevronUpBoxOutline, ChevronUpCircle,
+        ChevronUpCircleOutline, ChiliAlert, ChiliAlertOutline, ChiliHot, ChiliHotOutline,
+        ChiliMedium, ChiliMediumOutline, ChiliMild, ChiliMildOutline, ChiliOff, ChiliOffOutline,
+        Chip, Church, ChurchOutline, Cigar, CigarOff, Circle, CircleBox, CircleBoxOutline,
+        CircleDouble, CircleEditOutline, CircleExpand, CircleHalf, CircleHalfFull, CircleMedium,
+        CircleMultiple, CircleMultipleOutline, CircleOffOutline, CircleOpacity, CircleOutline,
+        CircleSlice1, CircleSlice2, CircleSlice3, CircleSlice4, CircleSlice5, CircleSlice6,
+        CircleSlice7, CircleSlice8, CircleSmall, CircularSaw, City, CityVariant, CityVariantOutline,
+        Clipboard, ClipboardAccount, ClipboardAccountOutline, ClipboardAlert, ClipboardAlertOutline,
+        ClipboardArrowDown, ClipboardArrowDownOutline, ClipboardArrowLeft,
+        ClipboardArrowLeftOutline, ClipboardArrowRight, ClipboardArrowRightOutline,
+        ClipboardArrowUp, ClipboardArrowUpOutline, ClipboardCheck, ClipboardCheckMultiple,
+        ClipboardCheckMultipleOutline, ClipboardCheckOutline, ClipboardClock, ClipboardClockOutline,
+        ClipboardEdit, ClipboardEditOutline, ClipboardFile, ClipboardFileOutline, ClipboardFlow,
+        ClipboardFlowOutline, ClipboardList, ClipboardListOutline, ClipboardMinus,
+        ClipboardMinusOutline, ClipboardMultiple, ClipboardMultipleOutline, ClipboardOff,
+        ClipboardOffOutline, ClipboardOutline, ClipboardPlay, ClipboardPlayMultiple,
+        ClipboardPlayMultipleOutline, ClipboardPlayOutline, ClipboardPlus, ClipboardPlusOutline,
+        ClipboardPulse, ClipboardPulseOutline, ClipboardRemove, ClipboardRemoveOutline,
+        ClipboardSearch, ClipboardSearchOutline, ClipboardText, ClipboardTextClock,
+        ClipboardTextClockOutline, ClipboardTextMultiple, ClipboardTextMultipleOutline,
+        ClipboardTextOff, ClipboardTextOffOutline, ClipboardTextOutline, ClipboardTextPlay,
+        ClipboardTextPlayOutline, ClipboardTextSearch, ClipboardTextSearchOutline, Clippy, Clock,
+        ClockAlert, ClockAlertOutline, ClockCheck, ClockCheckOutline, ClockDigital, ClockEdit,
+        ClockEditOutline, ClockEnd, ClockFast, ClockIn, ClockMinus, ClockMinusOutline, ClockOut,
+        ClockOutline, ClockPlus, ClockPlusOutline, ClockRemove, ClockRemoveOutline, ClockStart,
+        ClockTimeEight, ClockTimeEightOutline, ClockTimeEleven, ClockTimeElevenOutline,
+        ClockTimeFive, ClockTimeFiveOutline, ClockTimeFour, ClockTimeFourOutline, ClockTimeNine,
+        ClockTimeNineOutline, ClockTimeOne, ClockTimeOneOutline, ClockTimeSeven,
+        ClockTimeSevenOutline, ClockTimeSix, ClockTimeSixOutline, ClockTimeTen, ClockTimeTenOutline,
+        ClockTimeThree, ClockTimeThreeOutline, ClockTimeTwelve, ClockTimeTwelveOutline,
+        ClockTimeTwo, ClockTimeTwoOutline, Close, ClosedCaption, ClosedCaptionOutline, CloseBox,
+        CloseBoxMultiple, CloseBoxMultipleOutline, CloseBoxOutline, CloseCircle,
+        CloseCircleMultiple, CloseCircleMultipleOutline, CloseCircleOutline, CloseNetwork,
+        CloseNetworkOutline, CloseOctagon, CloseOctagonOutline, CloseOutline, CloseThick, Cloud,
+        Clouds, CloudAlert, CloudAlertOutline, CloudArrowDown, CloudArrowDownOutline,
+        CloudArrowLeft, CloudArrowLeftOutline, CloudArrowRight, CloudArrowRightOutline,
+        CloudArrowUp, CloudArrowUpOutline, CloudBraces, CloudCancel, CloudCancelOutline, CloudCheck,
+        CloudCheckOutline, CloudCheckVariant, CloudCheckVariantOutline, CloudCircle,
+        CloudCircleOutline, CloudClock, CloudClockOutline, CloudCog, CloudCogOutline, CloudDownload,
+        CloudDownloadOutline, CloudLock, CloudLockOpen, CloudLockOpenOutline, CloudLockOutline,
+        CloudMinus, CloudMinusOutline, CloudOff, CloudOffOutline, CloudOutline, CloudPercent,
+        CloudPercentOutline, CloudPlus, CloudPlusOutline, CloudPrint, CloudPrintOutline,
+        CloudQuestion, CloudQuestionOutline, CloudRefresh, CloudRefreshOutline, CloudRefreshVariant,
+        CloudRefreshVariantOutline, CloudRemove, CloudRemoveOutline, CloudSearch,
+        CloudSearchOutline, CloudSync, CloudSyncOutline, CloudTags, CloudUpload, CloudUploadOutline,
+        Clover, CoachLamp, CoachLampVariant, CoatRack, Codepen, CodeArray, CodeBraces,
+        CodeBracesBox, CodeBrackets, CodeEqual, CodeGreaterThan, CodeGreaterThanOrEqual, CodeJson,
+        CodeLessThan, CodeLessThanOrEqual, CodeNotEqual, CodeNotEqualVariant, CodeParentheses,
+        CodeParenthesesBox, CodeString, CodeTags, CodeTagsCheck, Coffee, CoffeeMaker,
+        CoffeeMakerCheck, CoffeeMakerCheckOutline, CoffeeMakerOutline, CoffeeOff, CoffeeOffOutline,
+        CoffeeOutline, CoffeeToGo, CoffeeToGoOutline, Coffin, Cog, Cogs, CogBox, CogClockwise,
+        CogCounterclockwise, CogOff, CogOffOutline, CogOutline, CogPause, CogPauseOutline, CogPlay,
+        CogPlayOutline, CogRefresh, CogRefreshOutline, CogStop, CogStopOutline, CogSync,
+        CogSyncOutline, CogTransfer, CogTransferOutline, Collage, CollapseAll, CollapseAllOutline,
+        ColorHelper, Comma, CommaBox, CommaBoxOutline, CommaCircle, CommaCircleOutline, Comment,
+        CommentAccount, CommentAccountOutline, CommentAlert, CommentAlertOutline, CommentArrowLeft,
+        CommentArrowLeftOutline, CommentArrowRight, CommentArrowRightOutline, CommentBookmark,
+        CommentBookmarkOutline, CommentCheck, CommentCheckOutline, CommentEdit, CommentEditOutline,
+        CommentEye, CommentEyeOutline, CommentFlash, CommentFlashOutline, CommentMinus,
+        CommentMinusOutline, CommentMultiple, CommentMultipleOutline, CommentOff, CommentOffOutline,
+        CommentOutline, CommentPlus, CommentPlusOutline, CommentProcessing,
+        CommentProcessingOutline, CommentQuestion, CommentQuestionOutline, CommentQuote,
+        CommentQuoteOutline, CommentRemove, CommentRemoveOutline, CommentSearch,
+        CommentSearchOutline, CommentText, CommentTextMultiple, CommentTextMultipleOutline,
+        CommentTextOutline, Compare, CompareHorizontal, CompareRemove, CompareVertical, Compass,
+        CompassOff, CompassOffOutline, CompassOutline, CompassRose, Compost, Cone, ConeOff,
+        Connection, Console, ConsoleLine, ConsoleNetwork, ConsoleNetworkOutline, Consolidate,
+        ContactlessPayment, ContactlessPaymentCircle, ContactlessPaymentCircleOutline, Contacts,
+        ContactsOutline, Contain, ContainEnd, ContainStart, ContentCopy, ContentCut,
+        ContentDuplicate, ContentPaste, ContentSave, ContentSaveAlert, ContentSaveAlertOutline,
+        ContentSaveAll, ContentSaveAllOutline, ContentSaveCheck, ContentSaveCheckOutline,
+        ContentSaveCog, ContentSaveCogOutline, ContentSaveEdit, ContentSaveEditOutline,
+        ContentSaveMinus, ContentSaveMinusOutline, ContentSaveMove, ContentSaveMoveOutline,
+        ContentSaveOff, ContentSaveOffOutline, ContentSaveOutline, ContentSavePlus,
+        ContentSavePlusOutline, ContentSaveSettings, ContentSaveSettingsOutline, Contrast,
+        ContrastBox, ContrastCircle, Controller, ControllerClassic, ControllerClassicOutline,
+        ControllerOff, Cookie, CookieAlert, CookieAlertOutline, CookieCheck, CookieCheckOutline,
+        CookieClock, CookieClockOutline, CookieCog, CookieCogOutline, CookieEdit, CookieEditOutline,
+        CookieLock, CookieLockOutline, CookieMinus, CookieMinusOutline, CookieOff, CookieOffOutline,
+        CookieOutline, CookiePlus, CookiePlusOutline, CookieRefresh, CookieRefreshOutline,
+        CookieRemove, CookieRemoveOutline, CookieSettings, CookieSettingsOutline,
+        CoolantTemperature, Copyleft, Copyright, Cordova, Corn, CornOff, CosineWave, Counter,
+        Countertop, CountertopOutline, Cow, CowOff, Cpu32Bit, Cpu64Bit, Cradle, CradleOutline,
+        Crane, Creation, CreativeCommons, CreditCard, CreditCardCheck, CreditCardCheckOutline,
+        CreditCardChip, CreditCardChipOutline, CreditCardClock, CreditCardClockOutline,
+        CreditCardEdit, CreditCardEditOutline, CreditCardFast, CreditCardFastOutline,
+        CreditCardLock, CreditCardLockOutline, CreditCardMarker, CreditCardMarkerOutline,
+        CreditCardMinus, CreditCardMinusOutline, CreditCardMultiple, CreditCardMultipleOutline,
+        CreditCardOff, CreditCardOffOutline, CreditCardOutline, CreditCardPlus,
+        CreditCardPlusOutline, CreditCardRefresh, CreditCardRefreshOutline, CreditCardRefund,
+        CreditCardRefundOutline, CreditCardRemove, CreditCardRemoveOutline, CreditCardScan,
+        CreditCardScanOutline, CreditCardSearch, CreditCardSearchOutline, CreditCardSettings,
+        CreditCardSettingsOutline, CreditCardSync, CreditCardSyncOutline, CreditCardWireless,
+        CreditCardWirelessOff, CreditCardWirelessOffOutline, CreditCardWirelessOutline, Cricket,
+        Crop, CropFree, CropLandscape, CropPortrait, CropRotate, CropSquare, Cross, Crosshairs,
+        CrosshairsGps, CrosshairsOff, CrosshairsQuestion, CrossBolnisi, CrossCeltic, CrossOutline,
+        Crowd, Crown, CrownCircle, CrownCircleOutline, CrownOutline, Cryengine, CrystalBall, Cube,
+        CubeOff, CubeOffOutline, CubeOutline, CubeScan, CubeSend, CubeUnfolded, Cup, Cupboard,
+        CupboardOutline, Cupcake, CupOff, CupOffOutline, CupOutline, CupWater, Curling, CurrencyBdt,
+        CurrencyBrl, CurrencyBtc, CurrencyCny, CurrencyEth, CurrencyEur, CurrencyEurOff,
+        CurrencyFra, CurrencyGbp, CurrencyIls, CurrencyInr, CurrencyJpy, CurrencyKrw, CurrencyKzt,
+        CurrencyMnt, CurrencyNgn, CurrencyPhp, CurrencyRial, CurrencyRub, CurrencyRupee,
+        CurrencySign, CurrencyThb, CurrencyTry, CurrencyTwd, CurrencyUah, CurrencyUsd,
+        CurrencyUsdOff, CurrentAc, CurrentDc, CursorDefault, CursorDefaultClick,
+        CursorDefaultClickOutline, CursorDefaultGesture, CursorDefaultGestureOutline,
+        CursorDefaultOutline, CursorMove, CursorPointer, CursorText, Curtains, CurtainsClosed,
+        Cylinder, CylinderOff, DanceBallroom, DancePole, Database, DatabaseAlert,
+        DatabaseAlertOutline, DatabaseArrowDown, DatabaseArrowDownOutline, DatabaseArrowLeft,
+        DatabaseArrowLeftOutline, DatabaseArrowRight, DatabaseArrowRightOutline, DatabaseArrowUp,
+        DatabaseArrowUpOutline, DatabaseCheck, DatabaseCheckOutline, DatabaseClock,
+        DatabaseClockOutline, DatabaseCog, DatabaseCogOutline, DatabaseEdit, DatabaseEditOutline,
+        DatabaseExport, DatabaseExportOutline, DatabaseEye, DatabaseEyeOff, DatabaseEyeOffOutline,
+        DatabaseEyeOutline, DatabaseImport, DatabaseImportOutline, DatabaseLock,
+        DatabaseLockOutline, DatabaseMarker, DatabaseMarkerOutline, DatabaseMinus,
+        DatabaseMinusOutline, DatabaseOff, DatabaseOffOutline, DatabaseOutline, DatabasePlus,
+        DatabasePlusOutline, DatabaseRefresh, DatabaseRefreshOutline, DatabaseRemove,
+        DatabaseRemoveOutline, DatabaseSearch, DatabaseSearchOutline, DatabaseSettings,
+        DatabaseSettingsOutline, DatabaseSync, DatabaseSyncOutline, DataMatrix, DataMatrixEdit,
+        DataMatrixMinus, DataMatrixPlus, DataMatrixRemove, DataMatrixScan, DeathlyHallows,
+        DeathStar, DeathStarVariant, Debian, DebugStepInto, DebugStepOut, DebugStepOver, Decagram,
+        DecagramOutline, Decimal, DecimalComma, DecimalCommaDecrease, DecimalCommaIncrease,
+        DecimalDecrease, DecimalIncrease, Delete, DeleteAlert, DeleteAlertOutline, DeleteCircle,
+        DeleteCircleOutline, DeleteClock, DeleteClockOutline, DeleteEmpty, DeleteEmptyOutline,
+        DeleteForever, DeleteForeverOutline, DeleteOff, DeleteOffOutline, DeleteOutline,
+        DeleteRestore, DeleteSweep, DeleteSweepOutline, DeleteVariant, Delta, Desk, Deskphone,
+        DesktopClassic, DesktopTower, DesktopTowerMonitor, DeskLamp, DeskLampOff, DeskLampOn,
+        Details, DeveloperBoard, Deviantart, Devices, DevTo, Dharmachakra, Diabetes, Dialpad,
+        Diameter, DiameterOutline, DiameterVariant, Diamond, DiamondOutline, DiamondStone, Dice1,
+        Dice1Outline, Dice2, Dice2Outline, Dice3, Dice3Outline, Dice4, Dice4Outline, Dice5,
+        Dice5Outline, Dice6, Dice6Outline, DiceD10, DiceD10Outline, DiceD12, DiceD12Outline,
+        DiceD20, DiceD20Outline, DiceD4, DiceD4Outline, DiceD6, DiceD6Outline, DiceD8,
+        DiceD8Outline, DiceMultiple, DiceMultipleOutline, DigitalOcean, DipSwitch, Directions,
+        DirectionsFork, Disc, DiscAlert, DiscPlayer, Dishwasher, DishwasherAlert, DishwasherOff,
+        Disqus, DistributeHorizontalCenter, DistributeHorizontalLeft, DistributeHorizontalRight,
+        DistributeVerticalBottom, DistributeVerticalCenter, DistributeVerticalTop, Diversify,
+        Diving, DivingFlippers, DivingHelmet, DivingScuba, DivingScubaFlag, DivingScubaMask,
+        DivingScubaTank, DivingScubaTankMultiple, DivingSnorkel, Division, DivisionBox, Dlna, Dna,
+        Dns, DnsOutline, Docker, DockBottom, DockLeft, DockRight, DockTop, DockWindow, Doctor, Dog,
+        DogService, DogSide, DogSideOff, Dolby, Dolly, Dolphin, Domain, DomainOff, DomainPlus,
+        DomainRemove, DomeLight, DominoMask, Donkey, Door, Doorbell, DoorbellVideo, DoorClosed,
+        DoorClosedLock, DoorOpen, DoorSliding, DoorSlidingLock, DoorSlidingOpen, DotsCircle,
+        DotsGrid, DotsHexagon, DotsHorizontal, DotsHorizontalCircle, DotsHorizontalCircleOutline,
+        DotsSquare, DotsTriangle, DotsVertical, DotsVerticalCircle, DotsVerticalCircleOutline,
+        DotNet, Download, DownloadBox, DownloadBoxOutline, DownloadCircle, DownloadCircleOutline,
+        DownloadLock, DownloadLockOutline, DownloadMultiple, DownloadNetwork,
+        DownloadNetworkOutline, DownloadOff, DownloadOffOutline, DownloadOutline, Drag,
+        DragHorizontal, DragHorizontalVariant, DragVariant, DragVertical, DragVerticalVariant,
+        DramaMasks, Draw, Drawing, DrawingBox, DrawPen, Dresser, DresserOutline, Drone, Dropbox,
+        Drupal, Duck, Dumbbell, DumpTruck, Earbuds, EarbudsOff, EarbudsOffOutline, EarbudsOutline,
+        Earth, EarthArrowRight, EarthBox, EarthBoxMinus, EarthBoxOff, EarthBoxPlus, EarthBoxRemove,
+        EarthMinus, EarthOff, EarthPlus, EarthRemove, EarHearing, EarHearingLoop, EarHearingOff,
+        Egg, EggEaster, EggFried, EggOff, EggOffOutline, EggOutline, EiffelTower, EightTrack, Eject,
+        EjectCircle, EjectCircleOutline, EjectOutline, ElectricSwitch, ElectricSwitchClosed,
+        ElectronFramework, Elephant, ElevationDecline, ElevationRise, Elevator, ElevatorDown,
+        ElevatorPassenger, ElevatorPassengerOff, ElevatorPassengerOffOutline,
+        ElevatorPassengerOutline, ElevatorUp, Ellipse, EllipseOutline, Email, EmailAlert,
+        EmailAlertOutline, EmailArrowLeft, EmailArrowLeftOutline, EmailArrowRight,
+        EmailArrowRightOutline, EmailBox, EmailCheck, EmailCheckOutline, EmailEdit,
+        EmailEditOutline, EmailFast, EmailFastOutline, EmailLock, EmailLockOutline,
+        EmailMarkAsUnread, EmailMinus, EmailMinusOutline, EmailMultiple, EmailMultipleOutline,
+        EmailNewsletter, EmailOff, EmailOffOutline, EmailOpen, EmailOpenMultiple,
+        EmailOpenMultipleOutline, EmailOpenOutline, EmailOutline, EmailPlus, EmailPlusOutline,
+        EmailRemove, EmailRemoveOutline, EmailSeal, EmailSealOutline, EmailSearch,
+        EmailSearchOutline, EmailSync, EmailSyncOutline, EmailVariant, Ember, Emby, Emoticon,
+        EmoticonAngry, EmoticonAngryOutline, EmoticonConfused, EmoticonConfusedOutline,
+        EmoticonCool, EmoticonCoolOutline, EmoticonCry, EmoticonCryOutline, EmoticonDead,
+        EmoticonDeadOutline, EmoticonDevil, EmoticonDevilOutline, EmoticonExcited,
+        EmoticonExcitedOutline, EmoticonFrown, EmoticonFrownOutline, EmoticonHappy,
+        EmoticonHappyOutline, EmoticonKiss, EmoticonKissOutline, EmoticonLol, EmoticonLolOutline,
+        EmoticonNeutral, EmoticonNeutralOutline, EmoticonOutline, EmoticonPoop, EmoticonPoopOutline,
+        EmoticonSad, EmoticonSadOutline, EmoticonSick, EmoticonSickOutline, EmoticonTongue,
+        EmoticonTongueOutline, EmoticonWink, EmoticonWinkOutline, Engine, EngineOff,
+        EngineOffOutline, EngineOutline, Epsilon, Equal, Equalizer, EqualizerOutline, EqualBox,
+        Eraser, EraserVariant, Escalator, EscalatorBox, EscalatorDown, EscalatorUp, Eslint, Et,
+        Ethereum, Ethernet, EthernetCable, EthernetCableOff, Evernote, EvPlugCcs1, EvPlugCcs2,
+        EvPlugChademo, EvPlugTesla, EvPlugType1, EvPlugType2, EvStation, Excavator, Exclamation,
+        ExclamationThick, ExitRun, ExitToApp, ExpandAll, ExpandAllOutline, ExpansionCard,
+        ExpansionCardVariant, Exponent, ExponentBox, Export, ExportVariant, Eye, Eyedropper,
+        EyedropperMinus, EyedropperOff, EyedropperPlus, EyedropperRemove, EyedropperVariant,
+        EyeArrowLeft, EyeArrowLeftOutline, EyeArrowRight, EyeArrowRightOutline, EyeCheck,
+        EyeCheckOutline, EyeCircle, EyeCircleOutline, EyeLock, EyeLockOpen, EyeLockOpenOutline,
+        EyeLockOutline, EyeMinus, EyeMinusOutline, EyeOff, EyeOffOutline, EyeOutline, EyePlus,
+        EyePlusOutline, EyeRefresh, EyeRefreshOutline, EyeRemove, EyeRemoveOutline, EyeSettings,
+        EyeSettingsOutline, Facebook, FacebookGaming, FacebookMessenger, FacebookWorkplace,
+        FaceAgent, FaceMan, FaceManOutline, FaceManProfile, FaceManShimmer, FaceManShimmerOutline,
+        FaceMask, FaceMaskOutline, FaceRecognition, FaceWoman, FaceWomanOutline, FaceWomanProfile,
+        FaceWomanShimmer, FaceWomanShimmerOutline, Factory, FamilyTree, Fan, FanAlert, FanAuto,
+        FanChevronDown, FanChevronUp, FanClock, FanMinus, FanOff, FanPlus, FanRemove, FanSpeed1,
+        FanSpeed2, FanSpeed3, FastForward, FastForward10, FastForward15, FastForward30,
+        FastForward45, FastForward5, FastForward60, FastForwardOutline, Faucet, FaucetVariant, Fax,
+        Feather, FeatureSearch, FeatureSearchOutline, Fedora, Fence, FenceElectric, Fencing,
+        FerrisWheel, Ferry, File, FileAccount, FileAccountOutline, FileAlert, FileAlertOutline,
+        FileArrowLeftRight, FileArrowLeftRightOutline, FileArrowUpDown, FileArrowUpDownOutline,
+        FileCabinet, FileCad, FileCadBox, FileCancel, FileCancelOutline, FileCertificate,
+        FileCertificateOutline, FileChart, FileChartCheck, FileChartCheckOutline, FileChartOutline,
+        FileCheck, FileCheckOutline, FileClock, FileClockOutline, FileCloud, FileCloudOutline,
+        FileCode, FileCodeOutline, FileCog, FileCogOutline, FileCompare, FileDelimited,
+        FileDelimitedOutline, FileDocument, FileDocumentAlert, FileDocumentAlertOutline,
+        FileDocumentArrowRight, FileDocumentArrowRightOutline, FileDocumentCheck,
+        FileDocumentCheckOutline, FileDocumentEdit, FileDocumentEditOutline, FileDocumentMinus,
+        FileDocumentMinusOutline, FileDocumentMultiple, FileDocumentMultipleOutline,
+        FileDocumentOutline, FileDocumentPlus, FileDocumentPlusOutline, FileDocumentRemove,
+        FileDocumentRemoveOutline, FileDownload, FileDownloadOutline, FileEdit, FileEditOutline,
+        FileExcel, FileExcelBox, FileExcelBoxOutline, FileExcelOutline, FileExport,
+        FileExportOutline, FileEye, FileEyeOutline, FileFind, FileFindOutline, FileGifBox,
+        FileHidden, FileImage, FileImageMarker, FileImageMarkerOutline, FileImageMinus,
+        FileImageMinusOutline, FileImageOutline, FileImagePlus, FileImagePlusOutline,
+        FileImageRemove, FileImageRemoveOutline, FileImport, FileImportOutline, FileJpgBox, FileKey,
+        FileKeyOutline, FileLink, FileLinkOutline, FileLock, FileLockOpen, FileLockOpenOutline,
+        FileLockOutline, FileMarker, FileMarkerOutline, FileMinus, FileMinusOutline, FileMove,
+        FileMoveOutline, FileMultiple, FileMultipleOutline, FileMusic, FileMusicOutline,
+        FileOutline, FilePdfBox, FilePercent, FilePercentOutline, FilePhone, FilePhoneOutline,
+        FilePlus, FilePlusOutline, FilePngBox, FilePowerpoint, FilePowerpointBox,
+        FilePowerpointBoxOutline, FilePowerpointOutline, FilePresentationBox, FileQuestion,
+        FileQuestionOutline, FileRefresh, FileRefreshOutline, FileRemove, FileRemoveOutline,
+        FileReplace, FileReplaceOutline, FileRestore, FileRestoreOutline, FileRotateLeft,
+        FileRotateLeftOutline, FileRotateRight, FileRotateRightOutline, FileSearch,
+        FileSearchOutline, FileSend, FileSendOutline, FileSettings, FileSettingsOutline, FileSign,
+        FileStar, FileStarOutline, FileSwap, FileSwapOutline, FileSync, FileSyncOutline, FileTable,
+        FileTableBox, FileTableBoxMultiple, FileTableBoxMultipleOutline, FileTableBoxOutline,
+        FileTableOutline, FileTree, FileTreeOutline, FileUndo, FileUndoOutline, FileUpload,
+        FileUploadOutline, FileVideo, FileVideoOutline, FileWord, FileWordBox, FileWordBoxOutline,
+        FileWordOutline, FileXmlBox, Film, Filmstrip, FilmstripBox, FilmstripBoxMultiple,
+        FilmstripOff, Filter, FilterCheck, FilterCheckOutline, FilterCog, FilterCogOutline,
+        FilterMenu, FilterMenuOutline, FilterMinus, FilterMinusOutline, FilterMultiple,
+        FilterMultipleOutline, FilterOff, FilterOffOutline, FilterOutline, FilterPlus,
+        FilterPlusOutline, FilterRemove, FilterRemoveOutline, FilterSettings, FilterSettingsOutline,
+        FilterVariant, FilterVariantMinus, FilterVariantPlus, FilterVariantRemove, Finance,
+        FindReplace, Fingerprint, FingerprintOff, Fire, Firebase, Firefox, Fireplace, FireplaceOff,
+        Firewire, Firework, FireworkOff, FireAlert, FireCircle, FireExtinguisher, FireHydrant,
+        FireHydrantAlert, FireHydrantOff, FireOff, FireTruck, Fish, Fishbowl, FishbowlOutline,
+        FishOff, FitToPage, FitToPageOutline, FitToScreen, FitToScreenOutline, Flag, FlagCheckered,
+        FlagMinus, FlagMinusOutline, FlagOff, FlagOffOutline, FlagOutline, FlagPlus,
+        FlagPlusOutline, FlagRemove, FlagRemoveOutline, FlagTriangle, FlagVariant, FlagVariantMinus,
+        FlagVariantMinusOutline, FlagVariantOff, FlagVariantOffOutline, FlagVariantOutline,
+        FlagVariantPlus, FlagVariantPlusOutline, FlagVariantRemove, FlagVariantRemoveOutline, Flare,
+        Flash, Flashlight, FlashlightOff, FlashAlert, FlashAlertOutline, FlashAuto, FlashOff,
+        FlashOffOutline, FlashOutline, FlashRedEye, FlashTriangle, FlashTriangleOutline, Flask,
+        FlaskEmpty, FlaskEmptyMinus, FlaskEmptyMinusOutline, FlaskEmptyOff, FlaskEmptyOffOutline,
+        FlaskEmptyOutline, FlaskEmptyPlus, FlaskEmptyPlusOutline, FlaskEmptyRemove,
+        FlaskEmptyRemoveOutline, FlaskMinus, FlaskMinusOutline, FlaskOff, FlaskOffOutline,
+        FlaskOutline, FlaskPlus, FlaskPlusOutline, FlaskRemove, FlaskRemoveOutline,
+        FlaskRoundBottom, FlaskRoundBottomEmpty, FlaskRoundBottomEmptyOutline,
+        FlaskRoundBottomOutline, FleurDeLis, FlipHorizontal, FlipToBack, FlipToFront, FlipVertical,
+        FloorLamp, FloorLampDual, FloorLampDualOutline, FloorLampOutline, FloorLampTorchiere,
+        FloorLampTorchiereOutline, FloorLampTorchiereVariant, FloorLampTorchiereVariantOutline,
+        FloorPlan, Floppy, FloppyVariant, Flower, FlowerOutline, FlowerPollen, FlowerPollenOutline,
+        FlowerPoppy, FlowerTulip, FlowerTulipOutline, FocusAuto, FocusField, FocusFieldHorizontal,
+        FocusFieldVertical, Folder, FolderAccount, FolderAccountOutline, FolderAlert,
+        FolderAlertOutline, FolderArrowDown, FolderArrowDownOutline, FolderArrowLeft,
+        FolderArrowLeftOutline, FolderArrowLeftRight, FolderArrowLeftRightOutline, FolderArrowRight,
+        FolderArrowRightOutline, FolderArrowUp, FolderArrowUpDown, FolderArrowUpDownOutline,
+        FolderArrowUpOutline, FolderCancel, FolderCancelOutline, FolderCheck, FolderCheckOutline,
+        FolderClock, FolderClockOutline, FolderCog, FolderCogOutline, FolderDownload,
+        FolderDownloadOutline, FolderEdit, FolderEditOutline, FolderEye, FolderEyeOutline,
+        FolderFile, FolderFileOutline, FolderGoogleDrive, FolderHeart, FolderHeartOutline,
+        FolderHidden, FolderHome, FolderHomeOutline, FolderImage, FolderInformation,
+        FolderInformationOutline, FolderKey, FolderKeyNetwork, FolderKeyNetworkOutline,
+        FolderKeyOutline, FolderLock, FolderLockOpen, FolderLockOpenOutline, FolderLockOutline,
+        FolderMarker, FolderMarkerOutline, FolderMinus, FolderMinusOutline, FolderMove,
+        FolderMoveOutline, FolderMultiple, FolderMultipleImage, FolderMultipleOutline,
+        FolderMultiplePlus, FolderMultiplePlusOutline, FolderMusic, FolderMusicOutline,
+        FolderNetwork, FolderNetworkOutline, FolderOff, FolderOffOutline, FolderOpen,
+        FolderOpenOutline, FolderOutline, FolderPlay, FolderPlayOutline, FolderPlus,
+        FolderPlusOutline, FolderPound, FolderPoundOutline, FolderQuestion, FolderQuestionOutline,
+        FolderRefresh, FolderRefreshOutline, FolderRemove, FolderRemoveOutline, FolderSearch,
+        FolderSearchOutline, FolderSettings, FolderSettingsOutline, FolderStar, FolderStarMultiple,
+        FolderStarMultipleOutline, FolderStarOutline, FolderSwap, FolderSwapOutline, FolderSync,
+        FolderSyncOutline, FolderTable, FolderTableOutline, FolderText, FolderTextOutline,
+        FolderUpload, FolderUploadOutline, FolderWrench, FolderWrenchOutline, FolderZip,
+        FolderZipOutline, FontAwesome, Food, FoodApple, FoodAppleOutline, FoodCroissant,
+        FoodDrumstick, FoodDrumstickOff, FoodDrumstickOffOutline, FoodDrumstickOutline,
+        FoodForkDrink, FoodHalal, FoodHotDog, FoodKosher, FoodOff, FoodOffOutline, FoodOutline,
+        FoodSteak, FoodSteakOff, FoodTakeoutBox, FoodTakeoutBoxOutline, FoodTurkey, FoodVariant,
+        FoodVariantOff, Football, FootballAustralian, FootballHelmet, FootPrint, Forest, Forklift,
+        FormatAlignBottom, FormatAlignCenter, FormatAlignJustify, FormatAlignLeft,
+        FormatAlignMiddle, FormatAlignRight, FormatAlignTop, FormatAnnotationMinus,
+        FormatAnnotationPlus, FormatBold, FormatClear, FormatColorFill, FormatColorHighlight,
+        FormatColorMarkerCancel, FormatColorText, FormatColumns, FormatFloatCenter, FormatFloatLeft,
+        FormatFloatNone, FormatFloatRight, FormatFont, FormatFontSizeDecrease,
+        FormatFontSizeIncrease, FormatHeader1, FormatHeader2, FormatHeader3, FormatHeader4,
+        FormatHeader5, FormatHeader6, FormatHeaderDecrease, FormatHeaderEqual, FormatHeaderIncrease,
+        FormatHeaderPound, FormatHorizontalAlignCenter, FormatHorizontalAlignLeft,
+        FormatHorizontalAlignRight, FormatIndentDecrease, FormatIndentIncrease, FormatItalic,
+        FormatLetterCase, FormatLetterCaseLower, FormatLetterCaseUpper, FormatLetterEndsWith,
+        FormatLetterMatches, FormatLetterSpacing, FormatLetterSpacingVariant,
+        FormatLetterStartsWith, FormatLineHeight, FormatLineSpacing, FormatLineStyle,
+        FormatLineWeight, FormatListBulleted, FormatListBulletedSquare, FormatListBulletedTriangle,
+        FormatListBulletedType, FormatListCheckbox, FormatListChecks, FormatListGroup,
+        FormatListGroupPlus, FormatListNumbered, FormatListNumberedRtl, FormatListText,
+        FormatOverline, FormatPageBreak, FormatPageSplit, FormatPaint, FormatParagraph,
+        FormatParagraphSpacing, FormatPilcrow, FormatPilcrowArrowLeft, FormatPilcrowArrowRight,
+        FormatQuoteClose, FormatQuoteCloseOutline, FormatQuoteOpen, FormatQuoteOpenOutline,
+        FormatRotate90, FormatSection, FormatSize, FormatStrikethrough, FormatStrikethroughVariant,
+        FormatSubscript, FormatSuperscript, FormatText, FormatTextbox, FormatTextRotationAngleDown,
+        FormatTextRotationAngleUp, FormatTextRotationDown, FormatTextRotationDownVertical,
+        FormatTextRotationNone, FormatTextRotationUp, FormatTextRotationVertical, FormatTextVariant,
+        FormatTextVariantOutline, FormatTextWrappingClip, FormatTextWrappingOverflow,
+        FormatTextWrappingWrap, FormatTitle, FormatUnderline, FormatUnderlineWavy,
+        FormatVerticalAlignBottom, FormatVerticalAlignCenter, FormatVerticalAlignTop,
+        FormatWrapInline, FormatWrapSquare, FormatWrapTight, FormatWrapTopBottom, FormDropdown,
+        FormSelect, FormTextarea, FormTextbox, FormTextboxLock, FormTextboxPassword, Forum,
+        ForumMinus, ForumMinusOutline, ForumOutline, ForumPlus, ForumPlusOutline, ForumRemove,
+        ForumRemoveOutline, Forward, Forwardburger, Fountain, FountainPen, FountainPenTip,
+        FractionOneHalf, Freebsd, FrenchFries, FrequentlyAskedQuestions, Fridge, FridgeAlert,
+        FridgeAlertOutline, FridgeBottom, FridgeIndustrial, FridgeIndustrialAlert,
+        FridgeIndustrialAlertOutline, FridgeIndustrialOff, FridgeIndustrialOffOutline,
+        FridgeIndustrialOutline, FridgeOff, FridgeOffOutline, FridgeOutline, FridgeTop,
+        FridgeVariant, FridgeVariantAlert, FridgeVariantAlertOutline, FridgeVariantOff,
+        FridgeVariantOffOutline, FridgeVariantOutline, FruitCherries, FruitCherriesOff, FruitCitrus,
+        FruitCitrusOff, FruitGrapes, FruitGrapesOutline, FruitPear, FruitPineapple, FruitWatermelon,
+        Fuel, FuelCell, Fullscreen, FullscreenExit, Function, FunctionVariant, FuriganaHorizontal,
+        FuriganaVertical, Fuse, FuseAlert, FuseBlade, FuseOff, Gamepad, GamepadCircle,
+        GamepadCircleDown, GamepadCircleLeft, GamepadCircleOutline, GamepadCircleRight,
+        GamepadCircleUp, GamepadDown, GamepadLeft, GamepadOutline, GamepadRight, GamepadRound,
+        GamepadRoundDown, GamepadRoundLeft, GamepadRoundOutline, GamepadRoundRight, GamepadRoundUp,
+        GamepadSquare, GamepadSquareOutline, GamepadUp, GamepadVariant, GamepadVariantOutline,
+        Gamma, GantryCrane, Garage, GarageAlert, GarageAlertVariant, GarageLock, GarageOpen,
+        GarageOpenVariant, GarageVariant, GarageVariantLock, GasBurner, GasCylinder, GasStation,
+        GasStationOff, GasStationOffOutline, GasStationOutline, Gate, GateAlert, GateAnd,
+        GateArrowLeft, GateArrowRight, GateBuffer, GateNand, GateNor, GateNot, GateOpen, GateOr,
+        GateXnor, GateXor, Gatsby, Gauge, GaugeEmpty, GaugeFull, GaugeLow, Gavel, GenderFemale,
+        GenderMale, GenderMaleFemale, GenderMaleFemaleVariant, GenderNonBinary, GenderTransgender,
+        Gentoo, Gesture, GestureDoubleTap, GesturePinch, GestureSpread, GestureSwipe,
+        GestureSwipeDown, GestureSwipeHorizontal, GestureSwipeLeft, GestureSwipeRight,
+        GestureSwipeUp, GestureSwipeVertical, GestureTap, GestureTapBox, GestureTapButton,
+        GestureTapHold, GestureTwoDoubleTap, GestureTwoTap, Ghost, GhostOff, GhostOffOutline,
+        GhostOutline, Gift, GiftOff, GiftOffOutline, GiftOpen, GiftOpenOutline, GiftOutline, Git,
+        Github, Gitlab, Glasses, GlassCocktail, GlassCocktailOff, GlassFlute, GlassFragile,
+        GlassMug, GlassMugOff, GlassMugVariant, GlassMugVariantOff, GlassPintOutline, GlassStange,
+        GlassTulip, GlassWine, GlobeLight, GlobeLightOutline, GlobeModel, Gmail, Gnome, Gog, Gold,
+        Golf, GolfCart, GolfTee, Gondola, Goodreads, Google, GoogleAds, GoogleAnalytics,
+        GoogleAssistant, GoogleCardboard, GoogleChrome, GoogleCircles, GoogleCirclesCommunities,
+        GoogleCirclesExtended, GoogleCirclesGroup, GoogleClassroom, GoogleCloud, GoogleDownasaur,
+        GoogleDrive, GoogleEarth, GoogleFit, GoogleGlass, GoogleHangouts, GoogleKeep, GoogleLens,
+        GoogleMaps, GoogleMyBusiness, GoogleNearby, GooglePlay, GooglePlus, GooglePodcast,
+        GoogleSpreadsheet, GoogleStreetView, GoogleTranslate, GoKart, GoKartTrack,
+        GradientHorizontal, GradientVertical, Grain, Graph, Graphql, GraphOutline, Grass,
+        GraveStone, GreasePencil, GreaterThan, GreaterThanOrEqual, Greenhouse, Grid, GridLarge,
+        GridOff, Grill, GrillOutline, Group, GuitarAcoustic, GuitarElectric, GuitarPick,
+        GuitarPickOutline, GuyFawkesMask, Gymnastics, Hail, HairDryer, HairDryerOutline, Halloween,
+        Hamburger, HamburgerCheck, HamburgerMinus, HamburgerOff, HamburgerPlus, HamburgerRemove,
+        Hammer, HammerScrewdriver, HammerSickle, HammerWrench, Handball, Handcuffs, Handshake,
+        HandshakeOutline, HandsPray, HandBackLeft, HandBackLeftOff, HandBackLeftOffOutline,
+        HandBackLeftOutline, HandBackRight, HandBackRightOff, HandBackRightOffOutline,
+        HandBackRightOutline, HandClap, HandClapOff, HandCoin, HandCoinOutline, HandCycle,
+        HandExtended, HandExtendedOutline, HandFrontLeft, HandFrontLeftOutline, HandFrontRight,
+        HandFrontRightOutline, HandHeart, HandHeartOutline, HandOkay, HandPeace, HandPeaceVariant,
+        HandPointingDown, HandPointingLeft, HandPointingRight, HandPointingUp, HandSaw, HandWash,
+        HandWashOutline, HandWater, HandWave, HandWaveOutline, Hanger, Harddisk, HarddiskPlus,
+        HarddiskRemove, HardHat, HatFedora, HazardLights, HdmiPort, Hdr, HdrOff, Head, Headphones,
+        HeadphonesBluetooth, HeadphonesBox, HeadphonesOff, HeadphonesSettings, Headset, HeadsetDock,
+        HeadsetOff, HeadAlert, HeadAlertOutline, HeadCheck, HeadCheckOutline, HeadCog,
+        HeadCogOutline, HeadDotsHorizontal, HeadDotsHorizontalOutline, HeadFlash, HeadFlashOutline,
+        HeadHeart, HeadHeartOutline, HeadLightbulb, HeadLightbulbOutline, HeadMinus,
+        HeadMinusOutline, HeadOutline, HeadPlus, HeadPlusOutline, HeadQuestion, HeadQuestionOutline,
+        HeadRemove, HeadRemoveOutline, HeadSnowflake, HeadSnowflakeOutline, HeadSync,
+        HeadSyncOutline, Heart, HeartBox, HeartBoxOutline, HeartBroken, HeartBrokenOutline,
+        HeartCircle, HeartCircleOutline, HeartCog, HeartCogOutline, HeartFlash, HeartHalf,
+        HeartHalfFull, HeartHalfOutline, HeartMinus, HeartMinusOutline, HeartMultiple,
+        HeartMultipleOutline, HeartOff, HeartOffOutline, HeartOutline, HeartPlus, HeartPlusOutline,
+        HeartPulse, HeartRemove, HeartRemoveOutline, HeartSettings, HeartSettingsOutline,
+        HeatingCoil, HeatPump, HeatPumpOutline, HeatWave, Helicopter, Help, HelpBox,
+        HelpBoxMultiple, HelpBoxMultipleOutline, HelpBoxOutline, HelpCircle, HelpCircleOutline,
+        HelpNetwork, HelpNetworkOutline, HelpRhombus, HelpRhombusOutline, Hexadecimal, Hexagon,
+        HexagonMultiple, HexagonMultipleOutline, HexagonOutline, HexagonSlice1, HexagonSlice2,
+        HexagonSlice3, HexagonSlice4, HexagonSlice5, HexagonSlice6, Hexagram, HexagramOutline,
+        Highway, HighDefinition, HighDefinitionBox, Hiking, History, HockeyPuck, HockeySticks,
+        Hololens, Home, HomeAccount, HomeAlert, HomeAlertOutline, HomeAnalytics, HomeAssistant,
+        HomeAutomation, HomeBattery, HomeBatteryOutline, HomeCircle, HomeCircleOutline, HomeCity,
+        HomeCityOutline, HomeClock, HomeClockOutline, HomeEdit, HomeEditOutline, HomeExportOutline,
+        HomeFlood, HomeFloor0, HomeFloor1, HomeFloor2, HomeFloor3, HomeFloorA, HomeFloorB,
+        HomeFloorG, HomeFloorL, HomeFloorNegative1, HomeGroup, HomeGroupMinus, HomeGroupPlus,
+        HomeGroupRemove, HomeHeart, HomeImportOutline, HomeLightbulb, HomeLightbulbOutline,
+        HomeLightningBolt, HomeLightningBoltOutline, HomeLock, HomeLockOpen, HomeMapMarker,
+        HomeMinus, HomeMinusOutline, HomeModern, HomeOff, HomeOffOutline, HomeOutline, HomePlus,
+        HomePlusOutline, HomeRemove, HomeRemoveOutline, HomeRoof, HomeSearch, HomeSearchOutline,
+        HomeSilo, HomeSiloOutline, HomeSwitch, HomeSwitchOutline, HomeThermometer,
+        HomeThermometerOutline, HomeVariant, HomeVariantOutline, Hook, HookOff, HoopHouse, Hops,
+        HorizontalRotateClockwise, HorizontalRotateCounterclockwise, Horse, Horseshoe, HorseHuman,
+        HorseVariant, HorseVariantFast, Hospital, HospitalBox, HospitalBoxOutline, HospitalBuilding,
+        HospitalMarker, HotTub, Hours24, Hubspot, Hulu, Human, HumanBabyChangingTable, HumanCane,
+        HumanCapacityDecrease, HumanCapacityIncrease, HumanChild, HumanDolly, HumanEdit,
+        HumanFemale, HumanFemaleBoy, HumanFemaleDance, HumanFemaleFemale, HumanFemaleGirl,
+        HumanGreeting, HumanGreetingProximity, HumanGreetingVariant, HumanHandsdown, HumanHandsup,
+        HumanMale, HumanMaleBoard, HumanMaleBoardPoll, HumanMaleBoy, HumanMaleChild,
+        HumanMaleFemale, HumanMaleFemaleChild, HumanMaleGirl, HumanMaleHeight,
+        HumanMaleHeightVariant, HumanMaleMale, HumanNonBinary, HumanPregnant, HumanQueue,
+        HumanScooter, HumanWalker, HumanWheelchair, HumanWhiteCane, HumbleBundle, Hvac, HvacOff,
+        HydraulicOilLevel, HydraulicOilTemperature, HydrogenStation, HydroPower, IceCream,
+        IceCreamOff, IcePop, Identifier, IdeogramCjk, IdeogramCjkVariant, IdCard, Image, ImageAlbum,
+        ImageArea, ImageAreaClose, ImageAutoAdjust, ImageBroken, ImageBrokenVariant, ImageCheck,
+        ImageCheckOutline, ImageEdit, ImageEditOutline, ImageFilterBlackWhite,
+        ImageFilterCenterFocus, ImageFilterCenterFocusStrong, ImageFilterCenterFocusStrongOutline,
+        ImageFilterCenterFocusWeak, ImageFilterDrama, ImageFilterDramaOutline, ImageFilterFrames,
+        ImageFilterHdr, ImageFilterNone, ImageFilterTiltShift, ImageFilterVintage, ImageFrame,
+        ImageLock, ImageLockOutline, ImageMarker, ImageMarkerOutline, ImageMinus, ImageMinusOutline,
+        ImageMove, ImageMultiple, ImageMultipleOutline, ImageOff, ImageOffOutline, ImageOutline,
+        ImagePlus, ImagePlusOutline, ImageRefresh, ImageRefreshOutline, ImageRemove,
+        ImageRemoveOutline, ImageSearch, ImageSearchOutline, ImageSizeSelectActual,
+        ImageSizeSelectLarge, ImageSizeSelectSmall, ImageSync, ImageSyncOutline, ImageText, Import,
+        Inbox, InboxArrowDown, InboxArrowDownOutline, InboxArrowUp, InboxArrowUpOutline, InboxFull,
+        InboxFullOutline, InboxMultiple, InboxMultipleOutline, InboxOutline, InboxRemove,
+        InboxRemoveOutline, Incognito, IncognitoCircle, IncognitoCircleOff, IncognitoOff, Induction,
+        Infinity, Information, InformationOff, InformationOffOutline, InformationOutline,
+        InformationVariant, Instagram, InstrumentTriangle, IntegratedCircuitChip, InvertColors,
+        InvertColorsOff, Iobroker, Ip, Ipod, IpNetwork, IpNetworkOutline, IpOutline, Iron,
+        IronBoard, IronOutline, Island, IvBag, Jabber, Jeepney, Jellyfish, JellyfishOutline, Jira,
+        Jquery, Jsfiddle, JumpRope, Kabaddi, Kangaroo, Karate, Kayaking, Keg, Kettle, Kettlebell,
+        KettleAlert, KettleAlertOutline, KettleOff, KettleOffOutline, KettleOutline, KettlePourOver,
+        KettleSteam, KettleSteamOutline, Key, Keyboard, KeyboardBackspace, KeyboardCaps,
+        KeyboardClose, KeyboardCloseOutline, KeyboardEsc, KeyboardF1, KeyboardF10, KeyboardF11,
+        KeyboardF12, KeyboardF2, KeyboardF3, KeyboardF4, KeyboardF5, KeyboardF6, KeyboardF7,
+        KeyboardF8, KeyboardF9, KeyboardOff, KeyboardOffOutline, KeyboardOutline, KeyboardReturn,
+        KeyboardSettings, KeyboardSettingsOutline, KeyboardSpace, KeyboardTab, KeyboardTabReverse,
+        KeyboardVariant, KeyAlert, KeyAlertOutline, KeyArrowRight, KeyChain, KeyChainVariant,
+        KeyChange, KeyLink, KeyMinus, KeyOutline, KeyPlus, KeyRemove, KeyStar, KeyVariant,
+        KeyWireless, Khanda, Kickstarter, Kite, Kitesurfing, KiteOutline, Klingon, Knife,
+        KnifeMilitary, Knob, Koala, Kodi, Kubernetes, Label, LabelMultiple, LabelMultipleOutline,
+        LabelOff, LabelOffOutline, LabelOutline, LabelPercent, LabelPercentOutline, LabelVariant,
+        LabelVariantOutline, Ladder, Ladybug, Lambda, Lamp, Lamps, LampsOutline, LampOutline, Lan,
+        Landslide, LandslideOutline, LandFields, LandPlots, LandPlotsCircle, LandPlotsCircleVariant,
+        LandRowsHorizontal, LandRowsVertical, LanguageC, LanguageCpp, LanguageCsharp, LanguageCss3,
+        LanguageFortran, LanguageGo, LanguageHaskell, LanguageHtml5, LanguageJava,
+        LanguageJavascript, LanguageKotlin, LanguageLua, LanguageMarkdown, LanguageMarkdownOutline,
+        LanguagePhp, LanguagePython, LanguageR, LanguageRuby, LanguageRubyOnRails, LanguageRust,
+        LanguageSwift, LanguageTypescript, LanguageXaml, LanCheck, LanConnect, LanDisconnect,
+        LanPending, Laptop, LaptopAccount, LaptopOff, Laravel, LaserPointer, Lasso, Lastpass,
+        Latitude, Launch, LavaLamp, Layers, LayersEdit, LayersMinus, LayersOff, LayersOffOutline,
+        LayersOutline, LayersPlus, LayersRemove, LayersSearch, LayersSearchOutline, LayersTriple,
+        LayersTripleOutline, LeadPencil, Leaf, LeafCircle, LeafCircleOutline, LeafMaple,
+        LeafMapleOff, LeafOff, Leak, LeakOff, Lectern, LedOff, LedOn, LedOutline, LedStrip,
+        LedStripVariant, LedStripVariantOff, LedVariantOff, LedVariantOn, LedVariantOutline, Leek,
+        LessThan, LessThanOrEqual, Library, LibraryOutline, LibraryShelves, License, Lifebuoy,
+        Lightbulb, LightbulbAlert, LightbulbAlertOutline, LightbulbAuto, LightbulbAutoOutline,
+        LightbulbCfl, LightbulbCflOff, LightbulbCflSpiral, LightbulbCflSpiralOff,
+        LightbulbFluorescentTube, LightbulbFluorescentTubeOutline, LightbulbGroup,
+        LightbulbGroupOff, LightbulbGroupOffOutline, LightbulbGroupOutline, LightbulbMultiple,
+        LightbulbMultipleOff, LightbulbMultipleOffOutline, LightbulbMultipleOutline, LightbulbNight,
+        LightbulbNightOutline, LightbulbOff, LightbulbOffOutline, LightbulbOn, LightbulbOn10,
+        LightbulbOn20, LightbulbOn30, LightbulbOn40, LightbulbOn50, LightbulbOn60, LightbulbOn70,
+        LightbulbOn80, LightbulbOn90, LightbulbOnOutline, LightbulbOutline, LightbulbQuestion,
+        LightbulbQuestionOutline, LightbulbSpot, LightbulbSpotOff, LightbulbVariant,
+        LightbulbVariantOutline, Lighthouse, LighthouseOn, LightningBolt, LightningBoltCircle,
+        LightningBoltOutline, LightFloodDown, LightFloodUp, LightRecessed, LightSwitch,
+        LightSwitchOff, LineScan, Lingerie, Link, Linkedin, LinkBox, LinkBoxOutline, LinkBoxVariant,
+        LinkBoxVariantOutline, LinkLock, LinkOff, LinkPlus, LinkVariant, LinkVariantMinus,
+        LinkVariantOff, LinkVariantPlus, LinkVariantRemove, Linux, LinuxMint, Lipstick, LiquidSpot,
+        Liquor, ListBox, ListBoxOutline, ListStatus, Litecoin, Loading, LocationEnter, LocationExit,
+        Lock, Locker, LockerMultiple, LockAlert, LockAlertOutline, LockCheck, LockCheckOutline,
+        LockClock, LockMinus, LockMinusOutline, LockOff, LockOffOutline, LockOpen, LockOpenAlert,
+        LockOpenAlertOutline, LockOpenCheck, LockOpenCheckOutline, LockOpenMinus,
+        LockOpenMinusOutline, LockOpenOutline, LockOpenPlus, LockOpenPlusOutline, LockOpenRemove,
+        LockOpenRemoveOutline, LockOpenVariant, LockOpenVariantOutline, LockOutline, LockPattern,
+        LockPercent, LockPercentOpen, LockPercentOpenOutline, LockPercentOpenVariant,
+        LockPercentOpenVariantOutline, LockPercentOutline, LockPlus, LockPlusOutline, LockQuestion,
+        LockRemove, LockRemoveOutline, LockReset, LockSmart, Login, LoginVariant, Logout,
+        LogoutVariant, Longitude, Looks, Lotion, LotionOutline, LotionPlus, LotionPlusOutline,
+        Loupe, Lumx, Lungs, Mace, MagazinePistol, MagazineRifle, MagicStaff, Magnet, MagnetOn,
+        Magnify, MagnifyClose, MagnifyExpand, MagnifyMinus, MagnifyMinusCursor, MagnifyMinusOutline,
+        MagnifyPlus, MagnifyPlusCursor, MagnifyPlusOutline, MagnifyRemoveCursor,
+        MagnifyRemoveOutline, MagnifyScan, Mail, Mailbox, MailboxOpen, MailboxOpenOutline,
+        MailboxOpenUp, MailboxOpenUpOutline, MailboxOutline, MailboxUp, MailboxUpOutline, Manjaro,
+        Map, Mapbox, MapCheck, MapCheckOutline, MapClock, MapClockOutline, MapLegend, MapMarker,
+        MapMarkerAccount, MapMarkerAccountOutline, MapMarkerAlert, MapMarkerAlertOutline,
+        MapMarkerCheck, MapMarkerCheckOutline, MapMarkerCircle, MapMarkerDistance, MapMarkerDown,
+        MapMarkerLeft, MapMarkerLeftOutline, MapMarkerMinus, MapMarkerMinusOutline,
+        MapMarkerMultiple, MapMarkerMultipleOutline, MapMarkerOff, MapMarkerOffOutline,
+        MapMarkerOutline, MapMarkerPath, MapMarkerPlus, MapMarkerPlusOutline, MapMarkerQuestion,
+        MapMarkerQuestionOutline, MapMarkerRadius, MapMarkerRadiusOutline, MapMarkerRemove,
+        MapMarkerRemoveOutline, MapMarkerRemoveVariant, MapMarkerRight, MapMarkerRightOutline,
+        MapMarkerStar, MapMarkerStarOutline, MapMarkerUp, MapMinus, MapOutline, MapPlus, MapSearch,
+        MapSearchOutline, Margin, Marker, MarkerCancel, MarkerCheck, Mastodon, MaterialDesign,
+        MaterialUi, MathCompass, MathCos, MathIntegral, MathIntegralBox, MathLog, MathNorm,
+        MathNormBox, MathSin, MathTan, Matrix, Medal, MedalOutline, MedicalBag, MedicalCottonSwab,
+        Medication, MedicationOutline, Meditation, Memory, Menorah, MenorahFire, Menu, MenuDown,
+        MenuDownOutline, MenuLeft, MenuLeftOutline, MenuOpen, MenuRight, MenuRightOutline, MenuSwap,
+        MenuSwapOutline, MenuUp, MenuUpOutline, Merge, Message, MessageAlert, MessageAlertOutline,
+        MessageArrowLeft, MessageArrowLeftOutline, MessageArrowRight, MessageArrowRightOutline,
+        MessageBadge, MessageBadgeOutline, MessageBookmark, MessageBookmarkOutline, MessageBulleted,
+        MessageBulletedOff, MessageCheck, MessageCheckOutline, MessageCog, MessageCogOutline,
+        MessageDraw, MessageFast, MessageFastOutline, MessageFlash, MessageFlashOutline,
+        MessageImage, MessageImageOutline, MessageLock, MessageLockOutline, MessageMinus,
+        MessageMinusOutline, MessageOff, MessageOffOutline, MessageOutline, MessagePlus,
+        MessagePlusOutline, MessageProcessing, MessageProcessingOutline, MessageQuestion,
+        MessageQuestionOutline, MessageReply, MessageReplyOutline, MessageReplyText,
+        MessageReplyTextOutline, MessageSettings, MessageSettingsOutline, MessageStar,
+        MessageStarOutline, MessageText, MessageTextClock, MessageTextClockOutline, MessageTextFast,
+        MessageTextFastOutline, MessageTextLock, MessageTextLockOutline, MessageTextOutline,
+        MessageVideo, Meteor, MeterElectric, MeterElectricOutline, MeterGas, MeterGasOutline,
+        Metronome, MetronomeTick, Microphone, MicrophoneMessage, MicrophoneMessageOff,
+        MicrophoneMinus, MicrophoneOff, MicrophoneOutline, MicrophonePlus, MicrophoneQuestion,
+        MicrophoneQuestionOutline, MicrophoneSettings, MicrophoneVariant, MicrophoneVariantOff,
+        Microscope, Microsoft, MicrosoftAccess, MicrosoftAzure, MicrosoftAzureDevops, MicrosoftBing,
+        MicrosoftDynamics365, MicrosoftEdge, MicrosoftExcel, MicrosoftInternetExplorer,
+        MicrosoftOffice, MicrosoftOnedrive, MicrosoftOnenote, MicrosoftOutlook, MicrosoftPowerpoint,
+        MicrosoftSharepoint, MicrosoftTeams, MicrosoftVisualStudio, MicrosoftVisualStudioCode,
+        MicrosoftWindows, MicrosoftWindowsClassic, MicrosoftWord, MicrosoftXbox,
+        MicrosoftXboxController, MicrosoftXboxControllerBatteryAlert,
+        MicrosoftXboxControllerBatteryCharging, MicrosoftXboxControllerBatteryEmpty,
+        MicrosoftXboxControllerBatteryFull, MicrosoftXboxControllerBatteryLow,
+        MicrosoftXboxControllerBatteryMedium, MicrosoftXboxControllerBatteryUnknown,
+        MicrosoftXboxControllerMenu, MicrosoftXboxControllerOff, MicrosoftXboxControllerView,
+        Microwave, MicrowaveOff, MicroSd, Middleware, MiddlewareOutline, Midi, MidiPort, Mine,
+        Minecraft, Minidisc, MiniSd, Minus, MinusBox, MinusBoxMultiple, MinusBoxMultipleOutline,
+        MinusBoxOutline, MinusCircle, MinusCircleMultiple, MinusCircleMultipleOutline,
+        MinusCircleOff, MinusCircleOffOutline, MinusCircleOutline, MinusNetwork,
+        MinusNetworkOutline, MinusThick, Mirror, MirrorRectangle, MirrorVariant, MixedMartialArts,
+        MixedReality, Molecule, MoleculeCo, MoleculeCo2, Monitor, MonitorAccount, MonitorArrowDown,
+        MonitorArrowDownVariant, MonitorCellphone, MonitorCellphoneStar, MonitorDashboard,
+        MonitorEdit, MonitorEye, MonitorLock, MonitorMultiple, MonitorOff, MonitorScreenshot,
+        MonitorShare, MonitorShimmer, MonitorSmall, MonitorSpeaker, MonitorSpeakerOff, MonitorStar,
+        MoonFirstQuarter, MoonFull, MoonLastQuarter, MoonNew, MoonWaningCrescent, MoonWaningGibbous,
+        MoonWaxingCrescent, MoonWaxingGibbous, Moped, MopedElectric, MopedElectricOutline,
+        MopedOutline, More, MortarPestle, MortarPestlePlus, Mosque, MosqueOutline, MotherHeart,
+        MotherNurse, Motion, MotionOutline, MotionPause, MotionPauseOutline, MotionPlay,
+        MotionPlayOutline, MotionSensor, MotionSensorOff, Motorbike, MotorbikeElectric,
+        MotorbikeOff, Mouse, MouseBluetooth, MouseMoveDown, MouseMoveUp, MouseMoveVertical,
+        MouseOff, MouseVariant, MouseVariantOff, MoveResize, MoveResizeVariant, Movie, MovieCheck,
+        MovieCheckOutline, MovieCog, MovieCogOutline, MovieEdit, MovieEditOutline, MovieFilter,
+        MovieFilterOutline, MovieMinus, MovieMinusOutline, MovieOff, MovieOffOutline, MovieOpen,
+        MovieOpenCheck, MovieOpenCheckOutline, MovieOpenCog, MovieOpenCogOutline, MovieOpenEdit,
+        MovieOpenEditOutline, MovieOpenMinus, MovieOpenMinusOutline, MovieOpenOff,
+        MovieOpenOffOutline, MovieOpenOutline, MovieOpenPlay, MovieOpenPlayOutline, MovieOpenPlus,
+        MovieOpenPlusOutline, MovieOpenRemove, MovieOpenRemoveOutline, MovieOpenSettings,
+        MovieOpenSettingsOutline, MovieOpenStar, MovieOpenStarOutline, MovieOutline, MoviePlay,
+        MoviePlayOutline, MoviePlus, MoviePlusOutline, MovieRemove, MovieRemoveOutline, MovieRoll,
+        MovieSearch, MovieSearchOutline, MovieSettings, MovieSettingsOutline, MovieStar,
+        MovieStarOutline, Mower, MowerBag, MowerBagOn, MowerOn, Muffin, Multicast, Multimedia,
+        Multiplication, MultiplicationBox, Mushroom, MushroomOff, MushroomOffOutline,
+        MushroomOutline, Music, MusicAccidentalDoubleFlat, MusicAccidentalDoubleSharp,
+        MusicAccidentalFlat, MusicAccidentalNatural, MusicAccidentalSharp, MusicBox,
+        MusicBoxMultiple, MusicBoxMultipleOutline, MusicBoxOutline, MusicCircle, MusicCircleOutline,
+        MusicClefAlto, MusicClefBass, MusicClefTreble, MusicNote, MusicNoteBluetooth,
+        MusicNoteBluetoothOff, MusicNoteEighth, MusicNoteEighthDotted, MusicNoteHalf,
+        MusicNoteHalfDotted, MusicNoteMinus, MusicNoteOff, MusicNoteOffOutline, MusicNoteOutline,
+        MusicNotePlus, MusicNoteQuarter, MusicNoteQuarterDotted, MusicNoteSixteenth,
+        MusicNoteSixteenthDotted, MusicNoteWhole, MusicNoteWholeDotted, MusicOff, MusicRestEighth,
+        MusicRestHalf, MusicRestQuarter, MusicRestSixteenth, MusicRestWhole, Mustache, Nail, Nas,
+        Nativescript, Nature, NaturePeople, Navigation, NavigationOutline, NavigationVariant,
+        NavigationVariantOutline, NearMe, Necklace, Needle, NeedleOff, Netflix, Network, NetworkOff,
+        NetworkOffOutline, NetworkOutline, NetworkPos, NetworkStrength1, NetworkStrength1Alert,
+        NetworkStrength2, NetworkStrength2Alert, NetworkStrength3, NetworkStrength3Alert,
+        NetworkStrength4, NetworkStrength4Alert, NetworkStrength4Cog, NetworkStrengthOff,
+        NetworkStrengthOffOutline, NetworkStrengthOutline, Newspaper, NewspaperCheck,
+        NewspaperMinus, NewspaperPlus, NewspaperRemove, NewspaperVariant, NewspaperVariantMultiple,
+        NewspaperVariantMultipleOutline, NewspaperVariantOutline, NewBox, Nfc, NfcSearchVariant,
+        NfcTap, NfcVariant, NfcVariantOff, Ninja, NintendoGameBoy, NintendoSwitch, NintendoWii,
+        NintendoWiiu, Nix, Nodejs, Noodles, Note, Notebook, NotebookCheck, NotebookCheckOutline,
+        NotebookEdit, NotebookEditOutline, NotebookHeart, NotebookHeartOutline, NotebookMinus,
+        NotebookMinusOutline, NotebookMultiple, NotebookOutline, NotebookPlus, NotebookPlusOutline,
+        NotebookRemove, NotebookRemoveOutline, NoteAlert, NoteAlertOutline, NoteCheck,
+        NoteCheckOutline, NoteEdit, NoteEditOutline, NoteMinus, NoteMinusOutline, NoteMultiple,
+        NoteMultipleOutline, NoteOff, NoteOffOutline, NoteOutline, NotePlus, NotePlusOutline,
+        NoteRemove, NoteRemoveOutline, NoteSearch, NoteSearchOutline, NoteText, NoteTextOutline,
+        NotificationClearAll, NotEqual, NotEqualVariant, Npm, Nuke, Null, Numeric, Numeric0,
+        Numeric0Box, Numeric0BoxMultiple, Numeric0BoxMultipleOutline, Numeric0BoxOutline,
+        Numeric0Circle, Numeric0CircleOutline, Numeric1, Numeric10, Numeric10Box,
+        Numeric10BoxMultiple, Numeric10BoxMultipleOutline, Numeric10BoxOutline, Numeric10Circle,
+        Numeric10CircleOutline, Numeric1Box, Numeric1BoxMultiple, Numeric1BoxMultipleOutline,
+        Numeric1BoxOutline, Numeric1Circle, Numeric1CircleOutline, Numeric2, Numeric2Box,
+        Numeric2BoxMultiple, Numeric2BoxMultipleOutline, Numeric2BoxOutline, Numeric2Circle,
+        Numeric2CircleOutline, Numeric3, Numeric3Box, Numeric3BoxMultiple,
+        Numeric3BoxMultipleOutline, Numeric3BoxOutline, Numeric3Circle, Numeric3CircleOutline,
+        Numeric4, Numeric4Box, Numeric4BoxMultiple, Numeric4BoxMultipleOutline, Numeric4BoxOutline,
+        Numeric4Circle, Numeric4CircleOutline, Numeric5, Numeric5Box, Numeric5BoxMultiple,
+        Numeric5BoxMultipleOutline, Numeric5BoxOutline, Numeric5Circle, Numeric5CircleOutline,
+        Numeric6, Numeric6Box, Numeric6BoxMultiple, Numeric6BoxMultipleOutline, Numeric6BoxOutline,
+        Numeric6Circle, Numeric6CircleOutline, Numeric7, Numeric7Box, Numeric7BoxMultiple,
+        Numeric7BoxMultipleOutline, Numeric7BoxOutline, Numeric7Circle, Numeric7CircleOutline,
+        Numeric8, Numeric8Box, Numeric8BoxMultiple, Numeric8BoxMultipleOutline, Numeric8BoxOutline,
+        Numeric8Circle, Numeric8CircleOutline, Numeric9, Numeric9Box, Numeric9BoxMultiple,
+        Numeric9BoxMultipleOutline, Numeric9BoxOutline, Numeric9Circle, Numeric9CircleOutline,
+        Numeric9Plus, Numeric9PlusBox, Numeric9PlusBoxMultiple, Numeric9PlusBoxMultipleOutline,
+        Numeric9PlusBoxOutline, Numeric9PlusCircle, Numeric9PlusCircleOutline, NumericNegative1,
+        NumericOff, NumericPositive1, Nut, Nutrition, Nuxt, Oar, Ocarina, Oci, Ocr, Octagon,
+        OctagonOutline, Octagram, OctagramOutline, Octahedron, OctahedronOff, Odnoklassniki, Offer,
+        OfficeBuilding, OfficeBuildingCog, OfficeBuildingCogOutline, OfficeBuildingMarker,
+        OfficeBuildingMarkerOutline, OfficeBuildingMinus, OfficeBuildingMinusOutline,
+        OfficeBuildingOutline, OfficeBuildingPlus, OfficeBuildingPlusOutline, OfficeBuildingRemove,
+        OfficeBuildingRemoveOutline, Oil, OilLamp, OilLevel, OilTemperature, Om, Omega, Onepassword,
+        OneUp, Opacity, Openid, OpenInApp, OpenInNew, OpenSourceInitiative, Opera, Orbit,
+        OrbitVariant, OrderAlphabeticalAscending, OrderAlphabeticalDescending, OrderBoolAscending,
+        OrderBoolAscendingVariant, OrderBoolDescending, OrderBoolDescendingVariant,
+        OrderNumericAscending, OrderNumericDescending, Origin, Ornament, OrnamentVariant,
+        OutdoorLamp, Overscan, Owl, Package, PackageCheck, PackageDown, PackageUp, PackageVariant,
+        PackageVariantClosed, PackageVariantClosedCheck, PackageVariantClosedMinus,
+        PackageVariantClosedPlus, PackageVariantClosedRemove, PackageVariantMinus,
+        PackageVariantPlus, PackageVariantRemove, PacMan, PageFirst, PageLast, PageLayoutBody,
+        PageLayoutFooter, PageLayoutHeader, PageLayoutHeaderFooter, PageLayoutSidebarLeft,
+        PageLayoutSidebarRight, PageNext, PageNextOutline, PagePrevious, PagePreviousOutline, Pail,
+        PailMinus, PailMinusOutline, PailOff, PailOffOutline, PailOutline, PailPlus,
+        PailPlusOutline, PailRemove, PailRemoveOutline, Palette, PaletteAdvanced, PaletteOutline,
+        PaletteSwatch, PaletteSwatchOutline, PaletteSwatchVariant, PalmTree, Pan, Panda, Pandora,
+        Panorama, PanoramaFisheye, PanoramaHorizontal, PanoramaHorizontalOutline, PanoramaOutline,
+        PanoramaSphere, PanoramaSphereOutline, PanoramaVariant, PanoramaVariantOutline,
+        PanoramaVertical, PanoramaVerticalOutline, PanoramaWideAngle, PanoramaWideAngleOutline,
+        PanBottomLeft, PanBottomRight, PanDown, PanHorizontal, PanLeft, PanRight, PanTopLeft,
+        PanTopRight, PanUp, PanVertical, Paperclip, PaperclipCheck, PaperclipLock, PaperclipMinus,
+        PaperclipOff, PaperclipPlus, PaperclipRemove, PaperCutVertical, PaperRoll, PaperRollOutline,
+        Parachute, ParachuteOutline, Paragliding, Parking, PartyPopper, Passport, PassportBiometric,
+        Pasta, PatioHeater, Patreon, Pause, PauseBox, PauseBoxOutline, PauseCircle,
+        PauseCircleOutline, PauseOctagon, PauseOctagonOutline, Paw, PawOff, PawOffOutline,
+        PawOutline, Peace, Peanut, PeanutOff, PeanutOffOutline, PeanutOutline, Pen, Pencil,
+        PencilBox, PencilBoxMultiple, PencilBoxMultipleOutline, PencilBoxOutline, PencilCircle,
+        PencilCircleOutline, PencilLock, PencilLockOutline, PencilMinus, PencilMinusOutline,
+        PencilOff, PencilOffOutline, PencilOutline, PencilPlus, PencilPlusOutline, PencilRemove,
+        PencilRemoveOutline, PencilRuler, PencilRulerOutline, Penguin, Pentagon, PentagonOutline,
+        Pentagram, PenLock, PenMinus, PenOff, PenPlus, PenRemove, Percent, PercentBox,
+        PercentBoxOutline, PercentCircle, PercentCircleOutline, PercentOutline, PeriodicTable,
+        PerspectiveLess, PerspectiveMore, Ph, Phone, PhoneAlert, PhoneAlertOutline, PhoneBluetooth,
+        PhoneBluetoothOutline, PhoneCancel, PhoneCancelOutline, PhoneCheck, PhoneCheckOutline,
+        PhoneClassic, PhoneClassicOff, PhoneClock, PhoneDial, PhoneDialOutline, PhoneForward,
+        PhoneForwardOutline, PhoneHangup, PhoneHangupOutline, PhoneIncoming, PhoneIncomingOutgoing,
+        PhoneIncomingOutgoingOutline, PhoneIncomingOutline, PhoneInTalk, PhoneInTalkOutline,
+        PhoneLock, PhoneLockOutline, PhoneLog, PhoneLogOutline, PhoneMessage, PhoneMessageOutline,
+        PhoneMinus, PhoneMinusOutline, PhoneMissed, PhoneMissedOutline, PhoneOff, PhoneOffOutline,
+        PhoneOutgoing, PhoneOutgoingOutline, PhoneOutline, PhonePaused, PhonePausedOutline,
+        PhonePlus, PhonePlusOutline, PhoneRefresh, PhoneRefreshOutline, PhoneRemove,
+        PhoneRemoveOutline, PhoneReturn, PhoneReturnOutline, PhoneRing, PhoneRingOutline,
+        PhoneRotateLandscape, PhoneRotatePortrait, PhoneSettings, PhoneSettingsOutline, PhoneSync,
+        PhoneSyncOutline, PhoneVoip, Pi, Piano, PianoOff, Pickaxe, PictureInPictureBottomRight,
+        PictureInPictureBottomRightOutline, PictureInPictureTopRight,
+        PictureInPictureTopRightOutline, Pier, PierCrane, Pig, PiggyBank, PiggyBankOutline,
+        PigVariant, PigVariantOutline, Pill, Pillar, PillMultiple, PillOff, Pin, PineTree,
+        PineTreeBox, PineTreeFire, Pinterest, Pinwheel, PinwheelOutline, PinOff, PinOffOutline,
+        PinOutline, Pipe, PipeDisconnected, PipeLeak, PipeValve, PipeWrench, Pirate, Pistol, Piston,
+        Pitchfork, Pizza, PiBox, PiHole, PlaneCar, PlaneTrain, Play, PlaylistCheck, PlaylistEdit,
+        PlaylistMinus, PlaylistMusic, PlaylistMusicOutline, PlaylistPlay, PlaylistPlus,
+        PlaylistRemove, PlaylistStar, PlayBox, PlayBoxLock, PlayBoxLockOpen, PlayBoxLockOpenOutline,
+        PlayBoxLockOutline, PlayBoxMultiple, PlayBoxMultipleOutline, PlayBoxOutline, PlayCircle,
+        PlayCircleOutline, PlayNetwork, PlayNetworkOutline, PlayOutline, PlayPause,
+        PlayProtectedContent, PlaySpeed, Plex, Pliers, Plus, PlusBox, PlusBoxMultiple,
+        PlusBoxMultipleOutline, PlusBoxOutline, PlusCircle, PlusCircleMultiple,
+        PlusCircleMultipleOutline, PlusCircleOutline, PlusLock, PlusLockOpen, PlusMinus,
+        PlusMinusBox, PlusMinusVariant, PlusNetwork, PlusNetworkOutline, PlusOutline, PlusThick,
+        Podcast, Podium, PodiumBronze, PodiumGold, PodiumSilver, PointOfSale, Pokeball, PokemonGo,
+        PokerChip, Polaroid, PoliceBadge, PoliceBadgeOutline, PoliceStation, Poll, Polo, Polymer,
+        Pool, PoolThermometer, Popcorn, Post, PostageStamp, PostLamp, PostOutline, Pot, PotMix,
+        PotMixOutline, PotOutline, PotSteam, PotSteamOutline, Pound, PoundBox, PoundBoxOutline,
+        Power, Powershell, PowerCycle, PowerOff, PowerOn, PowerPlug, PowerPlugOff,
+        PowerPlugOffOutline, PowerPlugOutline, PowerSettings, PowerSleep, PowerSocket,
+        PowerSocketAu, PowerSocketCh, PowerSocketDe, PowerSocketEu, PowerSocketFr, PowerSocketIt,
+        PowerSocketJp, PowerSocketUk, PowerSocketUs, PowerStandby, Prescription, Presentation,
+        PresentationPlay, Pretzel, Printer, Printer3d, Printer3dNozzle, Printer3dNozzleAlert,
+        Printer3dNozzleAlertOutline, Printer3dNozzleHeat, Printer3dNozzleHeatOutline,
+        Printer3dNozzleOff, Printer3dNozzleOffOutline, Printer3dNozzleOutline, Printer3dOff,
+        PrinterAlert, PrinterCheck, PrinterEye, PrinterOff, PrinterOffOutline, PrinterOutline,
+        PrinterPos, PrinterPosAlert, PrinterPosAlertOutline, PrinterPosCancel,
+        PrinterPosCancelOutline, PrinterPosCheck, PrinterPosCheckOutline, PrinterPosCog,
+        PrinterPosCogOutline, PrinterPosEdit, PrinterPosEditOutline, PrinterPosMinus,
+        PrinterPosMinusOutline, PrinterPosNetwork, PrinterPosNetworkOutline, PrinterPosOff,
+        PrinterPosOffOutline, PrinterPosOutline, PrinterPosPause, PrinterPosPauseOutline,
+        PrinterPosPlay, PrinterPosPlayOutline, PrinterPosPlus, PrinterPosPlusOutline,
+        PrinterPosRefresh, PrinterPosRefreshOutline, PrinterPosRemove, PrinterPosRemoveOutline,
+        PrinterPosStar, PrinterPosStarOutline, PrinterPosStop, PrinterPosStopOutline,
+        PrinterPosSync, PrinterPosSyncOutline, PrinterPosWrench, PrinterPosWrenchOutline,
+        PrinterSearch, PrinterSettings, PrinterWireless, PriorityHigh, PriorityLow,
+        ProfessionalHexagon, ProgressAlert, ProgressCheck, ProgressClock, ProgressClose,
+        ProgressDownload, ProgressHelper, ProgressPencil, ProgressQuestion, ProgressStar,
+        ProgressUpload, ProgressWrench, Projector, ProjectorOff, ProjectorScreen,
+        ProjectorScreenOff, ProjectorScreenOffOutline, ProjectorScreenOutline,
+        ProjectorScreenVariant, ProjectorScreenVariantOff, ProjectorScreenVariantOffOutline,
+        ProjectorScreenVariantOutline, PropaneTank, PropaneTankOutline, Protocol, Publish,
+        PublishOff, Pulse, Pump, Pumpkin, PumpOff, Purse, PurseOutline, Puzzle, PuzzleCheck,
+        PuzzleCheckOutline, PuzzleEdit, PuzzleEditOutline, PuzzleHeart, PuzzleHeartOutline,
+        PuzzleMinus, PuzzleMinusOutline, PuzzleOutline, PuzzlePlus, PuzzlePlusOutline, PuzzleRemove,
+        PuzzleRemoveOutline, PuzzleStar, PuzzleStarOutline, Pyramid, PyramidOff, Qi, Qqchat, Qrcode,
+        QrcodeEdit, QrcodeMinus, QrcodePlus, QrcodeRemove, QrcodeScan, Quadcopter, QualityHigh,
+        QualityLow, QualityMedium, Quora, Rabbit, RabbitVariant, RabbitVariantOutline, RacingHelmet,
+        Racquetball, Radar, Radiator, RadiatorDisabled, RadiatorOff, Radio, Radioactive,
+        RadioactiveCircle, RadioactiveCircleOutline, RadioactiveOff, RadioboxBlank, RadioboxMarked,
+        RadiologyBox, RadiologyBoxOutline, RadioAm, RadioFm, RadioHandheld, RadioOff, RadioTower,
+        Radius, RadiusOutline, RailroadLight, Rake, RaspberryPi, Raw, RawOff, RayEnd, RayEndArrow,
+        RayStart, RayStartArrow, RayStartEnd, RayStartVertexEnd, RayVertex, RazorDoubleEdge,
+        RazorSingleEdge, React, Read, Receipt, ReceiptOutline, ReceiptText, ReceiptTextCheck,
+        ReceiptTextCheckOutline, ReceiptTextMinus, ReceiptTextMinusOutline, ReceiptTextOutline,
+        ReceiptTextPlus, ReceiptTextPlusOutline, ReceiptTextRemove, ReceiptTextRemoveOutline,
+        Record, RecordCircle, RecordCircleOutline, RecordPlayer, RecordRec, Rectangle,
+        RectangleOutline, Recycle, RecycleVariant, Reddit, Redhat, Redo, RedoVariant,
+        ReflectHorizontal, ReflectVertical, Refresh, RefreshAuto, RefreshCircle, Regex,
+        RegisteredTrademark, Reiterate, RelationManyToMany, RelationManyToOne,
+        RelationManyToOneOrMany, RelationManyToOnlyOne, RelationManyToZeroOrMany,
+        RelationManyToZeroOrOne, RelationOneOrManyToMany, RelationOneOrManyToOne,
+        RelationOneOrManyToOneOrMany, RelationOneOrManyToOnlyOne, RelationOneOrManyToZeroOrMany,
+        RelationOneOrManyToZeroOrOne, RelationOneToMany, RelationOneToOne, RelationOneToOneOrMany,
+        RelationOneToOnlyOne, RelationOneToZeroOrMany, RelationOneToZeroOrOne,
+        RelationOnlyOneToMany, RelationOnlyOneToOne, RelationOnlyOneToOneOrMany,
+        RelationOnlyOneToOnlyOne, RelationOnlyOneToZeroOrMany, RelationOnlyOneToZeroOrOne,
+        RelationZeroOrManyToMany, RelationZeroOrManyToOne, RelationZeroOrManyToOneOrMany,
+        RelationZeroOrManyToOnlyOne, RelationZeroOrManyToZeroOrMany, RelationZeroOrManyToZeroOrOne,
+        RelationZeroOrOneToMany, RelationZeroOrOneToOne, RelationZeroOrOneToOneOrMany,
+        RelationZeroOrOneToOnlyOne, RelationZeroOrOneToZeroOrMany, RelationZeroOrOneToZeroOrOne,
+        RelativeScale, Reload, ReloadAlert, Reminder, Remote, RemoteDesktop, RemoteOff, RemoteTv,
+        RemoteTvOff, Rename, RenameBox, RenameBoxOutline, RenameOutline, ReorderHorizontal,
+        ReorderVertical, Repeat, RepeatOff, RepeatOnce, RepeatVariant, Replay, Reply, ReplyAll,
+        ReplyAllOutline, ReplyCircle, ReplyOutline, Reproduction, Resistor, ResistorNodes, Resize,
+        ResizeBottomRight, Responsive, Restart, RestartAlert, RestartOff, Restore, RestoreAlert,
+        Rewind, Rewind10, Rewind15, Rewind30, Rewind45, Rewind5, Rewind60, RewindOutline, Rhombus,
+        RhombusMedium, RhombusMediumOutline, RhombusOutline, RhombusSplit, RhombusSplitOutline,
+        Ribbon, Rice, Rickshaw, RickshawElectric, Ring, Rivet, Road, RoadVariant, Robber, Robot,
+        RobotAngry, RobotAngryOutline, RobotConfused, RobotConfusedOutline, RobotDead,
+        RobotDeadOutline, RobotExcited, RobotExcitedOutline, RobotHappy, RobotHappyOutline,
+        RobotIndustrial, RobotIndustrialOutline, RobotLove, RobotLoveOutline, RobotMower,
+        RobotMowerOutline, RobotOff, RobotOffOutline, RobotOutline, RobotVacuum, RobotVacuumAlert,
+        RobotVacuumOff, RobotVacuumVariant, RobotVacuumVariantAlert, RobotVacuumVariantOff, Rocket,
+        RocketLaunch, RocketLaunchOutline, RocketOutline, Rodent, Rollerblade, RollerbladeOff,
+        RollerShade, RollerShadeClosed, RollerSkate, RollerSkateOff, Rollupjs, Rolodex,
+        RolodexOutline, RomanNumeral1, RomanNumeral10, RomanNumeral2, RomanNumeral3, RomanNumeral4,
+        RomanNumeral5, RomanNumeral6, RomanNumeral7, RomanNumeral8, RomanNumeral9, RoomService,
+        RoomServiceOutline, Rotate360, Rotate3d, Rotate3dVariant, RotateLeft, RotateLeftVariant,
+        RotateOrbit, RotateRight, RotateRightVariant, RoundedCorner, Router, RouterNetwork,
+        RouterWireless, RouterWirelessOff, RouterWirelessSettings, Routes, RoutesClock, Rowing, Rss,
+        RssBox, RssOff, Rug, Rugby, Ruler, RulerSquare, RulerSquareCompass, Run, RunFast, RvTruck,
+        Sack, SackPercent, Safe, SafetyGoggles, SafeSquare, SafeSquareOutline, SailBoat,
+        SailBoatSink, Sale, Salesforce, SaleOutline, Sass, Satellite, SatelliteUplink,
+        SatelliteVariant, Sausage, SausageOff, SawtoothWave, SawBlade, Saxophone, Scale,
+        ScaleBalance, ScaleBathroom, ScaleOff, ScaleUnbalanced, Scanner, ScannerOff, ScanHelper,
+        ScatterPlot, ScatterPlotOutline, Scent, ScentOff, School, SchoolOutline, ScissorsCutting,
+        Scooter, ScooterElectric, Scoreboard, ScoreboardOutline, ScreenRotation, ScreenRotationLock,
+        Screwdriver, ScrewFlatTop, ScrewLag, ScrewMachineFlatTop, ScrewMachineRoundTop,
+        ScrewRoundTop, Script, ScriptOutline, ScriptText, ScriptTextKey, ScriptTextKeyOutline,
+        ScriptTextOutline, ScriptTextPlay, ScriptTextPlayOutline, Sd, Seal, SealVariant, SearchWeb,
+        Seat, Seatbelt, SeatFlat, SeatFlatAngled, SeatIndividualSuite, SeatLegroomExtra,
+        SeatLegroomNormal, SeatLegroomReduced, SeatOutline, SeatPassenger, SeatReclineExtra,
+        SeatReclineNormal, Security, SecurityNetwork, Seed, SeedOff, SeedOffOutline, SeedOutline,
+        SeedPlus, SeedPlusOutline, Seesaw, Segment, Select, Selection, SelectionDrag,
+        SelectionEllipse, SelectionEllipseArrowInside, SelectionEllipseRemove, SelectionMarker,
+        SelectionMultiple, SelectionMultipleMarker, SelectionOff, SelectionRemove, SelectionSearch,
+        SelectAll, SelectArrowDown, SelectArrowUp, SelectColor, SelectCompare, SelectDrag,
+        SelectGroup, SelectInverse, SelectMarker, SelectMultiple, SelectMultipleMarker, SelectOff,
+        SelectPlace, SelectRemove, SelectSearch, SemanticWeb, Send, SendCheck, SendCheckOutline,
+        SendCircle, SendCircleOutline, SendClock, SendClockOutline, SendLock, SendLockOutline,
+        SendOutline, SerialPort, Server, ServerMinus, ServerNetwork, ServerNetworkOff, ServerOff,
+        ServerPlus, ServerRemove, ServerSecurity, SettingsHelper, SetAll, SetCenter, SetCenterRight,
+        SetLeft, SetLeftCenter, SetLeftRight, SetMerge, SetNone, SetRight, SetSplit, SetSquare,
+        SetTopBox, Shaker, ShakerOutline, Shape, ShapeCirclePlus, ShapeOutline, ShapeOvalPlus,
+        ShapePlus, ShapePolygonPlus, ShapeRectanglePlus, ShapeSquarePlus, ShapeSquareRoundedPlus,
+        Share, ShareAll, ShareAllOutline, ShareCircle, ShareOff, ShareOffOutline, ShareOutline,
+        ShareVariant, ShareVariantOutline, Shark, SharkFin, SharkFinOutline, SharkOff, Sheep,
+        Shield, ShieldAccount, ShieldAccountOutline, ShieldAccountVariant,
+        ShieldAccountVariantOutline, ShieldAirplane, ShieldAirplaneOutline, ShieldAlert,
+        ShieldAlertOutline, ShieldBug, ShieldBugOutline, ShieldCar, ShieldCheck, ShieldCheckOutline,
+        ShieldCross, ShieldCrossOutline, ShieldCrown, ShieldCrownOutline, ShieldEdit,
+        ShieldEditOutline, ShieldHalf, ShieldHalfFull, ShieldHome, ShieldHomeOutline, ShieldKey,
+        ShieldKeyOutline, ShieldLinkVariant, ShieldLinkVariantOutline, ShieldLock, ShieldLockOpen,
+        ShieldLockOpenOutline, ShieldLockOutline, ShieldMoon, ShieldMoonOutline, ShieldOff,
+        ShieldOffOutline, ShieldOutline, ShieldPlus, ShieldPlusOutline, ShieldRefresh,
+        ShieldRefreshOutline, ShieldRemove, ShieldRemoveOutline, ShieldSearch, ShieldStar,
+        ShieldStarOutline, ShieldSun, ShieldSunOutline, ShieldSword, ShieldSwordOutline, ShieldSync,
+        ShieldSyncOutline, Shimmer, ShippingPallet, ShipWheel, ShoeBallet, ShoeCleat, ShoeFormal,
+        ShoeHeel, ShoePrint, ShoeSneaker, Shopping, ShoppingMusic, ShoppingOutline, ShoppingSearch,
+        ShoppingSearchOutline, Shore, Shovel, ShovelOff, Shower, ShowerHead, Shredder, Shuffle,
+        ShuffleDisabled, ShuffleVariant, Shuriken, Sickle, Sigma, SigmaLower, Signal, Signal2g,
+        Signal3g, Signal4g, Signal5g, SignalCellular1, SignalCellular2, SignalCellular3,
+        SignalCellularOutline, SignalDistanceVariant, SignalHspa, SignalHspaPlus, SignalOff,
+        SignalVariant, Signature, SignatureFreehand, SignatureImage, SignatureText, SignCaution,
+        SignDirection, SignDirectionMinus, SignDirectionPlus, SignDirectionRemove, SignLanguage,
+        SignLanguageOutline, SignPole, SignRealEstate, SignText, SignYield, Silo, SiloOutline,
+        Silverware, SilverwareClean, SilverwareFork, SilverwareForkKnife, SilverwareSpoon,
+        SilverwareVariant, Sim, SimpleIcons, SimAlert, SimAlertOutline, SimOff, SimOffOutline,
+        SimOutline, SinaWeibo, SineWave, Sitemap, SitemapOutline, SizeL, SizeM, SizeS, SizeXl,
+        SizeXs, SizeXxl, SizeXxs, SizeXxxl, Skate, Skateboard, Skateboarding, SkateOff, SkewLess,
+        SkewMore, Ski, SkipBackward, SkipBackwardOutline, SkipForward, SkipForwardOutline, SkipNext,
+        SkipNextCircle, SkipNextCircleOutline, SkipNextOutline, SkipPrevious, SkipPreviousCircle,
+        SkipPreviousCircleOutline, SkipPreviousOutline, SkiCrossCountry, SkiWater, Skull,
+        SkullCrossbones, SkullCrossbonesOutline, SkullOutline, SkullScan, SkullScanOutline, Skype,
+        SkypeBusiness, Slack, SlashForward, SlashForwardBox, Sledding, Sleep, SleepOff, Slide,
+        SlopeDownhill, SlopeUphill, SlotMachine, SlotMachineOutline, SmartCard, SmartCardOff,
+        SmartCardOffOutline, SmartCardOutline, SmartCardReader, SmartCardReaderOutline, Smog, Smoke,
+        SmokeDetector, SmokeDetectorAlert, SmokeDetectorAlertOutline, SmokeDetectorOff,
+        SmokeDetectorOffOutline, SmokeDetectorOutline, SmokeDetectorVariant,
+        SmokeDetectorVariantAlert, SmokeDetectorVariantOff, Smoking, SmokingOff, SmokingPipe,
+        SmokingPipeOff, Snail, Snake, Snapchat, Snowboard, Snowflake, SnowflakeAlert,
+        SnowflakeCheck, SnowflakeMelt, SnowflakeOff, SnowflakeThermometer, SnowflakeVariant,
+        Snowman, Snowmobile, Snowshoeing, Soccer, SoccerField, SocialDistance2Meters,
+        SocialDistance6Feet, Sofa, SofaOutline, SofaSingle, SofaSingleOutline, SolarPanel,
+        SolarPanelLarge, SolarPower, SolarPowerVariant, SolarPowerVariantOutline, SolderingIron,
+        Solid, SonyPlaystation, Sort, SortAlphabeticalAscending, SortAlphabeticalAscendingVariant,
+        SortAlphabeticalDescending, SortAlphabeticalDescendingVariant, SortAlphabeticalVariant,
+        SortAscending, SortBoolAscending, SortBoolAscendingVariant, SortBoolDescending,
+        SortBoolDescendingVariant, SortCalendarAscending, SortCalendarDescending,
+        SortClockAscending, SortClockAscendingOutline, SortClockDescending,
+        SortClockDescendingOutline, SortDescending, SortNumericAscending,
+        SortNumericAscendingVariant, SortNumericDescending, SortNumericDescendingVariant,
+        SortNumericVariant, SortReverseVariant, SortVariant, SortVariantLock, SortVariantLockOpen,
+        SortVariantOff, SortVariantRemove, Soundbar, Soundcloud, SourceBranch, SourceBranchCheck,
+        SourceBranchMinus, SourceBranchPlus, SourceBranchRefresh, SourceBranchRemove,
+        SourceBranchSync, SourceCommit, SourceCommitEnd, SourceCommitEndLocal, SourceCommitLocal,
+        SourceCommitNextLocal, SourceCommitStart, SourceCommitStartNextLocal, SourceFork,
+        SourceMerge, SourcePull, SourceRepository, SourceRepositoryMultiple, SoySauce, SoySauceOff,
+        Spa, SpaceInvaders, SpaceStation, Spade, SpaOutline, Speaker, SpeakerBluetooth,
+        SpeakerMessage, SpeakerMultiple, SpeakerOff, SpeakerPause, SpeakerPlay, SpeakerStop,
+        SpeakerWireless, Spear, Speedometer, SpeedometerMedium, SpeedometerSlow, Spellcheck, Sphere,
+        SphereOff, Spider, SpiderThread, SpiderWeb, SpiritLevel, SpoonSugar, Spotify, Spotlight,
+        SpotlightBeam, Spray, SprayBottle, Sprinkler, SprinklerFire, SprinklerVariant, Sprout,
+        SproutOutline, Square, SquareCircle, SquareEditOutline, SquareMedium, SquareMediumOutline,
+        SquareOff, SquareOffOutline, SquareOpacity, SquareOutline, SquareRoot, SquareRootBox,
+        SquareRounded, SquareRoundedBadge, SquareRoundedBadgeOutline, SquareRoundedOutline,
+        SquareSmall, SquareWave, Squeegee, Ssh, Stackpath, StackExchange, StackOverflow, Stadium,
+        StadiumOutline, StadiumVariant, Stairs, StairsBox, StairsDown, StairsUp, Stamper,
+        StandardDefinition, Star, StarBox, StarBoxMultiple, StarBoxMultipleOutline, StarBoxOutline,
+        StarCheck, StarCheckOutline, StarCircle, StarCircleOutline, StarCog, StarCogOutline,
+        StarCrescent, StarDavid, StarFace, StarFourPoints, StarFourPointsOutline, StarHalf,
+        StarHalfFull, StarMinus, StarMinusOutline, StarOff, StarOffOutline, StarOutline, StarPlus,
+        StarPlusOutline, StarRemove, StarRemoveOutline, StarSettings, StarSettingsOutline,
+        StarShooting, StarShootingOutline, StarThreePoints, StarThreePointsOutline, StateMachine,
+        Steam, Steering, SteeringOff, StepBackward, StepBackward2, StepForward, StepForward2,
+        Stethoscope, Sticker, StickerAlert, StickerAlertOutline, StickerCheck, StickerCheckOutline,
+        StickerCircleOutline, StickerEmoji, StickerMinus, StickerMinusOutline, StickerOutline,
+        StickerPlus, StickerPlusOutline, StickerRemove, StickerRemoveOutline, StickerText,
+        StickerTextOutline, Stocking, Stomach, Stool, StoolOutline, Stop, StopCircle,
+        StopCircleOutline, StorageTank, StorageTankOutline, Store, Storefront, StorefrontCheck,
+        StorefrontCheckOutline, StorefrontEdit, StorefrontEditOutline, StorefrontMinus,
+        StorefrontMinusOutline, StorefrontOutline, StorefrontPlus, StorefrontPlusOutline,
+        StorefrontRemove, StorefrontRemoveOutline, Store24Hour, StoreAlert, StoreAlertOutline,
+        StoreCheck, StoreCheckOutline, StoreClock, StoreClockOutline, StoreCog, StoreCogOutline,
+        StoreEdit, StoreEditOutline, StoreMarker, StoreMarkerOutline, StoreMinus, StoreMinusOutline,
+        StoreOff, StoreOffOutline, StoreOutline, StorePlus, StorePlusOutline, StoreRemove,
+        StoreRemoveOutline, StoreSearch, StoreSearchOutline, StoreSettings, StoreSettingsOutline,
+        Stove, Strategy, StretchToPage, StretchToPageOutline, StringLights, StringLightsOff,
+        SubdirectoryArrowLeft, SubdirectoryArrowRight, Submarine, Subtitles, SubtitlesOutline,
+        Subway, SubwayAlertVariant, SubwayVariant, Summit, Sunglasses, SunAngle, SunAngleOutline,
+        SunClock, SunClockOutline, SunCompass, SunSnowflake, SunSnowflakeVariant, SunThermometer,
+        SunThermometerOutline, SunWireless, SunWirelessOutline, Surfing, SurroundSound,
+        SurroundSound20, SurroundSound21, SurroundSound31, SurroundSound51, SurroundSound512,
+        SurroundSound71, Svg, SwapHorizontal, SwapHorizontalBold, SwapHorizontalCircle,
+        SwapHorizontalCircleOutline, SwapHorizontalVariant, SwapVertical, SwapVerticalBold,
+        SwapVerticalCircle, SwapVerticalCircleOutline, SwapVerticalVariant, Swim, Switch, Sword,
+        SwordCross, SyllabaryHangul, SyllabaryHiragana, SyllabaryKatakana,
+        SyllabaryKatakanaHalfwidth, Symbol, Symfony, Synagogue, SynagogueOutline, Sync, SyncAlert,
+        SyncCircle, SyncOff, Tab, Table, Tablet, TabletCellphone, TabletDashboard, TableAccount,
+        TableAlert, TableArrowDown, TableArrowLeft, TableArrowRight, TableArrowUp, TableBorder,
+        TableCancel, TableChair, TableCheck, TableClock, TableCog, TableColumn,
+        TableColumnPlusAfter, TableColumnPlusBefore, TableColumnRemove, TableColumnWidth, TableEdit,
+        TableEye, TableEyeOff, TableFilter, TableFurniture, TableHeadersEye, TableHeadersEyeOff,
+        TableHeart, TableKey, TableLarge, TableLargePlus, TableLargeRemove, TableLock,
+        TableMergeCells, TableMinus, TableMultiple, TableNetwork, TableOff, TableOfContents,
+        TablePicnic, TablePivot, TablePlus, TableQuestion, TableRefresh, TableRemove, TableRow,
+        TableRowHeight, TableRowPlusAfter, TableRowPlusBefore, TableRowRemove, TableSearch,
+        TableSettings, TableSplitCell, TableStar, TableSync, TableTennis, TabMinus, TabPlus,
+        TabRemove, TabSearch, TabUnselected, Taco, Tag, TagArrowDown, TagArrowDownOutline,
+        TagArrowLeft, TagArrowLeftOutline, TagArrowRight, TagArrowRightOutline, TagArrowUp,
+        TagArrowUpOutline, TagCheck, TagCheckOutline, TagFaces, TagHeart, TagHeartOutline, TagMinus,
+        TagMinusOutline, TagMultiple, TagMultipleOutline, TagOff, TagOffOutline, TagOutline,
+        TagPlus, TagPlusOutline, TagRemove, TagRemoveOutline, TagSearch, TagSearchOutline, TagText,
+        TagTextOutline, Tailwind, TallyMark1, TallyMark2, TallyMark3, TallyMark4, TallyMark5,
+        Tangram, Tank, TankerTruck, TapeDrive, TapeMeasure, Target, TargetAccount, TargetVariant,
+        Taxi, Tea, Teamviewer, TeaOutline, TeddyBear, Telescope, Television, TelevisionAmbientLight,
+        TelevisionBox, TelevisionClassic, TelevisionClassicOff, TelevisionGuide, TelevisionOff,
+        TelevisionPause, TelevisionPlay, TelevisionShimmer, TelevisionSpeaker, TelevisionSpeakerOff,
+        TelevisionStop, TemperatureCelsius, TemperatureFahrenheit, TemperatureKelvin,
+        TempleBuddhist, TempleBuddhistOutline, TempleHindu, TempleHinduOutline, Tennis, TennisBall,
+        Tent, Terraform, Terrain, TestTube, TestTubeEmpty, TestTubeOff, Text, Texture, TextureBox,
+        TextAccount, TextBox, TextBoxCheck, TextBoxCheckOutline, TextBoxEdit, TextBoxEditOutline,
+        TextBoxMinus, TextBoxMinusOutline, TextBoxMultiple, TextBoxMultipleOutline, TextBoxOutline,
+        TextBoxPlus, TextBoxPlusOutline, TextBoxRemove, TextBoxRemoveOutline, TextBoxSearch,
+        TextBoxSearchOutline, TextLong, TextRecognition, TextSearch, TextSearchVariant, TextShadow,
+        TextShort, Theater, ThemeLightDark, Thermometer, ThermometerAlert, ThermometerAuto,
+        ThermometerBluetooth, ThermometerCheck, ThermometerChevronDown, ThermometerChevronUp,
+        ThermometerHigh, ThermometerLines, ThermometerLow, ThermometerMinus, ThermometerOff,
+        ThermometerPlus, ThermometerProbe, ThermometerProbeOff, ThermometerWater, Thermostat,
+        ThermostatAuto, ThermostatBox, ThermostatBoxAuto, ThoughtBubble, ThoughtBubbleOutline,
+        ThumbsUpDown, ThumbsUpDownOutline, ThumbDown, ThumbDownOutline, ThumbUp, ThumbUpOutline,
+        Ticket, TicketAccount, TicketConfirmation, TicketConfirmationOutline, TicketOutline,
+        TicketPercent, TicketPercentOutline, Tie, Tilde, TildeOff, Timelapse, Timeline,
+        TimelineAlert, TimelineAlertOutline, TimelineCheck, TimelineCheckOutline, TimelineClock,
+        TimelineClockOutline, TimelineMinus, TimelineMinusOutline, TimelineOutline, TimelinePlus,
+        TimelinePlusOutline, TimelineQuestion, TimelineQuestionOutline, TimelineRemove,
+        TimelineRemoveOutline, TimelineText, TimelineTextOutline, Timer, Timer10, Timer3,
+        TimerAlert, TimerAlertOutline, TimerCancel, TimerCancelOutline, TimerCheck,
+        TimerCheckOutline, TimerCog, TimerCogOutline, TimerEdit, TimerEditOutline, TimerLock,
+        TimerLockOpen, TimerLockOpenOutline, TimerLockOutline, TimerMarker, TimerMarkerOutline,
+        TimerMinus, TimerMinusOutline, TimerMusic, TimerMusicOutline, TimerOff, TimerOffOutline,
+        TimerOutline, TimerPause, TimerPauseOutline, TimerPlay, TimerPlayOutline, TimerPlus,
+        TimerPlusOutline, TimerRefresh, TimerRefreshOutline, TimerRemove, TimerRemoveOutline,
+        TimerSand, TimerSandComplete, TimerSandEmpty, TimerSandFull, TimerSandPaused, TimerSettings,
+        TimerSettingsOutline, TimerStar, TimerStarOutline, TimerStop, TimerStopOutline, TimerSync,
+        TimerSyncOutline, Timetable, Tire, Toaster, ToasterOff, ToasterOven, ToggleSwitch,
+        ToggleSwitchOff, ToggleSwitchOffOutline, ToggleSwitchOutline, ToggleSwitchVariant,
+        ToggleSwitchVariantOff, Toilet, Toolbox, ToolboxOutline, Tools, Tooltip, TooltipAccount,
+        TooltipCellphone, TooltipCheck, TooltipCheckOutline, TooltipEdit, TooltipEditOutline,
+        TooltipImage, TooltipImageOutline, TooltipMinus, TooltipMinusOutline, TooltipOutline,
+        TooltipPlus, TooltipPlusOutline, TooltipQuestion, TooltipQuestionOutline, TooltipRemove,
+        TooltipRemoveOutline, TooltipText, TooltipTextOutline, Tooth, Toothbrush,
+        ToothbrushElectric, ToothbrushPaste, ToothOutline, Torch, Tortoise, Toslink, Tournament,
+        TowerBeach, TowerFire, TownHall, TowTruck, ToyBrick, ToyBrickMarker, ToyBrickMarkerOutline,
+        ToyBrickMinus, ToyBrickMinusOutline, ToyBrickOutline, ToyBrickPlus, ToyBrickPlusOutline,
+        ToyBrickRemove, ToyBrickRemoveOutline, ToyBrickSearch, ToyBrickSearchOutline, Trackpad,
+        TrackpadLock, TrackLight, TrackLightOff, Tractor, TractorVariant, Trademark, TrafficCone,
+        TrafficLight, TrafficLightOutline, Train, TrainCar, TrainCarAutorack, TrainCarBox,
+        TrainCarBoxFull, TrainCarBoxOpen, TrainCarCaboose, TrainCarCenterbeam,
+        TrainCarCenterbeamFull, TrainCarContainer, TrainCarFlatbed, TrainCarFlatbedCar,
+        TrainCarFlatbedTank, TrainCarGondola, TrainCarGondolaFull, TrainCarHopper,
+        TrainCarHopperCovered, TrainCarHopperFull, TrainCarIntermodal, TrainCarPassenger,
+        TrainCarPassengerDoor, TrainCarPassengerDoorOpen, TrainCarPassengerVariant, TrainCarTank,
+        TrainVariant, Tram, TramSide, Transcribe, TranscribeClose, Transfer, TransferDown,
+        TransferLeft, TransferRight, TransferUp, Transition, TransitionMasked, TransitConnection,
+        TransitConnectionHorizontal, TransitConnectionVariant, TransitDetour, TransitSkip,
+        TransitTransfer, Translate, TranslateOff, TranslateVariant, TransmissionTower,
+        TransmissionTowerExport, TransmissionTowerImport, TransmissionTowerOff, TrashCan,
+        TrashCanOutline, Tray, TrayAlert, TrayArrowDown, TrayArrowUp, TrayFull, TrayMinus, TrayPlus,
+        TrayRemove, TreasureChest, Tree, TreeOutline, Trello, TrendingDown, TrendingNeutral,
+        TrendingUp, Triangle, TriangleOutline, TriangleSmallDown, TriangleSmallUp, TriangleWave,
+        Triforce, Trophy, TrophyAward, TrophyBroken, TrophyOutline, TrophyVariant,
+        TrophyVariantOutline, Truck, TruckAlert, TruckAlertOutline, TruckCargoContainer, TruckCheck,
+        TruckCheckOutline, TruckDelivery, TruckDeliveryOutline, TruckFast, TruckFastOutline,
+        TruckFlatbed, TruckMinus, TruckMinusOutline, TruckOutline, TruckPlus, TruckPlusOutline,
+        TruckRemove, TruckRemoveOutline, TruckSnowflake, TruckTrailer, Trumpet, TshirtCrew,
+        TshirtCrewOutline, TshirtV, TshirtVOutline, Tsunami, TumbleDryer, TumbleDryerAlert,
+        TumbleDryerOff, Tune, TuneVariant, TuneVertical, TuneVerticalVariant, Tunnel, TunnelOutline,
+        Turbine, Turkey, Turnstile, TurnstileOutline, Turtle, Twitch, Twitter,
+        TwoFactorAuthentication, Typewriter, Ubisoft, Ubuntu, Ufo, UfoOutline, UltraHighDefinition,
+        Umbraco, Umbrella, UmbrellaBeach, UmbrellaBeachOutline, UmbrellaClosed,
+        UmbrellaClosedOutline, UmbrellaClosedVariant, UmbrellaOutline, Undo, UndoVariant,
+        UnfoldLessHorizontal, UnfoldLessVertical, UnfoldMoreHorizontal, UnfoldMoreVertical, Ungroup,
+        Unicode, Unicorn, UnicornVariant, Unicycle, Unity, Unreal, Update, Upload, UploadLock,
+        UploadLockOutline, UploadMultiple, UploadNetwork, UploadNetworkOutline, UploadOff,
+        UploadOffOutline, UploadOutline, Usb, UsbFlashDrive, UsbFlashDriveOutline, UsbPort, Vacuum,
+        VacuumOutline, Valve, ValveClosed, ValveOpen, Vanish, VanishQuarter, VanityLight,
+        VanPassenger, VanUtility, Variable, VariableBox, VectorArrangeAbove, VectorArrangeBelow,
+        VectorBezier, VectorCircle, VectorCircleVariant, VectorCombine, VectorCurve,
+        VectorDifference, VectorDifferenceAb, VectorDifferenceBa, VectorEllipse, VectorIntersection,
+        VectorLine, VectorLink, VectorPoint, VectorPointEdit, VectorPointMinus, VectorPointPlus,
+        VectorPointSelect, VectorPolygon, VectorPolygonVariant, VectorPolyline, VectorPolylineEdit,
+        VectorPolylineMinus, VectorPolylinePlus, VectorPolylineRemove, VectorRadius,
+        VectorRectangle, VectorSelection, VectorSquare, VectorSquareClose, VectorSquareEdit,
+        VectorSquareMinus, VectorSquareOpen, VectorSquarePlus, VectorSquareRemove, VectorTriangle,
+        VectorUnion, Vhs, Vibrate, VibrateOff, Video, Video2d, Video3d, Video3dOff, Video3dVariant,
+        Video4kBox, VideoAccount, VideoBox, VideoBoxOff, VideoCheck, VideoCheckOutline,
+        VideoHighDefinition, VideoImage, VideoInputAntenna, VideoInputComponent, VideoInputHdmi,
+        VideoInputScart, VideoInputSvideo, VideoMarker, VideoMarkerOutline, VideoMinus,
+        VideoMinusOutline, VideoOff, VideoOffOutline, VideoOutline, VideoPlus, VideoPlusOutline,
+        VideoStabilization, VideoSwitch, VideoSwitchOutline, VideoVintage, VideoWireless,
+        VideoWirelessOutline, ViewAgenda, ViewAgendaOutline, ViewArray, ViewArrayOutline,
+        ViewCarousel, ViewCarouselOutline, ViewColumn, ViewColumnOutline, ViewComfy,
+        ViewComfyOutline, ViewCompact, ViewCompactOutline, ViewDashboard, ViewDashboardEdit,
+        ViewDashboardEditOutline, ViewDashboardOutline, ViewDashboardVariant,
+        ViewDashboardVariantOutline, ViewDay, ViewDayOutline, ViewGallery, ViewGalleryOutline,
+        ViewGrid, ViewGridOutline, ViewGridPlus, ViewGridPlusOutline, ViewHeadline, ViewList,
+        ViewListOutline, ViewModule, ViewModuleOutline, ViewParallel, ViewParallelOutline,
+        ViewQuilt, ViewQuiltOutline, ViewSequential, ViewSequentialOutline, ViewSplitHorizontal,
+        ViewSplitVertical, ViewStream, ViewStreamOutline, ViewWeek, ViewWeekOutline, Vimeo, Violin,
+        VirtualReality, Virus, VirusOff, VirusOffOutline, VirusOutline, Vlc, Voicemail, Volcano,
+        VolcanoOutline, Volleyball, VolumeEqual, VolumeHigh, VolumeLow, VolumeMedium, VolumeMinus,
+        VolumeMute, VolumeOff, VolumePlus, VolumeSource, VolumeVariantOff, VolumeVibrate, Vote,
+        VoteOutline, Vpn, Vuejs, Vuetify, Walk, Wall, Wallet, WalletGiftcard, WalletMembership,
+        WalletOutline, WalletPlus, WalletPlusOutline, WalletTravel, Wallpaper, WallFire, WallSconce,
+        WallSconceFlat, WallSconceFlatOutline, WallSconceFlatVariant, WallSconceFlatVariantOutline,
+        WallSconceOutline, WallSconceRound, WallSconceRoundOutline, WallSconceRoundVariant,
+        WallSconceRoundVariantOutline, Wan, Wardrobe, WardrobeOutline, Warehouse, WashingMachine,
+        WashingMachineAlert, WashingMachineOff, Watch, WatchExport, WatchExportVariant, WatchImport,
+        WatchImportVariant, WatchVariant, WatchVibrate, WatchVibrateOff, Water, Waterfall,
+        WateringCan, WateringCanOutline, Watermark, WaterAlert, WaterAlertOutline, WaterBoiler,
+        WaterBoilerAlert, WaterBoilerAuto, WaterBoilerOff, WaterCheck, WaterCheckOutline,
+        WaterCircle, WaterMinus, WaterMinusOutline, WaterOff, WaterOffOutline, WaterOpacity,
+        WaterOutline, WaterPercent, WaterPercentAlert, WaterPlus, WaterPlusOutline, WaterPolo,
+        WaterPump, WaterPumpOff, WaterRemove, WaterRemoveOutline, WaterSync, WaterThermometer,
+        WaterThermometerOutline, WaterWell, WaterWellOutline, Wave, Waveform, Waves, WavesArrowLeft,
+        WavesArrowRight, WavesArrowUp, Waze, WeatherCloudy, WeatherCloudyAlert,
+        WeatherCloudyArrowRight, WeatherCloudyClock, WeatherDust, WeatherFog, WeatherHail,
+        WeatherHazy, WeatherHurricane, WeatherLightning, WeatherLightningRainy, WeatherNight,
+        WeatherNightPartlyCloudy, WeatherPartlyCloudy, WeatherPartlyLightning, WeatherPartlyRainy,
+        WeatherPartlySnowy, WeatherPartlySnowyRainy, WeatherPouring, WeatherRainy, WeatherSnowy,
+        WeatherSnowyHeavy, WeatherSnowyRainy, WeatherSunny, WeatherSunnyAlert, WeatherSunnyOff,
+        WeatherSunset, WeatherSunsetDown, WeatherSunsetUp, WeatherTornado, WeatherWindy,
+        WeatherWindyVariant, Web, Webcam, WebcamOff, Webhook, Webpack, Webrtc, WebBox, WebCancel,
+        WebCheck, WebClock, WebMinus, WebOff, WebPlus, WebRefresh, WebRemove, WebSync, Wechat,
+        Weight, WeightGram, WeightKilogram, WeightLifter, WeightPound, Whatsapp, Wheelchair,
+        WheelchairAccessibility, WheelBarrow, Whistle, WhistleOutline, WhiteBalanceAuto,
+        WhiteBalanceIncandescent, WhiteBalanceIridescent, WhiteBalanceSunny, Widgets,
+        WidgetsOutline, Wifi, WifiAlert, WifiArrowDown, WifiArrowLeft, WifiArrowLeftRight,
+        WifiArrowRight, WifiArrowUp, WifiArrowUpDown, WifiCancel, WifiCheck, WifiCog, WifiLock,
+        WifiLockOpen, WifiMarker, WifiMinus, WifiOff, WifiPlus, WifiRefresh, WifiRemove,
+        WifiSettings, WifiStar, WifiStrength1, WifiStrength1Alert, WifiStrength1Lock,
+        WifiStrength1LockOpen, WifiStrength2, WifiStrength2Alert, WifiStrength2Lock,
+        WifiStrength2LockOpen, WifiStrength3, WifiStrength3Alert, WifiStrength3Lock,
+        WifiStrength3LockOpen, WifiStrength4, WifiStrength4Alert, WifiStrength4Lock,
+        WifiStrength4LockOpen, WifiStrengthAlertOutline, WifiStrengthLockOpenOutline,
+        WifiStrengthLockOutline, WifiStrengthOff, WifiStrengthOffOutline, WifiStrengthOutline,
+        WifiSync, Wikipedia, WindowClose, WindowClosed, WindowClosedVariant, WindowMaximize,
+        WindowMinimize, WindowOpen, WindowOpenVariant, WindowRestore, WindowShutter,
+        WindowShutterAlert, WindowShutterAuto, WindowShutterCog, WindowShutterOpen,
+        WindowShutterSettings, Windsock, WindPower, WindPowerOutline, WindTurbine, WindTurbineAlert,
+        WindTurbineCheck, Wiper, WiperWash, WiperWashAlert, WizardHat, Wordpress, Wrap,
+        WrapDisabled, Wrench, WrenchCheck, WrenchCheckOutline, WrenchClock, WrenchClockOutline,
+        WrenchCog, WrenchCogOutline, WrenchOutline, Xamarin, Xml, Xmpp, Yahoo, Yeast, YinYang, Yoga,
+        Youtube, YoutubeGaming, YoutubeStudio, YoutubeSubscription, YoutubeTv, Yurt, Zend, Zigbee,
+        ZipBox, ZipBoxOutline, ZipDisk, ZodiacAquarius, ZodiacAries, ZodiacCancer, ZodiacCapricorn,
+        ZodiacGemini, ZodiacLeo, ZodiacLibra, ZodiacPisces, ZodiacSagittarius, ZodiacScorpio,
+        ZodiacTaurus, ZodiacVirgo, ZWave)
+    return __AllIcons!!
+  }
