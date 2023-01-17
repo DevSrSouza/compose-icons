@@ -90,7 +90,7 @@ public val TablerIcons.BrandDocker: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(4.571f, 18.001f)
+                moveTo(4.571f, 18.0f)
                 curveToRelative(1.5f, 0.0f, 2.047f, -0.074f, 2.958f, -0.78f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),

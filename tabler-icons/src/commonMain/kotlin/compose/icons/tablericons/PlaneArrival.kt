@@ -23,23 +23,24 @@ public val TablerIcons.PlaneArrival: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.1566f, 11.8105f)
-                lineToRelative(4.8296f, 1.2941f)
-                arcToRelative(2.0f, 2.0f, 91.8165f, false, true, -1.0353f, 3.8637f)
-                lineToRelative(-14.4889f, -3.8823f)
-                lineToRelative(-1.3449f, -6.572f)
-                lineToRelative(2.8978f, 0.7765f)
-                lineToRelative(1.4142f, 2.4495f)
-                lineToRelative(2.8978f, 0.7765f)
-                lineToRelative(-0.1201f, -7.2791f)
-                lineToRelative(2.8978f, 0.7765f)
+                moveTo(15.157f, 11.81f)
+                lineToRelative(4.83f, 1.295f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, true, -1.036f, 3.863f)
+                lineToRelative(-14.489f, -3.882f)
+                lineToRelative(-1.345f, -6.572f)
+                lineToRelative(2.898f, 0.776f)
+                lineToRelative(1.414f, 2.45f)
+                lineToRelative(2.898f, 0.776f)
+                lineToRelative(-0.12f, -7.279f)
+                lineToRelative(2.898f, 0.777f)
+                lineToRelative(2.052f, 7.797f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 21.0f)
-                lineTo(21.0f, 21.0f)
+                horizontalLineToRelative(18.0f)
             }
         }
         .build()

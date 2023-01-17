@@ -23,16 +23,16 @@ public val TablerIcons.Affiliate: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.5f, 5.5f)
-                lineToRelative(1.706f, 5.685f)
+                moveTo(5.931f, 6.936f)
+                lineToRelative(1.275f, 4.249f)
                 moveToRelative(5.607f, 5.609f)
-                lineToRelative(5.687f, 1.706f)
+                lineToRelative(4.251f, 1.275f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(11.683f, 12.317f)
-                lineToRelative(6.817f, -6.817f)
+                lineToRelative(5.759f, -5.759f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =

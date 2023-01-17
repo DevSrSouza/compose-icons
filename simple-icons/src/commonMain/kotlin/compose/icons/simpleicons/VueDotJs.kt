@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.VueDotJs: ImageVector
+public val SimpleIcons.Vuedotjs: ImageVector
     get() {
-        if (_vueDotJs != null) {
-            return _vueDotJs!!
+        if (_vuedotjs != null) {
+            return _vuedotjs!!
         }
-        _vueDotJs = Builder(name = "VueDotJs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _vuedotjs = Builder(name = "Vuedotjs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -38,7 +38,7 @@ public val SimpleIcons.VueDotJs: ImageVector
             }
         }
         .build()
-        return _vueDotJs!!
+        return _vuedotjs!!
     }
 
-private var _vueDotJs: ImageVector? = null
+private var _vuedotjs: ImageVector? = null

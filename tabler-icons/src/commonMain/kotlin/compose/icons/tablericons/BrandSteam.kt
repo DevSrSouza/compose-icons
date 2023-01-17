@@ -29,7 +29,7 @@ public val TablerIcons.BrandSteam: ImageVector
                 lineToRelative(0.0f, 0.038f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, -2.824f, 2.995f)
                 lineToRelative(-0.176f, 0.005f)
-                arcToRelative(3.001f, 3.001f, 0.0f, false, true, -2.94f, -2.402f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, -2.94f, -2.402f)
                 lineToRelative(-2.56f, -1.098f)
                 verticalLineToRelative(-3.5f)
                 lineToRelative(3.51f, 1.755f)

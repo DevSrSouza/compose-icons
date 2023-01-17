@@ -2,7 +2,6 @@ package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -24,36 +23,31 @@ public val Octicons.Unmute24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(11.553f, 3.064f)
                 arcTo(0.75f, 0.75f, 0.0f, false, true, 12.0f, 3.75f)
                 verticalLineToRelative(16.5f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, -1.255f, 0.555f)
                 lineTo(5.46f, 16.0f)
-                horizontalLineTo(2.75f)
+                lineTo(2.75f, 16.0f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 1.0f, 14.25f)
                 verticalLineToRelative(-4.5f)
                 curveTo(1.0f, 8.784f, 1.784f, 8.0f, 2.75f, 8.0f)
                 horizontalLineToRelative(2.71f)
                 lineToRelative(5.285f, -4.805f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.808f, -0.13f)
+                arcToRelative(0.752f, 0.752f, 0.0f, false, true, 0.808f, -0.13f)
                 close()
                 moveTo(10.5f, 5.445f)
                 lineToRelative(-4.245f, 3.86f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, true, -0.505f, 0.195f)
+                arcToRelative(0.748f, 0.748f, 0.0f, false, true, -0.505f, 0.195f)
                 horizontalLineToRelative(-3.0f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
                 verticalLineToRelative(4.5f)
                 curveToRelative(0.0f, 0.138f, 0.112f, 0.25f, 0.25f, 0.25f)
                 horizontalLineToRelative(3.0f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.505f, 0.195f)
+                curveToRelative(0.187f, 0.0f, 0.367f, 0.069f, 0.505f, 0.195f)
                 lineToRelative(4.245f, 3.86f)
-                verticalLineTo(5.445f)
                 close()
-            }
-            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
-                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = NonZero) {
                 moveTo(18.718f, 4.222f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 1.06f, 0.0f)
                 curveToRelative(4.296f, 4.296f, 4.296f, 11.26f, 0.0f, 15.556f)

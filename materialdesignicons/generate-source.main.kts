@@ -15,13 +15,14 @@
 @file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
 // Jgit
-@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:3.5.0.201409260305-r")
+@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r")
 
 import br.com.devsrsouza.svg2compose.ParsingResult
 import br.com.devsrsouza.svg2compose.Svg2Compose
 import br.com.devsrsouza.svg2compose.VectorType
 import org.eclipse.jgit.api.Git
 import java.io.File
+import kotlin.system.exitProcess
 
 fun File.makeDirs() = apply { mkdirs() }
 
@@ -30,7 +31,7 @@ val buildDir = File("build/").makeDirs()
 val githubId = "Templarian/MaterialDesign"
 val repository = "https://github.com/$githubId"
 val version = ""  // there is no versioning in this library
-val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
+val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/master"
 val blobGithubRepository = repository  // there is no versioning in this library
 
 val repoCloneDir = createTempDir(suffix = "mdi-git-repo")
@@ -56,7 +57,7 @@ fun replacePathName(path: String): String {
     return path.replace("_", "-")
 }
 
-val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
+val srcDir = File("materialdesignicons/src/commonMain/kotlin").apply { mkdirs() }
 srcDir.deleteRecursively()
 srcDir.mkdirs()
 
@@ -76,7 +77,7 @@ println("Copying LICENSE from the Icon pack")
 val licensePath = "LICENSE"
 val licenseFile = File(repoCloneDir, licensePath)
 
-val resDir = File("src/commonMain/resources").makeDirs()
+val resDir = File("materialdesignicons/src/commonMain/resources").makeDirs()
 val licenseInResource = File(resDir, "material-design-icons-license.txt")
 
 licenseFile.copyTo(licenseInResource, overwrite = true)
@@ -135,6 +136,24 @@ fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.ac
         "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
     }.joinToString("\n")
 
+fun List<DocumentationIcon>.iconsMapFormat(): String {
+    fun iconName(str: String) = str.split(".")[1]
+    return sortedBy { it.accessingFormat }.joinToString(",\n") {
+        "\t" + '"' + iconName(it.accessingFormat) + '"' + " to { " + it.accessingFormat + " }"
+    }
+}
+
+File("materialdesignicons/MaterialDesignIcons.kt").apply {
+    if (exists().not()) createNewFile()
+}.writeText(
+    run {
+        "object MaterialDesignIcons : Map<String,()->Unit> by mapOf(\n" +
+                result.asDocumentationGroupList().filter { it.icons.isNotEmpty() }.joinToString("\n") {
+                    it.icons.iconsMapFormat()
+                } + "\n)"
+    }
+)
+
 val documentationGroups = result.asDocumentationGroupList()
     .filter { it.icons.isNotEmpty() }
     .map {
@@ -147,7 +166,7 @@ val documentationGroups = result.asDocumentationGroupList()
     }.joinToString("\n<br /><br />\n")
 
 val header = """
-    # [Tabler Icons](https://tabler-icons.io/)
+    # [Material Design Icons](https://materialdesignicons.com//)
     
     <br />
     
@@ -160,7 +179,7 @@ val license = """
     
     """.trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
 
-File("DOCUMENTATION.md").apply{
+File("materialdesignicons/DOCUMENTATION.md").apply{
     if(exists().not()) createNewFile()
 }.writeText(
     header + "\n" + license + "\n" + documentationGroups

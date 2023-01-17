@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.AFrame: ImageVector
+public val SimpleIcons.Aframe: ImageVector
     get() {
-        if (_aFrame != null) {
-            return _aFrame!!
+        if (_aframe != null) {
+            return _aframe!!
         }
-        _aFrame = Builder(name = "AFrame", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _aframe = Builder(name = "Aframe", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -38,7 +38,7 @@ public val SimpleIcons.AFrame: ImageVector
             }
         }
         .build()
-        return _aFrame!!
+        return _aframe!!
     }
 
-private var _aFrame: ImageVector? = null
+private var _aframe: ImageVector? = null

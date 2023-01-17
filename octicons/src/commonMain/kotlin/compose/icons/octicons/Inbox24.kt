@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,7 +20,7 @@ public val Octicons.Inbox24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(4.801f, 3.57f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 6.414f, 2.5f)
                 horizontalLineToRelative(11.174f)
@@ -47,7 +47,6 @@ public val Octicons.Inbox24: ImageVector
                 lineToRelative(5.13f, -0.051f)
                 lineToRelative(-3.304f, -7.797f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.23f, -0.152f)
-                horizontalLineTo(6.414f)
                 close()
                 moveTo(21.5f, 13.445f)
                 lineToRelative(-5.067f, 0.05f)
@@ -61,7 +60,6 @@ public val Octicons.Inbox24: ImageVector
                 curveToRelative(0.0f, 0.138f, 0.112f, 0.25f, 0.25f, 0.25f)
                 horizontalLineToRelative(18.5f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
-                verticalLineToRelative(-6.805f)
                 close()
             }
         }

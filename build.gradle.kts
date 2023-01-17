@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 buildscript {
     repositories {
         google()
@@ -14,6 +16,9 @@ buildscript {
 plugins {
     `maven-publish`
     signing
+    kotlin("jvm").apply(false)
+    kotlin("multiplatform").apply(false)
+    kotlin("android").apply(false)
 }
 
 allprojects {
@@ -44,4 +49,8 @@ allprojects {
             }
         }
     }
+}
+
+repositories {
+    mavenCentral()
 }

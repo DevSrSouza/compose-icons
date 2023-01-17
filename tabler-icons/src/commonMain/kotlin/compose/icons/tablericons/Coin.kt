@@ -34,19 +34,17 @@ public val TablerIcons.Coin: ImageVector
                 moveTo(14.8f, 9.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, false, -1.8f, -1.0f)
                 horizontalLineToRelative(-2.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, false, 0.0f, 4.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 0.0f, 4.0f)
                 horizontalLineToRelative(2.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 0.0f, 4.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 0.0f, 4.0f)
                 horizontalLineToRelative(-2.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, true, -1.8f, -1.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 6.0f)
-                verticalLineToRelative(2.0f)
-                moveToRelative(0.0f, 8.0f)
-                verticalLineToRelative(2.0f)
+                moveTo(12.0f, 7.0f)
+                verticalLineToRelative(10.0f)
             }
         }
         .build()

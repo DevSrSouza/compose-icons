@@ -411,8 +411,6 @@ public val SimpleIcons.Pcgamingwiki: ImageVector
                 lineToRelative(0.17f, -0.31f)
                 lineToRelative(0.396f, 0.897f)
                 lineToRelative(-1.292f, -0.2f)
-                verticalLineToRelative(0.002f)
-                verticalLineToRelative(-0.003f)
                 close()
                 moveTo(5.694f, 16.163f)
                 curveToRelative(0.091f, 0.0f, 0.163f, 0.072f, 0.163f, 0.163f)

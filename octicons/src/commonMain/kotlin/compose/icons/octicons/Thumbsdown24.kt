@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,12 +20,12 @@ public val Octicons.Thumbsdown24: ImageVector
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(12.596f, 21.957f)
                 curveToRelative(-1.301f, 0.092f, -2.303f, -0.986f, -2.303f, -2.206f)
                 verticalLineToRelative(-1.053f)
                 curveToRelative(0.0f, -2.666f, -1.813f, -3.785f, -2.774f, -4.2f)
-                arcToRelative(1.864f, 1.864f, 0.0f, false, false, -0.523f, -0.13f)
+                arcToRelative(1.884f, 1.884f, 0.0f, false, false, -0.523f, -0.13f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 5.25f, 16.0f)
                 horizontalLineToRelative(-1.5f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 2.0f, 14.25f)
@@ -51,28 +51,28 @@ public val Octicons.Thumbsdown24: ImageVector
                 curveToRelative(-0.684f, 0.674f, -1.668f, 0.879f, -2.743f, 0.955f)
                 close()
                 moveTo(7.0f, 5.082f)
-                curveToRelative(1.059f, -0.064f, 2.079f, -0.355f, 3.118f, -0.651f)
-                curveToRelative(0.188f, -0.054f, 0.377f, -0.108f, 0.568f, -0.16f)
-                curveToRelative(1.406f, -0.392f, 3.006f, -0.771f, 5.142f, -0.771f)
-                curveToRelative(2.277f, 0.0f, 3.004f, 0.274f, 3.39f, 0.781f)
-                curveToRelative(0.216f, 0.283f, 0.388f, 0.718f, 0.54f, 1.448f)
-                curveToRelative(0.136f, 0.65f, 0.242f, 1.45f, 0.379f, 2.477f)
-                lineToRelative(0.05f, 0.385f)
-                curveToRelative(0.32f, 2.398f, 0.253f, 3.794f, -0.102f, 4.574f)
-                curveToRelative(-0.16f, 0.352f, -0.375f, 0.569f, -0.66f, 0.711f)
-                curveToRelative(-0.305f, 0.153f, -0.74f, 0.245f, -1.365f, 0.245f)
-                horizontalLineToRelative(-2.37f)
-                curveToRelative(-0.681f, 0.0f, -1.293f, 0.57f, -1.211f, 1.328f)
-                curveToRelative(0.026f, 0.244f, 0.065f, 0.537f, 0.105f, 0.834f)
-                lineToRelative(0.07f, 0.527f)
-                curveToRelative(0.06f, 0.482f, 0.105f, 0.922f, 0.105f, 1.25f)
-                curveToRelative(0.0f, 1.125f, -0.213f, 1.617f, -0.473f, 1.873f)
-                curveToRelative(-0.275f, 0.27f, -0.774f, 0.456f, -1.795f, 0.528f)
-                curveToRelative(-0.351f, 0.024f, -0.698f, -0.274f, -0.698f, -0.71f)
-                verticalLineToRelative(-1.053f)
-                curveToRelative(0.0f, -3.55f, -2.488f, -5.063f, -3.68f, -5.577f)
-                arcTo(3.485f, 3.485f, 0.0f, false, false, 7.0f, 12.861f)
-                verticalLineTo(5.08f)
+                verticalLineToRelative(7.779f)
+                curveToRelative(0.383f, 0.025f, 0.759f, 0.113f, 1.113f, 0.26f)
+                curveToRelative(1.192f, 0.514f, 3.68f, 2.027f, 3.68f, 5.577f)
+                verticalLineToRelative(1.053f)
+                curveToRelative(0.0f, 0.436f, 0.347f, 0.734f, 0.698f, 0.71f)
+                curveToRelative(1.021f, -0.072f, 1.52f, -0.258f, 1.795f, -0.528f)
+                curveToRelative(0.26f, -0.256f, 0.473f, -0.748f, 0.473f, -1.873f)
+                curveToRelative(0.0f, -0.328f, -0.045f, -0.768f, -0.105f, -1.25f)
+                lineToRelative(-0.07f, -0.527f)
+                curveToRelative(-0.04f, -0.297f, -0.079f, -0.59f, -0.105f, -0.834f)
+                curveToRelative(-0.082f, -0.758f, 0.53f, -1.328f, 1.211f, -1.328f)
+                horizontalLineToRelative(2.37f)
+                curveToRelative(0.625f, 0.0f, 1.06f, -0.092f, 1.365f, -0.245f)
+                curveToRelative(0.285f, -0.142f, 0.5f, -0.359f, 0.66f, -0.711f)
+                curveToRelative(0.355f, -0.78f, 0.422f, -2.176f, 0.102f, -4.574f)
+                lineToRelative(-0.05f, -0.385f)
+                curveToRelative(-0.137f, -1.027f, -0.243f, -1.827f, -0.379f, -2.477f)
+                curveToRelative(-0.152f, -0.73f, -0.324f, -1.165f, -0.54f, -1.448f)
+                curveToRelative(-0.386f, -0.507f, -1.113f, -0.781f, -3.39f, -0.781f)
+                curveToRelative(-2.136f, 0.0f, -3.736f, 0.379f, -5.142f, 0.771f)
+                curveToRelative(-0.191f, 0.052f, -0.38f, 0.106f, -0.568f, 0.16f)
+                curveToRelative(-1.039f, 0.296f, -2.059f, 0.587f, -3.118f, 0.651f)
                 close()
                 moveTo(3.75f, 3.5f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
@@ -82,7 +82,6 @@ public val Octicons.Thumbsdown24: ImageVector
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
                 verticalLineTo(3.75f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, -0.25f)
-                horizontalLineToRelative(-1.5f)
                 close()
             }
         }

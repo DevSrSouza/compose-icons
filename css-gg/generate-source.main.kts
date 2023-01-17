@@ -1,7 +1,7 @@
 @file:Repository("https://jitpack.io")
 @file:Repository("https://dl.google.com/dl/android/maven2/")
 @file:Repository("https://repo.maven.apache.org/maven2/")
-@file:Repository("file:///home/devsrsouza/.m2/repository")
+//@file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
 @file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.8.1")
@@ -11,10 +11,10 @@
 @file:DependsOn("com.squareup:kotlinpoet:1.7.2")
 @file:DependsOn("org.ogce:xpp3:1.1.6")
 
-@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
+@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
 // Jgit
-@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:3.5.0.201409260305-r")
+@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r")
 
 import br.com.devsrsouza.svg2compose.ParsingResult
 import br.com.devsrsouza.svg2compose.Svg2Compose
@@ -56,17 +56,17 @@ fun replacePathName(path: String): String {
     return path.replace(iconName, newIconName)
 }
 
-val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
+val srcDir = File("css-gg/src/commonMain/kotlin").apply { mkdirs() }
 srcDir.deleteRecursively()
 srcDir.mkdirs()
 
 fun String.removeSuffix(suffix: String, ignoreCase: Boolean): String {
-    if(ignoreCase) {
+    return if (ignoreCase) {
         val index = lastIndexOf(suffix, ignoreCase = true)
 
-        return if(index > -1) substring(0, index) else this
+        if (index > -1) substring(0, index) else this
     } else {
-        return removeSuffix(suffix)
+        removeSuffix(suffix)
     }
 }
 
@@ -86,7 +86,7 @@ println("Copying LICENSE from the Icon pack")
 val licensePath = "LICENSE"
 val licenseFile = File(repoCloneDir, licensePath)
 
-val resDir = File("src/commonMain/resources").makeDirs()
+val resDir = File("css-gg/src/commonMain/resources").makeDirs()
 val licenseInResource = File(resDir, "css-gg-license.txt")
 
 licenseFile.copyTo(licenseInResource, overwrite = true)
@@ -107,7 +107,7 @@ data class DocumentationIcon(
 fun ParsingResult.asDocumentationGroupList(
     previousAccessingGroupFormat: String? = null
 ): List<DocumentationGroup> {
-    val accessingGroupFormat = if(previousAccessingGroupFormat != null)
+    val accessingGroupFormat = if (previousAccessingGroupFormat != null)
         "$previousAccessingGroupFormat.${groupName.second}"
     else groupName.second
 
@@ -132,7 +132,7 @@ fun ParsingResult.asDocumentationGroup(
 }
 
 fun markdownSvg(doc: DocumentationIcon): String {
-    return "![](${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) })"
+    return "![](${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository)})"
 }
 
 fun markdownIconDocumentation(doc: DocumentationIcon): String {
@@ -144,6 +144,25 @@ fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.ac
     .chunked(chunks).map {
         "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
     }.joinToString("\n")
+
+
+fun List<DocumentationIcon>.iconsMapFormat(): String {
+    fun iconName(str: String) = str.split(".")[1]
+    return sortedBy { it.accessingFormat }.joinToString(",\n") {
+        "\t" + '"' + iconName(it.accessingFormat) + '"' + " to { " + it.accessingFormat + " }"
+    }
+}
+
+File("css-gg/CssGggNameToIconMap.kt").apply {
+    if (exists().not()) createNewFile()
+}.writeText(
+    run {
+        "object CssGggNameToIconMap : Map<String,()->Unit> by mapOf(\n" +
+                result.asDocumentationGroupList().filter { it.icons.isNotEmpty() }.joinToString("\n") {
+                    it.icons.iconsMapFormat()
+                } + "\n)"
+    }
+)
 
 val documentationGroups = result.asDocumentationGroupList()
     .filter { it.icons.isNotEmpty() }
@@ -172,8 +191,8 @@ val license = """
     
     """.trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
 
-File("DOCUMENTATION.md").apply{
-    if(exists().not()) createNewFile()
+File("css-gg/DOCUMENTATION.md").apply {
+    if (exists().not()) createNewFile()
 }.writeText(
     header + "\n" + license + "\n" + documentationGroups
 )

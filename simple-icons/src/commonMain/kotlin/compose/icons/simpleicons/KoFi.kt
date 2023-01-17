@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.KoFi: ImageVector
+public val SimpleIcons.Kofi: ImageVector
     get() {
-        if (_koFi != null) {
-            return _koFi!!
+        if (_kofi != null) {
+            return _kofi!!
         }
-        _koFi = Builder(name = "KoFi", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _kofi = Builder(name = "Kofi", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -51,7 +51,7 @@ public val SimpleIcons.KoFi: ImageVector
             }
         }
         .build()
-        return _koFi!!
+        return _kofi!!
     }
 
-private var _koFi: ImageVector? = null
+private var _kofi: ImageVector? = null

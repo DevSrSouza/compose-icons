@@ -137,8 +137,6 @@ public val SimpleIcons.Matternet: ImageVector
                 lineToRelative(-1.648f, -0.95f)
                 verticalLineToRelative(-7.441f)
                 lineToRelative(1.648f, 0.944f)
-                verticalLineToRelative(7.458f)
-                verticalLineToRelative(-0.011f)
                 close()
                 moveTo(20.855f, 17.563f)
                 lineToRelative(-1.641f, 0.944f)

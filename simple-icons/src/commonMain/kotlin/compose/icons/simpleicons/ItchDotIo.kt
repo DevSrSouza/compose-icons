@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.ItchDotIo: ImageVector
+public val SimpleIcons.Itchdotio: ImageVector
     get() {
-        if (_itchDotIo != null) {
-            return _itchDotIo!!
+        if (_itchdotio != null) {
+            return _itchdotio!!
         }
-        _itchDotIo = Builder(name = "ItchDotIo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _itchdotio = Builder(name = "Itchdotio", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -101,7 +101,7 @@ public val SimpleIcons.ItchDotIo: ImageVector
             }
         }
         .build()
-        return _itchDotIo!!
+        return _itchdotio!!
     }
 
-private var _itchDotIo: ImageVector? = null
+private var _itchdotio: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.CounterStrike: ImageVector
+public val SimpleIcons.Counterstrike: ImageVector
     get() {
-        if (_counterStrike != null) {
-            return _counterStrike!!
+        if (_counterstrike != null) {
+            return _counterstrike!!
         }
-        _counterStrike = Builder(name = "CounterStrike", defaultWidth = 24.0.dp, defaultHeight =
+        _counterstrike = Builder(name = "Counterstrike", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -179,7 +179,7 @@ public val SimpleIcons.CounterStrike: ImageVector
             }
         }
         .build()
-        return _counterStrike!!
+        return _counterstrike!!
     }
 
-private var _counterStrike: ImageVector? = null
+private var _counterstrike: ImageVector? = null

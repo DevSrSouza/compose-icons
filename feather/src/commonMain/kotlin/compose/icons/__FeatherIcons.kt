@@ -235,6 +235,7 @@ import compose.icons.feathericons.StopCircle
 import compose.icons.feathericons.Sun
 import compose.icons.feathericons.Sunrise
 import compose.icons.feathericons.Sunset
+import compose.icons.feathericons.Table
 import compose.icons.feathericons.Tablet
 import compose.icons.feathericons.Tag
 import compose.icons.feathericons.Target
@@ -298,37 +299,37 @@ public val FeatherIcons.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Link2, PlayCircle, XOctagon, UserCheck, AlignLeft, Columns, SkipForward,
-        Rewind, Underline, Pause, Tablet, GitMerge, Camera, ShieldOff, ArrowDownRight, Delete,
-        PhoneOff, Percent, VolumeX, PhoneMissed, Plus, Minus, Play, CloudDrizzle, Upload,
-        CloudLightning, Divide, GitCommit, Edit3, RefreshCcw, GitBranch, CornerDownLeft, ThumbsDown,
-        CornerUpRight, ChevronsRight, Maximize, PlusCircle, Box, Layers, ArrowUp, BatteryCharging,
-        RotateCcw, ZoomOut, MoreVertical, Circle, Aperture, ZoomIn, ChevronDown, HelpCircle,
-        UploadCloud, Truck, Radio, Code, CornerRightUp, Package, LogOut, Target, Gitlab, Home,
-        MousePointer, ArrowLeftCircle, Database, Printer, Moon, BellOff, ChevronsDown, Clock,
-        UserMinus, Edit2, ArrowUpLeft, ArrowUpRight, Shield, PhoneForwarded, Crosshair, Award,
-        AlignCenter, StopCircle, Slash, LogIn, AtSign, ZapOff, Settings, Sidebar, Type, CheckSquare,
-        ToggleRight, Triangle, List, Phone, Users, Sunrise, Anchor, Flag, Italic, Hexagon,
-        AlignJustify, CornerDownRight, Terminal, ToggleLeft, Smartphone, Edit, UserPlus, ArrowLeft,
-        Layout, DollarSign, Disc, ShoppingBag, ArrowDown, Film, Codepen, WifiOff, UserX, Eye,
-        Voicemail, Scissors, Briefcase, Minimize2, Grid, ArrowUpCircle, ChevronsLeft, Sun,
-        Codesandbox, Send, Battery, CornerRightDown, PhoneOutgoing, SkipBack, Video, Dribbble,
-        FolderMinus, FastForward, RefreshCw, MinusCircle, Unlock, PenTool, MinusSquare, Sliders,
-        MessageCircle, Menu, CornerLeftUp, Paperclip, Image, Crop, ArrowRightCircle, Volume, Tool,
-        Frown, EyeOff, PauseCircle, Tag, Clipboard, BarChart2, File, Airplay, Book, Check, Globe,
-        Zap, Server, Smile, ChevronsUp, ChevronUp, Sunset, Cpu, VideoOff, Volume1, Save, Rss,
-        RotateCw, Slack, MicOff, Loader, AlignRight, Watch, PlusSquare, Copy, Wind, FilePlus, Gift,
-        Calendar, Move, CameraOff, Music, Framer, Thermometer, Trello, Filter, Search, Activity,
-        Folder, Linkedin, Bluetooth, Bookmark, Twitter, Maximize2, Trash, Navigation2, Umbrella,
-        Key, X, ArrowRight, AlertCircle, Wifi, Power, Headphones, DivideSquare, Meh, ExternalLink,
-        Figma, AlertTriangle, Youtube, HardDrive, Command, ArrowDownCircle, Download, Link, Shuffle,
-        DivideCircle, MessageSquare, Speaker, PhoneIncoming, Info, Twitch, Droplet, Map, Facebook,
-        Square, TrendingDown, FileMinus, CornerUpLeft, CloudOff, MoreHorizontal, BookOpen, Star,
-        Coffee, ChevronLeft, Tv, CheckCircle, Hash, Inbox, FolderPlus, Mail, Repeat, Lock, Feather,
-        Share, FileText, ThumbsUp, MapPin, CornerLeftDown, Trash2, Compass, Navigation, Octagon,
-        Chrome, Volume2, Instagram, XCircle, CloudRain, DownloadCloud, ShoppingCart, AlertOctagon,
-        CreditCard, PhoneCall, Archive, Bold, Minimize, LifeBuoy, Monitor, XSquare, Pocket,
-        ChevronRight, Share2, Heart, Bell, Github, Mic, Cast, ArrowDownLeft, BarChart, CloudSnow,
-        TrendingUp, Cloud, PieChart, GitPullRequest, User)
+    __AllIcons= listOf(Activity, Airplay, AlertCircle, AlertOctagon, AlertTriangle, AlignCenter,
+        AlignJustify, AlignLeft, AlignRight, Anchor, Aperture, Archive, ArrowDown, ArrowDownCircle,
+        ArrowDownLeft, ArrowDownRight, ArrowLeft, ArrowLeftCircle, ArrowRight, ArrowRightCircle,
+        ArrowUp, ArrowUpCircle, ArrowUpLeft, ArrowUpRight, AtSign, Award, BarChart, BarChart2,
+        Battery, BatteryCharging, Bell, BellOff, Bluetooth, Bold, Book, Bookmark, BookOpen, Box,
+        Briefcase, Calendar, Camera, CameraOff, Cast, Check, CheckCircle, CheckSquare, ChevronsDown,
+        ChevronsLeft, ChevronsRight, ChevronsUp, ChevronDown, ChevronLeft, ChevronRight, ChevronUp,
+        Chrome, Circle, Clipboard, Clock, Cloud, CloudDrizzle, CloudLightning, CloudOff, CloudRain,
+        CloudSnow, Code, Codepen, Codesandbox, Coffee, Columns, Command, Compass, Copy,
+        CornerDownLeft, CornerDownRight, CornerLeftDown, CornerLeftUp, CornerRightDown,
+        CornerRightUp, CornerUpLeft, CornerUpRight, Cpu, CreditCard, Crop, Crosshair, Database,
+        Delete, Disc, Divide, DivideCircle, DivideSquare, DollarSign, Download, DownloadCloud,
+        Dribbble, Droplet, Edit, Edit2, Edit3, ExternalLink, Eye, EyeOff, Facebook, FastForward,
+        Feather, Figma, File, FileMinus, FilePlus, FileText, Film, Filter, Flag, Folder,
+        FolderMinus, FolderPlus, Framer, Frown, Gift, Github, Gitlab, GitBranch, GitCommit,
+        GitMerge, GitPullRequest, Globe, Grid, HardDrive, Hash, Headphones, Heart, HelpCircle,
+        Hexagon, Home, Image, Inbox, Info, Instagram, Italic, Key, Layers, Layout, LifeBuoy, Link,
+        Linkedin, Link2, List, Loader, Lock, LogIn, LogOut, Mail, Map, MapPin, Maximize, Maximize2,
+        Meh, Menu, MessageCircle, MessageSquare, Mic, MicOff, Minimize, Minimize2, Minus,
+        MinusCircle, MinusSquare, Monitor, Moon, MoreHorizontal, MoreVertical, MousePointer, Move,
+        Music, Navigation, Navigation2, Octagon, Package, Paperclip, Pause, PauseCircle, PenTool,
+        Percent, Phone, PhoneCall, PhoneForwarded, PhoneIncoming, PhoneMissed, PhoneOff,
+        PhoneOutgoing, PieChart, Play, PlayCircle, Plus, PlusCircle, PlusSquare, Pocket, Power,
+        Printer, Radio, RefreshCcw, RefreshCw, Repeat, Rewind, RotateCcw, RotateCw, Rss, Save,
+        Scissors, Search, Send, Server, Settings, Share, Share2, Shield, ShieldOff, ShoppingBag,
+        ShoppingCart, Shuffle, Sidebar, SkipBack, SkipForward, Slack, Slash, Sliders, Smartphone,
+        Smile, Speaker, Square, Star, StopCircle, Sun, Sunrise, Sunset, Table, Tablet, Tag, Target,
+        Terminal, Thermometer, ThumbsDown, ThumbsUp, ToggleLeft, ToggleRight, Tool, Trash, Trash2,
+        Trello, TrendingDown, TrendingUp, Triangle, Truck, Tv, Twitch, Twitter, Type, Umbrella,
+        Underline, Unlock, Upload, UploadCloud, User, Users, UserCheck, UserMinus, UserPlus, UserX,
+        Video, VideoOff, Voicemail, Volume, Volume1, Volume2, VolumeX, Watch, Wifi, WifiOff, Wind,
+        X, XCircle, XOctagon, XSquare, Youtube, Zap, ZapOff, ZoomIn, ZoomOut)
     return __AllIcons!!
   }

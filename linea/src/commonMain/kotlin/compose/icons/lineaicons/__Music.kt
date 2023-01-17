@@ -46,10 +46,10 @@ public val MusicGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Headphones, StopButton, FastforwardButton, PlayButton, RadioGhettoblaster,
-        NoteMultiple, Loudspeaker, Playlist, PauseButton, ShuffleButton, VolumeDown, Microphone,
-        Tape, Mute, EjectButton, Recordplayer, MicrophoneOld, Mixer, NoteSingle, Record, Diapason,
-        Ipod, VolumeUp, BeginningButton, RadioPortable, Cd, RewindButton, Bell, RepeatButton,
-        EndButton)
+    __AllIcons= listOf(BeginningButton, Bell, Cd, Diapason, EjectButton, EndButton,
+        FastforwardButton, Headphones, Ipod, Loudspeaker, Microphone, MicrophoneOld, Mixer, Mute,
+        NoteMultiple, NoteSingle, PauseButton, Playlist, PlayButton, RadioGhettoblaster,
+        RadioPortable, Record, Recordplayer, RepeatButton, RewindButton, ShuffleButton, StopButton,
+        Tape, VolumeDown, VolumeUp)
     return __AllIcons!!
   }

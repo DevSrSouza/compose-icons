@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.ProtocolsDotIo: ImageVector
+public val SimpleIcons.Protocolsdotio: ImageVector
     get() {
-        if (_protocolsDotIo != null) {
-            return _protocolsDotIo!!
+        if (_protocolsdotio != null) {
+            return _protocolsdotio!!
         }
-        _protocolsDotIo = Builder(name = "ProtocolsDotIo", defaultWidth = 24.0.dp, defaultHeight =
+        _protocolsdotio = Builder(name = "Protocolsdotio", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -130,7 +130,7 @@ public val SimpleIcons.ProtocolsDotIo: ImageVector
             }
         }
         .build()
-        return _protocolsDotIo!!
+        return _protocolsdotio!!
     }
 
-private var _protocolsDotIo: ImageVector? = null
+private var _protocolsdotio: ImageVector? = null

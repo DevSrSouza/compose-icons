@@ -16,38 +16,40 @@ public val RegularGroup.Compass: ImageVector
         if (_compass != null) {
             return _compass!!
         }
-        _compass = Builder(name = "Compass", defaultWidth = 496.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 496.0f, viewportHeight = 512.0f).apply {
+        _compass = Builder(name = "Compass", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(347.94f, 129.86f)
-                lineTo(203.6f, 195.83f)
-                arcToRelative(31.938f, 31.938f, 0.0f, false, false, -15.77f, 15.77f)
-                lineToRelative(-65.97f, 144.34f)
-                curveToRelative(-7.61f, 16.65f, 9.54f, 33.81f, 26.2f, 26.2f)
-                lineToRelative(144.34f, -65.97f)
-                arcToRelative(31.938f, 31.938f, 0.0f, false, false, 15.77f, -15.77f)
-                lineToRelative(65.97f, -144.34f)
-                curveToRelative(7.61f, -16.66f, -9.54f, -33.81f, -26.2f, -26.2f)
+                moveTo(306.7f, 325.1f)
+                lineTo(162.4f, 380.6f)
+                curveTo(142.1f, 388.1f, 123.9f, 369.0f, 131.4f, 349.6f)
+                lineTo(186.9f, 205.3f)
+                curveTo(190.1f, 196.8f, 196.8f, 190.1f, 205.3f, 186.9f)
+                lineTo(349.6f, 131.4f)
+                curveTo(369.0f, 123.9f, 388.1f, 142.1f, 380.6f, 162.4f)
+                lineTo(325.1f, 306.7f)
+                curveTo(321.9f, 315.2f, 315.2f, 321.9f, 306.7f, 325.1f)
+                verticalLineTo(325.1f)
                 close()
-                moveTo(270.58f, 278.58f)
-                curveToRelative(-12.47f, 12.47f, -32.69f, 12.47f, -45.16f, 0.0f)
-                curveToRelative(-12.47f, -12.47f, -12.47f, -32.69f, 0.0f, -45.16f)
-                curveToRelative(12.47f, -12.47f, 32.69f, -12.47f, 45.16f, 0.0f)
-                curveToRelative(12.47f, 12.47f, 12.47f, 32.69f, 0.0f, 45.16f)
+                moveTo(255.1f, 224.0f)
+                curveTo(238.3f, 224.0f, 223.1f, 238.3f, 223.1f, 256.0f)
+                curveTo(223.1f, 273.7f, 238.3f, 288.0f, 255.1f, 288.0f)
+                curveTo(273.7f, 288.0f, 288.0f, 273.7f, 288.0f, 256.0f)
+                curveTo(288.0f, 238.3f, 273.7f, 224.0f, 255.1f, 224.0f)
+                verticalLineTo(224.0f)
                 close()
-                moveTo(248.0f, 8.0f)
-                curveTo(111.03f, 8.0f, 0.0f, 119.03f, 0.0f, 256.0f)
-                reflectiveCurveToRelative(111.03f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.03f, 248.0f, -248.0f)
-                reflectiveCurveTo(384.97f, 8.0f, 248.0f, 8.0f)
+                moveTo(512.0f, 256.0f)
+                curveTo(512.0f, 397.4f, 397.4f, 512.0f, 256.0f, 512.0f)
+                curveTo(114.6f, 512.0f, 0.0f, 397.4f, 0.0f, 256.0f)
+                curveTo(0.0f, 114.6f, 114.6f, 0.0f, 256.0f, 0.0f)
+                curveTo(397.4f, 0.0f, 512.0f, 114.6f, 512.0f, 256.0f)
                 close()
-                moveTo(248.0f, 456.0f)
-                curveToRelative(-110.28f, 0.0f, -200.0f, -89.72f, -200.0f, -200.0f)
-                reflectiveCurveTo(137.72f, 56.0f, 248.0f, 56.0f)
-                reflectiveCurveToRelative(200.0f, 89.72f, 200.0f, 200.0f)
-                reflectiveCurveToRelative(-89.72f, 200.0f, -200.0f, 200.0f)
+                moveTo(256.0f, 48.0f)
+                curveTo(141.1f, 48.0f, 48.0f, 141.1f, 48.0f, 256.0f)
+                curveTo(48.0f, 370.9f, 141.1f, 464.0f, 256.0f, 464.0f)
+                curveTo(370.9f, 464.0f, 464.0f, 370.9f, 464.0f, 256.0f)
+                curveTo(464.0f, 141.1f, 370.9f, 48.0f, 256.0f, 48.0f)
                 close()
             }
         }

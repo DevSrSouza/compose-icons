@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.DWavesystems: ImageVector
+public val SimpleIcons.Dwavesystems: ImageVector
     get() {
-        if (_dWavesystems != null) {
-            return _dWavesystems!!
+        if (_dwavesystems != null) {
+            return _dwavesystems!!
         }
-        _dWavesystems = Builder(name = "DWavesystems", defaultWidth = 24.0.dp, defaultHeight =
+        _dwavesystems = Builder(name = "Dwavesystems", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -54,7 +54,7 @@ public val SimpleIcons.DWavesystems: ImageVector
             }
         }
         .build()
-        return _dWavesystems!!
+        return _dwavesystems!!
     }
 
-private var _dWavesystems: ImageVector? = null
+private var _dwavesystems: ImageVector? = null

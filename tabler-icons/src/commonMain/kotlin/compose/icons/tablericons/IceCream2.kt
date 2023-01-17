@@ -24,7 +24,7 @@ public val TablerIcons.IceCream2: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(17.657f, 11.004f)
-                arcToRelative(6.0f, 6.0f, 0.0f, true, false, -11.315f, -0.002f)
+                arcToRelative(6.0f, 6.0f, 0.0f, true, false, -11.315f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =

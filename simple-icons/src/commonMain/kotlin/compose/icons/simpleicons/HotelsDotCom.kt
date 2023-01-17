@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.HotelsDotCom: ImageVector
+public val SimpleIcons.Hotelsdotcom: ImageVector
     get() {
-        if (_hotelsDotCom != null) {
-            return _hotelsDotCom!!
+        if (_hotelsdotcom != null) {
+            return _hotelsdotcom!!
         }
-        _hotelsDotCom = Builder(name = "HotelsDotCom", defaultWidth = 24.0.dp, defaultHeight =
+        _hotelsdotcom = Builder(name = "Hotelsdotcom", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -79,7 +79,7 @@ public val SimpleIcons.HotelsDotCom: ImageVector
             }
         }
         .build()
-        return _hotelsDotCom!!
+        return _hotelsdotcom!!
     }
 
-private var _hotelsDotCom: ImageVector? = null
+private var _hotelsdotcom: ImageVector? = null

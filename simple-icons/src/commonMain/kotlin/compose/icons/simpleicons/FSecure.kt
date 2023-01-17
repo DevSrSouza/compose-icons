@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.FSecure: ImageVector
+public val SimpleIcons.Fsecure: ImageVector
     get() {
-        if (_fSecure != null) {
-            return _fSecure!!
+        if (_fsecure != null) {
+            return _fsecure!!
         }
-        _fSecure = Builder(name = "FSecure", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _fsecure = Builder(name = "Fsecure", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -59,7 +59,7 @@ public val SimpleIcons.FSecure: ImageVector
             }
         }
         .build()
-        return _fSecure!!
+        return _fsecure!!
     }
 
-private var _fSecure: ImageVector? = null
+private var _fsecure: ImageVector? = null

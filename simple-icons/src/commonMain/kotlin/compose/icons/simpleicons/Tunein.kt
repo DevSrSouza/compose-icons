@@ -94,7 +94,6 @@ public val SimpleIcons.Tunein: ImageVector
                 horizontalLineToRelative(0.618f)
                 curveToRelative(0.106f, 0.0f, 0.106f, 0.102f, 0.106f, 0.102f)
                 close()
-                moveTo(19.168f, 12.659f)
             }
         }
         .build()

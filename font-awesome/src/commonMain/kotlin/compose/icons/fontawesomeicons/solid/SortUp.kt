@@ -21,13 +21,15 @@ public val SolidGroup.SortUp: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(279.0f, 224.0f)
-                horizontalLineTo(41.0f)
-                curveToRelative(-21.4f, 0.0f, -32.1f, -25.9f, -17.0f, -41.0f)
-                lineTo(143.0f, 64.0f)
-                curveToRelative(9.4f, -9.4f, 24.6f, -9.4f, 33.9f, 0.0f)
-                lineToRelative(119.0f, 119.0f)
-                curveToRelative(15.2f, 15.1f, 4.5f, 41.0f, -16.9f, 41.0f)
+                moveTo(182.6f, 41.4f)
+                curveToRelative(-12.5f, -12.5f, -32.8f, -12.5f, -45.3f, 0.0f)
+                lineToRelative(-128.0f, 128.0f)
+                curveToRelative(-9.2f, 9.2f, -11.9f, 22.9f, -6.9f, 34.9f)
+                reflectiveCurveToRelative(16.6f, 19.8f, 29.6f, 19.8f)
+                horizontalLineTo(288.0f)
+                curveToRelative(12.9f, 0.0f, 24.6f, -7.8f, 29.6f, -19.8f)
+                reflectiveCurveToRelative(2.2f, -25.7f, -6.9f, -34.9f)
+                lineToRelative(-128.0f, -128.0f)
                 close()
             }
         }

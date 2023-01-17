@@ -101,16 +101,16 @@ public val EcommerceGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(BasketCheck, Creditcard, ReceiptGuarani, Money, ReceiptNaira, Cent, Gift,
-        GraphDecrease, ReceptColon, BagCheck, Pesos, ReceiptRublo, BasketCloud, BagRemove, Sale,
-        Naira, BagPlus, ReceiptBath, Wallet, Bath, BasketDownload, ReceiptYen, CartContent,
-        ReceiptPesos, ReceiptEuro, BasketPlus, CartSearch, BagDownload, Pound, BasketRemove,
-        ReceiptYen2, Ticket, Colon, Banknote, Rupee, Banknotes, Graph3, CartMinus, ReceiptFranc,
-        Dollar, Basket, Tugriks, Yen, ReceiptKips, Graph2, Yen2, ReceiptRupee, Graph1, Euro, Bag,
-        Sales, BagRefresh, GraphIncrease, Cart, Safe, ReceiptPound, BagSearch, Megaphone,
-        BasketUpload, Receipt, CartUpload, Rublo, CartRemove, CartRefresh, ReceiptDollar, Guarani,
-        Franc, Lira, BasketRefresh, ReceiptCent, BagUpload, ReceiptLira, ReceiptTugrik, Kips,
-        CartPlus, CartCloud, BagMinus, Diamond, BagCloud, CartCheck, ReceiptWon, Won, BasketSearch,
-        BasketMinus, CartDownload)
+    __AllIcons= listOf(Bag, BagCheck, BagCloud, BagDownload, BagMinus, BagPlus, BagRefresh,
+        BagRemove, BagSearch, BagUpload, Banknote, Banknotes, Basket, BasketCheck, BasketCloud,
+        BasketDownload, BasketMinus, BasketPlus, BasketRefresh, BasketRemove, BasketSearch,
+        BasketUpload, Bath, Cart, CartCheck, CartCloud, CartContent, CartDownload, CartMinus,
+        CartPlus, CartRefresh, CartRemove, CartSearch, CartUpload, Cent, Colon, Creditcard, Diamond,
+        Dollar, Euro, Franc, Gift, Graph1, Graph2, Graph3, GraphDecrease, GraphIncrease, Guarani,
+        Kips, Lira, Megaphone, Money, Naira, Pesos, Pound, Receipt, ReceiptBath, ReceiptCent,
+        ReceiptDollar, ReceiptEuro, ReceiptFranc, ReceiptGuarani, ReceiptKips, ReceiptLira,
+        ReceiptNaira, ReceiptPesos, ReceiptPound, ReceiptRublo, ReceiptRupee, ReceiptTugrik,
+        ReceiptWon, ReceiptYen, ReceiptYen2, ReceptColon, Rublo, Rupee, Safe, Sale, Sales, Ticket,
+        Tugriks, Wallet, Won, Yen, Yen2)
     return __AllIcons!!
   }

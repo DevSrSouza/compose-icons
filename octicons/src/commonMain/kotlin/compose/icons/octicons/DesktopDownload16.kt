@@ -24,7 +24,7 @@ public val Octicons.DesktopDownload16: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(4.927f, 5.427f)
+                moveToRelative(4.927f, 5.427f)
                 lineToRelative(2.896f, 2.896f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.354f, 0.0f)
                 lineToRelative(2.896f, -2.896f)

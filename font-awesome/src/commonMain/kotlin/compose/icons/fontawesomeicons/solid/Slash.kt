@@ -21,15 +21,13 @@ public val SolidGroup.Slash: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(594.53f, 508.63f)
-                lineTo(6.18f, 53.9f)
-                curveToRelative(-6.97f, -5.42f, -8.23f, -15.47f, -2.81f, -22.45f)
-                lineTo(23.01f, 6.18f)
-                curveTo(28.43f, -0.8f, 38.49f, -2.06f, 45.47f, 3.37f)
-                lineTo(633.82f, 458.1f)
-                curveToRelative(6.97f, 5.42f, 8.23f, 15.47f, 2.81f, 22.45f)
-                lineToRelative(-19.64f, 25.27f)
-                curveToRelative(-5.42f, 6.98f, -15.48f, 8.23f, -22.46f, 2.81f)
+                moveTo(5.1f, 9.2f)
+                curveTo(13.3f, -1.2f, 28.4f, -3.1f, 38.8f, 5.1f)
+                lineToRelative(592.0f, 464.0f)
+                curveToRelative(10.4f, 8.2f, 12.3f, 23.3f, 4.1f, 33.7f)
+                reflectiveCurveToRelative(-23.3f, 12.3f, -33.7f, 4.1f)
+                lineTo(9.2f, 42.9f)
+                curveTo(-1.2f, 34.7f, -3.1f, 19.6f, 5.1f, 9.2f)
                 close()
             }
         }

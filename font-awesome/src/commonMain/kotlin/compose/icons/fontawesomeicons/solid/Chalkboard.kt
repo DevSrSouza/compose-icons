@@ -16,36 +16,36 @@ public val SolidGroup.Chalkboard: ImageVector
         if (_chalkboard != null) {
             return _chalkboard!!
         }
-        _chalkboard = Builder(name = "Chalkboard", defaultWidth = 640.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 640.0f, viewportHeight = 512.0f).apply {
+        _chalkboard = Builder(name = "Chalkboard", defaultWidth = 576.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 576.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(96.0f, 64.0f)
-                horizontalLineToRelative(448.0f)
-                verticalLineToRelative(352.0f)
+                moveTo(96.0f, 32.0f)
+                curveTo(60.7f, 32.0f, 32.0f, 60.7f, 32.0f, 96.0f)
+                verticalLineTo(384.0f)
+                horizontalLineTo(96.0f)
+                verticalLineTo(96.0f)
+                lineToRelative(384.0f, 0.0f)
+                verticalLineTo(384.0f)
                 horizontalLineToRelative(64.0f)
-                lineTo(608.0f, 40.0f)
-                curveToRelative(0.0f, -22.06f, -17.94f, -40.0f, -40.0f, -40.0f)
-                lineTo(72.0f, 0.0f)
-                curveTo(49.94f, 0.0f, 32.0f, 17.94f, 32.0f, 40.0f)
-                verticalLineToRelative(376.0f)
-                horizontalLineToRelative(64.0f)
-                lineTo(96.0f, 64.0f)
+                verticalLineTo(96.0f)
+                curveToRelative(0.0f, -35.3f, -28.7f, -64.0f, -64.0f, -64.0f)
+                horizontalLineTo(96.0f)
                 close()
-                moveTo(624.0f, 448.0f)
-                lineTo(480.0f, 448.0f)
-                verticalLineToRelative(-64.0f)
-                lineTo(288.0f, 384.0f)
-                verticalLineToRelative(64.0f)
-                lineTo(16.0f, 448.0f)
-                curveToRelative(-8.84f, 0.0f, -16.0f, 7.16f, -16.0f, 16.0f)
+                moveTo(224.0f, 384.0f)
                 verticalLineToRelative(32.0f)
-                curveToRelative(0.0f, 8.84f, 7.16f, 16.0f, 16.0f, 16.0f)
-                horizontalLineToRelative(608.0f)
-                curveToRelative(8.84f, 0.0f, 16.0f, -7.16f, 16.0f, -16.0f)
-                verticalLineToRelative(-32.0f)
-                curveToRelative(0.0f, -8.84f, -7.16f, -16.0f, -16.0f, -16.0f)
+                horizontalLineTo(32.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, 14.3f, -32.0f, 32.0f)
+                reflectiveCurveToRelative(14.3f, 32.0f, 32.0f, 32.0f)
+                horizontalLineTo(544.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, -14.3f, 32.0f, -32.0f)
+                reflectiveCurveToRelative(-14.3f, -32.0f, -32.0f, -32.0f)
+                horizontalLineTo(416.0f)
+                verticalLineTo(384.0f)
+                curveToRelative(0.0f, -17.7f, -14.3f, -32.0f, -32.0f, -32.0f)
+                horizontalLineTo(256.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, 14.3f, -32.0f, 32.0f)
                 close()
             }
         }

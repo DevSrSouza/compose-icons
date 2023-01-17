@@ -21,17 +21,17 @@ public val SimpleIcons.Flickr: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(0.0f, 12.0f)
-                curveToRelative(0.0f, 3.074f, 2.494f, 5.564f, 5.565f, 5.564f)
-                curveToRelative(3.075f, 0.0f, 5.569f, -2.49f, 5.569f, -5.564f)
-                reflectiveCurveTo(8.641f, 6.436f, 5.565f, 6.436f)
-                curveTo(2.495f, 6.436f, 0.0f, 8.926f, 0.0f, 12.0f)
+                moveTo(5.334f, 6.666f)
+                curveTo(2.3884f, 6.666f, 0.0f, 9.055f, 0.0f, 12.0f)
+                curveToRelative(0.0f, 2.9456f, 2.3884f, 5.334f, 5.334f, 5.334f)
+                curveToRelative(2.9456f, 0.0f, 5.332f, -2.3884f, 5.332f, -5.334f)
+                curveToRelative(0.0f, -2.945f, -2.3864f, -5.334f, -5.332f, -5.334f)
                 close()
-                moveTo(12.866f, 12.0f)
-                curveToRelative(0.0f, 3.074f, 2.493f, 5.564f, 5.567f, 5.564f)
-                curveTo(21.496f, 17.564f, 24.0f, 15.074f, 24.0f, 12.0f)
-                reflectiveCurveToRelative(-2.492f, -5.564f, -5.564f, -5.564f)
-                curveToRelative(-3.075f, 0.0f, -5.57f, 2.49f, -5.57f, 5.564f)
+                moveTo(18.666f, 6.666f)
+                curveToRelative(-2.9456f, 0.0f, -5.332f, 2.389f, -5.332f, 5.334f)
+                curveToRelative(0.0f, 2.9456f, 2.3864f, 5.334f, 5.332f, 5.334f)
+                curveTo(21.6116f, 17.334f, 24.0f, 14.9456f, 24.0f, 12.0f)
+                curveToRelative(0.0f, -2.945f, -2.3884f, -5.334f, -5.334f, -5.334f)
                 close()
             }
         }

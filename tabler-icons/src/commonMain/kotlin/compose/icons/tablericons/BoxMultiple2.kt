@@ -53,7 +53,7 @@ public val TablerIcons.BoxMultiple2: ImageVector
                 arcToRelative(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f)
                 curveToRelative(0.0f, 0.591f, -0.417f, 1.318f, -0.816f, 1.858f)
                 lineToRelative(-3.184f, 4.143f)
-                lineToRelative(4.0f, -0.001f)
+                lineToRelative(4.0f, 0.0f)
             }
         }
         .build()

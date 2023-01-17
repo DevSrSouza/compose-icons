@@ -23,7 +23,7 @@ public val TablerIcons.Cardboards: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(3.0f, 7.0f)
+                moveTo(3.0f, 8.0f)
                 verticalLineToRelative(8.5f)
                 arcToRelative(2.5f, 2.5f, 0.0f, false, false, 2.5f, 2.5f)
                 horizontalLineToRelative(1.06f)
@@ -43,7 +43,7 @@ public val TablerIcons.Cardboards: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(8.0f, 11.0f)
+                moveTo(8.0f, 12.0f)
                 moveToRelative(-1.0f, 0.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, true, true, 2.0f, 0.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, true, true, -2.0f, 0.0f)
@@ -51,7 +51,7 @@ public val TablerIcons.Cardboards: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(16.0f, 11.0f)
+                moveTo(16.0f, 12.0f)
                 moveToRelative(-1.0f, 0.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, true, true, 2.0f, 0.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, true, true, -2.0f, 0.0f)

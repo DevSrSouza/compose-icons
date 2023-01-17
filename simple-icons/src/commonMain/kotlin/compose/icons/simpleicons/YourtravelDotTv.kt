@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.YourtravelDotTv: ImageVector
+public val SimpleIcons.Yourtraveldottv: ImageVector
     get() {
-        if (_yourtravelDotTv != null) {
-            return _yourtravelDotTv!!
+        if (_yourtraveldottv != null) {
+            return _yourtraveldottv!!
         }
-        _yourtravelDotTv = Builder(name = "YourtravelDotTv", defaultWidth = 24.0.dp, defaultHeight =
+        _yourtraveldottv = Builder(name = "Yourtraveldottv", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -140,7 +140,7 @@ public val SimpleIcons.YourtravelDotTv: ImageVector
             }
         }
         .build()
-        return _yourtravelDotTv!!
+        return _yourtraveldottv!!
     }
 
-private var _yourtravelDotTv: ImageVector? = null
+private var _yourtraveldottv: ImageVector? = null

@@ -48,7 +48,6 @@ public val TablerIcons.Tree: ImageVector
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, 4.614f, 3.707f)
                 arcToRelative(2.997f, 2.997f, 0.0f, false, true, 0.305f, 4.833f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, -2.919f, 3.695f)
-                horizontalLineToRelative(0.001f)
                 horizontalLineToRelative(-4.0f)
                 close()
             }

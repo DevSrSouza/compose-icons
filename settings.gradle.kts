@@ -7,7 +7,11 @@ pluginManagement {
         maven { url = uri("https://maven.pkg.jetbrains.space/public/p/compose/dev") }
         maven("https://jitpack.io")
     }
-
+    plugins {
+        kotlin("jvm").version(extra["kotlin.version"] as String).apply(false)
+        kotlin("android").version(extra["kotlin.version"] as String).apply(false)
+        kotlin("multiplatform").version(extra["kotlin.version"] as String).apply(false)
+    }
 }
 
 
@@ -32,3 +36,7 @@ include(
     "demo:common",
     "demo:desktop"
 )
+include("script-definition")
+include("script-host")
+include("script-helpers")
+include("script-definition")

@@ -47,8 +47,8 @@ public val TablerIcons.GlassFull: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(6.0f, 10.0f)
-                arcToRelative(5.001f, 5.001f, 0.0f, false, true, 6.0f, 0.0f)
-                arcToRelative(5.001f, 5.001f, 0.0f, false, false, 6.0f, 0.0f)
+                arcToRelative(5.0f, 5.0f, 0.0f, false, true, 6.0f, 0.0f)
+                arcToRelative(5.0f, 5.0f, 0.0f, false, false, 6.0f, 0.0f)
             }
         }
         .build()

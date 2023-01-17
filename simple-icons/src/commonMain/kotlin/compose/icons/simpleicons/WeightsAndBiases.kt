@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.WeightsAndBiases: ImageVector
+public val SimpleIcons.Weightsandbiases: ImageVector
     get() {
-        if (_weightsAndBiases != null) {
-            return _weightsAndBiases!!
+        if (_weightsandbiases != null) {
+            return _weightsandbiases!!
         }
-        _weightsAndBiases = Builder(name = "WeightsAndBiases", defaultWidth = 24.0.dp, defaultHeight
+        _weightsandbiases = Builder(name = "Weightsandbiases", defaultWidth = 24.0.dp, defaultHeight
                 = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -72,7 +72,7 @@ public val SimpleIcons.WeightsAndBiases: ImageVector
             }
         }
         .build()
-        return _weightsAndBiases!!
+        return _weightsandbiases!!
     }
 
-private var _weightsAndBiases: ImageVector? = null
+private var _weightsandbiases: ImageVector? = null

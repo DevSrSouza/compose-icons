@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -33,24 +33,16 @@ public val Octicons.CreditCard24: ImageVector
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(1.75f, 3.0f)
-                arcTo(1.75f, 1.75f, 0.0f, false, false, 0.0f, 4.75f)
+                horizontalLineToRelative(20.5f)
+                curveToRelative(0.966f, 0.0f, 1.75f, 0.784f, 1.75f, 1.75f)
                 verticalLineToRelative(14.5f)
-                curveTo(0.0f, 20.216f, 0.784f, 21.0f, 1.75f, 21.0f)
-                horizontalLineToRelative(20.5f)
-                arcTo(1.75f, 1.75f, 0.0f, false, false, 24.0f, 19.25f)
-                lineTo(24.0f, 4.75f)
-                arcTo(1.75f, 1.75f, 0.0f, false, false, 22.25f, 3.0f)
-                lineTo(1.75f, 3.0f)
-                close()
-                moveTo(1.5f, 4.75f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, true, 0.25f, -0.25f)
-                horizontalLineToRelative(20.5f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, true, 0.25f, 0.25f)
-                lineTo(22.5f, 8.5f)
-                horizontalLineToRelative(-21.0f)
-                lineTo(1.5f, 4.75f)
+                arcTo(1.75f, 1.75f, 0.0f, false, true, 22.25f, 21.0f)
+                lineTo(1.75f, 21.0f)
+                arcTo(1.75f, 1.75f, 0.0f, false, true, 0.0f, 19.25f)
+                lineTo(0.0f, 4.75f)
+                curveTo(0.0f, 3.784f, 0.784f, 3.0f, 1.75f, 3.0f)
                 close()
                 moveTo(1.5f, 10.0f)
                 verticalLineToRelative(9.25f)
@@ -58,7 +50,14 @@ public val Octicons.CreditCard24: ImageVector
                 horizontalLineToRelative(20.5f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
                 lineTo(22.5f, 10.0f)
-                horizontalLineToRelative(-21.0f)
+                close()
+                moveTo(1.5f, 4.75f)
+                lineTo(1.5f, 8.5f)
+                horizontalLineToRelative(21.0f)
+                lineTo(22.5f, 4.75f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, -0.25f)
+                lineTo(1.75f, 4.5f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
                 close()
             }
         }

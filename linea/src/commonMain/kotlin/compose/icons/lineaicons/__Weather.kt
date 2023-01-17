@@ -101,16 +101,17 @@ public val WeatherGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Sun, Wind, WindFullmoon, VariableSun, CloudDrop, FogSun, Snowflake, Scorpio,
-        Windgust, WaningCresent, TempestHalfmoon, WindSe, Aquarius, `Storm-11`, Hail, RainFullmoon,
-        HailSun, MistyrainSun, WindNw, Moon, WindN, DownpourSun, `Storm-32`, SnowFullmoon,
-        FogFullmoon, VariableHalfmoon, StormSun, DownpourFullmoon, HailFullmoon, Lightning,
-        MoondownHalf, CloudSnowflake, Taurus, SnowSun, Rain, WindSw, WaxingGibbous, RainHalfmoon,
-        Newmoon, Mistyrain, Snow, WindSun, WaxingCresent, VariableFullmoon, Fullmoon, WindE, Fog,
-        TempestSun, WindNe, DownpourHalfmoon, Sagittarius, Tempest, StormHalfmoon, HailHalfmoon,
-        Star, RainSun, Sunset, FogHalfmoon, Aries, Capricorn, Move2, MoonsetFull, Pisces,
-        TempestFullmoon, WindS, MistyrainHalfmoon, Leo, Sundown, WaningGibbous, StormFullmoon,
-        MistyrainFullmoon, Cloud, CloudLightning, Drop, WindW, FirstQuarter, SnowHalfmoon, Virgo,
-        MoondownFull, MoonsetHalf, Cancer, Libra, WindHalfmoon, Gemini, LastQuarter)
+    __AllIcons= listOf(Aquarius, Aries, Cancer, Capricorn, Cloud, CloudDrop, CloudLightning,
+        CloudSnowflake, DownpourFullmoon, DownpourHalfmoon, DownpourSun, Drop, FirstQuarter, Fog,
+        FogFullmoon, FogHalfmoon, FogSun, Fullmoon, Gemini, Hail, HailFullmoon, HailHalfmoon,
+        HailSun, LastQuarter, Leo, Libra, Lightning, Mistyrain, MistyrainFullmoon,
+        MistyrainHalfmoon, MistyrainSun, Moon, MoondownFull, MoondownHalf, MoonsetFull, MoonsetHalf,
+        Move2, Newmoon, Pisces, Rain, RainFullmoon, RainHalfmoon, RainSun, Sagittarius, Scorpio,
+        Snow, Snowflake, SnowFullmoon, SnowHalfmoon, SnowSun, Star, `Storm-11`, `Storm-32`,
+        StormFullmoon, StormHalfmoon, StormSun, Sun, Sundown, Sunset, Taurus, Tempest,
+        TempestFullmoon, TempestHalfmoon, TempestSun, VariableFullmoon, VariableHalfmoon,
+        VariableSun, Virgo, WaningCresent, WaningGibbous, WaxingCresent, WaxingGibbous, Wind,
+        Windgust, WindE, WindFullmoon, WindHalfmoon, WindN, WindNe, WindNw, WindS, WindSe, WindSun,
+        WindSw, WindW)
     return __AllIcons!!
   }

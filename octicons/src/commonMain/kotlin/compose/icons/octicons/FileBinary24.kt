@@ -2,7 +2,6 @@ package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -24,7 +23,7 @@ public val Octicons.FileBinary24: ImageVector
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(3.0f, 3.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
                 horizontalLineToRelative(9.982f)
@@ -45,7 +44,6 @@ public val Octicons.FileBinary24: ImageVector
                 arcToRelative(0.5f, 0.5f, 0.0f, false, false, -0.5f, 0.5f)
                 verticalLineToRelative(6.25f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, -1.5f, 0.0f)
-                lineTo(3.0f, 3.0f)
                 close()
                 moveTo(15.0f, 2.5f)
                 verticalLineToRelative(4.0f)
@@ -58,7 +56,7 @@ public val Octicons.FileBinary24: ImageVector
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(0.0f, 13.75f)
                 curveTo(0.0f, 12.784f, 0.784f, 12.0f, 1.75f, 12.0f)
                 horizontalLineToRelative(3.0f)
@@ -67,7 +65,6 @@ public val Octicons.FileBinary24: ImageVector
                 arcToRelative(1.75f, 1.75f, 0.0f, false, true, -1.75f, 1.75f)
                 horizontalLineToRelative(-3.0f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 0.0f, 17.75f)
-                verticalLineToRelative(-4.0f)
                 close()
                 moveTo(1.75f, 13.5f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
@@ -77,24 +74,19 @@ public val Octicons.FileBinary24: ImageVector
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
                 verticalLineToRelative(-4.0f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, -0.25f)
-                horizontalLineToRelative(-3.0f)
                 close()
-            }
-            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
-                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = NonZero) {
                 moveTo(9.0f, 12.0f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, false, 0.0f, 1.5f)
                 horizontalLineToRelative(1.5f)
-                verticalLineTo(18.0f)
-                horizontalLineTo(9.0f)
+                lineTo(10.5f, 18.0f)
+                lineTo(9.0f, 18.0f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, false, 0.0f, 1.5f)
                 horizontalLineToRelative(4.5f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, false, 0.0f, -1.5f)
-                horizontalLineTo(12.0f)
+                lineTo(12.0f, 18.0f)
                 verticalLineToRelative(-5.25f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, false, -0.75f, -0.75f)
-                horizontalLineTo(9.0f)
+                lineTo(9.0f, 12.0f)
                 close()
             }
         }

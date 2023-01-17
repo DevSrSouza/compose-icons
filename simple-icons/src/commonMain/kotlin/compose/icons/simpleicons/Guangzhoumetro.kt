@@ -35,8 +35,6 @@ public val SimpleIcons.Guangzhoumetro: ImageVector
                 lineTo(11.092f, 24.0f)
                 lineTo(7.564f, 24.0f)
                 close()
-                moveTo(7.564f, 12.329f)
-                close()
             }
         }
         .build()

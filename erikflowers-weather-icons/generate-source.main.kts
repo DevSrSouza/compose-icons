@@ -11,10 +11,10 @@
 @file:DependsOn("com.squareup:kotlinpoet:1.7.2")
 @file:DependsOn("org.ogce:xpp3:1.1.6")
 
-@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
+@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
 // Jgit
-@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:3.5.0.201409260305-r")
+@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r")
 
 import br.com.devsrsouza.svg2compose.ParsingResult
 import br.com.devsrsouza.svg2compose.Svg2Compose
@@ -55,7 +55,7 @@ fun replacePathName(path: String): String {
     return path.replace(svgName, "wi-$svgName").replace("_", "-")
 }
 
-val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
+val srcDir = File("erikflowers-weather-icons/src/commonMain/kotlin").apply { mkdirs() }
 srcDir.deleteRecursively()
 srcDir.mkdirs()
 
@@ -124,6 +124,24 @@ fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.ac
         "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
     }.joinToString("\n")
 
+fun List<DocumentationIcon>.iconsMapFormat(): String {
+    fun iconName(str: String) = str.split(".")[1]
+    return sortedBy { it.accessingFormat }.joinToString(",\n") {
+        "\t" + '"' + iconName(it.accessingFormat) + '"' + " to { " + it.accessingFormat + " }"
+    }
+}
+
+File("erikflowers-weather-icons/WeatherIconMap.kt").apply {
+    if (exists().not()) createNewFile()
+}.writeText(
+    run {
+        "object WeatherIconMap : Map<String,()->Unit> by mapOf(\n" +
+                result.asDocumentationGroupList().filter { it.icons.isNotEmpty() }.joinToString("\n") {
+                    it.icons.iconsMapFormat()
+                } + "\n)"
+    }
+)
+
 val documentationGroups = result.asDocumentationGroupList()
     .filter { it.icons.isNotEmpty() }
     .map {
@@ -149,7 +167,7 @@ val license = """
     
     """.trimIndent()
 
-File("DOCUMENTATION.md").apply{
+File("erikflowers-weather-icons/DOCUMENTATION.md").apply{
     if(exists().not()) createNewFile()
 }.writeText(
     header + "\n" + license + "\n" + documentationGroups

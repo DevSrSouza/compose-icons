@@ -16,30 +16,30 @@ public val SolidGroup.BowlingBall: ImageVector
         if (_bowlingBall != null) {
             return _bowlingBall!!
         }
-        _bowlingBall = Builder(name = "BowlingBall", defaultWidth = 496.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 496.0f, viewportHeight = 512.0f).apply {
+        _bowlingBall = Builder(name = "BowlingBall", defaultWidth = 512.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(248.0f, 8.0f)
-                curveTo(111.0f, 8.0f, 0.0f, 119.0f, 0.0f, 256.0f)
-                reflectiveCurveToRelative(111.0f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.0f, 248.0f, -248.0f)
-                reflectiveCurveTo(385.0f, 8.0f, 248.0f, 8.0f)
+                moveTo(256.0f, 512.0f)
+                curveToRelative(141.4f, 0.0f, 256.0f, -114.6f, 256.0f, -256.0f)
+                reflectiveCurveTo(397.4f, 0.0f, 256.0f, 0.0f)
+                reflectiveCurveTo(0.0f, 114.6f, 0.0f, 256.0f)
+                reflectiveCurveTo(114.6f, 512.0f, 256.0f, 512.0f)
                 close()
-                moveTo(120.0f, 192.0f)
+                moveTo(240.0f, 144.0f)
                 curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
                 reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
                 reflectiveCurveToRelative(32.0f, 14.3f, 32.0f, 32.0f)
                 reflectiveCurveToRelative(-14.3f, 32.0f, -32.0f, 32.0f)
                 close()
-                moveTo(184.0f, 96.0f)
-                curveToRelative(0.0f, -17.7f, 14.3f, -32.0f, 32.0f, -32.0f)
-                reflectiveCurveToRelative(32.0f, 14.3f, 32.0f, 32.0f)
-                reflectiveCurveToRelative(-14.3f, 32.0f, -32.0f, 32.0f)
+                moveTo(272.0f, 208.0f)
+                curveToRelative(0.0f, 17.7f, -14.3f, 32.0f, -32.0f, 32.0f)
                 reflectiveCurveToRelative(-32.0f, -14.3f, -32.0f, -32.0f)
+                reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
+                reflectiveCurveToRelative(32.0f, 14.3f, 32.0f, 32.0f)
                 close()
-                moveTo(232.0f, 240.0f)
+                moveTo(144.0f, 208.0f)
                 curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
                 reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
                 reflectiveCurveToRelative(32.0f, 14.3f, 32.0f, 32.0f)

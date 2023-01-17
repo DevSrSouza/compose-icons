@@ -16,41 +16,38 @@ public val SolidGroup.Lightbulb: ImageVector
         if (_lightbulb != null) {
             return _lightbulb!!
         }
-        _lightbulb = Builder(name = "Lightbulb", defaultWidth = 352.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 352.0f, viewportHeight = 512.0f).apply {
+        _lightbulb = Builder(name = "Lightbulb", defaultWidth = 384.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 384.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(96.06f, 454.35f)
-                curveToRelative(0.01f, 6.29f, 1.87f, 12.45f, 5.36f, 17.69f)
-                lineToRelative(17.09f, 25.69f)
-                arcToRelative(31.99f, 31.99f, 0.0f, false, false, 26.64f, 14.28f)
-                horizontalLineToRelative(61.71f)
-                arcToRelative(31.99f, 31.99f, 0.0f, false, false, 26.64f, -14.28f)
-                lineToRelative(17.09f, -25.69f)
-                arcToRelative(31.989f, 31.989f, 0.0f, false, false, 5.36f, -17.69f)
-                lineToRelative(0.04f, -38.35f)
-                lineTo(96.01f, 416.0f)
-                lineToRelative(0.05f, 38.35f)
+                moveTo(272.0f, 384.0f)
+                curveToRelative(9.6f, -31.9f, 29.5f, -59.1f, 49.2f, -86.2f)
+                lineToRelative(0.0f, 0.0f)
+                curveToRelative(5.2f, -7.1f, 10.4f, -14.2f, 15.4f, -21.4f)
+                curveToRelative(19.8f, -28.5f, 31.4f, -63.0f, 31.4f, -100.3f)
+                curveTo(368.0f, 78.8f, 289.2f, 0.0f, 192.0f, 0.0f)
+                reflectiveCurveTo(16.0f, 78.8f, 16.0f, 176.0f)
+                curveToRelative(0.0f, 37.3f, 11.6f, 71.9f, 31.4f, 100.3f)
+                curveToRelative(5.0f, 7.2f, 10.2f, 14.3f, 15.4f, 21.4f)
+                lineToRelative(0.0f, 0.0f)
+                curveToRelative(19.8f, 27.1f, 39.7f, 54.4f, 49.2f, 86.2f)
+                horizontalLineTo(272.0f)
                 close()
-                moveTo(0.0f, 176.0f)
-                curveToRelative(0.0f, 44.37f, 16.45f, 84.85f, 43.56f, 115.78f)
-                curveToRelative(16.52f, 18.85f, 42.36f, 58.23f, 52.21f, 91.45f)
-                curveToRelative(0.04f, 0.26f, 0.07f, 0.52f, 0.11f, 0.78f)
-                horizontalLineToRelative(160.24f)
-                curveToRelative(0.04f, -0.26f, 0.07f, -0.51f, 0.11f, -0.78f)
-                curveToRelative(9.85f, -33.22f, 35.69f, -72.6f, 52.21f, -91.45f)
-                curveTo(335.55f, 260.85f, 352.0f, 220.37f, 352.0f, 176.0f)
-                curveTo(352.0f, 78.61f, 272.91f, -0.3f, 175.45f, 0.0f)
-                curveTo(73.44f, 0.31f, 0.0f, 82.97f, 0.0f, 176.0f)
+                moveTo(192.0f, 512.0f)
+                curveToRelative(44.2f, 0.0f, 80.0f, -35.8f, 80.0f, -80.0f)
+                verticalLineTo(416.0f)
+                horizontalLineTo(112.0f)
+                verticalLineToRelative(16.0f)
+                curveToRelative(0.0f, 44.2f, 35.8f, 80.0f, 80.0f, 80.0f)
                 close()
-                moveTo(176.0f, 96.0f)
-                curveToRelative(-44.11f, 0.0f, -80.0f, 35.89f, -80.0f, 80.0f)
-                curveToRelative(0.0f, 8.84f, -7.16f, 16.0f, -16.0f, 16.0f)
-                reflectiveCurveToRelative(-16.0f, -7.16f, -16.0f, -16.0f)
-                curveToRelative(0.0f, -61.76f, 50.24f, -112.0f, 112.0f, -112.0f)
-                curveToRelative(8.84f, 0.0f, 16.0f, 7.16f, 16.0f, 16.0f)
-                reflectiveCurveToRelative(-7.16f, 16.0f, -16.0f, 16.0f)
+                moveTo(112.0f, 176.0f)
+                curveToRelative(0.0f, 8.8f, -7.2f, 16.0f, -16.0f, 16.0f)
+                reflectiveCurveToRelative(-16.0f, -7.2f, -16.0f, -16.0f)
+                curveToRelative(0.0f, -61.9f, 50.1f, -112.0f, 112.0f, -112.0f)
+                curveToRelative(8.8f, 0.0f, 16.0f, 7.2f, 16.0f, 16.0f)
+                reflectiveCurveToRelative(-7.2f, 16.0f, -16.0f, 16.0f)
+                curveToRelative(-44.2f, 0.0f, -80.0f, 35.8f, -80.0f, 80.0f)
                 close()
             }
         }

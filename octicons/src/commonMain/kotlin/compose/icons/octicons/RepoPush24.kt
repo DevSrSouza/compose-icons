@@ -51,7 +51,7 @@ public val Octicons.RepoPush24: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(20.0f, 13.903f)
+                moveToRelative(20.0f, 13.903f)
                 lineToRelative(2.202f, 2.359f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, false, 1.096f, -1.024f)
                 lineToRelative(-3.5f, -3.75f)

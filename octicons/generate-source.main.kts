@@ -11,10 +11,10 @@
 @file:DependsOn("com.squareup:kotlinpoet:1.7.2")
 @file:DependsOn("org.ogce:xpp3:1.1.6")
 
-@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
+@file:DependsOn("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 
 // Jgit
-@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:3.5.0.201409260305-r")
+@file:DependsOn("org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r")
 
 import br.com.devsrsouza.svg2compose.ParsingResult
 import br.com.devsrsouza.svg2compose.Svg2Compose
@@ -28,7 +28,7 @@ val buildDir = File("build/").makeDirs()
 
 val githubId = "primer/octicons"
 val repository = "https://github.com/$githubId"
-val version = "v12.1.0"
+val version = "v17.10.2"
 val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
 val blobGithubRepository = "$repository/blob/$version"
 
@@ -56,7 +56,7 @@ fun replacePathName(path: String): String {
     return path.replace(iconName, newIconName)
 }
 
-val srcDir = File("src/commonMain/kotlin").apply { mkdirs() }
+val srcDir = File("octicons/src/commonMain/kotlin").apply { mkdirs() }
 srcDir.deleteRecursively()
 srcDir.mkdirs()
 
@@ -86,7 +86,7 @@ println("Copying LICENSE from the Icon pack")
 val licensePath = "LICENSE"
 val licenseFile = File(repoCloneDir, licensePath)
 
-val resDir = File("src/commonMain/resources").makeDirs()
+val resDir = File("octicons/src/commonMain/resources").makeDirs()
 val licenseInResource = File(resDir, "octicons-license.txt")
 
 licenseFile.copyTo(licenseInResource, overwrite = true)
@@ -145,6 +145,26 @@ fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.ac
         "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
     }.joinToString("\n")
 
+
+fun List<DocumentationIcon>.iconsMapFormat(): String {
+    fun iconName(str: String) = str.split(".")[1]
+    return sortedBy { it.accessingFormat }.joinToString(",\n") {
+        "\t" + '"' + iconName(it.accessingFormat) + '"' + " to { " + it.accessingFormat + " }"
+    }
+}
+
+File("octicons/OctIconsMap.kt").apply {
+    if (exists().not()) createNewFile()
+}.writeText(
+    run {
+        "object OctIconsMap : Map<String,()->Unit> by mapOf(\n" +
+                result.asDocumentationGroupList().filter { it.icons.isNotEmpty() }.joinToString("\n") {
+                    it.icons.iconsMapFormat()
+                } + "\n)"
+    }
+)
+
+
 val documentationGroups = result.asDocumentationGroupList()
     .filter { it.icons.isNotEmpty() }
     .map {
@@ -174,7 +194,7 @@ val license = """
     
     """.trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
 
-File("DOCUMENTATION.md").apply{
+File("octicons/DOCUMENTATION.md").apply{
     if(exists().not()) createNewFile()
 }.writeText(
     header + "\n" + license + "\n" + documentationGroups

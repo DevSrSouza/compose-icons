@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,19 +20,7 @@ public val Octicons.FileDiff16: ImageVector
                 viewportWidth = 16.0f, viewportHeight = 16.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
-                moveTo(2.75f, 1.5f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
-                verticalLineToRelative(12.5f)
-                curveToRelative(0.0f, 0.138f, 0.112f, 0.25f, 0.25f, 0.25f)
-                horizontalLineToRelative(10.5f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
-                lineTo(13.5f, 4.664f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.073f, -0.177f)
-                lineToRelative(-2.914f, -2.914f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.177f, -0.073f)
-                lineTo(2.75f, 1.5f)
-                close()
+                    pathFillType = NonZero) {
                 moveTo(1.0f, 1.75f)
                 curveTo(1.0f, 0.784f, 1.784f, 0.0f, 2.75f, 0.0f)
                 horizontalLineToRelative(7.586f)
@@ -43,7 +31,17 @@ public val Octicons.FileDiff16: ImageVector
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 13.25f, 16.0f)
                 lineTo(2.75f, 16.0f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 1.0f, 14.25f)
-                lineTo(1.0f, 1.75f)
+                close()
+                moveTo(2.75f, 1.5f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
+                verticalLineToRelative(12.5f)
+                curveToRelative(0.0f, 0.138f, 0.112f, 0.25f, 0.25f, 0.25f)
+                horizontalLineToRelative(10.5f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
+                lineTo(13.5f, 4.664f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.073f, -0.177f)
+                lineToRelative(-2.914f, -2.914f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.177f, -0.073f)
                 close()
                 moveTo(8.0f, 3.25f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.75f, 0.75f)

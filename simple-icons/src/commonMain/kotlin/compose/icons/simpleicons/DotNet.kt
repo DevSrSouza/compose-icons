@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.DotNet: ImageVector
+public val SimpleIcons.Dotnet: ImageVector
     get() {
-        if (_dotNet != null) {
-            return _dotNet!!
+        if (_dotnet != null) {
+            return _dotnet!!
         }
-        _dotNet = Builder(name = "DotNet", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _dotnet = Builder(name = "Dotnet", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -69,7 +69,7 @@ public val SimpleIcons.DotNet: ImageVector
             }
         }
         .build()
-        return _dotNet!!
+        return _dotnet!!
     }
 
-private var _dotNet: ImageVector? = null
+private var _dotnet: ImageVector? = null

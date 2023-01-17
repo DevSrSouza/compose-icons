@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,40 +20,42 @@ public val Octicons.Share24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
-                moveTo(12.53f, 1.22f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, -1.06f, 0.0f)
-                lineTo(8.22f, 4.47f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, 1.06f, 1.06f)
-                lineToRelative(1.97f, -1.97f)
-                verticalLineToRelative(10.69f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, 1.5f, 0.0f)
-                verticalLineTo(3.56f)
-                lineToRelative(1.97f, 1.97f)
-                arcToRelative(0.75f, 0.75f, 0.0f, true, false, 1.06f, -1.06f)
-                lineToRelative(-3.25f, -3.25f)
-                close()
+                    pathFillType = NonZero) {
                 moveTo(5.5f, 9.75f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, true, 0.25f, -0.25f)
-                horizontalLineToRelative(2.5f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, 0.0f, -1.5f)
-                horizontalLineToRelative(-2.5f)
-                arcTo(1.75f, 1.75f, 0.0f, false, false, 4.0f, 9.75f)
                 verticalLineToRelative(10.5f)
-                curveToRelative(0.0f, 0.966f, 0.784f, 1.75f, 1.75f, 1.75f)
+                curveToRelative(0.0f, 0.138f, 0.112f, 0.25f, 0.25f, 0.25f)
                 horizontalLineToRelative(12.5f)
-                arcTo(1.75f, 1.75f, 0.0f, false, false, 20.0f, 20.25f)
-                verticalLineTo(9.75f)
-                arcTo(1.75f, 1.75f, 0.0f, false, false, 18.25f, 8.0f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
+                lineTo(18.5f, 9.75f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, -0.25f)
                 horizontalLineToRelative(-2.5f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, 0.0f, 1.5f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, -1.5f)
                 horizontalLineToRelative(2.5f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, true, 0.25f, 0.25f)
+                curveToRelative(0.966f, 0.0f, 1.75f, 0.784f, 1.75f, 1.75f)
                 verticalLineToRelative(10.5f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, true, -0.25f, 0.25f)
-                horizontalLineTo(5.75f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, true, -0.25f, -0.25f)
-                verticalLineTo(9.75f)
+                arcTo(1.75f, 1.75f, 0.0f, false, true, 18.25f, 22.0f)
+                lineTo(5.75f, 22.0f)
+                arcTo(1.75f, 1.75f, 0.0f, false, true, 4.0f, 20.25f)
+                lineTo(4.0f, 9.75f)
+                curveTo(4.0f, 8.784f, 4.784f, 8.0f, 5.75f, 8.0f)
+                horizontalLineToRelative(2.5f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, 1.5f)
+                horizontalLineToRelative(-2.5f)
+                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
+                close()
+                moveTo(12.53f, 1.22f)
+                lineTo(15.78f, 4.47f)
+                arcToRelative(0.749f, 0.749f, 0.0f, false, true, -0.326f, 1.275f)
+                arcToRelative(0.749f, 0.749f, 0.0f, false, true, -0.734f, -0.215f)
+                lineToRelative(-1.97f, -1.97f)
+                verticalLineToRelative(10.69f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, -1.5f, 0.0f)
+                lineTo(11.25f, 3.56f)
+                lineTo(9.28f, 5.53f)
+                arcToRelative(0.751f, 0.751f, 0.0f, false, true, -1.042f, -0.018f)
+                arcToRelative(0.751f, 0.751f, 0.0f, false, true, -0.018f, -1.042f)
+                lineToRelative(3.25f, -3.25f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 1.06f, 0.0f)
                 close()
             }
         }

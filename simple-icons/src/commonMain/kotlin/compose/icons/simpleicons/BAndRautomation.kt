@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.BAndRautomation: ImageVector
+public val SimpleIcons.Bandrautomation: ImageVector
     get() {
-        if (_bAndRautomation != null) {
-            return _bAndRautomation!!
+        if (_bandrautomation != null) {
+            return _bandrautomation!!
         }
-        _bAndRautomation = Builder(name = "BAndRautomation", defaultWidth = 24.0.dp, defaultHeight =
+        _bandrautomation = Builder(name = "Bandrautomation", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -141,7 +141,7 @@ public val SimpleIcons.BAndRautomation: ImageVector
             }
         }
         .build()
-        return _bAndRautomation!!
+        return _bandrautomation!!
     }
 
-private var _bAndRautomation: ImageVector? = null
+private var _bandrautomation: ImageVector? = null

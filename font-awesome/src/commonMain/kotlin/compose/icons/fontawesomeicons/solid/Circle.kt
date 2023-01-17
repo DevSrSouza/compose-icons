@@ -21,11 +21,11 @@ public val SolidGroup.Circle: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(256.0f, 8.0f)
-                curveTo(119.0f, 8.0f, 8.0f, 119.0f, 8.0f, 256.0f)
-                reflectiveCurveToRelative(111.0f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.0f, 248.0f, -248.0f)
-                reflectiveCurveTo(393.0f, 8.0f, 256.0f, 8.0f)
+                moveTo(256.0f, 512.0f)
+                curveToRelative(141.4f, 0.0f, 256.0f, -114.6f, 256.0f, -256.0f)
+                reflectiveCurveTo(397.4f, 0.0f, 256.0f, 0.0f)
+                reflectiveCurveTo(0.0f, 114.6f, 0.0f, 256.0f)
+                reflectiveCurveTo(114.6f, 512.0f, 256.0f, 512.0f)
                 close()
             }
         }

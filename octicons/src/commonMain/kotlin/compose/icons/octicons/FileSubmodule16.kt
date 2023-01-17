@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,7 +20,7 @@ public val Octicons.FileSubmodule16: ImageVector
                 16.0.dp, viewportWidth = 16.0f, viewportHeight = 16.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(0.0f, 2.75f)
                 curveTo(0.0f, 1.784f, 0.784f, 1.0f, 1.75f, 1.0f)
                 lineTo(5.0f, 1.0f)
@@ -33,16 +33,15 @@ public val Octicons.FileSubmodule16: ImageVector
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 14.25f, 15.0f)
                 lineTo(1.75f, 15.0f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 0.0f, 13.25f)
-                lineTo(0.0f, 2.75f)
                 close()
                 moveTo(9.42f, 12.11f)
-                lineToRelative(2.883f, -2.677f)
+                lineTo(12.303f, 9.433f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.0f, -0.366f)
                 lineTo(9.42f, 6.39f)
-                arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.42f, 0.183f)
+                arcToRelative(0.249f, 0.249f, 0.0f, false, false, -0.42f, 0.183f)
                 lineTo(9.0f, 8.5f)
                 lineTo(4.75f, 8.5f)
-                arcToRelative(0.75f, 0.75f, 0.0f, true, false, 0.0f, 1.5f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, false, 0.0f, 1.5f)
                 lineTo(9.0f, 10.0f)
                 verticalLineToRelative(1.927f)
                 curveToRelative(0.0f, 0.218f, 0.26f, 0.331f, 0.42f, 0.183f)

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.AboutDotMe: ImageVector
+public val SimpleIcons.Aboutdotme: ImageVector
     get() {
-        if (_aboutDotMe != null) {
-            return _aboutDotMe!!
+        if (_aboutdotme != null) {
+            return _aboutdotme!!
         }
-        _aboutDotMe = Builder(name = "AboutDotMe", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _aboutdotme = Builder(name = "Aboutdotme", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -62,7 +62,7 @@ public val SimpleIcons.AboutDotMe: ImageVector
             }
         }
         .build()
-        return _aboutDotMe!!
+        return _aboutdotme!!
     }
 
-private var _aboutDotMe: ImageVector? = null
+private var _aboutdotme: ImageVector? = null

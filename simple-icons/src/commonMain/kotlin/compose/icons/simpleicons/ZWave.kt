@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.ZWave: ImageVector
+public val SimpleIcons.Zwave: ImageVector
     get() {
-        if (_zWave != null) {
-            return _zWave!!
+        if (_zwave != null) {
+            return _zwave!!
         }
-        _zWave = Builder(name = "ZWave", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _zwave = Builder(name = "Zwave", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -52,7 +52,7 @@ public val SimpleIcons.ZWave: ImageVector
             }
         }
         .build()
-        return _zWave!!
+        return _zwave!!
     }
 
-private var _zWave: ImageVector? = null
+private var _zwave: ImageVector? = null

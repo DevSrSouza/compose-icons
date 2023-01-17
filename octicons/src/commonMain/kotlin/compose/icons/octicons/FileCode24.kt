@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -23,7 +23,7 @@ public val Octicons.FileCode24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(3.0f, 3.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
                 horizontalLineToRelative(9.982f)
@@ -44,7 +44,6 @@ public val Octicons.FileCode24: ImageVector
                 arcToRelative(0.5f, 0.5f, 0.0f, false, false, -0.5f, 0.5f)
                 verticalLineToRelative(6.25f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, -1.5f, 0.0f)
-                lineTo(3.0f, 3.0f)
                 close()
                 moveTo(15.0f, 2.5f)
                 verticalLineToRelative(4.0f)

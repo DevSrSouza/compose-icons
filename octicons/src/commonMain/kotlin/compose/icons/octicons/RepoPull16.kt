@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,22 +20,7 @@ public val Octicons.RepoPull16: ImageVector
                 viewportWidth = 16.0f, viewportHeight = 16.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
-                moveTo(13.0f, 8.0f)
-                lineTo(13.0f, 6.0f)
-                lineTo(7.0f, 6.0f)
-                lineTo(7.0f, 4.0f)
-                horizontalLineToRelative(6.0f)
-                lineTo(13.0f, 2.0f)
-                lineToRelative(3.0f, 3.0f)
-                lineToRelative(-3.0f, 3.0f)
-                close()
-                moveTo(4.0f, 2.0f)
-                lineTo(3.0f, 2.0f)
-                verticalLineToRelative(1.0f)
-                horizontalLineToRelative(1.0f)
-                lineTo(4.0f, 2.0f)
-                close()
+                    pathFillType = NonZero) {
                 moveTo(11.0f, 7.0f)
                 horizontalLineToRelative(1.0f)
                 verticalLineToRelative(6.0f)
@@ -57,7 +42,14 @@ public val Octicons.RepoPull16: ImageVector
                 lineTo(2.0f, 1.0f)
                 verticalLineToRelative(9.0f)
                 horizontalLineToRelative(9.0f)
-                lineTo(11.0f, 7.0f)
+                close()
+                moveTo(13.0f, 8.0f)
+                lineTo(13.0f, 6.0f)
+                lineTo(7.0f, 6.0f)
+                lineTo(7.0f, 4.0f)
+                horizontalLineToRelative(6.0f)
+                lineTo(13.0f, 2.0f)
+                lineToRelative(3.0f, 3.0f)
                 close()
                 moveTo(11.0f, 11.0f)
                 lineTo(1.0f, 11.0f)
@@ -67,24 +59,25 @@ public val Octicons.RepoPull16: ImageVector
                 horizontalLineToRelative(3.0f)
                 verticalLineToRelative(1.0f)
                 horizontalLineToRelative(5.0f)
-                verticalLineToRelative(-2.0f)
                 close()
-                moveTo(4.0f, 6.0f)
-                lineTo(3.0f, 6.0f)
+                moveTo(4.0f, 2.0f)
                 verticalLineToRelative(1.0f)
-                horizontalLineToRelative(1.0f)
-                lineTo(4.0f, 6.0f)
+                lineTo(3.0f, 3.0f)
+                lineTo(3.0f, 2.0f)
                 close()
                 moveTo(4.0f, 4.0f)
-                lineTo(3.0f, 4.0f)
                 verticalLineToRelative(1.0f)
-                horizontalLineToRelative(1.0f)
-                lineTo(4.0f, 4.0f)
+                lineTo(3.0f, 5.0f)
+                lineTo(3.0f, 4.0f)
+                close()
+                moveTo(4.0f, 6.0f)
+                verticalLineToRelative(1.0f)
+                lineTo(3.0f, 7.0f)
+                lineTo(3.0f, 6.0f)
                 close()
                 moveTo(3.0f, 9.0f)
-                horizontalLineToRelative(1.0f)
-                lineTo(4.0f, 8.0f)
                 lineTo(3.0f, 8.0f)
+                horizontalLineToRelative(1.0f)
                 verticalLineToRelative(1.0f)
                 close()
             }

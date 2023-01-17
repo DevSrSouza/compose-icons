@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.AudioTechnica: ImageVector
+public val SimpleIcons.Audiotechnica: ImageVector
     get() {
-        if (_audioTechnica != null) {
-            return _audioTechnica!!
+        if (_audiotechnica != null) {
+            return _audiotechnica!!
         }
-        _audioTechnica = Builder(name = "AudioTechnica", defaultWidth = 24.0.dp, defaultHeight =
+        _audiotechnica = Builder(name = "Audiotechnica", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -53,7 +53,7 @@ public val SimpleIcons.AudioTechnica: ImageVector
             }
         }
         .build()
-        return _audioTechnica!!
+        return _audiotechnica!!
     }
 
-private var _audioTechnica: ImageVector? = null
+private var _audiotechnica: ImageVector? = null
