@@ -152,24 +152,6 @@ fun List<DocumentationIcon>.iconsTableDocumentation(): String = sortedBy { it.ac
         "| ${it.map { markdownIconDocumentation(it) }.joinToString(" | ")} |"
     }.joinToString("\n")
 
-fun List<DocumentationIcon>.iconsMapFormat(): String {
-    fun iconName(str: String) = str.split(".")[1]
-    return sortedBy { it.accessingFormat }.joinToString(",\n") {
-        "\t" + '"' + iconName(it.accessingFormat) + '"' + " to { " + it.accessingFormat + " }"
-    }
-}
-
-File("eva-icons/EvaIconsMap.kt").apply {
-    if (exists().not()) createNewFile()
-}.writeText(
-    run {
-        "object EvaIconsMap : Map<String,()->Unit> by mapOf(\n" +
-                result.asDocumentationGroupList().filter { it.icons.isNotEmpty() }.joinToString("\n") {
-                    it.icons.iconsMapFormat()
-                } + "\n)"
-    }
-)
-
 val documentationGroups = result.asDocumentationGroupList()
     .filter { it.icons.isNotEmpty() }
     .map {
