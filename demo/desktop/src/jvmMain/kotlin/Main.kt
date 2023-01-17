@@ -4,7 +4,7 @@ import com.icons.common.App
 
 
 fun main() = application {
-    Window(onCloseRequest = ::exitApplication) {
+    Window(title = "compose-icons",onCloseRequest = ::exitApplication) {
         App()
     }
 }
