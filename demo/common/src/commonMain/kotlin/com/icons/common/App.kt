@@ -5,12 +5,10 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
-import androidx.compose.foundation.lazy.grid.rememberLazyGridState
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -19,7 +17,6 @@ import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Popup
 import compose.icons.*
@@ -28,19 +25,19 @@ import compose.icons.materialdesignicons.ContentCopy
 val DependencyGroupUrl = "br.com.devsrsouza.compose.icons.android"
 val ModuleVersion = "1.0.0"
 
-enum class IconPacks(val getAllIcons: () -> List<ImageVector>,val accessorName : String,val moduleName : String) {
+enum class IconPacks(val getAllIcons: () -> List<ImageVector>,val accessorName : String,val moduleName : String,val typeName : String? = null,val types : List<String> = listOf()) {
     SimpleIcons({ compose.icons.SimpleIcons.AllIcons },"SimpleIcons","simple-icons"),
     Feather({ compose.icons.FeatherIcons.AllIcons },"FeatherIcons","feather"),
     TablerIcons({ compose.icons.TablerIcons.AllIcons },"TablerIcons","tabler-icons"),
-    EvaIcons({ compose.icons.EvaIcons.AllIcons },"EvaIcons","eva-icons"),
-    FontAwesome({ compose.icons.FontAwesomeIcons.AllIcons },"FontAwesomeIcons","font-awesome"),
+    EvaIcons({ compose.icons.EvaIcons.AllIcons },"EvaIcons","eva-icons","Type",listOf("Fill","Outline")),
+    FontAwesome({ compose.icons.FontAwesomeIcons.AllIcons },"FontAwesomeIcons","font-awesome","Type",listOf("Brands","Regular","Solid")),
     ErikFlowersWeatherIcons({ compose.icons.WeatherIcons.AllIcons },"WeatherIcons","erikflowers-weather-icons"),
     LineAwesome({ compose.icons.LineAwesomeIcons.AllIcons },"LineAwesomeIcons","line-awesome"),
     Linea({ compose.icons.LineaIcons.AllIcons },"LineaIcons","linea"),
     OctIcons({ compose.icons.Octicons.AllIcons },"Octicons","octicons"),
     CssGG({ compose.icons.CssGgIcons.AllIcons },"CssGgIcons","css-gg"),
     MaterialDesignIcons({ compose.icons.MaterialDesignIcons.AllIcons },"MaterialDesignIcons","materialdesignicons"),
-    Phosphoricons({ compose.icons.PhosphorIcons.AllIcons },"PhosphorIcons","phosphor-icons"),
+    PhosphorIcons({ compose.icons.PhosphorIcons.AllIcons },"PhosphorIcons","phosphor-icons","Weight",listOf("Regular","Bold","Duotone","Fill","Light","Thin")),
     RemixIcons({ compose.icons.RemixIcons.AllIcons },"RemixIcons","remix-icons")
 }
 
@@ -129,13 +126,20 @@ fun App() {
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Icon(modifier = Modifier.size(120.dp), imageVector = icon, contentDescription = null)
-                        val codeText = pack.accessorName + "." + icon.name
+                        val typeCode = if(pack.typeName != null) ".{${pack.typeName}}." else "."
+                        val codeText = pack.accessorName + typeCode + icon.name
                         TextActionBlock(
                             typeText = "Code",
                             text = codeText,
                             actionIcon = MaterialDesignIcons.ContentCopy,
                             action = { copyText(codeText) }
                         )
+                        if(pack.typeName != null){
+                            TextActionBlock(
+                                typeText = pack.typeName,
+                                text = pack.types.joinToString(separator = " | "),
+                            )
+                        }
                         val dependencyText = DependencyGroupUrl + ":" + pack.moduleName + ":" + ModuleVersion
                         TextActionBlock(
                             typeText = "Dependency",
@@ -153,13 +157,17 @@ fun App() {
 
 expect fun copyText(string : String)
 
+
+@Composable
+expect fun HorizontalScrollbar(modifier : Modifier,state : ScrollState)
+
 @Composable
 fun TextActionBlock(
     modifier : Modifier = Modifier,
     typeText : String,
     text : String,
-    actionIcon : ImageVector,
-    action : ()->Unit
+    actionIcon : (ImageVector)? = null,
+    action : ()->Unit = {}
 ){
     Row(
         modifier = modifier.background(
@@ -179,8 +187,10 @@ fun TextActionBlock(
             )
         }
         Spacer(modifier = Modifier.width(8.dp))
-        IconButton(onClick = action) {
-            Icon(imageVector = actionIcon, contentDescription = null)
+        if(actionIcon != null) {
+            IconButton(onClick = action) {
+                Icon(imageVector = actionIcon, contentDescription = null)
+            }
         }
     }
 }
@@ -244,27 +254,32 @@ fun DisplayIcon(
 
 @Composable
 fun DisplayPackSelection(
+    modifier : Modifier = Modifier,
     all: Array<IconPacks>,
     current: IconPacks?,
     onUpdate: (IconPacks?) -> Unit
 ) {
-    Row(
-        modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        SelectablePack(
-            text = "All",
-            isSelected = current == null,
-            onClick = { onUpdate(null) }
-        )
-        for (pack in all) {
+    val scrollState = rememberScrollState()
+    Column(modifier = modifier) {
+        Row(
+            modifier = Modifier.fillMaxWidth().horizontalScroll(scrollState),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             SelectablePack(
-                text = pack.name,
-                isSelected = current == pack,
-                onClick = { onUpdate(pack) }
+                text = "All",
+                isSelected = current == null,
+                onClick = { onUpdate(null) }
             )
+            for (pack in all) {
+                SelectablePack(
+                    text = pack.name,
+                    isSelected = current == pack,
+                    onClick = { onUpdate(pack) }
+                )
+            }
         }
+        HorizontalScrollbar(modifier = Modifier.fillMaxWidth(),state = scrollState)
     }
 }
 
