@@ -91,3 +91,6 @@ private.properties
 
 # Signing
 *.gpg
+
+# Github Properties File , Contains Github Publishing Authentication
+github.properties
