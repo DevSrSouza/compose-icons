@@ -40,6 +40,8 @@ enum class IconPacks(val getAllIcons: () -> List<ImageVector>,val accessorName :
     OctIcons({ compose.icons.Octicons.AllIcons },"Octicons","octicons"),
     CssGG({ compose.icons.CssGgIcons.AllIcons },"CssGgIcons","css-gg"),
     MaterialDesignIcons({ compose.icons.MaterialDesignIcons.AllIcons },"MaterialDesignIcons","materialdesignicons"),
+    Phosphoricons({ compose.icons.PhosphorIcons.AllIcons },"PhosphorIcons","phosphor-icons"),
+    RemixIcons({ compose.icons.RemixIcons.AllIcons },"RemixIcons","remix-icons")
 }
 
 @Composable

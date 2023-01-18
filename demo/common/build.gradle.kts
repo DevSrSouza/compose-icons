@@ -34,6 +34,8 @@ kotlin {
                 implementation(project(":octicons"))
                 implementation(project(":css-gg"))
                 implementation(project(":materialdesignicons"))
+                implementation(project(":phosphor-icons"))
+                implementation(project(":remix-icons"))
             }
         }
         val commonTest by getting {

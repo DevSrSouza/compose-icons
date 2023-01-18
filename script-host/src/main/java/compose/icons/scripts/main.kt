@@ -27,7 +27,9 @@ enum class ScriptsAvailable(val projPath: String, val pathToScript: String = "$p
     linea("linea"),
     octicons("octicons"),
     css_gg("css-gg"),
-    materialdesignicons("materialdesignicons")
+    materialdesignicons("materialdesignicons"),
+    phosphor_icons("phosphor-icons"),
+    remix_icons("remix-icons")
 }
 
 fun main(vararg args: String) {

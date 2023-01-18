@@ -28,7 +28,9 @@ include(
     "linea",
     "octicons",
     "css-gg",
-    "materialdesignicons"
+    "materialdesignicons",
+    "phosphor-icons",
+    "remix-icons"
 )
 
 include(
