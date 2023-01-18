@@ -38,7 +38,9 @@ enum class IconPacks(val getAllIcons: () -> List<ImageVector>,val accessorName :
     CssGG({ compose.icons.CssGgIcons.AllIcons },"CssGgIcons","css-gg"),
     MaterialDesignIcons({ compose.icons.MaterialDesignIcons.AllIcons },"MaterialDesignIcons","materialdesignicons"),
     PhosphorIcons({ compose.icons.PhosphorIcons.AllIcons },"PhosphorIcons","phosphor-icons","Weight",listOf("Regular","Bold","Duotone","Fill","Light","Thin")),
-    RemixIcons({ compose.icons.RemixIcons.AllIcons },"RemixIcons","remix-icons")
+    RemixIcons({ compose.icons.RemixIcons.AllIcons },"RemixIcons","remix-icons"),
+    IonIcons({ compose.icons.IonIcons.AllIcons },"IonIcons","ion-icons"),
+    FluentUiIcons({ compose.icons.FluentUiIcons.AllIcons },"FluentUiIcons","fluentui-system-icons","Type",listOf("Regular","Filled"))
 }
 
 @Composable

@@ -1,0 +1,100 @@
+package compose.icons.fluentuiicons.regular
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.fluentuiicons.RegularGroup
+
+public val RegularGroup.ImageArrowCounterclockwise: ImageVector
+    get() {
+        if (_imageArrowCounterclockwise != null) {
+            return _imageArrowCounterclockwise!!
+        }
+        _imageArrowCounterclockwise = Builder(name = "ImageArrowCounterclockwise", defaultWidth =
+                24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight =
+                24.0f).apply {
+            path(fill = SolidColor(Color(0xFF212121)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(12.0f, 6.5f)
+                curveTo(12.0f, 3.4624f, 9.5376f, 1.0f, 6.5f, 1.0f)
+                curveTo(3.4624f, 1.0f, 1.0f, 3.4624f, 1.0f, 6.5f)
+                curveTo(1.0f, 9.5376f, 3.4624f, 12.0f, 6.5f, 12.0f)
+                curveTo(9.5376f, 12.0f, 12.0f, 9.5376f, 12.0f, 6.5f)
+                close()
+                moveTo(4.0f, 3.5f)
+                verticalLineTo(4.0512f)
+                curveTo(4.6353f, 3.4025f, 5.521f, 3.0f, 6.5007f, 3.0f)
+                curveTo(8.4337f, 3.0f, 10.0007f, 4.567f, 10.0007f, 6.5f)
+                curveTo(10.0007f, 8.433f, 8.4337f, 10.0f, 6.5007f, 10.0f)
+                curveTo(5.4208f, 10.0f, 4.4552f, 9.511f, 3.8132f, 8.7423f)
+                curveTo(3.5501f, 8.4273f, 3.811f, 8.0f, 4.2214f, 8.0f)
+                curveTo(4.3971f, 8.0f, 4.5597f, 8.0855f, 4.6802f, 8.2134f)
+                curveTo(5.1361f, 8.6976f, 5.7831f, 9.0f, 6.5007f, 9.0f)
+                curveTo(7.8814f, 9.0f, 9.0007f, 7.8807f, 9.0007f, 6.5f)
+                curveTo(9.0007f, 5.1193f, 7.8814f, 4.0f, 6.5007f, 4.0f)
+                curveTo(5.6828f, 4.0f, 4.9566f, 4.3928f, 4.5005f, 5.0f)
+                horizontalLineTo(5.5f)
+                curveTo(5.7761f, 5.0f, 6.0f, 5.2239f, 6.0f, 5.5f)
+                curveTo(6.0f, 5.7761f, 5.7761f, 6.0f, 5.5f, 6.0f)
+                horizontalLineTo(3.5f)
+                curveTo(3.2239f, 6.0f, 3.0f, 5.7761f, 3.0f, 5.5f)
+                verticalLineTo(3.5f)
+                curveTo(3.0f, 3.2239f, 3.2239f, 3.0f, 3.5f, 3.0f)
+                curveTo(3.7761f, 3.0f, 4.0f, 3.2239f, 4.0f, 3.5f)
+                close()
+                moveTo(18.75f, 5.5f)
+                horizontalLineTo(12.9236f)
+                curveTo(12.8428f, 4.9768f, 12.6996f, 4.4742f, 12.5018f, 4.0f)
+                horizontalLineTo(18.75f)
+                curveTo(20.5449f, 4.0f, 22.0f, 5.4551f, 22.0f, 7.25f)
+                verticalLineTo(18.75f)
+                curveTo(22.0f, 20.5449f, 20.5449f, 22.0f, 18.75f, 22.0f)
+                horizontalLineTo(7.25f)
+                curveTo(5.4551f, 22.0f, 4.0f, 20.5449f, 4.0f, 18.75f)
+                verticalLineTo(12.5018f)
+                curveTo(4.4742f, 12.6996f, 4.9768f, 12.8428f, 5.5f, 12.9236f)
+                verticalLineTo(18.75f)
+                curveTo(5.5f, 18.9584f, 5.5364f, 19.1583f, 5.6033f, 19.3437f)
+                lineTo(11.4258f, 13.643f)
+                curveTo(12.2589f, 12.8273f, 13.5675f, 12.7885f, 14.4458f, 13.5266f)
+                lineTo(14.5742f, 13.6431f)
+                lineTo(20.3964f, 19.3447f)
+                curveTo(20.4634f, 19.159f, 20.5f, 18.9588f, 20.5f, 18.75f)
+                verticalLineTo(7.25f)
+                curveTo(20.5f, 6.2835f, 19.7165f, 5.5f, 18.75f, 5.5f)
+                close()
+                moveTo(19.3305f, 20.4014f)
+                lineTo(13.5247f, 14.7148f)
+                curveTo(13.2596f, 14.4553f, 12.8501f, 14.4316f, 12.5588f, 14.644f)
+                lineTo(12.4752f, 14.7148f)
+                lineTo(6.6684f, 20.4011f)
+                curveTo(6.8504f, 20.4651f, 7.0461f, 20.5f, 7.25f, 20.5f)
+                horizontalLineTo(18.75f)
+                curveTo(18.9535f, 20.5f, 19.1489f, 20.4653f, 19.3305f, 20.4014f)
+                close()
+                moveTo(16.2521f, 7.5f)
+                curveTo(17.4959f, 7.5f, 18.5042f, 8.5083f, 18.5042f, 9.7521f)
+                curveTo(18.5042f, 10.9959f, 17.4959f, 12.0042f, 16.2521f, 12.0042f)
+                curveTo(15.0083f, 12.0042f, 14.0f, 10.9959f, 14.0f, 9.7521f)
+                curveTo(14.0f, 8.5083f, 15.0083f, 7.5f, 16.2521f, 7.5f)
+                close()
+                moveTo(16.2521f, 9.0f)
+                curveTo(15.8367f, 9.0f, 15.5f, 9.3367f, 15.5f, 9.7521f)
+                curveTo(15.5f, 10.1675f, 15.8367f, 10.5042f, 16.2521f, 10.5042f)
+                curveTo(16.6675f, 10.5042f, 17.0042f, 10.1675f, 17.0042f, 9.7521f)
+                curveTo(17.0042f, 9.3367f, 16.6675f, 9.0f, 16.2521f, 9.0f)
+                close()
+            }
+        }
+        .build()
+        return _imageArrowCounterclockwise!!
+    }
+
+private var _imageArrowCounterclockwise: ImageVector? = null

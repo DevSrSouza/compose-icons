@@ -4,16 +4,21 @@ plugins {
     kotlin("android")
 }
 
-group "com.icons"
-version "1.0-SNAPSHOT"
+group = "com.icons"
+version = "1.0-SNAPSHOT"
 
 repositories {
     jcenter()
+    google()
+    mavenCentral()
 }
 
 dependencies {
     implementation(project(":demo:common"))
-    implementation("androidx.activity:activity-compose:1.5.0")
+    implementation("androidx.activity:activity-compose:1.6.1")
+    api(compose.runtime)
+    api(compose.foundation)
+    api(compose.ui)
 }
 
 android {
@@ -30,8 +35,11 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
     buildTypes {
-        getByName("release") {
+        debug {
             isMinifyEnabled = false
+        }
+        release {
+            isMinifyEnabled = true
         }
     }
 }

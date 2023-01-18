@@ -29,26 +29,38 @@ enum class ScriptsAvailable(val projPath: String, val pathToScript: String = "$p
     css_gg("css-gg"),
     materialdesignicons("materialdesignicons"),
     phosphor_icons("phosphor-icons"),
-    remix_icons("remix-icons")
+    remix_icons("remix-icons"),
+    ion_icons("ion-icons"),
+    fluent_ui_system_icons("fluentui-system-icons")
 }
 
 fun main(vararg args: String) {
     println("Running At : " + Paths.get("").toAbsolutePath().toString())
     if (args.size != 1) {
         val available = ScriptsAvailable.values()
+
+        fun executeNumber(number : Int?){
+            if (number == null || number < 0 || number >= available.size) {
+                println("Script No $number won't be executed , Wrong number\n")
+            } else {
+                val script = available[number]
+                executeScript(script.pathToScript)
+            }
+        }
+
         println("Enter which would you like to execute , Scripts available : \n")
         for (i in available.indices) {
             val script = available[i]
-            println("$i - ${script.name}")
+            println("$i - ${script.name.replace('_','-')}")
         }
         print("\nExecute Number : ")
         val scriptToExecute = readln()
-        val number = scriptToExecute.toIntOrNull()
-        if (number == null || number < 0 || number >= available.size) {
-            println("You chose the wrong number\n")
-        } else {
-            val script = available[number]
-            executeScript(script.pathToScript)
+        if(scriptToExecute.indexOf('.') < 0) {
+            val number = scriptToExecute.toIntOrNull()
+            executeNumber(number)
+        }else {
+            val numbers = scriptToExecute.split(".")
+            numbers.forEach { executeNumber(it.toIntOrNull()) }
         }
     } else {
         executeScript(args[0])

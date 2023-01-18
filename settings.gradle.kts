@@ -30,7 +30,9 @@ include(
     "css-gg",
     "materialdesignicons",
     "phosphor-icons",
-    "remix-icons"
+    "remix-icons",
+    "ion-icons",
+    "fluentui-system-icons"
 )
 
 include(

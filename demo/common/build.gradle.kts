@@ -36,6 +36,8 @@ kotlin {
                 implementation(project(":materialdesignicons"))
                 implementation(project(":phosphor-icons"))
                 implementation(project(":remix-icons"))
+                implementation(project(":ion-icons"))
+                implementation(project(":fluentui-system-icons"))
             }
         }
         val commonTest by getting {
