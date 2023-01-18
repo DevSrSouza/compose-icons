@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="desktop-jvm-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/demo/desktop/build/libs</output-path>
+    <root id="archive" name="desktop-jvm-1.0-SNAPSHOT.jar" />
+  </artifact>
+</component>

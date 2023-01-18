@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="linea-js-1.0.0">
+    <output-path>$PROJECT_DIR$/linea/build/libs</output-path>
+    <root id="archive" name="linea-js-1.0.0.jar" />
+  </artifact>
+</component>

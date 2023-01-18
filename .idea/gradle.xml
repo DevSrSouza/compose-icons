@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/css-gg" />
+            <option value="$PROJECT_DIR$/demo" />
+            <option value="$PROJECT_DIR$/demo/android" />
+            <option value="$PROJECT_DIR$/demo/common" />
+            <option value="$PROJECT_DIR$/demo/desktop" />
+            <option value="$PROJECT_DIR$/erikflowers-weather-icons" />
+            <option value="$PROJECT_DIR$/eva-icons" />
+            <option value="$PROJECT_DIR$/feather" />
+            <option value="$PROJECT_DIR$/fluentui-system-icons" />
+            <option value="$PROJECT_DIR$/font-awesome" />
+            <option value="$PROJECT_DIR$/ion-icons" />
+            <option value="$PROJECT_DIR$/line-awesome" />
+            <option value="$PROJECT_DIR$/linea" />
+            <option value="$PROJECT_DIR$/materialdesignicons" />
+            <option value="$PROJECT_DIR$/octicons" />
+            <option value="$PROJECT_DIR$/phosphor-icons" />
+            <option value="$PROJECT_DIR$/remix-icons" />
+            <option value="$PROJECT_DIR$/script-definition" />
+            <option value="$PROJECT_DIR$/script-host" />
+            <option value="$PROJECT_DIR$/simple-icons" />
+            <option value="$PROJECT_DIR$/tabler-icons" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="line-awesome-js-1.0.0">
+    <output-path>$PROJECT_DIR$/line-awesome/build/libs</output-path>
+    <root id="archive" name="line-awesome-js-1.0.0.jar" />
+  </artifact>
+</component>

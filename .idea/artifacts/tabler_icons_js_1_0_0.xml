@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tabler-icons-js-1.0.0">
+    <output-path>$PROJECT_DIR$/tabler-icons/build/libs</output-path>
+    <root id="archive" name="tabler-icons-js-1.0.0.jar" />
+  </artifact>
+</component>

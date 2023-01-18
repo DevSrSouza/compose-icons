@@ -42,5 +42,4 @@ include(
 )
 include("script-definition")
 include("script-host")
-include("script-helpers")
 include("script-definition")

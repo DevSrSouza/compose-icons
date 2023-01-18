@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ion-icons-desktop-1.0.0">
+    <output-path>$PROJECT_DIR$/ion-icons/build/libs</output-path>
+    <root id="archive" name="ion-icons-desktop-1.0.0.jar" />
+  </artifact>
+</component>

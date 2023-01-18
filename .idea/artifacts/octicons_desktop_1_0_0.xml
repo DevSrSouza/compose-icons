@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="octicons-desktop-1.0.0">
+    <output-path>$PROJECT_DIR$/octicons/build/libs</output-path>
+    <root id="archive" name="octicons-desktop-1.0.0.jar" />
+  </artifact>
+</component>
