@@ -1,8 +1,11 @@
 import org.gradle.api.Project
+import org.gradle.api.artifacts.dsl.RepositoryHandler
+import org.gradle.api.artifacts.repositories.PasswordCredentials
 import org.gradle.api.publish.PublishingExtension
 import org.gradle.api.publish.maven.MavenPublication
 import org.gradle.api.tasks.TaskProvider
 import org.gradle.api.tasks.bundling.Jar
+import java.io.File
 import java.util.*
 
 object Publish {
@@ -54,33 +57,53 @@ fun Project.applyPomToAllMavenPublications(javadocJar: TaskProvider<Jar>) {
         }
 }
 
-fun Project.setupGithubPublication() {
-    val propertiesFile = project.rootProject.file("github.properties")
-    val isGithubPropAvailable = propertiesFile.exists()
+val githubProperties = Properties()
 
-    if (isGithubPropAvailable) {
-
-        val githubProperties = Properties().apply {
-            propertiesFile.reader().use { load(it) }
-        }
-
-        (this as org.gradle.api.plugins.ExtensionAware)
-            .extensions
-            .configure<PublishingExtension>("publishing") {
-                repositories {
-                    maven {
-                        name = "GithubPackages"
-                        url = uri("https://maven.pkg.github.com/wakaztahir/compose-icons")
-                        try {
-                            credentials {
-                                username = (githubProperties["gpr.usr"] ?: System.getenv("GPR_USER")).toString()
-                                password = (githubProperties["gpr.key"] ?: System.getenv("GPR_API_KEY")).toString()
-                            }
-                        } catch (ex: Exception) {
-                            ex.printStackTrace()
-                        }
-                    }
-                }
+fun PasswordCredentials.githubCredentials(file: File): Boolean {
+    if (githubProperties["gpr.usr"] == null || githubProperties["gpr.key"] == null) {
+        val propertiesFile = file
+        val isGithubPropAvailable = propertiesFile.exists()
+        val systemUser = System.getenv("GPR_USER")
+        val systemPass = System.getenv("GPR_API_KEY")
+        if (!isGithubPropAvailable && (systemUser == null || systemPass == null)) {
+            return false
+        } else {
+            file.reader().let {
+                githubProperties.load(it)
+                it.close()
             }
+            username = (githubProperties["gpr.usr"] ?: systemUser).toString()
+            password = (githubProperties["gpr.key"] ?: systemPass).toString()
+            return true
+        }
+    } else {
+        username = (githubProperties["gpr.usr"]).toString()
+        password = (githubProperties["gpr.key"]).toString()
+        return true
+    }
+}
+
+
+fun Project.setupGithubPublication() {
+    (this as org.gradle.api.plugins.ExtensionAware)
+        .extensions
+        .configure<PublishingExtension>("publishing") {
+            repositories {
+                githubPackagesRepository(this@setupGithubPublication)
+            }
+        }
+}
+
+fun RepositoryHandler.githubPackagesRepository(project: Project) {
+    if (project.rootProject.file("github.properties").exists()) {
+        maven {
+            name = "GithubPackages"
+            url = project.uri("https://maven.pkg.github.com/wakaztahir/compose-icons")
+            try {
+                credentials { githubCredentials(project.rootProject.file("github.properties")) }
+            } catch (ex: Exception) {
+                ex.printStackTrace()
+            }
+        }
     }
 }

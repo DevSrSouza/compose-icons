@@ -22,7 +22,7 @@ import androidx.compose.ui.window.Popup
 import compose.icons.*
 import compose.icons.materialdesignicons.ContentCopy
 
-val DependencyGroupUrl = "br.com.devsrsouza.compose.icons.android"
+val DependencyGroupUrl = "com.wakaztahir.compose-icons.jetbrains"
 val ModuleVersion = "1.0.0"
 
 enum class IconPacks(val getAllIcons: () -> List<ImageVector>,val accessorName : String,val moduleName : String,val typeName : String? = null,val types : List<String> = listOf()) {
@@ -33,7 +33,7 @@ enum class IconPacks(val getAllIcons: () -> List<ImageVector>,val accessorName :
     FontAwesome({ compose.icons.FontAwesomeIcons.AllIcons },"FontAwesomeIcons","font-awesome","Type",listOf("Brands","Regular","Solid")),
     ErikFlowersWeatherIcons({ compose.icons.WeatherIcons.AllIcons },"WeatherIcons","erikflowers-weather-icons"),
     LineAwesome({ compose.icons.LineAwesomeIcons.AllIcons },"LineAwesomeIcons","line-awesome"),
-    Linea({ compose.icons.LineaIcons.AllIcons },"LineaIcons","linea"),
+    Linea({ compose.icons.LineaIcons.AllIcons },"LineaIcons","linea","Category",listOf("Arrows","Basic","BasicElaboration","Ecommerce","Music","Software","Weather")),
     OctIcons({ compose.icons.Octicons.AllIcons },"Octicons","octicons"),
     CssGG({ compose.icons.CssGgIcons.AllIcons },"CssGgIcons","css-gg"),
     MaterialDesignIcons({ compose.icons.MaterialDesignIcons.AllIcons },"MaterialDesignIcons","materialdesignicons"),
@@ -149,6 +149,10 @@ fun App() {
                             actionIcon = MaterialDesignIcons.ContentCopy,
                             action = { copyText(dependencyText) }
                         )
+                        Text(
+                            text = "Dependency is on Github Packages",
+                            color = MaterialTheme.colors.onBackground.copy(.5f)
+                        )
                     }
                 }
             }
@@ -203,7 +207,7 @@ fun SearchField(
     search: String,
     onSearch: (String) -> Unit,
 ) {
-    Row(modifier = modifier) {
+    Row(modifier = modifier,verticalAlignment = Alignment.CenterVertically) {
         OutlinedTextField(
             modifier = Modifier.weight(1f),
             value = search,

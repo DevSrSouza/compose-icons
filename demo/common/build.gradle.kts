@@ -38,6 +38,23 @@ kotlin {
                 implementation(project(":remix-icons"))
                 implementation(project(":ion-icons"))
                 implementation(project(":fluentui-system-icons"))
+
+//                implementation("com.wakaztahir.compose-icons.jetbrains:simple-icons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:feather:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:tabler-icons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:eva-icons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:font-awesome:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:erikflowers-weather-icons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:line-awesome:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:linea:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:octicons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:css-gg:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:materialdesignicons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:phosphor-icons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:remix-icons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:ion-icons:1.0.0")
+//                implementation("com.wakaztahir.compose-icons.jetbrains:fluentui-system-icons:1.0.0")
+
             }
         }
         val commonTest by getting {
@@ -76,4 +93,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+}
+
+repositories {
+    google()
+    githubPackagesRepository(project)
+    mavenCentral()
 }

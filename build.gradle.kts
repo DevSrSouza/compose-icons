@@ -34,6 +34,7 @@ allprojects {
         mavenCentral()
         maven { url = uri("https://maven.pkg.jetbrains.space/public/p/compose/dev") }
         google()
+        githubPackagesRepository(this@allprojects)
     }
 
     publishing {
@@ -41,7 +42,6 @@ allprojects {
             maven {
                 name = "MavenCentral"
                 setUrl("https://oss.sonatype.org/service/local/staging/deploy/maven2/")
-
                 credentials {
                     username = MavenCentralEnv.ossrhUsername
                     password = MavenCentralEnv.ossrhPassword
