@@ -35,6 +35,7 @@ include(
     "fluentui-system-icons"
 )
 
+include("converter")
 include(
     "demo:android",
     "demo:common",
@@ -42,3 +43,4 @@ include(
 )
 include("script-definition")
 include("script-host")
+include("converter-help")

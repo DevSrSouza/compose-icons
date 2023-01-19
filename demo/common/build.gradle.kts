@@ -23,6 +23,7 @@ kotlin {
                 api(compose.foundation)
                 api(compose.material)
 
+                implementation(project(":converter"))
                 implementation(project(":simple-icons"))
                 implementation(project(":feather"))
                 implementation(project(":tabler-icons"))

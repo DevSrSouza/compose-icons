@@ -18,42 +18,92 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.Popup
 import compose.icons.*
+import compose.icons.converter.IconNameTransformer
+import compose.icons.converter.Svg2Compose
+import compose.icons.converter.VectorType
 import compose.icons.materialdesignicons.ContentCopy
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import java.io.File
 
 val DependencyGroupUrl = "com.wakaztahir.compose-icons.jetbrains"
 val ModuleVersion = "1.0.0"
 
-enum class IconPacks(val getAllIcons: () -> List<ImageVector>,val accessorName : String,val moduleName : String,val typeName : String? = null,val types : List<String> = listOf()) {
-    SimpleIcons({ compose.icons.SimpleIcons.AllIcons },"SimpleIcons","simple-icons"),
-    Feather({ compose.icons.FeatherIcons.AllIcons },"FeatherIcons","feather"),
-    TablerIcons({ compose.icons.TablerIcons.AllIcons },"TablerIcons","tabler-icons"),
-    EvaIcons({ compose.icons.EvaIcons.AllIcons },"EvaIcons","eva-icons","Type",listOf("Fill","Outline")),
-    FontAwesome({ compose.icons.FontAwesomeIcons.AllIcons },"FontAwesomeIcons","font-awesome","Type",listOf("Brands","Regular","Solid")),
-    ErikFlowersWeatherIcons({ compose.icons.WeatherIcons.AllIcons },"WeatherIcons","erikflowers-weather-icons"),
-    LineAwesome({ compose.icons.LineAwesomeIcons.AllIcons },"LineAwesomeIcons","line-awesome"),
-    Linea({ compose.icons.LineaIcons.AllIcons },"LineaIcons","linea","Category",listOf("Arrows","Basic","BasicElaboration","Ecommerce","Music","Software","Weather")),
-    OctIcons({ compose.icons.Octicons.AllIcons },"Octicons","octicons"),
-    CssGG({ compose.icons.CssGgIcons.AllIcons },"CssGgIcons","css-gg"),
-    MaterialDesignIcons({ compose.icons.MaterialDesignIcons.AllIcons },"MaterialDesignIcons","materialdesignicons"),
-    PhosphorIcons({ compose.icons.PhosphorIcons.AllIcons },"PhosphorIcons","phosphor-icons","Weight",listOf("Regular","Bold","Duotone","Fill","Light","Thin")),
-    RemixIcons({ compose.icons.RemixIcons.AllIcons },"RemixIcons","remix-icons"),
-    IonIcons({ compose.icons.IonIcons.AllIcons },"IonIcons","ion-icons"),
-    FluentUiIcons({ compose.icons.FluentUiIcons.AllIcons },"FluentUiIcons","fluentui-system-icons","Type",listOf("Regular","Filled"))
+enum class IconPacks(
+    val getAllIcons: () -> List<ImageVector>,
+    val accessorName: String,
+    val moduleName: String,
+    val typeName: String? = null,
+    val types: List<String> = listOf()
+) {
+    SimpleIcons({ compose.icons.SimpleIcons.AllIcons }, "SimpleIcons", "simple-icons"),
+    Feather({ compose.icons.FeatherIcons.AllIcons }, "FeatherIcons", "feather"),
+    TablerIcons({ compose.icons.TablerIcons.AllIcons }, "TablerIcons", "tabler-icons"),
+    EvaIcons({ compose.icons.EvaIcons.AllIcons }, "EvaIcons", "eva-icons", "Type", listOf("Fill", "Outline")),
+    FontAwesome(
+        { compose.icons.FontAwesomeIcons.AllIcons },
+        "FontAwesomeIcons",
+        "font-awesome",
+        "Type",
+        listOf("Brands", "Regular", "Solid")
+    ),
+    ErikFlowersWeatherIcons({ compose.icons.WeatherIcons.AllIcons }, "WeatherIcons", "erikflowers-weather-icons"),
+    LineAwesome({ compose.icons.LineAwesomeIcons.AllIcons }, "LineAwesomeIcons", "line-awesome"),
+    Linea(
+        { compose.icons.LineaIcons.AllIcons },
+        "LineaIcons",
+        "linea",
+        "Category",
+        listOf("Arrows", "Basic", "BasicElaboration", "Ecommerce", "Music", "Software", "Weather")
+    ),
+    OctIcons({ compose.icons.Octicons.AllIcons }, "Octicons", "octicons"),
+    CssGG({ compose.icons.CssGgIcons.AllIcons }, "CssGgIcons", "css-gg"),
+    MaterialDesignIcons({ compose.icons.MaterialDesignIcons.AllIcons }, "MaterialDesignIcons", "materialdesignicons"),
+    PhosphorIcons(
+        { compose.icons.PhosphorIcons.AllIcons },
+        "PhosphorIcons",
+        "phosphor-icons",
+        "Weight",
+        listOf("Regular", "Bold", "Duotone", "Fill", "Light", "Thin")
+    ),
+    RemixIcons({ compose.icons.RemixIcons.AllIcons }, "RemixIcons", "remix-icons"),
+    IonIcons({ compose.icons.IonIcons.AllIcons }, "IonIcons", "ion-icons"),
+    FluentUiIcons(
+        { compose.icons.FluentUiIcons.AllIcons },
+        "FluentUiIcons",
+        "fluentui-system-icons",
+        "Type",
+        listOf("Regular", "Filled")
+    )
 }
 
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
 fun App() {
 
+    val scope = rememberCoroutineScope()
     val AllIconPacks = remember { IconPacks.values() }
 
     var displayPack by remember { mutableStateOf<IconPacks?>(null) }
     var displayIcon by remember { mutableStateOf<Pair<IconPacks, ImageVector>?>(null) }
     var searchText by remember { mutableStateOf("") }
+    var vectorType by remember { mutableStateOf<VectorType?>(null) }
 
     Box {
         Column(modifier = Modifier.padding(16.dp)) {
+            Row {
+                Button(onClick = { vectorType = VectorType.SVG }){
+                    Text(text = "Convert SVG To Compose")
+                }
+                Spacer(modifier = Modifier.width(12.dp))
+                Button(onClick = { vectorType = VectorType.DRAWABLE }){
+                    Text(text = "Convert Drawable To Compose")
+                }
+            }
             SearchField(
                 modifier = Modifier.fillMaxWidth(),
                 search = searchText,
@@ -107,53 +157,47 @@ fun App() {
             }
         }
 
+        vectorType?.let { type->
+            GiveWindow(onDismissRequest = { vectorType = null }) {
+                ComposeConverter(scope = scope,vectorType = type)
+            }
+        }
+
         displayIcon?.let { dIcon ->
             val pack = dIcon.first
             val icon = dIcon.second
-            Popup(alignment = Alignment.Center, onDismissRequest = { displayIcon = null }) {
-                Box(
-                    modifier = Modifier.align(Alignment.Center).clip(MaterialTheme.shapes.medium).padding(16.dp)
-                        .widthIn(min = 240.dp, max = 620.dp)
-                        .heightIn(min = 160.dp, max = 440.dp)
-                        .shadow(elevation = 16.dp)
-                        .background(color = MaterialTheme.colors.surface, MaterialTheme.shapes.medium)
-                        .padding(16.dp)
+            BoxedPopup(onDismissRequest = { displayIcon = null }) {
+                Column(
+                    modifier = Modifier.align(Alignment.Center),
+                    verticalArrangement = Arrangement.spacedBy(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    IconButton(modifier = Modifier.align(Alignment.TopEnd), onClick = { displayIcon = null }) {
-                        Icon(imageVector = Icons.Default.Close, contentDescription = null)
-                    }
-                    Column(
-                        modifier = Modifier.align(Alignment.Center),
-                        verticalArrangement = Arrangement.spacedBy(16.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                        Icon(modifier = Modifier.size(120.dp), imageVector = icon, contentDescription = null)
-                        val typeCode = if(pack.typeName != null) ".{${pack.typeName}}." else "."
-                        val codeText = pack.accessorName + typeCode + icon.name
+                    Icon(modifier = Modifier.size(120.dp), imageVector = icon, contentDescription = null)
+                    val typeCode = if (pack.typeName != null) ".{${pack.typeName}}." else "."
+                    val codeText = pack.accessorName + typeCode + icon.name
+                    TextActionBlock(
+                        typeText = "Code",
+                        text = codeText,
+                        actionIcon = MaterialDesignIcons.ContentCopy,
+                        action = { copyText(codeText) }
+                    )
+                    if (pack.typeName != null) {
                         TextActionBlock(
-                            typeText = "Code",
-                            text = codeText,
-                            actionIcon = MaterialDesignIcons.ContentCopy,
-                            action = { copyText(codeText) }
-                        )
-                        if(pack.typeName != null){
-                            TextActionBlock(
-                                typeText = pack.typeName,
-                                text = pack.types.joinToString(separator = " | "),
-                            )
-                        }
-                        val dependencyText = DependencyGroupUrl + ":" + pack.moduleName + ":" + ModuleVersion
-                        TextActionBlock(
-                            typeText = "Dependency",
-                            text = dependencyText,
-                            actionIcon = MaterialDesignIcons.ContentCopy,
-                            action = { copyText(dependencyText) }
-                        )
-                        Text(
-                            text = "Dependency is on Github Packages",
-                            color = MaterialTheme.colors.onBackground.copy(.5f)
+                            typeText = pack.typeName,
+                            text = pack.types.joinToString(separator = " | "),
                         )
                     }
+                    val dependencyText = DependencyGroupUrl + ":" + pack.moduleName + ":" + ModuleVersion
+                    TextActionBlock(
+                        typeText = "Dependency",
+                        text = dependencyText,
+                        actionIcon = MaterialDesignIcons.ContentCopy,
+                        action = { copyText(dependencyText) }
+                    )
+                    Text(
+                        text = "Dependency is on Github Packages",
+                        color = MaterialTheme.colors.onBackground.copy(.5f)
+                    )
                 }
             }
         }
@@ -161,20 +205,47 @@ fun App() {
 
 }
 
-expect fun copyText(string : String)
+@Composable
+expect fun GiveWindow(onDismissRequest: () -> Unit,content : @Composable ()->Unit)
+
+@Composable
+fun BoxScope.BoxedPopup(
+    modifier: Modifier = Modifier,
+    onDismissRequest: () -> Unit,
+    content: @Composable BoxScope.() -> Unit
+) {
+    Popup(alignment = Alignment.Center, onDismissRequest = onDismissRequest) {
+        Box(
+            modifier = modifier.align(Alignment.Center).clip(MaterialTheme.shapes.medium).padding(16.dp)
+                .widthIn(min = 240.dp)
+                .heightIn(min = 160.dp)
+                .shadow(elevation = 16.dp)
+                .background(color = MaterialTheme.colors.surface, MaterialTheme.shapes.medium)
+                .padding(16.dp),
+            content = {
+                IconButton(modifier = Modifier.align(Alignment.TopEnd), onClick = onDismissRequest) {
+                    Icon(imageVector = Icons.Default.Close, contentDescription = null)
+                }
+                content()
+            }
+        )
+    }
+}
+
+expect fun copyText(string: String)
 
 
 @Composable
-expect fun HorizontalScrollbar(modifier : Modifier,state : ScrollState)
+expect fun HorizontalScrollbar(modifier: Modifier, state: ScrollState)
 
 @Composable
 fun TextActionBlock(
-    modifier : Modifier = Modifier,
-    typeText : String,
-    text : String,
-    actionIcon : (ImageVector)? = null,
-    action : ()->Unit = {}
-){
+    modifier: Modifier = Modifier,
+    typeText: String,
+    text: String,
+    actionIcon: (ImageVector)? = null,
+    action: () -> Unit = {}
+) {
     Row(
         modifier = modifier.background(
             color = MaterialTheme.colors.onBackground.copy(.3f),
@@ -193,7 +264,7 @@ fun TextActionBlock(
             )
         }
         Spacer(modifier = Modifier.width(8.dp))
-        if(actionIcon != null) {
+        if (actionIcon != null) {
             IconButton(onClick = action) {
                 Icon(imageVector = actionIcon, contentDescription = null)
             }
@@ -207,7 +278,7 @@ fun SearchField(
     search: String,
     onSearch: (String) -> Unit,
 ) {
-    Row(modifier = modifier,verticalAlignment = Alignment.CenterVertically) {
+    Row(modifier = modifier, verticalAlignment = Alignment.CenterVertically) {
         OutlinedTextField(
             modifier = Modifier.weight(1f),
             value = search,
@@ -260,7 +331,7 @@ fun DisplayIcon(
 
 @Composable
 fun DisplayPackSelection(
-    modifier : Modifier = Modifier,
+    modifier: Modifier = Modifier,
     all: Array<IconPacks>,
     current: IconPacks?,
     onUpdate: (IconPacks?) -> Unit
@@ -285,7 +356,7 @@ fun DisplayPackSelection(
                 )
             }
         }
-        HorizontalScrollbar(modifier = Modifier.fillMaxWidth(),state = scrollState)
+        HorizontalScrollbar(modifier = Modifier.fillMaxWidth(), state = scrollState)
     }
 }
 
@@ -305,4 +376,133 @@ fun SelectablePack(
     ) {
         Text(modifier = Modifier.align(Alignment.Center), text = text)
     }
+}
+
+@Composable
+fun ComposeConverter(
+    modifier: Modifier = Modifier,
+    scope: CoroutineScope = rememberCoroutineScope(),
+    vectorType: VectorType,
+) {
+    // application package string = compose.icons
+    // accessor name string = MyIcons
+    // output directory
+    // input directory
+    // icon name transformer = {Group}.{IconName}
+    // all assets property name = AllAssets
+
+    var packageName by remember { mutableStateOf("compose.icons") }
+    var accessorName by remember { mutableStateOf("MyIcons") }
+    var transformer by remember { mutableStateOf("{IconName}") }
+    var allAssetsPropName by remember { mutableStateOf("AllAssets") }
+    var inputDir by remember { mutableStateOf<String>("") }
+    var outputDir by remember { mutableStateOf<String>("") }
+    var isConverting by remember { mutableStateOf(false) }
+
+    fun convert() {
+        if (inputDir.trim().isEmpty() || outputDir.trim().isEmpty()) {
+            return
+        }
+        if (!transformer.contains("{Group}") && !transformer.contains("{IconName}")) {
+            return
+        }
+        val inputFile = File(inputDir)
+        val outputFile = File(outputDir)
+        val realTransformer: IconNameTransformer = { iconName, group ->
+            transformer.replace("{Group}", group).replace("{IconName}", iconName)
+        }
+        scope.launch(Dispatchers.IO) {
+            isConverting = true
+            try {
+                Svg2Compose.parse(
+                    applicationIconPackage = packageName,
+                    accessorName = accessorName,
+                    outputSourceDirectory = outputFile,
+                    vectorsDirectory = inputFile,
+                    type = vectorType,
+                    iconNameTransformer = realTransformer,
+                    allAssetsPropertyName = allAssetsPropName,
+                )
+            } catch (e: Exception) {
+                e.printStackTrace()
+            } finally {
+                isConverting = false
+            }
+        }
+    }
+
+    Column(modifier = modifier, horizontalAlignment = Alignment.CenterHorizontally) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(text = "App Package Name")
+            Spacer(modifier = Modifier.width(8.dp))
+            OutlinedTextField(
+                value = packageName,
+                onValueChange = { packageName = it },
+                enabled = !isConverting,
+                label = { Text(text = "Package Name") }
+            )
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(text = "Accessor Name")
+            Spacer(modifier = Modifier.width(8.dp))
+            OutlinedTextField(
+                value = accessorName,
+                onValueChange = { accessorName = it },
+                enabled = !isConverting,
+                label = { Text(text = "Accessor Name") }
+            )
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(text = "Input Directory Path")
+            Spacer(modifier = Modifier.width(8.dp))
+            OutlinedTextField(
+                value = inputDir,
+                onValueChange = { inputDir = it },
+                label = { Text(text = "Input Dir Path") },
+                enabled = !isConverting,
+                placeholder = { Text(text = "This is where your icons are svgs/xml") }
+            )
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(text = "Output Directory Path")
+            Spacer(modifier = Modifier.width(8.dp))
+            OutlinedTextField(
+                value = outputDir,
+                onValueChange = { outputDir = it },
+                label = { Text(text = "Output Dir Path") },
+                enabled = !isConverting,
+                placeholder = { Text(text = "This is where they will be exported") }
+            )
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(text = "Icon Name Transformer")
+            Spacer(modifier = Modifier.width(8.dp))
+            OutlinedTextField(
+                value = transformer,
+                onValueChange = { transformer = it },
+                enabled = !isConverting,
+                label = { Text(text = "Icon Name Transformer you can use {Group} & {IconName}") }
+            )
+        }
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Text(text = "All Assets Property Name")
+            Spacer(modifier = Modifier.width(8.dp))
+            OutlinedTextField(
+                value = allAssetsPropName,
+                onValueChange = { allAssetsPropName = it },
+                enabled = !isConverting,
+                label = { Text(text = "All Assets Property Name") }
+            )
+        }
+
+        Button(onClick = { convert() },enabled = !isConverting) {
+            if(isConverting){
+                CircularProgressIndicator(color = MaterialTheme.colors.onBackground)
+            }else {
+                Text(text = "Submit")
+            }
+        }
+
+    }
+
 }

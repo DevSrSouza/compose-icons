@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/compose-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/compose-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/converter/compose-icons.converter.desktopMain.iml" filepath="$PROJECT_DIR$/.idea/modules/converter/compose-icons.converter.desktopMain.iml" />
     </modules>
   </component>
 </project>

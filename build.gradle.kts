@@ -35,6 +35,9 @@ allprojects {
         maven { url = uri("https://maven.pkg.jetbrains.space/public/p/compose/dev") }
         google()
         githubPackagesRepository(this@allprojects)
+        maven {
+            url = uri("https://jitpack.io") // maven repo where the current library resides
+        }
     }
 
     publishing {

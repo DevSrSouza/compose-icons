@@ -4,6 +4,7 @@ import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.rememberScrollbarAdapter
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.window.Window
 import java.awt.Toolkit
 import java.awt.datatransfer.Clipboard
 import java.awt.datatransfer.StringSelection
@@ -20,4 +21,11 @@ actual fun HorizontalScrollbar(modifier: Modifier, state: ScrollState) {
         modifier = modifier,
         adapter = rememberScrollbarAdapter(state)
     )
+}
+
+@Composable
+actual fun GiveWindow(onDismissRequest: () -> Unit, content: @Composable () -> Unit) {
+    Window(onCloseRequest = onDismissRequest){
+        content()
+    }
 }
