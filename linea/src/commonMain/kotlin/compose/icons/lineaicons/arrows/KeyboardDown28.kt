@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.lineaicons.ArrowsGroup
 
-public val ArrowsGroup.`KeyboardDown-28`: ImageVector
+public val ArrowsGroup.KeyboardDown28: ImageVector
     get() {
-        if (`_keyboardDown-28` != null) {
-            return `_keyboardDown-28`!!
+        if (_keyboardDown28 != null) {
+            return _keyboardDown28!!
         }
-        `_keyboardDown-28` = Builder(name = "KeyboardDown-28", defaultWidth = 64.0.dp, defaultHeight
-                = 64.0.dp, viewportWidth = 64.0f, viewportHeight = 64.0f).apply {
+        _keyboardDown28 = Builder(name = "KeyboardDown28", defaultWidth = 64.0.dp, defaultHeight =
+                64.0.dp, viewportWidth = 64.0f, viewportHeight = 64.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF231F20)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Bevel,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -49,7 +49,7 @@ public val ArrowsGroup.`KeyboardDown-28`: ImageVector
             }
         }
         .build()
-        return `_keyboardDown-28`!!
+        return _keyboardDown28!!
     }
 
-private var `_keyboardDown-28`: ImageVector? = null
+private var _keyboardDown28: ImageVector? = null

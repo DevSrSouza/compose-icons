@@ -28,6 +28,7 @@ import compose.icons.lineaicons.arrows.Deny
 import compose.icons.lineaicons.arrows.Diagonal
 import compose.icons.lineaicons.arrows.Diagonal2
 import compose.icons.lineaicons.arrows.Down
+import compose.icons.lineaicons.arrows.DownDouble34
 import compose.icons.lineaicons.arrows.Downleft
 import compose.icons.lineaicons.arrows.Downright
 import compose.icons.lineaicons.arrows.DragDown
@@ -55,7 +56,9 @@ import compose.icons.lineaicons.arrows.Hamburger2
 import compose.icons.lineaicons.arrows.Horizontal
 import compose.icons.lineaicons.arrows.Info
 import compose.icons.lineaicons.arrows.KeyboardAlt
+import compose.icons.lineaicons.arrows.KeyboardCmd29
 import compose.icons.lineaicons.arrows.KeyboardDelete
+import compose.icons.lineaicons.arrows.KeyboardDown28
 import compose.icons.lineaicons.arrows.KeyboardLeft
 import compose.icons.lineaicons.arrows.KeyboardReturn
 import compose.icons.lineaicons.arrows.KeyboardRight
@@ -63,6 +66,7 @@ import compose.icons.lineaicons.arrows.KeyboardShift
 import compose.icons.lineaicons.arrows.KeyboardTab
 import compose.icons.lineaicons.arrows.KeyboardUp
 import compose.icons.lineaicons.arrows.Left
+import compose.icons.lineaicons.arrows.LeftDouble32
 import compose.icons.lineaicons.arrows.Minus
 import compose.icons.lineaicons.arrows.Move
 import compose.icons.lineaicons.arrows.Move2
@@ -74,6 +78,7 @@ import compose.icons.lineaicons.arrows.Plus
 import compose.icons.lineaicons.arrows.Question
 import compose.icons.lineaicons.arrows.Remove
 import compose.icons.lineaicons.arrows.Right
+import compose.icons.lineaicons.arrows.RightDouble31
 import compose.icons.lineaicons.arrows.Rotate
 import compose.icons.lineaicons.arrows.RotateAnti
 import compose.icons.lineaicons.arrows.RotateAntiDashed
@@ -132,11 +137,6 @@ import compose.icons.lineaicons.arrows.Up
 import compose.icons.lineaicons.arrows.UpDouble
 import compose.icons.lineaicons.arrows.Upright
 import compose.icons.lineaicons.arrows.Vertical
-import compose.icons.lineaicons.arrows.`DownDouble-34`
-import compose.icons.lineaicons.arrows.`KeyboardCmd-29`
-import compose.icons.lineaicons.arrows.`KeyboardDown-28`
-import compose.icons.lineaicons.arrows.`LeftDouble-32`
-import compose.icons.lineaicons.arrows.`RightDouble-31`
 import kotlin.collections.List as ____KtList
 
 public object ArrowsGroup
@@ -155,22 +155,21 @@ public val ArrowsGroup.AllIcons: ____KtList<ImageVector>
         ButtonUp, Check, CircleCheck, CircleDown, CircleDownleft, CircleDownright, CircleLeft,
         CircleMinus, CirclePlus, CircleRemove, CircleRight, CircleUp, CircleUpleft, CircleUpright,
         Clockwise, ClockwiseDashed, Compress, Deny, Diagonal, Diagonal2, Down, Downleft, Downright,
-        `DownDouble-34`, DragDown, DragDownDashed, DragHoriz, DragLeft, DragLeftDashed, DragRight,
+        DownDouble34, DragDown, DragDownDashed, DragHoriz, DragLeft, DragLeftDashed, DragRight,
         DragRightDashed, DragUp, DragUpDashed, DragVert, Exclamation, Expand, ExpandDiagonal1,
         ExpandHorizontal1, ExpandVertical1, FitHorizontal, FitVertical, Glide, GlideHorizontal,
-        GlideVertical, Hamburger1, Hamburger2, Horizontal, Info, KeyboardAlt, `KeyboardCmd-29`,
-        KeyboardDelete, `KeyboardDown-28`, KeyboardLeft, KeyboardReturn, KeyboardRight,
-        KeyboardShift, KeyboardTab, KeyboardUp, Left, `LeftDouble-32`, Minus, Move, Move2,
-        MoveBottom, MoveLeft, MoveRight, MoveTop, Plus, Question, Remove, Right, `RightDouble-31`,
-        Rotate, RotateAnti, RotateAntiDashed, RotateDashed, Shrink, ShrinkDiagonal1,
-        ShrinkDiagonal2, ShrinkHorizonal2, ShrinkHorizontal1, ShrinkVertical1, ShrinkVertical2,
-        SignDown, SignLeft, SignRight, SignUp, SlideDown1, SlideDown2, SlideLeft1, SlideLeft2,
-        SlideRight1, SlideRight2, SlideUp1, SlideUp2, SlimDown, SlimDownDashed, SlimLeft,
-        SlimLeftDashed, SlimRight, SlimRightDashed, SlimUp, SlimUpDashed, Squares, SquareCheck,
-        SquareDown, SquareDownleft, SquareDownright, SquareLeft, SquareMinus, SquarePlus,
-        SquareRemove, SquareRight, SquareUp, SquareUpleft, SquareUpright, StretchDiagonal1,
-        StretchDiagonal2, StretchDiagonal3, StretchDiagonal4, StretchHorizontal1,
-        StretchHorizontal2, StretchVertical1, StretchVertical2, SwitchHorizontal, SwitchVertical,
-        Up, Upright, UpDouble, Vertical)
+        GlideVertical, Hamburger1, Hamburger2, Horizontal, Info, KeyboardAlt, KeyboardCmd29,
+        KeyboardDelete, KeyboardDown28, KeyboardLeft, KeyboardReturn, KeyboardRight, KeyboardShift,
+        KeyboardTab, KeyboardUp, Left, LeftDouble32, Minus, Move, Move2, MoveBottom, MoveLeft,
+        MoveRight, MoveTop, Plus, Question, Remove, Right, RightDouble31, Rotate, RotateAnti,
+        RotateAntiDashed, RotateDashed, Shrink, ShrinkDiagonal1, ShrinkDiagonal2, ShrinkHorizonal2,
+        ShrinkHorizontal1, ShrinkVertical1, ShrinkVertical2, SignDown, SignLeft, SignRight, SignUp,
+        SlideDown1, SlideDown2, SlideLeft1, SlideLeft2, SlideRight1, SlideRight2, SlideUp1,
+        SlideUp2, SlimDown, SlimDownDashed, SlimLeft, SlimLeftDashed, SlimRight, SlimRightDashed,
+        SlimUp, SlimUpDashed, Squares, SquareCheck, SquareDown, SquareDownleft, SquareDownright,
+        SquareLeft, SquareMinus, SquarePlus, SquareRemove, SquareRight, SquareUp, SquareUpleft,
+        SquareUpright, StretchDiagonal1, StretchDiagonal2, StretchDiagonal3, StretchDiagonal4,
+        StretchHorizontal1, StretchHorizontal2, StretchVertical1, StretchVertical2,
+        SwitchHorizontal, SwitchVertical, Up, Upright, UpDouble, Vertical)
     return __AllIcons!!
   }

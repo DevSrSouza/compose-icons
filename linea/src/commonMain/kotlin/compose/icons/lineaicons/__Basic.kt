@@ -44,6 +44,8 @@ import compose.icons.lineaicons.basic.Floppydisk
 import compose.icons.lineaicons.basic.Folder
 import compose.icons.lineaicons.basic.FolderMultiple
 import compose.icons.lineaicons.basic.Gear
+import compose.icons.lineaicons.basic.Geolocalize01
+import compose.icons.lineaicons.basic.Geolocalize05
 import compose.icons.lineaicons.basic.Globe
 import compose.icons.lineaicons.basic.Gunsight
 import compose.icons.lineaicons.basic.Hammer
@@ -135,8 +137,6 @@ import compose.icons.lineaicons.basic.WebpageImgTxt
 import compose.icons.lineaicons.basic.WebpageMultiple
 import compose.icons.lineaicons.basic.WebpageTxt
 import compose.icons.lineaicons.basic.World
-import compose.icons.lineaicons.basic.`Geolocalize-01`
-import compose.icons.lineaicons.basic.`Geolocalize-05`
 import kotlin.collections.List as ____KtList
 
 public object BasicGroup
@@ -155,9 +155,9 @@ public val BasicGroup.AllIcons: ____KtList<ImageVector>
         BatteryCharge, BatteryEmpty, BatteryFull, BatteryHalf, Bolt, Book, Bookmark, BookPen,
         BookPencil, Calculator, Calendar, CardsDiamonds, CardsHearts, Case, Chronometer, Clessidre,
         Clock, Clockwise, Cloud, Clubs, Compass, Cup, Diamonds, Display, Download, Exclamation, Eye,
-        EyeClosed, Female, Flag1, Flag2, Floppydisk, Folder, FolderMultiple, Gear, `Geolocalize-01`,
-        `Geolocalize-05`, Globe, Gunsight, Hammer, Headset, Heart, HeartBroken, Helm, Home, Info,
-        Ipod, Joypad, Key, Keyboard, Laptop, LifeBuoy, Lightbulb, Link, Lock, LockOpen, MagicMouse,
+        EyeClosed, Female, Flag1, Flag2, Floppydisk, Folder, FolderMultiple, Gear, Geolocalize01,
+        Geolocalize05, Globe, Gunsight, Hammer, Headset, Heart, HeartBroken, Helm, Home, Info, Ipod,
+        Joypad, Key, Keyboard, Laptop, LifeBuoy, Lightbulb, Link, Lock, LockOpen, MagicMouse,
         Magnifier, MagnifierMinus, MagnifierPlus, Mail, MailMultiple, MailOpen, MailOpenText, Male,
         Map, Message, MessageMultiple, MessageTxt, Mixer2, Mouse, Notebook, NotebookPen,
         NotebookPencil, Paperplane, PencilRuler, PencilRulerPen, Photo, Picture, PictureMultiple,

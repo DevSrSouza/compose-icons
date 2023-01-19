@@ -14,30 +14,30 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.lineaicons.ArrowsGroup
 
-public val ArrowsGroup.`DownDouble-34`: ImageVector
+public val ArrowsGroup.LeftDouble32: ImageVector
     get() {
-        if (`_downDouble-34` != null) {
-            return `_downDouble-34`!!
+        if (_leftDouble32 != null) {
+            return _leftDouble32!!
         }
-        `_downDouble-34` = Builder(name = "DownDouble-34", defaultWidth = 64.0.dp, defaultHeight =
+        _leftDouble32 = Builder(name = "LeftDouble32", defaultWidth = 64.0.dp, defaultHeight =
                 64.0.dp, viewportWidth = 64.0f, viewportHeight = 64.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Bevel,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(48.936f, 31.0f)
-                lineToRelative(-17.0f, 17.0f)
+                moveTo(32.936f, 48.936f)
                 lineToRelative(-17.0f, -17.0f)
+                lineToRelative(17.0f, -17.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Bevel,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(48.936f, 16.0f)
-                lineToRelative(-17.0f, 17.0f)
+                moveTo(47.936f, 48.936f)
                 lineToRelative(-17.0f, -17.0f)
+                lineToRelative(17.0f, -17.0f)
             }
         }
         .build()
-        return `_downDouble-34`!!
+        return _leftDouble32!!
     }
 
-private var `_downDouble-34`: ImageVector? = null
+private var _leftDouble32: ImageVector? = null

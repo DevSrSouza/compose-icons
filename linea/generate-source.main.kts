@@ -54,9 +54,9 @@ for(f in repoIconsDirs) {
 
     val relocateFolder = File(iconsDir, groupName).apply { mkdirs() }
 
-    svgsDir.listFiles().filter { it.extension == "svg" }
+    svgsDir.listFiles()!!.filter { it.extension == "svg" }
         .forEach {
-            val iconName = it.nameWithoutExtension.removePrefix(groupName).replace(" ", "_").trim() + "." + it.extension
+            val iconName = it.nameWithoutExtension.removePrefix(groupName).replace(" ", "_").replace("-","_").trim() + "." + it.extension
             val relocateIcon = File(relocateFolder, iconName)
 
             it.copyTo(relocateIcon)

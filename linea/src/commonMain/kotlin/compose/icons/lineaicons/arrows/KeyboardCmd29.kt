@@ -15,12 +15,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.lineaicons.ArrowsGroup
 
-public val ArrowsGroup.`KeyboardCmd-29`: ImageVector
+public val ArrowsGroup.KeyboardCmd29: ImageVector
     get() {
-        if (`_keyboardCmd-29` != null) {
-            return `_keyboardCmd-29`!!
+        if (_keyboardCmd29 != null) {
+            return _keyboardCmd29!!
         }
-        `_keyboardCmd-29` = Builder(name = "KeyboardCmd-29", defaultWidth = 64.0.dp, defaultHeight =
+        _keyboardCmd29 = Builder(name = "KeyboardCmd29", defaultWidth = 64.0.dp, defaultHeight =
                 64.0.dp, viewportWidth = 64.0f, viewportHeight = 64.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF231F20)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Bevel,
@@ -64,7 +64,7 @@ public val ArrowsGroup.`KeyboardCmd-29`: ImageVector
             }
         }
         .build()
-        return `_keyboardCmd-29`!!
+        return _keyboardCmd29!!
     }
 
-private var `_keyboardCmd-29`: ImageVector? = null
+private var _keyboardCmd29: ImageVector? = null

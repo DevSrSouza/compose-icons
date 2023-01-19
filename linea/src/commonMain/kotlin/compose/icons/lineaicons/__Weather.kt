@@ -53,6 +53,8 @@ import compose.icons.lineaicons.weather.SnowHalfmoon
 import compose.icons.lineaicons.weather.SnowSun
 import compose.icons.lineaicons.weather.Snowflake
 import compose.icons.lineaicons.weather.Star
+import compose.icons.lineaicons.weather.Storm11
+import compose.icons.lineaicons.weather.Storm32
 import compose.icons.lineaicons.weather.StormFullmoon
 import compose.icons.lineaicons.weather.StormHalfmoon
 import compose.icons.lineaicons.weather.StormSun
@@ -85,8 +87,6 @@ import compose.icons.lineaicons.weather.WindSun
 import compose.icons.lineaicons.weather.WindSw
 import compose.icons.lineaicons.weather.WindW
 import compose.icons.lineaicons.weather.Windgust
-import compose.icons.lineaicons.weather.`Storm-11`
-import compose.icons.lineaicons.weather.`Storm-32`
 import kotlin.collections.List as ____KtList
 
 public object WeatherGroup
@@ -107,11 +107,10 @@ public val WeatherGroup.AllIcons: ____KtList<ImageVector>
         HailSun, LastQuarter, Leo, Libra, Lightning, Mistyrain, MistyrainFullmoon,
         MistyrainHalfmoon, MistyrainSun, Moon, MoondownFull, MoondownHalf, MoonsetFull, MoonsetHalf,
         Move2, Newmoon, Pisces, Rain, RainFullmoon, RainHalfmoon, RainSun, Sagittarius, Scorpio,
-        Snow, Snowflake, SnowFullmoon, SnowHalfmoon, SnowSun, Star, `Storm-11`, `Storm-32`,
-        StormFullmoon, StormHalfmoon, StormSun, Sun, Sundown, Sunset, Taurus, Tempest,
-        TempestFullmoon, TempestHalfmoon, TempestSun, VariableFullmoon, VariableHalfmoon,
-        VariableSun, Virgo, WaningCresent, WaningGibbous, WaxingCresent, WaxingGibbous, Wind,
-        Windgust, WindE, WindFullmoon, WindHalfmoon, WindN, WindNe, WindNw, WindS, WindSe, WindSun,
-        WindSw, WindW)
+        Snow, Snowflake, SnowFullmoon, SnowHalfmoon, SnowSun, Star, Storm11, Storm32, StormFullmoon,
+        StormHalfmoon, StormSun, Sun, Sundown, Sunset, Taurus, Tempest, TempestFullmoon,
+        TempestHalfmoon, TempestSun, VariableFullmoon, VariableHalfmoon, VariableSun, Virgo,
+        WaningCresent, WaningGibbous, WaxingCresent, WaxingGibbous, Wind, Windgust, WindE,
+        WindFullmoon, WindHalfmoon, WindN, WindNe, WindNw, WindS, WindSe, WindSun, WindSw, WindW)
     return __AllIcons!!
   }

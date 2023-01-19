@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.lineaicons.SoftwareGroup
 
-public val SoftwareGroup.`Layout-8boxes`: ImageVector
+public val SoftwareGroup.Layout8boxes: ImageVector
     get() {
-        if (`_layout-8boxes` != null) {
-            return `_layout-8boxes`!!
+        if (_layout8boxes != null) {
+            return _layout8boxes!!
         }
-        `_layout-8boxes` = Builder(name = "Layout-8boxes", defaultWidth = 64.0.dp, defaultHeight =
+        _layout8boxes = Builder(name = "Layout8boxes", defaultWidth = 64.0.dp, defaultHeight =
                 64.0.dp, viewportWidth = 64.0f, viewportHeight = 64.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -95,7 +95,7 @@ public val SoftwareGroup.`Layout-8boxes`: ImageVector
             }
         }
         .build()
-        return `_layout-8boxes`!!
+        return _layout8boxes!!
     }
 
-private var `_layout-8boxes`: ImageVector? = null
+private var _layout8boxes: ImageVector? = null

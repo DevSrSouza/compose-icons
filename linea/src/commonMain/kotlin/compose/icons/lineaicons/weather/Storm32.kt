@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.lineaicons.WeatherGroup
 
-public val WeatherGroup.`Storm-11`: ImageVector
+public val WeatherGroup.Storm32: ImageVector
     get() {
-        if (`_storm-11` != null) {
-            return `_storm-11`!!
+        if (_storm32 != null) {
+            return _storm32!!
         }
-        `_storm-11` = Builder(name = "Storm-11", defaultWidth = 64.0.dp, defaultHeight = 64.0.dp,
+        _storm32 = Builder(name = "Storm32", defaultWidth = 64.0.dp, defaultHeight = 64.0.dp,
                 viewportWidth = 64.0f, viewportHeight = 64.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -38,36 +38,30 @@ public val WeatherGroup.`Storm-11`: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(23.0f, 46.0f)
-                lineTo(15.0f, 60.0f)
+                moveTo(32.0f, 46.0f)
+                lineToRelative(-3.0f, 7.0f)
+                lineToRelative(4.0f, 0.0f)
+                lineToRelative(-4.0f, 7.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(13.0f, 46.0f)
-                lineTo(5.0f, 60.0f)
+                moveTo(42.0f, 46.0f)
+                lineToRelative(-3.0f, 7.0f)
+                lineToRelative(4.0f, 0.0f)
+                lineToRelative(-4.0f, 7.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(33.0f, 46.0f)
-                lineTo(25.0f, 60.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
-                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(43.0f, 46.0f)
-                lineTo(35.0f, 60.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
-                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(53.0f, 46.0f)
-                lineTo(45.0f, 60.0f)
+                moveTo(22.0f, 46.0f)
+                lineToRelative(-3.0f, 7.0f)
+                lineToRelative(4.0f, 0.0f)
+                lineToRelative(-4.0f, 7.0f)
             }
         }
         .build()
-        return `_storm-11`!!
+        return _storm32!!
     }
 
-private var `_storm-11`: ImageVector? = null
+private var _storm32: ImageVector? = null

@@ -6,14 +6,14 @@ private val Project.publishingExtension get() =
 
 
 fun Project.setupSigning() {
-    (this as org.gradle.api.plugins.ExtensionAware)
-        .extensions
-        .configure<SigningExtension>("signing") {
-            useInMemoryPgpKeys(
-                SigningEnv.secretKey,
-                SigningEnv.password
-            )
-
-            sign(publishingExtension.publications)
-        }
+//    (this as org.gradle.api.plugins.ExtensionAware)
+//        .extensions
+//        .configure<SigningExtension>("signing") {
+//            useInMemoryPgpKeys(
+//                SigningEnv.secretKey,
+//                SigningEnv.password
+//            )
+//
+//            sign(publishingExtension.publications)
+//        }
 }

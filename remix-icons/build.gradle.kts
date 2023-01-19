@@ -4,11 +4,11 @@ plugins {
     id("com.android.library")
 }
 
-group = Publish.groupJetbrains
+group = Publish.groupId
 
 kotlin {
     android {
-        publishLibraryVariants()
+        publishLibraryVariants("release")
     }
     jvm("desktop") {
         compilations.all {

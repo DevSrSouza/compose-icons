@@ -1,6 +1,8 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="feather-js-1.0.0">
     <output-path>$PROJECT_DIR$/feather/build/libs</output-path>
-    <root id="archive" name="feather-js-1.0.0.jar" />
+    <root id="archive" name="feather-js-1.0.0.jar">
+      <element id="module-output" name="compose-icons.feather.jsMain" />
+    </root>
   </artifact>
 </component>

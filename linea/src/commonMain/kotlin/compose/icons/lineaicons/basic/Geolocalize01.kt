@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.lineaicons.BasicGroup
 
-public val BasicGroup.`Geolocalize-01`: ImageVector
+public val BasicGroup.Geolocalize01: ImageVector
     get() {
-        if (`_geolocalize-01` != null) {
-            return `_geolocalize-01`!!
+        if (_geolocalize01 != null) {
+            return _geolocalize01!!
         }
-        `_geolocalize-01` = Builder(name = "Geolocalize-01", defaultWidth = 64.0.dp, defaultHeight =
+        _geolocalize01 = Builder(name = "Geolocalize01", defaultWidth = 64.0.dp, defaultHeight =
                 64.0.dp, viewportWidth = 64.0f, viewportHeight = 64.0f).apply {
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -41,7 +41,7 @@ public val BasicGroup.`Geolocalize-01`: ImageVector
             }
         }
         .build()
-        return `_geolocalize-01`!!
+        return _geolocalize01!!
     }
 
-private var `_geolocalize-01`: ImageVector? = null
+private var _geolocalize01: ImageVector? = null

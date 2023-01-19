@@ -1,6 +1,8 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="octicons-js-1.0.0">
     <output-path>$PROJECT_DIR$/octicons/build/libs</output-path>
-    <root id="archive" name="octicons-js-1.0.0.jar" />
+    <root id="archive" name="octicons-js-1.0.0.jar">
+      <element id="module-output" name="compose-icons.octicons.jsMain" />
+    </root>
   </artifact>
 </component>

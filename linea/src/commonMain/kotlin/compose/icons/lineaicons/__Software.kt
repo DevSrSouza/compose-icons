@@ -40,6 +40,7 @@ import compose.icons.lineaicons.software.Layout3columns
 import compose.icons.lineaicons.software.Layout4boxes
 import compose.icons.lineaicons.software.Layout4columns
 import compose.icons.lineaicons.software.Layout4lines
+import compose.icons.lineaicons.software.Layout8boxes
 import compose.icons.lineaicons.software.LayoutHeader
 import compose.icons.lineaicons.software.LayoutHeader2columns
 import compose.icons.lineaicons.software.LayoutHeader3columns
@@ -101,7 +102,6 @@ import compose.icons.lineaicons.software.VerticalAlignTop
 import compose.icons.lineaicons.software.VerticalDistributeBottom
 import compose.icons.lineaicons.software.VerticalDistributeCenter
 import compose.icons.lineaicons.software.VerticalDistributeTop
-import compose.icons.lineaicons.software.`Layout-8boxes`
 import kotlin.collections.List as ____KtList
 
 public object SoftwareGroup
@@ -122,12 +122,12 @@ public val SoftwareGroup.AllIcons: ____KtList<ImageVector>
         FontTracking, FontUnderline, FontVerticalScale, HorizontalAlignCenter, HorizontalAlignLeft,
         HorizontalAlignRight, HorizontalDistributeCenter, HorizontalDistributeLeft,
         HorizontalDistributeRight, IndentFirstline, IndentLeft, IndentRight, Lasso, Layers1,
-        Layers2, `Layout-8boxes`, Layout, Layout2columns, Layout3columns, Layout4boxes,
-        Layout4columns, Layout4lines, LayoutHeader, LayoutHeader2columns, LayoutHeader3columns,
-        LayoutHeader4boxes, LayoutHeader4columns, LayoutHeaderComplex, LayoutHeaderComplex2,
-        LayoutHeaderComplex3, LayoutHeaderComplex4, LayoutHeaderSideleft, LayoutHeaderSideright,
-        LayoutSidebarLeft, LayoutSidebarRight, Magnete, Pages, Paintbrush, Paintbucket, Paintroller,
-        Paragraph, ParagraphAlignLeft, ParagraphAlignRight, ParagraphCenter, ParagraphJustifyAll,
+        Layers2, Layout, Layout2columns, Layout3columns, Layout4boxes, Layout4columns, Layout4lines,
+        Layout8boxes, LayoutHeader, LayoutHeader2columns, LayoutHeader3columns, LayoutHeader4boxes,
+        LayoutHeader4columns, LayoutHeaderComplex, LayoutHeaderComplex2, LayoutHeaderComplex3,
+        LayoutHeaderComplex4, LayoutHeaderSideleft, LayoutHeaderSideright, LayoutSidebarLeft,
+        LayoutSidebarRight, Magnete, Pages, Paintbrush, Paintbucket, Paintroller, Paragraph,
+        ParagraphAlignLeft, ParagraphAlignRight, ParagraphCenter, ParagraphJustifyAll,
         ParagraphJustifyCenter, ParagraphJustifyLeft, ParagraphJustifyRight, ParagraphSpaceAfter,
         ParagraphSpaceBefore, PathfinderExclude, PathfinderIntersect, PathfinderSubtract,
         PathfinderUnite, Pen, Pencil, PenAdd, PenRemove, Polygonallasso, ReflectHorizontal,
