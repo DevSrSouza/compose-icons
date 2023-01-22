@@ -35,7 +35,7 @@ import org.xmlpull.v1.XmlPullParserException;
 /**
  * An XML pull parser with limited support for parsing internal DTDs.
  */
-public class KXmlParser implements XmlPullParser, Closeable {
+public class KXmlParser2 implements XmlPullParser, Closeable {
 
     private static final String PROPERTY_XMLDECL_VERSION
             = "http://xmlpull.org/v1/doc/properties.html#xmldecl-version";

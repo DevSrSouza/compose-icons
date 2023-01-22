@@ -98,7 +98,7 @@ fun RepositoryHandler.githubPackagesRepository(project: Project) {
     if (project.rootProject.file("github.properties").exists()) {
         maven {
             name = "GithubPackages"
-            url = project.uri("https://maven.pkg.github.com/wakaztahir/compose-icons")
+            url = project.uri("https://maven.pkg.github.com/Qawaz/compose-icons")
             try {
                 credentials { githubCredentials(project.rootProject.file("github.properties")) }
             } catch (ex: Exception) {

@@ -2,7 +2,7 @@
 // for license please see accompanying LICENSE.txt file (available also at http://www.xmlpull.org/)
 package androidx.compose.material.icons.generator;
 
-import org.kxml2.io.KXmlParser;
+import org.kxml2.io.KXmlParser2;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlSerializer;
@@ -140,7 +140,7 @@ public class XmlPullParserFactory {
     }
 
     public XmlPullParser coolParserBoy() throws XmlPullParserException {
-        XmlPullParser parser = new KXmlParser();
+        XmlPullParser parser = new KXmlParser2();
         initializePullParser(parser);
         return parser;
     }

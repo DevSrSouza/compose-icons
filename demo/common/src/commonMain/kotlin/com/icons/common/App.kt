@@ -30,7 +30,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.io.File
 
-val DependencyGroupUrl = "com.wakaztahir.compose-icons.jetbrains"
+val DependencyGroupUrl = "com.wakaztahir.compose-icons"
 val ModuleVersion = "1.0.0"
 
 enum class IconPacks(

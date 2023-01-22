@@ -26,7 +26,7 @@ import java.util.Arrays;
 import java.util.Locale;
 import org.xmlpull.v1.*;
 
-public class KXmlSerializer implements XmlSerializer {
+public class KXmlSerializer2 implements XmlSerializer {
 
     private static final int BUFFER_LEN = 8192;
     private final char[] mText = new char[BUFFER_LEN];
