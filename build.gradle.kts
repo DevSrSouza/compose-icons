@@ -52,6 +52,26 @@ allprojects {
     }
 }
 
+tasks.register("publish-icons-github"){
+    dependsOn(
+        ":simple-icons:publishAllPublicationsToGithubPackagesRepository",
+        ":feather:publishAllPublicationsToGithubPackagesRepository",
+        ":tabler-icons:publishAllPublicationsToGithubPackagesRepository",
+        ":eva-icons:publishAllPublicationsToGithubPackagesRepository",
+        ":font-awesome:publishAllPublicationsToGithubPackagesRepository",
+        ":erikflowers-weather-icons:publishAllPublicationsToGithubPackagesRepository",
+        ":line-awesome:publishAllPublicationsToGithubPackagesRepository",
+        ":linea:publishAllPublicationsToGithubPackagesRepository",
+        ":octicons:publishAllPublicationsToGithubPackagesRepository",
+        ":css-gg:publishAllPublicationsToGithubPackagesRepository",
+        ":materialdesignicons:publishAllPublicationsToGithubPackagesRepository",
+        ":phosphor-icons:publishAllPublicationsToGithubPackagesRepository",
+        ":remix-icons:publishAllPublicationsToGithubPackagesRepository",
+        ":ion-icons:publishAllPublicationsToGithubPackagesRepository",
+        ":fluentui-system-icons:publishAllPublicationsToGithubPackagesRepository"
+    )
+}
+
 repositories {
     mavenCentral()
 }

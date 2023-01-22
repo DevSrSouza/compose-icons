@@ -46,5 +46,10 @@
       <option name="name" value="maven2" />
       <option name="url" value="https://jitpack.io" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="GithubPackages" />
+      <option name="name" value="GithubPackages" />
+      <option name="url" value="https://maven.pkg.github.com/Qawaz/compose-icons" />
+    </remote-repository>
   </component>
 </project>
