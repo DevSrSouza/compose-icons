@@ -55,6 +55,7 @@ kotlin {
                 implementation("com.wakaztahir.compose-icons:remix-icons:1.0.0")
                 implementation("com.wakaztahir.compose-icons:ion-icons:1.0.0")
                 implementation("com.wakaztahir.compose-icons:fluentui-system-icons:1.0.0")
+                implementation("com.wakaztahir.compose-icons:studio-icons:1.0.0")
 
             }
         }

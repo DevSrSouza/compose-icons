@@ -46,7 +46,7 @@ import compose.icons.studioicons.sharp.AddToDrive
 import compose.icons.studioicons.sharp.AddToHomeScreen
 import compose.icons.studioicons.sharp.AddToPhotos
 import compose.icons.studioicons.sharp.AddToQueue
-import compose.icons.studioicons.sharp.Addchart
+import compose.icons.studioicons.sharp.AddChart
 import compose.icons.studioicons.sharp.AdfScanner
 import compose.icons.studioicons.sharp.Adjust
 import compose.icons.studioicons.sharp.AdminPanelSettings
@@ -2122,6 +2122,7 @@ import compose.icons.studioicons.sharp._8mp
 import compose.icons.studioicons.sharp._9k
 import compose.icons.studioicons.sharp._9kPlus
 import compose.icons.studioicons.sharp._9mp
+import compose.icons.studioicons.twotone.AddChart
 import kotlin.collections.List as ____KtList
 
 public object SharpGroup
@@ -2143,7 +2144,7 @@ public val SharpGroup.AllAssets: ____KtList<ImageVector>
         _60fpsSelect, _6k, _6kPlus, _6mp, _6FtApart, _7k, _7kPlus, _7mp, _8k, _8kPlus, _8mp, _9k,
         _9kPlus, _9mp, Abc, Accessibility, AccessibilityNew, Accessible, AccessibleForward,
         AccessAlarm, AccessAlarms, AccessTime, AccessTimeFilled, AccountBalance,
-        AccountBalanceWallet, AccountBox, AccountCircle, AccountTree, AcUnit, Adb, Add, Addchart,
+        AccountBalanceWallet, AccountBox, AccountCircle, AccountTree, AcUnit, Adb, Add, AddChart,
         AddAlarm, AddAlert, AddAPhoto, AddBox, AddBusiness, AddCard, AddChart, AddCircle,
         AddCircleOutline, AddComment, AddHome, AddHomeWork, AddIcCall, AddLink, AddLocation,
         AddLocationAlt, AddModerator, AddPhotoAlternate, AddReaction, AddRoad, AddShoppingCart,

@@ -46,7 +46,7 @@ import compose.icons.studioicons.baseline.AddToDrive
 import compose.icons.studioicons.baseline.AddToHomeScreen
 import compose.icons.studioicons.baseline.AddToPhotos
 import compose.icons.studioicons.baseline.AddToQueue
-import compose.icons.studioicons.baseline.Addchart
+import compose.icons.studioicons.baseline.AddChart
 import compose.icons.studioicons.baseline.AdfScanner
 import compose.icons.studioicons.baseline.Adjust
 import compose.icons.studioicons.baseline.AdminPanelSettings
@@ -2124,6 +2124,7 @@ import compose.icons.studioicons.baseline._8mp
 import compose.icons.studioicons.baseline._9k
 import compose.icons.studioicons.baseline._9kPlus
 import compose.icons.studioicons.baseline._9mp
+import compose.icons.studioicons.round.AddChart
 import kotlin.collections.List as ____KtList
 
 public object BaselineGroup
@@ -2145,7 +2146,7 @@ public val BaselineGroup.AllAssets: ____KtList<ImageVector>
         _60fpsSelect, _6k, _6kPlus, _6mp, _6FtApart, _7k, _7kPlus, _7mp, _8k, _8kPlus, _8mp, _9k,
         _9kPlus, _9mp, Abc, Accessibility, AccessibilityNew, Accessible, AccessibleForward,
         AccessAlarm, AccessAlarms, AccessTime, AccessTimeFilled, AccountBalance,
-        AccountBalanceWallet, AccountBox, AccountCircle, AccountTree, AcUnit, Adb, Add, Addchart,
+        AccountBalanceWallet, AccountBox, AccountCircle, AccountTree, AcUnit, Adb, Add, AddChart,
         AddAlarm, AddAlert, AddAPhoto, AddBox, AddBusiness, AddCard, AddChart, AddCircle,
         AddCircleOutline, AddComment, AddHome, AddHomeWork, AddIcCall, AddLink, AddLocation,
         AddLocationAlt, AddModerator, AddPhotoAlternate, AddReaction, AddRoad, AddShoppingCart,

@@ -46,7 +46,7 @@ import compose.icons.studioicons.round.AddToDrive
 import compose.icons.studioicons.round.AddToHomeScreen
 import compose.icons.studioicons.round.AddToPhotos
 import compose.icons.studioicons.round.AddToQueue
-import compose.icons.studioicons.round.Addchart
+import compose.icons.studioicons.round.AddChart
 import compose.icons.studioicons.round.AdfScanner
 import compose.icons.studioicons.round.Adjust
 import compose.icons.studioicons.round.AdminPanelSettings
@@ -2144,7 +2144,7 @@ public val RoundGroup.AllAssets: ____KtList<ImageVector>
         _60fpsSelect, _6k, _6kPlus, _6mp, _6FtApart, _7k, _7kPlus, _7mp, _8k, _8kPlus, _8mp, _9k,
         _9kPlus, _9mp, Abc, Accessibility, AccessibilityNew, Accessible, AccessibleForward,
         AccessAlarm, AccessAlarms, AccessTime, AccessTimeFilled, AccountBalance,
-        AccountBalanceWallet, AccountBox, AccountCircle, AccountTree, AcUnit, Adb, Add, Addchart,
+        AccountBalanceWallet, AccountBox, AccountCircle, AccountTree, AcUnit, Adb, Add, AddChart,
         AddAlarm, AddAlert, AddAPhoto, AddBox, AddBusiness, AddCard, AddChart, AddCircle,
         AddCircleOutline, AddComment, AddHome, AddHomeWork, AddIcCall, AddLink, AddLocation,
         AddLocationAlt, AddModerator, AddPhotoAlternate, AddReaction, AddRoad, AddShoppingCart,

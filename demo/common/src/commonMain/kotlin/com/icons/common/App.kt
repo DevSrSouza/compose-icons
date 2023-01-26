@@ -78,6 +78,13 @@ enum class IconPacks(
         "fluentui-system-icons",
         "Type",
         listOf("Regular", "Filled")
+    ),
+    StudioIcons(
+        { compose.icons.StudioIcons.AllIcons },
+        "StudioIcons",
+        "studio-icons",
+        "Type",
+        listOf("Baseline","Outline","Round","Sharp","Twotone")
     )
 }
 

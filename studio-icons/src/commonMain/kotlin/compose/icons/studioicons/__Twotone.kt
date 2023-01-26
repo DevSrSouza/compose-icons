@@ -46,7 +46,7 @@ import compose.icons.studioicons.twotone.AddToDrive
 import compose.icons.studioicons.twotone.AddToHomeScreen
 import compose.icons.studioicons.twotone.AddToPhotos
 import compose.icons.studioicons.twotone.AddToQueue
-import compose.icons.studioicons.twotone.Addchart
+import compose.icons.studioicons.twotone.AddChart
 import compose.icons.studioicons.twotone.AdfScanner
 import compose.icons.studioicons.twotone.Adjust
 import compose.icons.studioicons.twotone.AdminPanelSettings
@@ -2145,7 +2145,7 @@ public val TwotoneGroup.AllAssets: ____KtList<ImageVector>
         _60fpsSelect, _6k, _6kPlus, _6mp, _6FtApart, _7k, _7kPlus, _7mp, _8k, _8kPlus, _8mp, _9k,
         _9kPlus, _9mp, Abc, Accessibility, AccessibilityNew, Accessible, AccessibleForward,
         AccessAlarm, AccessAlarms, AccessTime, AccessTimeFilled, AccountBalance,
-        AccountBalanceWallet, AccountBox, AccountCircle, AccountTree, AcUnit, Adb, Add, Addchart,
+        AccountBalanceWallet, AccountBox, AccountCircle, AccountTree, AcUnit, Adb, Add, AddChart,
         AddAlarm, AddAlert, AddAPhoto, AddBox, AddBusiness, AddCard, AddChart, AddCircle,
         AddCircleOutline, AddComment, AddHome, AddHomeWork, AddIcCall, AddLink, AddLocation,
         AddLocationAlt, AddModerator, AddPhotoAlternate, AddReaction, AddRoad, AddShoppingCart,
