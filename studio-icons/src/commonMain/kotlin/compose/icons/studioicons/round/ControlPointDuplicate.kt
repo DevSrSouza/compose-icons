@@ -1,0 +1,70 @@
+package compose.icons.studioicons.round
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.studioicons.RoundGroup
+
+public val RoundGroup.ControlPointDuplicate: ImageVector
+    get() {
+        if (_controlPointDuplicate != null) {
+            return _controlPointDuplicate!!
+        }
+        _controlPointDuplicate = Builder(name = "ControlPointDuplicate", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(15.0f, 8.0f)
+                curveToRelative(-0.55f, 0.0f, -1.0f, 0.45f, -1.0f, 1.0f)
+                verticalLineToRelative(2.0f)
+                horizontalLineToRelative(-2.0f)
+                curveToRelative(-0.55f, 0.0f, -1.0f, 0.45f, -1.0f, 1.0f)
+                reflectiveCurveToRelative(0.45f, 1.0f, 1.0f, 1.0f)
+                horizontalLineToRelative(2.0f)
+                verticalLineToRelative(2.0f)
+                curveToRelative(0.0f, 0.55f, 0.45f, 1.0f, 1.0f, 1.0f)
+                reflectiveCurveToRelative(1.0f, -0.45f, 1.0f, -1.0f)
+                verticalLineToRelative(-2.0f)
+                horizontalLineToRelative(2.0f)
+                curveToRelative(0.55f, 0.0f, 1.0f, -0.45f, 1.0f, -1.0f)
+                reflectiveCurveToRelative(-0.45f, -1.0f, -1.0f, -1.0f)
+                horizontalLineToRelative(-2.0f)
+                lineTo(16.0f, 9.0f)
+                curveToRelative(0.0f, -0.55f, -0.45f, -1.0f, -1.0f, -1.0f)
+                close()
+                moveTo(2.0f, 12.0f)
+                curveToRelative(0.0f, -2.58f, 1.4f, -4.83f, 3.48f, -6.04f)
+                curveToRelative(0.32f, -0.19f, 0.53f, -0.51f, 0.53f, -0.88f)
+                curveToRelative(0.0f, -0.77f, -0.84f, -1.25f, -1.51f, -0.86f)
+                curveTo(1.82f, 5.78f, 0.0f, 8.68f, 0.0f, 12.0f)
+                reflectiveCurveToRelative(1.82f, 6.22f, 4.5f, 7.78f)
+                curveToRelative(0.67f, 0.39f, 1.51f, -0.09f, 1.51f, -0.86f)
+                curveToRelative(0.0f, -0.37f, -0.21f, -0.69f, -0.53f, -0.88f)
+                curveTo(3.4f, 16.83f, 2.0f, 14.58f, 2.0f, 12.0f)
+                close()
+                moveTo(15.0f, 3.0f)
+                curveToRelative(-4.96f, 0.0f, -9.0f, 4.04f, -9.0f, 9.0f)
+                reflectiveCurveToRelative(4.04f, 9.0f, 9.0f, 9.0f)
+                reflectiveCurveToRelative(9.0f, -4.04f, 9.0f, -9.0f)
+                reflectiveCurveToRelative(-4.04f, -9.0f, -9.0f, -9.0f)
+                close()
+                moveTo(15.0f, 19.0f)
+                curveToRelative(-3.86f, 0.0f, -7.0f, -3.14f, -7.0f, -7.0f)
+                reflectiveCurveToRelative(3.14f, -7.0f, 7.0f, -7.0f)
+                reflectiveCurveToRelative(7.0f, 3.14f, 7.0f, 7.0f)
+                reflectiveCurveToRelative(-3.14f, 7.0f, -7.0f, 7.0f)
+                close()
+            }
+        }
+        .build()
+        return _controlPointDuplicate!!
+    }
+
+private var _controlPointDuplicate: ImageVector? = null

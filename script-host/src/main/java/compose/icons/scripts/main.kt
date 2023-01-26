@@ -16,7 +16,7 @@ fun evalFile(scriptFile: File): ResultWithDiagnostics<EvaluationResult> {
     return BasicJvmScriptingHost().eval(scriptFile.toScriptSource(), compilationConfiguration, null)
 }
 
-enum class ScriptsAvailable(val projPath: String, val pathToScript: String = "$projPath/generate-source.main.kts") {
+enum class ScriptsAvailable(val projPath: String, val pathToScript: String = "$projPath/generate-source.main.kts",val inapp : Boolean = false) {
     simple_icons("simple-icons"),
     feather("feather"),
     tabler_icons("tabler-icons"),
@@ -31,7 +31,8 @@ enum class ScriptsAvailable(val projPath: String, val pathToScript: String = "$p
     phosphor_icons("phosphor-icons"),
     remix_icons("remix-icons"),
     ion_icons("ion-icons"),
-    fluent_ui_system_icons("fluentui-system-icons")
+    fluent_ui_system_icons("fluentui-system-icons"),
+    generate_studio("",inapp = true)
 }
 
 fun main(vararg args: String) {
@@ -44,7 +45,21 @@ fun main(vararg args: String) {
                 println("Script No $number won't be executed , Wrong number\n")
             } else {
                 val script = available[number]
-                executeScript(script.pathToScript)
+                if(script.inapp){
+                    when(script){
+                        ScriptsAvailable.generate_studio -> {
+                            val inputDir = File(System.getProperty("user.dir") + "\\script-host\\input\\material")
+                            val outputDir = File(System.getProperty("user.dir") + "\\script-host\\output")
+                            processStudioIcons(
+                                rootDir = inputDir,
+                                outDir = outputDir
+                            )
+                        }
+                        else -> throw IllegalArgumentException("couldn't execute in app script")
+                    }
+                }else {
+                    executeScript(script.pathToScript)
+                }
             }
         }
 

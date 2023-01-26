@@ -32,7 +32,8 @@ include(
     "phosphor-icons",
     "remix-icons",
     "ion-icons",
-    "fluentui-system-icons"
+    "fluentui-system-icons",
+    "studio-icons"
 )
 
 include("converter")
