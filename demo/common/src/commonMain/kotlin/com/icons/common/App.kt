@@ -80,7 +80,7 @@ enum class IconPacks(
         listOf("Regular", "Filled")
     ),
     StudioIcons(
-        { compose.icons.StudioIcons.AllIcons },
+        { compose.icons.StudioIcons.AllAssets },
         "StudioIcons",
         "studio-icons",
         "Type",
