@@ -11,6 +11,7 @@ pluginManagement {
         kotlin("jvm").version(extra["kotlin.version"] as String).apply(false)
         kotlin("android").version(extra["kotlin.version"] as String).apply(false)
         kotlin("multiplatform").version(extra["kotlin.version"] as String).apply(false)
+        id("org.jetbrains.compose").version(extra["compose.version"] as String).apply(false)
     }
 }
 

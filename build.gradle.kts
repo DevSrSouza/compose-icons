@@ -5,9 +5,10 @@ buildscript {
         jcenter()
     }
     dependencies {
+        val kotlinVersion = property("kotlin.version")
         classpath("com.android.tools.build:gradle:7.3.1")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}")
-        classpath("org.jetbrains.kotlin:kotlin-serialization:${Versions.kotlin}")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+        classpath("org.jetbrains.kotlin:kotlin-serialization:$kotlinVersion")
     }
 }
 
