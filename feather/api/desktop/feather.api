@@ -1,0 +1,1153 @@
+public final class compose/icons/FeatherIcons {
+	public static final field $stable I
+	public static final field INSTANCE Lcompose/icons/FeatherIcons;
+}
+
+public final class compose/icons/__FeatherIconsKt {
+	public static final fun getAllIcons (Lcompose/icons/FeatherIcons;)Ljava/util/List;
+}
+
+public final class compose/icons/feathericons/ActivityKt {
+	public static final fun getActivity (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AirplayKt {
+	public static final fun getAirplay (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AlertCircleKt {
+	public static final fun getAlertCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AlertOctagonKt {
+	public static final fun getAlertOctagon (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AlertTriangleKt {
+	public static final fun getAlertTriangle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AlignCenterKt {
+	public static final fun getAlignCenter (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AlignJustifyKt {
+	public static final fun getAlignJustify (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AlignLeftKt {
+	public static final fun getAlignLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AlignRightKt {
+	public static final fun getAlignRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AnchorKt {
+	public static final fun getAnchor (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ApertureKt {
+	public static final fun getAperture (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArchiveKt {
+	public static final fun getArchive (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowDownCircleKt {
+	public static final fun getArrowDownCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowDownKt {
+	public static final fun getArrowDown (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowDownLeftKt {
+	public static final fun getArrowDownLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowDownRightKt {
+	public static final fun getArrowDownRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowLeftCircleKt {
+	public static final fun getArrowLeftCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowLeftKt {
+	public static final fun getArrowLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowRightCircleKt {
+	public static final fun getArrowRightCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowRightKt {
+	public static final fun getArrowRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowUpCircleKt {
+	public static final fun getArrowUpCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowUpKt {
+	public static final fun getArrowUp (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowUpLeftKt {
+	public static final fun getArrowUpLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ArrowUpRightKt {
+	public static final fun getArrowUpRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AtSignKt {
+	public static final fun getAtSign (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/AwardKt {
+	public static final fun getAward (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BarChart2Kt {
+	public static final fun getBarChart2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BarChartKt {
+	public static final fun getBarChart (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BatteryChargingKt {
+	public static final fun getBatteryCharging (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BatteryKt {
+	public static final fun getBattery (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BellKt {
+	public static final fun getBell (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BellOffKt {
+	public static final fun getBellOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BluetoothKt {
+	public static final fun getBluetooth (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BoldKt {
+	public static final fun getBold (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BookKt {
+	public static final fun getBook (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BookOpenKt {
+	public static final fun getBookOpen (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BookmarkKt {
+	public static final fun getBookmark (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BoxKt {
+	public static final fun getBox (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/BriefcaseKt {
+	public static final fun getBriefcase (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CalendarKt {
+	public static final fun getCalendar (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CameraKt {
+	public static final fun getCamera (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CameraOffKt {
+	public static final fun getCameraOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CastKt {
+	public static final fun getCast (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CheckCircleKt {
+	public static final fun getCheckCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CheckKt {
+	public static final fun getCheck (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CheckSquareKt {
+	public static final fun getCheckSquare (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChevronDownKt {
+	public static final fun getChevronDown (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChevronLeftKt {
+	public static final fun getChevronLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChevronRightKt {
+	public static final fun getChevronRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChevronUpKt {
+	public static final fun getChevronUp (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChevronsDownKt {
+	public static final fun getChevronsDown (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChevronsLeftKt {
+	public static final fun getChevronsLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChevronsRightKt {
+	public static final fun getChevronsRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChevronsUpKt {
+	public static final fun getChevronsUp (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ChromeKt {
+	public static final fun getChrome (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CircleKt {
+	public static final fun getCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ClipboardKt {
+	public static final fun getClipboard (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ClockKt {
+	public static final fun getClock (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CloudDrizzleKt {
+	public static final fun getCloudDrizzle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CloudKt {
+	public static final fun getCloud (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CloudLightningKt {
+	public static final fun getCloudLightning (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CloudOffKt {
+	public static final fun getCloudOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CloudRainKt {
+	public static final fun getCloudRain (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CloudSnowKt {
+	public static final fun getCloudSnow (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CodeKt {
+	public static final fun getCode (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CodepenKt {
+	public static final fun getCodepen (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CodesandboxKt {
+	public static final fun getCodesandbox (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CoffeeKt {
+	public static final fun getCoffee (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ColumnsKt {
+	public static final fun getColumns (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CommandKt {
+	public static final fun getCommand (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CompassKt {
+	public static final fun getCompass (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CopyKt {
+	public static final fun getCopy (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CornerDownLeftKt {
+	public static final fun getCornerDownLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CornerDownRightKt {
+	public static final fun getCornerDownRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CornerLeftDownKt {
+	public static final fun getCornerLeftDown (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CornerLeftUpKt {
+	public static final fun getCornerLeftUp (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CornerRightDownKt {
+	public static final fun getCornerRightDown (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CornerRightUpKt {
+	public static final fun getCornerRightUp (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CornerUpLeftKt {
+	public static final fun getCornerUpLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CornerUpRightKt {
+	public static final fun getCornerUpRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CpuKt {
+	public static final fun getCpu (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CreditCardKt {
+	public static final fun getCreditCard (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CropKt {
+	public static final fun getCrop (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/CrosshairKt {
+	public static final fun getCrosshair (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DatabaseKt {
+	public static final fun getDatabase (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DeleteKt {
+	public static final fun getDelete (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DiscKt {
+	public static final fun getDisc (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DivideCircleKt {
+	public static final fun getDivideCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DivideKt {
+	public static final fun getDivide (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DivideSquareKt {
+	public static final fun getDivideSquare (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DollarSignKt {
+	public static final fun getDollarSign (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DownloadCloudKt {
+	public static final fun getDownloadCloud (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DownloadKt {
+	public static final fun getDownload (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DribbbleKt {
+	public static final fun getDribbble (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/DropletKt {
+	public static final fun getDroplet (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Edit2Kt {
+	public static final fun getEdit2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Edit3Kt {
+	public static final fun getEdit3 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/EditKt {
+	public static final fun getEdit (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ExternalLinkKt {
+	public static final fun getExternalLink (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/EyeKt {
+	public static final fun getEye (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/EyeOffKt {
+	public static final fun getEyeOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FacebookKt {
+	public static final fun getFacebook (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FastForwardKt {
+	public static final fun getFastForward (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FeatherKt {
+	public static final fun getFeather (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FigmaKt {
+	public static final fun getFigma (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FileKt {
+	public static final fun getFile (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FileMinusKt {
+	public static final fun getFileMinus (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FilePlusKt {
+	public static final fun getFilePlus (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FileTextKt {
+	public static final fun getFileText (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FilmKt {
+	public static final fun getFilm (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FilterKt {
+	public static final fun getFilter (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FlagKt {
+	public static final fun getFlag (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FolderKt {
+	public static final fun getFolder (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FolderMinusKt {
+	public static final fun getFolderMinus (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FolderPlusKt {
+	public static final fun getFolderPlus (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FramerKt {
+	public static final fun getFramer (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/FrownKt {
+	public static final fun getFrown (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GiftKt {
+	public static final fun getGift (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GitBranchKt {
+	public static final fun getGitBranch (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GitCommitKt {
+	public static final fun getGitCommit (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GitMergeKt {
+	public static final fun getGitMerge (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GitPullRequestKt {
+	public static final fun getGitPullRequest (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GithubKt {
+	public static final fun getGithub (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GitlabKt {
+	public static final fun getGitlab (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GlobeKt {
+	public static final fun getGlobe (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/GridKt {
+	public static final fun getGrid (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/HardDriveKt {
+	public static final fun getHardDrive (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/HashKt {
+	public static final fun getHash (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/HeadphonesKt {
+	public static final fun getHeadphones (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/HeartKt {
+	public static final fun getHeart (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/HelpCircleKt {
+	public static final fun getHelpCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/HexagonKt {
+	public static final fun getHexagon (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/HomeKt {
+	public static final fun getHome (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ImageKt {
+	public static final fun getImage (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/InboxKt {
+	public static final fun getInbox (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/InfoKt {
+	public static final fun getInfo (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/InstagramKt {
+	public static final fun getInstagram (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ItalicKt {
+	public static final fun getItalic (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/KeyKt {
+	public static final fun getKey (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LayersKt {
+	public static final fun getLayers (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LayoutKt {
+	public static final fun getLayout (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LifeBuoyKt {
+	public static final fun getLifeBuoy (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Link2Kt {
+	public static final fun getLink2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LinkKt {
+	public static final fun getLink (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LinkedinKt {
+	public static final fun getLinkedin (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ListKt {
+	public static final fun getList (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LoaderKt {
+	public static final fun getLoader (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LockKt {
+	public static final fun getLock (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LogInKt {
+	public static final fun getLogIn (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/LogOutKt {
+	public static final fun getLogOut (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MailKt {
+	public static final fun getMail (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MapKt {
+	public static final fun getMap (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MapPinKt {
+	public static final fun getMapPin (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Maximize2Kt {
+	public static final fun getMaximize2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MaximizeKt {
+	public static final fun getMaximize (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MehKt {
+	public static final fun getMeh (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MenuKt {
+	public static final fun getMenu (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MessageCircleKt {
+	public static final fun getMessageCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MessageSquareKt {
+	public static final fun getMessageSquare (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MicKt {
+	public static final fun getMic (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MicOffKt {
+	public static final fun getMicOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Minimize2Kt {
+	public static final fun getMinimize2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MinimizeKt {
+	public static final fun getMinimize (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MinusCircleKt {
+	public static final fun getMinusCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MinusKt {
+	public static final fun getMinus (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MinusSquareKt {
+	public static final fun getMinusSquare (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MonitorKt {
+	public static final fun getMonitor (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MoonKt {
+	public static final fun getMoon (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MoreHorizontalKt {
+	public static final fun getMoreHorizontal (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MoreVerticalKt {
+	public static final fun getMoreVertical (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MousePointerKt {
+	public static final fun getMousePointer (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MoveKt {
+	public static final fun getMove (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/MusicKt {
+	public static final fun getMusic (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Navigation2Kt {
+	public static final fun getNavigation2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/NavigationKt {
+	public static final fun getNavigation (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/OctagonKt {
+	public static final fun getOctagon (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PackageKt {
+	public static final fun getPackage (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PaperclipKt {
+	public static final fun getPaperclip (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PauseCircleKt {
+	public static final fun getPauseCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PauseKt {
+	public static final fun getPause (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PenToolKt {
+	public static final fun getPenTool (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PercentKt {
+	public static final fun getPercent (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PhoneCallKt {
+	public static final fun getPhoneCall (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PhoneForwardedKt {
+	public static final fun getPhoneForwarded (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PhoneIncomingKt {
+	public static final fun getPhoneIncoming (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PhoneKt {
+	public static final fun getPhone (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PhoneMissedKt {
+	public static final fun getPhoneMissed (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PhoneOffKt {
+	public static final fun getPhoneOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PhoneOutgoingKt {
+	public static final fun getPhoneOutgoing (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PieChartKt {
+	public static final fun getPieChart (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PlayCircleKt {
+	public static final fun getPlayCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PlayKt {
+	public static final fun getPlay (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PlusCircleKt {
+	public static final fun getPlusCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PlusKt {
+	public static final fun getPlus (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PlusSquareKt {
+	public static final fun getPlusSquare (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PocketKt {
+	public static final fun getPocket (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PowerKt {
+	public static final fun getPower (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/PrinterKt {
+	public static final fun getPrinter (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/RadioKt {
+	public static final fun getRadio (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/RefreshCcwKt {
+	public static final fun getRefreshCcw (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/RefreshCwKt {
+	public static final fun getRefreshCw (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/RepeatKt {
+	public static final fun getRepeat (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/RewindKt {
+	public static final fun getRewind (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/RotateCcwKt {
+	public static final fun getRotateCcw (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/RotateCwKt {
+	public static final fun getRotateCw (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/RssKt {
+	public static final fun getRss (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SaveKt {
+	public static final fun getSave (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ScissorsKt {
+	public static final fun getScissors (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SearchKt {
+	public static final fun getSearch (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SendKt {
+	public static final fun getSend (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ServerKt {
+	public static final fun getServer (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SettingsKt {
+	public static final fun getSettings (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Share2Kt {
+	public static final fun getShare2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ShareKt {
+	public static final fun getShare (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ShieldKt {
+	public static final fun getShield (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ShieldOffKt {
+	public static final fun getShieldOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ShoppingBagKt {
+	public static final fun getShoppingBag (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ShoppingCartKt {
+	public static final fun getShoppingCart (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ShuffleKt {
+	public static final fun getShuffle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SidebarKt {
+	public static final fun getSidebar (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SkipBackKt {
+	public static final fun getSkipBack (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SkipForwardKt {
+	public static final fun getSkipForward (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SlackKt {
+	public static final fun getSlack (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SlashKt {
+	public static final fun getSlash (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SlidersKt {
+	public static final fun getSliders (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SmartphoneKt {
+	public static final fun getSmartphone (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SmileKt {
+	public static final fun getSmile (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SpeakerKt {
+	public static final fun getSpeaker (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SquareKt {
+	public static final fun getSquare (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/StarKt {
+	public static final fun getStar (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/StopCircleKt {
+	public static final fun getStopCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SunKt {
+	public static final fun getSun (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SunriseKt {
+	public static final fun getSunrise (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/SunsetKt {
+	public static final fun getSunset (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TabletKt {
+	public static final fun getTablet (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TagKt {
+	public static final fun getTag (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TargetKt {
+	public static final fun getTarget (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TerminalKt {
+	public static final fun getTerminal (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ThermometerKt {
+	public static final fun getThermometer (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ThumbsDownKt {
+	public static final fun getThumbsDown (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ThumbsUpKt {
+	public static final fun getThumbsUp (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ToggleLeftKt {
+	public static final fun getToggleLeft (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ToggleRightKt {
+	public static final fun getToggleRight (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ToolKt {
+	public static final fun getTool (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Trash2Kt {
+	public static final fun getTrash2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TrashKt {
+	public static final fun getTrash (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TrelloKt {
+	public static final fun getTrello (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TrendingDownKt {
+	public static final fun getTrendingDown (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TrendingUpKt {
+	public static final fun getTrendingUp (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TriangleKt {
+	public static final fun getTriangle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TruckKt {
+	public static final fun getTruck (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TvKt {
+	public static final fun getTv (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TwitchKt {
+	public static final fun getTwitch (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TwitterKt {
+	public static final fun getTwitter (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/TypeKt {
+	public static final fun getType (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UmbrellaKt {
+	public static final fun getUmbrella (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UnderlineKt {
+	public static final fun getUnderline (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UnlockKt {
+	public static final fun getUnlock (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UploadCloudKt {
+	public static final fun getUploadCloud (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UploadKt {
+	public static final fun getUpload (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UserCheckKt {
+	public static final fun getUserCheck (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UserKt {
+	public static final fun getUser (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UserMinusKt {
+	public static final fun getUserMinus (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UserPlusKt {
+	public static final fun getUserPlus (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UserXKt {
+	public static final fun getUserX (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/UsersKt {
+	public static final fun getUsers (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/VideoKt {
+	public static final fun getVideo (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/VideoOffKt {
+	public static final fun getVideoOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/VoicemailKt {
+	public static final fun getVoicemail (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Volume1Kt {
+	public static final fun getVolume1 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/Volume2Kt {
+	public static final fun getVolume2 (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/VolumeKt {
+	public static final fun getVolume (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/VolumeXKt {
+	public static final fun getVolumeX (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/WatchKt {
+	public static final fun getWatch (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/WifiKt {
+	public static final fun getWifi (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/WifiOffKt {
+	public static final fun getWifiOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/WindKt {
+	public static final fun getWind (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/XCircleKt {
+	public static final fun getXCircle (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/XKt {
+	public static final fun getX (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/XOctagonKt {
+	public static final fun getXOctagon (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/XSquareKt {
+	public static final fun getXSquare (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/YoutubeKt {
+	public static final fun getYoutube (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ZapKt {
+	public static final fun getZap (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ZapOffKt {
+	public static final fun getZapOff (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ZoomInKt {
+	public static final fun getZoomIn (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+
+public final class compose/icons/feathericons/ZoomOutKt {
+	public static final fun getZoomOut (Lcompose/icons/FeatherIcons;)Landroidx/compose/ui/graphics/vector/ImageVector;
+}
+

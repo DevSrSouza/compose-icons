@@ -96,3 +96,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ```
+
+## Development
+
+Update API Dump: `./gradlew desktopApiDump`
+Checking API Dump: `./gradlew desktopApiCheck`
