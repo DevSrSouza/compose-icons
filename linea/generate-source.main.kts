@@ -1,7 +1,6 @@
 @file:Repository("https://jitpack.io")
-@file:Repository("https://maven.google.com")
-@file:Repository("https://jetbrains.bintray.com/trove4j")
-@file:Repository("file:///home/devsrsouza/.m2/repository")
+@file:Repository("https://dl.google.com/dl/android/maven2/")
+@file:Repository("https://repo.maven.apache.org/maven2/")
 
 // svg-to-compose
 @file:DependsOn("com.github.DevSrSouza:svg-to-compose:0.8.1")
@@ -56,7 +55,7 @@ for(f in repoIconsDirs) {
 
     svgsDir.listFiles().filter { it.extension == "svg" }
         .forEach {
-            val iconName = it.nameWithoutExtension.removePrefix(groupName).replace(" ", "_").trim() + "." + it.extension
+            val iconName = it.nameWithoutExtension.removePrefix(groupName).replace(" ", "_").replace("-","_").trim() + "." + it.extension
             val relocateIcon = File(relocateFolder, iconName)
 
             it.copyTo(relocateIcon)

@@ -44,6 +44,8 @@ import compose.icons.lineaicons.basic.Floppydisk
 import compose.icons.lineaicons.basic.Folder
 import compose.icons.lineaicons.basic.FolderMultiple
 import compose.icons.lineaicons.basic.Gear
+import compose.icons.lineaicons.basic.Geolocalize01
+import compose.icons.lineaicons.basic.Geolocalize05
 import compose.icons.lineaicons.basic.Globe
 import compose.icons.lineaicons.basic.Gunsight
 import compose.icons.lineaicons.basic.Hammer
@@ -135,8 +137,6 @@ import compose.icons.lineaicons.basic.WebpageImgTxt
 import compose.icons.lineaicons.basic.WebpageMultiple
 import compose.icons.lineaicons.basic.WebpageTxt
 import compose.icons.lineaicons.basic.World
-import compose.icons.lineaicons.basic.`Geolocalize-01`
-import compose.icons.lineaicons.basic.`Geolocalize-05`
 import kotlin.collections.List as ____KtList
 
 public object BasicGroup
@@ -151,21 +151,22 @@ public val BasicGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(MailOpenText, Archive, Bookmark, Mixer2, Clessidre, BookPencil, LifeBuoy,
-        Display, MagnifierMinus, Printer, Globe, Clockwise, Flag1, Gear, Map, Pin1, Headset,
-        TodoPen, Question, SheetMultiple, Anticlockwise, Calendar, Lock, BatteryFull, Case,
-        TrashcanRefresh, Key, Rss, MagnifierPlus, Notebook, Anchor, Cup, Mail, Photo, BatteryEmpty,
-        Chronometer, Diamonds, `Geolocalize-01`, Postcard, PostcardMultiple, SheetPen, CardsHearts,
-        ServerCloud, Message, Calculator, TodoTxt, Server, TrashcanFull, `Geolocalize-05`, World,
-        Home, Heart, Link, LockOpen, MessageMultiple, Download, MailOpen, Picture, Webpage, Usb,
-        WebpageImgTxt, Keyboard, Ban, MessageTxt, EyeClosed, Signs, TodoPencil, WebpageMultiple,
-        TrashcanRemove, Clubs, Floppydisk, HeartBroken, Spades, MagicMouse, Joypad, Target, Upload,
-        CardsDiamonds, TodolistPencil, Flag2, FolderMultiple, ServerUpload, WebpageTxt, Clock, Pin2,
-        Mouse, Video, Star, Accelerator, Exclamation, SpreadBookmark, PencilRulerPen, Laptop, Ipod,
-        SheetPencil, MailMultiple, Magnifier, Eye, Trashcan, Gunsight, Female, PencilRuler, Book,
-        SheetTxt, Folder, Male, Todo, Smartphone, ArchiveFull, Cloud, Lightbulb, Compass,
-        NotebookPencil, BatteryCharge, SpreadTextBookmark, Paperplane, Watch, Settings, Server2,
-        Sheet, SpreadText, Bolt, BatteryHalf, PictureMultiple, BookPen, Alarm, ServerDownload, Helm,
-        Hammer, TodolistPen, Info, Share, Spread, NotebookPen, Tablet)
+    __AllIcons= listOf(MailMultiple, Photo, Settings, TodoTxt, Cup, Heart, MessageMultiple, Mouse,
+        Book, Download, Headset, Alarm, PostcardMultiple, Question, SheetPen, NotebookPen,
+        HeartBroken, Keyboard, Info, BatteryCharge, Ipod, Postcard, Gear, CardsDiamonds,
+        MailOpenText, LockOpen, Spread, Target, Spades, Floppydisk, WebpageTxt, Globe, BatteryFull,
+        Case, Link, Joypad, Cloud, Video, Lock, Eye, Smartphone, Bolt, Share, Signs, Clock,
+        Clessidre, MagnifierMinus, SpreadBookmark, TodolistPen, Mail, SheetMultiple, MailOpen,
+        ServerCloud, Flag1, Server, Exclamation, LifeBuoy, Webpage, EyeClosed, Helm, Flag2, Male,
+        TrashcanFull, CardsHearts, Server2, Archive, Accelerator, TrashcanRemove,
+        SpreadTextBookmark, TodoPen, BatteryHalf, Todo, Home, SpreadText, ServerDownload, Watch,
+        World, Calendar, PencilRulerPen, SheetTxt, Compass, BatteryEmpty, PencilRuler,
+        FolderMultiple, PictureMultiple, Anticlockwise, Chronometer, TrashcanRefresh, Rss,
+        Geolocalize05, MessageTxt, Ban, Clockwise, Printer, Gunsight, Hammer, Anchor, BookPencil,
+        Geolocalize01, Pin2, Picture, Message, SheetPencil, WebpageImgTxt, Key, Notebook,
+        ServerUpload, Clubs, BookPen, Diamonds, Magnifier, Pin1, Bookmark, MagicMouse,
+        NotebookPencil, Star, ArchiveFull, Laptop, Mixer2, TodoPencil, Usb, Map, WebpageMultiple,
+        Female, Folder, Paperplane, Display, Lightbulb, Sheet, Upload, MagnifierPlus, Tablet,
+        Trashcan, TodolistPencil, Calculator)
     return __AllIcons!!
   }

@@ -1,40 +1,26 @@
-pluginManagement {
+enableFeaturePreview("VERSION_CATALOGS")
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
+dependencyResolutionManagement {
+    // repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
-        jcenter()
-        gradlePluginPortal()
         mavenCentral()
-        maven { url = uri("https://maven.pkg.jetbrains.space/public/p/compose/dev") }
-        maven("https://jitpack.io")
+        maven(url = "https://maven.pkg.jetbrains.space/public/p/compose/dev" )
     }
-
 }
-
 
 rootProject.name = "compose-icons"
 
-//include("simple-icons", "feather", "tabler-icons", "eva-icons")
 include(
-    "jetbrains:simple-icons",
-    "jetbrains:feather",
-    "jetbrains:tabler-icons",
-    "jetbrains:eva-icons",
-    "jetbrains:font-awesome",
-    "jetbrains:erikflowers-weather-icons",
-    "jetbrains:line-awesome",
-    "jetbrains:linea",
-    "jetbrains:octicons",
-    "jetbrains:css-gg"
-)
-include(
-    "android:simple-icons",
-    "android:feather",
-    "android:tabler-icons",
-    "android:eva-icons",
-    "android:font-awesome",
-    "android:erikflowers-weather-icons",
-    "android:line-awesome",
-    "android:linea",
-    "android:octicons",
-    "android:css-gg"
+    ":simple-icons",
+    ":feather",
+    ":tabler-icons",
+    ":eva-icons",
+    ":font-awesome",
+    ":erikflowers-weather-icons",
+    ":line-awesome",
+    ":linea",
+    ":octicons",
+    ":css-gg"
 )

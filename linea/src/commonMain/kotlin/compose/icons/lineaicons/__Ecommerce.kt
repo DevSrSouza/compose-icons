@@ -101,16 +101,16 @@ public val EcommerceGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(BasketCheck, Creditcard, ReceiptGuarani, Money, ReceiptNaira, Cent, Gift,
-        GraphDecrease, ReceptColon, BagCheck, Pesos, ReceiptRublo, BasketCloud, BagRemove, Sale,
-        Naira, BagPlus, ReceiptBath, Wallet, Bath, BasketDownload, ReceiptYen, CartContent,
-        ReceiptPesos, ReceiptEuro, BasketPlus, CartSearch, BagDownload, Pound, BasketRemove,
-        ReceiptYen2, Ticket, Colon, Banknote, Rupee, Banknotes, Graph3, CartMinus, ReceiptFranc,
-        Dollar, Basket, Tugriks, Yen, ReceiptKips, Graph2, Yen2, ReceiptRupee, Graph1, Euro, Bag,
-        Sales, BagRefresh, GraphIncrease, Cart, Safe, ReceiptPound, BagSearch, Megaphone,
-        BasketUpload, Receipt, CartUpload, Rublo, CartRemove, CartRefresh, ReceiptDollar, Guarani,
-        Franc, Lira, BasketRefresh, ReceiptCent, BagUpload, ReceiptLira, ReceiptTugrik, Kips,
-        CartPlus, CartCloud, BagMinus, Diamond, BagCloud, CartCheck, ReceiptWon, Won, BasketSearch,
-        BasketMinus, CartDownload)
+    __AllIcons= listOf(CartContent, Sale, ReceiptLira, Dollar, ReceiptPesos, GraphIncrease,
+        ReceiptRupee, BagRemove, Rublo, BasketCloud, Naira, Euro, CartSearch, BagUpload, Bath,
+        Money, BasketPlus, Creditcard, BasketMinus, ReceiptKips, Receipt, Ticket, Yen, Cart,
+        GraphDecrease, CartCheck, ReceiptTugrik, Safe, BasketSearch, Lira, BagDownload, ReceiptWon,
+        ReceiptPound, Bag, ReceiptFranc, ReceiptEuro, Megaphone, Guarani, ReceiptBath, BagCheck,
+        Kips, BasketRefresh, Wallet, Tugriks, Franc, Banknote, BasketRemove, Won, CartRefresh,
+        Sales, BagRefresh, Gift, Pound, BasketUpload, CartDownload, Yen2, BasketCheck,
+        BasketDownload, Cent, Graph3, CartMinus, CartUpload, BagSearch, BagCloud, ReceiptDollar,
+        Banknotes, Graph2, ReceptColon, ReceiptGuarani, BagPlus, Graph1, Pesos, ReceiptRublo, Rupee,
+        Basket, CartPlus, ReceiptYen2, CartCloud, ReceiptNaira, BagMinus, ReceiptYen, CartRemove,
+        Colon, ReceiptCent, Diamond)
     return __AllIcons!!
   }

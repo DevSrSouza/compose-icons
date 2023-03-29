@@ -40,6 +40,7 @@ import compose.icons.lineaicons.software.Layout3columns
 import compose.icons.lineaicons.software.Layout4boxes
 import compose.icons.lineaicons.software.Layout4columns
 import compose.icons.lineaicons.software.Layout4lines
+import compose.icons.lineaicons.software.Layout8boxes
 import compose.icons.lineaicons.software.LayoutHeader
 import compose.icons.lineaicons.software.LayoutHeader2columns
 import compose.icons.lineaicons.software.LayoutHeader3columns
@@ -101,7 +102,6 @@ import compose.icons.lineaicons.software.VerticalAlignTop
 import compose.icons.lineaicons.software.VerticalDistributeBottom
 import compose.icons.lineaicons.software.VerticalDistributeCenter
 import compose.icons.lineaicons.software.VerticalDistributeTop
-import compose.icons.lineaicons.software.`Layout-8boxes`
 import kotlin.collections.List as ____KtList
 
 public object SoftwareGroup
@@ -116,26 +116,26 @@ public val SoftwareGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(SelectionPolygon, Paragraph, LayoutHeader3columns, LayoutSidebarRight,
-        FontSmallcaps, BoxRectangle, VerticalAlignTop, ScaleReduce, VerticalDistributeCenter,
-        Layout, IndentRight, VerticalAlignBottom, ReflectVertical, FontSize, Pen, IndentFirstline,
-        HorizontalAlignCenter, IndentLeft, LayoutHeaderComplex4, LayoutHeaderComplex3,
-        ParagraphJustifyLeft, ParagraphAlignRight, ShapeRoundedrectangle, BoxPolygon, Pages,
-        Layers2, LayoutHeaderSideleft, Magnete, Character, SelectionRoundedrectangle,
-        FontStrikethrough, Paintbrush, TransformBezier, HorizontalAlignLeft,
-        HorizontalDistributeLeft, FontKerning, FontLeading, FontUnderline, ReflectHorizontal,
-        LayoutHeaderSideright, Paintroller, HorizontalDistributeCenter, ShapeOval,
-        LayoutHeaderComplex2, ParagraphJustifyRight, VectorBox, BoxOval, PenRemove,
-        PathfinderSubtract, LayoutHeader4boxes, BoxRoundedrectangle, ParagraphJustifyAll,
-        ParagraphAlignLeft, ParagraphSpaceAfter, AddVectorpoint, HorizontalAlignRight,
-        RemoveVectorpoint, Slice, LayoutSidebarLeft, FontAllcaps, PathfinderIntersect,
-        ParagraphCenter, Layout4columns, ShapePolygon, Layout3columns, Paintbucket,
-        VerticalAlignCenter, LayoutHeaderComplex, Layout2columns, FontTracking, Lasso,
-        ParagraphSpaceBefore, VerticalDistributeTop, ParagraphJustifyCenter, Layout4lines, Layers1,
-        PathfinderUnite, FontVerticalScale, SelectionRectangle, FontSmallcapital, VectorComposite,
-        Layout4boxes, ShapeRectangle, LayoutHeader, Eyedropper, VerticalDistributeBottom,
-        Polygonallasso, ScaleExpand, LayoutHeader4columns, FontHorizontalScale, SelectionOval,
-        PathfinderExclude, `Layout-8boxes`, LayoutHeader2columns, FontBaselineShift,
-        HorizontalDistributeRight, VectorLine, Crop, PenAdd, Pencil)
+    __AllIcons= listOf(VectorComposite, ParagraphCenter, Paragraph, HorizontalAlignLeft,
+        Paintroller, Slice, VectorBox, VerticalDistributeBottom, ParagraphAlignRight, VectorLine,
+        LayoutHeaderComplex, LayoutHeader4columns, PathfinderExclude, ParagraphSpaceAfter,
+        IndentRight, VerticalDistributeTop, ParagraphAlignLeft, ParagraphJustifyCenter,
+        Layout8boxes, Layout4lines, LayoutHeader, VerticalAlignCenter, BoxRoundedrectangle,
+        HorizontalAlignCenter, Layout4boxes, Crop, ParagraphJustifyRight, PathfinderSubtract,
+        ScaleExpand, FontUnderline, FontBaselineShift, FontAllcaps, LayoutHeader3columns,
+        ReflectHorizontal, PathfinderIntersect, BoxOval, FontLeading, AddVectorpoint,
+        LayoutSidebarLeft, FontTracking, BoxRectangle, PenRemove, ScaleReduce, Layout2columns,
+        Eyedropper, Pages, ParagraphJustifyLeft, Character, ShapeRectangle, BoxPolygon,
+        ParagraphJustifyAll, LayoutHeaderSideright, ShapePolygon, SelectionOval, FontSmallcapital,
+        SelectionRectangle, HorizontalAlignRight, RemoveVectorpoint, PathfinderUnite,
+        SelectionRoundedrectangle, Layers1, FontHorizontalScale, Pen, Layout4columns,
+        SelectionPolygon, Pencil, Paintbucket, FontSize, HorizontalDistributeCenter,
+        VerticalAlignTop, Layers2, ParagraphSpaceBefore, IndentLeft, FontKerning,
+        LayoutHeader4boxes, Paintbrush, VerticalAlignBottom, ShapeRoundedrectangle, ShapeOval,
+        Layout3columns, Magnete, LayoutHeaderComplex4, FontSmallcaps, LayoutHeaderSideleft,
+        ReflectVertical, Polygonallasso, HorizontalDistributeRight, IndentFirstline,
+        FontVerticalScale, Layout, LayoutSidebarRight, VerticalDistributeCenter, TransformBezier,
+        LayoutHeaderComplex2, PenAdd, LayoutHeader2columns, Lasso, LayoutHeaderComplex3,
+        HorizontalDistributeLeft, FontStrikethrough)
     return __AllIcons!!
   }

@@ -8,5 +8,5 @@ plugins {
 setupModuleForComposeMultiplatform()
 
 android {
-    namespace = "compose.icons.feather"
+    namespace = "compose.icons.lineawesome"
 }

@@ -53,6 +53,8 @@ import compose.icons.lineaicons.weather.SnowHalfmoon
 import compose.icons.lineaicons.weather.SnowSun
 import compose.icons.lineaicons.weather.Snowflake
 import compose.icons.lineaicons.weather.Star
+import compose.icons.lineaicons.weather.Storm11
+import compose.icons.lineaicons.weather.Storm32
 import compose.icons.lineaicons.weather.StormFullmoon
 import compose.icons.lineaicons.weather.StormHalfmoon
 import compose.icons.lineaicons.weather.StormSun
@@ -85,8 +87,6 @@ import compose.icons.lineaicons.weather.WindSun
 import compose.icons.lineaicons.weather.WindSw
 import compose.icons.lineaicons.weather.WindW
 import compose.icons.lineaicons.weather.Windgust
-import compose.icons.lineaicons.weather.`Storm-11`
-import compose.icons.lineaicons.weather.`Storm-32`
 import kotlin.collections.List as ____KtList
 
 public object WeatherGroup
@@ -101,16 +101,16 @@ public val WeatherGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Sun, Wind, WindFullmoon, VariableSun, CloudDrop, FogSun, Snowflake, Scorpio,
-        Windgust, WaningCresent, TempestHalfmoon, WindSe, Aquarius, `Storm-11`, Hail, RainFullmoon,
-        HailSun, MistyrainSun, WindNw, Moon, WindN, DownpourSun, `Storm-32`, SnowFullmoon,
-        FogFullmoon, VariableHalfmoon, StormSun, DownpourFullmoon, HailFullmoon, Lightning,
-        MoondownHalf, CloudSnowflake, Taurus, SnowSun, Rain, WindSw, WaxingGibbous, RainHalfmoon,
-        Newmoon, Mistyrain, Snow, WindSun, WaxingCresent, VariableFullmoon, Fullmoon, WindE, Fog,
-        TempestSun, WindNe, DownpourHalfmoon, Sagittarius, Tempest, StormHalfmoon, HailHalfmoon,
-        Star, RainSun, Sunset, FogHalfmoon, Aries, Capricorn, Move2, MoonsetFull, Pisces,
-        TempestFullmoon, WindS, MistyrainHalfmoon, Leo, Sundown, WaningGibbous, StormFullmoon,
-        MistyrainFullmoon, Cloud, CloudLightning, Drop, WindW, FirstQuarter, SnowHalfmoon, Virgo,
-        MoondownFull, MoonsetHalf, Cancer, Libra, WindHalfmoon, Gemini, LastQuarter)
+    __AllIcons= listOf(VariableHalfmoon, WindSun, Tempest, WindNe, MistyrainFullmoon, Snowflake,
+        SnowHalfmoon, Gemini, DownpourHalfmoon, HailSun, MoonsetHalf, Cloud, WindHalfmoon,
+        CloudDrop, DownpourSun, MistyrainSun, WindNw, Aquarius, Newmoon, FogHalfmoon, Sun, Virgo,
+        SnowSun, TempestHalfmoon, WindN, Lightning, Wind, Pisces, RainFullmoon, HailHalfmoon,
+        MoonsetFull, WaxingGibbous, Sundown, StormHalfmoon, Storm11, WaxingCresent, Snow,
+        StormFullmoon, Drop, WindE, Fog, WindSe, WindS, Moon, CloudSnowflake, TempestSun, Capricorn,
+        MoondownHalf, HailFullmoon, Sunset, RainHalfmoon, Libra, Aries, Scorpio, Storm32,
+        TempestFullmoon, Move2, WindW, WindSw, StormSun, Taurus, FogFullmoon, Star, Hail, Mistyrain,
+        Fullmoon, FirstQuarter, MoondownFull, WindFullmoon, Leo, Sagittarius, LastQuarter, FogSun,
+        RainSun, DownpourFullmoon, Rain, VariableSun, VariableFullmoon, WaningGibbous, Cancer,
+        SnowFullmoon, CloudLightning, MistyrainHalfmoon, WaningCresent, Windgust)
     return __AllIcons!!
   }

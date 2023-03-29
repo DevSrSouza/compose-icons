@@ -1,11 +1,15 @@
-repositories {
-    jcenter()
-}
-
 plugins {
     `kotlin-dsl`
 }
 
-kotlinDslPluginOptions {
-    experimentalWarning.set(false)
+repositories {
+    gradlePluginPortal()
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    implementation(libs.plugin.android)
+    implementation(libs.plugin.kotlin)
+    implementation(libs.plugin.composeMultiplatform)
 }
