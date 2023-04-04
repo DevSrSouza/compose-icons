@@ -83,10 +83,6 @@ composeIcons-tablerIcons = { module = "br.com.devsrsouza.compose.icons:tabler-ic
 
 The project uses Kotlin Scripting (main.kts) to download and generate the icons into Compose source code, to generate the source code it uses the tooling library [svg-to-compose](https://github.com/DevSrSouza/svg-to-compose).
 
-Currently, the Jetpack Compose(Android) and Jetbrains Compose (Desktop/Multiplatform) are a separated artifact and builds, this means that for the library to support both is need artifacts for both.
-
-In the future, when Compose Desktop and Android use the same artifact, the project will migrate to it and use only one artifact for both.
-
 ## Contribution
 
 If you know a icon pack that the project could support, please, submit an issue :D
