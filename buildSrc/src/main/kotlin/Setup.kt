@@ -42,7 +42,9 @@ fun Project.setupModuleForComposeMultiplatform(
             }
 
             android {
-                publishLibraryVariants("release")
+                if(project.plugins.hasPlugin("com.vanniktech.maven.publish")) {
+                    publishLibraryVariants("release")
+                }
             }
             jvm("desktop")
 
