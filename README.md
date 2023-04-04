@@ -73,9 +73,11 @@ composeIcons-tablerIcons = { module = "br.com.devsrsouza.compose.icons:tabler-ic
 ```
 
 ## Roadmap
-- [ ] Migrate code generator to Gradle
-- [ ] Remove icons source from repository and check the abi when generate.
-- [ ] Improve sample app
+- Add more icon packs
+- Migrate code generator to Gradle
+- Remove icons source from repository and check the abi when generate.
+- Improve sample app
+- Documentation to how add icon packs
 
 ## How the project works
 
