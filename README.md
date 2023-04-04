@@ -1,13 +1,15 @@
 # [compose-icons](https://github.com/DevSrSouza/compose-icons)
 
-Compose icons is a pack of libraries that provide well known Icon Packs to use in Jetpack Compose Multiplatform. The library usage is inspired by Compose Material Icons.
+Compose Multiplatform icons is a pack of libraries that provide well known Icon Packs. The library usage is inspired by Compose Material Icons.
+
+## Compose Support
+- Android
+- Desktop
+- iOS
+- MacOS Native
+- Web (JSCanvas)
 
 ![](https://user-images.githubusercontent.com/29736164/111044124-6b131080-8425-11eb-9b03-0d3b409377a5.png)
-
-## Compose versions
-
-- Jetpack Compose (Android): `1.0.0`
-- Jetbrains Compose (Desktop): `0.5.0-build235`
 
 ## Adding to your project
 
@@ -18,19 +20,13 @@ repositories {
 }
 ```
 
-For [Jetpack Compose (Android)](https://developer.android.com/jetpack/compose):
 ```kotlin
-implementation("br.com.devsrsouza.compose.icons.android:ICON_PACK:1.0.0")
+implementation("br.com.devsrsouza.compose.icons:{ICON_PACK}:1.1.0")
 ```
 
-For [Jetbrains Compose (Desktop)](https://www.jetbrains.com/lp/compose/):
-```kotlin
-implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:1.0.0")
-```
+** `{ICON_PACK}` is a placeholder, you should replace it with your icon pack of choose.
 
-** `ICON_PACK` is a placeholder, you should replace it with your icon pack of choose.
-
-example: `br.com.devsrsouza.compose.icons.android:simple-icons:1.0.0`
+example: `br.com.devsrsouza.compose.icons:font-awesome:1.1.0`
 
 ## Example
 
@@ -39,6 +35,8 @@ Icon(
     imageVector = FontAwesomeIcons.Brands.Github,
 )
 ```
+
+You can find all code reference in the docs of the icon packs bellow.
 
 ## Icon Packs
 
@@ -54,6 +52,30 @@ Icon(
 | [Line Awesome](https://icons8.com/line-awesome) | 1.3.0 (a60f113) | `line-awesome` | [docs](line-awesome/DOCUMENTATION.md) |
 | [Weather Icons by Erik Flowers](https://github.com/erikflowers/weather-icons) | 2.0.12 | `erikflowers-weather-icons` | [docs](erikflowers-weather-icons/DOCUMENTATION.md) |
 | [css.gg](https://css.gg/) | 2.0.0 | `css-gg` | [docs](css-gg/DOCUMENTATION.md) |
+
+## Version Catalog
+
+```toml
+[versions]
+composeIcons = "1.1.0"
+
+[libraries]
+composeIcons-cssGg = { module = "br.com.devsrsouza.compose.icons:css-gg", version.ref = "composeIcons" }
+composeIcons-weatherIcons = { module = "br.com.devsrsouza.compose.icons:erikflowers-weather-icons", version.ref = "composeIcons" }
+composeIcons-evaIcons = { module = "br.com.devsrsouza.compose.icons:eva-icons", version.ref = "composeIcons" }
+composeIcons-feather = { module = "br.com.devsrsouza.compose.icons:feather", version.ref = "composeIcons" }
+composeIcons-fontAwesome = { module = "br.com.devsrsouza.compose.icons:font-awesome", version.ref = "composeIcons" }
+composeIcons-lineAwesome = { module = "br.com.devsrsouza.compose.icons:line-awesome", version.ref = "composeIcons" }
+composeIcons-linea = { module = "br.com.devsrsouza.compose.icons:linea", version.ref = "composeIcons" }
+composeIcons-octicons = { module = "br.com.devsrsouza.compose.icons:octicons", version.ref = "composeIcons" }
+composeIcons-simpleIcons = { module = "br.com.devsrsouza.compose.icons:simple-icons", version.ref = "composeIcons" }
+composeIcons-tablerIcons = { module = "br.com.devsrsouza.compose.icons:tabler-icons", version.ref = "composeIcons" }
+```
+
+## Roadmap
+- [ ] Migrate code generator to Gradle
+- [ ] Remove icons source from repository and check the abi when generate.
+- [ ] Improve sample app
 
 ## How the project works
 
