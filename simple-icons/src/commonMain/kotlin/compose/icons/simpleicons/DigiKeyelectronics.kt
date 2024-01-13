@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.DigiKeyelectronics: ImageVector
+public val SimpleIcons.Digikeyelectronics: ImageVector
     get() {
-        if (_digiKeyelectronics != null) {
-            return _digiKeyelectronics!!
+        if (_digikeyelectronics != null) {
+            return _digikeyelectronics!!
         }
-        _digiKeyelectronics = Builder(name = "DigiKeyelectronics", defaultWidth = 24.0.dp,
+        _digikeyelectronics = Builder(name = "Digikeyelectronics", defaultWidth = 24.0.dp,
                 defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -49,7 +49,7 @@ public val SimpleIcons.DigiKeyelectronics: ImageVector
             }
         }
         .build()
-        return _digiKeyelectronics!!
+        return _digikeyelectronics!!
     }
 
-private var _digiKeyelectronics: ImageVector? = null
+private var _digikeyelectronics: ImageVector? = null

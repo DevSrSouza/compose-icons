@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,7 +20,7 @@ public val Octicons.Squirrel16: ImageVector
                 viewportWidth = 16.0f, viewportHeight = 16.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(3.499f, 0.75f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 1.5f, 0.0f)
                 verticalLineToRelative(0.996f)
@@ -38,14 +38,14 @@ public val Octicons.Squirrel16: ImageVector
                 horizontalLineToRelative(-6.0f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, -1.5f)
                 horizontalLineToRelative(1.376f)
-                arcToRelative(4.489f, 4.489f, 0.0f, false, true, -0.563f, -1.191f)
-                arcToRelative(3.833f, 3.833f, 0.0f, false, true, -0.05f, -2.063f)
-                arcToRelative(4.636f, 4.636f, 0.0f, false, true, -2.025f, -0.293f)
-                arcToRelative(0.75f, 0.75f, 0.0f, true, true, 0.525f, -1.406f)
+                arcToRelative(4.484f, 4.484f, 0.0f, false, true, -0.563f, -1.191f)
+                arcToRelative(3.835f, 3.835f, 0.0f, false, true, -0.05f, -2.063f)
+                arcToRelative(4.647f, 4.647f, 0.0f, false, true, -2.025f, -0.293f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.525f, -1.406f)
                 curveToRelative(1.357f, 0.507f, 2.376f, -0.006f, 2.698f, -0.318f)
                 lineToRelative(0.009f, -0.01f)
-                arcToRelative(0.748f, 0.748f, 0.0f, false, true, 1.06f, 0.0f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, true, -0.012f, 1.074f)
+                arcToRelative(0.747f, 0.747f, 0.0f, false, true, 1.06f, 0.0f)
+                arcToRelative(0.748f, 0.748f, 0.0f, false, true, -0.012f, 1.074f)
                 curveToRelative(-0.912f, 0.92f, -0.992f, 1.835f, -0.768f, 2.586f)
                 curveToRelative(0.221f, 0.74f, 0.745f, 1.337f, 1.196f, 1.621f)
                 horizontalLineTo(8.75f)
@@ -54,8 +54,8 @@ public val Octicons.Squirrel16: ImageVector
                 curveToRelative(-0.05f, -0.603f, -0.216f, -1.224f, -0.422f, -1.93f)
                 lineToRelative(-0.064f, -0.221f)
                 curveToRelative(-0.12f, -0.407f, -0.246f, -0.84f, -0.353f, -1.29f)
-                arcToRelative(2.404f, 2.404f, 0.0f, false, true, -0.507f, -0.441f)
-                arcToRelative(3.063f, 3.063f, 0.0f, false, true, -0.633f, -1.248f)
+                arcToRelative(2.425f, 2.425f, 0.0f, false, true, -0.507f, -0.441f)
+                arcToRelative(3.075f, 3.075f, 0.0f, false, true, -0.633f, -1.248f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 1.455f, -0.364f)
                 curveToRelative(0.046f, 0.185f, 0.144f, 0.436f, 0.31f, 0.627f)
                 curveToRelative(0.146f, 0.168f, 0.353f, 0.305f, 0.712f, 0.305f)
@@ -64,13 +64,13 @@ public val Octicons.Squirrel16: ImageVector
                 curveToRelative(-1.172f, -0.196f, -2.227f, 0.387f, -2.706f, 1.345f)
                 curveToRelative(-0.46f, 0.92f, -0.27f, 1.774f, 0.019f, 3.062f)
                 lineToRelative(0.042f, 0.19f)
-                arcToRelative(0.753f, 0.753f, 0.0f, false, true, 0.01f, 0.05f)
+                arcToRelative(0.884f, 0.884f, 0.0f, false, true, 0.01f, 0.05f)
                 curveToRelative(0.348f, 0.443f, 0.666f, 0.949f, 0.94f, 1.553f)
                 arcToRelative(0.75f, 0.75f, 0.0f, true, true, -1.365f, 0.62f)
                 curveToRelative(-0.553f, -1.217f, -1.32f, -1.94f, -2.3f, -2.768f)
-                arcToRelative(85.08f, 85.08f, 0.0f, false, false, -0.317f, -0.265f)
+                lineTo(6.7f, 5.527f)
                 curveToRelative(-0.814f, -0.68f, -1.75f, -1.462f, -2.692f, -2.619f)
-                arcToRelative(3.74f, 3.74f, 0.0f, false, false, -1.023f, 0.88f)
+                arcToRelative(3.737f, 3.737f, 0.0f, false, false, -1.023f, 0.88f)
                 curveToRelative(-0.406f, 0.495f, -0.663f, 1.036f, -0.722f, 1.508f)
                 curveToRelative(0.116f, 0.122f, 0.306f, 0.21f, 0.591f, 0.239f)
                 curveToRelative(0.388f, 0.038f, 0.797f, -0.06f, 1.032f, -0.19f)

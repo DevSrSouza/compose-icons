@@ -26,7 +26,7 @@ public val TablerIcons.Pencil: ImageVector
                 moveTo(4.0f, 20.0f)
                 horizontalLineToRelative(4.0f)
                 lineToRelative(10.5f, -10.5f)
-                arcToRelative(1.5f, 1.5f, 0.0f, false, false, -4.0f, -4.0f)
+                arcToRelative(2.828f, 2.828f, 0.0f, true, false, -4.0f, -4.0f)
                 lineToRelative(-10.5f, 10.5f)
                 verticalLineToRelative(4.0f)
             }
@@ -34,7 +34,7 @@ public val TablerIcons.Pencil: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(13.5f, 6.5f)
-                lineTo(17.5f, 10.5f)
+                lineToRelative(4.0f, 4.0f)
             }
         }
         .build()

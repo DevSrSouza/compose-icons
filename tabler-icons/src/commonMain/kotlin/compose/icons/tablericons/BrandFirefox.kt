@@ -39,7 +39,7 @@ public val TablerIcons.BrandFirefox: ImageVector
                 curveToRelative(-1.082f, 1.741f, -0.07f, 3.733f, 1.371f, 4.173f)
                 curveToRelative(-0.17f, 0.975f, -1.484f, 1.913f, -2.76f, 2.686f)
                 curveToRelative(-1.296f, 0.938f, -0.722f, 1.85f, 0.0f, 2.234f)
-                curveToRelative(0.949f, 0.506f, 3.611f, -0.995f, 4.545f, 0.354f)
+                curveToRelative(0.949f, 0.506f, 3.611f, -1.0f, 4.545f, 0.354f)
                 curveToRelative(-1.698f, 0.102f, -1.536f, 3.107f, -3.983f, 2.727f)
                 curveToRelative(2.523f, 0.957f, 4.345f, 0.462f, 5.458f, -0.34f)
                 curveToRelative(1.965f, -1.52f, 2.879f, -3.542f, 2.879f, -5.557f)

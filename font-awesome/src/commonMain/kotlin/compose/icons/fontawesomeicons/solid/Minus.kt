@@ -21,15 +21,13 @@ public val SolidGroup.Minus: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(416.0f, 208.0f)
-                horizontalLineTo(32.0f)
-                curveToRelative(-17.67f, 0.0f, -32.0f, 14.33f, -32.0f, 32.0f)
-                verticalLineToRelative(32.0f)
-                curveToRelative(0.0f, 17.67f, 14.33f, 32.0f, 32.0f, 32.0f)
-                horizontalLineToRelative(384.0f)
-                curveToRelative(17.67f, 0.0f, 32.0f, -14.33f, 32.0f, -32.0f)
-                verticalLineToRelative(-32.0f)
-                curveToRelative(0.0f, -17.67f, -14.33f, -32.0f, -32.0f, -32.0f)
+                moveTo(432.0f, 256.0f)
+                curveToRelative(0.0f, 17.7f, -14.3f, 32.0f, -32.0f, 32.0f)
+                lineTo(48.0f, 288.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
+                reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
+                lineToRelative(352.0f, 0.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, 14.3f, 32.0f, 32.0f)
                 close()
             }
         }

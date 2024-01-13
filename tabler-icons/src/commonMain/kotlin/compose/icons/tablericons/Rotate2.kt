@@ -33,31 +33,31 @@ public val TablerIcons.Rotate2: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(18.37f, 7.16f)
-                lineTo(18.37f, 7.17f)
+                lineToRelative(0.0f, 0.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(13.0f, 19.94f)
-                lineTo(13.0f, 19.95f)
+                lineToRelative(0.0f, 0.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.84f, 18.37f)
-                lineTo(16.84f, 18.38f)
+                lineToRelative(0.0f, 0.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.37f, 15.1f)
-                lineTo(19.37f, 15.11f)
+                lineToRelative(0.0f, 0.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.94f, 11.0f)
-                lineTo(19.94f, 11.01f)
+                lineToRelative(0.0f, 0.01f)
             }
         }
         .build()

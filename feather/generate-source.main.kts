@@ -1,6 +1,6 @@
 @file:Repository("https://jitpack.io")
 @file:Repository("https://maven.google.com")
-@file:Repository("https://jetbrains.bintray.com/trove4j")
+@file:Repository("https://repo1.maven.org/maven2")
 @file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
@@ -28,7 +28,7 @@ val buildDir = File("build/").makeDirs()
 
 val githubId = "feathericons/feather"
 val repository = "https://github.com/$githubId"
-val version = "v4.28.0"
+val version = "v4.29.0"
 val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
 val blobGithubRepository = "$repository/blob/$version"
 

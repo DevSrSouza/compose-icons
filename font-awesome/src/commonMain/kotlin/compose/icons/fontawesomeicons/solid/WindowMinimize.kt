@@ -21,15 +21,13 @@ public val SolidGroup.WindowMinimize: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(464.0f, 352.0f)
-                horizontalLineTo(48.0f)
-                curveToRelative(-26.5f, 0.0f, -48.0f, 21.5f, -48.0f, 48.0f)
-                verticalLineToRelative(32.0f)
-                curveToRelative(0.0f, 26.5f, 21.5f, 48.0f, 48.0f, 48.0f)
-                horizontalLineToRelative(416.0f)
-                curveToRelative(26.5f, 0.0f, 48.0f, -21.5f, 48.0f, -48.0f)
-                verticalLineToRelative(-32.0f)
-                curveToRelative(0.0f, -26.5f, -21.5f, -48.0f, -48.0f, -48.0f)
+                moveTo(32.0f, 416.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, 14.3f, -32.0f, 32.0f)
+                reflectiveCurveToRelative(14.3f, 32.0f, 32.0f, 32.0f)
+                horizontalLineTo(480.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, -14.3f, 32.0f, -32.0f)
+                reflectiveCurveToRelative(-14.3f, -32.0f, -32.0f, -32.0f)
+                horizontalLineTo(32.0f)
                 close()
             }
         }

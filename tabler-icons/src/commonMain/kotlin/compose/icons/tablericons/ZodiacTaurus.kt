@@ -31,8 +31,8 @@ public val TablerIcons.ZodiacTaurus: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 15.0f)
                 moveToRelative(-6.0f, 0.0f)
-                arcToRelative(6.0f, 6.0f, 0.0f, true, true, 12.0f, 0.0f)
-                arcToRelative(6.0f, 6.0f, 0.0f, true, true, -12.0f, 0.0f)
+                arcToRelative(6.0f, 6.0f, 0.0f, true, false, 12.0f, 0.0f)
+                arcToRelative(6.0f, 6.0f, 0.0f, true, false, -12.0f, 0.0f)
             }
         }
         .build()

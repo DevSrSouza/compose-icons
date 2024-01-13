@@ -16,21 +16,27 @@ public val BrandsGroup.Hotjar: ImageVector
         if (_hotjar != null) {
             return _hotjar!!
         }
-        _hotjar = Builder(name = "Hotjar", defaultWidth = 448.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 448.0f, viewportHeight = 512.0f).apply {
+        _hotjar = Builder(name = "Hotjar", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(414.9f, 161.5f)
-                curveTo(340.2f, 29.0f, 121.1f, 0.0f, 121.1f, 0.0f)
-                reflectiveCurveTo(222.2f, 110.4f, 93.0f, 197.7f)
-                curveTo(11.3f, 252.8f, -21.0f, 324.4f, 14.0f, 402.6f)
-                curveToRelative(26.8f, 59.9f, 83.5f, 84.3f, 144.6f, 93.4f)
-                curveToRelative(-29.2f, -55.1f, -6.6f, -122.4f, -4.1f, -129.6f)
-                curveToRelative(57.1f, 86.4f, 165.0f, 0.0f, 110.8f, -93.9f)
-                curveToRelative(71.0f, 15.4f, 81.6f, 138.6f, 27.1f, 215.5f)
-                curveToRelative(80.5f, -25.3f, 134.1f, -88.9f, 148.8f, -145.6f)
-                curveToRelative(15.5f, -59.3f, 3.7f, -127.9f, -26.3f, -180.9f)
+                moveTo(361.5f, 0.0f)
+                curveToRelative(0.0f, 131.6f, -80.7f, 176.8f, -140.2f, 209.4f)
+                curveToRelative(-0.6f, 0.3f, -1.1f, 0.6f, -1.6f, 0.9f)
+                curveToRelative(-53.8f, 30.2f, -88.7f, 49.8f, -89.6f, 122.0f)
+                horizontalLineTo(32.0f)
+                curveTo(32.0f, 200.8f, 112.7f, 155.6f, 172.2f, 123.0f)
+                curveTo(227.0f, 93.2f, 262.5f, 73.0f, 262.5f, 0.0f)
+                horizontalLineToRelative(98.9f)
+                close()
+                moveTo(301.0f, 302.6f)
+                curveToRelative(54.8f, -29.8f, 90.3f, -50.0f, 90.3f, -123.0f)
+                horizontalLineToRelative(98.0f)
+                curveToRelative(0.0f, 131.6f, -80.7f, 176.7f, -140.2f, 209.4f)
+                curveToRelative(-54.8f, 29.8f, -90.3f, 50.0f, -90.3f, 123.0f)
+                horizontalLineToRelative(-98.0f)
+                curveToRelative(0.0f, -131.6f, 80.7f, -176.8f, 140.2f, -209.4f)
                 close()
             }
         }

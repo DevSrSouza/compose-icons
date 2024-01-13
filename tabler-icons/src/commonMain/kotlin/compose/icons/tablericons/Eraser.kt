@@ -23,21 +23,21 @@ public val TablerIcons.Eraser: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(19.0f, 19.0f)
-                horizontalLineToRelative(-11.0f)
-                lineToRelative(-4.0f, -4.0f)
+                moveTo(19.0f, 20.0f)
+                horizontalLineToRelative(-10.5f)
+                lineToRelative(-4.21f, -4.3f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, 0.0f, -1.41f)
                 lineToRelative(10.0f, -10.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, 1.41f, 0.0f)
                 lineToRelative(5.0f, 5.0f)
                 arcToRelative(1.0f, 1.0f, 0.0f, false, true, 0.0f, 1.41f)
-                lineToRelative(-9.0f, 9.0f)
+                lineToRelative(-9.2f, 9.3f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(18.0f, 12.3f)
-                lineTo(11.7f, 6.0f)
+                moveTo(18.0f, 13.3f)
+                lineToRelative(-6.3f, -6.3f)
             }
         }
         .build()

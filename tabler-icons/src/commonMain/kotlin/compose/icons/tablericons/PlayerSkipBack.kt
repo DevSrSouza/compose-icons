@@ -32,7 +32,7 @@ public val TablerIcons.PlayerSkipBack: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.0f, 5.0f)
-                lineTo(4.0f, 19.0f)
+                lineToRelative(0.0f, 14.0f)
             }
         }
         .build()

@@ -16,36 +16,30 @@ public val SolidGroup.YinYang: ImageVector
         if (_yinYang != null) {
             return _yinYang!!
         }
-        _yinYang = Builder(name = "YinYang", defaultWidth = 496.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 496.0f, viewportHeight = 512.0f).apply {
+        _yinYang = Builder(name = "YinYang", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(248.0f, 8.0f)
-                curveTo(111.03f, 8.0f, 0.0f, 119.03f, 0.0f, 256.0f)
-                reflectiveCurveToRelative(111.03f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.03f, 248.0f, -248.0f)
-                reflectiveCurveTo(384.97f, 8.0f, 248.0f, 8.0f)
+                moveTo(256.0f, 64.0f)
+                curveToRelative(53.0f, 0.0f, 96.0f, 43.0f, 96.0f, 96.0f)
+                reflectiveCurveToRelative(-43.0f, 96.0f, -96.0f, 96.0f)
+                reflectiveCurveToRelative(-96.0f, 43.0f, -96.0f, 96.0f)
+                reflectiveCurveToRelative(43.0f, 96.0f, 96.0f, 96.0f)
+                curveTo(150.0f, 448.0f, 64.0f, 362.0f, 64.0f, 256.0f)
+                reflectiveCurveTo(150.0f, 64.0f, 256.0f, 64.0f)
                 close()
-                moveTo(248.0f, 384.0f)
-                curveToRelative(-17.67f, 0.0f, -32.0f, -14.33f, -32.0f, -32.0f)
-                reflectiveCurveToRelative(14.33f, -32.0f, 32.0f, -32.0f)
-                reflectiveCurveToRelative(32.0f, 14.33f, 32.0f, 32.0f)
-                reflectiveCurveToRelative(-14.33f, 32.0f, -32.0f, 32.0f)
+                moveTo(256.0f, 512.0f)
+                arcTo(256.0f, 256.0f, 0.0f, true, false, 256.0f, 0.0f)
+                arcToRelative(256.0f, 256.0f, 0.0f, true, false, 0.0f, 512.0f)
                 close()
-                moveTo(248.0f, 256.0f)
-                curveToRelative(-53.02f, 0.0f, -96.0f, 42.98f, -96.0f, 96.0f)
-                reflectiveCurveToRelative(42.98f, 96.0f, 96.0f, 96.0f)
-                curveToRelative(-106.04f, 0.0f, -192.0f, -85.96f, -192.0f, -192.0f)
-                reflectiveCurveTo(141.96f, 64.0f, 248.0f, 64.0f)
-                curveToRelative(53.02f, 0.0f, 96.0f, 42.98f, 96.0f, 96.0f)
-                reflectiveCurveToRelative(-42.98f, 96.0f, -96.0f, 96.0f)
+                moveTo(288.0f, 160.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, true, false, -64.0f, 0.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, true, false, 64.0f, 0.0f)
                 close()
-                moveTo(248.0f, 128.0f)
-                curveToRelative(-17.67f, 0.0f, -32.0f, 14.33f, -32.0f, 32.0f)
-                reflectiveCurveToRelative(14.33f, 32.0f, 32.0f, 32.0f)
-                reflectiveCurveToRelative(32.0f, -14.33f, 32.0f, -32.0f)
-                reflectiveCurveToRelative(-14.33f, -32.0f, -32.0f, -32.0f)
+                moveTo(224.0f, 352.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, true, true, 64.0f, 0.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, true, true, -64.0f, 0.0f)
                 close()
             }
         }

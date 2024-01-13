@@ -34,7 +34,7 @@ public val TablerIcons.QuestionMark: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 19.0f)
-                lineTo(12.0f, 19.01f)
+                lineToRelative(0.0f, 0.01f)
             }
         }
         .build()

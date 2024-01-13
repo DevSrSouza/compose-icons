@@ -38,8 +38,8 @@ public val TablerIcons.ArrowLeftCircle: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.0f, 12.0f)
                 moveToRelative(-2.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, -4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, -4.0f, 0.0f)
             }
         }
         .build()

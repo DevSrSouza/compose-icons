@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.TpLink: ImageVector
+public val SimpleIcons.Tplink: ImageVector
     get() {
-        if (_tpLink != null) {
-            return _tpLink!!
+        if (_tplink != null) {
+            return _tplink!!
         }
-        _tpLink = Builder(name = "TpLink", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _tplink = Builder(name = "Tplink", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -47,7 +47,7 @@ public val SimpleIcons.TpLink: ImageVector
             }
         }
         .build()
-        return _tpLink!!
+        return _tplink!!
     }
 
-private var _tpLink: ImageVector? = null
+private var _tplink: ImageVector? = null

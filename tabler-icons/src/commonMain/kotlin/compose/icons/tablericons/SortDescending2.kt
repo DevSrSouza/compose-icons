@@ -23,29 +23,29 @@ public val TablerIcons.SortDescending2: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.5f, 5.0f)
-                lineTo(9.5f, 5.0f)
-                arcTo(0.5f, 0.5f, 0.0f, false, true, 10.0f, 5.5f)
-                lineTo(10.0f, 9.5f)
-                arcTo(0.5f, 0.5f, 0.0f, false, true, 9.5f, 10.0f)
-                lineTo(5.5f, 10.0f)
-                arcTo(0.5f, 0.5f, 0.0f, false, true, 5.0f, 9.5f)
-                lineTo(5.0f, 5.5f)
-                arcTo(0.5f, 0.5f, 0.0f, false, true, 5.5f, 5.0f)
+                moveTo(5.0f, 5.0f)
+                moveToRelative(0.0f, 0.5f)
+                arcToRelative(0.5f, 0.5f, 0.0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(4.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, false, true, 0.5f, 0.5f)
+                verticalLineToRelative(4.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, false, true, -0.5f, 0.5f)
+                horizontalLineToRelative(-4.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, false, true, -0.5f, -0.5f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.5f, 14.0f)
-                lineTo(9.5f, 14.0f)
-                arcTo(0.5f, 0.5f, 0.0f, false, true, 10.0f, 14.5f)
-                lineTo(10.0f, 18.5f)
-                arcTo(0.5f, 0.5f, 0.0f, false, true, 9.5f, 19.0f)
-                lineTo(5.5f, 19.0f)
-                arcTo(0.5f, 0.5f, 0.0f, false, true, 5.0f, 18.5f)
-                lineTo(5.0f, 14.5f)
-                arcTo(0.5f, 0.5f, 0.0f, false, true, 5.5f, 14.0f)
+                moveTo(5.0f, 14.0f)
+                moveToRelative(0.0f, 0.5f)
+                arcToRelative(0.5f, 0.5f, 0.0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(4.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, false, true, 0.5f, 0.5f)
+                verticalLineToRelative(4.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, false, true, -0.5f, 0.5f)
+                horizontalLineToRelative(-4.0f)
+                arcToRelative(0.5f, 0.5f, 0.0f, false, true, -0.5f, -0.5f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),

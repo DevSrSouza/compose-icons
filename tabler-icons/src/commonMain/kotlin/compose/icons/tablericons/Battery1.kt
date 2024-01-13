@@ -43,7 +43,7 @@ public val TablerIcons.Battery1: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(7.0f, 10.0f)
-                lineTo(7.0f, 14.0f)
+                lineToRelative(0.0f, 4.0f)
             }
         }
         .build()

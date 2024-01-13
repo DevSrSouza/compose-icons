@@ -280,8 +280,6 @@ public val SimpleIcons.Openapiinitiative: ImageVector
                 lineToRelative(0.042f, -0.024f)
                 close()
                 moveTo(16.062f, 22.504f)
-                horizontalLineToRelative(-0.001f)
-                horizontalLineToRelative(0.002f)
                 close()
                 moveTo(16.057f, 22.508f)
                 horizontalLineToRelative(-0.002f)

@@ -1,0 +1,49 @@
+package compose.icons.octicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.Octicons
+
+public val Octicons.MoveToTop16: ImageVector
+    get() {
+        if (_moveToTop16 != null) {
+            return _moveToTop16!!
+        }
+        _moveToTop16 = Builder(name = "MoveToTop16", defaultWidth = 16.0.dp, defaultHeight =
+                16.0.dp, viewportWidth = 16.0f, viewportHeight = 16.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(3.0f, 2.25f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.75f, -0.75f)
+                horizontalLineToRelative(8.5f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, 1.5f)
+                horizontalLineToRelative(-8.5f)
+                arcTo(0.75f, 0.75f, 0.0f, false, true, 3.0f, 2.25f)
+                close()
+                moveTo(8.53f, 5.22f)
+                lineTo(12.28f, 8.97f)
+                arcToRelative(0.749f, 0.749f, 0.0f, true, true, -1.06f, 1.06f)
+                lineTo(8.75f, 7.561f)
+                verticalLineToRelative(6.689f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, -1.5f, 0.0f)
+                lineTo(7.25f, 7.561f)
+                lineTo(4.78f, 10.03f)
+                arcToRelative(0.749f, 0.749f, 0.0f, true, true, -1.06f, -1.06f)
+                lineToRelative(3.75f, -3.75f)
+                arcToRelative(0.749f, 0.749f, 0.0f, false, true, 1.06f, 0.0f)
+                close()
+            }
+        }
+        .build()
+        return _moveToTop16!!
+    }
+
+private var _moveToTop16: ImageVector? = null

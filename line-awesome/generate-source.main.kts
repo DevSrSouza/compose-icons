@@ -1,6 +1,6 @@
 @file:Repository("https://jitpack.io")
 @file:Repository("https://maven.google.com")
-@file:Repository("https://jetbrains.bintray.com/trove4j")
+@file:Repository("https://repo1.maven.org/maven2")
 @file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
@@ -28,7 +28,7 @@ val buildDir = File("build/").makeDirs()
 
 val githubId = "icons8/line-awesome"
 val repository = "https://github.com/$githubId"
-val commitId = "a60f11367584e7df157277b5ab9d1654ec91ae24"
+val commitId = "78a101217707c9b1c4dcf2a821be75684e36307f"
 val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$commitId"
 val blobGithubRepository = "$repository/blob/$commitId"
 

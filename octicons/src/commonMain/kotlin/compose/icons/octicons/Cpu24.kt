@@ -2,7 +2,7 @@ package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.PathFillType
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
@@ -23,27 +23,26 @@ public val Octicons.Cpu24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(8.75f, 8.0f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, -0.75f, 0.75f)
-                verticalLineToRelative(6.5f)
-                curveToRelative(0.0f, 0.414f, 0.336f, 0.75f, 0.75f, 0.75f)
                 horizontalLineToRelative(6.5f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, 0.75f, -0.75f)
-                verticalLineToRelative(-6.5f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, -0.75f, -0.75f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.75f, 0.75f)
+                verticalLineToRelative(6.5f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, -0.75f, 0.75f)
                 horizontalLineToRelative(-6.5f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, -0.75f, -0.75f)
+                verticalLineToRelative(-6.5f)
+                arcTo(0.75f, 0.75f, 0.0f, false, true, 8.75f, 8.0f)
                 close()
                 moveTo(9.5f, 14.5f)
-                verticalLineToRelative(-5.0f)
                 horizontalLineToRelative(5.0f)
-                verticalLineToRelative(5.0f)
+                verticalLineToRelative(-5.0f)
                 horizontalLineToRelative(-5.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(15.25f, 1.0f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.75f, 0.75f)
                 lineTo(16.0f, 4.0f)
@@ -95,7 +94,6 @@ public val Octicons.Cpu24: ImageVector
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
                 verticalLineToRelative(12.5f)
                 curveToRelative(0.0f, 0.138f, 0.112f, 0.25f, 0.25f, 0.25f)
-                horizontalLineToRelative(12.5f)
                 close()
             }
         }

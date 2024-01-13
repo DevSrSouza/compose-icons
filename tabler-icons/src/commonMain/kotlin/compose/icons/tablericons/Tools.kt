@@ -34,7 +34,7 @@ public val TablerIcons.Tools: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(14.5f, 5.5f)
-                lineTo(18.5f, 9.5f)
+                lineToRelative(4.0f, 4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -48,7 +48,7 @@ public val TablerIcons.Tools: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(7.0f, 8.0f)
-                lineTo(5.5f, 9.5f)
+                lineToRelative(-1.5f, 1.5f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -62,7 +62,7 @@ public val TablerIcons.Tools: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.0f, 17.0f)
-                lineTo(14.5f, 18.5f)
+                lineToRelative(-1.5f, 1.5f)
             }
         }
         .build()

@@ -23,8 +23,8 @@ public val TablerIcons.PlayerRecord: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
                 moveToRelative(-7.0f, 0.0f)
-                arcToRelative(7.0f, 7.0f, 0.0f, true, true, 14.0f, 0.0f)
-                arcToRelative(7.0f, 7.0f, 0.0f, true, true, -14.0f, 0.0f)
+                arcToRelative(7.0f, 7.0f, 0.0f, true, false, 14.0f, 0.0f)
+                arcToRelative(7.0f, 7.0f, 0.0f, true, false, -14.0f, 0.0f)
             }
         }
         .build()

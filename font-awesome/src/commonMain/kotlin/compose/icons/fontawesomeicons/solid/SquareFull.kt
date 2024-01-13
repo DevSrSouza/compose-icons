@@ -21,11 +21,11 @@ public val SolidGroup.SquareFull: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(512.0f, 512.0f)
+                moveTo(0.0f, 0.0f)
+                horizontalLineTo(512.0f)
+                verticalLineTo(512.0f)
                 horizontalLineTo(0.0f)
                 verticalLineTo(0.0f)
-                horizontalLineToRelative(512.0f)
-                verticalLineToRelative(512.0f)
                 close()
             }
         }

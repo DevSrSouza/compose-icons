@@ -28,7 +28,7 @@ public val TablerIcons.SquareOff: ImageVector
                 arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
                 verticalLineToRelative(10.0f)
                 moveToRelative(-0.584f, 3.412f)
-                arcToRelative(1.994f, 1.994f, 0.0f, false, true, -1.416f, 0.588f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -1.416f, 0.588f)
                 horizontalLineToRelative(-12.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
                 verticalLineToRelative(-12.0f)

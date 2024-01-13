@@ -33,7 +33,7 @@ public val TablerIcons.Pill: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.5f, 8.5f)
-                lineTo(15.5f, 15.5f)
+                lineToRelative(7.0f, 7.0f)
             }
         }
         .build()

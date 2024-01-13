@@ -16,26 +16,24 @@ public val BrandsGroup.Cloudsmith: ImageVector
         if (_cloudsmith != null) {
             return _cloudsmith!!
         }
-        _cloudsmith = Builder(name = "Cloudsmith", defaultWidth = 332.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 332.0f, viewportHeight = 512.0f).apply {
+        _cloudsmith = Builder(name = "Cloudsmith", defaultWidth = 512.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(332.5f, 419.9f)
-                curveToRelative(0.0f, 46.4f, -37.6f, 84.1f, -84.0f, 84.1f)
-                reflectiveCurveToRelative(-84.0f, -37.7f, -84.0f, -84.1f)
-                reflectiveCurveToRelative(37.6f, -84.0f, 84.0f, -84.0f)
-                reflectiveCurveToRelative(84.0f, 37.6f, 84.0f, 84.0f)
+                moveTo(512.0f, 227.6f)
+                verticalLineToRelative(56.9f)
+                lineTo(284.4f, 512.0f)
+                lineTo(227.6f, 512.0f)
+                lineTo(0.0f, 284.4f)
+                lineTo(0.0f, 227.6f)
+                lineTo(227.6f, 0.0f)
+                horizontalLineToRelative(56.9f)
+                lineTo(512.0f, 227.6f)
                 close()
-                moveTo(248.5f, 176.0f)
-                curveToRelative(46.4f, 0.0f, 80.0f, -37.6f, 80.0f, -84.0f)
-                reflectiveCurveToRelative(-33.6f, -84.0f, -80.0f, -84.0f)
-                reflectiveCurveToRelative(-88.0f, 37.6f, -88.0f, 84.0f)
-                reflectiveCurveToRelative(-29.6f, 76.0f, -76.0f, 76.0f)
-                reflectiveCurveToRelative(-84.0f, 41.6f, -84.0f, 88.0f)
-                reflectiveCurveToRelative(37.6f, 80.0f, 84.0f, 80.0f)
-                reflectiveCurveToRelative(84.0f, -33.6f, 84.0f, -80.0f)
-                reflectiveCurveToRelative(33.6f, -80.0f, 80.0f, -80.0f)
+                moveTo(256.0f, 389.6f)
+                arcToRelative(133.6f, 133.6f, 0.0f, true, false, 0.0f, -267.1f)
+                arcToRelative(133.6f, 133.6f, 0.0f, true, false, 0.0f, 267.1f)
                 close()
             }
         }

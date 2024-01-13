@@ -34,7 +34,7 @@ public val TablerIcons.CurrencyRupee: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(7.0f, 9.0f)
-                lineTo(18.0f, 9.0f)
+                lineToRelative(11.0f, 0.0f)
             }
         }
         .build()

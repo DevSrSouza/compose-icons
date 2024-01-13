@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.LastDotFm: ImageVector
+public val SimpleIcons.Lastdotfm: ImageVector
     get() {
-        if (_lastDotFm != null) {
-            return _lastDotFm!!
+        if (_lastdotfm != null) {
+            return _lastdotfm!!
         }
-        _lastDotFm = Builder(name = "LastDotFm", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _lastdotfm = Builder(name = "Lastdotfm", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -52,7 +52,7 @@ public val SimpleIcons.LastDotFm: ImageVector
             }
         }
         .build()
-        return _lastDotFm!!
+        return _lastdotfm!!
     }
 
-private var _lastDotFm: ImageVector? = null
+private var _lastdotfm: ImageVector? = null

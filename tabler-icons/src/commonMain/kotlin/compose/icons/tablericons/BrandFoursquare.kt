@@ -27,7 +27,7 @@ public val TablerIcons.BrandFoursquare: ImageVector
                 horizontalLineToRelative(10.0f)
                 curveToRelative(0.644f, 0.0f, 1.11f, 0.696f, 0.978f, 1.33f)
                 lineToRelative(-1.984f, 9.859f)
-                arcToRelative(1.014f, 1.014f, 0.0f, false, true, -0.994f, 0.811f)
+                arcToRelative(1.014f, 1.014f, 0.0f, false, true, -1.0f, 0.811f)
                 horizontalLineToRelative(-2.254f)
                 curveToRelative(-0.308f, 0.0f, -0.6f, 0.141f, -0.793f, 0.382f)
                 lineToRelative(-4.144f, 5.25f)
@@ -40,7 +40,7 @@ public val TablerIcons.BrandFoursquare: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 9.0f)
-                lineTo(17.0f, 9.0f)
+                lineToRelative(5.0f, 0.0f)
             }
         }
         .build()

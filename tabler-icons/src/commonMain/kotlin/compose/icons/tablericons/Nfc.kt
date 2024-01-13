@@ -39,15 +39,15 @@ public val TablerIcons.Nfc: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(7.0f, 4.0f)
-                lineTo(17.0f, 4.0f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 20.0f, 7.0f)
-                lineTo(20.0f, 17.0f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 17.0f, 20.0f)
-                lineTo(7.0f, 20.0f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 4.0f, 17.0f)
-                lineTo(4.0f, 7.0f)
-                arcTo(3.0f, 3.0f, 0.0f, false, true, 7.0f, 4.0f)
+                moveTo(4.0f, 4.0f)
+                moveToRelative(0.0f, 3.0f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, 3.0f, -3.0f)
+                horizontalLineToRelative(10.0f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, 3.0f, 3.0f)
+                verticalLineToRelative(10.0f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, -3.0f, 3.0f)
+                horizontalLineToRelative(-10.0f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, -3.0f, -3.0f)
                 close()
             }
         }

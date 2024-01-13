@@ -25,7 +25,7 @@ public val TablerIcons.DeviceComputerCameraOff: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(6.15f, 6.153f)
                 arcToRelative(7.0f, 7.0f, 0.0f, false, false, 9.696f, 9.696f)
-                moveToRelative(2.003f, -2.001f)
+                moveToRelative(2.0f, -2.0f)
                 arcToRelative(7.0f, 7.0f, 0.0f, false, false, -9.699f, -9.695f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
@@ -33,7 +33,7 @@ public val TablerIcons.DeviceComputerCameraOff: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(9.13f, 9.122f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, false, 3.743f, 3.749f)
-                moveToRelative(2.001f, -2.009f)
+                moveToRelative(2.0f, -2.0f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, false, -3.737f, -3.736f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
@@ -50,7 +50,7 @@ public val TablerIcons.DeviceComputerCameraOff: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 3.0f)
-                lineTo(21.0f, 21.0f)
+                lineToRelative(18.0f, 18.0f)
             }
         }
         .build()

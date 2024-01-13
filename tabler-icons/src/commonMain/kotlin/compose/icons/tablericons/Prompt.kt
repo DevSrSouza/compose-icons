@@ -31,7 +31,7 @@ public val TablerIcons.Prompt: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(13.0f, 17.0f)
-                lineTo(19.0f, 17.0f)
+                lineToRelative(6.0f, 0.0f)
             }
         }
         .build()

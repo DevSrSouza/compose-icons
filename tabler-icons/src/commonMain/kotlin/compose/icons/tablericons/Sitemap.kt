@@ -23,43 +23,43 @@ public val TablerIcons.Sitemap: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.0f, 15.0f)
-                lineTo(7.0f, 15.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 9.0f, 17.0f)
-                lineTo(9.0f, 19.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 7.0f, 21.0f)
-                lineTo(5.0f, 21.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 3.0f, 19.0f)
-                lineTo(3.0f, 17.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 5.0f, 15.0f)
+                moveTo(3.0f, 15.0f)
+                moveToRelative(0.0f, 2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
+                horizontalLineToRelative(2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
+                verticalLineToRelative(2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, 2.0f)
+                horizontalLineToRelative(-2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.0f, 15.0f)
-                lineTo(19.0f, 15.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 21.0f, 17.0f)
-                lineTo(21.0f, 19.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 19.0f, 21.0f)
-                lineTo(17.0f, 21.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 15.0f, 19.0f)
-                lineTo(15.0f, 17.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 17.0f, 15.0f)
+                moveTo(15.0f, 15.0f)
+                moveToRelative(0.0f, 2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
+                horizontalLineToRelative(2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
+                verticalLineToRelative(2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, 2.0f)
+                horizontalLineToRelative(-2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(11.0f, 3.0f)
-                lineTo(13.0f, 3.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 15.0f, 5.0f)
-                lineTo(15.0f, 7.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 13.0f, 9.0f)
-                lineTo(11.0f, 9.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 9.0f, 7.0f)
-                lineTo(9.0f, 5.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 11.0f, 3.0f)
+                moveTo(9.0f, 3.0f)
+                moveToRelative(0.0f, 2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
+                horizontalLineToRelative(2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
+                verticalLineToRelative(2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, 2.0f)
+                horizontalLineToRelative(-2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
@@ -76,7 +76,7 @@ public val TablerIcons.Sitemap: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 9.0f)
-                lineTo(12.0f, 12.0f)
+                lineToRelative(0.0f, 3.0f)
             }
         }
         .build()

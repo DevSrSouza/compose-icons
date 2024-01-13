@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -46,7 +46,7 @@ public val Octicons.CodeSquare24: ImageVector
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(2.0f, 3.75f)
                 curveTo(2.0f, 2.784f, 2.784f, 2.0f, 3.75f, 2.0f)
                 horizontalLineToRelative(16.5f)
@@ -55,7 +55,6 @@ public val Octicons.CodeSquare24: ImageVector
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 20.25f, 22.0f)
                 lineTo(3.75f, 22.0f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 2.0f, 20.25f)
-                lineTo(2.0f, 3.75f)
                 close()
                 moveTo(3.75f, 3.5f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
@@ -65,7 +64,6 @@ public val Octicons.CodeSquare24: ImageVector
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
                 lineTo(20.5f, 3.75f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, -0.25f)
-                lineTo(3.75f, 3.5f)
                 close()
             }
         }

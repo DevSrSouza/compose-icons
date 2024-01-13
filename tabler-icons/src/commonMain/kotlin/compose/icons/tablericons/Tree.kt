@@ -41,14 +41,13 @@ public val TablerIcons.Tree: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(9.824f, 15.995f)
+                moveTo(9.824f, 16.0f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, -2.743f, -3.69f)
-                arcToRelative(2.998f, 2.998f, 0.0f, false, true, 0.304f, -4.833f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, 0.304f, -4.833f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, 4.615f, -3.707f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, 4.614f, 3.707f)
-                arcToRelative(2.997f, 2.997f, 0.0f, false, true, 0.305f, 4.833f)
+                arcToRelative(3.0f, 3.0f, 0.0f, false, true, 0.305f, 4.833f)
                 arcToRelative(3.0f, 3.0f, 0.0f, false, true, -2.919f, 3.695f)
-                horizontalLineToRelative(0.001f)
                 horizontalLineToRelative(-4.0f)
                 close()
             }

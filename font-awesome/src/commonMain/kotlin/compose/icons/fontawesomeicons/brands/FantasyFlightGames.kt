@@ -40,7 +40,6 @@ public val BrandsGroup.FantasyFlightGames: ImageVector
                 curveToRelative(-11.95f, 11.6f, -23.66f, 22.97f, -35.69f, 34.66f)
                 curveToRelative(-12.02f, -12.54f, -24.48f, -25.53f, -36.54f, -38.11f)
                 curveToRelative(-21.39f, 21.09f, -41.69f, 41.11f, -61.85f, 60.99f)
-                arcToRelative(42569.01f, 42569.01f, 0.0f, false, true, -41.13f, -40.72f)
                 close()
                 moveTo(323.16f, 357.43f)
                 curveToRelative(-35.49f, 35.43f, -78.09f, 38.14f, -106.99f, 20.47f)

@@ -63,15 +63,15 @@ public val TablerIcons.Dimensions: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.0f, 10.0f)
-                lineTo(12.0f, 10.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 14.0f, 12.0f)
-                lineTo(14.0f, 19.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 12.0f, 21.0f)
-                lineTo(5.0f, 21.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 3.0f, 19.0f)
-                lineTo(3.0f, 12.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 5.0f, 10.0f)
+                moveTo(3.0f, 10.0f)
+                moveToRelative(0.0f, 2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
+                horizontalLineToRelative(7.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
+                verticalLineToRelative(7.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, 2.0f)
+                horizontalLineToRelative(-7.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
                 close()
             }
         }

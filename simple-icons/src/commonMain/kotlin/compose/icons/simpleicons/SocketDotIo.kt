@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.SocketDotIo: ImageVector
+public val SimpleIcons.Socketdotio: ImageVector
     get() {
-        if (_socketDotIo != null) {
-            return _socketDotIo!!
+        if (_socketdotio != null) {
+            return _socketdotio!!
         }
-        _socketDotIo = Builder(name = "SocketDotIo", defaultWidth = 24.0.dp, defaultHeight =
+        _socketdotio = Builder(name = "Socketdotio", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -50,7 +50,7 @@ public val SimpleIcons.SocketDotIo: ImageVector
             }
         }
         .build()
-        return _socketDotIo!!
+        return _socketdotio!!
     }
 
-private var _socketDotIo: ImageVector? = null
+private var _socketdotio: ImageVector? = null

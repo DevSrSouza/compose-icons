@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.RollsRoyce: ImageVector
+public val SimpleIcons.Rollsroyce: ImageVector
     get() {
-        if (_rollsRoyce != null) {
-            return _rollsRoyce!!
+        if (_rollsroyce != null) {
+            return _rollsroyce!!
         }
-        _rollsRoyce = Builder(name = "RollsRoyce", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _rollsroyce = Builder(name = "Rollsroyce", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -114,7 +114,7 @@ public val SimpleIcons.RollsRoyce: ImageVector
             }
         }
         .build()
-        return _rollsRoyce!!
+        return _rollsroyce!!
     }
 
-private var _rollsRoyce: ImageVector? = null
+private var _rollsroyce: ImageVector? = null

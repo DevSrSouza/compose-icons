@@ -1,6 +1,6 @@
 @file:Repository("https://jitpack.io")
 @file:Repository("https://maven.google.com")
-@file:Repository("https://jetbrains.bintray.com/trove4j")
+@file:Repository("https://repo1.maven.org/maven2")
 @file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
@@ -33,7 +33,7 @@ val ignoredIcons = listOf(
 
 val githubId = "simple-icons/simple-icons"
 val repository = "https://github.com/$githubId"
-val version = "4.14.0"
+val version = "11.0.0"
 val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
 val blobGithubRepository = "$repository/blob/$version"
 
@@ -81,7 +81,7 @@ val iconsNamesFixed = icons.map { if(it.slug != null) it.slug!! else iconTitleTo
 val iconsDir = File(repoCloneDir, "icons")
 val iconsFileNames = iconsNamesFixed
     .associate {
-        val sourceName = it.replace(" ", "_").replace("-", "_") + ".svg"
+        val sourceName = it.replace(" ", "_").replace("-", "") + ".svg"
         val fileName = it.replace(" ", "") + ".svg"
 
         File(iconsDir, fileName).renameTo(File(iconsDir, sourceName))
@@ -163,7 +163,7 @@ fun ParsingResult.asDocumentationGroup(
         icons = generatedIconsMemberNames.map {
             DocumentationIcon(
                 "$accessingGroupFormat.${it.value.simpleName}",
-                it.key.relativeTo(repoCloneDir).path
+                it.key.relativeTo(repoCloneDir).path.replace("\\", "/")
             )
         }
     )

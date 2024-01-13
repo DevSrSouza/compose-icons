@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.ScikitLearn: ImageVector
+public val SimpleIcons.Scikitlearn: ImageVector
     get() {
-        if (_scikitLearn != null) {
-            return _scikitLearn!!
+        if (_scikitlearn != null) {
+            return _scikitlearn!!
         }
-        _scikitLearn = Builder(name = "ScikitLearn", defaultWidth = 24.0.dp, defaultHeight =
+        _scikitlearn = Builder(name = "Scikitlearn", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -278,7 +278,7 @@ public val SimpleIcons.ScikitLearn: ImageVector
             }
         }
         .build()
-        return _scikitLearn!!
+        return _scikitlearn!!
     }
 
-private var _scikitLearn: ImageVector? = null
+private var _scikitlearn: ImageVector? = null

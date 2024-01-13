@@ -33,21 +33,21 @@ public val TablerIcons.Pizza: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.2f, 15.772f)
-                arcToRelative(14.939f, 14.939f, 0.0f, false, false, 6.995f, 1.728f)
-                arcToRelative(14.944f, 14.944f, 0.0f, false, false, 6.638f, -1.545f)
+                moveTo(5.38f, 15.866f)
+                arcToRelative(14.94f, 14.94f, 0.0f, false, false, 6.815f, 1.634f)
+                arcToRelative(14.944f, 14.944f, 0.0f, false, false, 6.502f, -1.479f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(13.0f, 11.01f)
-                lineTo(13.0f, 11.0f)
+                verticalLineToRelative(-0.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(11.0f, 14.0f)
-                lineTo(11.0f, 13.99f)
+                verticalLineToRelative(-0.01f)
             }
         }
         .build()

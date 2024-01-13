@@ -23,28 +23,28 @@ public val TablerIcons.DeviceMobileRotated: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(20.0f, 8.0f)
-                lineTo(20.0f, 16.0f)
-                arcTo(1.0f, 1.0f, 0.0f, false, true, 19.0f, 17.0f)
-                lineTo(5.0f, 17.0f)
-                arcTo(1.0f, 1.0f, 0.0f, false, true, 4.0f, 16.0f)
-                lineTo(4.0f, 8.0f)
-                arcTo(1.0f, 1.0f, 0.0f, false, true, 5.0f, 7.0f)
-                lineTo(19.0f, 7.0f)
-                arcTo(1.0f, 1.0f, 0.0f, false, true, 20.0f, 8.0f)
+                moveTo(3.0f, 6.0f)
+                moveToRelative(0.0f, 2.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
+                horizontalLineToRelative(14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
+                verticalLineToRelative(8.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, 2.0f)
+                horizontalLineToRelative(-14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(19.0f, 11.0f)
-                lineTo(19.0f, 13.0f)
+                moveTo(20.0f, 11.0f)
+                verticalLineToRelative(2.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(7.0f, 12.0f)
-                lineTo(6.99f, 12.0f)
+                horizontalLineToRelative(-0.01f)
             }
         }
         .build()

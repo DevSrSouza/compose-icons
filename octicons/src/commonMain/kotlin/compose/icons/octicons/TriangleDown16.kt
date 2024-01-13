@@ -21,7 +21,7 @@ public val Octicons.TriangleDown16: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(4.427f, 7.427f)
+                moveToRelative(4.427f, 7.427f)
                 lineToRelative(3.396f, 3.396f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.354f, 0.0f)
                 lineToRelative(3.396f, -3.396f)

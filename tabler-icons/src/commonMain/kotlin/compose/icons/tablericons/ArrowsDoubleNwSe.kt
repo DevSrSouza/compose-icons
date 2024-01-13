@@ -44,7 +44,7 @@ public val TablerIcons.ArrowsDoubleNwSe: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(10.0f, 3.0f)
-                lineTo(21.0f, 14.0f)
+                lineToRelative(11.0f, 11.0f)
             }
         }
         .build()

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.P5DotJs: ImageVector
+public val SimpleIcons.P5dotjs: ImageVector
     get() {
-        if (_p5DotJs != null) {
-            return _p5DotJs!!
+        if (_p5dotjs != null) {
+            return _p5dotjs!!
         }
-        _p5DotJs = Builder(name = "P5DotJs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _p5dotjs = Builder(name = "P5dotjs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -163,7 +163,7 @@ public val SimpleIcons.P5DotJs: ImageVector
             }
         }
         .build()
-        return _p5DotJs!!
+        return _p5dotjs!!
     }
 
-private var _p5DotJs: ImageVector? = null
+private var _p5dotjs: ImageVector? = null

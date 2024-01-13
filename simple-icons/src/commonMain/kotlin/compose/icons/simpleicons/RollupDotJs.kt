@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.RollupDotJs: ImageVector
+public val SimpleIcons.Rollupdotjs: ImageVector
     get() {
-        if (_rollupDotJs != null) {
-            return _rollupDotJs!!
+        if (_rollupdotjs != null) {
+            return _rollupdotjs!!
         }
-        _rollupDotJs = Builder(name = "RollupDotJs", defaultWidth = 24.0.dp, defaultHeight =
+        _rollupdotjs = Builder(name = "Rollupdotjs", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -47,7 +47,7 @@ public val SimpleIcons.RollupDotJs: ImageVector
             }
         }
         .build()
-        return _rollupDotJs!!
+        return _rollupdotjs!!
     }
 
-private var _rollupDotJs: ImageVector? = null
+private var _rollupdotjs: ImageVector? = null

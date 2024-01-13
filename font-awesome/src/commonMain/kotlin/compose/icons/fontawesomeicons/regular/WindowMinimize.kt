@@ -21,13 +21,13 @@ public val RegularGroup.WindowMinimize: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(480.0f, 480.0f)
-                horizontalLineTo(32.0f)
-                curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
-                reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
-                horizontalLineToRelative(448.0f)
-                curveToRelative(17.7f, 0.0f, 32.0f, 14.3f, 32.0f, 32.0f)
-                reflectiveCurveToRelative(-14.3f, 32.0f, -32.0f, 32.0f)
+                moveTo(24.0f, 432.0f)
+                curveToRelative(-13.3f, 0.0f, -24.0f, 10.7f, -24.0f, 24.0f)
+                reflectiveCurveToRelative(10.7f, 24.0f, 24.0f, 24.0f)
+                horizontalLineTo(488.0f)
+                curveToRelative(13.3f, 0.0f, 24.0f, -10.7f, 24.0f, -24.0f)
+                reflectiveCurveToRelative(-10.7f, -24.0f, -24.0f, -24.0f)
+                horizontalLineTo(24.0f)
                 close()
             }
         }

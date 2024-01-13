@@ -59,7 +59,7 @@ public val TablerIcons.ToolsKitchen: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.0f, 12.0f)
-                lineTo(8.0f, 18.0f)
+                lineToRelative(0.0f, 6.0f)
             }
         }
         .build()

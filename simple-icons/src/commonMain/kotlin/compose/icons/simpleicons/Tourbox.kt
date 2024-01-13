@@ -1,0 +1,153 @@
+package compose.icons.simpleicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.SimpleIcons
+
+public val SimpleIcons.Tourbox: ImageVector
+    get() {
+        if (_tourbox != null) {
+            return _tourbox!!
+        }
+        _tourbox = Builder(name = "Tourbox", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(5.401f, 9.664f)
+                curveToRelative(0.0f, -0.28f, 0.3f, -0.506f, 0.898f, -0.668f)
+                arcToRelative(6.73f, 6.73f, 0.0f, false, true, 1.716f, -0.202f)
+                arcToRelative(6.65f, 6.65f, 0.0f, false, true, 1.715f, 0.202f)
+                curveToRelative(0.605f, 0.164f, 0.904f, 0.387f, 0.904f, 0.668f)
+                verticalLineToRelative(1.632f)
+                curveToRelative(0.0f, 0.283f, -0.299f, 0.506f, -0.904f, 0.67f)
+                curveToRelative(-0.5f, 0.138f, -1.072f, 0.204f, -1.715f, 0.204f)
+                arcToRelative(6.554f, 6.554f, 0.0f, false, true, -1.716f, -0.203f)
+                curveToRelative(-0.6f, -0.165f, -0.898f, -0.388f, -0.898f, -0.67f)
+                close()
+                moveTo(8.015f, 13.081f)
+                curveToRelative(2.368f, 0.0f, 3.55f, -0.595f, 3.55f, -1.785f)
+                lineTo(11.565f, 9.664f)
+                curveToRelative(0.0f, -1.19f, -1.182f, -1.784f, -3.55f, -1.784f)
+                curveToRelative(-2.363f, 0.0f, -3.545f, 0.597f, -3.545f, 1.784f)
+                verticalLineToRelative(1.632f)
+                curveToRelative(0.0f, 1.19f, 1.182f, 1.787f, 3.545f, 1.787f)
+                moveToRelative(10.542f, -1.75f)
+                lineTo(18.557f, 7.906f)
+                horizontalLineToRelative(-0.931f)
+                verticalLineToRelative(3.431f)
+                curveToRelative(0.0f, 0.24f, -0.127f, 0.43f, -0.38f, 0.557f)
+                curveToRelative(-0.425f, 0.218f, -1.024f, 0.327f, -1.8f, 0.327f)
+                arcToRelative(4.58f, 4.58f, 0.0f, false, true, -1.43f, -0.207f)
+                curveToRelative(-0.497f, -0.166f, -0.747f, -0.39f, -0.747f, -0.677f)
+                verticalLineToRelative(-3.43f)
+                horizontalLineToRelative(-0.931f)
+                verticalLineToRelative(3.423f)
+                curveToRelative(0.0f, 0.658f, 0.369f, 1.14f, 1.108f, 1.449f)
+                curveToRelative(0.544f, 0.222f, 1.21f, 0.339f, 1.999f, 0.339f)
+                arcToRelative(5.314f, 5.314f, 0.0f, false, false, 2.004f, -0.332f)
+                curveToRelative(0.739f, -0.303f, 1.108f, -0.79f, 1.108f, -1.456f)
+                moveToRelative(2.262f, -3.264f)
+                horizontalLineToRelative(0.008f)
+                arcToRelative(0.028f, 0.028f, 0.0f, false, false, 0.02f, -0.01f)
+                close()
+                moveTo(20.182f, 9.658f)
+                curveToRelative(0.0f, -0.235f, 0.126f, -0.415f, 0.384f, -0.552f)
+                curveToRelative(0.453f, -0.238f, 1.106f, -0.354f, 1.959f, -0.354f)
+                curveToRelative(0.37f, 0.0f, 0.766f, 0.04f, 1.196f, 0.127f)
+                lineTo(24.0f, 8.01f)
+                arcToRelative(6.91f, 6.91f, 0.0f, false, false, -1.475f, -0.13f)
+                curveToRelative(-0.64f, 0.0f, -1.207f, 0.063f, -1.696f, 0.185f)
+                curveToRelative(-1.062f, 0.296f, -1.594f, 0.825f, -1.594f, 1.594f)
+                verticalLineToRelative(3.424f)
+                horizontalLineToRelative(0.947f)
+                close()
+                moveTo(5.839f, 14.19f)
+                arcToRelative(7.616f, 7.616f, 0.0f, false, false, -1.46f, 0.134f)
+                lineToRelative(0.182f, 0.86f)
+                arcToRelative(7.31f, 7.31f, 0.0f, false, true, 1.275f, -0.134f)
+                curveToRelative(0.524f, 0.0f, 1.017f, 0.07f, 1.493f, 0.213f)
+                curveToRelative(0.572f, 0.167f, 0.86f, 0.392f, 0.86f, 0.665f)
+                verticalLineToRelative(1.63f)
+                curveToRelative(0.0f, 0.278f, -0.27f, 0.498f, -0.81f, 0.658f)
+                arcToRelative(5.552f, 5.552f, 0.0f, false, true, -1.54f, 0.192f)
+                arcToRelative(5.516f, 5.516f, 0.0f, false, true, -1.54f, -0.195f)
+                curveToRelative(-0.545f, -0.16f, -0.81f, -0.38f, -0.81f, -0.658f)
+                verticalLineToRelative(-4.498f)
+                curveToRelative(0.21f, 0.01f, 0.42f, 0.025f, 0.65f, 0.025f)
+                verticalLineToRelative(-1.063f)
+                arcToRelative(11.923f, 11.923f, 0.0f, false, true, -1.709f, -0.25f)
+                curveToRelative(-0.875f, -0.196f, -1.31f, -0.447f, -1.31f, -0.75f)
+                lineTo(1.12f, 8.234f)
+                horizontalLineToRelative(3.03f)
+                lineTo(4.15f, 7.192f)
+                lineTo(1.118f, 7.192f)
+                lineTo(1.118f, 4.697f)
+                lineTo(0.0f, 4.697f)
+                verticalLineToRelative(6.32f)
+                curveToRelative(0.0f, 1.072f, 0.893f, 1.722f, 2.65f, 1.958f)
+                verticalLineToRelative(4.59f)
+                curveToRelative(0.0f, 1.16f, 1.062f, 1.738f, 3.19f, 1.738f)
+                curveToRelative(2.125f, 0.0f, 3.188f, -0.577f, 3.188f, -1.738f)
+                verticalLineToRelative(-1.632f)
+                curveToRelative(0.0f, -1.164f, -1.063f, -1.746f, -3.188f, -1.746f)
+                moveToRelative(10.132f, 3.3f)
+                curveToRelative(0.0f, 0.283f, -0.301f, 0.505f, -0.903f, 0.67f)
+                arcToRelative(6.762f, 6.762f, 0.0f, false, true, -1.716f, 0.202f)
+                arcToRelative(6.73f, 6.73f, 0.0f, false, true, -1.716f, -0.202f)
+                curveToRelative(-0.6f, -0.165f, -0.9f, -0.387f, -0.9f, -0.67f)
+                verticalLineToRelative(-1.633f)
+                curveToRelative(0.0f, -0.28f, 0.3f, -0.506f, 0.9f, -0.668f)
+                arcToRelative(6.58f, 6.58f, 0.0f, false, true, 1.716f, -0.202f)
+                curveToRelative(0.64f, 0.0f, 1.215f, 0.065f, 1.716f, 0.202f)
+                curveToRelative(0.602f, 0.165f, 0.903f, 0.387f, 0.903f, 0.668f)
+                close()
+                moveTo(13.352f, 14.07f)
+                curveToRelative(-2.366f, 0.0f, -3.547f, 0.597f, -3.547f, 1.784f)
+                verticalLineToRelative(1.632f)
+                curveToRelative(0.0f, 1.19f, 1.181f, 1.787f, 3.548f, 1.787f)
+                curveToRelative(2.366f, 0.0f, 3.548f, -0.598f, 3.548f, -1.787f)
+                verticalLineToRelative(-1.632f)
+                curveToRelative(0.0f, -1.19f, -1.182f, -1.784f, -3.548f, -1.784f)
+                moveToRelative(9.669f, 0.514f)
+                curveToRelative(0.0f, 0.296f, -0.342f, 0.607f, -1.025f, 0.934f)
+                curveToRelative(-0.564f, 0.235f, -0.995f, 0.404f, -1.28f, 0.506f)
+                arcToRelative(17.597f, 17.597f, 0.0f, false, true, -1.286f, -0.506f)
+                curveToRelative(-0.683f, -0.33f, -1.02f, -0.638f, -1.02f, -0.932f)
+                verticalLineToRelative(-0.49f)
+                horizontalLineToRelative(-0.93f)
+                verticalLineToRelative(0.49f)
+                curveToRelative(0.0f, 0.446f, 0.222f, 0.848f, 0.67f, 1.2f)
+                curveToRelative(0.258f, 0.21f, 0.683f, 0.453f, 1.28f, 0.728f)
+                curveToRelative(-1.298f, 0.668f, -1.948f, 1.44f, -1.948f, 2.308f)
+                verticalLineToRelative(0.45f)
+                horizontalLineToRelative(0.928f)
+                verticalLineToRelative(-0.45f)
+                curveToRelative(0.0f, -0.354f, 0.3f, -0.73f, 0.904f, -1.123f)
+                arcToRelative(6.772f, 6.772f, 0.0f, false, true, 1.41f, -0.704f)
+                curveToRelative(0.523f, 0.2f, 0.988f, 0.43f, 1.396f, 0.704f)
+                curveToRelative(0.6f, 0.394f, 0.9f, 0.769f, 0.9f, 1.123f)
+                verticalLineToRelative(0.45f)
+                horizontalLineToRelative(0.932f)
+                verticalLineToRelative(-0.45f)
+                curveToRelative(0.0f, -0.868f, -0.648f, -1.64f, -1.95f, -2.308f)
+                curveToRelative(0.6f, -0.275f, 1.026f, -0.518f, 1.284f, -0.728f)
+                curveToRelative(0.443f, -0.354f, 0.666f, -0.754f, 0.666f, -1.2f)
+                verticalLineToRelative(-0.49f)
+                horizontalLineToRelative(-0.931f)
+                close()
+                moveTo(23.022f, 14.584f)
+            }
+        }
+        .build()
+        return _tourbox!!
+    }
+
+private var _tourbox: ImageVector? = null

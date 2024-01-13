@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,31 +20,24 @@ public val Octicons.DeviceCameraVideo24: ImageVector
                 defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(24.0f, 5.25f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, false, -1.136f, -0.643f)
-                lineTo(16.5f, 8.425f)
-                lineTo(16.5f, 6.25f)
-                arcToRelative(1.75f, 1.75f, 0.0f, false, false, -1.75f, -1.75f)
+                verticalLineToRelative(13.0f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, -1.136f, 0.643f)
+                lineTo(16.5f, 15.075f)
+                verticalLineToRelative(2.175f)
+                arcTo(1.75f, 1.75f, 0.0f, false, true, 14.75f, 19.0f)
                 horizontalLineToRelative(-13.0f)
-                arcTo(1.75f, 1.75f, 0.0f, false, false, 0.0f, 6.25f)
-                verticalLineToRelative(11.0f)
-                curveTo(0.0f, 18.216f, 0.784f, 19.0f, 1.75f, 19.0f)
+                arcTo(1.75f, 1.75f, 0.0f, false, true, 0.0f, 17.25f)
+                verticalLineToRelative(-11.0f)
+                curveTo(0.0f, 5.284f, 0.784f, 4.5f, 1.75f, 4.5f)
                 horizontalLineToRelative(13.0f)
-                arcToRelative(1.75f, 1.75f, 0.0f, false, false, 1.75f, -1.75f)
-                verticalLineToRelative(-2.175f)
-                lineToRelative(6.364f, 3.818f)
-                arcTo(0.75f, 0.75f, 0.0f, false, false, 24.0f, 18.25f)
-                verticalLineToRelative(-13.0f)
+                curveToRelative(0.966f, 0.0f, 1.75f, 0.784f, 1.75f, 1.75f)
+                verticalLineToRelative(2.175f)
+                lineToRelative(6.364f, -3.818f)
+                arcTo(0.75f, 0.75f, 0.0f, false, true, 24.0f, 5.25f)
                 close()
-                moveTo(16.5f, 13.325f)
-                lineToRelative(6.0f, 3.6f)
-                lineTo(22.5f, 6.575f)
-                lineToRelative(-6.0f, 3.6f)
-                verticalLineToRelative(3.15f)
-                close()
-                moveTo(15.0f, 9.75f)
-                verticalLineToRelative(-3.5f)
+                moveTo(15.0f, 6.25f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, -0.25f)
                 horizontalLineToRelative(-13.0f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
@@ -52,7 +45,12 @@ public val Octicons.DeviceCameraVideo24: ImageVector
                 curveToRelative(0.0f, 0.138f, 0.112f, 0.25f, 0.25f, 0.25f)
                 horizontalLineToRelative(13.0f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
-                verticalLineToRelative(-7.5f)
+                verticalLineToRelative(-11.0f)
+                close()
+                moveTo(16.5f, 13.325f)
+                lineTo(22.5f, 16.925f)
+                lineTo(22.5f, 6.575f)
+                lineToRelative(-6.0f, 3.6f)
                 close()
             }
         }

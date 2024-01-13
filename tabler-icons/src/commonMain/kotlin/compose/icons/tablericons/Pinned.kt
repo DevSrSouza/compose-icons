@@ -36,13 +36,13 @@ public val TablerIcons.Pinned: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 16.0f)
-                lineTo(12.0f, 21.0f)
+                lineToRelative(0.0f, 5.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.0f, 4.0f)
-                lineTo(16.0f, 4.0f)
+                lineToRelative(8.0f, 0.0f)
             }
         }
         .build()

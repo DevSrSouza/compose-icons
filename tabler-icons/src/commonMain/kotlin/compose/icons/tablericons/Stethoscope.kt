@@ -57,8 +57,8 @@ public val TablerIcons.Stethoscope: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(20.0f, 10.0f)
                 moveToRelative(-2.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, -4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, -4.0f, 0.0f)
             }
         }
         .build()

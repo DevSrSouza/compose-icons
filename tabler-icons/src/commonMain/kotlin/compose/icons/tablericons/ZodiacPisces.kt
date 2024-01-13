@@ -36,7 +36,7 @@ public val TablerIcons.ZodiacPisces: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(5.0f, 12.0f)
-                lineTo(19.0f, 12.0f)
+                lineToRelative(14.0f, 0.0f)
             }
         }
         .build()

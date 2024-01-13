@@ -21,15 +21,18 @@ public val TablerIcons.Filter: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.5f, 5.0f)
-                horizontalLineToRelative(13.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, true, 0.5f, 1.5f)
-                lineToRelative(-5.0f, 5.5f)
-                lineToRelative(0.0f, 7.0f)
-                lineToRelative(-4.0f, -3.0f)
-                lineToRelative(0.0f, -4.0f)
-                lineToRelative(-5.0f, -5.5f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, true, 0.5f, -1.5f)
+                moveTo(4.0f, 4.0f)
+                horizontalLineToRelative(16.0f)
+                verticalLineToRelative(2.172f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -0.586f, 1.414f)
+                lineToRelative(-4.414f, 4.414f)
+                verticalLineToRelative(7.0f)
+                lineToRelative(-6.0f, 2.0f)
+                verticalLineToRelative(-8.5f)
+                lineToRelative(-4.48f, -4.928f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -0.52f, -1.345f)
+                verticalLineToRelative(-2.227f)
+                close()
             }
         }
         .build()

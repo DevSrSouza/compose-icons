@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.XDotOrg: ImageVector
+public val SimpleIcons.Xdotorg: ImageVector
     get() {
-        if (_xDotOrg != null) {
-            return _xDotOrg!!
+        if (_xdotorg != null) {
+            return _xdotorg!!
         }
-        _xDotOrg = Builder(name = "XDotOrg", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _xdotorg = Builder(name = "Xdotorg", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -64,7 +64,7 @@ public val SimpleIcons.XDotOrg: ImageVector
             }
         }
         .build()
-        return _xDotOrg!!
+        return _xdotorg!!
     }
 
-private var _xDotOrg: ImageVector? = null
+private var _xdotorg: ImageVector? = null

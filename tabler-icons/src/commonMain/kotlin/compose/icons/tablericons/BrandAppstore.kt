@@ -25,8 +25,8 @@ public val TablerIcons.BrandAppstore: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
                 moveToRelative(-9.0f, 0.0f)
-                arcToRelative(9.0f, 9.0f, 0.0f, true, true, 18.0f, 0.0f)
-                arcToRelative(9.0f, 9.0f, 0.0f, true, true, -18.0f, 0.0f)
+                arcToRelative(9.0f, 9.0f, 0.0f, true, false, 18.0f, 0.0f)
+                arcToRelative(9.0f, 9.0f, 0.0f, true, false, -18.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -50,7 +50,7 @@ public val TablerIcons.BrandAppstore: ImageVector
                 moveTo(16.0f, 16.0f)
                 lineToRelative(-2.51f, -4.518f)
                 moveToRelative(-1.487f, -2.677f)
-                lineToRelative(-1.003f, -1.805f)
+                lineToRelative(-1.0f, -1.805f)
             }
         }
         .build()

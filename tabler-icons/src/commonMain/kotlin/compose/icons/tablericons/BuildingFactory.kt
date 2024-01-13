@@ -50,7 +50,7 @@ public val TablerIcons.BuildingFactory: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 21.0f)
-                lineTo(22.0f, 21.0f)
+                lineToRelative(19.0f, 0.0f)
             }
         }
         .build()

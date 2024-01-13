@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,11 +20,11 @@ public val Octicons.Ruby24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(5.873f, 3.26f)
-                arcTo(0.75f, 0.75f, 0.0f, false, true, 6.44f, 3.0f)
+                arcTo(0.748f, 0.748f, 0.0f, false, true, 6.44f, 3.0f)
                 horizontalLineToRelative(11.31f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.576f, 0.27f)
+                curveToRelative(0.223f, 0.0f, 0.434f, 0.099f, 0.576f, 0.27f)
                 lineToRelative(5.0f, 6.0f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, -0.028f, 0.992f)
                 lineToRelative(-10.75f, 11.5f)
@@ -38,7 +38,6 @@ public val Octicons.Ruby24: ImageVector
                 lineTo(12.0f, 20.153f)
                 lineToRelative(9.75f, -10.43f)
                 lineTo(17.399f, 4.5f)
-                lineTo(6.783f, 4.5f)
                 close()
             }
         }

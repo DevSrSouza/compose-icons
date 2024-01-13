@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.NodeRed: ImageVector
+public val SimpleIcons.Nodered: ImageVector
     get() {
-        if (_nodeRed != null) {
-            return _nodeRed!!
+        if (_nodered != null) {
+            return _nodered!!
         }
-        _nodeRed = Builder(name = "NodeRed", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _nodered = Builder(name = "Nodered", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -93,7 +93,7 @@ public val SimpleIcons.NodeRed: ImageVector
             }
         }
         .build()
-        return _nodeRed!!
+        return _nodered!!
     }
 
-private var _nodeRed: ImageVector? = null
+private var _nodered: ImageVector? = null

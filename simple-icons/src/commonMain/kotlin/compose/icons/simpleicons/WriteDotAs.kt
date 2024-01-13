@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.WriteDotAs: ImageVector
+public val SimpleIcons.Writedotas: ImageVector
     get() {
-        if (_writeDotAs != null) {
-            return _writeDotAs!!
+        if (_writedotas != null) {
+            return _writedotas!!
         }
-        _writeDotAs = Builder(name = "WriteDotAs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _writedotas = Builder(name = "Writedotas", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -83,7 +83,7 @@ public val SimpleIcons.WriteDotAs: ImageVector
             }
         }
         .build()
-        return _writeDotAs!!
+        return _writedotas!!
     }
 
-private var _writeDotAs: ImageVector? = null
+private var _writedotas: ImageVector? = null

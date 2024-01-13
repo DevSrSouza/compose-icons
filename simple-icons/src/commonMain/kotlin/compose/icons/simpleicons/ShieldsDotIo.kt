@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.ShieldsDotIo: ImageVector
+public val SimpleIcons.Shieldsdotio: ImageVector
     get() {
-        if (_shieldsDotIo != null) {
-            return _shieldsDotIo!!
+        if (_shieldsdotio != null) {
+            return _shieldsdotio!!
         }
-        _shieldsDotIo = Builder(name = "ShieldsDotIo", defaultWidth = 24.0.dp, defaultHeight =
+        _shieldsdotio = Builder(name = "Shieldsdotio", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -185,7 +185,7 @@ public val SimpleIcons.ShieldsDotIo: ImageVector
             }
         }
         .build()
-        return _shieldsDotIo!!
+        return _shieldsdotio!!
     }
 
-private var _shieldsDotIo: ImageVector? = null
+private var _shieldsdotio: ImageVector? = null

@@ -24,13 +24,13 @@ public val TablerIcons.Menu: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.0f, 8.0f)
-                lineTo(20.0f, 8.0f)
+                lineToRelative(16.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(4.0f, 16.0f)
-                lineTo(20.0f, 16.0f)
+                lineToRelative(16.0f, 0.0f)
             }
         }
         .build()

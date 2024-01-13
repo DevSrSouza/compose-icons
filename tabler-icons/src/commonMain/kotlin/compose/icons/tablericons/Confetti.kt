@@ -80,7 +80,7 @@ public val TablerIcons.Confetti: ImageVector
                 moveTo(14.0f, 16.518f)
                 lineToRelative(-6.518f, -6.518f)
                 lineToRelative(-4.39f, 9.58f)
-                arcToRelative(1.003f, 1.003f, 0.0f, false, false, 1.329f, 1.329f)
+                arcToRelative(1.0f, 1.0f, 0.0f, false, false, 1.329f, 1.329f)
                 lineToRelative(9.579f, -4.39f)
                 close()
             }

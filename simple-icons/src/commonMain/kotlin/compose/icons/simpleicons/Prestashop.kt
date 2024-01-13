@@ -192,8 +192,6 @@ public val SimpleIcons.Prestashop: ImageVector
                 arcToRelative(8.943f, 8.943f, 0.0f, false, false, -0.078f, -0.476f)
                 close()
                 moveTo(22.317f, 12.476f)
-                lineToRelative(0.001f, 0.008f)
-                lineToRelative(-0.001f, -0.008f)
                 close()
                 moveTo(22.33f, 12.679f)
                 lineToRelative(0.003f, 0.036f)

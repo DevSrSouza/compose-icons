@@ -51,7 +51,7 @@ public val TablerIcons.BrandBooking: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.0f, 16.0f)
-                lineTo(16.01f, 16.0f)
+                lineToRelative(0.01f, 0.0f)
             }
         }
         .build()

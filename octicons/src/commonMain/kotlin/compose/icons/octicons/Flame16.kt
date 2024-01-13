@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,7 +20,20 @@ public val Octicons.Flame16: ImageVector
                 viewportWidth = 16.0f, viewportHeight = 16.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
+                moveTo(9.533f, 0.753f)
+                verticalLineTo(0.752f)
+                curveToRelative(0.217f, 2.385f, 1.463f, 3.626f, 2.653f, 4.81f)
+                curveTo(13.37f, 6.74f, 14.498f, 7.863f, 14.498f, 10.0f)
+                curveToRelative(0.0f, 3.5f, -3.0f, 6.0f, -6.5f, 6.0f)
+                reflectiveCurveTo(1.5f, 13.512f, 1.5f, 10.0f)
+                curveToRelative(0.0f, -1.298f, 0.536f, -2.56f, 1.425f, -3.286f)
+                curveToRelative(0.376f, -0.308f, 0.862f, 0.0f, 1.035f, 0.454f)
+                curveTo(4.46f, 8.487f, 5.581f, 8.419f, 6.0f, 8.0f)
+                curveToRelative(0.282f, -0.282f, 0.341f, -0.811f, -0.003f, -1.5f)
+                curveTo(4.34f, 3.187f, 7.035f, 0.75f, 8.77f, 0.146f)
+                curveToRelative(0.39f, -0.137f, 0.726f, 0.194f, 0.763f, 0.607f)
+                close()
                 moveTo(7.998f, 14.5f)
                 curveToRelative(2.832f, 0.0f, 5.0f, -1.98f, 5.0f, -4.5f)
                 curveToRelative(0.0f, -1.463f, -0.68f, -2.19f, -1.879f, -3.383f)
@@ -30,21 +43,9 @@ public val Octicons.Flame16: ImageVector
                 curveToRelative(-0.432f, 0.696f, -0.621f, 1.58f, -0.046f, 2.73f)
                 curveToRelative(0.473f, 0.947f, 0.67f, 2.284f, -0.278f, 3.232f)
                 curveToRelative(-0.61f, 0.61f, -1.545f, 0.84f, -2.403f, 0.633f)
-                arcToRelative(2.788f, 2.788f, 0.0f, false, true, -1.436f, -0.874f)
-                arcTo(3.21f, 3.21f, 0.0f, false, false, 3.0f, 10.0f)
+                arcToRelative(2.79f, 2.79f, 0.0f, false, true, -1.436f, -0.874f)
+                arcTo(3.198f, 3.198f, 0.0f, false, false, 3.0f, 10.0f)
                 curveToRelative(0.0f, 2.53f, 2.164f, 4.5f, 4.998f, 4.5f)
-                close()
-                moveTo(9.533f, 0.753f)
-                curveTo(9.496f, 0.34f, 9.16f, 0.009f, 8.77f, 0.146f)
-                curveTo(7.035f, 0.75f, 4.34f, 3.187f, 5.997f, 6.5f)
-                curveToRelative(0.344f, 0.689f, 0.285f, 1.218f, 0.003f, 1.5f)
-                curveToRelative(-0.419f, 0.419f, -1.54f, 0.487f, -2.04f, -0.832f)
-                curveToRelative(-0.173f, -0.454f, -0.659f, -0.762f, -1.035f, -0.454f)
-                curveTo(2.036f, 7.44f, 1.5f, 8.702f, 1.5f, 10.0f)
-                curveToRelative(0.0f, 3.512f, 2.998f, 6.0f, 6.498f, 6.0f)
-                reflectiveCurveToRelative(6.5f, -2.5f, 6.5f, -6.0f)
-                curveToRelative(0.0f, -2.137f, -1.128f, -3.26f, -2.312f, -4.438f)
-                curveToRelative(-1.19f, -1.184f, -2.436f, -2.425f, -2.653f, -4.81f)
                 close()
             }
         }

@@ -25,9 +25,9 @@ public val TablerIcons.BrandHipchat: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(17.802f, 17.292f)
                 reflectiveCurveToRelative(0.077f, -0.055f, 0.2f, -0.149f)
-                curveToRelative(1.843f, -1.425f, 2.998f, -3.49f, 2.998f, -5.789f)
-                curveToRelative(0.0f, -4.286f, -4.03f, -7.764f, -8.998f, -7.764f)
-                curveToRelative(-4.97f, 0.0f, -9.002f, 3.478f, -9.002f, 7.764f)
+                curveToRelative(1.843f, -1.425f, 3.0f, -3.49f, 3.0f, -5.789f)
+                curveToRelative(0.0f, -4.286f, -4.03f, -7.764f, -9.0f, -7.764f)
+                curveToRelative(-4.97f, 0.0f, -9.0f, 3.478f, -9.0f, 7.764f)
                 curveToRelative(0.0f, 4.288f, 4.03f, 7.646f, 9.0f, 7.646f)
                 curveToRelative(0.424f, 0.0f, 1.12f, -0.028f, 2.088f, -0.084f)
                 curveToRelative(1.262f, 0.82f, 3.104f, 1.493f, 4.716f, 1.493f)

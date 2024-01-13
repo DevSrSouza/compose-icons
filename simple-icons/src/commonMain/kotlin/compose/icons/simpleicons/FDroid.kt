@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.FDroid: ImageVector
+public val SimpleIcons.Fdroid: ImageVector
     get() {
-        if (_fDroid != null) {
-            return _fDroid!!
+        if (_fdroid != null) {
+            return _fdroid!!
         }
-        _fDroid = Builder(name = "FDroid", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _fdroid = Builder(name = "Fdroid", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -98,7 +98,7 @@ public val SimpleIcons.FDroid: ImageVector
             }
         }
         .build()
-        return _fDroid!!
+        return _fdroid!!
     }
 
-private var _fDroid: ImageVector? = null
+private var _fdroid: ImageVector? = null

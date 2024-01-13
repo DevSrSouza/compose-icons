@@ -23,25 +23,26 @@ public val TablerIcons.Parking: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.0f, 4.0f)
-                lineTo(18.0f, 4.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 20.0f, 6.0f)
-                lineTo(20.0f, 18.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 18.0f, 20.0f)
-                lineTo(6.0f, 20.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 4.0f, 18.0f)
-                lineTo(4.0f, 6.0f)
-                arcTo(2.0f, 2.0f, 0.0f, false, true, 6.0f, 4.0f)
+                moveTo(3.0f, 5.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
+                horizontalLineToRelative(14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
+                verticalLineToRelative(14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, 2.0f)
+                horizontalLineToRelative(-14.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
+                verticalLineToRelative(-14.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(9.0f, 16.0f)
+                moveTo(10.0f, 16.0f)
                 verticalLineToRelative(-8.0f)
-                horizontalLineToRelative(4.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 0.0f, 4.0f)
-                horizontalLineToRelative(-4.0f)
+                horizontalLineToRelative(2.667f)
+                curveToRelative(0.736f, 0.0f, 1.333f, 0.895f, 1.333f, 2.0f)
+                reflectiveCurveToRelative(-0.597f, 2.0f, -1.333f, 2.0f)
+                horizontalLineToRelative(-2.667f)
             }
         }
         .build()

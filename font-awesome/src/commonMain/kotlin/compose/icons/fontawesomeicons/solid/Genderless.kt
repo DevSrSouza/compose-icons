@@ -16,21 +16,18 @@ public val SolidGroup.Genderless: ImageVector
         if (_genderless != null) {
             return _genderless!!
         }
-        _genderless = Builder(name = "Genderless", defaultWidth = 288.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 288.0f, viewportHeight = 512.0f).apply {
+        _genderless = Builder(name = "Genderless", defaultWidth = 384.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 384.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(144.0f, 176.0f)
-                curveToRelative(44.1f, 0.0f, 80.0f, 35.9f, 80.0f, 80.0f)
-                reflectiveCurveToRelative(-35.9f, 80.0f, -80.0f, 80.0f)
-                reflectiveCurveToRelative(-80.0f, -35.9f, -80.0f, -80.0f)
-                reflectiveCurveToRelative(35.9f, -80.0f, 80.0f, -80.0f)
-                moveToRelative(0.0f, -64.0f)
-                curveTo(64.5f, 112.0f, 0.0f, 176.5f, 0.0f, 256.0f)
-                reflectiveCurveToRelative(64.5f, 144.0f, 144.0f, 144.0f)
-                reflectiveCurveToRelative(144.0f, -64.5f, 144.0f, -144.0f)
-                reflectiveCurveToRelative(-64.5f, -144.0f, -144.0f, -144.0f)
+                moveTo(192.0f, 144.0f)
+                arcToRelative(112.0f, 112.0f, 0.0f, true, true, 0.0f, 224.0f)
+                arcToRelative(112.0f, 112.0f, 0.0f, true, true, 0.0f, -224.0f)
+                close()
+                moveTo(192.0f, 432.0f)
+                arcToRelative(176.0f, 176.0f, 0.0f, true, false, 0.0f, -352.0f)
+                arcToRelative(176.0f, 176.0f, 0.0f, true, false, 0.0f, 352.0f)
                 close()
             }
         }

@@ -38,7 +38,7 @@ public val TablerIcons.ArrowsHorizontal: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 12.0f)
-                lineTo(21.0f, 12.0f)
+                lineToRelative(18.0f, 0.0f)
             }
         }
         .build()

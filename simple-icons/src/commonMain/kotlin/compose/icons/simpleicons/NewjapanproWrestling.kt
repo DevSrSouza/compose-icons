@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.NewjapanproWrestling: ImageVector
+public val SimpleIcons.Newjapanprowrestling: ImageVector
     get() {
-        if (_newjapanproWrestling != null) {
-            return _newjapanproWrestling!!
+        if (_newjapanprowrestling != null) {
+            return _newjapanprowrestling!!
         }
-        _newjapanproWrestling = Builder(name = "NewjapanproWrestling", defaultWidth = 24.0.dp,
+        _newjapanprowrestling = Builder(name = "Newjapanprowrestling", defaultWidth = 24.0.dp,
                 defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -1250,7 +1250,7 @@ public val SimpleIcons.NewjapanproWrestling: ImageVector
             }
         }
         .build()
-        return _newjapanproWrestling!!
+        return _newjapanprowrestling!!
     }
 
-private var _newjapanproWrestling: ImageVector? = null
+private var _newjapanprowrestling: ImageVector? = null

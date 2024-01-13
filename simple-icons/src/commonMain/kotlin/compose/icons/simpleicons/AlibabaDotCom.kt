@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.AlibabaDotCom: ImageVector
+public val SimpleIcons.Alibabadotcom: ImageVector
     get() {
-        if (_alibabaDotCom != null) {
-            return _alibabaDotCom!!
+        if (_alibabadotcom != null) {
+            return _alibabadotcom!!
         }
-        _alibabaDotCom = Builder(name = "AlibabaDotCom", defaultWidth = 24.0.dp, defaultHeight =
+        _alibabadotcom = Builder(name = "Alibabadotcom", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -58,7 +58,7 @@ public val SimpleIcons.AlibabaDotCom: ImageVector
             }
         }
         .build()
-        return _alibabaDotCom!!
+        return _alibabadotcom!!
     }
 
-private var _alibabaDotCom: ImageVector? = null
+private var _alibabadotcom: ImageVector? = null

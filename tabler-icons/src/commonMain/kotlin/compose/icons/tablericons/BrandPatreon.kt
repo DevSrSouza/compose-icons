@@ -1,10 +1,8 @@
 package compose.icons.tablericons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
-import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeCap.Companion.Round
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -23,19 +21,15 @@ public val TablerIcons.BrandPatreon: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(3.0f, 3.0f)
-                horizontalLineToRelative(3.0f)
-                verticalLineToRelative(18.0f)
-                horizontalLineToRelative(-3.0f)
+                moveTo(20.0f, 8.408f)
+                curveToRelative(-0.003f, -2.299f, -1.746f, -4.182f, -3.79f, -4.862f)
+                curveToRelative(-2.54f, -0.844f, -5.888f, -0.722f, -8.312f, 0.453f)
+                curveToRelative(-2.939f, 1.425f, -3.862f, 4.545f, -3.896f, 7.656f)
+                curveToRelative(-0.028f, 2.559f, 0.22f, 9.297f, 3.92f, 9.345f)
+                curveToRelative(2.75f, 0.036f, 3.159f, -3.603f, 4.43f, -5.356f)
+                curveToRelative(0.906f, -1.247f, 2.071f, -1.599f, 3.506f, -1.963f)
+                curveToRelative(2.465f, -0.627f, 4.146f, -2.626f, 4.142f, -5.273f)
                 close()
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.0f, 9.5f)
-                moveToRelative(-6.5f, 0.0f)
-                arcToRelative(6.5f, 6.5f, 0.0f, true, true, 13.0f, 0.0f)
-                arcToRelative(6.5f, 6.5f, 0.0f, true, true, -13.0f, 0.0f)
             }
         }
         .build()
