@@ -82,7 +82,7 @@ val iconsDir = File(repoCloneDir, "icons")
 val iconsFileNames = iconsNamesFixed
     .associate {
         val sourceName = it.replace(" ", "_").replace("-", "") + ".svg"
-        val fileName = it.replace(" ", "") + ".svg"
+        val fileName = it.replace(" ", "").replace("-", "") + ".svg"
 
         File(iconsDir, fileName).renameTo(File(iconsDir, sourceName))
 
