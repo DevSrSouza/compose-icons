@@ -111,7 +111,7 @@ fun ParsingResult.asDocumentationGroup(
 }
 
 fun markdownSvg(doc: DocumentationIcon): String {
-    return "<img src=\"${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) }\" width=64 height=64 /> "
+    return "<img src=\"${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository).replace('\\', '/') }\" width=64 height=64 /> "
 }
 
 fun markdownIconDocumentation(doc: DocumentationIcon): String {
