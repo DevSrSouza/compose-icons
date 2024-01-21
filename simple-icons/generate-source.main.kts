@@ -28,7 +28,9 @@ data class Icon(var title: String, var slug: String?, var hex: String, var sourc
 data class SimpleIcons(var icons: List<Icon>)
 
 val ignoredIcons = listOf(
-    "Elsevier"
+    "Elsevier",
+    "Lerna",
+    "Pubg",
 )
 
 val githubId = "simple-icons/simple-icons"
