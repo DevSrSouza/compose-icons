@@ -1397,7 +1397,6 @@ import compose.icons.simpleicons.Lenovo
 import compose.icons.simpleicons.Lens
 import compose.icons.simpleicons.Leptos
 import compose.icons.simpleicons.Lequipe
-import compose.icons.simpleicons.Lerna
 import compose.icons.simpleicons.Leroymerlin
 import compose.icons.simpleicons.Leslibraires
 import compose.icons.simpleicons.Less
@@ -2008,7 +2007,6 @@ import compose.icons.simpleicons.Protools
 import compose.icons.simpleicons.Protractor
 import compose.icons.simpleicons.Proxmox
 import compose.icons.simpleicons.Pterodactyl
-import compose.icons.simpleicons.Pubg
 import compose.icons.simpleicons.Publons
 import compose.icons.simpleicons.Pubmed
 import compose.icons.simpleicons.Pug
@@ -3105,8 +3103,8 @@ public val SimpleIcons.AllIcons: ____KtList<ImageVector>
         Ktm, Kuaishou, Kubernetes, Kubuntu, Kuma, Kuula, Kx, Kyocera, Labview, Lada, Lamborghini,
         Landrover, Lapce, Laragon, Laravel, Laravelhorizon, Laravelnova, Lastdotfm, Lastpass, Latex,
         Launchpad, Lazarus, Lbry, Leaderprice, Leaflet, Leagueoflegends, Leanpub, Leetcode,
-        Legacygames, Leica, Lemmy, Lenovo, Lens, Leptos, Lequipe, Lerna, Leroymerlin, Leslibraires,
-        Less, Letsencrypt, Letterboxd, Levelsdotfyi, Lg, Liberadotchat, Liberapay, Librariesdotio,
+        Legacygames, Leica, Lemmy, Lenovo, Lens, Leptos, Lequipe, Leroymerlin, Leslibraires, Less,
+        Letsencrypt, Letterboxd, Levelsdotfyi, Lg, Liberadotchat, Liberapay, Librariesdotio,
         Librarything, Libreoffice, Libreofficebase, Libreofficecalc, Libreofficedraw,
         Libreofficeimpress, Libreofficemath, Libreofficewriter, Libuv, Lichess, Lidl, Lifx,
         Lightburn, Lighthouse, Lightning, Line, Lineageos, Linear, Linkedin, Linkerd, Linkfire,
@@ -3178,17 +3176,17 @@ public val SimpleIcons.AllIcons: ____KtList<ImageVector>
         Printables, Prisma, Prismic, Privateinternetaccess, Probot, Processingfoundation,
         Processwire, Producthunt, Progate, Progress, Prometheus, Prosieben, Proteus, Protocolsdotio,
         Protodotio, Proton, Protoncalendar, Protondb, Protondrive, Protonmail, Protonvpn, Protools,
-        Protractor, Proxmox, Pterodactyl, Pubg, Publons, Pubmed, Pug, Pulumi, Puma, Puppet,
-        Puppeteer, Purescript, Purgecss, Purism, Pusher, Pwa, Pycharm, Pydantic, Pyg, Pypi, Pypy,
-        Pyscaffold, Pysyft, Pytest, Python, Pythonanywhere, Pytorch, Pyup, Qantas, Qase,
-        Qatarairways, Qemu, Qgis, Qi, Qiita, Qiskit, Qiwi, Qlik, Qmk, Qt, Qualcomm, Qualtrics,
-        Qualys, Quantcast, Quantconnect, Quarkus, Quasar, Qubesos, Quest, Quickbooks, Quicklook,
-        Quicktime, Quicktype, Quip, Quora, Qwant, Qwiklabs, Qzone, R, R3, Rabbitmq, Racket, Radar,
-        Radiopublic, Radixui, Radstudio, Railway, Rainmeter, Rakuten, Ram, Rancher, Rapid, Rarible,
-        Rasa, Raspberrypi, Ravelry, Ray, Raycast, Raylib, Razer, Razorpay, React, Reacthookform,
-        Reactivex, Reactos, Reactquery, Reactrouter, Reacttable, Readdotcv, Readme, Readthedocs,
-        Realm, Reason, Reasonstudios, Recoil, Red, Redbubble, Redbull, Reddit, Redhat,
-        Redhatopenshift, Redis, Redmine, Redox, Redux, Reduxsaga, Redwoodjs, Reebok, Refine, Relay,
+        Protractor, Proxmox, Pterodactyl, Publons, Pubmed, Pug, Pulumi, Puma, Puppet, Puppeteer,
+        Purescript, Purgecss, Purism, Pusher, Pwa, Pycharm, Pydantic, Pyg, Pypi, Pypy, Pyscaffold,
+        Pysyft, Pytest, Python, Pythonanywhere, Pytorch, Pyup, Qantas, Qase, Qatarairways, Qemu,
+        Qgis, Qi, Qiita, Qiskit, Qiwi, Qlik, Qmk, Qt, Qualcomm, Qualtrics, Qualys, Quantcast,
+        Quantconnect, Quarkus, Quasar, Qubesos, Quest, Quickbooks, Quicklook, Quicktime, Quicktype,
+        Quip, Quora, Qwant, Qwiklabs, Qzone, R, R3, Rabbitmq, Racket, Radar, Radiopublic, Radixui,
+        Radstudio, Railway, Rainmeter, Rakuten, Ram, Rancher, Rapid, Rarible, Rasa, Raspberrypi,
+        Ravelry, Ray, Raycast, Raylib, Razer, Razorpay, React, Reacthookform, Reactivex, Reactos,
+        Reactquery, Reactrouter, Reacttable, Readdotcv, Readme, Readthedocs, Realm, Reason,
+        Reasonstudios, Recoil, Red, Redbubble, Redbull, Reddit, Redhat, Redhatopenshift, Redis,
+        Redmine, Redox, Redux, Reduxsaga, Redwoodjs, Reebok, Refine, Relay,
         Relianceindustrieslimited, Remark, Remix, Renault, Render, Renovatebot, Renpy, Renren,
         Replit, Republicofgamers, Rescript, Rescuetime, Researchgate, Resend, Resharper,
         Resurrectionremixos, Retool, Retroarch, Retropie, Revanced, Revealdotjs, Reverbnation,
