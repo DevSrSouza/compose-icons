@@ -21,21 +21,19 @@ public val SolidGroup.DiceOne: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(384.0f, 32.0f)
-                horizontalLineTo(64.0f)
-                curveTo(28.65f, 32.0f, 0.0f, 60.65f, 0.0f, 96.0f)
-                verticalLineToRelative(320.0f)
-                curveToRelative(0.0f, 35.35f, 28.65f, 64.0f, 64.0f, 64.0f)
-                horizontalLineToRelative(320.0f)
-                curveToRelative(35.35f, 0.0f, 64.0f, -28.65f, 64.0f, -64.0f)
+                moveTo(64.0f, 32.0f)
+                curveTo(28.7f, 32.0f, 0.0f, 60.7f, 0.0f, 96.0f)
+                verticalLineTo(416.0f)
+                curveToRelative(0.0f, 35.3f, 28.7f, 64.0f, 64.0f, 64.0f)
+                horizontalLineTo(384.0f)
+                curveToRelative(35.3f, 0.0f, 64.0f, -28.7f, 64.0f, -64.0f)
                 verticalLineTo(96.0f)
-                curveToRelative(0.0f, -35.35f, -28.65f, -64.0f, -64.0f, -64.0f)
+                curveToRelative(0.0f, -35.3f, -28.7f, -64.0f, -64.0f, -64.0f)
+                horizontalLineTo(64.0f)
                 close()
-                moveTo(224.0f, 288.0f)
-                curveToRelative(-17.67f, 0.0f, -32.0f, -14.33f, -32.0f, -32.0f)
-                reflectiveCurveToRelative(14.33f, -32.0f, 32.0f, -32.0f)
-                reflectiveCurveToRelative(32.0f, 14.33f, 32.0f, 32.0f)
-                reflectiveCurveToRelative(-14.33f, 32.0f, -32.0f, 32.0f)
+                moveTo(224.0f, 224.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, true, true, 0.0f, 64.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, true, true, 0.0f, -64.0f)
                 close()
             }
         }

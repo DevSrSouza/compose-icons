@@ -16,28 +16,35 @@ public val SolidGroup.WineGlass: ImageVector
         if (_wineGlass != null) {
             return _wineGlass!!
         }
-        _wineGlass = Builder(name = "WineGlass", defaultWidth = 288.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 288.0f, viewportHeight = 512.0f).apply {
+        _wineGlass = Builder(name = "WineGlass", defaultWidth = 320.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 320.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(216.0f, 464.0f)
-                horizontalLineToRelative(-40.0f)
-                verticalLineTo(346.81f)
-                curveToRelative(68.47f, -15.89f, 118.05f, -79.91f, 111.4f, -154.16f)
-                lineToRelative(-15.95f, -178.1f)
-                curveTo(270.71f, 6.31f, 263.9f, 0.0f, 255.74f, 0.0f)
-                horizontalLineTo(32.26f)
-                curveToRelative(-8.15f, 0.0f, -14.97f, 6.31f, -15.7f, 14.55f)
-                lineTo(0.6f, 192.66f)
-                curveTo(-6.05f, 266.91f, 43.53f, 330.93f, 112.0f, 346.82f)
-                verticalLineTo(464.0f)
-                horizontalLineTo(72.0f)
-                curveToRelative(-22.09f, 0.0f, -40.0f, 17.91f, -40.0f, 40.0f)
-                curveToRelative(0.0f, 4.42f, 3.58f, 8.0f, 8.0f, 8.0f)
-                horizontalLineToRelative(208.0f)
-                curveToRelative(4.42f, 0.0f, 8.0f, -3.58f, 8.0f, -8.0f)
-                curveToRelative(0.0f, -22.09f, -17.91f, -40.0f, -40.0f, -40.0f)
+                moveTo(32.1f, 29.3f)
+                curveTo(33.5f, 12.8f, 47.4f, 0.0f, 64.0f, 0.0f)
+                lineTo(256.0f, 0.0f)
+                curveToRelative(16.6f, 0.0f, 30.5f, 12.8f, 31.9f, 29.3f)
+                lineToRelative(14.0f, 168.4f)
+                curveToRelative(6.0f, 72.0f, -42.5f, 135.2f, -109.9f, 150.6f)
+                lineTo(192.0f, 448.0f)
+                horizontalLineToRelative(48.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, 14.3f, 32.0f, 32.0f)
+                reflectiveCurveToRelative(-14.3f, 32.0f, -32.0f, 32.0f)
+                lineTo(160.0f, 512.0f)
+                lineTo(80.0f, 512.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, -14.3f, -32.0f, -32.0f)
+                reflectiveCurveToRelative(14.3f, -32.0f, 32.0f, -32.0f)
+                horizontalLineToRelative(48.0f)
+                lineTo(128.0f, 348.4f)
+                curveTo(60.6f, 333.0f, 12.1f, 269.8f, 18.1f, 197.8f)
+                lineToRelative(14.0f, -168.4f)
+                close()
+                moveTo(88.1f, 128.0f)
+                lineTo(231.9f, 128.0f)
+                lineToRelative(-5.3f, -64.0f)
+                lineTo(93.4f, 64.0f)
+                lineToRelative(-5.3f, 64.0f)
                 close()
             }
         }

@@ -23,14 +23,14 @@ public val TablerIcons.ArrowWaveRightDown: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.0f, 13.998f)
+                moveTo(17.0f, 14.0f)
                 horizontalLineToRelative(4.0f)
                 verticalLineToRelative(-4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(3.0f, 11.998f)
+                moveTo(3.0f, 12.0f)
                 curveToRelative(0.887f, 1.284f, 2.48f, 2.033f, 4.0f, 2.0f)
                 curveToRelative(1.52f, 0.033f, 3.113f, -0.716f, 4.0f, -2.0f)
                 reflectiveCurveToRelative(2.48f, -2.033f, 4.0f, -2.0f)

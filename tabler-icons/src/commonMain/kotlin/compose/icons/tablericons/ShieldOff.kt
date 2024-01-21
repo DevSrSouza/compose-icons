@@ -23,20 +23,20 @@ public val TablerIcons.ShieldOff: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(3.0f, 3.0f)
-                lineTo(21.0f, 21.0f)
+                moveTo(17.67f, 17.667f)
+                arcToRelative(12.0f, 12.0f, 0.0f, false, true, -5.67f, 3.333f)
+                arcToRelative(12.0f, 12.0f, 0.0f, false, true, -8.5f, -15.0f)
+                curveToRelative(0.794f, 0.036f, 1.583f, -0.006f, 2.357f, -0.124f)
+                moveToRelative(3.128f, -0.926f)
+                arcToRelative(11.997f, 11.997f, 0.0f, false, false, 3.015f, -1.95f)
+                arcToRelative(12.0f, 12.0f, 0.0f, false, false, 8.5f, 3.0f)
+                arcToRelative(12.0f, 12.0f, 0.0f, false, true, -1.116f, 9.376f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.669f, 17.669f)
-                arcToRelative(12.0f, 12.0f, 0.0f, false, true, -5.669f, 3.331f)
-                arcToRelative(12.0f, 12.0f, 0.0f, false, true, -8.5f, -15.0f)
-                curveToRelative(0.797f, 0.036f, 1.589f, 0.0f, 2.366f, -0.126f)
-                moveToRelative(3.092f, -0.912f)
-                arcToRelative(12.0f, 12.0f, 0.0f, false, false, 3.042f, -1.962f)
-                arcToRelative(12.0f, 12.0f, 0.0f, false, false, 8.5f, 3.0f)
-                arcToRelative(12.0f, 12.0f, 0.0f, false, true, -1.117f, 9.379f)
+                moveTo(3.0f, 3.0f)
+                lineToRelative(18.0f, 18.0f)
             }
         }
         .build()

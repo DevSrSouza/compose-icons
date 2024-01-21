@@ -21,17 +21,14 @@ public val BrandsGroup.Patreon: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(512.0f, 194.8f)
-                curveToRelative(0.0f, 101.3f, -82.4f, 183.8f, -183.8f, 183.8f)
-                curveToRelative(-101.7f, 0.0f, -184.4f, -82.4f, -184.4f, -183.8f)
-                curveToRelative(0.0f, -101.6f, 82.7f, -184.3f, 184.4f, -184.3f)
-                curveTo(429.6f, 10.5f, 512.0f, 93.2f, 512.0f, 194.8f)
-                close()
-                moveTo(0.0f, 501.5f)
-                horizontalLineToRelative(90.0f)
-                verticalLineToRelative(-491.0f)
-                horizontalLineTo(0.0f)
-                verticalLineToRelative(491.0f)
+                moveTo(489.7f, 153.8f)
+                curveToRelative(-0.1f, -65.4f, -51.0f, -119.0f, -110.7f, -138.3f)
+                curveTo(304.8f, -8.5f, 207.0f, -5.0f, 136.1f, 28.4f)
+                curveTo(50.3f, 68.9f, 23.3f, 157.7f, 22.3f, 246.2f)
+                curveTo(21.5f, 319.0f, 28.7f, 510.6f, 136.9f, 512.0f)
+                curveToRelative(80.3f, 1.0f, 92.3f, -102.5f, 129.5f, -152.3f)
+                curveToRelative(26.4f, -35.5f, 60.5f, -45.5f, 102.4f, -55.9f)
+                curveToRelative(72.0f, -17.8f, 121.1f, -74.7f, 121.0f, -150.0f)
                 close()
             }
         }

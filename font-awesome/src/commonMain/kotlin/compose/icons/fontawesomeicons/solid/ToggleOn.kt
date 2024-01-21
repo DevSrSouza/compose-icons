@@ -21,19 +21,17 @@ public val SolidGroup.ToggleOn: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(384.0f, 64.0f)
-                lineTo(192.0f, 64.0f)
+                moveTo(192.0f, 64.0f)
                 curveTo(86.0f, 64.0f, 0.0f, 150.0f, 0.0f, 256.0f)
-                reflectiveCurveToRelative(86.0f, 192.0f, 192.0f, 192.0f)
-                horizontalLineToRelative(192.0f)
+                reflectiveCurveTo(86.0f, 448.0f, 192.0f, 448.0f)
+                lineTo(384.0f, 448.0f)
                 curveToRelative(106.0f, 0.0f, 192.0f, -86.0f, 192.0f, -192.0f)
-                reflectiveCurveTo(490.0f, 64.0f, 384.0f, 64.0f)
+                reflectiveCurveToRelative(-86.0f, -192.0f, -192.0f, -192.0f)
+                lineTo(192.0f, 64.0f)
                 close()
-                moveTo(384.0f, 384.0f)
-                curveToRelative(-70.8f, 0.0f, -128.0f, -57.3f, -128.0f, -128.0f)
-                curveToRelative(0.0f, -70.8f, 57.3f, -128.0f, 128.0f, -128.0f)
-                curveToRelative(70.8f, 0.0f, 128.0f, 57.3f, 128.0f, 128.0f)
-                curveToRelative(0.0f, 70.8f, -57.3f, 128.0f, -128.0f, 128.0f)
+                moveTo(384.0f, 160.0f)
+                arcToRelative(96.0f, 96.0f, 0.0f, true, true, 0.0f, 192.0f)
+                arcToRelative(96.0f, 96.0f, 0.0f, true, true, 0.0f, -192.0f)
                 close()
             }
         }

@@ -21,10 +21,14 @@ public val TablerIcons.Droplet: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.8f, 11.0f)
-                arcToRelative(6.0f, 6.0f, 0.0f, true, false, 10.396f, 0.0f)
-                lineToRelative(-5.197f, -8.0f)
-                lineToRelative(-5.2f, 8.0f)
+                moveTo(7.502f, 19.423f)
+                curveToRelative(2.602f, 2.105f, 6.395f, 2.105f, 8.996f, 0.0f)
+                curveToRelative(2.602f, -2.105f, 3.262f, -5.708f, 1.566f, -8.546f)
+                lineToRelative(-4.89f, -7.26f)
+                curveToRelative(-0.42f, -0.625f, -1.287f, -0.803f, -1.936f, -0.397f)
+                arcToRelative(1.376f, 1.376f, 0.0f, false, false, -0.41f, 0.397f)
+                lineToRelative(-4.893f, 7.26f)
+                curveToRelative(-1.695f, 2.838f, -1.035f, 6.441f, 1.567f, 8.546f)
                 close()
             }
         }

@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,7 +20,7 @@ public val Octicons.SignIn24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(3.0f, 3.25f)
                 curveToRelative(0.0f, -0.966f, 0.784f, -1.75f, 1.75f, -1.75f)
                 horizontalLineToRelative(5.5f)
@@ -33,10 +33,9 @@ public val Octicons.SignIn24: ImageVector
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, 1.5f)
                 horizontalLineToRelative(-5.5f)
                 arcTo(1.75f, 1.75f, 0.0f, false, true, 3.0f, 20.75f)
-                lineTo(3.0f, 3.25f)
                 close()
                 moveTo(12.994f, 12.75f)
-                lineToRelative(3.3f, 3.484f)
+                lineTo(16.294f, 16.234f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, -1.088f, 1.032f)
                 lineToRelative(-4.5f, -4.75f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, -1.032f)
@@ -45,7 +44,6 @@ public val Octicons.SignIn24: ImageVector
                 lineToRelative(-3.3f, 3.484f)
                 horizontalLineToRelative(8.256f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, 1.5f)
-                horizontalLineToRelative(-8.256f)
                 close()
             }
         }

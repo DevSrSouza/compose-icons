@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.MailDotRu: ImageVector
+public val SimpleIcons.Maildotru: ImageVector
     get() {
-        if (_mailDotRu != null) {
-            return _mailDotRu!!
+        if (_maildotru != null) {
+            return _maildotru!!
         }
-        _mailDotRu = Builder(name = "MailDotRu", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _maildotru = Builder(name = "Maildotru", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -55,7 +55,7 @@ public val SimpleIcons.MailDotRu: ImageVector
             }
         }
         .build()
-        return _mailDotRu!!
+        return _maildotru!!
     }
 
-private var _mailDotRu: ImageVector? = null
+private var _maildotru: ImageVector? = null

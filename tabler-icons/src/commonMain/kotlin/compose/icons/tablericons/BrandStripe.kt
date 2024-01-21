@@ -34,9 +34,9 @@ public val TablerIcons.BrandStripe: ImageVector
                 curveToRelative(-1.423f, 0.0f, -3.963f, -0.609f, -5.5f, -1.5f)
                 lineToRelative(-0.5f, 4.0f)
                 curveToRelative(1.321f, 0.734f, 3.474f, 1.5f, 6.0f, 1.5f)
-                curveToRelative(2.004f, 0.0f, 3.957f, -0.468f, 5.084f, -1.36f)
+                curveToRelative(2.0f, 0.0f, 3.957f, -0.468f, 5.084f, -1.36f)
                 curveToRelative(1.263f, -0.979f, 1.916f, -2.268f, 1.916f, -4.14f)
-                curveToRelative(0.0f, -3.096f, -1.915f, -4.547f, -5.003f, -5.637f)
+                curveToRelative(0.0f, -3.096f, -1.915f, -4.547f, -5.0f, -5.637f)
                 curveToRelative(-1.646f, -0.605f, -2.544f, -1.07f, -2.544f, -1.807f)
                 close()
             }

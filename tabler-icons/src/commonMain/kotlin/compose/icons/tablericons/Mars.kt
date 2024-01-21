@@ -25,26 +25,26 @@ public val TablerIcons.Mars: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(10.0f, 14.0f)
                 moveToRelative(-5.0f, 0.0f)
-                arcToRelative(5.0f, 5.0f, 0.0f, true, true, 10.0f, 0.0f)
-                arcToRelative(5.0f, 5.0f, 0.0f, true, true, -10.0f, 0.0f)
+                arcToRelative(5.0f, 5.0f, 0.0f, true, false, 10.0f, 0.0f)
+                arcToRelative(5.0f, 5.0f, 0.0f, true, false, -10.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.0f, 5.0f)
-                lineTo(13.6f, 10.4f)
+                lineToRelative(-5.4f, 5.4f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.0f, 5.0f)
-                lineTo(14.0f, 5.0f)
+                lineToRelative(-5.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(19.0f, 5.0f)
-                lineTo(19.0f, 10.0f)
+                lineToRelative(0.0f, 5.0f)
             }
         }
         .build()

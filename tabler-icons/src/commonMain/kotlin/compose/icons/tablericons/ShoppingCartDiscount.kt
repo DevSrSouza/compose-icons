@@ -23,55 +23,44 @@ public val TablerIcons.ShoppingCartDiscount: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.0f, 19.0f)
-                moveToRelative(-2.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, -4.0f, 0.0f)
+                moveTo(4.0f, 19.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, false, -4.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.0f, 19.0f)
-                moveToRelative(-2.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, -4.0f, 0.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.0f, 17.0f)
-                horizontalLineToRelative(-11.0f)
+                moveTo(12.5f, 17.0f)
+                horizontalLineToRelative(-6.5f)
                 verticalLineToRelative(-14.0f)
                 horizontalLineToRelative(-2.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(20.0f, 6.0f)
-                lineToRelative(-1.0f, 7.0f)
-                horizontalLineToRelative(-13.0f)
+                moveTo(6.0f, 5.0f)
+                lineToRelative(14.0f, 1.0f)
+                lineToRelative(-0.859f, 6.011f)
+                moveToRelative(-6.141f, 0.989f)
+                horizontalLineToRelative(-7.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(10.0f, 10.0f)
-                lineToRelative(6.0f, -6.0f)
+                moveTo(16.0f, 21.0f)
+                lineToRelative(5.0f, -5.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(10.5f, 4.5f)
-                moveToRelative(-0.5f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, 1.0f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, -1.0f, 0.0f)
+                moveTo(21.0f, 21.0f)
+                verticalLineToRelative(0.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.5f, 9.5f)
-                moveToRelative(-0.5f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, 1.0f, 0.0f)
-                arcToRelative(0.5f, 0.5f, 0.0f, true, true, -1.0f, 0.0f)
+                moveTo(16.0f, 16.0f)
+                verticalLineToRelative(0.01f)
             }
         }
         .build()

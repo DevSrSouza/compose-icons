@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.EmberDotJs: ImageVector
+public val SimpleIcons.Emberdotjs: ImageVector
     get() {
-        if (_emberDotJs != null) {
-            return _emberDotJs!!
+        if (_emberdotjs != null) {
+            return _emberdotjs!!
         }
-        _emberDotJs = Builder(name = "EmberDotJs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _emberdotjs = Builder(name = "Emberdotjs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -54,7 +54,7 @@ public val SimpleIcons.EmberDotJs: ImageVector
             }
         }
         .build()
-        return _emberDotJs!!
+        return _emberdotjs!!
     }
 
-private var _emberDotJs: ImageVector? = null
+private var _emberdotjs: ImageVector? = null

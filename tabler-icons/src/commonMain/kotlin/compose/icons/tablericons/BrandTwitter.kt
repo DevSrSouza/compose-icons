@@ -32,7 +32,7 @@ public val TablerIcons.BrandTwitter: ImageVector
                 curveToRelative(3.308f, 1.803f, 6.913f, 2.423f, 10.034f, 1.517f)
                 curveToRelative(3.58f, -1.04f, 6.522f, -3.723f, 7.651f, -7.742f)
                 arcToRelative(13.84f, 13.84f, 0.0f, false, false, 0.497f, -3.753f)
-                curveToRelative(-0.002f, -0.249f, 1.51f, -2.772f, 1.818f, -4.013f)
+                curveToRelative(0.0f, -0.249f, 1.51f, -2.772f, 1.818f, -4.013f)
                 close()
             }
         }

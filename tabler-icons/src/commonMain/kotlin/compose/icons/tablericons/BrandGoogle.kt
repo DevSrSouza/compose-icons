@@ -21,9 +21,14 @@ public val TablerIcons.BrandGoogle: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.788f, 5.108f)
-                arcToRelative(9.0f, 9.0f, 0.0f, true, false, 3.212f, 6.892f)
-                horizontalLineToRelative(-8.0f)
+                moveTo(20.945f, 11.0f)
+                arcToRelative(9.0f, 9.0f, 0.0f, true, true, -3.284f, -5.997f)
+                lineToRelative(-2.655f, 2.392f)
+                arcToRelative(5.5f, 5.5f, 0.0f, true, false, 2.119f, 6.605f)
+                horizontalLineToRelative(-4.125f)
+                verticalLineToRelative(-3.0f)
+                horizontalLineToRelative(7.945f)
+                close()
             }
         }
         .build()

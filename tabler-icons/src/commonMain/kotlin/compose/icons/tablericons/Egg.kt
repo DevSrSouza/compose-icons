@@ -21,13 +21,12 @@ public val TablerIcons.Egg: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.514f, 14.639f)
-                curveToRelative(0.0f, 3.513f, 2.904f, 6.361f, 6.486f, 6.361f)
-                reflectiveCurveToRelative(6.486f, -2.848f, 6.486f, -6.361f)
-                arcToRelative(12.574f, 12.574f, 0.0f, false, false, -3.243f, -9.012f)
-                arcToRelative(4.025f, 4.025f, 0.0f, false, false, -3.243f, -1.627f)
-                arcToRelative(4.025f, 4.025f, 0.0f, false, false, -3.243f, 1.627f)
-                arcToRelative(12.574f, 12.574f, 0.0f, false, false, -3.243f, 9.012f)
+                moveTo(19.0f, 14.083f)
+                curveToRelative(0.0f, 4.154f, -2.966f, 6.74f, -7.0f, 6.917f)
+                curveToRelative(-4.2f, 0.0f, -7.0f, -2.763f, -7.0f, -6.917f)
+                curveToRelative(0.0f, -5.538f, 3.5f, -11.09f, 7.0f, -11.083f)
+                curveToRelative(3.5f, 0.007f, 7.0f, 5.545f, 7.0f, 11.083f)
+                close()
             }
         }
         .build()

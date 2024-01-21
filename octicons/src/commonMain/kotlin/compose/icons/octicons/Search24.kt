@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,17 +20,18 @@ public val Octicons.Search24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
-                moveTo(14.53f, 15.59f)
-                arcToRelative(8.25f, 8.25f, 0.0f, true, true, 1.06f, -1.06f)
+                    pathFillType = NonZero) {
+                moveTo(10.25f, 2.0f)
+                arcToRelative(8.25f, 8.25f, 0.0f, false, true, 6.34f, 13.53f)
                 lineToRelative(5.69f, 5.69f)
-                arcToRelative(0.75f, 0.75f, 0.0f, true, true, -1.06f, 1.06f)
+                arcToRelative(0.749f, 0.749f, 0.0f, false, true, -0.326f, 1.275f)
+                arcToRelative(0.749f, 0.749f, 0.0f, false, true, -0.734f, -0.215f)
                 lineToRelative(-5.69f, -5.69f)
+                arcTo(8.25f, 8.25f, 0.0f, true, true, 10.25f, 2.0f)
                 close()
-                moveTo(2.5f, 9.25f)
-                arcToRelative(6.75f, 6.75f, 0.0f, true, true, 11.74f, 4.547f)
-                arcToRelative(0.746f, 0.746f, 0.0f, false, false, -0.443f, 0.442f)
-                arcTo(6.75f, 6.75f, 0.0f, false, true, 2.5f, 9.25f)
+                moveTo(3.5f, 10.25f)
+                arcToRelative(6.75f, 6.75f, 0.0f, true, false, 13.5f, 0.0f)
+                arcToRelative(6.75f, 6.75f, 0.0f, false, false, -13.5f, 0.0f)
                 close()
             }
         }

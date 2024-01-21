@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.SemanticRelease: ImageVector
+public val SimpleIcons.Semanticrelease: ImageVector
     get() {
-        if (_semanticRelease != null) {
-            return _semanticRelease!!
+        if (_semanticrelease != null) {
+            return _semanticrelease!!
         }
-        _semanticRelease = Builder(name = "SemanticRelease", defaultWidth = 24.0.dp, defaultHeight =
+        _semanticrelease = Builder(name = "Semanticrelease", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -76,7 +76,7 @@ public val SimpleIcons.SemanticRelease: ImageVector
             }
         }
         .build()
-        return _semanticRelease!!
+        return _semanticrelease!!
     }
 
-private var _semanticRelease: ImageVector? = null
+private var _semanticrelease: ImageVector? = null

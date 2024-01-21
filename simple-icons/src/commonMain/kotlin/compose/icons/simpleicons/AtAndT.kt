@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.AtAndT: ImageVector
+public val SimpleIcons.Atandt: ImageVector
     get() {
-        if (_atAndT != null) {
-            return _atAndT!!
+        if (_atandt != null) {
+            return _atandt!!
         }
-        _atAndT = Builder(name = "AtAndT", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _atandt = Builder(name = "Atandt", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -73,7 +73,7 @@ public val SimpleIcons.AtAndT: ImageVector
             }
         }
         .build()
-        return _atAndT!!
+        return _atandt!!
     }
 
-private var _atAndT: ImageVector? = null
+private var _atandt: ImageVector? = null

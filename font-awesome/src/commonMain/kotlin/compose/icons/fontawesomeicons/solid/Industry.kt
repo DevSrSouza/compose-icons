@@ -16,26 +16,29 @@ public val SolidGroup.Industry: ImageVector
         if (_industry != null) {
             return _industry!!
         }
-        _industry = Builder(name = "Industry", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
+        _industry = Builder(name = "Industry", defaultWidth = 576.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 576.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(475.115f, 163.781f)
-                lineTo(336.0f, 252.309f)
-                verticalLineToRelative(-68.28f)
-                curveToRelative(0.0f, -18.916f, -20.931f, -30.399f, -36.885f, -20.248f)
-                lineTo(160.0f, 252.309f)
-                verticalLineTo(56.0f)
-                curveToRelative(0.0f, -13.255f, -10.745f, -24.0f, -24.0f, -24.0f)
-                horizontalLineTo(24.0f)
-                curveTo(10.745f, 32.0f, 0.0f, 42.745f, 0.0f, 56.0f)
-                verticalLineToRelative(400.0f)
-                curveToRelative(0.0f, 13.255f, 10.745f, 24.0f, 24.0f, 24.0f)
-                horizontalLineToRelative(464.0f)
-                curveToRelative(13.255f, 0.0f, 24.0f, -10.745f, 24.0f, -24.0f)
-                verticalLineTo(184.029f)
-                curveToRelative(0.0f, -18.917f, -20.931f, -30.399f, -36.885f, -20.248f)
+                moveTo(64.0f, 32.0f)
+                curveTo(46.3f, 32.0f, 32.0f, 46.3f, 32.0f, 64.0f)
+                verticalLineTo(304.0f)
+                verticalLineToRelative(48.0f)
+                verticalLineToRelative(80.0f)
+                curveToRelative(0.0f, 26.5f, 21.5f, 48.0f, 48.0f, 48.0f)
+                horizontalLineTo(496.0f)
+                curveToRelative(26.5f, 0.0f, 48.0f, -21.5f, 48.0f, -48.0f)
+                verticalLineTo(304.0f)
+                verticalLineTo(152.2f)
+                curveToRelative(0.0f, -18.2f, -19.4f, -29.7f, -35.4f, -21.1f)
+                lineTo(352.0f, 215.4f)
+                verticalLineTo(152.2f)
+                curveToRelative(0.0f, -18.2f, -19.4f, -29.7f, -35.4f, -21.1f)
+                lineTo(160.0f, 215.4f)
+                verticalLineTo(64.0f)
+                curveToRelative(0.0f, -17.7f, -14.3f, -32.0f, -32.0f, -32.0f)
+                horizontalLineTo(64.0f)
                 close()
             }
         }

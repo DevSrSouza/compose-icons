@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.PopOs: ImageVector
+public val SimpleIcons.Popos: ImageVector
     get() {
-        if (_popOs != null) {
-            return _popOs!!
+        if (_popos != null) {
+            return _popos!!
         }
-        _popOs = Builder(name = "PopOs", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _popos = Builder(name = "Popos", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -147,7 +147,7 @@ public val SimpleIcons.PopOs: ImageVector
             }
         }
         .build()
-        return _popOs!!
+        return _popos!!
     }
 
-private var _popOs: ImageVector? = null
+private var _popos: ImageVector? = null

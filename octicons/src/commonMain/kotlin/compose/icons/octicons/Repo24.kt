@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -23,7 +23,7 @@ public val Octicons.Repo24: ImageVector
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(3.0f, 2.75f)
                 arcTo(2.75f, 2.75f, 0.0f, false, true, 5.75f, 0.0f)
                 horizontalLineToRelative(14.5f)
@@ -39,16 +39,14 @@ public val Octicons.Repo24: ImageVector
                 verticalLineToRelative(0.75f)
                 curveToRelative(0.0f, 0.716f, 0.43f, 1.334f, 1.05f, 1.605f)
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, -0.6f, 1.374f)
-                arcTo(3.25f, 3.25f, 0.0f, false, true, 3.0f, 18.75f)
-                verticalLineToRelative(-16.0f)
+                arcTo(3.251f, 3.251f, 0.0f, false, true, 3.0f, 18.75f)
                 close()
                 moveTo(19.5f, 1.5f)
-                verticalLineTo(15.0f)
-                horizontalLineTo(6.0f)
-                curveToRelative(-0.546f, 0.0f, -1.059f, 0.146f, -1.5f, 0.401f)
-                verticalLineTo(2.75f)
-                curveToRelative(0.0f, -0.69f, 0.56f, -1.25f, 1.25f, -1.25f)
-                horizontalLineTo(19.5f)
+                horizontalLineTo(5.75f)
+                curveToRelative(-0.69f, 0.0f, -1.25f, 0.56f, -1.25f, 1.25f)
+                verticalLineToRelative(12.651f)
+                arcTo(2.989f, 2.989f, 0.0f, false, true, 6.0f, 15.0f)
+                horizontalLineToRelative(13.5f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,

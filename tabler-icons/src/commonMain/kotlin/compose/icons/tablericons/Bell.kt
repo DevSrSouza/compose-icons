@@ -24,7 +24,7 @@ public val TablerIcons.Bell: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(10.0f, 5.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f)
                 arcToRelative(7.0f, 7.0f, 0.0f, false, true, 4.0f, 6.0f)
                 verticalLineToRelative(3.0f)
                 arcToRelative(4.0f, 4.0f, 0.0f, false, false, 2.0f, 3.0f)

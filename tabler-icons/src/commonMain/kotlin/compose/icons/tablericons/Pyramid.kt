@@ -23,17 +23,22 @@ public val TablerIcons.Pyramid: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(3.0f, 17.0f)
-                lineToRelative(9.0f, 4.0f)
-                lineToRelative(9.0f, -4.0f)
-                lineToRelative(-9.0f, -14.0f)
+                moveTo(11.105f, 21.788f)
+                arcToRelative(1.994f, 1.994f, 0.0f, false, false, 1.789f, 0.0f)
+                lineToRelative(8.092f, -4.054f)
+                curveToRelative(0.538f, -0.27f, 0.718f, -0.951f, 0.385f, -1.452f)
+                lineToRelative(-8.54f, -13.836f)
+                arcToRelative(0.999f, 0.999f, 0.0f, false, false, -1.664f, 0.0f)
+                lineToRelative(-8.54f, 13.836f)
+                arcToRelative(1.005f, 1.005f, 0.0f, false, false, 0.386f, 1.452f)
+                lineToRelative(8.092f, 4.054f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 3.0f)
-                verticalLineToRelative(18.0f)
+                moveTo(12.0f, 2.0f)
+                verticalLineToRelative(20.0f)
             }
         }
         .build()

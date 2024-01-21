@@ -21,17 +21,13 @@ public val RegularGroup.Circle: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(256.0f, 8.0f)
-                curveTo(119.0f, 8.0f, 8.0f, 119.0f, 8.0f, 256.0f)
-                reflectiveCurveToRelative(111.0f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.0f, 248.0f, -248.0f)
-                reflectiveCurveTo(393.0f, 8.0f, 256.0f, 8.0f)
+                moveTo(464.0f, 256.0f)
+                arcTo(208.0f, 208.0f, 0.0f, true, false, 48.0f, 256.0f)
+                arcToRelative(208.0f, 208.0f, 0.0f, true, false, 416.0f, 0.0f)
                 close()
-                moveTo(256.0f, 456.0f)
-                curveToRelative(-110.5f, 0.0f, -200.0f, -89.5f, -200.0f, -200.0f)
-                reflectiveCurveTo(145.5f, 56.0f, 256.0f, 56.0f)
-                reflectiveCurveToRelative(200.0f, 89.5f, 200.0f, 200.0f)
-                reflectiveCurveToRelative(-89.5f, 200.0f, -200.0f, 200.0f)
+                moveTo(0.0f, 256.0f)
+                arcToRelative(256.0f, 256.0f, 0.0f, true, true, 512.0f, 0.0f)
+                arcTo(256.0f, 256.0f, 0.0f, true, true, 0.0f, 256.0f)
                 close()
             }
         }

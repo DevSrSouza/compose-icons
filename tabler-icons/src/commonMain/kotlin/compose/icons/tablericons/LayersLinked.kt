@@ -36,8 +36,8 @@ public val TablerIcons.LayersLinked: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(5.003f, 15.734f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -1.003f, -1.734f)
+                moveTo(5.0f, 15.734f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -1.0f, -1.734f)
                 verticalLineToRelative(-8.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, -2.0f)
                 horizontalLineToRelative(8.0f)

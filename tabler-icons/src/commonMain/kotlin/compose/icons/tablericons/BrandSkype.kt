@@ -38,7 +38,7 @@ public val TablerIcons.BrandSkype: ImageVector
                 curveToRelative(0.5f, 2.0f, 2.358f, 2.5f, 4.0f, 2.5f)
                 curveToRelative(2.905f, 0.0f, 4.0f, -1.187f, 4.0f, -2.5f)
                 curveToRelative(0.0f, -1.503f, -1.927f, -2.5f, -4.0f, -2.5f)
-                reflectiveCurveToRelative(-4.0f, -0.997f, -4.0f, -2.5f)
+                reflectiveCurveToRelative(-4.0f, -1.0f, -4.0f, -2.5f)
                 curveToRelative(0.0f, -1.313f, 1.095f, -2.5f, 4.0f, -2.5f)
                 curveToRelative(1.642f, 0.0f, 3.5f, 0.5f, 4.0f, 2.5f)
             }

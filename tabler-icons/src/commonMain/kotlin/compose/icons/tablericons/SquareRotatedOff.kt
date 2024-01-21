@@ -25,15 +25,15 @@ public val TablerIcons.SquareRotatedOff: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.964f, 16.952f)
                 lineToRelative(-3.462f, 3.461f)
-                curveToRelative(-0.782f, 0.783f, -2.222f, 0.783f, -3.004f, 0.0f)
+                curveToRelative(-0.782f, 0.783f, -2.222f, 0.783f, -3.0f, 0.0f)
                 lineToRelative(-6.911f, -6.91f)
-                curveToRelative(-0.783f, -0.783f, -0.783f, -2.223f, 0.0f, -3.005f)
+                curveToRelative(-0.783f, -0.783f, -0.783f, -2.223f, 0.0f, -3.0f)
                 lineToRelative(3.455f, -3.456f)
-                moveToRelative(2.003f, -2.003f)
+                moveToRelative(2.0f, -2.0f)
                 lineToRelative(1.453f, -1.452f)
-                curveToRelative(0.782f, -0.783f, 2.222f, -0.783f, 3.004f, 0.0f)
+                curveToRelative(0.782f, -0.783f, 2.222f, -0.783f, 3.0f, 0.0f)
                 lineToRelative(6.911f, 6.91f)
-                curveToRelative(0.783f, 0.783f, 0.783f, 2.223f, 0.0f, 3.005f)
+                curveToRelative(0.783f, 0.783f, 0.783f, 2.223f, 0.0f, 3.0f)
                 lineToRelative(-1.448f, 1.45f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),

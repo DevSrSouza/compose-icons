@@ -16,18 +16,21 @@ public val SolidGroup.Play: ImageVector
         if (_play != null) {
             return _play!!
         }
-        _play = Builder(name = "Play", defaultWidth = 448.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 448.0f, viewportHeight = 512.0f).apply {
+        _play = Builder(name = "Play", defaultWidth = 384.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 384.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(424.4f, 214.7f)
-                lineTo(72.4f, 6.6f)
-                curveTo(43.8f, -10.3f, 0.0f, 6.1f, 0.0f, 47.9f)
-                verticalLineTo(464.0f)
-                curveToRelative(0.0f, 37.5f, 40.7f, 60.1f, 72.4f, 41.3f)
-                lineToRelative(352.0f, -208.0f)
-                curveToRelative(31.4f, -18.5f, 31.5f, -64.1f, 0.0f, -82.6f)
+                moveTo(73.0f, 39.0f)
+                curveToRelative(-14.8f, -9.1f, -33.4f, -9.4f, -48.5f, -0.9f)
+                reflectiveCurveTo(0.0f, 62.6f, 0.0f, 80.0f)
+                verticalLineTo(432.0f)
+                curveToRelative(0.0f, 17.4f, 9.4f, 33.4f, 24.5f, 41.9f)
+                reflectiveCurveToRelative(33.7f, 8.1f, 48.5f, -0.9f)
+                lineTo(361.0f, 297.0f)
+                curveToRelative(14.3f, -8.7f, 23.0f, -24.2f, 23.0f, -41.0f)
+                reflectiveCurveToRelative(-8.7f, -32.2f, -23.0f, -41.0f)
+                lineTo(73.0f, 39.0f)
                 close()
             }
         }

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.EclipsevertDotX: ImageVector
+public val SimpleIcons.Eclipsevertdotx: ImageVector
     get() {
-        if (_eclipsevertDotX != null) {
-            return _eclipsevertDotX!!
+        if (_eclipsevertdotx != null) {
+            return _eclipsevertdotx!!
         }
-        _eclipsevertDotX = Builder(name = "EclipsevertDotX", defaultWidth = 24.0.dp, defaultHeight =
+        _eclipsevertdotx = Builder(name = "Eclipsevertdotx", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -64,7 +64,7 @@ public val SimpleIcons.EclipsevertDotX: ImageVector
             }
         }
         .build()
-        return _eclipsevertDotX!!
+        return _eclipsevertdotx!!
     }
 
-private var _eclipsevertDotX: ImageVector? = null
+private var _eclipsevertdotx: ImageVector? = null

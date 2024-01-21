@@ -23,19 +23,18 @@ public val TablerIcons.EyeCheck: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 12.0f)
-                moveToRelative(-2.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, true, true, -4.0f, 0.0f)
+                moveTo(10.0f, 12.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, false, 4.0f, 0.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, false, -4.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 19.0f)
-                curveToRelative(-4.0f, 0.0f, -7.333f, -2.333f, -10.0f, -7.0f)
-                curveToRelative(2.667f, -4.667f, 6.0f, -7.0f, 10.0f, -7.0f)
-                reflectiveCurveToRelative(7.333f, 2.333f, 10.0f, 7.0f)
-                curveToRelative(-0.42f, 0.736f, -0.858f, 1.414f, -1.311f, 2.033f)
+                moveTo(11.102f, 17.957f)
+                curveToRelative(-3.204f, -0.307f, -5.904f, -2.294f, -8.102f, -5.957f)
+                curveToRelative(2.4f, -4.0f, 5.4f, -6.0f, 9.0f, -6.0f)
+                curveToRelative(3.6f, 0.0f, 6.6f, 2.0f, 9.0f, 6.0f)
+                arcToRelative(19.5f, 19.5f, 0.0f, false, true, -0.663f, 1.032f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =

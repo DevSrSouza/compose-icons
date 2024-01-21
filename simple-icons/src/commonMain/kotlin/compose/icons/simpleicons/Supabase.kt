@@ -21,19 +21,16 @@ public val SimpleIcons.Supabase: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(21.362f, 9.354f)
-                horizontalLineTo(12.0f)
-                verticalLineTo(0.396f)
-                arcToRelative(0.396f, 0.396f, 0.0f, false, false, -0.716f, -0.233f)
-                lineTo(2.203f, 12.424f)
-                lineToRelative(-0.401f, 0.562f)
-                arcToRelative(1.04f, 1.04f, 0.0f, false, false, 0.836f, 1.659f)
-                horizontalLineTo(12.0f)
-                verticalLineToRelative(8.959f)
-                arcToRelative(0.396f, 0.396f, 0.0f, false, false, 0.716f, 0.233f)
-                lineToRelative(9.081f, -12.261f)
-                lineToRelative(0.401f, -0.562f)
-                arcToRelative(1.04f, 1.04f, 0.0f, false, false, -0.836f, -1.66f)
+                moveTo(11.9f, 1.036f)
+                curveToRelative(-0.015f, -0.986f, -1.26f, -1.41f, -1.874f, -0.637f)
+                lineTo(0.764f, 12.05f)
+                curveTo(-0.33f, 13.427f, 0.65f, 15.455f, 2.409f, 15.455f)
+                horizontalLineToRelative(9.579f)
+                lineToRelative(0.113f, 7.51f)
+                curveToRelative(0.014f, 0.985f, 1.259f, 1.408f, 1.873f, 0.636f)
+                lineToRelative(9.262f, -11.653f)
+                curveToRelative(1.093f, -1.375f, 0.113f, -3.403f, -1.645f, -3.403f)
+                horizontalLineToRelative(-9.642f)
                 close()
             }
         }

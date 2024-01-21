@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
 import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
@@ -20,20 +20,19 @@ public val Octicons.GitCommit16: ImageVector
                 16.0.dp, viewportWidth = 16.0f, viewportHeight = 16.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
-                moveTo(10.5f, 7.75f)
-                arcToRelative(2.5f, 2.5f, 0.0f, true, true, -5.0f, 0.0f)
-                arcToRelative(2.5f, 2.5f, 0.0f, false, true, 5.0f, 0.0f)
-                close()
+                    pathFillType = NonZero) {
                 moveTo(11.93f, 8.5f)
                 arcToRelative(4.002f, 4.002f, 0.0f, false, true, -7.86f, 0.0f)
                 lineTo(0.75f, 8.5f)
-                arcToRelative(0.75f, 0.75f, 0.0f, true, true, 0.0f, -1.5f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, -1.5f)
                 horizontalLineToRelative(3.32f)
-                arcToRelative(4.001f, 4.001f, 0.0f, false, true, 7.86f, 0.0f)
+                arcToRelative(4.002f, 4.002f, 0.0f, false, true, 7.86f, 0.0f)
                 horizontalLineToRelative(3.32f)
-                arcToRelative(0.75f, 0.75f, 0.0f, true, true, 0.0f, 1.5f)
-                horizontalLineToRelative(-3.32f)
+                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.0f, 1.5f)
+                close()
+                moveTo(10.5f, 7.75f)
+                arcToRelative(2.5f, 2.5f, 0.0f, true, false, -5.0f, 0.0f)
+                arcToRelative(2.5f, 2.5f, 0.0f, false, false, 5.0f, 0.0f)
                 close()
             }
         }

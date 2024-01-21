@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.PiHole: ImageVector
+public val SimpleIcons.Pihole: ImageVector
     get() {
-        if (_piHole != null) {
-            return _piHole!!
+        if (_pihole != null) {
+            return _pihole!!
         }
-        _piHole = Builder(name = "PiHole", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _pihole = Builder(name = "Pihole", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -130,7 +130,7 @@ public val SimpleIcons.PiHole: ImageVector
             }
         }
         .build()
-        return _piHole!!
+        return _pihole!!
     }
 
-private var _piHole: ImageVector? = null
+private var _pihole: ImageVector? = null

@@ -24,25 +24,25 @@ public val TablerIcons.Atom: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
-                lineTo(12.0f, 12.01f)
+                verticalLineToRelative(0.01f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(19.0711f, 4.9289f)
-                arcToRelative(4.0f, 10.0f, 45.0f, false, false, -9.8995f, 4.2426f)
-                arcToRelative(4.0f, 10.0f, 45.0f, false, false, -4.2426f, 9.8995f)
-                arcToRelative(4.0f, 10.0f, 45.0f, false, false, 9.8995f, -4.2426f)
-                arcToRelative(4.0f, 10.0f, 45.0f, false, false, 4.2426f, -9.8995f)
+                moveTo(19.071f, 4.929f)
+                curveToRelative(-1.562f, -1.562f, -6.0f, 0.337f, -9.9f, 4.243f)
+                curveToRelative(-3.905f, 3.905f, -5.804f, 8.337f, -4.242f, 9.9f)
+                curveToRelative(1.562f, 1.561f, 6.0f, -0.338f, 9.9f, -4.244f)
+                curveToRelative(3.905f, -3.905f, 5.804f, -8.337f, 4.242f, -9.9f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(4.9289f, 4.9289f)
-                arcToRelative(10.0f, 4.0f, 45.0f, false, false, 4.2426f, 9.8995f)
-                arcToRelative(10.0f, 4.0f, 45.0f, false, false, 9.8995f, 4.2426f)
-                arcToRelative(10.0f, 4.0f, 45.0f, false, false, -4.2426f, -9.8995f)
-                arcToRelative(10.0f, 4.0f, 45.0f, false, false, -9.8995f, -4.2426f)
+                moveTo(4.929f, 4.929f)
+                curveToRelative(-1.562f, 1.562f, 0.337f, 6.0f, 4.243f, 9.9f)
+                curveToRelative(3.905f, 3.905f, 8.337f, 5.804f, 9.9f, 4.242f)
+                curveToRelative(1.561f, -1.562f, -0.338f, -6.0f, -4.244f, -9.9f)
+                curveToRelative(-3.905f, -3.905f, -8.337f, -5.804f, -9.9f, -4.242f)
             }
         }
         .build()

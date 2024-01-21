@@ -21,14 +21,18 @@ public val SolidGroup.Bookmark: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(0.0f, 512.0f)
-                verticalLineTo(48.0f)
-                curveTo(0.0f, 21.49f, 21.49f, 0.0f, 48.0f, 0.0f)
-                horizontalLineToRelative(288.0f)
-                curveToRelative(26.51f, 0.0f, 48.0f, 21.49f, 48.0f, 48.0f)
-                verticalLineToRelative(464.0f)
+                moveTo(0.0f, 48.0f)
+                verticalLineTo(487.7f)
+                curveTo(0.0f, 501.1f, 10.9f, 512.0f, 24.3f, 512.0f)
+                curveToRelative(5.0f, 0.0f, 9.9f, -1.5f, 14.0f, -4.4f)
                 lineTo(192.0f, 400.0f)
-                lineTo(0.0f, 512.0f)
+                lineTo(345.7f, 507.6f)
+                curveToRelative(4.1f, 2.9f, 9.0f, 4.4f, 14.0f, 4.4f)
+                curveToRelative(13.4f, 0.0f, 24.3f, -10.9f, 24.3f, -24.3f)
+                verticalLineTo(48.0f)
+                curveToRelative(0.0f, -26.5f, -21.5f, -48.0f, -48.0f, -48.0f)
+                horizontalLineTo(48.0f)
+                curveTo(21.5f, 0.0f, 0.0f, 21.5f, 0.0f, 48.0f)
                 close()
             }
         }

@@ -21,18 +21,21 @@ public val SolidGroup.Cheese: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(0.0f, 288.0f)
-                verticalLineToRelative(160.0f)
-                arcToRelative(32.0f, 32.0f, 0.0f, false, false, 32.0f, 32.0f)
-                horizontalLineToRelative(448.0f)
-                arcToRelative(32.0f, 32.0f, 0.0f, false, false, 32.0f, -32.0f)
-                verticalLineTo(288.0f)
-                close()
-                moveTo(299.83f, 32.0f)
-                arcToRelative(32.0f, 32.0f, 0.0f, false, false, -21.13f, 7.0f)
+                moveTo(512.0f, 240.2f)
+                lineTo(512.0f, 256.0f)
                 lineTo(0.0f, 256.0f)
-                horizontalLineToRelative(512.0f)
-                curveToRelative(0.0f, -119.89f, -94.0f, -217.8f, -212.17f, -224.0f)
+                curveToRelative(0.0f, -20.0f, 10.0f, -38.7f, 26.6f, -49.8f)
+                lineTo(274.9f, 40.7f)
+                curveToRelative(8.6f, -5.7f, 18.6f, -8.7f, 28.9f, -8.7f)
+                curveTo(418.8f, 32.0f, 512.0f, 125.2f, 512.0f, 240.2f)
+                close()
+                moveTo(512.0f, 288.0f)
+                lineTo(512.0f, 416.0f)
+                curveToRelative(0.0f, 35.3f, -28.7f, 64.0f, -64.0f, 64.0f)
+                lineTo(64.0f, 480.0f)
+                curveToRelative(-35.3f, 0.0f, -64.0f, -28.7f, -64.0f, -64.0f)
+                lineTo(0.0f, 288.0f)
+                lineTo(512.0f, 288.0f)
                 close()
             }
         }

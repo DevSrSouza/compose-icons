@@ -25,9 +25,9 @@ public val TablerIcons.CurrencyCent: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.007f, 7.54f)
                 arcToRelative(5.965f, 5.965f, 0.0f, false, false, -4.008f, -1.54f)
-                arcToRelative(5.996f, 5.996f, 0.0f, false, false, -5.992f, 6.0f)
+                arcToRelative(6.0f, 6.0f, 0.0f, false, false, -5.992f, 6.0f)
                 curveToRelative(0.0f, 3.314f, 2.682f, 6.0f, 5.992f, 6.0f)
-                arcToRelative(5.965f, 5.965f, 0.0f, false, false, 4.004f, -1.536f)
+                arcToRelative(5.965f, 5.965f, 0.0f, false, false, 4.0f, -1.536f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =

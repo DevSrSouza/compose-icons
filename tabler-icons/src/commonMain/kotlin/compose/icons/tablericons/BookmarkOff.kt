@@ -23,22 +23,23 @@ public val TablerIcons.BookmarkOff: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(3.0f, 3.0f)
-                lineTo(21.0f, 21.0f)
+                moveTo(7.708f, 3.721f)
+                arcToRelative(3.982f, 3.982f, 0.0f, false, true, 2.292f, -0.721f)
+                horizontalLineToRelative(4.0f)
+                arcToRelative(4.0f, 4.0f, 0.0f, false, true, 4.0f, 4.0f)
+                verticalLineToRelative(7.0f)
+                moveToRelative(0.0f, 4.0f)
+                verticalLineToRelative(3.0f)
+                lineToRelative(-6.0f, -4.0f)
+                lineToRelative(-6.0f, 4.0f)
+                verticalLineToRelative(-14.0f)
+                curveToRelative(0.0f, -0.308f, 0.035f, -0.609f, 0.1f, -0.897f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.0f, 17.0f)
-                verticalLineToRelative(3.0f)
-                lineToRelative(-5.0f, -3.0f)
-                lineToRelative(-5.0f, 3.0f)
-                verticalLineToRelative(-13.0f)
-                moveToRelative(1.178f, -2.818f)
-                curveToRelative(0.252f, -0.113f, 0.53f, -0.176f, 0.822f, -0.176f)
-                horizontalLineToRelative(6.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
-                verticalLineToRelative(7.0f)
+                moveTo(3.0f, 3.0f)
+                lineToRelative(18.0f, 18.0f)
             }
         }
         .build()

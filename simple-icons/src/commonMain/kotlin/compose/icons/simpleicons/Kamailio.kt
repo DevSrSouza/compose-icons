@@ -1,0 +1,151 @@
+package compose.icons.simpleicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import compose.icons.SimpleIcons
+
+public val SimpleIcons.Kamailio: ImageVector
+    get() {
+        if (_kamailio != null) {
+            return _kamailio!!
+        }
+        _kamailio = Builder(name = "Kamailio", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveToRelative(3.647f, 13.643f)
+                lineToRelative(1.113f, -2.62f)
+                moveToRelative(-3.277f, 0.747f)
+                lineToRelative(1.366f, -1.413f)
+                lineTo(2.14f, 10.357f)
+                lineTo(0.577f, 12.009f)
+                verticalLineToRelative(-1.652f)
+                lineTo(0.0f, 10.357f)
+                verticalLineToRelative(3.286f)
+                horizontalLineToRelative(0.577f)
+                verticalLineToRelative(-0.953f)
+                lineToRelative(0.512f, -0.526f)
+                lineToRelative(1.122f, 1.479f)
+                horizontalLineToRelative(0.7f)
+                lineTo(1.482f, 11.77f)
+                close()
+                moveTo(12.543f, 11.024f)
+                lineTo(13.11f, 12.338f)
+                horizontalLineToRelative(-0.793f)
+                lineToRelative(-0.217f, 0.511f)
+                horizontalLineToRelative(1.221f)
+                lineToRelative(0.334f, 0.794f)
+                horizontalLineToRelative(0.61f)
+                lineToRelative(-1.446f, -3.31f)
+                horizontalLineToRelative(-0.535f)
+                lineToRelative(-1.446f, 3.31f)
+                horizontalLineToRelative(0.592f)
+                curveToRelative(0.373f, -0.88f, 0.736f, -1.741f, 1.112f, -2.62f)
+                close()
+                moveTo(4.76f, 11.024f)
+                lineTo(5.328f, 12.338f)
+                horizontalLineToRelative(-0.794f)
+                lineToRelative(-0.217f, 0.511f)
+                lineTo(5.54f, 12.849f)
+                lineToRelative(0.333f, 0.794f)
+                horizontalLineToRelative(0.61f)
+                lineToRelative(-1.445f, -3.31f)
+                lineTo(4.5f, 10.333f)
+                lineToRelative(-1.445f, 3.31f)
+                horizontalLineToRelative(0.591f)
+                moveTo(24.0f, 11.995f)
+                arcToRelative(1.718f, 1.718f, 0.0f, false, false, -0.479f, -1.197f)
+                arcToRelative(1.652f, 1.652f, 0.0f, false, false, -0.54f, -0.364f)
+                arcToRelative(1.757f, 1.757f, 0.0f, false, false, -0.694f, -0.133f)
+                arcToRelative(1.717f, 1.717f, 0.0f, false, false, -1.24f, 0.505f)
+                arcToRelative(1.65f, 1.65f, 0.0f, false, false, -0.356f, 0.541f)
+                arcToRelative(1.719f, 1.719f, 0.0f, false, false, -0.127f, 0.658f)
+                arcToRelative(1.719f, 1.719f, 0.0f, false, false, 0.479f, 1.196f)
+                curveToRelative(0.15f, 0.154f, 0.33f, 0.275f, 0.54f, 0.364f)
+                curveToRelative(0.21f, 0.09f, 0.44f, 0.134f, 0.694f, 0.134f)
+                arcToRelative(1.717f, 1.717f, 0.0f, false, false, 1.24f, -0.505f)
+                arcToRelative(1.65f, 1.65f, 0.0f, false, false, 0.356f, -0.542f)
+                curveToRelative(0.085f, -0.206f, 0.127f, -0.425f, 0.127f, -0.657f)
+                close()
+                moveTo(23.394f, 12.005f)
+                curveToRelative(0.0f, 0.16f, -0.027f, 0.31f, -0.082f, 0.453f)
+                curveToRelative(-0.054f, 0.142f, -0.13f, 0.265f, -0.227f, 0.37f)
+                arcToRelative(1.063f, 1.063f, 0.0f, false, true, -0.798f, 0.34f)
+                arcToRelative(1.076f, 1.076f, 0.0f, false, true, -0.805f, -0.347f)
+                arcToRelative(1.151f, 1.151f, 0.0f, false, true, -0.23f, -0.373f)
+                arcToRelative(1.25f, 1.25f, 0.0f, false, true, -0.082f, -0.453f)
+                curveToRelative(0.0f, -0.16f, 0.027f, -0.31f, 0.082f, -0.453f)
+                curveToRelative(0.054f, -0.142f, 0.13f, -0.266f, 0.227f, -0.37f)
+                arcToRelative(1.063f, 1.063f, 0.0f, false, true, 0.798f, -0.34f)
+                arcToRelative(1.075f, 1.075f, 0.0f, false, true, 0.805f, 0.346f)
+                curveToRelative(0.099f, 0.107f, 0.176f, 0.231f, 0.23f, 0.374f)
+                curveToRelative(0.055f, 0.142f, 0.082f, 0.293f, 0.082f, 0.453f)
+                close()
+                moveTo(19.254f, 10.357f)
+                verticalLineToRelative(3.286f)
+                horizontalLineToRelative(0.578f)
+                verticalLineToRelative(-3.286f)
+                horizontalLineToRelative(-0.578f)
+                close()
+                moveTo(16.316f, 13.643f)
+                horizontalLineToRelative(2.305f)
+                verticalLineToRelative(-0.526f)
+                horizontalLineToRelative(-1.728f)
+                verticalLineToRelative(-2.76f)
+                horizontalLineToRelative(-0.577f)
+                verticalLineToRelative(3.286f)
+                close()
+                moveTo(14.861f, 10.357f)
+                verticalLineToRelative(3.286f)
+                horizontalLineToRelative(0.577f)
+                verticalLineToRelative(-3.286f)
+                horizontalLineToRelative(-0.577f)
+                close()
+                moveTo(9.698f, 11.287f)
+                verticalLineToRelative(2.356f)
+                horizontalLineToRelative(0.577f)
+                verticalLineToRelative(-3.286f)
+                lineTo(9.66f, 10.357f)
+                lineToRelative(-1.0f, 1.554f)
+                lineToRelative(-1.0f, -1.554f)
+                horizontalLineToRelative(-0.614f)
+                verticalLineToRelative(3.286f)
+                horizontalLineToRelative(0.568f)
+                verticalLineToRelative(-2.347f)
+                lineToRelative(1.028f, 1.54f)
+                horizontalLineToRelative(0.018f)
+                lineToRelative(1.038f, -1.55f)
+                close()
+                moveTo(9.199f, 9.547f)
+                curveToRelative(3.162f, -1.018f, 6.03f, -1.59f, 8.606f, -1.717f)
+                curveToRelative(1.125f, -0.056f, 2.34f, -0.077f, 3.452f, 0.12f)
+                curveToRelative(0.397f, 0.07f, 0.782f, 0.18f, 1.137f, 0.356f)
+                curveToRelative(0.283f, 0.14f, 0.507f, 0.31f, 0.671f, 0.51f)
+                curveToRelative(0.222f, -0.77f, 0.045f, -1.333f, -0.53f, -1.688f)
+                curveToRelative(-0.54f, -0.334f, -1.272f, -0.413f, -1.889f, -0.464f)
+                curveToRelative(-2.726f, -0.224f, -6.542f, 0.737f, -11.447f, 2.882f)
+                close()
+                moveTo(14.836f, 14.782f)
+                curveToRelative(-3.192f, 0.918f, -6.077f, 1.4f, -8.656f, 1.447f)
+                curveToRelative(-1.126f, 0.02f, -2.341f, 0.003f, -3.446f, -0.228f)
+                arcToRelative(4.19f, 4.19f, 0.0f, false, true, -1.125f, -0.391f)
+                arcToRelative(2.014f, 2.014f, 0.0f, false, true, -0.655f, -0.53f)
+                curveToRelative(-0.246f, 0.763f, -0.086f, 1.33f, 0.477f, 1.703f)
+                curveToRelative(0.53f, 0.35f, 1.26f, 0.452f, 1.874f, 0.522f)
+                curveToRelative(2.718f, 0.31f, 6.562f, -0.532f, 11.53f, -2.523f)
+                close()
+            }
+        }
+        .build()
+        return _kamailio!!
+    }
+
+private var _kamailio: ImageVector? = null

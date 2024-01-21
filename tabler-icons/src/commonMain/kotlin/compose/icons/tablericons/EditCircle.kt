@@ -41,8 +41,8 @@ public val TablerIcons.EditCircle: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(9.0f, 7.07f)
-                arcToRelative(7.002f, 7.002f, 0.0f, false, false, 1.0f, 13.93f)
-                arcToRelative(7.002f, 7.002f, 0.0f, false, false, 6.929f, -5.999f)
+                arcToRelative(7.0f, 7.0f, 0.0f, false, false, 1.0f, 13.93f)
+                arcToRelative(7.0f, 7.0f, 0.0f, false, false, 6.929f, -6.0f)
             }
         }
         .build()

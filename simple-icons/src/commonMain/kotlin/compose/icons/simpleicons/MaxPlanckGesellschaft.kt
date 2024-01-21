@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.MaxPlanckGesellschaft: ImageVector
+public val SimpleIcons.Maxplanckgesellschaft: ImageVector
     get() {
-        if (_maxPlanckGesellschaft != null) {
-            return _maxPlanckGesellschaft!!
+        if (_maxplanckgesellschaft != null) {
+            return _maxplanckgesellschaft!!
         }
-        _maxPlanckGesellschaft = Builder(name = "MaxPlanckGesellschaft", defaultWidth = 24.0.dp,
+        _maxplanckgesellschaft = Builder(name = "Maxplanckgesellschaft", defaultWidth = 24.0.dp,
                 defaultHeight = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -661,7 +661,7 @@ public val SimpleIcons.MaxPlanckGesellschaft: ImageVector
             }
         }
         .build()
-        return _maxPlanckGesellschaft!!
+        return _maxplanckgesellschaft!!
     }
 
-private var _maxPlanckGesellschaft: ImageVector? = null
+private var _maxplanckgesellschaft: ImageVector? = null

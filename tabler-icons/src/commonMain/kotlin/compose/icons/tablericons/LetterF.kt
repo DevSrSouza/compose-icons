@@ -31,7 +31,7 @@ public val TablerIcons.LetterF: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(7.0f, 12.0f)
-                lineTo(15.0f, 12.0f)
+                lineToRelative(8.0f, 0.0f)
             }
         }
         .build()

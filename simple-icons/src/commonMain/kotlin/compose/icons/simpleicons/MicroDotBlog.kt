@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.MicroDotBlog: ImageVector
+public val SimpleIcons.Microdotblog: ImageVector
     get() {
-        if (_microDotBlog != null) {
-            return _microDotBlog!!
+        if (_microdotblog != null) {
+            return _microdotblog!!
         }
-        _microDotBlog = Builder(name = "MicroDotBlog", defaultWidth = 24.0.dp, defaultHeight =
+        _microdotblog = Builder(name = "Microdotblog", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -58,7 +58,7 @@ public val SimpleIcons.MicroDotBlog: ImageVector
             }
         }
         .build()
-        return _microDotBlog!!
+        return _microdotblog!!
     }
 
-private var _microDotBlog: ImageVector? = null
+private var _microdotblog: ImageVector? = null

@@ -47,7 +47,7 @@ public val TablerIcons.Bulb: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(9.7f, 17.0f)
-                lineTo(14.3f, 17.0f)
+                lineToRelative(4.6f, 0.0f)
             }
         }
         .build()

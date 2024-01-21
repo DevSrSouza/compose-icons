@@ -23,28 +23,28 @@ public val TablerIcons.CalendarOff: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(19.823f, 19.824f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -1.823f, 1.176f)
-                horizontalLineToRelative(-12.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
-                verticalLineToRelative(-12.0f)
-                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 1.175f, -1.823f)
-                moveToRelative(3.825f, -0.177f)
+                moveTo(9.0f, 5.0f)
                 horizontalLineToRelative(9.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.0f, 2.0f)
                 verticalLineToRelative(9.0f)
+                moveToRelative(-0.184f, 3.839f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -1.816f, 1.161f)
+                horizontalLineToRelative(-12.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, -2.0f, -2.0f)
+                verticalLineToRelative(-12.0f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 1.158f, -1.815f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.0f, 3.0f)
-                lineTo(16.0f, 7.0f)
+                verticalLineToRelative(4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.0f, 3.0f)
-                lineTo(8.0f, 4.0f)
+                verticalLineToRelative(1.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -57,20 +57,8 @@ public val TablerIcons.CalendarOff: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(11.0f, 15.0f)
-                lineTo(12.0f, 15.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.0f, 15.0f)
-                lineTo(12.0f, 18.0f)
-            }
-            path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
-                    strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
-                    StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 3.0f)
-                lineTo(21.0f, 21.0f)
+                lineToRelative(18.0f, 18.0f)
             }
         }
         .build()

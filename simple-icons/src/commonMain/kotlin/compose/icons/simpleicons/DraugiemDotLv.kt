@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.DraugiemDotLv: ImageVector
+public val SimpleIcons.Draugiemdotlv: ImageVector
     get() {
-        if (_draugiemDotLv != null) {
-            return _draugiemDotLv!!
+        if (_draugiemdotlv != null) {
+            return _draugiemdotlv!!
         }
-        _draugiemDotLv = Builder(name = "DraugiemDotLv", defaultWidth = 24.0.dp, defaultHeight =
+        _draugiemdotlv = Builder(name = "Draugiemdotlv", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -189,7 +189,7 @@ public val SimpleIcons.DraugiemDotLv: ImageVector
             }
         }
         .build()
-        return _draugiemDotLv!!
+        return _draugiemdotlv!!
     }
 
-private var _draugiemDotLv: ImageVector? = null
+private var _draugiemdotlv: ImageVector? = null

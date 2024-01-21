@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.BlockchainDotCom: ImageVector
+public val SimpleIcons.Blockchaindotcom: ImageVector
     get() {
-        if (_blockchainDotCom != null) {
-            return _blockchainDotCom!!
+        if (_blockchaindotcom != null) {
+            return _blockchaindotcom!!
         }
-        _blockchainDotCom = Builder(name = "BlockchainDotCom", defaultWidth = 24.0.dp, defaultHeight
+        _blockchaindotcom = Builder(name = "Blockchaindotcom", defaultWidth = 24.0.dp, defaultHeight
                 = 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -44,7 +44,7 @@ public val SimpleIcons.BlockchainDotCom: ImageVector
             }
         }
         .build()
-        return _blockchainDotCom!!
+        return _blockchaindotcom!!
     }
 
-private var _blockchainDotCom: ImageVector? = null
+private var _blockchaindotcom: ImageVector? = null

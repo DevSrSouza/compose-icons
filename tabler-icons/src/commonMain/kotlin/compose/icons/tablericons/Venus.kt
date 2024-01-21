@@ -25,20 +25,20 @@ public val TablerIcons.Venus: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 9.0f)
                 moveToRelative(-5.0f, 0.0f)
-                arcToRelative(5.0f, 5.0f, 0.0f, true, true, 10.0f, 0.0f)
-                arcToRelative(5.0f, 5.0f, 0.0f, true, true, -10.0f, 0.0f)
+                arcToRelative(5.0f, 5.0f, 0.0f, true, false, 10.0f, 0.0f)
+                arcToRelative(5.0f, 5.0f, 0.0f, true, false, -10.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 14.0f)
-                lineTo(12.0f, 21.0f)
+                lineToRelative(0.0f, 7.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(9.0f, 18.0f)
-                lineTo(15.0f, 18.0f)
+                lineToRelative(6.0f, 0.0f)
             }
         }
         .build()

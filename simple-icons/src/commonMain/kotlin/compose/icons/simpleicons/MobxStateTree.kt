@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.MobxStateTree: ImageVector
+public val SimpleIcons.Mobxstatetree: ImageVector
     get() {
-        if (_mobxStateTree != null) {
-            return _mobxStateTree!!
+        if (_mobxstatetree != null) {
+            return _mobxstatetree!!
         }
-        _mobxStateTree = Builder(name = "MobxStateTree", defaultWidth = 24.0.dp, defaultHeight =
+        _mobxstatetree = Builder(name = "Mobxstatetree", defaultWidth = 24.0.dp, defaultHeight =
                 24.0.dp, viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -54,7 +54,7 @@ public val SimpleIcons.MobxStateTree: ImageVector
             }
         }
         .build()
-        return _mobxStateTree!!
+        return _mobxstatetree!!
     }
 
-private var _mobxStateTree: ImageVector? = null
+private var _mobxstatetree: ImageVector? = null

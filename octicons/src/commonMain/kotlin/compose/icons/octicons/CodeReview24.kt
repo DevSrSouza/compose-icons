@@ -1,7 +1,7 @@
 package compose.icons.octicons
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.PathFillType.Companion.EvenOdd
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
@@ -46,7 +46,7 @@ public val Octicons.CodeReview24: ImageVector
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
+                    pathFillType = NonZero) {
                 moveTo(1.5f, 4.25f)
                 curveToRelative(0.0f, -0.966f, 0.784f, -1.75f, 1.75f, -1.75f)
                 horizontalLineToRelative(17.5f)
@@ -55,11 +55,10 @@ public val Octicons.CodeReview24: ImageVector
                 arcToRelative(1.75f, 1.75f, 0.0f, false, true, -1.75f, 1.75f)
                 horizontalLineToRelative(-9.69f)
                 lineToRelative(-3.573f, 3.573f)
-                arcTo(1.457f, 1.457f, 0.0f, false, true, 5.0f, 21.043f)
+                arcTo(1.458f, 1.458f, 0.0f, false, true, 5.0f, 21.043f)
                 verticalLineTo(18.5f)
                 horizontalLineTo(3.25f)
                 arcToRelative(1.75f, 1.75f, 0.0f, false, true, -1.75f, -1.75f)
-                verticalLineTo(4.25f)
                 close()
                 moveTo(3.25f, 4.0f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, 0.25f)
@@ -69,12 +68,11 @@ public val Octicons.CodeReview24: ImageVector
                 arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.75f, 0.75f)
                 verticalLineToRelative(3.19f)
                 lineToRelative(3.72f, -3.72f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.53f, -0.22f)
+                arcToRelative(0.749f, 0.749f, 0.0f, false, true, 0.53f, -0.22f)
                 horizontalLineToRelative(10.0f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, 0.25f, -0.25f)
                 verticalLineTo(4.25f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, false, -0.25f, -0.25f)
-                horizontalLineTo(3.25f)
                 close()
             }
         }

@@ -1,6 +1,6 @@
 @file:Repository("https://jitpack.io")
 @file:Repository("https://maven.google.com")
-@file:Repository("https://jetbrains.bintray.com/trove4j")
+@file:Repository("https://repo1.maven.org/maven2")
 @file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
@@ -111,7 +111,7 @@ fun ParsingResult.asDocumentationGroup(
 }
 
 fun markdownSvg(doc: DocumentationIcon): String {
-    return "<img src=\"${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) }\" width=64 height=64 /> "
+    return "<img src=\"${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository).replace('\\', '/') }\" width=64 height=64 /> "
 }
 
 fun markdownIconDocumentation(doc: DocumentationIcon): String {

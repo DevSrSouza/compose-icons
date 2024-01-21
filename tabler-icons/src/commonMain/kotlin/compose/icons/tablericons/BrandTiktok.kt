@@ -21,10 +21,17 @@ public val TablerIcons.BrandTiktok: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(9.0f, 12.0f)
-                arcToRelative(4.0f, 4.0f, 0.0f, true, false, 4.0f, 4.0f)
-                verticalLineToRelative(-12.0f)
-                arcToRelative(5.0f, 5.0f, 0.0f, false, false, 5.0f, 5.0f)
+                moveTo(21.0f, 7.917f)
+                verticalLineToRelative(4.034f)
+                arcToRelative(9.948f, 9.948f, 0.0f, false, true, -5.0f, -1.951f)
+                verticalLineToRelative(4.5f)
+                arcToRelative(6.5f, 6.5f, 0.0f, true, true, -8.0f, -6.326f)
+                verticalLineToRelative(4.326f)
+                arcToRelative(2.5f, 2.5f, 0.0f, true, false, 4.0f, 2.0f)
+                verticalLineToRelative(-11.5f)
+                horizontalLineToRelative(4.083f)
+                arcToRelative(6.005f, 6.005f, 0.0f, false, false, 4.917f, 4.917f)
+                close()
             }
         }
         .build()

@@ -23,36 +23,36 @@ public val TablerIcons.AlertOctagon: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(8.7f, 3.0f)
-                horizontalLineToRelative(6.6f)
-                curveToRelative(0.3f, 0.0f, 0.5f, 0.1f, 0.7f, 0.3f)
-                lineToRelative(4.7f, 4.7f)
-                curveToRelative(0.2f, 0.2f, 0.3f, 0.4f, 0.3f, 0.7f)
-                verticalLineToRelative(6.6f)
-                curveToRelative(0.0f, 0.3f, -0.1f, 0.5f, -0.3f, 0.7f)
-                lineToRelative(-4.7f, 4.7f)
-                curveToRelative(-0.2f, 0.2f, -0.4f, 0.3f, -0.7f, 0.3f)
-                horizontalLineToRelative(-6.6f)
-                curveToRelative(-0.3f, 0.0f, -0.5f, -0.1f, -0.7f, -0.3f)
-                lineToRelative(-4.7f, -4.7f)
-                curveToRelative(-0.2f, -0.2f, -0.3f, -0.4f, -0.3f, -0.7f)
-                verticalLineToRelative(-6.6f)
-                curveToRelative(0.0f, -0.3f, 0.1f, -0.5f, 0.3f, -0.7f)
-                lineToRelative(4.7f, -4.7f)
-                curveToRelative(0.2f, -0.2f, 0.4f, -0.3f, 0.7f, -0.3f)
+                moveTo(12.802f, 2.165f)
+                lineToRelative(5.575f, 2.389f)
+                curveToRelative(0.48f, 0.206f, 0.863f, 0.589f, 1.07f, 1.07f)
+                lineToRelative(2.388f, 5.574f)
+                curveToRelative(0.22f, 0.512f, 0.22f, 1.092f, 0.0f, 1.604f)
+                lineToRelative(-2.389f, 5.575f)
+                curveToRelative(-0.206f, 0.48f, -0.589f, 0.863f, -1.07f, 1.07f)
+                lineToRelative(-5.574f, 2.388f)
+                curveToRelative(-0.512f, 0.22f, -1.092f, 0.22f, -1.604f, 0.0f)
+                lineToRelative(-5.575f, -2.389f)
+                arcToRelative(2.036f, 2.036f, 0.0f, false, true, -1.07f, -1.07f)
+                lineToRelative(-2.388f, -5.574f)
+                arcToRelative(2.036f, 2.036f, 0.0f, false, true, 0.0f, -1.604f)
+                lineToRelative(2.389f, -5.575f)
+                curveToRelative(0.206f, -0.48f, 0.589f, -0.863f, 1.07f, -1.07f)
+                lineToRelative(5.574f, -2.388f)
+                arcToRelative(2.036f, 2.036f, 0.0f, false, true, 1.604f, 0.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 8.0f)
-                lineTo(12.0f, 12.0f)
+                verticalLineToRelative(4.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 16.0f)
-                lineTo(12.01f, 16.0f)
+                horizontalLineToRelative(0.01f)
             }
         }
         .build()

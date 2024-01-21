@@ -51,7 +51,7 @@ public val TablerIcons.CurrencyDinar: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(16.0f, 17.0f)
                 lineToRelative(1.0f, 1.0f)
-                horizontalLineToRelative(2.004f)
+                horizontalLineToRelative(2.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, false, 1.649f, -3.131f)
                 lineToRelative(-2.653f, -3.869f)
             }

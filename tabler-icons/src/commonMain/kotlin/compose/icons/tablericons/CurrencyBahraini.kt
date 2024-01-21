@@ -46,7 +46,7 @@ public val TablerIcons.CurrencyBahraini: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(17.0f, 15.0f)
-                horizontalLineToRelative(2.004f)
+                horizontalLineToRelative(2.0f)
                 arcToRelative(2.0f, 2.0f, 0.0f, false, false, 1.649f, -3.131f)
                 lineToRelative(-2.653f, -3.869f)
             }

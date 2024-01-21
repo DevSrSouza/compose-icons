@@ -16,30 +16,26 @@ public val SolidGroup.GripLines: ImageVector
         if (_gripLines != null) {
             return _gripLines!!
         }
-        _gripLines = Builder(name = "GripLines", defaultWidth = 512.0.dp, defaultHeight = 512.0.dp,
-                viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
+        _gripLines = Builder(name = "GripLines", defaultWidth = 448.0.dp, defaultHeight = 512.0.dp,
+                viewportWidth = 448.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(496.0f, 288.0f)
-                lineTo(16.0f, 288.0f)
-                curveToRelative(-8.8f, 0.0f, -16.0f, 7.2f, -16.0f, 16.0f)
-                verticalLineToRelative(32.0f)
-                curveToRelative(0.0f, 8.8f, 7.2f, 16.0f, 16.0f, 16.0f)
-                horizontalLineToRelative(480.0f)
-                curveToRelative(8.8f, 0.0f, 16.0f, -7.2f, 16.0f, -16.0f)
-                verticalLineToRelative(-32.0f)
-                curveToRelative(0.0f, -8.8f, -7.2f, -16.0f, -16.0f, -16.0f)
+                moveTo(32.0f, 288.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, 14.3f, -32.0f, 32.0f)
+                reflectiveCurveToRelative(14.3f, 32.0f, 32.0f, 32.0f)
+                lineToRelative(384.0f, 0.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, -14.3f, 32.0f, -32.0f)
+                reflectiveCurveToRelative(-14.3f, -32.0f, -32.0f, -32.0f)
+                lineTo(32.0f, 288.0f)
                 close()
-                moveTo(496.0f, 160.0f)
-                lineTo(16.0f, 160.0f)
-                curveToRelative(-8.8f, 0.0f, -16.0f, 7.2f, -16.0f, 16.0f)
-                verticalLineToRelative(32.0f)
-                curveToRelative(0.0f, 8.8f, 7.2f, 16.0f, 16.0f, 16.0f)
-                horizontalLineToRelative(480.0f)
-                curveToRelative(8.8f, 0.0f, 16.0f, -7.2f, 16.0f, -16.0f)
-                verticalLineToRelative(-32.0f)
-                curveToRelative(0.0f, -8.8f, -7.2f, -16.0f, -16.0f, -16.0f)
+                moveTo(32.0f, 160.0f)
+                curveToRelative(-17.7f, 0.0f, -32.0f, 14.3f, -32.0f, 32.0f)
+                reflectiveCurveToRelative(14.3f, 32.0f, 32.0f, 32.0f)
+                lineToRelative(384.0f, 0.0f)
+                curveToRelative(17.7f, 0.0f, 32.0f, -14.3f, 32.0f, -32.0f)
+                reflectiveCurveToRelative(-14.3f, -32.0f, -32.0f, -32.0f)
+                lineTo(32.0f, 160.0f)
                 close()
             }
         }

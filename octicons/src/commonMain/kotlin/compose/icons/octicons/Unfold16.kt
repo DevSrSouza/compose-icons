@@ -21,7 +21,7 @@ public val Octicons.Unfold16: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(8.177f, 0.677f)
+                moveToRelative(8.177f, 0.677f)
                 lineToRelative(2.896f, 2.896f)
                 arcToRelative(0.25f, 0.25f, 0.0f, false, true, -0.177f, 0.427f)
                 lineTo(8.75f, 4.0f)

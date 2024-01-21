@@ -24,7 +24,7 @@ public val TablerIcons.MicrophoneOff: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(3.0f, 3.0f)
-                lineTo(21.0f, 21.0f)
+                lineToRelative(18.0f, 18.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -42,20 +42,20 @@ public val TablerIcons.MicrophoneOff: ImageVector
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(5.0f, 10.0f)
                 arcToRelative(7.0f, 7.0f, 0.0f, false, false, 10.846f, 5.85f)
-                moveToRelative(2.002f, -2.0f)
+                moveToRelative(2.0f, -2.0f)
                 arcToRelative(6.967f, 6.967f, 0.0f, false, false, 1.152f, -3.85f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(8.0f, 21.0f)
-                lineTo(16.0f, 21.0f)
+                lineToRelative(8.0f, 0.0f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 17.0f)
-                lineTo(12.0f, 21.0f)
+                lineToRelative(0.0f, 4.0f)
             }
         }
         .build()

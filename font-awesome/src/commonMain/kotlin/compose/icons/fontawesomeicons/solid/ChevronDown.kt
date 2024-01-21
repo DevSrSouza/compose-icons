@@ -16,23 +16,21 @@ public val SolidGroup.ChevronDown: ImageVector
         if (_chevronDown != null) {
             return _chevronDown!!
         }
-        _chevronDown = Builder(name = "ChevronDown", defaultWidth = 448.0.dp, defaultHeight =
-                512.0.dp, viewportWidth = 448.0f, viewportHeight = 512.0f).apply {
+        _chevronDown = Builder(name = "ChevronDown", defaultWidth = 512.0.dp, defaultHeight =
+                512.0.dp, viewportWidth = 512.0f, viewportHeight = 512.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(207.029f, 381.476f)
-                lineTo(12.686f, 187.132f)
-                curveToRelative(-9.373f, -9.373f, -9.373f, -24.569f, 0.0f, -33.941f)
-                lineToRelative(22.667f, -22.667f)
-                curveToRelative(9.357f, -9.357f, 24.522f, -9.375f, 33.901f, -0.04f)
-                lineTo(224.0f, 284.505f)
-                lineToRelative(154.745f, -154.021f)
-                curveToRelative(9.379f, -9.335f, 24.544f, -9.317f, 33.901f, 0.04f)
-                lineToRelative(22.667f, 22.667f)
-                curveToRelative(9.373f, 9.373f, 9.373f, 24.569f, 0.0f, 33.941f)
-                lineTo(240.971f, 381.476f)
-                curveToRelative(-9.373f, 9.372f, -24.569f, 9.372f, -33.942f, 0.0f)
+                moveTo(233.4f, 406.6f)
+                curveToRelative(12.5f, 12.5f, 32.8f, 12.5f, 45.3f, 0.0f)
+                lineToRelative(192.0f, -192.0f)
+                curveToRelative(12.5f, -12.5f, 12.5f, -32.8f, 0.0f, -45.3f)
+                reflectiveCurveToRelative(-32.8f, -12.5f, -45.3f, 0.0f)
+                lineTo(256.0f, 338.7f)
+                lineTo(86.6f, 169.4f)
+                curveToRelative(-12.5f, -12.5f, -32.8f, -12.5f, -45.3f, 0.0f)
+                reflectiveCurveToRelative(-12.5f, 32.8f, 0.0f, 45.3f)
+                lineToRelative(192.0f, 192.0f)
                 close()
             }
         }

@@ -1,6 +1,6 @@
 @file:Repository("https://jitpack.io")
 @file:Repository("https://maven.google.com")
-@file:Repository("https://jetbrains.bintray.com/trove4j")
+@file:Repository("https://repo1.maven.org/maven2")
 @file:Repository("file:///home/devsrsouza/.m2/repository")
 
 // svg-to-compose
@@ -28,7 +28,7 @@ fun File.makeDirs() = apply { mkdirs() }
 
 val githubId = "astrit/css.gg"
 val repository = "https://github.com/$githubId"
-val version = "2.0.0"
+val version = "2.1.1"
 val rawGithubRepository = "https://raw.githubusercontent.com/$githubId/$version"
 val blobGithubRepository = "$repository/blob/$version"
 
@@ -132,7 +132,7 @@ fun ParsingResult.asDocumentationGroup(
 }
 
 fun markdownSvg(doc: DocumentationIcon): String {
-    return "![](${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) })"
+    return "![](${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository).replace('\\', '/') })"
 }
 
 fun markdownIconDocumentation(doc: DocumentationIcon): String {

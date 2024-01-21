@@ -56,16 +56,9 @@ public val Octicons.IssueReopened24: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0f, 17.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, true, false, 0.0f, -2.0f)
-                arcToRelative(1.0f, 1.0f, 0.0f, false, false, 0.0f, 2.0f)
-                close()
-                moveTo(12.0f, 7.0f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, true, 0.75f, 0.75f)
-                verticalLineToRelative(4.5f)
-                arcToRelative(0.75f, 0.75f, 0.0f, false, true, -1.5f, 0.0f)
-                verticalLineToRelative(-4.5f)
-                arcTo(0.75f, 0.75f, 0.0f, false, true, 12.0f, 7.0f)
+                moveTo(13.414f, 13.414f)
+                arcToRelative(2.0f, 2.0f, 0.0f, true, true, -2.828f, -2.828f)
+                arcToRelative(2.0f, 2.0f, 0.0f, false, true, 2.828f, 2.828f)
                 close()
             }
         }

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import compose.icons.SimpleIcons
 
-public val SimpleIcons.ReduxSaga: ImageVector
+public val SimpleIcons.Reduxsaga: ImageVector
     get() {
-        if (_reduxSaga != null) {
-            return _reduxSaga!!
+        if (_reduxsaga != null) {
+            return _reduxsaga!!
         }
-        _reduxSaga = Builder(name = "ReduxSaga", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+        _reduxsaga = Builder(name = "Reduxsaga", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 24.0f, viewportHeight = 24.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -98,7 +98,7 @@ public val SimpleIcons.ReduxSaga: ImageVector
             }
         }
         .build()
-        return _reduxSaga!!
+        return _reduxsaga!!
     }
 
-private var _reduxSaga: ImageVector? = null
+private var _reduxsaga: ImageVector? = null
