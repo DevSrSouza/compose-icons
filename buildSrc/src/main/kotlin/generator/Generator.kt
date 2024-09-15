@@ -5,6 +5,7 @@ import br.com.devsrsouza.svg2compose.Svg2Compose
 import br.com.devsrsouza.svg2compose.VectorType
 import org.eclipse.jgit.api.Git
 import org.gradle.api.Project
+import org.jetbrains.kotlin.com.google.common.base.CaseFormat
 import org.jetbrains.kotlin.com.google.gson.Gson
 import java.io.File
 import java.text.Normalizer
@@ -32,6 +33,12 @@ private data class DocumentationIcon(
     val accessingFormat: String,
     val svgFilePathRelativeToRepository: String,
 )
+
+internal fun String.toKotlinPropertyName(): String {
+    return CaseFormat.LOWER_UNDERSCORE.to(CaseFormat.UPPER_CAMEL, this).let { name ->
+        if (name.first().isDigit()) "_$name" else name
+    }
+}
 
 fun Project.generate(
     githubId: String,
@@ -73,7 +80,8 @@ fun Project.generate(
         vectorsDirectory = mappedVectorsDir,
         type = svgToComposeConfig.type,
         allAssetsPropertyName = "AllIcons",
-        iconNameTransformer = svgToComposeConfig.iconNameTransformer
+        iconNameTransformer = { it, g -> svgToComposeConfig.iconNameTransformer(it.toKotlinPropertyName(), g) },
+        generatePreview = false,
     )
 
     // License copy
