@@ -1,4 +1,7 @@
-import generator.generateCssGg
+import generator.MapIconsToSvgComposeFolderResult
+import generator.SvgToComposeConfig
+import generator.putRelocatedRelativeTo
+import generator.registerGeneratorTask
 
 plugins {
     kotlin("multiplatform")
@@ -13,8 +16,35 @@ android {
     namespace = "compose.icons.cssgg"
 }
 
-tasks.register("generateIcons") {
-    doFirst {
-        generateCssGg()
-    }
-}
+registerGeneratorTask(
+    githubId = "astrit/css.gg",
+    version = "2.0.0",
+    mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
+        val iconsDir = File(repoCloneDir, "icons/svg")
+
+        val relocatedNames = mutableMapOf<String, String>()
+
+        // renaming to match to svg-to-compose
+        iconsDir.walkTopDown().filter { it.extension == "svg" }
+            .forEach {
+                val newFile = File(it.parentFile, it.name.replace("-", "_"))
+
+                // store the name change
+                relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
+
+                // rename to conform with SVG to Compose
+                it.renameTo(newFile)
+            }
+
+        MapIconsToSvgComposeFolderResult(
+            iconsFolder = iconsDir,
+            relocatedNames = relocatedNames
+        )
+    },
+    svgToComposeConfig = SvgToComposeConfig(
+        accessorName = "CssGgIcons",
+    ),
+    licensePathAtRepo = { "LICENSE" },
+    documentationHeader = "[css.gg](https://css.gg/)"
+)
+
