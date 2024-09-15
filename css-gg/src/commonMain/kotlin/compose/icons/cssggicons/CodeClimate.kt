@@ -24,25 +24,25 @@ public val CssGgIcons.CodeClimate: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(9.4951f, 8.1109f)
-                lineTo(3.1311f, 14.4749f)
-                lineTo(4.5453f, 15.8891f)
-                lineTo(9.4951f, 10.9393f)
-                lineTo(14.4448f, 15.8891f)
-                lineTo(15.859f, 14.4749f)
-                lineTo(9.4951f, 8.1109f)
+                moveTo(9.495f, 8.111f)
+                lineTo(3.131f, 14.475f)
+                lineTo(4.545f, 15.889f)
+                lineTo(9.495f, 10.939f)
+                lineTo(14.445f, 15.889f)
+                lineTo(15.859f, 14.475f)
+                lineTo(9.495f, 8.111f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(14.5049f, 8.1109f)
-                lineTo(12.5317f, 10.0842f)
-                lineTo(13.9503f, 11.494f)
-                lineTo(14.5049f, 10.9393f)
-                lineTo(19.4547f, 15.8891f)
-                lineTo(20.8689f, 14.4749f)
-                lineTo(14.5049f, 8.1109f)
+                moveTo(14.505f, 8.111f)
+                lineTo(12.532f, 10.084f)
+                lineTo(13.95f, 11.494f)
+                lineTo(14.505f, 10.939f)
+                lineTo(19.455f, 15.889f)
+                lineTo(20.869f, 14.475f)
+                lineTo(14.505f, 8.111f)
                 close()
             }
         }

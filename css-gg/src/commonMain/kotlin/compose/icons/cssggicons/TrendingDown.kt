@@ -21,18 +21,18 @@ public val CssGgIcons.TrendingDown: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(1.851f, 8.1063f)
-                lineTo(0.4368f, 9.5205f)
-                lineTo(7.5079f, 16.5916f)
-                lineTo(13.8719f, 10.2276f)
-                lineTo(18.1145f, 14.4702f)
-                lineTo(16.3721f, 16.2126f)
-                lineTo(23.0642f, 18.0058f)
-                lineTo(21.2711f, 11.3136f)
-                lineTo(19.5287f, 13.056f)
-                lineTo(13.8719f, 7.3992f)
-                lineTo(7.5079f, 13.7631f)
-                lineTo(1.851f, 8.1063f)
+                moveTo(1.851f, 8.106f)
+                lineTo(0.437f, 9.52f)
+                lineTo(7.508f, 16.592f)
+                lineTo(13.872f, 10.228f)
+                lineTo(18.115f, 14.47f)
+                lineTo(16.372f, 16.213f)
+                lineTo(23.064f, 18.006f)
+                lineTo(21.271f, 11.314f)
+                lineTo(19.529f, 13.056f)
+                lineTo(13.872f, 7.399f)
+                lineTo(7.508f, 13.763f)
+                lineTo(1.851f, 8.106f)
                 close()
             }
         }

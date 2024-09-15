@@ -36,7 +36,7 @@ public val RegularGroup.Bookmark: ImageVector
                 lineTo(48.0f, 54.0f)
                 arcToRelative(6.0f, 6.0f, 0.0f, false, true, 6.0f, -6.0f)
                 horizontalLineToRelative(276.0f)
-                curveToRelative(3.314f, 0.0f, 6.0f, 2.683f, 6.0f, 5.996f)
+                curveToRelative(3.31f, 0.0f, 6.0f, 2.68f, 6.0f, 6.0f)
                 lineTo(336.0f, 428.43f)
                 close()
             }

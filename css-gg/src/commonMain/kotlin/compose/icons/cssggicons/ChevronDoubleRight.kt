@@ -24,25 +24,25 @@ public val CssGgIcons.ChevronDoubleRight: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(5.6361f, 7.7573f)
-                lineTo(7.0503f, 6.3431f)
-                lineTo(12.7071f, 12.0f)
-                lineTo(7.0503f, 17.6568f)
-                lineTo(5.6361f, 16.2426f)
-                lineTo(9.8787f, 12.0f)
-                lineTo(5.6361f, 7.7573f)
+                moveTo(5.636f, 7.757f)
+                lineTo(7.05f, 6.343f)
+                lineTo(12.707f, 12.0f)
+                lineTo(7.05f, 17.657f)
+                lineTo(5.636f, 16.243f)
+                lineTo(9.879f, 12.0f)
+                lineTo(5.636f, 7.757f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.7071f, 6.3431f)
-                lineTo(11.2929f, 7.7573f)
-                lineTo(15.5356f, 12.0f)
-                lineTo(11.2929f, 16.2426f)
-                lineTo(12.7072f, 17.6568f)
+                moveTo(12.707f, 6.343f)
+                lineTo(11.293f, 7.757f)
+                lineTo(15.536f, 12.0f)
+                lineTo(11.293f, 16.243f)
+                lineTo(12.707f, 17.657f)
                 lineTo(18.364f, 12.0f)
-                lineTo(12.7071f, 6.3431f)
+                lineTo(12.707f, 6.343f)
                 close()
             }
         }

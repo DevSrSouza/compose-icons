@@ -21,19 +21,19 @@ public val CssGgIcons.FormatItalic: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(11.4903f, 5.458f)
-                horizontalLineTo(17.4903f)
-                lineTo(16.7788f, 7.3272f)
-                horizontalLineTo(14.7788f)
-                lineTo(11.2212f, 16.6729f)
-                horizontalLineTo(13.2212f)
-                lineTo(12.5097f, 18.5421f)
-                horizontalLineTo(6.5097f)
-                lineTo(7.2212f, 16.6729f)
-                horizontalLineTo(9.2212f)
-                lineTo(12.7788f, 7.3272f)
-                horizontalLineTo(10.7788f)
-                lineTo(11.4903f, 5.458f)
+                moveTo(11.49f, 5.458f)
+                horizontalLineTo(17.49f)
+                lineTo(16.779f, 7.327f)
+                horizontalLineTo(14.779f)
+                lineTo(11.221f, 16.673f)
+                horizontalLineTo(13.221f)
+                lineTo(12.51f, 18.542f)
+                horizontalLineTo(6.51f)
+                lineTo(7.221f, 16.673f)
+                horizontalLineTo(9.221f)
+                lineTo(12.779f, 7.327f)
+                horizontalLineTo(10.779f)
+                lineTo(11.49f, 5.458f)
                 close()
             }
         }

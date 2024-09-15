@@ -23,7 +23,7 @@ public val SolidGroup.MortarPestle: ImageVector
                     pathFillType = NonZero) {
                 moveTo(501.54f, 60.91f)
                 curveToRelative(17.22f, -17.22f, 12.51f, -46.25f, -9.27f, -57.14f)
-                arcToRelative(35.696f, 35.696f, 0.0f, false, false, -37.37f, 3.37f)
+                arcToRelative(35.7f, 35.7f, 0.0f, false, false, -37.37f, 3.37f)
                 lineTo(251.09f, 160.0f)
                 horizontalLineToRelative(151.37f)
                 lineToRelative(99.08f, -99.09f)

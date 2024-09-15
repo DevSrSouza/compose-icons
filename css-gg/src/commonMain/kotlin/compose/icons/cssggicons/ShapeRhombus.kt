@@ -21,17 +21,17 @@ public val CssGgIcons.ShapeRhombus: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(12.0f, 6.3432f)
-                lineTo(6.3432f, 12.0f)
-                lineTo(12.0f, 17.6569f)
-                lineTo(17.6569f, 12.0f)
-                lineTo(12.0f, 6.3432f)
+                moveTo(12.0f, 6.343f)
+                lineTo(6.343f, 12.0f)
+                lineTo(12.0f, 17.657f)
+                lineTo(17.657f, 12.0f)
+                lineTo(12.0f, 6.343f)
                 close()
-                moveTo(2.1005f, 12.0f)
-                lineTo(12.0f, 21.8995f)
-                lineTo(21.8995f, 12.0f)
-                lineTo(12.0f, 2.1005f)
-                lineTo(2.1005f, 12.0f)
+                moveTo(2.101f, 12.0f)
+                lineTo(12.0f, 21.899f)
+                lineTo(21.899f, 12.0f)
+                lineTo(12.0f, 2.101f)
+                lineTo(2.101f, 12.0f)
                 close()
             }
         }

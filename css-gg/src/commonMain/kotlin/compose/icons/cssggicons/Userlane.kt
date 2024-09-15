@@ -35,11 +35,11 @@ public val CssGgIcons.Userlane: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(3.0f, 12.0f)
-                curveTo(3.0f, 16.9706f, 7.0294f, 21.0f, 12.0f, 21.0f)
-                curveTo(16.9706f, 21.0f, 21.0f, 16.9706f, 21.0f, 12.0f)
+                curveTo(3.0f, 16.971f, 7.029f, 21.0f, 12.0f, 21.0f)
+                curveTo(16.971f, 21.0f, 21.0f, 16.971f, 21.0f, 12.0f)
                 horizontalLineTo(17.0f)
-                curveTo(17.0f, 14.7614f, 14.7614f, 17.0f, 12.0f, 17.0f)
-                curveTo(9.2386f, 17.0f, 7.0f, 14.7614f, 7.0f, 12.0f)
+                curveTo(17.0f, 14.761f, 14.761f, 17.0f, 12.0f, 17.0f)
+                curveTo(9.239f, 17.0f, 7.0f, 14.761f, 7.0f, 12.0f)
                 horizontalLineTo(3.0f)
                 close()
             }
@@ -47,10 +47,10 @@ public val CssGgIcons.Userlane: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(6.0f, 10.0f)
-                curveTo(7.6568f, 10.0f, 9.0f, 8.6568f, 9.0f, 7.0f)
-                curveTo(9.0f, 5.3432f, 7.6568f, 4.0f, 6.0f, 4.0f)
-                curveTo(4.3432f, 4.0f, 3.0f, 5.3432f, 3.0f, 7.0f)
-                curveTo(3.0f, 8.6568f, 4.3432f, 10.0f, 6.0f, 10.0f)
+                curveTo(7.657f, 10.0f, 9.0f, 8.657f, 9.0f, 7.0f)
+                curveTo(9.0f, 5.343f, 7.657f, 4.0f, 6.0f, 4.0f)
+                curveTo(4.343f, 4.0f, 3.0f, 5.343f, 3.0f, 7.0f)
+                curveTo(3.0f, 8.657f, 4.343f, 10.0f, 6.0f, 10.0f)
                 close()
             }
         }

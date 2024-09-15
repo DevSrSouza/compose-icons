@@ -24,10 +24,10 @@ public val FillGroup.CornerDownLeft: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(2.0E-4f, 24.0002f)
-                lineToRelative(0.1005f, -23.9998f)
-                lineToRelative(23.9998f, 0.1005f)
-                lineToRelative(-0.1005f, 23.9998f)
+                moveTo(0.0f, 24.0f)
+                lineToRelative(0.101f, -24.0f)
+                lineToRelative(24.0f, 0.101f)
+                lineToRelative(-0.101f, 24.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF231f20)), stroke = null, strokeLineWidth = 0.0f,

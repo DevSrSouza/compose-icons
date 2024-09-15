@@ -22,15 +22,15 @@ public val LineAwesomeIcons.Servicestack: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(10.0f, 6.0f)
-                curveTo(11.544f, 7.76f, 12.2758f, 10.1494f, 12.2168f, 12.6094f)
-                curveTo(16.1848f, 14.2794f, 22.1414f, 18.73f, 23.3984f, 25.0f)
+                curveTo(11.544f, 7.76f, 12.276f, 10.149f, 12.217f, 12.609f)
+                curveTo(16.185f, 14.279f, 22.141f, 18.73f, 23.398f, 25.0f)
                 lineTo(28.0f, 25.0f)
                 curveTo(26.051f, 14.31f, 14.918f, 6.77f, 10.0f, 6.0f)
                 close()
                 moveTo(8.0f, 13.0f)
                 curveTo(12.67f, 17.913f, 8.81f, 24.582f, 4.0f, 25.0f)
-                lineTo(22.9707f, 25.0f)
-                curveTo(21.5007f, 18.289f, 11.95f, 13.533f, 8.0f, 13.0f)
+                lineTo(22.971f, 25.0f)
+                curveTo(21.501f, 18.289f, 11.95f, 13.533f, 8.0f, 13.0f)
                 close()
             }
         }

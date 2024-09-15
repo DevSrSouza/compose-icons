@@ -22,13 +22,13 @@ public val CssGgIcons.Polaroid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(3.0f, 4.0f)
-                curveTo(3.0f, 2.8954f, 3.8954f, 2.0f, 5.0f, 2.0f)
+                curveTo(3.0f, 2.895f, 3.895f, 2.0f, 5.0f, 2.0f)
                 horizontalLineTo(19.0f)
-                curveTo(20.1046f, 2.0f, 21.0f, 2.8954f, 21.0f, 4.0f)
+                curveTo(20.105f, 2.0f, 21.0f, 2.895f, 21.0f, 4.0f)
                 verticalLineTo(20.0f)
-                curveTo(21.0f, 21.1046f, 20.1046f, 22.0f, 19.0f, 22.0f)
+                curveTo(21.0f, 21.105f, 20.105f, 22.0f, 19.0f, 22.0f)
                 horizontalLineTo(5.0f)
-                curveTo(3.8954f, 22.0f, 3.0f, 21.1046f, 3.0f, 20.0f)
+                curveTo(3.895f, 22.0f, 3.0f, 21.105f, 3.0f, 20.0f)
                 verticalLineTo(4.0f)
                 close()
                 moveTo(5.0f, 4.0f)

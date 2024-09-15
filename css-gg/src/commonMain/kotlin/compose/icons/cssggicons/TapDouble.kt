@@ -25,56 +25,56 @@ public val CssGgIcons.TapDouble: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(14.9236f, 18.0f)
+                moveTo(14.924f, 18.0f)
                 verticalLineTo(14.0f)
-                curveTo(14.9236f, 12.3431f, 13.5804f, 11.0f, 11.9236f, 11.0f)
-                curveTo(10.2667f, 11.0f, 8.9235f, 12.3431f, 8.9235f, 14.0f)
+                curveTo(14.924f, 12.343f, 13.58f, 11.0f, 11.924f, 11.0f)
+                curveTo(10.267f, 11.0f, 8.924f, 12.343f, 8.924f, 14.0f)
                 verticalLineTo(18.0f)
-                curveTo(8.9235f, 19.6569f, 10.2667f, 21.0f, 11.9236f, 21.0f)
-                curveTo(13.5804f, 21.0f, 14.9236f, 19.6569f, 14.9236f, 18.0f)
+                curveTo(8.924f, 19.657f, 10.267f, 21.0f, 11.924f, 21.0f)
+                curveTo(13.58f, 21.0f, 14.924f, 19.657f, 14.924f, 18.0f)
                 close()
-                moveTo(11.9236f, 9.0f)
-                curveTo(9.1621f, 9.0f, 6.9236f, 11.2386f, 6.9236f, 14.0f)
+                moveTo(11.924f, 9.0f)
+                curveTo(9.162f, 9.0f, 6.924f, 11.239f, 6.924f, 14.0f)
                 verticalLineTo(18.0f)
-                curveTo(6.9236f, 20.7614f, 9.1621f, 23.0f, 11.9236f, 23.0f)
-                curveTo(14.685f, 23.0f, 16.9236f, 20.7614f, 16.9236f, 18.0f)
+                curveTo(6.924f, 20.761f, 9.162f, 23.0f, 11.924f, 23.0f)
+                curveTo(14.685f, 23.0f, 16.924f, 20.761f, 16.924f, 18.0f)
                 verticalLineTo(14.0f)
-                curveTo(16.9236f, 11.2386f, 14.685f, 9.0f, 11.9236f, 9.0f)
+                curveTo(16.924f, 11.239f, 14.685f, 9.0f, 11.924f, 9.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.9236f, 14.0f)
-                curveTo(10.9236f, 13.4477f, 11.3713f, 13.0f, 11.9236f, 13.0f)
-                curveTo(12.4758f, 13.0f, 12.9236f, 13.4477f, 12.9236f, 14.0f)
+                moveTo(10.924f, 14.0f)
+                curveTo(10.924f, 13.448f, 11.371f, 13.0f, 11.924f, 13.0f)
+                curveTo(12.476f, 13.0f, 12.924f, 13.448f, 12.924f, 14.0f)
                 verticalLineTo(17.0f)
-                horizontalLineTo(10.9236f)
+                horizontalLineTo(10.924f)
                 verticalLineTo(14.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(11.9235f, 1.0f)
-                curveTo(14.7023f, 1.0f, 17.2164f, 2.1334f, 19.0286f, 3.9631f)
-                lineTo(17.6144f, 5.3773f)
-                curveTo(16.1641f, 3.9095f, 14.15f, 3.0f, 11.9235f, 3.0f)
-                curveTo(9.7744f, 3.0f, 7.8231f, 3.8475f, 6.3858f, 5.2265f)
-                lineTo(4.9713f, 3.8121f)
-                curveTo(6.7708f, 2.0712f, 9.2221f, 1.0f, 11.9235f, 1.0f)
+                moveTo(11.924f, 1.0f)
+                curveTo(14.702f, 1.0f, 17.216f, 2.133f, 19.029f, 3.963f)
+                lineTo(17.614f, 5.377f)
+                curveTo(16.164f, 3.91f, 14.15f, 3.0f, 11.924f, 3.0f)
+                curveTo(9.774f, 3.0f, 7.823f, 3.847f, 6.386f, 5.227f)
+                lineTo(4.971f, 3.812f)
+                curveTo(6.771f, 2.071f, 9.222f, 1.0f, 11.924f, 1.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(11.9233f, 5.0f)
-                curveTo(13.5809f, 5.0f, 15.1038f, 5.5761f, 16.3029f, 6.539f)
-                lineTo(14.8768f, 7.9651f)
-                curveTo(14.0493f, 7.3583f, 13.0281f, 7.0f, 11.9233f, 7.0f)
-                curveTo(10.848f, 7.0f, 9.852f, 7.3394f, 9.0366f, 7.917f)
-                lineTo(7.6078f, 6.4882f)
-                curveTo(8.7969f, 5.5559f, 10.2952f, 5.0f, 11.9233f, 5.0f)
+                moveTo(11.923f, 5.0f)
+                curveTo(13.581f, 5.0f, 15.104f, 5.576f, 16.303f, 6.539f)
+                lineTo(14.877f, 7.965f)
+                curveTo(14.049f, 7.358f, 13.028f, 7.0f, 11.923f, 7.0f)
+                curveTo(10.848f, 7.0f, 9.852f, 7.339f, 9.037f, 7.917f)
+                lineTo(7.608f, 6.488f)
+                curveTo(8.797f, 5.556f, 10.295f, 5.0f, 11.923f, 5.0f)
                 close()
             }
         }

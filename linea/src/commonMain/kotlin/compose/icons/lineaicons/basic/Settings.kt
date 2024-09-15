@@ -30,10 +30,10 @@ public val BasicGroup.Settings: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(63.0008f, 54.9997f)
-                lineToRelative(-5.9997f, 5.9997f)
-                lineToRelative(-18.9998f, -18.9998f)
-                lineToRelative(5.9997f, -5.9997f)
+                moveTo(63.001f, 55.0f)
+                lineToRelative(-6.0f, 6.0f)
+                lineToRelative(-19.0f, -19.0f)
+                lineToRelative(6.0f, -6.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),

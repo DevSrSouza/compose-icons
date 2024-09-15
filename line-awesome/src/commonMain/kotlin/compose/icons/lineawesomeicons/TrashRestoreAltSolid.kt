@@ -22,8 +22,8 @@ public val LineAwesomeIcons.TrashRestoreAltSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(15.0f, 4.0f)
-                curveTo(14.478f, 4.0f, 13.9405f, 4.1845f, 13.5625f, 4.5625f)
-                curveTo(13.1855f, 4.9395f, 13.0f, 5.478f, 13.0f, 6.0f)
+                curveTo(14.478f, 4.0f, 13.941f, 4.185f, 13.563f, 4.563f)
+                curveTo(13.186f, 4.939f, 13.0f, 5.478f, 13.0f, 6.0f)
                 lineTo(13.0f, 7.0f)
                 lineTo(7.0f, 7.0f)
                 lineTo(7.0f, 9.0f)
@@ -37,8 +37,8 @@ public val LineAwesomeIcons.TrashRestoreAltSolid: ImageVector
                 lineTo(27.0f, 7.0f)
                 lineTo(21.0f, 7.0f)
                 lineTo(21.0f, 6.0f)
-                curveTo(21.0f, 5.478f, 20.8155f, 4.9405f, 20.4375f, 4.5625f)
-                curveTo(20.0605f, 4.1855f, 19.522f, 4.0f, 19.0f, 4.0f)
+                curveTo(21.0f, 5.478f, 20.816f, 4.94f, 20.438f, 4.563f)
+                curveTo(20.06f, 4.186f, 19.522f, 4.0f, 19.0f, 4.0f)
                 lineTo(15.0f, 4.0f)
                 close()
                 moveTo(15.0f, 6.0f)

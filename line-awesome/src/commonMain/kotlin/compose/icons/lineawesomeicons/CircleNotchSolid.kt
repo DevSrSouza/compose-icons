@@ -21,17 +21,17 @@ public val LineAwesomeIcons.CircleNotchSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(18.0f, 4.1797f)
-                lineTo(18.0f, 6.2031f)
-                curveTo(22.5586f, 7.1328f, 26.0f, 11.1719f, 26.0f, 16.0f)
-                curveTo(26.0f, 21.5156f, 21.5156f, 26.0f, 16.0f, 26.0f)
-                curveTo(10.4844f, 26.0f, 6.0f, 21.5156f, 6.0f, 16.0f)
-                curveTo(6.0f, 11.1719f, 9.4414f, 7.1328f, 14.0f, 6.2031f)
-                lineTo(14.0f, 4.1797f)
-                curveTo(8.3359f, 5.1367f, 4.0f, 10.0664f, 4.0f, 16.0f)
-                curveTo(4.0f, 22.6172f, 9.3828f, 28.0f, 16.0f, 28.0f)
-                curveTo(22.6172f, 28.0f, 28.0f, 22.6172f, 28.0f, 16.0f)
-                curveTo(28.0f, 10.0664f, 23.6641f, 5.1367f, 18.0f, 4.1797f)
+                moveTo(18.0f, 4.18f)
+                lineTo(18.0f, 6.203f)
+                curveTo(22.559f, 7.133f, 26.0f, 11.172f, 26.0f, 16.0f)
+                curveTo(26.0f, 21.516f, 21.516f, 26.0f, 16.0f, 26.0f)
+                curveTo(10.484f, 26.0f, 6.0f, 21.516f, 6.0f, 16.0f)
+                curveTo(6.0f, 11.172f, 9.441f, 7.133f, 14.0f, 6.203f)
+                lineTo(14.0f, 4.18f)
+                curveTo(8.336f, 5.137f, 4.0f, 10.066f, 4.0f, 16.0f)
+                curveTo(4.0f, 22.617f, 9.383f, 28.0f, 16.0f, 28.0f)
+                curveTo(22.617f, 28.0f, 28.0f, 22.617f, 28.0f, 16.0f)
+                curveTo(28.0f, 10.066f, 23.664f, 5.137f, 18.0f, 4.18f)
                 close()
             }
         }

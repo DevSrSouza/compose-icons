@@ -21,18 +21,18 @@ public val SolidGroup.ChevronRight: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(285.476f, 272.971f)
-                lineTo(91.132f, 467.314f)
-                curveToRelative(-9.373f, 9.373f, -24.569f, 9.373f, -33.941f, 0.0f)
-                lineToRelative(-22.667f, -22.667f)
-                curveToRelative(-9.357f, -9.357f, -9.375f, -24.522f, -0.04f, -33.901f)
-                lineTo(188.505f, 256.0f)
-                lineTo(34.484f, 101.255f)
-                curveToRelative(-9.335f, -9.379f, -9.317f, -24.544f, 0.04f, -33.901f)
-                lineToRelative(22.667f, -22.667f)
-                curveToRelative(9.373f, -9.373f, 24.569f, -9.373f, 33.941f, 0.0f)
-                lineTo(285.475f, 239.03f)
-                curveToRelative(9.373f, 9.372f, 9.373f, 24.568f, 0.001f, 33.941f)
+                moveTo(285.48f, 272.97f)
+                lineTo(91.13f, 467.31f)
+                curveToRelative(-9.37f, 9.37f, -24.57f, 9.37f, -33.94f, 0.0f)
+                lineToRelative(-22.67f, -22.67f)
+                curveToRelative(-9.36f, -9.36f, -9.38f, -24.52f, -0.04f, -33.9f)
+                lineTo(188.51f, 256.0f)
+                lineTo(34.48f, 101.25f)
+                curveToRelative(-9.34f, -9.38f, -9.32f, -24.54f, 0.04f, -33.9f)
+                lineToRelative(22.67f, -22.67f)
+                curveToRelative(9.37f, -9.37f, 24.57f, -9.37f, 33.94f, 0.0f)
+                lineTo(285.48f, 239.03f)
+                curveToRelative(9.37f, 9.37f, 9.37f, 24.57f, 0.0f, 33.94f)
                 close()
             }
         }

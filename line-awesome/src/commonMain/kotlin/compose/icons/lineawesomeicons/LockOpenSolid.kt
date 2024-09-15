@@ -22,10 +22,10 @@ public val LineAwesomeIcons.LockOpenSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(16.0f, 3.0f)
-                curveTo(12.9648f, 3.0f, 10.4141f, 4.9648f, 9.375f, 7.625f)
-                lineTo(11.2188f, 8.375f)
-                curveTo(11.9766f, 6.4336f, 13.8359f, 5.0f, 16.0f, 5.0f)
-                curveTo(18.7539f, 5.0f, 21.0f, 7.2461f, 21.0f, 10.0f)
+                curveTo(12.965f, 3.0f, 10.414f, 4.965f, 9.375f, 7.625f)
+                lineTo(11.219f, 8.375f)
+                curveTo(11.977f, 6.434f, 13.836f, 5.0f, 16.0f, 5.0f)
+                curveTo(18.754f, 5.0f, 21.0f, 7.246f, 21.0f, 10.0f)
                 lineTo(21.0f, 13.0f)
                 lineTo(6.0f, 13.0f)
                 lineTo(6.0f, 29.0f)
@@ -33,7 +33,7 @@ public val LineAwesomeIcons.LockOpenSolid: ImageVector
                 lineTo(26.0f, 13.0f)
                 lineTo(23.0f, 13.0f)
                 lineTo(23.0f, 10.0f)
-                curveTo(23.0f, 6.1563f, 19.8438f, 3.0f, 16.0f, 3.0f)
+                curveTo(23.0f, 6.156f, 19.844f, 3.0f, 16.0f, 3.0f)
                 close()
                 moveTo(8.0f, 15.0f)
                 lineTo(24.0f, 15.0f)

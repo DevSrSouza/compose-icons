@@ -25,13 +25,13 @@ public val CssGgIcons.PushChevronDownR: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(9.1715f, 7.2884f)
-                lineTo(7.7573f, 8.7026f)
-                lineTo(11.9999f, 12.9453f)
-                lineTo(16.2426f, 8.7026f)
-                lineTo(14.8284f, 7.2884f)
-                lineTo(12.0f, 10.1168f)
-                lineTo(9.1715f, 7.2884f)
+                moveTo(9.172f, 7.288f)
+                lineTo(7.757f, 8.703f)
+                lineTo(12.0f, 12.945f)
+                lineTo(16.243f, 8.703f)
+                lineTo(14.828f, 7.288f)
+                lineTo(12.0f, 10.117f)
+                lineTo(9.172f, 7.288f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
@@ -48,24 +48,24 @@ public val CssGgIcons.PushChevronDownR: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(1.0f, 5.0f)
-                curveTo(1.0f, 2.7909f, 2.7909f, 1.0f, 5.0f, 1.0f)
+                curveTo(1.0f, 2.791f, 2.791f, 1.0f, 5.0f, 1.0f)
                 horizontalLineTo(19.0f)
-                curveTo(21.2091f, 1.0f, 23.0f, 2.7909f, 23.0f, 5.0f)
+                curveTo(21.209f, 1.0f, 23.0f, 2.791f, 23.0f, 5.0f)
                 verticalLineTo(19.0f)
-                curveTo(23.0f, 21.2091f, 21.2091f, 23.0f, 19.0f, 23.0f)
+                curveTo(23.0f, 21.209f, 21.209f, 23.0f, 19.0f, 23.0f)
                 horizontalLineTo(5.0f)
-                curveTo(2.7909f, 23.0f, 1.0f, 21.2091f, 1.0f, 19.0f)
+                curveTo(2.791f, 23.0f, 1.0f, 21.209f, 1.0f, 19.0f)
                 verticalLineTo(5.0f)
                 close()
                 moveTo(5.0f, 3.0f)
                 horizontalLineTo(19.0f)
-                curveTo(20.1046f, 3.0f, 21.0f, 3.8954f, 21.0f, 5.0f)
+                curveTo(20.105f, 3.0f, 21.0f, 3.895f, 21.0f, 5.0f)
                 verticalLineTo(19.0f)
-                curveTo(21.0f, 20.1046f, 20.1046f, 21.0f, 19.0f, 21.0f)
+                curveTo(21.0f, 20.105f, 20.105f, 21.0f, 19.0f, 21.0f)
                 horizontalLineTo(5.0f)
-                curveTo(3.8954f, 21.0f, 3.0f, 20.1046f, 3.0f, 19.0f)
+                curveTo(3.895f, 21.0f, 3.0f, 20.105f, 3.0f, 19.0f)
                 verticalLineTo(5.0f)
-                curveTo(3.0f, 3.8954f, 3.8954f, 3.0f, 5.0f, 3.0f)
+                curveTo(3.0f, 3.895f, 3.895f, 3.0f, 5.0f, 3.0f)
                 close()
             }
         }

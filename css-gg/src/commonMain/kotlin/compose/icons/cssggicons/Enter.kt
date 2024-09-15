@@ -42,16 +42,16 @@ public val CssGgIcons.Enter: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(13.0743f, 16.9498f)
-                lineTo(11.6601f, 15.5356f)
-                lineTo(14.1957f, 13.0f)
+                moveTo(13.074f, 16.95f)
+                lineTo(11.66f, 15.536f)
+                lineTo(14.196f, 13.0f)
                 horizontalLineTo(2.0f)
                 verticalLineTo(11.0f)
-                horizontalLineTo(14.1956f)
-                lineTo(11.6601f, 8.4645f)
-                lineTo(13.0743f, 7.0503f)
+                horizontalLineTo(14.196f)
+                lineTo(11.66f, 8.465f)
+                lineTo(13.074f, 7.05f)
                 lineTo(18.024f, 12.0f)
-                lineTo(13.0743f, 16.9498f)
+                lineTo(13.074f, 16.95f)
                 close()
             }
         }

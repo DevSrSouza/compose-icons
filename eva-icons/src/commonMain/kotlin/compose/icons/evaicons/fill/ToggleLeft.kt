@@ -25,9 +25,9 @@ public val FillGroup.ToggleLeft: ImageVector
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(24.0f, 23.96f)
-                lineToRelative(-23.97f, 0.0335f)
-                lineToRelative(-0.0335f, -23.97f)
-                lineToRelative(23.97f, -0.0335f)
+                lineToRelative(-23.97f, 0.033f)
+                lineToRelative(-0.033f, -23.97f)
+                lineToRelative(23.97f, -0.033f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF231f20)), stroke = null, strokeLineWidth = 0.0f,

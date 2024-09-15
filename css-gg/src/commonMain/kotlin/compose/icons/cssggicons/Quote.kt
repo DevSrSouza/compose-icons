@@ -24,21 +24,21 @@ public val CssGgIcons.Quote: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(9.1346f, 9.0f)
-                horizontalLineTo(12.1346f)
-                lineTo(10.0f, 14.6075f)
+                moveTo(9.135f, 9.0f)
+                horizontalLineTo(12.135f)
+                lineTo(10.0f, 14.608f)
                 horizontalLineTo(7.0f)
-                lineTo(9.1346f, 9.0f)
+                lineTo(9.135f, 9.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(14.1346f, 9.0f)
-                horizontalLineTo(17.1346f)
-                lineTo(15.0f, 14.6075f)
+                moveTo(14.135f, 9.0f)
+                horizontalLineTo(17.135f)
+                lineTo(15.0f, 14.608f)
                 horizontalLineTo(12.0f)
-                lineTo(14.1346f, 9.0f)
+                lineTo(14.135f, 9.0f)
                 close()
             }
         }

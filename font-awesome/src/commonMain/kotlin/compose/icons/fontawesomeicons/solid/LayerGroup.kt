@@ -27,7 +27,7 @@ public val SolidGroup.LayerGroup: ImageVector
                 lineToRelative(232.94f, -105.67f)
                 curveToRelative(16.55f, -7.51f, 16.55f, -32.52f, 0.0f, -40.03f)
                 lineTo(266.65f, 2.31f)
-                arcToRelative(25.607f, 25.607f, 0.0f, false, false, -21.29f, 0.0f)
+                arcToRelative(25.61f, 25.61f, 0.0f, false, false, -21.29f, 0.0f)
                 lineTo(12.41f, 107.98f)
                 curveToRelative(-16.55f, 7.51f, -16.55f, 32.53f, 0.0f, 40.04f)
                 close()

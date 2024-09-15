@@ -24,23 +24,23 @@ public val CssGgIcons.Eject: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.9498f, 14.3948f)
-                lineTo(18.364f, 12.9805f)
-                lineTo(12.0f, 6.6166f)
-                lineTo(5.6361f, 12.9805f)
-                lineTo(7.0503f, 14.3948f)
+                moveTo(16.95f, 14.395f)
+                lineTo(18.364f, 12.981f)
+                lineTo(12.0f, 6.617f)
+                lineTo(5.636f, 12.981f)
+                lineTo(7.05f, 14.395f)
                 lineTo(12.0f, 9.445f)
-                lineTo(16.9498f, 14.3948f)
+                lineTo(16.95f, 14.395f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(6.0001f, 17.3835f)
-                horizontalLineTo(18.0001f)
-                verticalLineTo(15.3835f)
-                horizontalLineTo(6.0001f)
-                verticalLineTo(17.3835f)
+                moveTo(6.0f, 17.383f)
+                horizontalLineTo(18.0f)
+                verticalLineTo(15.384f)
+                horizontalLineTo(6.0f)
+                verticalLineTo(17.383f)
                 close()
             }
         }

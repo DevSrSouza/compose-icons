@@ -35,7 +35,7 @@ public val CssGgIcons.PlayBackwards: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(6.0f, 12.0f)
-                lineTo(13.0023f, 7.0f)
+                lineTo(13.002f, 7.0f)
                 verticalLineTo(17.0f)
                 lineTo(6.0f, 12.0f)
                 close()
@@ -43,9 +43,9 @@ public val CssGgIcons.PlayBackwards: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(21.0023f, 7.0f)
+                moveTo(21.002f, 7.0f)
                 lineTo(14.0f, 12.0f)
-                lineTo(21.0023f, 17.0f)
+                lineTo(21.002f, 17.0f)
                 verticalLineTo(7.0f)
                 close()
             }

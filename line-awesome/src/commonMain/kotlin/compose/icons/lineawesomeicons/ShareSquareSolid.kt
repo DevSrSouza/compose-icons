@@ -21,8 +21,8 @@ public val LineAwesomeIcons.ShareSquareSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(23.4141f, 4.4375f)
-                lineTo(22.0f, 5.8516f)
+                moveTo(23.414f, 4.438f)
+                lineTo(22.0f, 5.852f)
                 lineTo(26.168f, 10.0f)
                 lineTo(16.5f, 10.0f)
                 curveTo(13.468f, 10.0f, 11.0f, 12.467f, 11.0f, 15.5f)
@@ -32,11 +32,11 @@ public val LineAwesomeIcons.ShareSquareSolid: ImageVector
                 lineTo(16.5f, 19.0f)
                 curveTo(14.57f, 19.0f, 13.0f, 17.43f, 13.0f, 15.5f)
                 curveTo(13.0f, 13.57f, 14.57f, 12.0f, 16.5f, 12.0f)
-                lineTo(26.1719f, 12.0f)
-                lineTo(22.0078f, 16.1641f)
-                lineTo(23.4219f, 17.5781f)
+                lineTo(26.172f, 12.0f)
+                lineTo(22.008f, 16.164f)
+                lineTo(23.422f, 17.578f)
                 lineTo(30.0f, 11.0f)
-                lineTo(23.4141f, 4.4375f)
+                lineTo(23.414f, 4.438f)
                 close()
                 moveTo(5.0f, 5.0f)
                 lineTo(5.0f, 27.0f)
@@ -46,8 +46,8 @@ public val LineAwesomeIcons.ShareSquareSolid: ImageVector
                 lineTo(25.0f, 25.0f)
                 lineTo(7.0f, 25.0f)
                 lineTo(7.0f, 7.0f)
-                lineTo(17.8535f, 7.0f)
-                lineTo(19.8535f, 5.0f)
+                lineTo(17.854f, 7.0f)
+                lineTo(19.854f, 5.0f)
                 lineTo(5.0f, 5.0f)
                 close()
             }

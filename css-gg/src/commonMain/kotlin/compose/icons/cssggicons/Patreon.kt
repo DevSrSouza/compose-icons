@@ -25,10 +25,10 @@ public val CssGgIcons.Patreon: ImageVector
                     = 0.5f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(21.0f, 10.0f)
-                curveTo(21.0f, 13.3137f, 18.3137f, 16.0f, 15.0f, 16.0f)
-                curveTo(11.6863f, 16.0f, 9.0f, 13.3137f, 9.0f, 10.0f)
-                curveTo(9.0f, 6.6863f, 11.6863f, 4.0f, 15.0f, 4.0f)
-                curveTo(18.3137f, 4.0f, 21.0f, 6.6863f, 21.0f, 10.0f)
+                curveTo(21.0f, 13.314f, 18.314f, 16.0f, 15.0f, 16.0f)
+                curveTo(11.686f, 16.0f, 9.0f, 13.314f, 9.0f, 10.0f)
+                curveTo(9.0f, 6.686f, 11.686f, 4.0f, 15.0f, 4.0f)
+                curveTo(18.314f, 4.0f, 21.0f, 6.686f, 21.0f, 10.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,

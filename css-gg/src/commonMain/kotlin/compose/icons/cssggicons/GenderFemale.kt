@@ -22,8 +22,8 @@ public val CssGgIcons.GenderFemale: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(12.0f, 3.0f)
-                curveTo(9.2386f, 3.0f, 7.0f, 5.2386f, 7.0f, 8.0f)
-                curveTo(7.0f, 10.419f, 8.7178f, 12.4367f, 11.0f, 12.9f)
+                curveTo(9.239f, 3.0f, 7.0f, 5.239f, 7.0f, 8.0f)
+                curveTo(7.0f, 10.419f, 8.718f, 12.437f, 11.0f, 12.9f)
                 verticalLineTo(15.0f)
                 horizontalLineTo(8.0f)
                 verticalLineTo(17.0f)
@@ -35,14 +35,14 @@ public val CssGgIcons.GenderFemale: ImageVector
                 verticalLineTo(15.0f)
                 horizontalLineTo(13.0f)
                 verticalLineTo(12.9f)
-                curveTo(15.2822f, 12.4367f, 17.0f, 10.419f, 17.0f, 8.0f)
-                curveTo(17.0f, 5.2386f, 14.7614f, 3.0f, 12.0f, 3.0f)
+                curveTo(15.282f, 12.437f, 17.0f, 10.419f, 17.0f, 8.0f)
+                curveTo(17.0f, 5.239f, 14.761f, 3.0f, 12.0f, 3.0f)
                 close()
                 moveTo(9.0f, 8.0f)
-                curveTo(9.0f, 9.6568f, 10.3431f, 11.0f, 12.0f, 11.0f)
-                curveTo(13.6569f, 11.0f, 15.0f, 9.6568f, 15.0f, 8.0f)
-                curveTo(15.0f, 6.3432f, 13.6569f, 5.0f, 12.0f, 5.0f)
-                curveTo(10.3431f, 5.0f, 9.0f, 6.3432f, 9.0f, 8.0f)
+                curveTo(9.0f, 9.657f, 10.343f, 11.0f, 12.0f, 11.0f)
+                curveTo(13.657f, 11.0f, 15.0f, 9.657f, 15.0f, 8.0f)
+                curveTo(15.0f, 6.343f, 13.657f, 5.0f, 12.0f, 5.0f)
+                curveTo(10.343f, 5.0f, 9.0f, 6.343f, 9.0f, 8.0f)
                 close()
             }
         }

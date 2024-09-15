@@ -21,12 +21,12 @@ public val CssGgIcons.Drop: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.3432f, 19.5208f)
-                curveTo(3.219f, 16.3966f, 3.219f, 11.3312f, 6.3432f, 8.2071f)
-                lineTo(12.0f, 2.5502f)
-                lineTo(17.6569f, 8.2071f)
-                curveTo(20.781f, 11.3312f, 20.781f, 16.3966f, 17.6569f, 19.5208f)
-                curveTo(14.5327f, 22.645f, 9.4673f, 22.645f, 6.3432f, 19.5208f)
+                moveTo(6.343f, 19.521f)
+                curveTo(3.219f, 16.397f, 3.219f, 11.331f, 6.343f, 8.207f)
+                lineTo(12.0f, 2.55f)
+                lineTo(17.657f, 8.207f)
+                curveTo(20.781f, 11.331f, 20.781f, 16.397f, 17.657f, 19.521f)
+                curveTo(14.533f, 22.645f, 9.467f, 22.645f, 6.343f, 19.521f)
                 close()
             }
         }

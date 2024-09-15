@@ -65,7 +65,7 @@ public val SolidGroup.EnvelopeOpenText: ImageVector
                 curveToRelative(-26.51f, 0.0f, -48.0f, 21.49f, -48.0f, 48.0f)
                 verticalLineToRelative(44.14f)
                 curveToRelative(-12.37f, 9.33f, -20.76f, 15.87f, -29.61f, 22.81f)
-                arcTo(47.995f, 47.995f, 0.0f, false, false, 0.0f, 200.72f)
+                arcTo(47.99f, 47.99f, 0.0f, false, false, 0.0f, 200.72f)
                 verticalLineToRelative(10.65f)
                 lineToRelative(96.0f, 69.35f)
                 lineTo(96.0f, 96.0f)

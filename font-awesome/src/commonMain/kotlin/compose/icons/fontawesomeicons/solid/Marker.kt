@@ -22,7 +22,7 @@ public val SolidGroup.Marker: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(93.95f, 290.03f)
-                arcTo(327.038f, 327.038f, 0.0f, false, false, 0.17f, 485.11f)
+                arcTo(327.04f, 327.04f, 0.0f, false, false, 0.17f, 485.11f)
                 lineToRelative(-0.03f, 0.23f)
                 curveToRelative(-1.7f, 15.28f, 11.21f, 28.2f, 26.49f, 26.51f)
                 arcToRelative(327.02f, 327.02f, 0.0f, false, false, 195.34f, -93.8f)

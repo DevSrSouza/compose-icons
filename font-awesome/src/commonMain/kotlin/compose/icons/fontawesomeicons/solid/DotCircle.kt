@@ -22,16 +22,16 @@ public val SolidGroup.DotCircle: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(256.0f, 8.0f)
-                curveTo(119.033f, 8.0f, 8.0f, 119.033f, 8.0f, 256.0f)
-                reflectiveCurveToRelative(111.033f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.033f, 248.0f, -248.0f)
-                reflectiveCurveTo(392.967f, 8.0f, 256.0f, 8.0f)
+                curveTo(119.03f, 8.0f, 8.0f, 119.03f, 8.0f, 256.0f)
+                reflectiveCurveToRelative(111.03f, 248.0f, 248.0f, 248.0f)
+                reflectiveCurveToRelative(248.0f, -111.03f, 248.0f, -248.0f)
+                reflectiveCurveTo(392.97f, 8.0f, 256.0f, 8.0f)
                 close()
                 moveTo(336.0f, 256.0f)
-                curveToRelative(0.0f, 44.112f, -35.888f, 80.0f, -80.0f, 80.0f)
-                reflectiveCurveToRelative(-80.0f, -35.888f, -80.0f, -80.0f)
-                reflectiveCurveToRelative(35.888f, -80.0f, 80.0f, -80.0f)
-                reflectiveCurveToRelative(80.0f, 35.888f, 80.0f, 80.0f)
+                curveToRelative(0.0f, 44.11f, -35.89f, 80.0f, -80.0f, 80.0f)
+                reflectiveCurveToRelative(-80.0f, -35.89f, -80.0f, -80.0f)
+                reflectiveCurveToRelative(35.89f, -80.0f, 80.0f, -80.0f)
+                reflectiveCurveToRelative(80.0f, 35.89f, 80.0f, 80.0f)
                 close()
             }
         }

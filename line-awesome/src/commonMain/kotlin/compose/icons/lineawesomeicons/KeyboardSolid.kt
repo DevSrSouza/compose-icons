@@ -22,13 +22,13 @@ public val LineAwesomeIcons.KeyboardSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(3.0f, 7.0f)
-                curveTo(1.9063f, 7.0f, 1.0f, 7.9063f, 1.0f, 9.0f)
+                curveTo(1.906f, 7.0f, 1.0f, 7.906f, 1.0f, 9.0f)
                 lineTo(1.0f, 23.0f)
-                curveTo(1.0f, 24.0938f, 1.9063f, 25.0f, 3.0f, 25.0f)
+                curveTo(1.0f, 24.094f, 1.906f, 25.0f, 3.0f, 25.0f)
                 lineTo(29.0f, 25.0f)
-                curveTo(30.0938f, 25.0f, 31.0f, 24.0938f, 31.0f, 23.0f)
+                curveTo(30.094f, 25.0f, 31.0f, 24.094f, 31.0f, 23.0f)
                 lineTo(31.0f, 9.0f)
-                curveTo(31.0f, 7.9063f, 30.0938f, 7.0f, 29.0f, 7.0f)
+                curveTo(31.0f, 7.906f, 30.094f, 7.0f, 29.0f, 7.0f)
                 close()
                 moveTo(3.0f, 9.0f)
                 lineTo(29.0f, 9.0f)

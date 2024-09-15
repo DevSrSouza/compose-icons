@@ -24,37 +24,37 @@ public val CssGgIcons.MergeHorizontal: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0f, 8.9757f)
-                lineTo(16.2426f, 4.7331f)
-                lineTo(14.8284f, 3.3189f)
-                lineTo(12.0f, 6.1473f)
-                lineTo(9.1716f, 3.3189f)
-                lineTo(7.7574f, 4.7331f)
-                lineTo(12.0f, 8.9757f)
+                moveTo(12.0f, 8.976f)
+                lineTo(16.243f, 4.733f)
+                lineTo(14.828f, 3.319f)
+                lineTo(12.0f, 6.147f)
+                lineTo(9.172f, 3.319f)
+                lineTo(7.757f, 4.733f)
+                lineTo(12.0f, 8.976f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(5.0f, 11.9998f)
-                curveTo(5.0f, 11.4475f, 5.4477f, 10.9997f, 6.0f, 10.9997f)
+                moveTo(5.0f, 12.0f)
+                curveTo(5.0f, 11.448f, 5.448f, 11.0f, 6.0f, 11.0f)
                 horizontalLineTo(18.0f)
-                curveTo(18.5523f, 10.9997f, 19.0f, 11.4475f, 19.0f, 11.9998f)
-                curveTo(19.0f, 12.552f, 18.5523f, 12.9998f, 18.0f, 12.9998f)
+                curveTo(18.552f, 11.0f, 19.0f, 11.448f, 19.0f, 12.0f)
+                curveTo(19.0f, 12.552f, 18.552f, 13.0f, 18.0f, 13.0f)
                 horizontalLineTo(6.0f)
-                curveTo(5.4477f, 12.9998f, 5.0f, 12.552f, 5.0f, 11.9998f)
+                curveTo(5.448f, 13.0f, 5.0f, 12.552f, 5.0f, 12.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0f, 15.0242f)
-                lineTo(7.7574f, 19.2668f)
-                lineTo(9.1716f, 20.681f)
-                lineTo(12.0f, 17.8526f)
-                lineTo(14.8284f, 20.681f)
-                lineTo(16.2426f, 19.2668f)
-                lineTo(12.0f, 15.0242f)
+                moveTo(12.0f, 15.024f)
+                lineTo(7.757f, 19.267f)
+                lineTo(9.172f, 20.681f)
+                lineTo(12.0f, 17.853f)
+                lineTo(14.828f, 20.681f)
+                lineTo(16.243f, 19.267f)
+                lineTo(12.0f, 15.024f)
                 close()
             }
         }

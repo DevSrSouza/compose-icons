@@ -32,11 +32,11 @@ public val LineAwesomeIcons.BlackTie: ImageVector
                 lineTo(7.0f, 25.0f)
                 close()
                 moveTo(12.0f, 9.0f)
-                lineTo(14.8125f, 12.625f)
+                lineTo(14.813f, 12.625f)
                 lineTo(12.0f, 20.375f)
                 lineTo(16.0f, 24.0f)
                 lineTo(20.0f, 20.375f)
-                lineTo(17.1875f, 12.625f)
+                lineTo(17.188f, 12.625f)
                 lineTo(20.0f, 9.0f)
                 close()
             }

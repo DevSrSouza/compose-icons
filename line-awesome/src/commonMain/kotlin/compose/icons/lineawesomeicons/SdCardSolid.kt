@@ -22,8 +22,8 @@ public val LineAwesomeIcons.SdCardSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(9.5f, 5.0f)
-                lineTo(9.1875f, 5.4063f)
-                lineTo(6.0f, 9.6563f)
+                lineTo(9.188f, 5.406f)
+                lineTo(6.0f, 9.656f)
                 lineTo(6.0f, 27.0f)
                 lineTo(25.0f, 27.0f)
                 lineTo(25.0f, 5.0f)
@@ -32,7 +32,7 @@ public val LineAwesomeIcons.SdCardSolid: ImageVector
                 lineTo(23.0f, 7.0f)
                 lineTo(23.0f, 25.0f)
                 lineTo(8.0f, 25.0f)
-                lineTo(8.0f, 10.3438f)
+                lineTo(8.0f, 10.344f)
                 close()
                 moveTo(13.0f, 9.0f)
                 lineTo(13.0f, 13.0f)

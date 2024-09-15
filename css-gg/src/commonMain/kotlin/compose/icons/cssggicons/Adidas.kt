@@ -24,31 +24,31 @@ public val CssGgIcons.Adidas: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(1.3294f, 19.0f)
-                lineTo(0.7313f, 17.9641f)
-                lineTo(5.0615f, 15.4641f)
-                lineTo(7.1029f, 19.0f)
-                horizontalLineTo(1.3294f)
+                moveTo(1.329f, 19.0f)
+                lineTo(0.731f, 17.964f)
+                lineTo(5.061f, 15.464f)
+                lineTo(7.103f, 19.0f)
+                horizontalLineTo(1.329f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.1858f, 19.0f)
-                horizontalLineTo(9.4123f)
-                lineTo(5.7935f, 12.7321f)
-                lineTo(10.1236f, 10.2321f)
-                lineTo(15.1858f, 19.0f)
+                moveTo(15.186f, 19.0f)
+                horizontalLineTo(9.412f)
+                lineTo(5.793f, 12.732f)
+                lineTo(10.124f, 10.232f)
+                lineTo(15.186f, 19.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(23.2687f, 19.0f)
-                horizontalLineTo(17.4952f)
-                lineTo(10.8557f, 7.5f)
-                lineTo(15.1858f, 5.0f)
-                lineTo(23.2687f, 19.0f)
+                moveTo(23.269f, 19.0f)
+                horizontalLineTo(17.495f)
+                lineTo(10.856f, 7.5f)
+                lineTo(15.186f, 5.0f)
+                lineTo(23.269f, 19.0f)
                 close()
             }
         }

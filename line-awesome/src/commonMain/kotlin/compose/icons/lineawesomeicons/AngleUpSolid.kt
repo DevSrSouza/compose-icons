@@ -21,14 +21,14 @@ public val LineAwesomeIcons.AngleUpSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.0f, 6.5938f)
-                lineTo(15.2813f, 7.2813f)
-                lineTo(2.7813f, 19.7813f)
-                lineTo(4.2188f, 21.2188f)
-                lineTo(16.0f, 9.4375f)
-                lineTo(27.7813f, 21.2188f)
-                lineTo(29.2188f, 19.7813f)
-                lineTo(16.7188f, 7.2813f)
+                moveTo(16.0f, 6.594f)
+                lineTo(15.281f, 7.281f)
+                lineTo(2.781f, 19.781f)
+                lineTo(4.219f, 21.219f)
+                lineTo(16.0f, 9.438f)
+                lineTo(27.781f, 21.219f)
+                lineTo(29.219f, 19.781f)
+                lineTo(16.719f, 7.281f)
                 close()
             }
         }

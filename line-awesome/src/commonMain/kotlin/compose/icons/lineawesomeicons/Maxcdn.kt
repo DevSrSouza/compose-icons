@@ -33,8 +33,8 @@ public val LineAwesomeIcons.Maxcdn: ImageVector
                 lineTo(25.0f, 11.0f)
                 lineTo(22.0f, 26.0f)
                 lineTo(27.0f, 26.0f)
-                lineTo(29.75f, 12.2578f)
-                curveTo(30.3945f, 9.0195f, 27.9219f, 6.0f, 24.6172f, 6.0f)
+                lineTo(29.75f, 12.258f)
+                curveTo(30.395f, 9.02f, 27.922f, 6.0f, 24.617f, 6.0f)
                 close()
             }
         }

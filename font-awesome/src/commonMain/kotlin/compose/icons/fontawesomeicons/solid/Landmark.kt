@@ -23,9 +23,9 @@ public val SolidGroup.Landmark: ImageVector
                     pathFillType = NonZero) {
                 moveTo(501.62f, 92.11f)
                 lineTo(267.24f, 2.04f)
-                arcToRelative(31.958f, 31.958f, 0.0f, false, false, -22.47f, 0.0f)
+                arcToRelative(31.96f, 31.96f, 0.0f, false, false, -22.47f, 0.0f)
                 lineTo(10.38f, 92.11f)
-                arcTo(16.001f, 16.001f, 0.0f, false, false, 0.0f, 107.09f)
+                arcTo(16.0f, 16.0f, 0.0f, false, false, 0.0f, 107.09f)
                 lineTo(0.0f, 144.0f)
                 curveToRelative(0.0f, 8.84f, 7.16f, 16.0f, 16.0f, 16.0f)
                 horizontalLineToRelative(480.0f)

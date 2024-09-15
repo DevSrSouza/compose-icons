@@ -21,12 +21,12 @@ public val LineAwesomeIcons.StarHalf: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.0f, 2.1328f)
-                lineTo(11.8359f, 11.4727f)
-                lineTo(1.6641f, 12.5469f)
-                lineTo(9.2617f, 19.3945f)
-                lineTo(7.1406f, 29.3984f)
-                lineTo(16.0f, 24.2891f)
+                moveTo(16.0f, 2.133f)
+                lineTo(11.836f, 11.473f)
+                lineTo(1.664f, 12.547f)
+                lineTo(9.262f, 19.395f)
+                lineTo(7.141f, 29.398f)
+                lineTo(16.0f, 24.289f)
                 close()
             }
         }

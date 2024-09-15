@@ -22,7 +22,7 @@ public val CssGgIcons.SpinnerAlt: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(2.0f, 12.0f)
-                curveTo(2.0f, 6.4771f, 6.4771f, 2.0f, 12.0f, 2.0f)
+                curveTo(2.0f, 6.477f, 6.477f, 2.0f, 12.0f, 2.0f)
                 verticalLineTo(5.0f)
                 curveTo(8.134f, 5.0f, 5.0f, 8.134f, 5.0f, 12.0f)
                 horizontalLineTo(2.0f)

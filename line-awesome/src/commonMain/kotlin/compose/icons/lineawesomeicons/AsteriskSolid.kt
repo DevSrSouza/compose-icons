@@ -21,21 +21,21 @@ public val LineAwesomeIcons.AsteriskSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(17.6992f, 17.0f)
-                lineTo(23.8984f, 25.3984f)
+                moveTo(17.699f, 17.0f)
+                lineTo(23.898f, 25.398f)
                 lineTo(21.5f, 27.0f)
-                lineTo(16.0f, 18.3008f)
+                lineTo(16.0f, 18.301f)
                 lineTo(10.5f, 27.0f)
-                lineTo(8.1992f, 25.3984f)
-                lineTo(14.3984f, 17.0f)
-                lineTo(5.1016f, 14.6016f)
+                lineTo(8.199f, 25.398f)
+                lineTo(14.398f, 17.0f)
+                lineTo(5.102f, 14.602f)
                 lineTo(6.0f, 12.0f)
-                lineTo(15.1016f, 15.1992f)
+                lineTo(15.102f, 15.199f)
                 lineTo(14.5f, 5.0f)
                 lineTo(17.5f, 5.0f)
-                lineTo(17.0f, 15.1992f)
+                lineTo(17.0f, 15.199f)
                 lineTo(26.0f, 12.0f)
-                lineTo(26.8008f, 14.6992f)
+                lineTo(26.801f, 14.699f)
                 close()
             }
         }

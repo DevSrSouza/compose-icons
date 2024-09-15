@@ -22,22 +22,22 @@ public val CssGgIcons.Crowdfire: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(2.0f, 12.0f)
-                curveTo(2.0f, 6.4771f, 6.4771f, 2.0f, 12.0f, 2.0f)
+                curveTo(2.0f, 6.477f, 6.477f, 2.0f, 12.0f, 2.0f)
                 verticalLineTo(4.0f)
                 horizontalLineTo(20.0f)
                 verticalLineTo(12.0f)
                 horizontalLineTo(22.0f)
-                curveTo(22.0f, 17.5228f, 17.5228f, 22.0f, 12.0f, 22.0f)
-                curveTo(6.4771f, 22.0f, 2.0f, 17.5228f, 2.0f, 12.0f)
+                curveTo(22.0f, 17.523f, 17.523f, 22.0f, 12.0f, 22.0f)
+                curveTo(6.477f, 22.0f, 2.0f, 17.523f, 2.0f, 12.0f)
                 close()
                 moveTo(18.0f, 12.0f)
                 horizontalLineTo(16.0f)
                 verticalLineTo(8.0f)
                 horizontalLineTo(12.0f)
                 verticalLineTo(6.0f)
-                curveTo(8.6863f, 6.0f, 6.0f, 8.6863f, 6.0f, 12.0f)
-                curveTo(6.0f, 15.3137f, 8.6863f, 18.0f, 12.0f, 18.0f)
-                curveTo(15.3137f, 18.0f, 18.0f, 15.3137f, 18.0f, 12.0f)
+                curveTo(8.686f, 6.0f, 6.0f, 8.686f, 6.0f, 12.0f)
+                curveTo(6.0f, 15.314f, 8.686f, 18.0f, 12.0f, 18.0f)
+                curveTo(15.314f, 18.0f, 18.0f, 15.314f, 18.0f, 12.0f)
                 close()
             }
         }

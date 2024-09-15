@@ -21,17 +21,17 @@ public val LineAwesomeIcons.ArrowLeftSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(13.2813f, 6.7813f)
-                lineTo(4.7813f, 15.2813f)
-                lineTo(4.0938f, 16.0f)
-                lineTo(4.7813f, 16.7188f)
-                lineTo(13.2813f, 25.2188f)
-                lineTo(14.7188f, 23.7813f)
-                lineTo(7.9375f, 17.0f)
+                moveTo(13.281f, 6.781f)
+                lineTo(4.781f, 15.281f)
+                lineTo(4.094f, 16.0f)
+                lineTo(4.781f, 16.719f)
+                lineTo(13.281f, 25.219f)
+                lineTo(14.719f, 23.781f)
+                lineTo(7.938f, 17.0f)
                 lineTo(28.0f, 17.0f)
                 lineTo(28.0f, 15.0f)
-                lineTo(7.9375f, 15.0f)
-                lineTo(14.7188f, 8.2188f)
+                lineTo(7.938f, 15.0f)
+                lineTo(14.719f, 8.219f)
                 close()
             }
         }

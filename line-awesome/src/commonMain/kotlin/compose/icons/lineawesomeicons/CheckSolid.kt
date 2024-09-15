@@ -21,14 +21,14 @@ public val LineAwesomeIcons.CheckSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(28.2813f, 6.2813f)
-                lineTo(11.0f, 23.5625f)
-                lineTo(3.7188f, 16.2813f)
-                lineTo(2.2813f, 17.7188f)
-                lineTo(10.2813f, 25.7188f)
-                lineTo(11.0f, 26.4063f)
-                lineTo(11.7188f, 25.7188f)
-                lineTo(29.7188f, 7.7188f)
+                moveTo(28.281f, 6.281f)
+                lineTo(11.0f, 23.563f)
+                lineTo(3.719f, 16.281f)
+                lineTo(2.281f, 17.719f)
+                lineTo(10.281f, 25.719f)
+                lineTo(11.0f, 26.406f)
+                lineTo(11.719f, 25.719f)
+                lineTo(29.719f, 7.719f)
                 close()
             }
         }

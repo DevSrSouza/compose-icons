@@ -23,10 +23,10 @@ public val LineAwesomeIcons.StickyNote: ImageVector
                     pathFillType = NonZero) {
                 moveTo(5.0f, 5.0f)
                 lineTo(5.0f, 27.0f)
-                lineTo(20.4063f, 27.0f)
-                lineTo(20.7188f, 26.7188f)
-                lineTo(26.7188f, 20.7188f)
-                lineTo(27.0f, 20.4063f)
+                lineTo(20.406f, 27.0f)
+                lineTo(20.719f, 26.719f)
+                lineTo(26.719f, 20.719f)
+                lineTo(27.0f, 20.406f)
                 lineTo(27.0f, 5.0f)
                 close()
                 moveTo(7.0f, 7.0f)
@@ -37,8 +37,8 @@ public val LineAwesomeIcons.StickyNote: ImageVector
                 lineTo(7.0f, 25.0f)
                 close()
                 moveTo(21.0f, 21.0f)
-                lineTo(23.5625f, 21.0f)
-                lineTo(21.0f, 23.5625f)
+                lineTo(23.563f, 21.0f)
+                lineTo(21.0f, 23.563f)
                 close()
             }
         }

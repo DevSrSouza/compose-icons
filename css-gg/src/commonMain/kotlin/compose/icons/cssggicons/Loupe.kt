@@ -43,12 +43,12 @@ public val CssGgIcons.Loupe: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(3.0f, 12.0f)
-                curveTo(3.0f, 16.9706f, 7.0294f, 21.0f, 12.0f, 21.0f)
+                curveTo(3.0f, 16.971f, 7.029f, 21.0f, 12.0f, 21.0f)
                 horizontalLineTo(18.0f)
-                curveTo(19.6569f, 21.0f, 21.0f, 19.6569f, 21.0f, 18.0f)
+                curveTo(19.657f, 21.0f, 21.0f, 19.657f, 21.0f, 18.0f)
                 verticalLineTo(12.0f)
-                curveTo(21.0f, 7.0294f, 16.9706f, 3.0f, 12.0f, 3.0f)
-                curveTo(7.0294f, 3.0f, 3.0f, 7.0294f, 3.0f, 12.0f)
+                curveTo(21.0f, 7.029f, 16.971f, 3.0f, 12.0f, 3.0f)
+                curveTo(7.029f, 3.0f, 3.0f, 7.029f, 3.0f, 12.0f)
                 close()
                 moveTo(12.0f, 5.0f)
                 curveTo(15.866f, 5.0f, 19.0f, 8.134f, 19.0f, 12.0f)

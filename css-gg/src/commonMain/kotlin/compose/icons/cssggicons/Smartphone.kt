@@ -35,13 +35,13 @@ public val CssGgIcons.Smartphone: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(5.0f, 4.0f)
-                curveTo(5.0f, 2.8954f, 5.8954f, 2.0f, 7.0f, 2.0f)
+                curveTo(5.0f, 2.895f, 5.895f, 2.0f, 7.0f, 2.0f)
                 horizontalLineTo(17.0f)
-                curveTo(18.1046f, 2.0f, 19.0f, 2.8954f, 19.0f, 4.0f)
+                curveTo(18.105f, 2.0f, 19.0f, 2.895f, 19.0f, 4.0f)
                 verticalLineTo(20.0f)
-                curveTo(19.0f, 21.1046f, 18.1046f, 22.0f, 17.0f, 22.0f)
+                curveTo(19.0f, 21.105f, 18.105f, 22.0f, 17.0f, 22.0f)
                 horizontalLineTo(7.0f)
-                curveTo(5.8954f, 22.0f, 5.0f, 21.1046f, 5.0f, 20.0f)
+                curveTo(5.895f, 22.0f, 5.0f, 21.105f, 5.0f, 20.0f)
                 verticalLineTo(4.0f)
                 close()
                 moveTo(7.0f, 4.0f)

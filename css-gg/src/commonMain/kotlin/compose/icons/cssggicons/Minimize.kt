@@ -60,13 +60,13 @@ public val CssGgIcons.Minimize: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.0f, 9.0001f)
+                moveTo(15.0f, 9.0f)
                 horizontalLineTo(21.0f)
-                verticalLineTo(7.0001f)
+                verticalLineTo(7.0f)
                 horizontalLineTo(17.0f)
-                verticalLineTo(3.0001f)
+                verticalLineTo(3.0f)
                 horizontalLineTo(15.0f)
-                verticalLineTo(9.0001f)
+                verticalLineTo(9.0f)
                 close()
             }
         }

@@ -49,7 +49,7 @@ public val SolidGroup.Glasses: ImageVector
                 curveToRelative(-23.22f, -7.78f, -48.75f, -5.41f, -70.19f, 6.33f)
                 curveToRelative(-21.41f, 11.77f, -37.09f, 32.11f, -43.0f, 55.8f)
                 lineTo(1.9f, 280.37f)
-                arcTo(64.218f, 64.218f, 0.0f, false, false, 0.0f, 295.86f)
+                arcTo(64.22f, 64.22f, 0.0f, false, false, 0.0f, 295.86f)
                 verticalLineToRelative(70.25f)
                 curveTo(0.0f, 429.01f, 51.58f, 480.0f, 115.2f, 480.0f)
                 horizontalLineToRelative(37.12f)

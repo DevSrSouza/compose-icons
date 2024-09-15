@@ -25,10 +25,10 @@ public val CssGgIcons.Overflow: ImageVector
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(22.0f, 11.0f)
-                curveTo(22.0f, 13.6522f, 20.9464f, 16.1957f, 19.0711f, 18.0711f)
-                curveTo(17.1957f, 19.9464f, 14.6522f, 21.0f, 12.0f, 21.0f)
-                curveTo(9.3478f, 21.0f, 6.8043f, 19.9464f, 4.9289f, 18.0711f)
-                curveTo(3.0536f, 16.1957f, 2.0f, 13.6522f, 2.0f, 11.0f)
+                curveTo(22.0f, 13.652f, 20.946f, 16.196f, 19.071f, 18.071f)
+                curveTo(17.196f, 19.946f, 14.652f, 21.0f, 12.0f, 21.0f)
+                curveTo(9.348f, 21.0f, 6.804f, 19.946f, 4.929f, 18.071f)
+                curveTo(3.054f, 16.196f, 2.0f, 13.652f, 2.0f, 11.0f)
                 lineTo(22.0f, 11.0f)
                 close()
             }
@@ -36,10 +36,10 @@ public val CssGgIcons.Overflow: ImageVector
                     = 0.3f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(20.0f, 11.0f)
-                curveTo(20.0f, 13.1217f, 19.1571f, 15.1566f, 17.6569f, 16.6569f)
-                curveTo(16.1566f, 18.1571f, 14.1217f, 19.0f, 12.0f, 19.0f)
-                curveTo(9.8783f, 19.0f, 7.8434f, 18.1571f, 6.3432f, 16.6569f)
-                curveTo(4.8429f, 15.1566f, 4.0f, 13.1217f, 4.0f, 11.0f)
+                curveTo(20.0f, 13.122f, 19.157f, 15.157f, 17.657f, 16.657f)
+                curveTo(16.157f, 18.157f, 14.122f, 19.0f, 12.0f, 19.0f)
+                curveTo(9.878f, 19.0f, 7.843f, 18.157f, 6.343f, 16.657f)
+                curveTo(4.843f, 15.157f, 4.0f, 13.122f, 4.0f, 11.0f)
                 lineTo(20.0f, 11.0f)
                 close()
             }
@@ -47,10 +47,10 @@ public val CssGgIcons.Overflow: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(20.0f, 11.0f)
-                curveTo(20.0f, 8.8783f, 19.1571f, 6.8434f, 17.6569f, 5.3432f)
-                curveTo(16.1566f, 3.8428f, 14.1217f, 3.0f, 12.0f, 3.0f)
-                curveTo(9.8783f, 3.0f, 7.8434f, 3.8428f, 6.3432f, 5.3432f)
-                curveTo(4.8429f, 6.8434f, 4.0f, 8.8783f, 4.0f, 11.0f)
+                curveTo(20.0f, 8.878f, 19.157f, 6.843f, 17.657f, 5.343f)
+                curveTo(16.157f, 3.843f, 14.122f, 3.0f, 12.0f, 3.0f)
+                curveTo(9.878f, 3.0f, 7.843f, 3.843f, 6.343f, 5.343f)
+                curveTo(4.843f, 6.843f, 4.0f, 8.878f, 4.0f, 11.0f)
                 lineTo(20.0f, 11.0f)
                 close()
             }

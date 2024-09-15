@@ -22,19 +22,19 @@ public val LineAwesomeIcons.GenderlessSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(16.0f, 4.0f)
-                curveTo(11.5938f, 4.0f, 8.0f, 7.5938f, 8.0f, 12.0f)
-                curveTo(8.0f, 16.0664f, 11.0664f, 19.4375f, 15.0f, 19.9375f)
+                curveTo(11.594f, 4.0f, 8.0f, 7.594f, 8.0f, 12.0f)
+                curveTo(8.0f, 16.066f, 11.066f, 19.438f, 15.0f, 19.938f)
                 lineTo(15.0f, 28.0f)
                 lineTo(17.0f, 28.0f)
-                lineTo(17.0f, 19.9375f)
-                curveTo(20.9336f, 19.4375f, 24.0f, 16.0664f, 24.0f, 12.0f)
-                curveTo(24.0f, 7.5938f, 20.4063f, 4.0f, 16.0f, 4.0f)
+                lineTo(17.0f, 19.938f)
+                curveTo(20.934f, 19.438f, 24.0f, 16.066f, 24.0f, 12.0f)
+                curveTo(24.0f, 7.594f, 20.406f, 4.0f, 16.0f, 4.0f)
                 close()
                 moveTo(16.0f, 6.0f)
-                curveTo(19.3242f, 6.0f, 22.0f, 8.6758f, 22.0f, 12.0f)
-                curveTo(22.0f, 15.3242f, 19.3242f, 18.0f, 16.0f, 18.0f)
-                curveTo(12.6758f, 18.0f, 10.0f, 15.3242f, 10.0f, 12.0f)
-                curveTo(10.0f, 8.6758f, 12.6758f, 6.0f, 16.0f, 6.0f)
+                curveTo(19.324f, 6.0f, 22.0f, 8.676f, 22.0f, 12.0f)
+                curveTo(22.0f, 15.324f, 19.324f, 18.0f, 16.0f, 18.0f)
+                curveTo(12.676f, 18.0f, 10.0f, 15.324f, 10.0f, 12.0f)
+                curveTo(10.0f, 8.676f, 12.676f, 6.0f, 16.0f, 6.0f)
                 close()
             }
         }

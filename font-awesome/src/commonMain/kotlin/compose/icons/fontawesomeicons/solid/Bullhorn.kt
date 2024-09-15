@@ -43,7 +43,7 @@ public val SolidGroup.Bullhorn: ImageVector
                 lineTo(256.0f, 352.0f)
                 curveToRelative(54.66f, 0.0f, 108.28f, 18.81f, 150.98f, 52.95f)
                 lineToRelative(85.03f, 68.03f)
-                arcToRelative(32.023f, 32.023f, 0.0f, false, false, 19.98f, 7.02f)
+                arcToRelative(32.02f, 32.02f, 0.0f, false, false, 19.98f, 7.02f)
                 curveToRelative(24.92f, 0.0f, 32.0f, -22.78f, 32.0f, -32.0f)
                 lineTo(543.99f, 295.13f)
                 curveTo(563.05f, 284.04f, 576.0f, 263.63f, 576.0f, 240.0f)

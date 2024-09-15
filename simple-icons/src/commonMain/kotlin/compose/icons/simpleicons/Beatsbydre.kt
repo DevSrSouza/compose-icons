@@ -21,16 +21,16 @@ public val SimpleIcons.Beatsbydre: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0099f, 15.5996f)
-                arcTo(3.5995f, 3.5995f, 0.0f, true, false, 8.4103f, 12.0f)
-                arcToRelative(3.5995f, 3.5995f, 0.0f, false, false, 3.5996f, 3.5996f)
+                moveTo(12.01f, 15.6f)
+                arcTo(3.599f, 3.599f, 0.0f, true, false, 8.41f, 12.0f)
+                arcToRelative(3.599f, 3.599f, 0.0f, false, false, 3.6f, 3.6f)
                 close()
-                moveTo(12.0099f, 0.0015f)
-                arcToRelative(11.9985f, 11.9985f, 0.0f, false, false, -3.5996f, 0.552f)
-                verticalLineToRelative(6.6471f)
-                arcTo(5.9992f, 5.9992f, 0.0f, true, true, 6.0106f, 12.0f)
-                lineTo(6.0106f, 1.6033f)
-                arcTo(11.9985f, 11.9985f, 0.0f, true, false, 12.01f, 0.0015f)
+                moveTo(12.01f, 0.002f)
+                arcToRelative(11.998f, 11.998f, 0.0f, false, false, -3.6f, 0.552f)
+                verticalLineToRelative(6.647f)
+                arcTo(5.999f, 5.999f, 0.0f, true, true, 6.011f, 12.0f)
+                lineTo(6.011f, 1.603f)
+                arcTo(11.998f, 11.998f, 0.0f, true, false, 12.01f, 0.002f)
                 close()
             }
         }

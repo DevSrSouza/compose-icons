@@ -22,7 +22,7 @@ public val LineAwesomeIcons.ToolboxSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(13.0f, 5.0f)
-                curveTo(11.9063f, 5.0f, 11.0f, 5.9063f, 11.0f, 7.0f)
+                curveTo(11.906f, 5.0f, 11.0f, 5.906f, 11.0f, 7.0f)
                 lineTo(11.0f, 9.0f)
                 lineTo(2.0f, 9.0f)
                 lineTo(2.0f, 27.0f)
@@ -30,7 +30,7 @@ public val LineAwesomeIcons.ToolboxSolid: ImageVector
                 lineTo(30.0f, 9.0f)
                 lineTo(21.0f, 9.0f)
                 lineTo(21.0f, 7.0f)
-                curveTo(21.0f, 5.9063f, 20.0938f, 5.0f, 19.0f, 5.0f)
+                curveTo(21.0f, 5.906f, 20.094f, 5.0f, 19.0f, 5.0f)
                 close()
                 moveTo(13.0f, 7.0f)
                 lineTo(19.0f, 7.0f)

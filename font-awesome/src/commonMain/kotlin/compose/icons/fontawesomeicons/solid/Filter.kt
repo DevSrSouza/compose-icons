@@ -21,17 +21,17 @@ public val SolidGroup.Filter: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(487.976f, 0.0f)
-                horizontalLineTo(24.028f)
-                curveTo(2.71f, 0.0f, -8.047f, 25.866f, 7.058f, 40.971f)
-                lineTo(192.0f, 225.941f)
+                moveTo(487.98f, 0.0f)
+                horizontalLineTo(24.03f)
+                curveTo(2.71f, 0.0f, -8.05f, 25.87f, 7.06f, 40.97f)
+                lineTo(192.0f, 225.94f)
                 verticalLineTo(432.0f)
-                curveToRelative(0.0f, 7.831f, 3.821f, 15.17f, 10.237f, 19.662f)
+                curveToRelative(0.0f, 7.83f, 3.82f, 15.17f, 10.24f, 19.66f)
                 lineToRelative(80.0f, 55.98f)
-                curveTo(298.02f, 518.69f, 320.0f, 507.493f, 320.0f, 487.98f)
-                verticalLineTo(225.941f)
-                lineToRelative(184.947f, -184.97f)
-                curveTo(520.021f, 25.896f, 509.338f, 0.0f, 487.976f, 0.0f)
+                curveTo(298.02f, 518.69f, 320.0f, 507.49f, 320.0f, 487.98f)
+                verticalLineTo(225.94f)
+                lineToRelative(184.95f, -184.97f)
+                curveTo(520.02f, 25.9f, 509.34f, 0.0f, 487.98f, 0.0f)
                 close()
             }
         }

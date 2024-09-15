@@ -21,13 +21,13 @@ public val CssGgIcons.FormatSlash: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(14.526f, 6.1058f)
-                curveTo(15.0265f, 6.3392f, 15.2667f, 6.8834f, 15.0625f, 7.3214f)
-                lineTo(9.8854f, 18.4237f)
-                curveTo(9.6812f, 18.8616f, 9.1098f, 19.0275f, 8.6093f, 18.7941f)
-                curveTo(8.1088f, 18.5607f, 7.8686f, 18.0164f, 8.0728f, 17.5784f)
-                lineTo(13.2499f, 6.4762f)
-                curveTo(13.4541f, 6.0382f, 14.0254f, 5.8724f, 14.526f, 6.1058f)
+                moveTo(14.526f, 6.106f)
+                curveTo(15.026f, 6.339f, 15.267f, 6.883f, 15.063f, 7.321f)
+                lineTo(9.885f, 18.424f)
+                curveTo(9.681f, 18.862f, 9.11f, 19.028f, 8.609f, 18.794f)
+                curveTo(8.109f, 18.561f, 7.869f, 18.016f, 8.073f, 17.578f)
+                lineTo(13.25f, 6.476f)
+                curveTo(13.454f, 6.038f, 14.025f, 5.872f, 14.526f, 6.106f)
                 close()
             }
         }

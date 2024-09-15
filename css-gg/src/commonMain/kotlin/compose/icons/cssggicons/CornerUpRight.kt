@@ -21,20 +21,20 @@ public val CssGgIcons.CornerUpRight: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(13.3724f, 14.7219f)
-                lineTo(14.7835f, 16.1391f)
-                lineTo(21.1612f, 9.7889f)
-                lineTo(14.811f, 3.4113f)
-                lineTo(13.3937f, 4.8224f)
-                lineTo(17.1702f, 8.6153f)
-                lineTo(6.8646f, 8.593f)
-                curveTo(4.6555f, 8.5883f, 2.8608f, 10.3753f, 2.856f, 12.5844f)
-                lineTo(2.8387f, 20.5844f)
-                lineTo(4.8387f, 20.5887f)
-                lineTo(4.856f, 12.5887f)
-                curveTo(4.8584f, 11.4841f, 5.7557f, 10.5907f, 6.8603f, 10.593f)
+                moveTo(13.372f, 14.722f)
+                lineTo(14.783f, 16.139f)
+                lineTo(21.161f, 9.789f)
+                lineTo(14.811f, 3.411f)
+                lineTo(13.394f, 4.822f)
+                lineTo(17.17f, 8.615f)
+                lineTo(6.865f, 8.593f)
+                curveTo(4.655f, 8.588f, 2.861f, 10.375f, 2.856f, 12.584f)
+                lineTo(2.839f, 20.584f)
+                lineTo(4.839f, 20.589f)
+                lineTo(4.856f, 12.589f)
+                curveTo(4.858f, 11.484f, 5.756f, 10.591f, 6.86f, 10.593f)
                 lineTo(17.496f, 10.616f)
-                lineTo(13.3724f, 14.7219f)
+                lineTo(13.372f, 14.722f)
                 close()
             }
         }

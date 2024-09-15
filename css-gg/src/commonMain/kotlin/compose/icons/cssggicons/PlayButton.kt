@@ -21,10 +21,10 @@ public val CssGgIcons.PlayButton: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.0f, 12.3301f)
-                lineTo(9.0f, 16.6603f)
+                moveTo(15.0f, 12.33f)
+                lineTo(9.0f, 16.66f)
                 lineTo(9.0f, 8.0f)
-                lineTo(15.0f, 12.3301f)
+                lineTo(15.0f, 12.33f)
                 close()
             }
         }

@@ -55,7 +55,7 @@ public val RegularGroup.Lightbulb: ImageVector
                 curveToRelative(70.58f, 0.0f, 128.0f, 57.42f, 128.0f, 128.0f)
                 curveToRelative(0.0f, 30.97f, -11.24f, 60.85f, -31.65f, 84.14f)
                 curveToRelative(-39.11f, 44.61f, -56.42f, 91.47f, -62.1f, 109.46f)
-                arcToRelative(47.507f, 47.507f, 0.0f, false, false, -2.22f, 14.3f)
+                arcToRelative(47.51f, 47.51f, 0.0f, false, false, -2.22f, 14.3f)
                 verticalLineToRelative(0.1f)
                 horizontalLineToRelative(48.0f)
                 verticalLineToRelative(-0.05f)

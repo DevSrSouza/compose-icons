@@ -25,14 +25,14 @@ public val CssGgIcons.Digitalocean: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(12.0f, 6.0f)
-                curveTo(8.6863f, 6.0f, 6.0f, 8.6863f, 6.0f, 12.0f)
+                curveTo(8.686f, 6.0f, 6.0f, 8.686f, 6.0f, 12.0f)
                 horizontalLineTo(1.0f)
-                curveTo(1.0f, 5.9249f, 5.9249f, 1.0f, 12.0f, 1.0f)
-                curveTo(18.0751f, 1.0f, 23.0f, 5.9249f, 23.0f, 12.0f)
-                curveTo(23.0f, 18.0751f, 18.0751f, 23.0f, 12.0f, 23.0f)
+                curveTo(1.0f, 5.925f, 5.925f, 1.0f, 12.0f, 1.0f)
+                curveTo(18.075f, 1.0f, 23.0f, 5.925f, 23.0f, 12.0f)
+                curveTo(23.0f, 18.075f, 18.075f, 23.0f, 12.0f, 23.0f)
                 verticalLineTo(18.0f)
-                curveTo(15.3137f, 18.0f, 18.0f, 15.3137f, 18.0f, 12.0f)
-                curveTo(18.0f, 8.6863f, 15.3137f, 6.0f, 12.0f, 6.0f)
+                curveTo(15.314f, 18.0f, 18.0f, 15.314f, 18.0f, 12.0f)
+                curveTo(18.0f, 8.686f, 15.314f, 6.0f, 12.0f, 6.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,

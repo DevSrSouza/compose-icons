@@ -24,49 +24,49 @@ public val CssGgIcons.PlayListRemove: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.9644f, 4.6338f)
-                horizontalLineTo(3.9644f)
-                verticalLineTo(6.6338f)
-                horizontalLineTo(15.9644f)
-                verticalLineTo(4.6338f)
+                moveTo(15.964f, 4.634f)
+                horizontalLineTo(3.964f)
+                verticalLineTo(6.634f)
+                horizontalLineTo(15.964f)
+                verticalLineTo(4.634f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.9644f, 8.6338f)
-                horizontalLineTo(3.9644f)
-                verticalLineTo(10.6338f)
-                horizontalLineTo(15.9644f)
-                verticalLineTo(8.6338f)
+                moveTo(15.964f, 8.634f)
+                horizontalLineTo(3.964f)
+                verticalLineTo(10.634f)
+                horizontalLineTo(15.964f)
+                verticalLineTo(8.634f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(3.9644f, 12.6338f)
-                horizontalLineTo(11.9644f)
-                verticalLineTo(14.6338f)
-                horizontalLineTo(3.9644f)
-                verticalLineTo(12.6338f)
+                moveTo(3.964f, 12.634f)
+                horizontalLineTo(11.964f)
+                verticalLineTo(14.634f)
+                horizontalLineTo(3.964f)
+                verticalLineTo(12.634f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.9645f, 13.7093f)
-                lineTo(14.3787f, 12.295f)
-                lineTo(16.5f, 14.4163f)
-                lineTo(18.6213f, 12.2951f)
-                lineTo(20.0355f, 13.7093f)
-                lineTo(17.9142f, 15.8305f)
-                lineTo(20.0356f, 17.9519f)
-                lineTo(18.6214f, 19.3661f)
-                lineTo(16.5f, 17.2447f)
-                lineTo(14.3786f, 19.3661f)
-                lineTo(12.9644f, 17.9519f)
-                lineTo(15.0858f, 15.8305f)
-                lineTo(12.9645f, 13.7093f)
+                moveTo(12.965f, 13.709f)
+                lineTo(14.379f, 12.295f)
+                lineTo(16.5f, 14.416f)
+                lineTo(18.621f, 12.295f)
+                lineTo(20.035f, 13.709f)
+                lineTo(17.914f, 15.83f)
+                lineTo(20.036f, 17.952f)
+                lineTo(18.621f, 19.366f)
+                lineTo(16.5f, 17.245f)
+                lineTo(14.379f, 19.366f)
+                lineTo(12.964f, 17.952f)
+                lineTo(15.086f, 15.83f)
+                lineTo(12.965f, 13.709f)
                 close()
             }
         }

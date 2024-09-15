@@ -21,21 +21,21 @@ public val CssGgIcons.Bitbucket: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(4.5831f, 4.6351f)
-                curveTo(4.0308f, 4.6351f, 3.6677f, 5.0747f, 3.772f, 5.6171f)
+                moveTo(4.583f, 4.635f)
+                curveTo(4.031f, 4.635f, 3.668f, 5.075f, 3.772f, 5.617f)
                 lineTo(6.228f, 18.383f)
-                curveTo(6.3324f, 18.9253f, 6.8647f, 19.3649f, 7.417f, 19.3649f)
+                curveTo(6.332f, 18.925f, 6.865f, 19.365f, 7.417f, 19.365f)
                 horizontalLineTo(16.583f)
-                curveTo(17.1353f, 19.3649f, 17.6676f, 18.9253f, 17.7719f, 18.383f)
-                lineTo(20.2279f, 5.6171f)
-                curveTo(20.3323f, 5.0747f, 19.9691f, 4.6351f, 19.4168f, 4.6351f)
-                horizontalLineTo(4.5831f)
+                curveTo(17.135f, 19.365f, 17.668f, 18.925f, 17.772f, 18.383f)
+                lineTo(20.228f, 5.617f)
+                curveTo(20.332f, 5.075f, 19.969f, 4.635f, 19.417f, 4.635f)
+                horizontalLineTo(4.583f)
                 close()
-                moveTo(13.5449f, 14.3649f)
-                lineTo(14.4549f, 9.6351f)
+                moveTo(13.545f, 14.365f)
+                lineTo(14.455f, 9.635f)
                 horizontalLineTo(9.545f)
-                lineTo(10.455f, 14.3649f)
-                horizontalLineTo(13.5449f)
+                lineTo(10.455f, 14.365f)
+                horizontalLineTo(13.545f)
                 close()
             }
         }

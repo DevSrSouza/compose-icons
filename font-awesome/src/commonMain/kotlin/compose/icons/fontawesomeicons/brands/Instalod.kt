@@ -21,20 +21,20 @@ public val BrandsGroup.Instalod: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(153.384f, 480.0f)
-                horizontalLineTo(387.113f)
-                lineTo(502.554f, 275.765f)
-                lineTo(204.229f, 333.211f)
+                moveTo(153.38f, 480.0f)
+                horizontalLineTo(387.11f)
+                lineTo(502.55f, 275.77f)
+                lineTo(204.23f, 333.21f)
                 close()
-                moveTo(504.726f, 240.078f)
-                lineTo(387.113f, 32.0f)
-                horizontalLineTo(155.669f)
+                moveTo(504.73f, 240.08f)
+                lineTo(387.11f, 32.0f)
+                horizontalLineTo(155.67f)
                 lineTo(360.23f, 267.9f)
                 close()
-                moveTo(124.386f, 48.809f)
-                lineTo(7.274f, 256.0f)
-                lineTo(123.236f, 461.154f)
-                lineTo(225.627f, 165.561f)
+                moveTo(124.39f, 48.81f)
+                lineTo(7.27f, 256.0f)
+                lineTo(123.24f, 461.15f)
+                lineTo(225.63f, 165.56f)
                 close()
             }
         }

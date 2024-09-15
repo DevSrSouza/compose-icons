@@ -56,7 +56,7 @@ public val SolidGroup.Socks: ImageVector
                 curveToRelative(18.25f, 31.58f, 50.61f, 48.33f, 83.42f, 48.33f)
                 curveToRelative(20.03f, 0.0f, 40.25f, -6.25f, 57.52f, -19.2f)
                 lineToRelative(115.2f, -86.4f)
-                arcTo(127.997f, 127.997f, 0.0f, false, false, 512.0f, 304.0f)
+                arcTo(128.0f, 128.0f, 0.0f, false, false, 512.0f, 304.0f)
                 verticalLineTo(96.0f)
                 horizontalLineTo(320.0f)
                 verticalLineToRelative(176.0f)

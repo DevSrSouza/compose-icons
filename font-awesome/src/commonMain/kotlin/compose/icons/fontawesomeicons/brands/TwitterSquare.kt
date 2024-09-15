@@ -42,7 +42,7 @@ public val BrandsGroup.TwitterSquare: ImageVector
                 curveToRelative(-30.0f, -6.1f, -52.5f, -32.5f, -52.5f, -64.4f)
                 verticalLineToRelative(-0.8f)
                 curveToRelative(8.7f, 4.9f, 18.9f, 7.9f, 29.6f, 8.3f)
-                arcToRelative(65.447f, 65.447f, 0.0f, false, true, -29.2f, -54.6f)
+                arcToRelative(65.45f, 65.45f, 0.0f, false, true, -29.2f, -54.6f)
                 curveToRelative(0.0f, -12.2f, 3.2f, -23.4f, 8.9f, -33.1f)
                 curveToRelative(32.3f, 39.8f, 80.8f, 65.8f, 135.2f, 68.6f)
                 curveToRelative(-9.3f, -44.5f, 24.0f, -80.6f, 64.0f, -80.6f)

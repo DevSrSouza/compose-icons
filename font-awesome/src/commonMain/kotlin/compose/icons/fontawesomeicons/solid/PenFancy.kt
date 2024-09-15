@@ -22,7 +22,7 @@ public val SolidGroup.PenFancy: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(79.18f, 282.94f)
-                arcToRelative(32.005f, 32.005f, 0.0f, false, false, -20.24f, 20.24f)
+                arcToRelative(32.01f, 32.01f, 0.0f, false, false, -20.24f, 20.24f)
                 lineTo(0.0f, 480.0f)
                 lineToRelative(4.69f, 4.69f)
                 lineToRelative(92.89f, -92.89f)
@@ -34,7 +34,7 @@ public val SolidGroup.PenFancy: ImageVector
                 lineToRelative(-92.89f, 92.89f)
                 lineTo(32.0f, 512.0f)
                 lineToRelative(176.82f, -58.94f)
-                arcToRelative(31.983f, 31.983f, 0.0f, false, false, 20.24f, -20.24f)
+                arcToRelative(31.98f, 31.98f, 0.0f, false, false, 20.24f, -20.24f)
                 lineToRelative(33.07f, -84.07f)
                 lineToRelative(-98.88f, -98.88f)
                 lineToRelative(-84.07f, 33.07f)

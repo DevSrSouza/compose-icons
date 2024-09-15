@@ -21,15 +21,15 @@ public val LineAwesomeIcons.ShapesSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(22.3574f, 3.8633f)
-                lineTo(16.1895f, 15.0f)
-                lineTo(28.5254f, 15.0f)
-                lineTo(22.3574f, 3.8633f)
+                moveTo(22.357f, 3.863f)
+                lineTo(16.189f, 15.0f)
+                lineTo(28.525f, 15.0f)
+                lineTo(22.357f, 3.863f)
                 close()
-                moveTo(22.3574f, 7.9902f)
-                lineTo(25.1309f, 13.0f)
+                moveTo(22.357f, 7.99f)
+                lineTo(25.131f, 13.0f)
                 lineTo(19.584f, 13.0f)
-                lineTo(22.3574f, 7.9902f)
+                lineTo(22.357f, 7.99f)
                 close()
                 moveTo(9.0f, 16.0f)
                 curveTo(5.691f, 16.0f, 3.0f, 18.691f, 3.0f, 22.0f)

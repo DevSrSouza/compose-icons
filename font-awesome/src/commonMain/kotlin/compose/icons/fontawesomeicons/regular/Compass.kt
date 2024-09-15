@@ -23,11 +23,11 @@ public val RegularGroup.Compass: ImageVector
                     pathFillType = NonZero) {
                 moveTo(347.94f, 129.86f)
                 lineTo(203.6f, 195.83f)
-                arcToRelative(31.938f, 31.938f, 0.0f, false, false, -15.77f, 15.77f)
+                arcToRelative(31.94f, 31.94f, 0.0f, false, false, -15.77f, 15.77f)
                 lineToRelative(-65.97f, 144.34f)
                 curveToRelative(-7.61f, 16.65f, 9.54f, 33.81f, 26.2f, 26.2f)
                 lineToRelative(144.34f, -65.97f)
-                arcToRelative(31.938f, 31.938f, 0.0f, false, false, 15.77f, -15.77f)
+                arcToRelative(31.94f, 31.94f, 0.0f, false, false, 15.77f, -15.77f)
                 lineToRelative(65.97f, -144.34f)
                 curveToRelative(7.61f, -16.66f, -9.54f, -33.81f, -26.2f, -26.2f)
                 close()

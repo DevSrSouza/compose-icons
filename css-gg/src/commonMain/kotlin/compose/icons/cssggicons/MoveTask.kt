@@ -24,39 +24,39 @@ public val CssGgIcons.MoveTask: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(18.9641f, 7.0f)
-                horizontalLineTo(10.9641f)
+                moveTo(18.964f, 7.0f)
+                horizontalLineTo(10.964f)
                 verticalLineTo(9.0f)
-                horizontalLineTo(18.9641f)
+                horizontalLineTo(18.964f)
                 verticalLineTo(7.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(6.0f, 8.8286f)
-                verticalLineTo(15.1714f)
-                lineTo(9.9642f, 12.0f)
-                lineTo(6.0f, 8.8286f)
+                moveTo(6.0f, 8.829f)
+                verticalLineTo(15.171f)
+                lineTo(9.964f, 12.0f)
+                lineTo(6.0f, 8.829f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(18.9641f, 11.0f)
-                horizontalLineTo(10.9641f)
+                moveTo(18.964f, 11.0f)
+                horizontalLineTo(10.964f)
                 verticalLineTo(13.0f)
-                horizontalLineTo(18.9641f)
+                horizontalLineTo(18.964f)
                 verticalLineTo(11.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.9641f, 15.0f)
-                horizontalLineTo(18.9641f)
+                moveTo(10.964f, 15.0f)
+                horizontalLineTo(18.964f)
                 verticalLineTo(17.0f)
-                horizontalLineTo(10.9641f)
+                horizontalLineTo(10.964f)
                 verticalLineTo(15.0f)
                 close()
             }

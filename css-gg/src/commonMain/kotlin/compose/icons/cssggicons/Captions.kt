@@ -54,13 +54,13 @@ public val CssGgIcons.Captions: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(2.0f, 5.0f)
-                curveTo(2.0f, 4.4477f, 2.4477f, 4.0f, 3.0f, 4.0f)
+                curveTo(2.0f, 4.448f, 2.448f, 4.0f, 3.0f, 4.0f)
                 horizontalLineTo(21.0f)
-                curveTo(21.5523f, 4.0f, 22.0f, 4.4477f, 22.0f, 5.0f)
+                curveTo(21.552f, 4.0f, 22.0f, 4.448f, 22.0f, 5.0f)
                 verticalLineTo(19.0f)
-                curveTo(22.0f, 19.5523f, 21.5523f, 20.0f, 21.0f, 20.0f)
+                curveTo(22.0f, 19.552f, 21.552f, 20.0f, 21.0f, 20.0f)
                 horizontalLineTo(3.0f)
-                curveTo(2.4477f, 20.0f, 2.0f, 19.5523f, 2.0f, 19.0f)
+                curveTo(2.448f, 20.0f, 2.0f, 19.552f, 2.0f, 19.0f)
                 verticalLineTo(5.0f)
                 close()
                 moveTo(4.0f, 18.0f)

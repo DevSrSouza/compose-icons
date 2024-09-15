@@ -21,21 +21,21 @@ public val LineAwesomeIcons.UndoSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.7813f, 5.2813f)
-                lineTo(4.7813f, 13.2813f)
-                lineTo(4.0938f, 14.0f)
-                lineTo(4.7813f, 14.7188f)
-                lineTo(12.7813f, 22.7188f)
-                lineTo(14.2188f, 21.2813f)
-                lineTo(7.9375f, 15.0f)
+                moveTo(12.781f, 5.281f)
+                lineTo(4.781f, 13.281f)
+                lineTo(4.094f, 14.0f)
+                lineTo(4.781f, 14.719f)
+                lineTo(12.781f, 22.719f)
+                lineTo(14.219f, 21.281f)
+                lineTo(7.938f, 15.0f)
                 lineTo(21.0f, 15.0f)
-                curveTo(23.7539f, 15.0f, 26.0f, 17.2461f, 26.0f, 20.0f)
+                curveTo(23.754f, 15.0f, 26.0f, 17.246f, 26.0f, 20.0f)
                 lineTo(26.0f, 27.0f)
                 lineTo(28.0f, 27.0f)
                 lineTo(28.0f, 20.0f)
-                curveTo(28.0f, 16.1563f, 24.8438f, 13.0f, 21.0f, 13.0f)
-                lineTo(7.9375f, 13.0f)
-                lineTo(14.2188f, 6.7188f)
+                curveTo(28.0f, 16.156f, 24.844f, 13.0f, 21.0f, 13.0f)
+                lineTo(7.938f, 13.0f)
+                lineTo(14.219f, 6.719f)
                 close()
             }
         }

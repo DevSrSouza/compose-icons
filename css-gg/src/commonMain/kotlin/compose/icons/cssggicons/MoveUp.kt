@@ -44,13 +44,13 @@ public val CssGgIcons.MoveUp: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.9999f, 19.071f)
-                horizontalLineTo(10.9999f)
-                verticalLineTo(9.0711f)
-                horizontalLineTo(7.9645f)
-                lineTo(11.9644f, 5.0f)
-                lineTo(15.9644f, 9.0711f)
-                horizontalLineTo(12.9999f)
+                moveTo(13.0f, 19.071f)
+                horizontalLineTo(11.0f)
+                verticalLineTo(9.071f)
+                horizontalLineTo(7.965f)
+                lineTo(11.964f, 5.0f)
+                lineTo(15.964f, 9.071f)
+                horizontalLineTo(13.0f)
                 verticalLineTo(19.071f)
                 close()
             }

@@ -40,7 +40,7 @@ public val SolidGroup.Spa: ImageVector
                 curveToRelative(-4.11f, -3.58f, -11.02f, -3.58f, -15.14f, 0.0f)
                 curveToRelative(-44.99f, 39.14f, -80.27f, 101.63f, -96.74f, 172.07f)
                 curveToRelative(20.37f, 11.7f, 40.5f, 26.14f, 59.22f, 44.39f)
-                arcToRelative(282.768f, 282.768f, 0.0f, false, true, 45.04f, 51.46f)
+                arcToRelative(282.77f, 282.77f, 0.0f, false, true, 45.04f, 51.46f)
                 close()
             }
         }

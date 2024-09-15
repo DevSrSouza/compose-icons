@@ -21,21 +21,21 @@ public val LineAwesomeIcons.RedoSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(19.2188f, 5.2813f)
-                lineTo(17.7813f, 6.7188f)
-                lineTo(24.0625f, 13.0f)
+                moveTo(19.219f, 5.281f)
+                lineTo(17.781f, 6.719f)
+                lineTo(24.063f, 13.0f)
                 lineTo(11.0f, 13.0f)
-                curveTo(7.1563f, 13.0f, 4.0f, 16.1563f, 4.0f, 20.0f)
+                curveTo(7.156f, 13.0f, 4.0f, 16.156f, 4.0f, 20.0f)
                 lineTo(4.0f, 27.0f)
                 lineTo(6.0f, 27.0f)
                 lineTo(6.0f, 20.0f)
-                curveTo(6.0f, 17.2461f, 8.2461f, 15.0f, 11.0f, 15.0f)
-                lineTo(24.0625f, 15.0f)
-                lineTo(17.7813f, 21.2813f)
-                lineTo(19.2188f, 22.7188f)
-                lineTo(27.2188f, 14.7188f)
-                lineTo(27.9063f, 14.0f)
-                lineTo(27.2188f, 13.2813f)
+                curveTo(6.0f, 17.246f, 8.246f, 15.0f, 11.0f, 15.0f)
+                lineTo(24.063f, 15.0f)
+                lineTo(17.781f, 21.281f)
+                lineTo(19.219f, 22.719f)
+                lineTo(27.219f, 14.719f)
+                lineTo(27.906f, 14.0f)
+                lineTo(27.219f, 13.281f)
                 close()
             }
         }

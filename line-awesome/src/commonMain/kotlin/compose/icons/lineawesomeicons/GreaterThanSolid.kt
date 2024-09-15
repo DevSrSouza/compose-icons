@@ -22,12 +22,12 @@ public val LineAwesomeIcons.GreaterThanSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(6.0f, 6.0f)
-                lineTo(6.0f, 8.1563f)
-                lineTo(22.5313f, 16.0f)
-                lineTo(6.0f, 23.8438f)
+                lineTo(6.0f, 8.156f)
+                lineTo(22.531f, 16.0f)
+                lineTo(6.0f, 23.844f)
                 lineTo(6.0f, 26.0f)
-                lineTo(26.0f, 16.7813f)
-                lineTo(26.0f, 15.2188f)
+                lineTo(26.0f, 16.781f)
+                lineTo(26.0f, 15.219f)
                 close()
             }
         }

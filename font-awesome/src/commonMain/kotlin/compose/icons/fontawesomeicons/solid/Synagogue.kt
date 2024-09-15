@@ -23,7 +23,7 @@ public val SolidGroup.Synagogue: ImageVector
                     pathFillType = NonZero) {
                 moveTo(70.0f, 196.51f)
                 lineTo(6.67f, 268.29f)
-                arcTo(26.643f, 26.643f, 0.0f, false, false, 0.0f, 285.93f)
+                arcTo(26.64f, 26.64f, 0.0f, false, false, 0.0f, 285.93f)
                 lineTo(0.0f, 512.0f)
                 horizontalLineToRelative(128.0f)
                 lineTo(128.0f, 239.58f)
@@ -42,7 +42,7 @@ public val SolidGroup.Synagogue: ImageVector
                 moveTo(339.99f, 7.01f)
                 curveToRelative(-11.69f, -9.35f, -28.29f, -9.35f, -39.98f, 0.0f)
                 lineToRelative(-128.0f, 102.4f)
-                arcTo(32.005f, 32.005f, 0.0f, false, false, 160.0f, 134.4f)
+                arcTo(32.01f, 32.01f, 0.0f, false, false, 160.0f, 134.4f)
                 lineTo(160.0f, 512.0f)
                 horizontalLineToRelative(96.0f)
                 verticalLineToRelative(-92.57f)

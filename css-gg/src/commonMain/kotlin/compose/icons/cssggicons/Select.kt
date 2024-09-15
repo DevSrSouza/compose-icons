@@ -24,25 +24,25 @@ public val CssGgIcons.Select: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(6.0f, 9.6568f)
-                lineTo(7.4142f, 11.0711f)
-                lineTo(11.6569f, 6.8284f)
-                lineTo(15.8995f, 11.0711f)
-                lineTo(17.3137f, 9.6568f)
-                lineTo(11.6569f, 4.0f)
-                lineTo(6.0f, 9.6568f)
+                moveTo(6.0f, 9.657f)
+                lineTo(7.414f, 11.071f)
+                lineTo(11.657f, 6.828f)
+                lineTo(15.899f, 11.071f)
+                lineTo(17.314f, 9.657f)
+                lineTo(11.657f, 4.0f)
+                lineTo(6.0f, 9.657f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(6.0f, 14.4433f)
-                lineTo(7.4142f, 13.0291f)
-                lineTo(11.6569f, 17.2717f)
-                lineTo(15.8995f, 13.0291f)
-                lineTo(17.3137f, 14.4433f)
-                lineTo(11.6569f, 20.1001f)
-                lineTo(6.0f, 14.4433f)
+                moveTo(6.0f, 14.443f)
+                lineTo(7.414f, 13.029f)
+                lineTo(11.657f, 17.272f)
+                lineTo(15.899f, 13.029f)
+                lineTo(17.314f, 14.443f)
+                lineTo(11.657f, 20.1f)
+                lineTo(6.0f, 14.443f)
                 close()
             }
         }

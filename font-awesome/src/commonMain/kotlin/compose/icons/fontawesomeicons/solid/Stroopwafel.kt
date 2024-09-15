@@ -161,7 +161,7 @@ public val SolidGroup.Stroopwafel: ImageVector
                 curveToRelative(3.12f, 3.12f, 3.12f, 8.19f, 0.0f, 11.31f)
                 lineTo(414.39f, 256.0f)
                 lineToRelative(28.29f, 28.28f)
-                arcToRelative(8.015f, 8.015f, 0.0f, false, true, 0.0f, 11.32f)
+                arcToRelative(8.02f, 8.02f, 0.0f, false, true, 0.0f, 11.32f)
                 close()
                 moveTo(278.63f, 256.0f)
                 lineToRelative(45.26f, 45.25f)

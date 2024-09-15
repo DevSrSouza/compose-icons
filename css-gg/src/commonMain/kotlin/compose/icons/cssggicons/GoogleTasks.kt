@@ -24,23 +24,23 @@ public val CssGgIcons.GoogleTasks: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.7679f, 5.7145f)
-                curveTo(17.4779f, 4.8683f, 18.7394f, 4.7579f, 19.5856f, 5.468f)
-                curveTo(20.4317f, 6.178f, 20.5421f, 7.4395f, 19.8321f, 8.2856f)
-                lineTo(10.833f, 19.0102f)
-                curveTo(10.123f, 19.8564f, 8.8615f, 19.9668f, 8.0154f, 19.2568f)
-                curveTo(7.1692f, 18.5468f, 7.0589f, 17.2852f, 7.7689f, 16.4391f)
-                lineTo(16.7679f, 5.7145f)
+                moveTo(16.768f, 5.714f)
+                curveTo(17.478f, 4.868f, 18.739f, 4.758f, 19.586f, 5.468f)
+                curveTo(20.432f, 6.178f, 20.542f, 7.439f, 19.832f, 8.286f)
+                lineTo(10.833f, 19.01f)
+                curveTo(10.123f, 19.856f, 8.862f, 19.967f, 8.015f, 19.257f)
+                curveTo(7.169f, 18.547f, 7.059f, 17.285f, 7.769f, 16.439f)
+                lineTo(16.768f, 5.714f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(3.0f, 12.7396f)
-                curveTo(3.0f, 11.6351f, 3.8954f, 10.7396f, 5.0f, 10.7396f)
-                curveTo(6.1046f, 10.7396f, 7.0f, 11.6351f, 7.0f, 12.7396f)
-                curveTo(7.0f, 13.8442f, 6.1046f, 14.7396f, 5.0f, 14.7396f)
-                curveTo(3.8954f, 14.7396f, 3.0f, 13.8442f, 3.0f, 12.7396f)
+                moveTo(3.0f, 12.74f)
+                curveTo(3.0f, 11.635f, 3.895f, 10.74f, 5.0f, 10.74f)
+                curveTo(6.105f, 10.74f, 7.0f, 11.635f, 7.0f, 12.74f)
+                curveTo(7.0f, 13.844f, 6.105f, 14.74f, 5.0f, 14.74f)
+                curveTo(3.895f, 14.74f, 3.0f, 13.844f, 3.0f, 12.74f)
                 close()
             }
         }

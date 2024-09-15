@@ -27,7 +27,7 @@ public val SolidGroup.Crow: ImageVector
                 curveToRelative(-44.18f, 0.0f, -80.0f, 35.82f, -80.0f, 80.0f)
                 verticalLineToRelative(20.98f)
                 lineTo(12.09f, 393.57f)
-                arcTo(30.216f, 30.216f, 0.0f, false, false, 0.0f, 417.74f)
+                arcTo(30.22f, 30.22f, 0.0f, false, false, 0.0f, 417.74f)
                 curveToRelative(0.0f, 22.46f, 23.64f, 37.07f, 43.73f, 27.03f)
                 lineTo(165.27f, 384.0f)
                 horizontalLineToRelative(96.49f)

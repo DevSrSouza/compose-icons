@@ -25,11 +25,11 @@ public val CssGgIcons.RowFirst: ImageVector
                     = 0.5f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(6.0f, 11.0f)
-                curveTo(5.4477f, 11.0f, 5.0f, 11.4477f, 5.0f, 12.0f)
-                curveTo(5.0f, 12.5523f, 5.4477f, 13.0f, 6.0f, 13.0f)
+                curveTo(5.448f, 11.0f, 5.0f, 11.448f, 5.0f, 12.0f)
+                curveTo(5.0f, 12.552f, 5.448f, 13.0f, 6.0f, 13.0f)
                 horizontalLineTo(14.0f)
-                curveTo(14.5523f, 13.0f, 15.0f, 12.5523f, 15.0f, 12.0f)
-                curveTo(15.0f, 11.4477f, 14.5523f, 11.0f, 14.0f, 11.0f)
+                curveTo(14.552f, 13.0f, 15.0f, 12.552f, 15.0f, 12.0f)
+                curveTo(15.0f, 11.448f, 14.552f, 11.0f, 14.0f, 11.0f)
                 horizontalLineTo(6.0f)
                 close()
             }
@@ -37,11 +37,11 @@ public val CssGgIcons.RowFirst: ImageVector
                     = 0.5f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(6.0f, 15.0f)
-                curveTo(5.4477f, 15.0f, 5.0f, 15.4477f, 5.0f, 16.0f)
-                curveTo(5.0f, 16.5523f, 5.4477f, 17.0f, 6.0f, 17.0f)
+                curveTo(5.448f, 15.0f, 5.0f, 15.448f, 5.0f, 16.0f)
+                curveTo(5.0f, 16.552f, 5.448f, 17.0f, 6.0f, 17.0f)
                 horizontalLineTo(14.0f)
-                curveTo(14.5523f, 17.0f, 15.0f, 16.5523f, 15.0f, 16.0f)
-                curveTo(15.0f, 15.4477f, 14.5523f, 15.0f, 14.0f, 15.0f)
+                curveTo(14.552f, 17.0f, 15.0f, 16.552f, 15.0f, 16.0f)
+                curveTo(15.0f, 15.448f, 14.552f, 15.0f, 14.0f, 15.0f)
                 horizontalLineTo(6.0f)
                 close()
             }
@@ -49,12 +49,12 @@ public val CssGgIcons.RowFirst: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(5.0f, 8.0f)
-                curveTo(5.0f, 7.4477f, 5.4477f, 7.0f, 6.0f, 7.0f)
+                curveTo(5.0f, 7.448f, 5.448f, 7.0f, 6.0f, 7.0f)
                 horizontalLineTo(18.0f)
-                curveTo(18.5523f, 7.0f, 19.0f, 7.4477f, 19.0f, 8.0f)
-                curveTo(19.0f, 8.5523f, 18.5523f, 9.0f, 18.0f, 9.0f)
+                curveTo(18.552f, 7.0f, 19.0f, 7.448f, 19.0f, 8.0f)
+                curveTo(19.0f, 8.552f, 18.552f, 9.0f, 18.0f, 9.0f)
                 horizontalLineTo(6.0f)
-                curveTo(5.4477f, 9.0f, 5.0f, 8.5523f, 5.0f, 8.0f)
+                curveTo(5.448f, 9.0f, 5.0f, 8.552f, 5.0f, 8.0f)
                 close()
             }
         }

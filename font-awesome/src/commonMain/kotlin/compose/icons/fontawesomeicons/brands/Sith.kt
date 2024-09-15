@@ -25,7 +25,7 @@ public val BrandsGroup.Sith: ImageVector
                 lineToRelative(69.71f, 118.75f)
                 lineToRelative(-58.86f, -11.52f)
                 lineToRelative(69.84f, 91.03f)
-                arcToRelative(146.741f, 146.741f, 0.0f, false, false, 0.0f, 51.45f)
+                arcToRelative(146.74f, 146.74f, 0.0f, false, false, 0.0f, 51.45f)
                 lineToRelative(-69.84f, 91.03f)
                 lineToRelative(58.86f, -11.52f)
                 lineTo(0.0f, 480.0f)

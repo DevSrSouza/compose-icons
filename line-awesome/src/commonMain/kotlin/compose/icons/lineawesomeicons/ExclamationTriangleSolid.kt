@@ -22,15 +22,15 @@ public val LineAwesomeIcons.ExclamationTriangleSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.0f, 3.2188f)
-                lineTo(15.125f, 4.7188f)
+                moveTo(16.0f, 3.219f)
+                lineTo(15.125f, 4.719f)
                 lineTo(3.125f, 25.5f)
-                lineTo(2.2813f, 27.0f)
-                lineTo(29.7188f, 27.0f)
+                lineTo(2.281f, 27.0f)
+                lineTo(29.719f, 27.0f)
                 lineTo(28.875f, 25.5f)
-                lineTo(16.875f, 4.7188f)
+                lineTo(16.875f, 4.719f)
                 close()
-                moveTo(16.0f, 7.2188f)
+                moveTo(16.0f, 7.219f)
                 lineTo(26.25f, 25.0f)
                 lineTo(5.75f, 25.0f)
                 close()

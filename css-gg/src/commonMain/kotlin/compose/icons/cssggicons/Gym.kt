@@ -24,59 +24,59 @@ public val CssGgIcons.Gym: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(20.2739f, 9.8688f)
-                lineTo(16.8325f, 4.9539f)
-                lineTo(18.4708f, 3.8068f)
-                lineTo(21.9122f, 8.7217f)
-                lineTo(20.2739f, 9.8688f)
+                moveTo(20.274f, 9.869f)
+                lineTo(16.833f, 4.954f)
+                lineTo(18.471f, 3.807f)
+                lineTo(21.912f, 8.722f)
+                lineTo(20.274f, 9.869f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(18.3901f, 12.4086f)
-                lineTo(16.6694f, 9.9512f)
-                lineTo(8.4778f, 15.687f)
-                lineTo(10.1985f, 18.1444f)
-                lineTo(8.5602f, 19.2916f)
-                lineTo(3.9716f, 12.7383f)
-                lineTo(5.6099f, 11.5912f)
-                lineTo(7.3307f, 14.0487f)
-                lineTo(15.5222f, 8.3129f)
-                lineTo(13.8015f, 5.8554f)
-                lineTo(15.4398f, 4.7083f)
-                lineTo(20.0284f, 11.2615f)
-                lineTo(18.3901f, 12.4086f)
+                moveTo(18.39f, 12.409f)
+                lineTo(16.669f, 9.951f)
+                lineTo(8.478f, 15.687f)
+                lineTo(10.198f, 18.144f)
+                lineTo(8.56f, 19.292f)
+                lineTo(3.972f, 12.738f)
+                lineTo(5.61f, 11.591f)
+                lineTo(7.331f, 14.049f)
+                lineTo(15.522f, 8.313f)
+                lineTo(13.802f, 5.855f)
+                lineTo(15.44f, 4.708f)
+                lineTo(20.028f, 11.262f)
+                lineTo(18.39f, 12.409f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(20.7651f, 7.0833f)
-                lineTo(22.4034f, 5.9362f)
-                lineTo(21.2562f, 4.2979f)
-                lineTo(19.6179f, 5.445f)
-                lineTo(20.7651f, 7.0833f)
+                moveTo(20.765f, 7.083f)
+                lineTo(22.403f, 5.936f)
+                lineTo(21.256f, 4.298f)
+                lineTo(19.618f, 5.445f)
+                lineTo(20.765f, 7.083f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(7.1675f, 19.046f)
-                lineTo(3.7261f, 14.131f)
-                lineTo(2.0878f, 15.2782f)
-                lineTo(5.5292f, 20.1931f)
-                lineTo(7.1675f, 19.046f)
+                moveTo(7.168f, 19.046f)
+                lineTo(3.726f, 14.131f)
+                lineTo(2.088f, 15.278f)
+                lineTo(5.529f, 20.193f)
+                lineTo(7.168f, 19.046f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(4.3821f, 18.5549f)
-                lineTo(2.7438f, 19.702f)
-                lineTo(1.5966f, 18.0637f)
-                lineTo(3.2349f, 16.9166f)
-                lineTo(4.3821f, 18.5549f)
+                moveTo(4.382f, 18.555f)
+                lineTo(2.744f, 19.702f)
+                lineTo(1.597f, 18.064f)
+                lineTo(3.235f, 16.917f)
+                lineTo(4.382f, 18.555f)
                 close()
             }
         }

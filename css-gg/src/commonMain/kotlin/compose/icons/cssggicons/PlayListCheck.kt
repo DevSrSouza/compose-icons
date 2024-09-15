@@ -54,13 +54,13 @@ public val CssGgIcons.PlayListCheck: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(11.9905f, 15.025f)
-                lineTo(13.4049f, 13.6106f)
-                lineTo(15.526f, 15.7321f)
-                lineTo(19.7687f, 11.4895f)
-                lineTo(21.1829f, 12.9037f)
-                lineTo(15.526f, 18.5606f)
-                lineTo(11.9905f, 15.025f)
+                moveTo(11.991f, 15.025f)
+                lineTo(13.405f, 13.611f)
+                lineTo(15.526f, 15.732f)
+                lineTo(19.769f, 11.49f)
+                lineTo(21.183f, 12.904f)
+                lineTo(15.526f, 18.561f)
+                lineTo(11.991f, 15.025f)
                 close()
             }
         }

@@ -25,50 +25,50 @@ public val CssGgIcons.EditUnmask: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(15.0f, 5.0f)
-                curveTo(15.0f, 6.6568f, 13.6569f, 8.0f, 12.0f, 8.0f)
-                curveTo(10.3431f, 8.0f, 9.0f, 6.6568f, 9.0f, 5.0f)
-                curveTo(9.0f, 3.3431f, 10.3431f, 2.0f, 12.0f, 2.0f)
-                curveTo(13.6569f, 2.0f, 15.0f, 3.3431f, 15.0f, 5.0f)
+                curveTo(15.0f, 6.657f, 13.657f, 8.0f, 12.0f, 8.0f)
+                curveTo(10.343f, 8.0f, 9.0f, 6.657f, 9.0f, 5.0f)
+                curveTo(9.0f, 3.343f, 10.343f, 2.0f, 12.0f, 2.0f)
+                curveTo(13.657f, 2.0f, 15.0f, 3.343f, 15.0f, 5.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(14.0f, 12.0f)
-                curveTo(14.0f, 13.1046f, 13.1046f, 14.0f, 12.0f, 14.0f)
-                curveTo(10.8954f, 14.0f, 10.0f, 13.1046f, 10.0f, 12.0f)
-                curveTo(10.0f, 10.8954f, 10.8954f, 10.0f, 12.0f, 10.0f)
-                curveTo(13.1046f, 10.0f, 14.0f, 10.8954f, 14.0f, 12.0f)
+                curveTo(14.0f, 13.105f, 13.105f, 14.0f, 12.0f, 14.0f)
+                curveTo(10.895f, 14.0f, 10.0f, 13.105f, 10.0f, 12.0f)
+                curveTo(10.0f, 10.895f, 10.895f, 10.0f, 12.0f, 10.0f)
+                curveTo(13.105f, 10.0f, 14.0f, 10.895f, 14.0f, 12.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(12.0f, 22.0f)
-                curveTo(13.6569f, 22.0f, 15.0f, 20.6569f, 15.0f, 19.0f)
-                curveTo(15.0f, 17.3431f, 13.6569f, 16.0f, 12.0f, 16.0f)
-                curveTo(10.3431f, 16.0f, 9.0f, 17.3431f, 9.0f, 19.0f)
-                curveTo(9.0f, 20.6569f, 10.3431f, 22.0f, 12.0f, 22.0f)
+                curveTo(13.657f, 22.0f, 15.0f, 20.657f, 15.0f, 19.0f)
+                curveTo(15.0f, 17.343f, 13.657f, 16.0f, 12.0f, 16.0f)
+                curveTo(10.343f, 16.0f, 9.0f, 17.343f, 9.0f, 19.0f)
+                curveTo(9.0f, 20.657f, 10.343f, 22.0f, 12.0f, 22.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(22.0f, 12.0f)
-                curveTo(22.0f, 13.6569f, 20.6569f, 15.0f, 19.0f, 15.0f)
-                curveTo(17.3431f, 15.0f, 16.0f, 13.6569f, 16.0f, 12.0f)
-                curveTo(16.0f, 10.3431f, 17.3431f, 9.0f, 19.0f, 9.0f)
-                curveTo(20.6569f, 9.0f, 22.0f, 10.3431f, 22.0f, 12.0f)
+                curveTo(22.0f, 13.657f, 20.657f, 15.0f, 19.0f, 15.0f)
+                curveTo(17.343f, 15.0f, 16.0f, 13.657f, 16.0f, 12.0f)
+                curveTo(16.0f, 10.343f, 17.343f, 9.0f, 19.0f, 9.0f)
+                curveTo(20.657f, 9.0f, 22.0f, 10.343f, 22.0f, 12.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(5.0f, 15.0f)
-                curveTo(6.6568f, 15.0f, 8.0f, 13.6569f, 8.0f, 12.0f)
-                curveTo(8.0f, 10.3431f, 6.6568f, 9.0f, 5.0f, 9.0f)
-                curveTo(3.3431f, 9.0f, 2.0f, 10.3431f, 2.0f, 12.0f)
-                curveTo(2.0f, 13.6569f, 3.3431f, 15.0f, 5.0f, 15.0f)
+                curveTo(6.657f, 15.0f, 8.0f, 13.657f, 8.0f, 12.0f)
+                curveTo(8.0f, 10.343f, 6.657f, 9.0f, 5.0f, 9.0f)
+                curveTo(3.343f, 9.0f, 2.0f, 10.343f, 2.0f, 12.0f)
+                curveTo(2.0f, 13.657f, 3.343f, 15.0f, 5.0f, 15.0f)
                 close()
             }
         }

@@ -22,8 +22,8 @@ public val LineAwesomeIcons.ParagraphSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(12.0f, 5.0f)
-                curveTo(8.6992f, 5.0f, 6.0f, 7.6992f, 6.0f, 11.0f)
-                curveTo(6.0f, 14.3008f, 8.6992f, 17.0f, 12.0f, 17.0f)
+                curveTo(8.699f, 5.0f, 6.0f, 7.699f, 6.0f, 11.0f)
+                curveTo(6.0f, 14.301f, 8.699f, 17.0f, 12.0f, 17.0f)
                 lineTo(16.0f, 17.0f)
                 lineTo(16.0f, 27.0f)
                 lineTo(18.0f, 27.0f)
@@ -39,8 +39,8 @@ public val LineAwesomeIcons.ParagraphSolid: ImageVector
                 lineTo(16.0f, 7.0f)
                 lineTo(16.0f, 15.0f)
                 lineTo(12.0f, 15.0f)
-                curveTo(9.7813f, 15.0f, 8.0f, 13.2188f, 8.0f, 11.0f)
-                curveTo(8.0f, 8.7813f, 9.7813f, 7.0f, 12.0f, 7.0f)
+                curveTo(9.781f, 15.0f, 8.0f, 13.219f, 8.0f, 11.0f)
+                curveTo(8.0f, 8.781f, 9.781f, 7.0f, 12.0f, 7.0f)
                 close()
             }
         }

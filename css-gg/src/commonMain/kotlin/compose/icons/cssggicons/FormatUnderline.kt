@@ -28,24 +28,24 @@ public val CssGgIcons.FormatUnderline: ImageVector
                 verticalLineTo(4.0f)
                 horizontalLineTo(8.0f)
                 verticalLineTo(10.0f)
-                curveTo(8.0f, 12.2091f, 9.7909f, 14.0f, 12.0f, 14.0f)
-                curveTo(14.2091f, 14.0f, 16.0f, 12.2091f, 16.0f, 10.0f)
+                curveTo(8.0f, 12.209f, 9.791f, 14.0f, 12.0f, 14.0f)
+                curveTo(14.209f, 14.0f, 16.0f, 12.209f, 16.0f, 10.0f)
                 verticalLineTo(4.0f)
                 horizontalLineTo(18.0f)
                 verticalLineTo(10.0f)
-                curveTo(18.0f, 13.3137f, 15.3137f, 16.0f, 12.0f, 16.0f)
-                curveTo(8.6863f, 16.0f, 6.0f, 13.3137f, 6.0f, 10.0f)
+                curveTo(18.0f, 13.314f, 15.314f, 16.0f, 12.0f, 16.0f)
+                curveTo(8.686f, 16.0f, 6.0f, 13.314f, 6.0f, 10.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(7.0f, 18.0f)
-                curveTo(6.4477f, 18.0f, 6.0f, 18.4477f, 6.0f, 19.0f)
-                curveTo(6.0f, 19.5523f, 6.4477f, 20.0f, 7.0f, 20.0f)
+                curveTo(6.448f, 18.0f, 6.0f, 18.448f, 6.0f, 19.0f)
+                curveTo(6.0f, 19.552f, 6.448f, 20.0f, 7.0f, 20.0f)
                 horizontalLineTo(17.0f)
-                curveTo(17.5523f, 20.0f, 18.0f, 19.5523f, 18.0f, 19.0f)
-                curveTo(18.0f, 18.4477f, 17.5523f, 18.0f, 17.0f, 18.0f)
+                curveTo(17.552f, 20.0f, 18.0f, 19.552f, 18.0f, 19.0f)
+                curveTo(18.0f, 18.448f, 17.552f, 18.0f, 17.0f, 18.0f)
                 horizontalLineTo(7.0f)
                 close()
             }

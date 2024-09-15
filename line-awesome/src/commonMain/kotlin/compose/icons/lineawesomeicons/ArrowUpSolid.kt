@@ -21,17 +21,17 @@ public val LineAwesomeIcons.ArrowUpSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.0f, 4.0938f)
-                lineTo(15.2813f, 4.7813f)
-                lineTo(6.7813f, 13.2813f)
-                lineTo(8.2188f, 14.7188f)
-                lineTo(15.0f, 7.9375f)
+                moveTo(16.0f, 4.094f)
+                lineTo(15.281f, 4.781f)
+                lineTo(6.781f, 13.281f)
+                lineTo(8.219f, 14.719f)
+                lineTo(15.0f, 7.938f)
                 lineTo(15.0f, 28.0f)
                 lineTo(17.0f, 28.0f)
-                lineTo(17.0f, 7.9375f)
-                lineTo(23.7813f, 14.7188f)
-                lineTo(25.2188f, 13.2813f)
-                lineTo(16.7188f, 4.7813f)
+                lineTo(17.0f, 7.938f)
+                lineTo(23.781f, 14.719f)
+                lineTo(25.219f, 13.281f)
+                lineTo(16.719f, 4.781f)
                 close()
             }
         }

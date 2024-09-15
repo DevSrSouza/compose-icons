@@ -21,20 +21,20 @@ public val CssGgIcons.CornerDownRight: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(6.8505f, 13.4005f)
-                curveTo(5.7459f, 13.4005f, 4.8505f, 12.5051f, 4.8505f, 11.4005f)
-                verticalLineTo(3.4005f)
-                horizontalLineTo(2.8505f)
-                verticalLineTo(11.4005f)
-                curveTo(2.8505f, 13.6097f, 4.6413f, 15.4005f, 6.8505f, 15.4005f)
+                moveTo(6.85f, 13.401f)
+                curveTo(5.746f, 13.401f, 4.85f, 12.505f, 4.85f, 11.401f)
+                verticalLineTo(3.401f)
+                horizontalLineTo(2.85f)
+                verticalLineTo(11.401f)
+                curveTo(2.85f, 13.61f, 4.641f, 15.401f, 6.85f, 15.401f)
                 horizontalLineTo(17.156f)
-                lineTo(13.3714f, 19.1852f)
-                lineTo(14.7856f, 20.5994f)
-                lineTo(21.1495f, 14.2354f)
-                lineTo(14.7856f, 7.8715f)
-                lineTo(13.3714f, 9.2857f)
-                lineTo(17.4862f, 13.4005f)
-                horizontalLineTo(6.8505f)
+                lineTo(13.371f, 19.185f)
+                lineTo(14.786f, 20.599f)
+                lineTo(21.149f, 14.235f)
+                lineTo(14.786f, 7.871f)
+                lineTo(13.371f, 9.286f)
+                lineTo(17.486f, 13.401f)
+                horizontalLineTo(6.85f)
                 close()
             }
         }

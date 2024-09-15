@@ -21,8 +21,8 @@ public val LineAwesomeIcons.FacebookF: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(19.2539f, 2.0f)
-                curveTo(15.3119f, 2.0f, 13.0f, 4.0822f, 13.0f, 8.8262f)
+                moveTo(19.254f, 2.0f)
+                curveTo(15.312f, 2.0f, 13.0f, 4.082f, 13.0f, 8.826f)
                 lineTo(13.0f, 13.0f)
                 lineTo(8.0f, 13.0f)
                 lineTo(8.0f, 18.0f)
@@ -33,11 +33,11 @@ public val LineAwesomeIcons.FacebookF: ImageVector
                 lineTo(22.0f, 18.0f)
                 lineTo(23.0f, 13.0f)
                 lineTo(18.0f, 13.0f)
-                lineTo(18.0f, 9.6719f)
-                curveTo(18.0f, 7.8849f, 18.5828f, 7.0f, 20.2598f, 7.0f)
+                lineTo(18.0f, 9.672f)
+                curveTo(18.0f, 7.885f, 18.583f, 7.0f, 20.26f, 7.0f)
                 lineTo(23.0f, 7.0f)
-                lineTo(23.0f, 2.2051f)
-                curveTo(22.526f, 2.1411f, 21.1449f, 2.0f, 19.2539f, 2.0f)
+                lineTo(23.0f, 2.205f)
+                curveTo(22.526f, 2.141f, 21.145f, 2.0f, 19.254f, 2.0f)
                 close()
             }
         }

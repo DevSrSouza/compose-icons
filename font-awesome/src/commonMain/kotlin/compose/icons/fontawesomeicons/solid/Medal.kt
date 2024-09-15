@@ -23,7 +23,7 @@ public val SolidGroup.Medal: ImageVector
                     pathFillType = NonZero) {
                 moveTo(223.75f, 130.75f)
                 lineTo(154.62f, 15.54f)
-                arcTo(31.997f, 31.997f, 0.0f, false, false, 127.18f, 0.0f)
+                arcTo(32.0f, 32.0f, 0.0f, false, false, 127.18f, 0.0f)
                 lineTo(16.03f, 0.0f)
                 curveTo(3.08f, 0.0f, -4.5f, 14.57f, 2.92f, 25.18f)
                 lineToRelative(111.27f, 158.96f)

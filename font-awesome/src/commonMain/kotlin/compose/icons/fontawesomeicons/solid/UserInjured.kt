@@ -43,7 +43,7 @@ public val SolidGroup.UserInjured: ImageVector
                 lineTo(80.0f, 512.0f)
                 horizontalLineToRelative(128.26f)
                 lineToRelative(-98.45f, -221.52f)
-                arcTo(132.835f, 132.835f, 0.0f, false, false, 80.0f, 299.7f)
+                arcTo(132.84f, 132.84f, 0.0f, false, false, 80.0f, 299.7f)
                 close()
                 moveTo(0.0f, 464.0f)
                 curveToRelative(0.0f, 26.51f, 21.49f, 48.0f, 48.0f, 48.0f)

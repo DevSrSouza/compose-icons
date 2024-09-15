@@ -26,46 +26,46 @@ public val CssGgIcons.MoreVerticalO: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(12.0f, 9.0f)
-                curveTo(13.1046f, 9.0f, 14.0f, 8.1046f, 14.0f, 7.0f)
-                curveTo(14.0f, 5.8954f, 13.1046f, 5.0f, 12.0f, 5.0f)
-                curveTo(10.8954f, 5.0f, 10.0f, 5.8954f, 10.0f, 7.0f)
-                curveTo(10.0f, 8.1046f, 10.8954f, 9.0f, 12.0f, 9.0f)
+                curveTo(13.105f, 9.0f, 14.0f, 8.105f, 14.0f, 7.0f)
+                curveTo(14.0f, 5.895f, 13.105f, 5.0f, 12.0f, 5.0f)
+                curveTo(10.895f, 5.0f, 10.0f, 5.895f, 10.0f, 7.0f)
+                curveTo(10.0f, 8.105f, 10.895f, 9.0f, 12.0f, 9.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(14.0f, 12.0f)
-                curveTo(14.0f, 13.1046f, 13.1046f, 14.0f, 12.0f, 14.0f)
-                curveTo(10.8954f, 14.0f, 10.0f, 13.1046f, 10.0f, 12.0f)
-                curveTo(10.0f, 10.8954f, 10.8954f, 10.0f, 12.0f, 10.0f)
-                curveTo(13.1046f, 10.0f, 14.0f, 10.8954f, 14.0f, 12.0f)
+                curveTo(14.0f, 13.105f, 13.105f, 14.0f, 12.0f, 14.0f)
+                curveTo(10.895f, 14.0f, 10.0f, 13.105f, 10.0f, 12.0f)
+                curveTo(10.0f, 10.895f, 10.895f, 10.0f, 12.0f, 10.0f)
+                curveTo(13.105f, 10.0f, 14.0f, 10.895f, 14.0f, 12.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(12.0f, 19.0f)
-                curveTo(13.1046f, 19.0f, 14.0f, 18.1046f, 14.0f, 17.0f)
-                curveTo(14.0f, 15.8954f, 13.1046f, 15.0f, 12.0f, 15.0f)
-                curveTo(10.8954f, 15.0f, 10.0f, 15.8954f, 10.0f, 17.0f)
-                curveTo(10.0f, 18.1046f, 10.8954f, 19.0f, 12.0f, 19.0f)
+                curveTo(13.105f, 19.0f, 14.0f, 18.105f, 14.0f, 17.0f)
+                curveTo(14.0f, 15.895f, 13.105f, 15.0f, 12.0f, 15.0f)
+                curveTo(10.895f, 15.0f, 10.0f, 15.895f, 10.0f, 17.0f)
+                curveTo(10.0f, 18.105f, 10.895f, 19.0f, 12.0f, 19.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(24.0f, 12.0f)
-                curveTo(24.0f, 18.6274f, 18.6274f, 24.0f, 12.0f, 24.0f)
-                curveTo(5.3726f, 24.0f, 0.0f, 18.6274f, 0.0f, 12.0f)
-                curveTo(0.0f, 5.3726f, 5.3726f, 0.0f, 12.0f, 0.0f)
-                curveTo(18.6274f, 0.0f, 24.0f, 5.3726f, 24.0f, 12.0f)
+                curveTo(24.0f, 18.627f, 18.627f, 24.0f, 12.0f, 24.0f)
+                curveTo(5.373f, 24.0f, 0.0f, 18.627f, 0.0f, 12.0f)
+                curveTo(0.0f, 5.373f, 5.373f, 0.0f, 12.0f, 0.0f)
+                curveTo(18.627f, 0.0f, 24.0f, 5.373f, 24.0f, 12.0f)
                 close()
                 moveTo(22.0f, 12.0f)
-                curveTo(22.0f, 17.5228f, 17.5228f, 22.0f, 12.0f, 22.0f)
-                curveTo(6.4771f, 22.0f, 2.0f, 17.5228f, 2.0f, 12.0f)
-                curveTo(2.0f, 6.4771f, 6.4771f, 2.0f, 12.0f, 2.0f)
-                curveTo(17.5228f, 2.0f, 22.0f, 6.4771f, 22.0f, 12.0f)
+                curveTo(22.0f, 17.523f, 17.523f, 22.0f, 12.0f, 22.0f)
+                curveTo(6.477f, 22.0f, 2.0f, 17.523f, 2.0f, 12.0f)
+                curveTo(2.0f, 6.477f, 6.477f, 2.0f, 12.0f, 2.0f)
+                curveTo(17.523f, 2.0f, 22.0f, 6.477f, 22.0f, 12.0f)
                 close()
             }
         }

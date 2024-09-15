@@ -44,13 +44,13 @@ public val CssGgIcons.MoveDown: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(11.0001f, 5.0f)
-                horizontalLineTo(13.0001f)
-                verticalLineTo(14.9999f)
-                horizontalLineTo(16.0355f)
-                lineTo(12.0356f, 19.071f)
-                lineTo(8.0356f, 14.9999f)
-                horizontalLineTo(11.0001f)
+                moveTo(11.0f, 5.0f)
+                horizontalLineTo(13.0f)
+                verticalLineTo(15.0f)
+                horizontalLineTo(16.035f)
+                lineTo(12.036f, 19.071f)
+                lineTo(8.036f, 15.0f)
+                horizontalLineTo(11.0f)
                 verticalLineTo(5.0f)
                 close()
             }

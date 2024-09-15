@@ -22,10 +22,10 @@ public val CssGgIcons.Bmw: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(21.0f, 12.0f)
-                curveTo(21.0f, 16.9706f, 16.9706f, 21.0f, 12.0f, 21.0f)
-                curveTo(7.0294f, 21.0f, 3.0f, 16.9706f, 3.0f, 12.0f)
-                curveTo(3.0f, 7.0294f, 7.0294f, 3.0f, 12.0f, 3.0f)
-                curveTo(16.9706f, 3.0f, 21.0f, 7.0294f, 21.0f, 12.0f)
+                curveTo(21.0f, 16.971f, 16.971f, 21.0f, 12.0f, 21.0f)
+                curveTo(7.029f, 21.0f, 3.0f, 16.971f, 3.0f, 12.0f)
+                curveTo(3.0f, 7.029f, 7.029f, 3.0f, 12.0f, 3.0f)
+                curveTo(16.971f, 3.0f, 21.0f, 7.029f, 21.0f, 12.0f)
                 close()
                 moveTo(5.0f, 12.0f)
                 curveTo(5.0f, 15.866f, 8.134f, 19.0f, 12.0f, 19.0f)

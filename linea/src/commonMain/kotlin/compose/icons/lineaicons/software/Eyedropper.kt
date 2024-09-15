@@ -34,10 +34,10 @@ public val SoftwareGroup.Eyedropper: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(47.0005f, 34.0001f)
-                lineToRelative(-17.0001f, -17.0001f)
-                lineToRelative(4.0001f, -4.0001f)
-                lineToRelative(17.0001f, 17.0001f)
+                moveTo(47.0f, 34.0f)
+                lineToRelative(-17.0f, -17.0f)
+                lineToRelative(4.0f, -4.0f)
+                lineToRelative(17.0f, 17.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),

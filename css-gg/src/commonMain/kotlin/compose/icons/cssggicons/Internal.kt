@@ -24,31 +24,31 @@ public val CssGgIcons.Internal: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(20.7084f, 4.4117f)
-                lineTo(10.4586f, 14.6986f)
-                horizontalLineTo(14.0488f)
-                verticalLineTo(16.6986f)
-                horizontalLineTo(7.0488f)
-                verticalLineTo(9.6986f)
-                horizontalLineTo(9.0488f)
-                verticalLineTo(13.2799f)
-                lineTo(19.2916f, 3.0f)
-                lineTo(20.7084f, 4.4117f)
+                moveTo(20.708f, 4.412f)
+                lineTo(10.459f, 14.699f)
+                horizontalLineTo(14.049f)
+                verticalLineTo(16.699f)
+                horizontalLineTo(7.049f)
+                verticalLineTo(9.699f)
+                horizontalLineTo(9.049f)
+                verticalLineTo(13.28f)
+                lineTo(19.292f, 3.0f)
+                lineTo(20.708f, 4.412f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(11.0f, 4.7058f)
-                verticalLineTo(6.7058f)
+                moveTo(11.0f, 4.706f)
+                verticalLineTo(6.706f)
                 horizontalLineTo(5.0f)
-                verticalLineTo(18.7058f)
+                verticalLineTo(18.706f)
                 horizontalLineTo(17.0f)
-                verticalLineTo(12.7058f)
+                verticalLineTo(12.706f)
                 horizontalLineTo(19.0f)
-                verticalLineTo(20.7058f)
+                verticalLineTo(20.706f)
                 horizontalLineTo(3.0f)
-                verticalLineTo(4.7058f)
+                verticalLineTo(4.706f)
                 horizontalLineTo(11.0f)
                 close()
             }

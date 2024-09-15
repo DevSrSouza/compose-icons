@@ -32,7 +32,7 @@ public val SolidGroup.GreaterThan: ImageVector
                 lineToRelative(13.52f, 29.0f)
                 curveTo(24.0f, 445.54f, 43.04f, 452.47f, 59.06f, 445.0f)
                 lineToRelative(306.47f, -142.91f)
-                arcToRelative(32.003f, 32.003f, 0.0f, false, false, 18.48f, -29.0f)
+                arcToRelative(32.0f, 32.0f, 0.0f, false, false, 18.48f, -29.0f)
                 verticalLineToRelative(-34.23f)
                 curveToRelative(-0.01f, -12.45f, -7.21f, -23.76f, -18.49f, -29.01f)
                 close()

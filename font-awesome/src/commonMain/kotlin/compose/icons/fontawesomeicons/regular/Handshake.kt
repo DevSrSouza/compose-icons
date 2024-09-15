@@ -23,7 +23,7 @@ public val RegularGroup.Handshake: ImageVector
                     pathFillType = NonZero) {
                 moveTo(519.2f, 127.9f)
                 lineToRelative(-47.6f, -47.6f)
-                arcTo(56.252f, 56.252f, 0.0f, false, false, 432.0f, 64.0f)
+                arcTo(56.25f, 56.25f, 0.0f, false, false, 432.0f, 64.0f)
                 lineTo(205.2f, 64.0f)
                 curveToRelative(-14.8f, 0.0f, -29.1f, 5.9f, -39.6f, 16.3f)
                 lineTo(118.0f, 127.9f)

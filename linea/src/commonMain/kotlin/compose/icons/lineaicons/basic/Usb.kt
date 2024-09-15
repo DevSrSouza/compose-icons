@@ -24,19 +24,19 @@ public val BasicGroup.Usb: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(1.0006f, 14.0001f)
+                moveTo(1.001f, 14.0f)
                 lineToRelative(13.0f, -13.0f)
-                lineToRelative(13.9999f, 13.9999f)
+                lineToRelative(14.0f, 14.0f)
                 lineToRelative(-13.0f, 13.0f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(11.0001f, 32.0001f)
-                lineToRelative(20.9995f, -20.9995f)
+                moveTo(11.0f, 32.0f)
+                lineToRelative(20.999f, -20.999f)
                 lineToRelative(31.0f, 31.0f)
-                lineToRelative(-20.9995f, 20.9995f)
+                lineToRelative(-20.999f, 20.999f)
                 close()
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),

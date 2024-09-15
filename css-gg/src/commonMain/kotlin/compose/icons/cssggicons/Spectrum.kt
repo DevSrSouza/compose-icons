@@ -23,9 +23,9 @@ public val CssGgIcons.Spectrum: ImageVector
                     pathFillType = NonZero) {
                 moveTo(12.0f, 16.0f)
                 horizontalLineTo(16.0f)
-                curveTo(16.0f, 11.5817f, 12.4183f, 8.0f, 8.0f, 8.0f)
+                curveTo(16.0f, 11.582f, 12.418f, 8.0f, 8.0f, 8.0f)
                 verticalLineTo(12.0f)
-                curveTo(10.2091f, 12.0f, 12.0f, 13.7909f, 12.0f, 16.0f)
+                curveTo(10.209f, 12.0f, 12.0f, 13.791f, 12.0f, 16.0f)
                 close()
             }
         }

@@ -22,15 +22,15 @@ public val SolidGroup.Adjust: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(8.0f, 256.0f)
-                curveToRelative(0.0f, 136.966f, 111.033f, 248.0f, 248.0f, 248.0f)
-                reflectiveCurveToRelative(248.0f, -111.034f, 248.0f, -248.0f)
-                reflectiveCurveTo(392.966f, 8.0f, 256.0f, 8.0f)
-                reflectiveCurveTo(8.0f, 119.033f, 8.0f, 256.0f)
+                curveToRelative(0.0f, 136.97f, 111.03f, 248.0f, 248.0f, 248.0f)
+                reflectiveCurveToRelative(248.0f, -111.03f, 248.0f, -248.0f)
+                reflectiveCurveTo(392.97f, 8.0f, 256.0f, 8.0f)
+                reflectiveCurveTo(8.0f, 119.03f, 8.0f, 256.0f)
                 close()
                 moveTo(256.0f, 440.0f)
                 lineTo(256.0f, 72.0f)
-                curveToRelative(101.705f, 0.0f, 184.0f, 82.311f, 184.0f, 184.0f)
-                curveToRelative(0.0f, 101.705f, -82.311f, 184.0f, -184.0f, 184.0f)
+                curveToRelative(101.71f, 0.0f, 184.0f, 82.31f, 184.0f, 184.0f)
+                curveToRelative(0.0f, 101.71f, -82.31f, 184.0f, -184.0f, 184.0f)
                 close()
             }
         }

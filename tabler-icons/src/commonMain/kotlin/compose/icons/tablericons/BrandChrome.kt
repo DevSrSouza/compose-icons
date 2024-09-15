@@ -45,14 +45,14 @@ public val TablerIcons.BrandChrome: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(14.5981f, 13.5f)
-                lineTo(10.3981f, 20.7746f)
+                moveTo(14.598f, 13.5f)
+                lineTo(10.398f, 20.775f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(9.4019f, 13.5f)
-                lineTo(5.2019f, 6.2254f)
+                moveTo(9.402f, 13.5f)
+                lineTo(5.202f, 6.225f)
             }
         }
         .build()

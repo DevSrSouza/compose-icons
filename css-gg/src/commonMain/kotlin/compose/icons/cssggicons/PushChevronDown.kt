@@ -24,23 +24,23 @@ public val CssGgIcons.PushChevronDown: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(5.0f, 7.4142f)
-                lineTo(6.4142f, 6.0f)
-                lineTo(12.0711f, 11.6569f)
-                lineTo(17.7279f, 6.0f)
-                lineTo(19.1421f, 7.4142f)
-                lineTo(12.0711f, 14.4853f)
-                lineTo(5.0f, 7.4142f)
+                moveTo(5.0f, 7.414f)
+                lineTo(6.414f, 6.0f)
+                lineTo(12.071f, 11.657f)
+                lineTo(17.728f, 6.0f)
+                lineTo(19.142f, 7.414f)
+                lineTo(12.071f, 14.485f)
+                lineTo(5.0f, 7.414f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(19.0f, 16.3432f)
+                moveTo(19.0f, 16.343f)
                 horizontalLineTo(5.0f)
-                verticalLineTo(18.3432f)
+                verticalLineTo(18.343f)
                 horizontalLineTo(19.0f)
-                verticalLineTo(16.3432f)
+                verticalLineTo(16.343f)
                 close()
             }
         }

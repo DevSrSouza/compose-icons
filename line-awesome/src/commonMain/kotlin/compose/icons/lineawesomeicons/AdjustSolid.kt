@@ -22,15 +22,15 @@ public val LineAwesomeIcons.AdjustSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(16.0f, 4.0f)
-                curveTo(9.3828f, 4.0f, 4.0f, 9.3828f, 4.0f, 16.0f)
-                curveTo(4.0f, 22.6172f, 9.3828f, 28.0f, 16.0f, 28.0f)
-                curveTo(22.6172f, 28.0f, 28.0f, 22.6172f, 28.0f, 16.0f)
-                curveTo(28.0f, 9.3828f, 22.6172f, 4.0f, 16.0f, 4.0f)
+                curveTo(9.383f, 4.0f, 4.0f, 9.383f, 4.0f, 16.0f)
+                curveTo(4.0f, 22.617f, 9.383f, 28.0f, 16.0f, 28.0f)
+                curveTo(22.617f, 28.0f, 28.0f, 22.617f, 28.0f, 16.0f)
+                curveTo(28.0f, 9.383f, 22.617f, 4.0f, 16.0f, 4.0f)
                 close()
                 moveTo(16.0f, 6.0f)
                 lineTo(16.0f, 26.0f)
-                curveTo(10.4648f, 26.0f, 6.0f, 21.5352f, 6.0f, 16.0f)
-                curveTo(6.0f, 10.4648f, 10.4648f, 6.0f, 16.0f, 6.0f)
+                curveTo(10.465f, 26.0f, 6.0f, 21.535f, 6.0f, 16.0f)
+                curveTo(6.0f, 10.465f, 10.465f, 6.0f, 16.0f, 6.0f)
                 close()
             }
         }

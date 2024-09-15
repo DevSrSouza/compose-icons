@@ -45,10 +45,10 @@ public val CssGgIcons.IfDesign: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(7.0f, 5.0f)
-                curveTo(5.8954f, 5.0f, 5.0f, 5.8954f, 5.0f, 7.0f)
-                curveTo(5.0f, 8.1046f, 5.8954f, 9.0f, 7.0f, 9.0f)
-                curveTo(8.1046f, 9.0f, 9.0f, 8.1046f, 9.0f, 7.0f)
-                curveTo(9.0f, 5.8954f, 8.1046f, 5.0f, 7.0f, 5.0f)
+                curveTo(5.895f, 5.0f, 5.0f, 5.895f, 5.0f, 7.0f)
+                curveTo(5.0f, 8.105f, 5.895f, 9.0f, 7.0f, 9.0f)
+                curveTo(8.105f, 9.0f, 9.0f, 8.105f, 9.0f, 7.0f)
+                curveTo(9.0f, 5.895f, 8.105f, 5.0f, 7.0f, 5.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,

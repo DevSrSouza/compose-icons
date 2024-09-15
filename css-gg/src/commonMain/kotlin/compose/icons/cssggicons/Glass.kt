@@ -22,7 +22,7 @@ public val CssGgIcons.Glass: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(17.0f, 10.0f)
-                curveTo(17.0f, 12.419f, 15.2822f, 14.4367f, 13.0f, 14.9f)
+                curveTo(17.0f, 12.419f, 15.282f, 14.437f, 13.0f, 14.9f)
                 verticalLineTo(17.0f)
                 horizontalLineTo(15.0f)
                 verticalLineTo(19.0f)
@@ -30,7 +30,7 @@ public val CssGgIcons.Glass: ImageVector
                 verticalLineTo(17.0f)
                 horizontalLineTo(11.0f)
                 verticalLineTo(14.9f)
-                curveTo(8.7178f, 14.4367f, 7.0f, 12.419f, 7.0f, 10.0f)
+                curveTo(8.718f, 14.437f, 7.0f, 12.419f, 7.0f, 10.0f)
                 verticalLineTo(5.0f)
                 horizontalLineTo(17.0f)
                 verticalLineTo(10.0f)
@@ -38,8 +38,8 @@ public val CssGgIcons.Glass: ImageVector
                 moveTo(15.0f, 7.0f)
                 horizontalLineTo(9.0f)
                 verticalLineTo(10.0f)
-                curveTo(9.0f, 11.6569f, 10.3431f, 13.0f, 12.0f, 13.0f)
-                curveTo(13.6569f, 13.0f, 15.0f, 11.6569f, 15.0f, 10.0f)
+                curveTo(9.0f, 11.657f, 10.343f, 13.0f, 12.0f, 13.0f)
+                curveTo(13.657f, 13.0f, 15.0f, 11.657f, 15.0f, 10.0f)
                 verticalLineTo(7.0f)
                 close()
             }

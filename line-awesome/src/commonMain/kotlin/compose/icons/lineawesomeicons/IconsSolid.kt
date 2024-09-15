@@ -61,10 +61,10 @@ public val LineAwesomeIcons.IconsSolid: ImageVector
                 lineTo(23.0f, 21.0f)
                 close()
                 moveTo(11.0f, 19.0f)
-                curveTo(9.8945f, 19.0f, 9.0f, 19.8945f, 9.0f, 21.0f)
-                curveTo(9.0f, 22.1055f, 9.8945f, 23.0f, 11.0f, 23.0f)
-                curveTo(12.1055f, 23.0f, 13.0f, 22.1055f, 13.0f, 21.0f)
-                curveTo(13.0f, 19.8945f, 12.1055f, 19.0f, 11.0f, 19.0f)
+                curveTo(9.895f, 19.0f, 9.0f, 19.895f, 9.0f, 21.0f)
+                curveTo(9.0f, 22.105f, 9.895f, 23.0f, 11.0f, 23.0f)
+                curveTo(12.105f, 23.0f, 13.0f, 22.105f, 13.0f, 21.0f)
+                curveTo(13.0f, 19.895f, 12.105f, 19.0f, 11.0f, 19.0f)
                 close()
             }
         }

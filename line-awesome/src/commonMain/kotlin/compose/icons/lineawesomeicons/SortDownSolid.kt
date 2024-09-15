@@ -21,17 +21,17 @@ public val LineAwesomeIcons.SortDownSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(3.5938f, 12.0f)
-                lineTo(5.2813f, 13.7188f)
-                lineTo(15.2813f, 23.7188f)
-                lineTo(16.0f, 24.4063f)
-                lineTo(16.7188f, 23.7188f)
-                lineTo(26.7188f, 13.7188f)
-                lineTo(28.4063f, 12.0f)
+                moveTo(3.594f, 12.0f)
+                lineTo(5.281f, 13.719f)
+                lineTo(15.281f, 23.719f)
+                lineTo(16.0f, 24.406f)
+                lineTo(16.719f, 23.719f)
+                lineTo(26.719f, 13.719f)
+                lineTo(28.406f, 12.0f)
                 close()
-                moveTo(8.4375f, 14.0f)
-                lineTo(23.5625f, 14.0f)
-                lineTo(16.0f, 21.5625f)
+                moveTo(8.438f, 14.0f)
+                lineTo(23.563f, 14.0f)
+                lineTo(16.0f, 21.563f)
                 close()
             }
         }

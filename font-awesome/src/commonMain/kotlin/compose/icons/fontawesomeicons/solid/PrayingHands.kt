@@ -36,7 +36,7 @@ public val SolidGroup.PrayingHands: ImageVector
                 curveTo(117.56f, 205.9f, 112.0f, 224.31f, 112.0f, 243.29f)
                 verticalLineToRelative(80.23f)
                 lineToRelative(-90.12f, 30.04f)
-                arcTo(31.974f, 31.974f, 0.0f, false, false, 0.0f, 383.91f)
+                arcTo(31.97f, 31.97f, 0.0f, false, false, 0.0f, 383.91f)
                 verticalLineToRelative(96.0f)
                 curveToRelative(0.0f, 10.82f, 8.52f, 32.0f, 32.0f, 32.0f)
                 curveToRelative(2.69f, 0.0f, 5.41f, -0.34f, 8.06f, -1.03f)

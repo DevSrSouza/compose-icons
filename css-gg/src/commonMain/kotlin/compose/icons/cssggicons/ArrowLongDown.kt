@@ -21,16 +21,16 @@ public val CssGgIcons.ArrowLongDown: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(13.0125f, 19.162f)
-                lineTo(14.8246f, 17.3398f)
-                lineTo(16.2427f, 18.7501f)
-                lineTo(12.012f, 23.0046f)
-                lineTo(7.7573f, 18.7739f)
-                lineTo(9.1675f, 17.3557f)
-                lineTo(11.0126f, 19.1905f)
+                moveTo(13.012f, 19.162f)
+                lineTo(14.825f, 17.34f)
+                lineTo(16.243f, 18.75f)
+                lineTo(12.012f, 23.005f)
+                lineTo(7.757f, 18.774f)
+                lineTo(9.168f, 17.356f)
+                lineTo(11.013f, 19.191f)
                 lineTo(10.998f, 0.997f)
-                lineTo(12.998f, 0.9954f)
-                lineTo(13.0125f, 19.162f)
+                lineTo(12.998f, 0.995f)
+                lineTo(13.012f, 19.162f)
                 close()
             }
         }

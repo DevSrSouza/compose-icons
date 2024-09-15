@@ -25,10 +25,10 @@ public val CssGgIcons.Notifications: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(20.0f, 7.0f)
-                curveTo(20.0f, 8.6568f, 18.6569f, 10.0f, 17.0f, 10.0f)
-                curveTo(15.3431f, 10.0f, 14.0f, 8.6568f, 14.0f, 7.0f)
-                curveTo(14.0f, 5.3432f, 15.3431f, 4.0f, 17.0f, 4.0f)
-                curveTo(18.6569f, 4.0f, 20.0f, 5.3432f, 20.0f, 7.0f)
+                curveTo(20.0f, 8.657f, 18.657f, 10.0f, 17.0f, 10.0f)
+                curveTo(15.343f, 10.0f, 14.0f, 8.657f, 14.0f, 7.0f)
+                curveTo(14.0f, 5.343f, 15.343f, 4.0f, 17.0f, 4.0f)
+                curveTo(18.657f, 4.0f, 20.0f, 5.343f, 20.0f, 7.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,

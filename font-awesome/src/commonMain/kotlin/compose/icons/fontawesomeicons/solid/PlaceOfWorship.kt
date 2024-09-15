@@ -47,7 +47,7 @@ public val SolidGroup.PlaceOfWorship: ImageVector
                 curveToRelative(-6.0f, 6.0f, -9.38f, 14.14f, -9.38f, 22.63f)
                 lineTo(224.0f, 217.6f)
                 lineToRelative(-48.46f, 29.08f)
-                arcTo(31.997f, 31.997f, 0.0f, false, false, 160.0f, 274.12f)
+                arcTo(32.0f, 32.0f, 0.0f, false, false, 160.0f, 274.12f)
                 lineTo(160.0f, 512.0f)
                 horizontalLineToRelative(96.0f)
                 verticalLineToRelative(-96.0f)

@@ -23,8 +23,8 @@ public val CssGgIcons.Shield: ImageVector
                     pathFillType = EvenOdd) {
                 moveTo(7.0f, 8.0f)
                 verticalLineTo(13.0f)
-                curveTo(7.0f, 15.7614f, 9.2386f, 18.0f, 12.0f, 18.0f)
-                curveTo(14.7614f, 18.0f, 17.0f, 15.7614f, 17.0f, 13.0f)
+                curveTo(7.0f, 15.761f, 9.239f, 18.0f, 12.0f, 18.0f)
+                curveTo(14.761f, 18.0f, 17.0f, 15.761f, 17.0f, 13.0f)
                 verticalLineTo(8.0f)
                 horizontalLineTo(7.0f)
                 close()

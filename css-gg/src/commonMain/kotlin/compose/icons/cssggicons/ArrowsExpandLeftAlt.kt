@@ -24,41 +24,41 @@ public val CssGgIcons.ArrowsExpandLeftAlt: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.1005f, 2.1005f)
-                verticalLineTo(4.1005f)
-                horizontalLineTo(5.5147f)
-                lineTo(11.293f, 9.8788f)
-                lineTo(9.8787f, 11.293f)
-                lineTo(4.1005f, 5.5147f)
-                lineTo(4.1005f, 10.1005f)
-                horizontalLineTo(2.1005f)
-                lineTo(2.1005f, 2.1005f)
-                horizontalLineTo(10.1005f)
+                moveTo(10.101f, 2.101f)
+                verticalLineTo(4.101f)
+                horizontalLineTo(5.515f)
+                lineTo(11.293f, 9.879f)
+                lineTo(9.879f, 11.293f)
+                lineTo(4.1f, 5.515f)
+                lineTo(4.1f, 10.101f)
+                horizontalLineTo(2.1f)
+                lineTo(2.1f, 2.101f)
+                horizontalLineTo(10.101f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(21.8995f, 13.8995f)
-                horizontalLineTo(19.8995f)
-                verticalLineTo(18.4853f)
-                lineTo(14.1212f, 12.707f)
-                lineTo(12.707f, 14.1213f)
-                lineTo(18.4853f, 19.8995f)
-                horizontalLineTo(13.8995f)
-                verticalLineTo(21.8995f)
-                horizontalLineTo(21.8995f)
-                verticalLineTo(13.8995f)
+                moveTo(21.899f, 13.899f)
+                horizontalLineTo(19.899f)
+                verticalLineTo(18.485f)
+                lineTo(14.121f, 12.707f)
+                lineTo(12.707f, 14.121f)
+                lineTo(18.485f, 19.899f)
+                horizontalLineTo(13.899f)
+                verticalLineTo(21.899f)
+                horizontalLineTo(21.899f)
+                verticalLineTo(13.899f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.2426f, 9.1716f)
-                lineTo(14.8284f, 7.7574f)
-                lineTo(7.7573f, 14.8285f)
-                lineTo(9.1715f, 16.2427f)
-                lineTo(16.2426f, 9.1716f)
+                moveTo(16.243f, 9.172f)
+                lineTo(14.828f, 7.757f)
+                lineTo(7.757f, 14.828f)
+                lineTo(9.172f, 16.243f)
+                lineTo(16.243f, 9.172f)
                 close()
             }
         }

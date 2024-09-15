@@ -34,8 +34,8 @@ public val LineAwesomeIcons.ICursorSolid: ImageVector
                 lineTo(10.0f, 25.0f)
                 lineTo(10.0f, 27.0f)
                 lineTo(12.0f, 27.0f)
-                curveTo(13.6328f, 27.0f, 15.0859f, 26.1875f, 16.0f, 24.9688f)
-                curveTo(16.9141f, 26.1875f, 18.3672f, 27.0f, 20.0f, 27.0f)
+                curveTo(13.633f, 27.0f, 15.086f, 26.188f, 16.0f, 24.969f)
+                curveTo(16.914f, 26.188f, 18.367f, 27.0f, 20.0f, 27.0f)
                 lineTo(22.0f, 27.0f)
                 lineTo(22.0f, 25.0f)
                 lineTo(20.0f, 25.0f)
@@ -49,8 +49,8 @@ public val LineAwesomeIcons.ICursorSolid: ImageVector
                 lineTo(22.0f, 7.0f)
                 lineTo(22.0f, 5.0f)
                 lineTo(20.0f, 5.0f)
-                curveTo(18.3672f, 5.0f, 16.9141f, 5.8125f, 16.0f, 7.0313f)
-                curveTo(15.0859f, 5.8125f, 13.6328f, 5.0f, 12.0f, 5.0f)
+                curveTo(18.367f, 5.0f, 16.914f, 5.813f, 16.0f, 7.031f)
+                curveTo(15.086f, 5.813f, 13.633f, 5.0f, 12.0f, 5.0f)
                 close()
             }
         }

@@ -21,15 +21,15 @@ public val LineAwesomeIcons.LongArrowAltLeftSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.8125f, 9.2813f)
-                lineTo(4.0938f, 16.0f)
-                lineTo(10.8125f, 22.7188f)
-                lineTo(12.2188f, 21.2813f)
-                lineTo(7.9375f, 17.0f)
+                moveTo(10.813f, 9.281f)
+                lineTo(4.094f, 16.0f)
+                lineTo(10.813f, 22.719f)
+                lineTo(12.219f, 21.281f)
+                lineTo(7.938f, 17.0f)
                 lineTo(28.0f, 17.0f)
                 lineTo(28.0f, 15.0f)
-                lineTo(7.9375f, 15.0f)
-                lineTo(12.2188f, 10.7188f)
+                lineTo(7.938f, 15.0f)
+                lineTo(12.219f, 10.719f)
                 close()
             }
         }

@@ -22,9 +22,9 @@ public val SimpleIcons.Uploaded: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveToRelative(14.651f, 13.862f)
-                curveToRelative(0.0f, 2.5477f, -2.0653f, 4.613f, -4.613f, 4.613f)
-                curveToRelative(-2.5477f, 0.0f, -4.613f, -2.0653f, -4.613f, -4.613f)
-                curveToRelative(0.0f, -6.1507f, 9.226f, -6.1507f, 9.226f, 0.0f)
+                curveToRelative(0.0f, 2.548f, -2.065f, 4.613f, -4.613f, 4.613f)
+                curveToRelative(-2.548f, 0.0f, -4.613f, -2.065f, -4.613f, -4.613f)
+                curveToRelative(0.0f, -6.151f, 9.226f, -6.151f, 9.226f, 0.0f)
                 close()
                 moveTo(18.148f, 19.902f)
                 curveToRelative(-1.33f, 1.334f, -3.109f, 3.957f, -8.119f, 4.095f)

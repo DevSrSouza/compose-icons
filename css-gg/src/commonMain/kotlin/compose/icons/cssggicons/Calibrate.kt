@@ -24,23 +24,23 @@ public val CssGgIcons.Calibrate: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0503f, 5.0f)
-                curveTo(14.51f, 5.0f, 16.7393f, 5.9868f, 18.3638f, 7.586f)
-                lineTo(14.1208f, 11.8291f)
-                curveTo(13.5824f, 11.3154f, 12.8531f, 11.0f, 12.0503f, 11.0f)
-                curveTo(11.1963f, 11.0f, 10.4256f, 11.3568f, 9.8793f, 11.9295f)
-                lineTo(5.6362f, 7.6865f)
-                curveTo(7.2687f, 6.0282f, 9.5394f, 5.0f, 12.0503f, 5.0f)
+                moveTo(12.05f, 5.0f)
+                curveTo(14.51f, 5.0f, 16.739f, 5.987f, 18.364f, 7.586f)
+                lineTo(14.121f, 11.829f)
+                curveTo(13.582f, 11.315f, 12.853f, 11.0f, 12.05f, 11.0f)
+                curveTo(11.196f, 11.0f, 10.426f, 11.357f, 9.879f, 11.929f)
+                lineTo(5.636f, 7.687f)
+                curveTo(7.269f, 6.028f, 9.539f, 5.0f, 12.05f, 5.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(12.0503f, 19.0f)
-                curveTo(13.7071f, 19.0f, 15.0503f, 17.6569f, 15.0503f, 16.0f)
-                curveTo(15.0503f, 14.3431f, 13.7071f, 13.0f, 12.0503f, 13.0f)
-                curveTo(10.3934f, 13.0f, 9.0503f, 14.3431f, 9.0503f, 16.0f)
-                curveTo(9.0503f, 17.6569f, 10.3934f, 19.0f, 12.0503f, 19.0f)
+                moveTo(12.05f, 19.0f)
+                curveTo(13.707f, 19.0f, 15.05f, 17.657f, 15.05f, 16.0f)
+                curveTo(15.05f, 14.343f, 13.707f, 13.0f, 12.05f, 13.0f)
+                curveTo(10.393f, 13.0f, 9.05f, 14.343f, 9.05f, 16.0f)
+                curveTo(9.05f, 17.657f, 10.393f, 19.0f, 12.05f, 19.0f)
                 close()
             }
         }

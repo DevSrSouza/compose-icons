@@ -21,10 +21,10 @@ public val CssGgIcons.Zeit: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(17.9923f, 17.0225f)
-                lineTo(11.9806f, 6.9773f)
-                lineTo(6.0078f, 17.0225f)
-                horizontalLineTo(17.9923f)
+                moveTo(17.992f, 17.022f)
+                lineTo(11.981f, 6.977f)
+                lineTo(6.008f, 17.022f)
+                horizontalLineTo(17.992f)
                 close()
             }
         }

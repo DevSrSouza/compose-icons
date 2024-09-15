@@ -22,14 +22,14 @@ public val LineAwesomeIcons.UndoAltSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(16.0f, 3.0f)
-                curveTo(12.0f, 3.0f, 8.4f, 4.7992f, 6.0f, 7.6992f)
+                curveTo(12.0f, 3.0f, 8.4f, 4.799f, 6.0f, 7.699f)
                 lineTo(6.0f, 4.0f)
                 lineTo(4.0f, 4.0f)
                 lineTo(4.0f, 12.0f)
                 lineTo(12.0f, 12.0f)
                 lineTo(12.0f, 10.0f)
-                lineTo(6.8008f, 10.0f)
-                curveTo(8.8008f, 7.0f, 12.1f, 5.0f, 16.0f, 5.0f)
+                lineTo(6.801f, 10.0f)
+                curveTo(8.801f, 7.0f, 12.1f, 5.0f, 16.0f, 5.0f)
                 curveTo(22.1f, 5.0f, 27.0f, 9.9f, 27.0f, 16.0f)
                 curveTo(27.0f, 22.1f, 22.1f, 27.0f, 16.0f, 27.0f)
                 curveTo(9.9f, 27.0f, 5.0f, 22.1f, 5.0f, 16.0f)

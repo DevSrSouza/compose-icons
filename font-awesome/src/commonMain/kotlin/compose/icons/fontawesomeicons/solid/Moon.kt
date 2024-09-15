@@ -21,15 +21,15 @@ public val SolidGroup.Moon: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(283.211f, 512.0f)
-                curveToRelative(78.962f, 0.0f, 151.079f, -35.925f, 198.857f, -94.792f)
-                curveToRelative(7.068f, -8.708f, -0.639f, -21.43f, -11.562f, -19.35f)
-                curveToRelative(-124.203f, 23.654f, -238.262f, -71.576f, -238.262f, -196.954f)
-                curveToRelative(0.0f, -72.222f, 38.662f, -138.635f, 101.498f, -174.394f)
-                curveToRelative(9.686f, -5.512f, 7.25f, -20.197f, -3.756f, -22.23f)
-                arcTo(258.156f, 258.156f, 0.0f, false, false, 283.211f, 0.0f)
-                curveToRelative(-141.309f, 0.0f, -256.0f, 114.511f, -256.0f, 256.0f)
-                curveToRelative(0.0f, 141.309f, 114.511f, 256.0f, 256.0f, 256.0f)
+                moveTo(283.21f, 512.0f)
+                curveToRelative(78.96f, 0.0f, 151.08f, -35.92f, 198.86f, -94.79f)
+                curveToRelative(7.07f, -8.71f, -0.64f, -21.43f, -11.56f, -19.35f)
+                curveToRelative(-124.2f, 23.65f, -238.26f, -71.58f, -238.26f, -196.95f)
+                curveToRelative(0.0f, -72.22f, 38.66f, -138.63f, 101.5f, -174.39f)
+                curveToRelative(9.69f, -5.51f, 7.25f, -20.2f, -3.76f, -22.23f)
+                arcTo(258.16f, 258.16f, 0.0f, false, false, 283.21f, 0.0f)
+                curveToRelative(-141.31f, 0.0f, -256.0f, 114.51f, -256.0f, 256.0f)
+                curveToRelative(0.0f, 141.31f, 114.51f, 256.0f, 256.0f, 256.0f)
                 close()
             }
         }

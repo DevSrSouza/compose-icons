@@ -24,10 +24,10 @@ public val FillGroup.Droplet: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.0f, strokeAlpha
                     = 0.0f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(0.1992f, 8.0E-4f)
-                lineToRelative(23.9992f, 0.2011f)
-                lineToRelative(-0.2011f, 23.9992f)
-                lineToRelative(-23.9992f, -0.2011f)
+                moveTo(0.199f, 0.001f)
+                lineToRelative(23.999f, 0.201f)
+                lineToRelative(-0.201f, 23.999f)
+                lineToRelative(-23.999f, -0.201f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF231f20)), stroke = null, strokeLineWidth = 0.0f,

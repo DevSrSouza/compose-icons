@@ -35,13 +35,13 @@ public val CssGgIcons.Inpicture: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(1.0f, 6.0f)
-                curveTo(1.0f, 4.8954f, 1.8954f, 4.0f, 3.0f, 4.0f)
+                curveTo(1.0f, 4.895f, 1.895f, 4.0f, 3.0f, 4.0f)
                 horizontalLineTo(21.0f)
-                curveTo(22.1046f, 4.0f, 23.0f, 4.8954f, 23.0f, 6.0f)
+                curveTo(22.105f, 4.0f, 23.0f, 4.895f, 23.0f, 6.0f)
                 verticalLineTo(18.0f)
-                curveTo(23.0f, 19.1046f, 22.1046f, 20.0f, 21.0f, 20.0f)
+                curveTo(23.0f, 19.105f, 22.105f, 20.0f, 21.0f, 20.0f)
                 horizontalLineTo(3.0f)
-                curveTo(1.8954f, 20.0f, 1.0f, 19.1046f, 1.0f, 18.0f)
+                curveTo(1.895f, 20.0f, 1.0f, 19.105f, 1.0f, 18.0f)
                 verticalLineTo(6.0f)
                 close()
                 moveTo(3.0f, 6.0f)

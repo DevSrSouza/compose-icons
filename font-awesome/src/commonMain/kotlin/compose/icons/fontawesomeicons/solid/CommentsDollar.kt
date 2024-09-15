@@ -26,7 +26,7 @@ public val SolidGroup.CommentsDollar: ImageVector
                 reflectiveCurveTo(0.0f, 103.63f, 0.0f, 192.0f)
                 curveToRelative(0.0f, 34.27f, 14.13f, 65.95f, 37.97f, 91.98f)
                 curveTo(24.61f, 314.22f, 2.52f, 338.16f, 2.2f, 338.5f)
-                arcTo(7.995f, 7.995f, 0.0f, false, false, 8.0f, 352.0f)
+                arcTo(7.99f, 7.99f, 0.0f, false, false, 8.0f, 352.0f)
                 curveToRelative(36.58f, 0.0f, 66.93f, -12.25f, 88.73f, -24.98f)
                 curveTo(128.93f, 342.76f, 167.02f, 352.0f, 208.0f, 352.0f)
                 curveToRelative(114.88f, 0.0f, 208.0f, -71.63f, 208.0f, -160.0f)

@@ -28,7 +28,7 @@ public val SolidGroup.Highlighter: ImageVector
                 lineTo(0.0f, 479.98f)
                 close()
                 moveTo(124.61f, 239.97f)
-                arcToRelative(36.592f, 36.592f, 0.0f, false, false, -10.79f, 38.1f)
+                arcToRelative(36.59f, 36.59f, 0.0f, false, false, -10.79f, 38.1f)
                 lineToRelative(13.05f, 42.83f)
                 lineToRelative(-50.93f, 50.94f)
                 lineToRelative(96.23f, 96.23f)

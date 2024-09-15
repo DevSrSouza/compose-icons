@@ -40,7 +40,7 @@ public val LineAwesomeIcons.MoneyBillAlt: ImageVector
                 moveTo(15.0f, 11.0f)
                 curveTo(15.0f, 12.439f, 14.439f, 13.0f, 13.0f, 13.0f)
                 lineTo(13.0f, 15.0f)
-                curveTo(13.7758f, 15.0f, 14.4368f, 14.8488f, 15.0f, 14.5879f)
+                curveTo(13.776f, 15.0f, 14.437f, 14.849f, 15.0f, 14.588f)
                 lineTo(15.0f, 20.0f)
                 lineTo(17.0f, 20.0f)
                 lineTo(17.0f, 11.0f)

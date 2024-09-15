@@ -42,10 +42,10 @@ public val CssGgIcons.ScreenMirror: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.3301f, 19.0f)
+                moveTo(16.33f, 19.0f)
                 lineTo(12.0f, 13.0f)
-                lineTo(7.6699f, 19.0f)
-                horizontalLineTo(16.3301f)
+                lineTo(7.67f, 19.0f)
+                horizontalLineTo(16.33f)
                 close()
             }
         }

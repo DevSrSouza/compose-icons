@@ -24,7 +24,7 @@ public val SolidGroup.Plane: ImageVector
                 moveTo(480.0f, 192.0f)
                 horizontalLineTo(365.71f)
                 lineTo(260.61f, 8.06f)
-                arcTo(16.014f, 16.014f, 0.0f, false, false, 246.71f, 0.0f)
+                arcTo(16.01f, 16.01f, 0.0f, false, false, 246.71f, 0.0f)
                 horizontalLineToRelative(-65.5f)
                 curveToRelative(-10.63f, 0.0f, -18.3f, 10.17f, -15.38f, 20.39f)
                 lineTo(214.86f, 192.0f)

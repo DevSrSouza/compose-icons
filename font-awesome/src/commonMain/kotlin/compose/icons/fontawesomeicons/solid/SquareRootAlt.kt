@@ -48,7 +48,7 @@ public val SolidGroup.SquareRootAlt: ImageVector
                 curveToRelative(-14.54f, 0.0f, -27.26f, 9.8f, -30.95f, 23.87f)
                 lineToRelative(-84.79f, 322.8f)
                 lineToRelative(-58.41f, -106.1f)
-                arcTo(32.008f, 32.008f, 0.0f, false, false, 105.47f, 224.0f)
+                arcTo(32.01f, 32.01f, 0.0f, false, false, 105.47f, 224.0f)
                 horizontalLineTo(24.0f)
                 curveToRelative(-13.25f, 0.0f, -24.0f, 10.74f, -24.0f, 24.0f)
                 verticalLineToRelative(48.0f)

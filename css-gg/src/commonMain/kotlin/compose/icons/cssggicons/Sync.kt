@@ -24,27 +24,27 @@ public val CssGgIcons.Sync: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(4.5608f, 10.6418f)
-                lineTo(6.3539f, 3.9497f)
-                lineTo(8.254f, 5.8498f)
-                curveTo(11.7312f, 3.6588f, 16.3814f, 4.0776f, 19.41f, 7.1063f)
-                lineTo(17.9958f, 8.5205f)
-                curveTo(15.7536f, 6.2783f, 12.3686f, 5.8752f, 9.7155f, 7.3113f)
-                lineTo(11.2529f, 8.8487f)
-                lineTo(4.5608f, 10.6418f)
+                moveTo(4.561f, 10.642f)
+                lineTo(6.354f, 3.95f)
+                lineTo(8.254f, 5.85f)
+                curveTo(11.731f, 3.659f, 16.381f, 4.078f, 19.41f, 7.106f)
+                lineTo(17.996f, 8.521f)
+                curveTo(15.754f, 6.278f, 12.369f, 5.875f, 9.716f, 7.311f)
+                lineTo(11.253f, 8.849f)
+                lineTo(4.561f, 10.642f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(19.4392f, 13.3581f)
-                lineTo(17.646f, 20.0502f)
-                lineTo(15.7459f, 18.1501f)
-                curveTo(12.2688f, 20.3411f, 7.6186f, 19.9223f, 4.5899f, 16.8936f)
-                lineTo(6.0041f, 15.4794f)
-                curveTo(8.2464f, 17.7217f, 11.6313f, 18.1247f, 14.2844f, 16.6887f)
-                lineTo(12.747f, 15.1512f)
-                lineTo(19.4392f, 13.3581f)
+                moveTo(19.439f, 13.358f)
+                lineTo(17.646f, 20.05f)
+                lineTo(15.746f, 18.15f)
+                curveTo(12.269f, 20.341f, 7.619f, 19.922f, 4.59f, 16.894f)
+                lineTo(6.004f, 15.479f)
+                curveTo(8.246f, 17.722f, 11.631f, 18.125f, 14.284f, 16.689f)
+                lineTo(12.747f, 15.151f)
+                lineTo(19.439f, 13.358f)
                 close()
             }
         }

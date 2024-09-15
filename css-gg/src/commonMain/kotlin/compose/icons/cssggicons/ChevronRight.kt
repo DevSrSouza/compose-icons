@@ -21,13 +21,13 @@ public val CssGgIcons.ChevronRight: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.5858f, 6.3432f)
+                moveTo(10.586f, 6.343f)
                 lineTo(12.0f, 4.929f)
-                lineTo(19.0711f, 12.0f)
-                lineTo(12.0f, 19.0711f)
-                lineTo(10.5858f, 17.6569f)
-                lineTo(16.2427f, 12.0f)
-                lineTo(10.5858f, 6.3432f)
+                lineTo(19.071f, 12.0f)
+                lineTo(12.0f, 19.071f)
+                lineTo(10.586f, 17.657f)
+                lineTo(16.243f, 12.0f)
+                lineTo(10.586f, 6.343f)
                 close()
             }
         }

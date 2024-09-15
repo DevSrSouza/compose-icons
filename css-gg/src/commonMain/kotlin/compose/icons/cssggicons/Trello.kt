@@ -26,13 +26,13 @@ public val CssGgIcons.Trello: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(6.0f, 7.0f)
-                curveTo(6.0f, 6.4477f, 6.4477f, 6.0f, 7.0f, 6.0f)
+                curveTo(6.0f, 6.448f, 6.448f, 6.0f, 7.0f, 6.0f)
                 horizontalLineTo(10.0f)
-                curveTo(10.5523f, 6.0f, 11.0f, 6.4477f, 11.0f, 7.0f)
+                curveTo(10.552f, 6.0f, 11.0f, 6.448f, 11.0f, 7.0f)
                 verticalLineTo(17.0f)
-                curveTo(11.0f, 17.5523f, 10.5523f, 18.0f, 10.0f, 18.0f)
+                curveTo(11.0f, 17.552f, 10.552f, 18.0f, 10.0f, 18.0f)
                 horizontalLineTo(7.0f)
-                curveTo(6.4477f, 18.0f, 6.0f, 17.5523f, 6.0f, 17.0f)
+                curveTo(6.448f, 18.0f, 6.0f, 17.552f, 6.0f, 17.0f)
                 verticalLineTo(7.0f)
                 close()
             }
@@ -40,13 +40,13 @@ public val CssGgIcons.Trello: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(13.0f, 7.0f)
-                curveTo(13.0f, 6.4477f, 13.4477f, 6.0f, 14.0f, 6.0f)
+                curveTo(13.0f, 6.448f, 13.448f, 6.0f, 14.0f, 6.0f)
                 horizontalLineTo(17.0f)
-                curveTo(17.5523f, 6.0f, 18.0f, 6.4477f, 18.0f, 7.0f)
+                curveTo(17.552f, 6.0f, 18.0f, 6.448f, 18.0f, 7.0f)
                 verticalLineTo(13.0f)
-                curveTo(18.0f, 13.5523f, 17.5523f, 14.0f, 17.0f, 14.0f)
+                curveTo(18.0f, 13.552f, 17.552f, 14.0f, 17.0f, 14.0f)
                 horizontalLineTo(14.0f)
-                curveTo(13.4477f, 14.0f, 13.0f, 13.5523f, 13.0f, 13.0f)
+                curveTo(13.448f, 14.0f, 13.0f, 13.552f, 13.0f, 13.0f)
                 verticalLineTo(7.0f)
                 close()
             }
@@ -54,13 +54,13 @@ public val CssGgIcons.Trello: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(2.0f, 4.0f)
-                curveTo(2.0f, 2.8954f, 2.8954f, 2.0f, 4.0f, 2.0f)
+                curveTo(2.0f, 2.895f, 2.895f, 2.0f, 4.0f, 2.0f)
                 horizontalLineTo(20.0f)
-                curveTo(21.1046f, 2.0f, 22.0f, 2.8954f, 22.0f, 4.0f)
+                curveTo(21.105f, 2.0f, 22.0f, 2.895f, 22.0f, 4.0f)
                 verticalLineTo(20.0f)
-                curveTo(22.0f, 21.1046f, 21.1046f, 22.0f, 20.0f, 22.0f)
+                curveTo(22.0f, 21.105f, 21.105f, 22.0f, 20.0f, 22.0f)
                 horizontalLineTo(4.0f)
-                curveTo(2.8954f, 22.0f, 2.0f, 21.1046f, 2.0f, 20.0f)
+                curveTo(2.895f, 22.0f, 2.0f, 21.105f, 2.0f, 20.0f)
                 verticalLineTo(4.0f)
                 close()
                 moveTo(4.0f, 4.0f)

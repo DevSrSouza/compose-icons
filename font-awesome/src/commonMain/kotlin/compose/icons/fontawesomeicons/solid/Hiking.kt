@@ -47,7 +47,7 @@ public val SolidGroup.Hiking: ImageVector
                 curveTo(243.38f, 134.11f, 228.61f, 128.0f, 212.91f, 128.0f)
                 curveToRelative(-27.02f, 0.0f, -50.47f, 18.3f, -57.03f, 44.52f)
                 lineToRelative(-26.92f, 107.72f)
-                arcToRelative(32.012f, 32.012f, 0.0f, false, false, 8.42f, 30.39f)
+                arcToRelative(32.01f, 32.01f, 0.0f, false, false, 8.42f, 30.39f)
                 lineTo(224.0f, 397.25f)
                 lineTo(224.0f, 480.0f)
                 curveToRelative(0.0f, 17.67f, 14.33f, 32.0f, 32.0f, 32.0f)

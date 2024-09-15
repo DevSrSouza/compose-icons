@@ -22,10 +22,10 @@ public val LineAwesomeIcons.TasksSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(10.293f, 5.293f)
-                lineTo(7.0f, 8.5859f)
+                lineTo(7.0f, 8.586f)
                 lineTo(5.707f, 7.293f)
                 lineTo(4.293f, 8.707f)
-                lineTo(7.0f, 11.4141f)
+                lineTo(7.0f, 11.414f)
                 lineTo(11.707f, 6.707f)
                 close()
                 moveTo(14.0f, 7.0f)

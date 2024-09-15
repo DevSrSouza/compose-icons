@@ -24,23 +24,23 @@ public val CssGgIcons.Maze: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(11.3709f, 9.5927f)
-                lineTo(8.7782f, 7.0f)
-                lineTo(1.0f, 14.7782f)
-                lineTo(3.5927f, 17.3709f)
-                lineTo(11.3709f, 9.5927f)
+                moveTo(11.371f, 9.593f)
+                lineTo(8.778f, 7.0f)
+                lineTo(1.0f, 14.778f)
+                lineTo(3.593f, 17.371f)
+                lineTo(11.371f, 9.593f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.2218f, 7.0f)
-                lineTo(23.0f, 14.7782f)
-                lineTo(20.424f, 17.3542f)
-                lineTo(15.2218f, 12.152f)
-                lineTo(10.0197f, 17.3542f)
-                lineTo(7.4437f, 14.7782f)
-                lineTo(15.2218f, 7.0f)
+                moveTo(15.222f, 7.0f)
+                lineTo(23.0f, 14.778f)
+                lineTo(20.424f, 17.354f)
+                lineTo(15.222f, 12.152f)
+                lineTo(10.02f, 17.354f)
+                lineTo(7.444f, 14.778f)
+                lineTo(15.222f, 7.0f)
                 close()
             }
         }

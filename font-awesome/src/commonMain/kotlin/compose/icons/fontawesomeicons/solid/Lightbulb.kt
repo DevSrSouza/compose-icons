@@ -28,7 +28,7 @@ public val SolidGroup.Lightbulb: ImageVector
                 horizontalLineToRelative(61.71f)
                 arcToRelative(31.99f, 31.99f, 0.0f, false, false, 26.64f, -14.28f)
                 lineToRelative(17.09f, -25.69f)
-                arcToRelative(31.989f, 31.989f, 0.0f, false, false, 5.36f, -17.69f)
+                arcToRelative(31.99f, 31.99f, 0.0f, false, false, 5.36f, -17.69f)
                 lineToRelative(0.04f, -38.35f)
                 lineTo(96.01f, 416.0f)
                 lineToRelative(0.05f, 38.35f)

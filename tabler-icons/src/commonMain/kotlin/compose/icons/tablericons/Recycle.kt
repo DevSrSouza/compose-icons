@@ -34,24 +34,24 @@ public val TablerIcons.Recycle: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(8.5359f, 11.0f)
-                lineToRelative(-0.7321f, -2.7321f)
-                lineToRelative(-2.7321f, 0.7321f)
-                moveToRelative(2.7321f, -0.7321f)
-                lineToRelative(-4.5f, 7.7942f)
-                arcToRelative(2.0f, 2.0f, 92.2389f, false, false, 1.5066f, 2.8905f)
-                lineToRelative(1.141f, 0.0237f)
+                moveTo(8.536f, 11.0f)
+                lineToRelative(-0.732f, -2.732f)
+                lineToRelative(-2.732f, 0.732f)
+                moveToRelative(2.732f, -0.732f)
+                lineToRelative(-4.5f, 7.794f)
+                arcToRelative(2.0f, 2.0f, 120.128f, false, false, 1.507f, 2.891f)
+                lineToRelative(1.141f, 0.024f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.4641f, 11.0f)
-                lineToRelative(2.7321f, 0.7321f)
-                lineToRelative(0.7321f, -2.7321f)
-                moveToRelative(-0.7321f, 2.7321f)
-                lineToRelative(-4.5f, -7.7942f)
-                arcToRelative(2.0f, 2.0f, 111.4966f, false, false, -3.2566f, -0.1405f)
-                lineToRelative(-0.591f, 0.9763f)
+                moveTo(15.464f, 11.0f)
+                lineToRelative(2.732f, 0.732f)
+                lineToRelative(0.732f, -2.732f)
+                moveToRelative(-0.732f, 2.732f)
+                lineToRelative(-4.5f, -7.794f)
+                arcToRelative(2.0f, 2.0f, 111.497f, false, false, -3.257f, -0.141f)
+                lineToRelative(-0.591f, 0.976f)
             }
         }
         .build()

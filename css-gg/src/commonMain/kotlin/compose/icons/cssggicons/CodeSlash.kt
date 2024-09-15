@@ -24,37 +24,37 @@ public val CssGgIcons.CodeSlash: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(13.325f, 3.0501f)
-                lineTo(8.6674f, 20.4323f)
-                lineTo(10.5993f, 20.9499f)
-                lineTo(15.2568f, 3.5677f)
-                lineTo(13.325f, 3.0501f)
+                moveTo(13.325f, 3.05f)
+                lineTo(8.667f, 20.432f)
+                lineTo(10.599f, 20.95f)
+                lineTo(15.257f, 3.568f)
+                lineTo(13.325f, 3.05f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(7.612f, 18.3608f)
-                lineTo(8.9714f, 16.9124f)
-                lineTo(8.9709f, 16.8933f)
-                lineTo(3.8766f, 12.1121f)
+                moveTo(7.612f, 18.361f)
+                lineTo(8.971f, 16.912f)
+                lineTo(8.971f, 16.893f)
+                lineTo(3.877f, 12.112f)
                 lineTo(8.667f, 7.008f)
-                lineTo(7.2087f, 5.6393f)
-                lineTo(1.0496f, 12.2017f)
-                lineTo(7.612f, 18.3608f)
+                lineTo(7.209f, 5.639f)
+                lineTo(1.05f, 12.202f)
+                lineTo(7.612f, 18.361f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.388f, 18.3608f)
-                lineTo(15.0286f, 16.9124f)
-                lineTo(15.0291f, 16.8933f)
-                lineTo(20.1234f, 12.1121f)
+                moveTo(16.388f, 18.361f)
+                lineTo(15.029f, 16.912f)
+                lineTo(15.029f, 16.893f)
+                lineTo(20.123f, 12.112f)
                 lineTo(15.333f, 7.008f)
-                lineTo(16.7913f, 5.6393f)
-                lineTo(22.9504f, 12.2017f)
-                lineTo(16.388f, 18.3608f)
+                lineTo(16.791f, 5.639f)
+                lineTo(22.95f, 12.202f)
+                lineTo(16.388f, 18.361f)
                 close()
             }
         }

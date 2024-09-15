@@ -25,13 +25,13 @@ public val CssGgIcons.ToggleSquare: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(9.0f, 9.0f)
-                curveTo(9.5523f, 9.0f, 10.0f, 9.4477f, 10.0f, 10.0f)
+                curveTo(9.552f, 9.0f, 10.0f, 9.448f, 10.0f, 10.0f)
                 verticalLineTo(14.0f)
-                curveTo(10.0f, 14.5523f, 9.5523f, 15.0f, 9.0f, 15.0f)
+                curveTo(10.0f, 14.552f, 9.552f, 15.0f, 9.0f, 15.0f)
                 horizontalLineTo(5.0f)
-                curveTo(4.4477f, 15.0f, 4.0f, 14.5523f, 4.0f, 14.0f)
+                curveTo(4.448f, 15.0f, 4.0f, 14.552f, 4.0f, 14.0f)
                 verticalLineTo(10.0f)
-                curveTo(4.0f, 9.4477f, 4.4477f, 9.0f, 5.0f, 9.0f)
+                curveTo(4.0f, 9.448f, 4.448f, 9.0f, 5.0f, 9.0f)
                 horizontalLineTo(9.0f)
                 close()
             }
@@ -39,13 +39,13 @@ public val CssGgIcons.ToggleSquare: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(24.0f, 7.0f)
-                curveTo(24.0f, 5.8954f, 23.1046f, 5.0f, 22.0f, 5.0f)
+                curveTo(24.0f, 5.895f, 23.105f, 5.0f, 22.0f, 5.0f)
                 horizontalLineTo(2.0f)
-                curveTo(0.8954f, 5.0f, 0.0f, 5.8954f, 0.0f, 7.0f)
+                curveTo(0.895f, 5.0f, 0.0f, 5.895f, 0.0f, 7.0f)
                 verticalLineTo(17.0f)
-                curveTo(0.0f, 18.1046f, 0.8954f, 19.0f, 2.0f, 19.0f)
+                curveTo(0.0f, 18.105f, 0.895f, 19.0f, 2.0f, 19.0f)
                 horizontalLineTo(22.0f)
-                curveTo(23.1046f, 19.0f, 24.0f, 18.1046f, 24.0f, 17.0f)
+                curveTo(23.105f, 19.0f, 24.0f, 18.105f, 24.0f, 17.0f)
                 verticalLineTo(7.0f)
                 close()
                 moveTo(22.0f, 7.0f)

@@ -21,13 +21,13 @@ public val CssGgIcons.Check: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.5858f, 13.4142f)
-                lineTo(7.7573f, 10.5858f)
-                lineTo(6.3431f, 12.0f)
-                lineTo(10.5858f, 16.2427f)
-                lineTo(17.6568f, 9.1716f)
-                lineTo(16.2426f, 7.7574f)
-                lineTo(10.5858f, 13.4142f)
+                moveTo(10.586f, 13.414f)
+                lineTo(7.757f, 10.586f)
+                lineTo(6.343f, 12.0f)
+                lineTo(10.586f, 16.243f)
+                lineTo(17.657f, 9.172f)
+                lineTo(16.243f, 7.757f)
+                lineTo(10.586f, 13.414f)
                 close()
             }
         }

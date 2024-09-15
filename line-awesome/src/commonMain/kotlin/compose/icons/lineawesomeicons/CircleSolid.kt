@@ -22,10 +22,10 @@ public val LineAwesomeIcons.CircleSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(16.0f, 4.0f)
-                curveTo(9.3789f, 4.0f, 4.0f, 9.3789f, 4.0f, 16.0f)
-                curveTo(4.0f, 22.6211f, 9.3789f, 28.0f, 16.0f, 28.0f)
-                curveTo(22.6211f, 28.0f, 28.0f, 22.6211f, 28.0f, 16.0f)
-                curveTo(28.0f, 9.3789f, 22.6211f, 4.0f, 16.0f, 4.0f)
+                curveTo(9.379f, 4.0f, 4.0f, 9.379f, 4.0f, 16.0f)
+                curveTo(4.0f, 22.621f, 9.379f, 28.0f, 16.0f, 28.0f)
+                curveTo(22.621f, 28.0f, 28.0f, 22.621f, 28.0f, 16.0f)
+                curveTo(28.0f, 9.379f, 22.621f, 4.0f, 16.0f, 4.0f)
                 close()
                 moveTo(16.0f, 5.0f)
                 curveTo(22.082f, 5.0f, 27.0f, 9.918f, 27.0f, 16.0f)

@@ -21,12 +21,12 @@ public val CssGgIcons.FlagAlt: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(12.4388f, 7.0f)
-                lineTo(14.8387f, 4.0f)
+                moveTo(12.439f, 7.0f)
+                lineTo(14.839f, 4.0f)
                 horizontalLineTo(7.0f)
                 verticalLineTo(10.0f)
-                horizontalLineTo(14.8387f)
-                lineTo(12.4388f, 7.0f)
+                horizontalLineTo(14.839f)
+                lineTo(12.439f, 7.0f)
                 close()
                 moveTo(19.0f, 12.0f)
                 horizontalLineTo(7.0f)

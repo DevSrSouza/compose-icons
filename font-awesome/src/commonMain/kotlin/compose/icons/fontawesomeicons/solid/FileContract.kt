@@ -62,7 +62,7 @@ public val SolidGroup.FileContract: ImageVector
                 curveToRelative(-2.95f, -5.92f, -8.09f, -6.52f, -10.17f, -6.52f)
                 reflectiveCurveToRelative(-7.22f, 0.59f, -10.02f, 6.19f)
                 lineToRelative(-7.67f, 15.34f)
-                arcToRelative(15.986f, 15.986f, 0.0f, false, true, -14.31f, 8.84f)
+                arcToRelative(15.99f, 15.99f, 0.0f, false, true, -14.31f, 8.84f)
                 curveToRelative(-0.38f, 0.0f, -0.75f, -0.02f, -1.14f, -0.05f)
                 curveToRelative(-6.45f, -0.45f, -12.0f, -4.75f, -14.03f, -10.89f)
                 lineTo(144.0f, 354.59f)

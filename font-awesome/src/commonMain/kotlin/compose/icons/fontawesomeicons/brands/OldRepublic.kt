@@ -42,7 +42,7 @@ public val BrandsGroup.OldRepublic: ImageVector
                 curveToRelative(-0.9f, 5.15f, -1.7f, 10.31f, -2.87f, 15.41f)
                 curveToRelative(-4.1f, 18.5f, -10.3f, 36.55f, -18.51f, 53.63f)
                 curveToRelative(-15.77f, 32.83f, -38.83f, 62.17f, -67.12f, 85.12f)
-                arcToRelative(246.503f, 246.503f, 0.0f, false, true, -56.91f, 34.86f)
+                arcToRelative(246.5f, 246.5f, 0.0f, false, true, -56.91f, 34.86f)
                 curveToRelative(-6.21f, 2.68f, -12.46f, 5.25f, -18.87f, 7.41f)
                 curveToRelative(-3.51f, 1.16f, -7.01f, 2.38f, -10.57f, 3.39f)
                 curveToRelative(-6.62f, 1.88f, -13.29f, 3.64f, -20.04f, 5.0f)

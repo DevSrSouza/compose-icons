@@ -24,31 +24,31 @@ public val CssGgIcons.ArrowsV: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(7.7574f, 5.0408f)
-                lineTo(9.1716f, 6.455f)
-                lineTo(11.0001f, 4.6265f)
+                moveTo(7.757f, 5.041f)
+                lineTo(9.172f, 6.455f)
+                lineTo(11.0f, 4.627f)
                 verticalLineTo(10.0f)
-                horizontalLineTo(13.0001f)
-                verticalLineTo(4.6266f)
-                lineTo(14.8284f, 6.455f)
-                lineTo(16.2426f, 5.0408f)
-                lineTo(12.0f, 0.7981f)
-                lineTo(7.7574f, 5.0408f)
+                horizontalLineTo(13.0f)
+                verticalLineTo(4.627f)
+                lineTo(14.828f, 6.455f)
+                lineTo(16.243f, 5.041f)
+                lineTo(12.0f, 0.798f)
+                lineTo(7.757f, 5.041f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(16.2426f, 18.9593f)
-                lineTo(14.8284f, 17.545f)
-                lineTo(13.0001f, 19.3734f)
+                moveTo(16.243f, 18.959f)
+                lineTo(14.828f, 17.545f)
+                lineTo(13.0f, 19.373f)
                 verticalLineTo(14.0f)
-                horizontalLineTo(11.0001f)
-                verticalLineTo(19.3735f)
-                lineTo(9.1716f, 17.545f)
-                lineTo(7.7574f, 18.9593f)
-                lineTo(12.0f, 23.2019f)
-                lineTo(16.2426f, 18.9593f)
+                horizontalLineTo(11.0f)
+                verticalLineTo(19.374f)
+                lineTo(9.172f, 17.545f)
+                lineTo(7.757f, 18.959f)
+                lineTo(12.0f, 23.202f)
+                lineTo(16.243f, 18.959f)
                 close()
             }
         }

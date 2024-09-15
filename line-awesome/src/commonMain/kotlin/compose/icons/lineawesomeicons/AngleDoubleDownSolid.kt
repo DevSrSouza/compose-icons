@@ -21,19 +21,19 @@ public val LineAwesomeIcons.AngleDoubleDownSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(5.2188f, 6.6875f)
-                lineTo(3.7813f, 8.0938f)
-                lineTo(16.0f, 20.3125f)
-                lineTo(28.2188f, 8.0938f)
-                lineTo(26.7813f, 6.6875f)
-                lineTo(16.0f, 17.4688f)
+                moveTo(5.219f, 6.688f)
+                lineTo(3.781f, 8.094f)
+                lineTo(16.0f, 20.313f)
+                lineTo(28.219f, 8.094f)
+                lineTo(26.781f, 6.688f)
+                lineTo(16.0f, 17.469f)
                 close()
-                moveTo(5.2188f, 13.6875f)
-                lineTo(3.7813f, 15.0938f)
-                lineTo(16.0f, 27.3125f)
-                lineTo(28.2188f, 15.0938f)
-                lineTo(26.7813f, 13.6875f)
-                lineTo(16.0f, 24.4688f)
+                moveTo(5.219f, 13.688f)
+                lineTo(3.781f, 15.094f)
+                lineTo(16.0f, 27.313f)
+                lineTo(28.219f, 15.094f)
+                lineTo(26.781f, 13.688f)
+                lineTo(16.0f, 24.469f)
                 close()
             }
         }

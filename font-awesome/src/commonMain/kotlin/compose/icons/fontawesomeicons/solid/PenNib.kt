@@ -22,7 +22,7 @@ public val SolidGroup.PenNib: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(136.6f, 138.79f)
-                arcToRelative(64.003f, 64.003f, 0.0f, false, false, -43.31f, 41.35f)
+                arcToRelative(64.0f, 64.0f, 0.0f, false, false, -43.31f, 41.35f)
                 lineTo(0.0f, 460.0f)
                 lineToRelative(14.69f, 14.69f)
                 lineTo(164.8f, 324.58f)
@@ -34,7 +34,7 @@ public val SolidGroup.PenNib: ImageVector
                 lineTo(37.31f, 497.31f)
                 lineTo(52.0f, 512.0f)
                 lineToRelative(279.86f, -93.29f)
-                arcToRelative(64.003f, 64.003f, 0.0f, false, false, 41.35f, -43.31f)
+                arcToRelative(64.0f, 64.0f, 0.0f, false, false, 41.35f, -43.31f)
                 lineTo(416.0f, 224.0f)
                 lineTo(288.0f, 96.0f)
                 lineToRelative(-151.4f, 42.79f)

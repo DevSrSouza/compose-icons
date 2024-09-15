@@ -57,7 +57,7 @@ public val SolidGroup.Quran: ImageVector
                 close()
                 moveTo(243.19f, 76.81f)
                 curveToRelative(13.67f, 0.0f, 27.26f, 2.49f, 40.38f, 7.41f)
-                arcToRelative(6.775f, 6.775f, 0.0f, true, true, -2.38f, 13.12f)
+                arcToRelative(6.78f, 6.78f, 0.0f, true, true, -2.38f, 13.12f)
                 curveToRelative(-0.67f, 0.0f, -3.09f, -0.21f, -4.13f, -0.21f)
                 curveToRelative(-52.31f, 0.0f, -94.86f, 42.55f, -94.86f, 94.86f)
                 curveToRelative(0.0f, 52.3f, 42.55f, 94.86f, 94.86f, 94.86f)

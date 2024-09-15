@@ -52,7 +52,7 @@ public val SolidGroup.Ad: ImageVector
                 horizontalLineToRelative(-16.94f)
                 curveToRelative(-11.01f, 0.0f, -18.73f, -10.85f, -15.12f, -21.25f)
                 lineTo(140.0f, 176.12f)
-                arcTo(23.995f, 23.995f, 0.0f, false, true, 162.67f, 160.0f)
+                arcTo(24.0f, 24.0f, 0.0f, false, true, 162.67f, 160.0f)
                 horizontalLineToRelative(26.66f)
                 arcTo(23.99f, 23.99f, 0.0f, false, true, 212.0f, 176.13f)
                 lineToRelative(53.69f, 154.62f)

@@ -25,11 +25,11 @@ public val CssGgIcons.PushChevronUp: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(5.0f, 16.929f)
-                lineTo(6.4142f, 18.3432f)
-                lineTo(12.0711f, 12.6863f)
-                lineTo(17.7279f, 18.3432f)
-                lineTo(19.1421f, 16.929f)
-                lineTo(12.0711f, 9.8579f)
+                lineTo(6.414f, 18.343f)
+                lineTo(12.071f, 12.686f)
+                lineTo(17.728f, 18.343f)
+                lineTo(19.142f, 16.929f)
+                lineTo(12.071f, 9.858f)
                 lineTo(5.0f, 16.929f)
                 close()
             }

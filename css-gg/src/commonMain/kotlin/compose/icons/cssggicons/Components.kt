@@ -24,65 +24,65 @@ public val CssGgIcons.Components: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(7.7572f, 6.3431f)
-                lineTo(11.9998f, 2.1005f)
-                lineTo(16.2425f, 6.3431f)
-                lineTo(11.9998f, 10.5857f)
-                lineTo(7.7572f, 6.3431f)
+                moveTo(7.757f, 6.343f)
+                lineTo(12.0f, 2.1f)
+                lineTo(16.243f, 6.343f)
+                lineTo(12.0f, 10.586f)
+                lineTo(7.757f, 6.343f)
                 close()
-                moveTo(10.5856f, 6.3431f)
-                lineTo(11.9998f, 4.9289f)
-                lineTo(13.4141f, 6.3431f)
-                lineTo(11.9998f, 7.7573f)
-                lineTo(10.5856f, 6.3431f)
-                close()
-            }
-            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
-                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
-                    pathFillType = EvenOdd) {
-                moveTo(2.1005f, 11.9999f)
-                lineTo(6.3431f, 7.7573f)
-                lineTo(10.5857f, 11.9999f)
-                lineTo(6.3431f, 16.2425f)
-                lineTo(2.1005f, 11.9999f)
-                close()
-                moveTo(4.9289f, 11.9999f)
-                lineTo(6.3431f, 10.5857f)
-                lineTo(7.7573f, 11.9999f)
-                lineTo(6.3431f, 13.4141f)
-                lineTo(4.9289f, 11.9999f)
+                moveTo(10.586f, 6.343f)
+                lineTo(12.0f, 4.929f)
+                lineTo(13.414f, 6.343f)
+                lineTo(12.0f, 7.757f)
+                lineTo(10.586f, 6.343f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(13.4142f, 11.9999f)
-                lineTo(17.6568f, 16.2425f)
-                lineTo(21.8995f, 11.9999f)
-                lineTo(17.6568f, 7.7573f)
-                lineTo(13.4142f, 11.9999f)
+                moveTo(2.1f, 12.0f)
+                lineTo(6.343f, 7.757f)
+                lineTo(10.586f, 12.0f)
+                lineTo(6.343f, 16.243f)
+                lineTo(2.1f, 12.0f)
                 close()
-                moveTo(17.6568f, 10.5857f)
-                lineTo(16.2426f, 11.9999f)
-                lineTo(17.6568f, 13.4141f)
-                lineTo(19.071f, 11.9999f)
-                lineTo(17.6568f, 10.5857f)
+                moveTo(4.929f, 12.0f)
+                lineTo(6.343f, 10.586f)
+                lineTo(7.757f, 12.0f)
+                lineTo(6.343f, 13.414f)
+                lineTo(4.929f, 12.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(7.7572f, 17.6569f)
-                lineTo(11.9998f, 13.4142f)
-                lineTo(16.2425f, 17.6569f)
-                lineTo(11.9998f, 21.8995f)
-                lineTo(7.7572f, 17.6569f)
+                moveTo(13.414f, 12.0f)
+                lineTo(17.657f, 16.243f)
+                lineTo(21.899f, 12.0f)
+                lineTo(17.657f, 7.757f)
+                lineTo(13.414f, 12.0f)
                 close()
-                moveTo(10.5856f, 17.6569f)
-                lineTo(11.9998f, 16.2427f)
-                lineTo(13.4141f, 17.6569f)
-                lineTo(11.9998f, 19.0711f)
-                lineTo(10.5856f, 17.6569f)
+                moveTo(17.657f, 10.586f)
+                lineTo(16.243f, 12.0f)
+                lineTo(17.657f, 13.414f)
+                lineTo(19.071f, 12.0f)
+                lineTo(17.657f, 10.586f)
+                close()
+            }
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = EvenOdd) {
+                moveTo(7.757f, 17.657f)
+                lineTo(12.0f, 13.414f)
+                lineTo(16.243f, 17.657f)
+                lineTo(12.0f, 21.899f)
+                lineTo(7.757f, 17.657f)
+                close()
+                moveTo(10.586f, 17.657f)
+                lineTo(12.0f, 16.243f)
+                lineTo(13.414f, 17.657f)
+                lineTo(12.0f, 19.071f)
+                lineTo(10.586f, 17.657f)
                 close()
             }
         }

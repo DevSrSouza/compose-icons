@@ -22,16 +22,16 @@ public val CssGgIcons.ShapeCircle: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(12.0f, 17.0f)
-                curveTo(14.7614f, 17.0f, 17.0f, 14.7614f, 17.0f, 12.0f)
-                curveTo(17.0f, 9.2386f, 14.7614f, 7.0f, 12.0f, 7.0f)
-                curveTo(9.2386f, 7.0f, 7.0f, 9.2386f, 7.0f, 12.0f)
-                curveTo(7.0f, 14.7614f, 9.2386f, 17.0f, 12.0f, 17.0f)
+                curveTo(14.761f, 17.0f, 17.0f, 14.761f, 17.0f, 12.0f)
+                curveTo(17.0f, 9.239f, 14.761f, 7.0f, 12.0f, 7.0f)
+                curveTo(9.239f, 7.0f, 7.0f, 9.239f, 7.0f, 12.0f)
+                curveTo(7.0f, 14.761f, 9.239f, 17.0f, 12.0f, 17.0f)
                 close()
                 moveTo(12.0f, 20.0f)
-                curveTo(16.4183f, 20.0f, 20.0f, 16.4183f, 20.0f, 12.0f)
-                curveTo(20.0f, 7.5817f, 16.4183f, 4.0f, 12.0f, 4.0f)
-                curveTo(7.5817f, 4.0f, 4.0f, 7.5817f, 4.0f, 12.0f)
-                curveTo(4.0f, 16.4183f, 7.5817f, 20.0f, 12.0f, 20.0f)
+                curveTo(16.418f, 20.0f, 20.0f, 16.418f, 20.0f, 12.0f)
+                curveTo(20.0f, 7.582f, 16.418f, 4.0f, 12.0f, 4.0f)
+                curveTo(7.582f, 4.0f, 4.0f, 7.582f, 4.0f, 12.0f)
+                curveTo(4.0f, 16.418f, 7.582f, 20.0f, 12.0f, 20.0f)
                 close()
             }
         }

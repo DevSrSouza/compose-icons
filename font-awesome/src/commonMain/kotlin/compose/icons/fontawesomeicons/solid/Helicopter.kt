@@ -44,7 +44,7 @@ public val SolidGroup.Helicopter: ImageVector
                 lineTo(32.0f, 192.0f)
                 lineToRelative(160.0f, 64.0f)
                 lineToRelative(86.4f, 115.2f)
-                arcTo(31.992f, 31.992f, 0.0f, false, false, 304.0f, 384.0f)
+                arcTo(31.99f, 31.99f, 0.0f, false, false, 304.0f, 384.0f)
                 close()
                 moveTo(416.0f, 195.51f)
                 curveTo(478.55f, 208.3f, 528.03f, 257.44f, 540.79f, 320.0f)

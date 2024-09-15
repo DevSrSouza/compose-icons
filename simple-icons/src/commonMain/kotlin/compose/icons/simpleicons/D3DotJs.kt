@@ -36,7 +36,7 @@ public val SimpleIcons.D3DotJs: ImageVector
                 moveTo(24.0f, 7.563f)
                 curveTo(24.0f, 3.731f, 20.893f, 0.625f, 17.062f, 0.625f)
                 horizontalLineToRelative(-8.0f)
-                arcToRelative(13.4154f, 13.4154f, 0.0f, false, true, 4.686f, 5.0f)
+                arcToRelative(13.415f, 13.415f, 0.0f, false, true, 4.686f, 5.0f)
                 horizontalLineToRelative(3.314f)
                 curveToRelative(1.069f, 0.0f, 1.938f, 0.868f, 1.938f, 1.938f)
                 curveToRelative(0.0f, 1.07f, -0.869f, 1.938f, -1.938f, 1.938f)
@@ -46,11 +46,11 @@ public val SimpleIcons.D3DotJs: ImageVector
                 curveToRelative(1.068f, 0.0f, 1.938f, 0.867f, 1.938f, 1.938f)
                 reflectiveCurveToRelative(-0.869f, 1.938f, -1.938f, 1.938f)
                 horizontalLineToRelative(-3.314f)
-                arcToRelative(13.4154f, 13.4154f, 0.0f, false, true, -4.686f, 5.0f)
+                arcToRelative(13.415f, 13.415f, 0.0f, false, true, -4.686f, 5.0f)
                 horizontalLineToRelative(8.0f)
                 curveToRelative(1.621f, 0.0f, 3.191f, -0.568f, 4.438f, -1.605f)
                 curveToRelative(2.943f, -2.45f, 3.346f, -6.824f, 0.895f, -9.77f)
-                arcTo(6.9459f, 6.9459f, 0.0f, false, false, 24.0f, 7.563f)
+                arcTo(6.946f, 6.946f, 0.0f, false, false, 24.0f, 7.563f)
                 close()
             }
         }

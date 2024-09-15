@@ -22,13 +22,13 @@ public val LineAwesomeIcons.ClipboardListSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(16.0f, 2.0f)
-                curveTo(14.74f, 2.0f, 13.8502f, 2.89f, 13.4102f, 4.0f)
+                curveTo(14.74f, 2.0f, 13.85f, 2.89f, 13.41f, 4.0f)
                 lineTo(5.0f, 4.0f)
                 lineTo(5.0f, 29.0f)
                 lineTo(27.0f, 29.0f)
                 lineTo(27.0f, 4.0f)
-                lineTo(18.5898f, 4.0f)
-                curveTo(18.1498f, 2.89f, 17.26f, 2.0f, 16.0f, 2.0f)
+                lineTo(18.59f, 4.0f)
+                curveTo(18.15f, 2.89f, 17.26f, 2.0f, 16.0f, 2.0f)
                 close()
                 moveTo(16.0f, 4.0f)
                 curveTo(16.55f, 4.0f, 17.0f, 4.45f, 17.0f, 5.0f)

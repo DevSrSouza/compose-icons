@@ -32,10 +32,10 @@ public val LineAwesomeIcons.DoorClosedSolid: ImageVector
                 lineTo(10.0f, 25.0f)
                 close()
                 moveTo(20.0f, 15.0f)
-                curveTo(19.4492f, 15.0f, 19.0f, 15.4492f, 19.0f, 16.0f)
-                curveTo(19.0f, 16.5508f, 19.4492f, 17.0f, 20.0f, 17.0f)
-                curveTo(20.5508f, 17.0f, 21.0f, 16.5508f, 21.0f, 16.0f)
-                curveTo(21.0f, 15.4492f, 20.5508f, 15.0f, 20.0f, 15.0f)
+                curveTo(19.449f, 15.0f, 19.0f, 15.449f, 19.0f, 16.0f)
+                curveTo(19.0f, 16.551f, 19.449f, 17.0f, 20.0f, 17.0f)
+                curveTo(20.551f, 17.0f, 21.0f, 16.551f, 21.0f, 16.0f)
+                curveTo(21.0f, 15.449f, 20.551f, 15.0f, 20.0f, 15.0f)
                 close()
             }
         }

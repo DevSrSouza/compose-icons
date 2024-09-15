@@ -33,7 +33,7 @@ public val SolidGroup.PlaneArrival: ImageVector
                 close()
                 moveTo(44.81f, 205.66f)
                 lineToRelative(88.74f, 80.0f)
-                arcToRelative(62.607f, 62.607f, 0.0f, false, false, 25.47f, 13.93f)
+                arcToRelative(62.61f, 62.61f, 0.0f, false, false, 25.47f, 13.93f)
                 lineToRelative(287.6f, 78.35f)
                 curveToRelative(26.48f, 7.21f, 54.56f, 8.72f, 81.0f, 1.36f)
                 curveToRelative(29.67f, -8.27f, 43.44f, -21.21f, 47.25f, -35.71f)

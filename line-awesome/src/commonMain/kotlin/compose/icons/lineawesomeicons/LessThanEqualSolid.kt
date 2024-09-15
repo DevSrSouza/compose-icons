@@ -22,12 +22,12 @@ public val LineAwesomeIcons.LessThanEqualSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(26.0f, 5.0f)
-                lineTo(6.0f, 13.2188f)
-                lineTo(6.0f, 14.7813f)
+                lineTo(6.0f, 13.219f)
+                lineTo(6.0f, 14.781f)
                 lineTo(26.0f, 23.0f)
-                lineTo(26.0f, 20.8438f)
-                lineTo(9.4688f, 14.0f)
-                lineTo(26.0f, 7.1563f)
+                lineTo(26.0f, 20.844f)
+                lineTo(9.469f, 14.0f)
+                lineTo(26.0f, 7.156f)
                 close()
                 moveTo(6.0f, 25.0f)
                 lineTo(6.0f, 27.0f)

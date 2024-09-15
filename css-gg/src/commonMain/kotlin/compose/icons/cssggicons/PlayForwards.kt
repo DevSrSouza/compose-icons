@@ -24,27 +24,27 @@ public val CssGgIcons.PlayForwards: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(21.0023f, 17.0f)
-                horizontalLineTo(18.0023f)
+                moveTo(21.002f, 17.0f)
+                horizontalLineTo(18.002f)
                 verticalLineTo(7.0f)
-                horizontalLineTo(21.0023f)
+                horizontalLineTo(21.002f)
                 verticalLineTo(17.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(17.0023f, 12.0f)
+                moveTo(17.002f, 12.0f)
                 lineTo(10.0f, 17.0f)
                 verticalLineTo(7.0f)
-                lineTo(17.0023f, 12.0f)
+                lineTo(17.002f, 12.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(2.0f, 17.0f)
-                lineTo(9.0023f, 12.0f)
+                lineTo(9.002f, 12.0f)
                 lineTo(2.0f, 7.0f)
                 verticalLineTo(17.0f)
                 close()

@@ -25,50 +25,50 @@ public val CssGgIcons.PlayListSearch: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.8787f, 4.8787f)
-                horizontalLineTo(3.8787f)
-                verticalLineTo(6.8787f)
-                horizontalLineTo(15.8787f)
-                verticalLineTo(4.8787f)
+                moveTo(15.879f, 4.879f)
+                horizontalLineTo(3.879f)
+                verticalLineTo(6.879f)
+                horizontalLineTo(15.879f)
+                verticalLineTo(4.879f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.8787f, 8.8787f)
-                horizontalLineTo(3.8787f)
-                verticalLineTo(10.8787f)
-                horizontalLineTo(15.8787f)
-                verticalLineTo(8.8787f)
+                moveTo(15.879f, 8.879f)
+                horizontalLineTo(3.879f)
+                verticalLineTo(10.879f)
+                horizontalLineTo(15.879f)
+                verticalLineTo(8.879f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(3.8787f, 12.8787f)
-                horizontalLineTo(11.8787f)
-                verticalLineTo(14.8787f)
-                horizontalLineTo(3.8787f)
-                verticalLineTo(12.8787f)
+                moveTo(3.879f, 12.879f)
+                horizontalLineTo(11.879f)
+                verticalLineTo(14.879f)
+                horizontalLineTo(3.879f)
+                verticalLineTo(12.879f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(13.7574f, 12.7573f)
-                curveTo(12.5858f, 13.9289f, 12.5858f, 15.8284f, 13.7574f, 17.0f)
-                curveTo(14.681f, 17.9236f, 16.0571f, 18.1191f, 17.1722f, 17.5864f)
-                lineTo(18.7071f, 19.1213f)
-                lineTo(20.1213f, 17.7071f)
-                lineTo(18.5864f, 16.1722f)
-                curveTo(19.1191f, 15.057f, 18.9236f, 13.681f, 18.0f, 12.7573f)
-                curveTo(16.8284f, 11.5858f, 14.9289f, 11.5858f, 13.7574f, 12.7573f)
+                moveTo(13.757f, 12.757f)
+                curveTo(12.586f, 13.929f, 12.586f, 15.828f, 13.757f, 17.0f)
+                curveTo(14.681f, 17.924f, 16.057f, 18.119f, 17.172f, 17.586f)
+                lineTo(18.707f, 19.121f)
+                lineTo(20.121f, 17.707f)
+                lineTo(18.586f, 16.172f)
+                curveTo(19.119f, 15.057f, 18.924f, 13.681f, 18.0f, 12.757f)
+                curveTo(16.828f, 11.586f, 14.929f, 11.586f, 13.757f, 12.757f)
                 close()
-                moveTo(15.1716f, 15.5858f)
-                curveTo(15.5621f, 15.9763f, 16.1953f, 15.9763f, 16.5858f, 15.5858f)
-                curveTo(16.9763f, 15.1952f, 16.9763f, 14.5621f, 16.5858f, 14.1716f)
-                curveTo(16.1953f, 13.781f, 15.5621f, 13.781f, 15.1716f, 14.1716f)
-                curveTo(14.7811f, 14.5621f, 14.7811f, 15.1952f, 15.1716f, 15.5858f)
+                moveTo(15.172f, 15.586f)
+                curveTo(15.562f, 15.976f, 16.195f, 15.976f, 16.586f, 15.586f)
+                curveTo(16.976f, 15.195f, 16.976f, 14.562f, 16.586f, 14.172f)
+                curveTo(16.195f, 13.781f, 15.562f, 13.781f, 15.172f, 14.172f)
+                curveTo(14.781f, 14.562f, 14.781f, 15.195f, 15.172f, 15.586f)
                 close()
             }
         }

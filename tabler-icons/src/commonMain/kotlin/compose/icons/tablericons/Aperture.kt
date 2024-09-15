@@ -37,26 +37,26 @@ public val TablerIcons.Aperture: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.5511f, 4.9382f)
-                lineTo(9.8112f, 14.9718f)
+                moveTo(6.551f, 4.938f)
+                lineTo(9.811f, 14.972f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.0324f, 4.6356f)
-                lineTo(8.4973f, 10.8367f)
+                moveTo(17.032f, 4.636f)
+                lineTo(8.497f, 10.837f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(20.5591f, 14.5103f)
-                lineTo(12.024f, 8.3092f)
+                moveTo(20.559f, 14.51f)
+                lineTo(12.024f, 8.309f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(12.2574f, 20.9159f)
-                lineTo(15.5176f, 10.8823f)
+                moveTo(12.257f, 20.916f)
+                lineTo(15.518f, 10.882f)
             }
         }
         .build()

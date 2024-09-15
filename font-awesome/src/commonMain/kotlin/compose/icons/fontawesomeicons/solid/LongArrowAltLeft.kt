@@ -21,18 +21,18 @@ public val SolidGroup.LongArrowAltLeft: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(134.059f, 296.0f)
+                moveTo(134.06f, 296.0f)
                 horizontalLineTo(436.0f)
-                curveToRelative(6.627f, 0.0f, 12.0f, -5.373f, 12.0f, -12.0f)
+                curveToRelative(6.63f, 0.0f, 12.0f, -5.37f, 12.0f, -12.0f)
                 verticalLineToRelative(-56.0f)
-                curveToRelative(0.0f, -6.627f, -5.373f, -12.0f, -12.0f, -12.0f)
-                horizontalLineTo(134.059f)
-                verticalLineToRelative(-46.059f)
-                curveToRelative(0.0f, -21.382f, -25.851f, -32.09f, -40.971f, -16.971f)
-                lineTo(7.029f, 239.029f)
-                curveToRelative(-9.373f, 9.373f, -9.373f, 24.569f, 0.0f, 33.941f)
-                lineToRelative(86.059f, 86.059f)
-                curveToRelative(15.119f, 15.119f, 40.971f, 4.411f, 40.971f, -16.971f)
+                curveToRelative(0.0f, -6.63f, -5.37f, -12.0f, -12.0f, -12.0f)
+                horizontalLineTo(134.06f)
+                verticalLineToRelative(-46.06f)
+                curveToRelative(0.0f, -21.38f, -25.85f, -32.09f, -40.97f, -16.97f)
+                lineTo(7.03f, 239.03f)
+                curveToRelative(-9.37f, 9.37f, -9.37f, 24.57f, 0.0f, 33.94f)
+                lineToRelative(86.06f, 86.06f)
+                curveToRelative(15.12f, 15.12f, 40.97f, 4.41f, 40.97f, -16.97f)
                 verticalLineTo(296.0f)
                 close()
             }

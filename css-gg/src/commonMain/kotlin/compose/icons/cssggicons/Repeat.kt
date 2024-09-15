@@ -24,31 +24,31 @@ public val CssGgIcons.Repeat: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(18.3701f, 7.9999f)
-                lineTo(13.8701f, 10.598f)
-                verticalLineTo(8.9999f)
-                horizontalLineTo(6.8899f)
-                verticalLineTo(12.9999f)
-                horizontalLineTo(4.8899f)
-                verticalLineTo(6.9999f)
-                horizontalLineTo(13.8701f)
-                verticalLineTo(5.4019f)
-                lineTo(18.3701f, 7.9999f)
+                moveTo(18.37f, 8.0f)
+                lineTo(13.87f, 10.598f)
+                verticalLineTo(9.0f)
+                horizontalLineTo(6.89f)
+                verticalLineTo(13.0f)
+                horizontalLineTo(4.89f)
+                verticalLineTo(7.0f)
+                horizontalLineTo(13.87f)
+                verticalLineTo(5.402f)
+                lineTo(18.37f, 8.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.1299f, 16.9999f)
-                horizontalLineTo(19.1101f)
-                verticalLineTo(10.9999f)
-                horizontalLineTo(17.1101f)
-                verticalLineTo(14.9999f)
-                horizontalLineTo(10.1299f)
-                verticalLineTo(13.4019f)
-                lineTo(5.6299f, 15.9999f)
-                lineTo(10.1299f, 18.598f)
-                verticalLineTo(16.9999f)
+                moveTo(10.13f, 17.0f)
+                horizontalLineTo(19.11f)
+                verticalLineTo(11.0f)
+                horizontalLineTo(17.11f)
+                verticalLineTo(15.0f)
+                horizontalLineTo(10.13f)
+                verticalLineTo(13.402f)
+                lineTo(5.63f, 16.0f)
+                lineTo(10.13f, 18.598f)
+                verticalLineTo(17.0f)
                 close()
             }
         }

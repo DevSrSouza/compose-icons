@@ -31,7 +31,7 @@ public val SolidGroup.Clone: ImageVector
                 curveToRelative(0.0f, -26.51f, 21.49f, -48.0f, 48.0f, -48.0f)
                 horizontalLineToRelative(288.0f)
                 moveTo(176.0f, 416.0f)
-                curveToRelative(-44.112f, 0.0f, -80.0f, -35.888f, -80.0f, -80.0f)
+                curveToRelative(-44.11f, 0.0f, -80.0f, -35.89f, -80.0f, -80.0f)
                 verticalLineTo(128.0f)
                 horizontalLineTo(48.0f)
                 curveToRelative(-26.51f, 0.0f, -48.0f, 21.49f, -48.0f, 48.0f)

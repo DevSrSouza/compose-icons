@@ -30,15 +30,15 @@ public val LineAwesomeIcons.Uber: ImageVector
                 moveTo(16.0f, 5.0f)
                 curveTo(22.1f, 5.0f, 27.0f, 9.9f, 27.0f, 16.0f)
                 curveTo(27.0f, 22.1f, 22.1f, 27.0f, 16.0f, 27.0f)
-                curveTo(10.2377f, 27.0f, 5.5526f, 22.626f, 5.0508f, 17.0f)
+                curveTo(10.238f, 27.0f, 5.553f, 22.626f, 5.051f, 17.0f)
                 lineTo(13.0f, 17.0f)
                 lineTo(13.0f, 19.0f)
                 lineTo(19.0f, 19.0f)
                 lineTo(19.0f, 13.0f)
                 lineTo(13.0f, 13.0f)
                 lineTo(13.0f, 15.0f)
-                lineTo(5.0508f, 15.0f)
-                curveTo(5.5526f, 9.374f, 10.2377f, 5.0f, 16.0f, 5.0f)
+                lineTo(5.051f, 15.0f)
+                curveTo(5.553f, 9.374f, 10.238f, 5.0f, 16.0f, 5.0f)
                 close()
             }
         }

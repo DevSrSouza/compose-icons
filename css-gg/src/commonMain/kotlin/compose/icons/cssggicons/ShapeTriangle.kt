@@ -21,15 +21,15 @@ public val CssGgIcons.ShapeTriangle: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(11.6603f, 5.0f)
+                moveTo(11.66f, 5.0f)
                 lineTo(3.0f, 20.0f)
-                horizontalLineTo(20.3205f)
-                lineTo(11.6603f, 5.0f)
+                horizontalLineTo(20.32f)
+                lineTo(11.66f, 5.0f)
                 close()
-                moveTo(11.6603f, 11.0f)
-                lineTo(8.1961f, 17.0f)
-                horizontalLineTo(15.1244f)
-                lineTo(11.6603f, 11.0f)
+                moveTo(11.66f, 11.0f)
+                lineTo(8.196f, 17.0f)
+                horizontalLineTo(15.124f)
+                lineTo(11.66f, 11.0f)
                 close()
             }
         }

@@ -33,22 +33,22 @@ public val TablerIcons.Snowflake: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(17.9282f, 6.2679f)
-                lineToRelative(0.134f, 2.2321f)
-                lineToRelative(1.866f, 1.2321f)
-                moveToRelative(0.7321f, -2.7321f)
-                lineToRelative(-5.6292f, 3.25f)
-                lineToRelative(0.0104f, 3.4581f)
+                moveTo(17.928f, 6.268f)
+                lineToRelative(0.134f, 2.232f)
+                lineToRelative(1.866f, 1.232f)
+                moveToRelative(0.732f, -2.732f)
+                lineToRelative(-5.629f, 3.25f)
+                lineToRelative(0.01f, 3.458f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(19.9282f, 14.2679f)
-                lineToRelative(-1.866f, 1.2321f)
-                lineToRelative(-0.134f, 2.2321f)
-                moveToRelative(2.7321f, -0.7321f)
-                lineToRelative(-5.6292f, -3.25f)
-                lineToRelative(-2.9896f, 1.7381f)
+                moveTo(19.928f, 14.268f)
+                lineToRelative(-1.866f, 1.232f)
+                lineToRelative(-0.134f, 2.232f)
+                moveToRelative(2.732f, -0.732f)
+                lineToRelative(-5.629f, -3.25f)
+                lineToRelative(-2.99f, 1.738f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -63,22 +63,22 @@ public val TablerIcons.Snowflake: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(6.0718f, 17.732f)
-                lineToRelative(-0.134f, -2.2321f)
-                lineToRelative(-1.866f, -1.2321f)
-                moveToRelative(-0.7321f, 2.7321f)
-                lineToRelative(5.6292f, -3.25f)
-                lineToRelative(-0.0104f, -3.4581f)
+                moveTo(6.072f, 17.732f)
+                lineToRelative(-0.134f, -2.232f)
+                lineToRelative(-1.866f, -1.232f)
+                moveToRelative(-0.732f, 2.732f)
+                lineToRelative(5.629f, -3.25f)
+                lineToRelative(-0.01f, -3.458f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(4.0718f, 9.7321f)
-                lineToRelative(1.866f, -1.2321f)
-                lineToRelative(0.134f, -2.2321f)
-                moveToRelative(-2.7321f, 0.7321f)
-                lineToRelative(5.6292f, 3.25f)
-                lineToRelative(2.9896f, -1.7381f)
+                moveTo(4.072f, 9.732f)
+                lineToRelative(1.866f, -1.232f)
+                lineToRelative(0.134f, -2.232f)
+                moveToRelative(-2.732f, 0.732f)
+                lineToRelative(5.629f, 3.25f)
+                lineToRelative(2.99f, -1.738f)
             }
         }
         .build()

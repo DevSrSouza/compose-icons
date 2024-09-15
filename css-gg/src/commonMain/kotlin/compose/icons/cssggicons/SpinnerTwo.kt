@@ -32,17 +32,17 @@ public val CssGgIcons.SpinnerTwo: ImageVector
                 curveTo(5.0f, 15.866f, 8.134f, 19.0f, 12.0f, 19.0f)
                 close()
                 moveTo(12.0f, 22.0f)
-                curveTo(17.5228f, 22.0f, 22.0f, 17.5228f, 22.0f, 12.0f)
-                curveTo(22.0f, 6.4771f, 17.5228f, 2.0f, 12.0f, 2.0f)
-                curveTo(6.4771f, 2.0f, 2.0f, 6.4771f, 2.0f, 12.0f)
-                curveTo(2.0f, 17.5228f, 6.4771f, 22.0f, 12.0f, 22.0f)
+                curveTo(17.523f, 22.0f, 22.0f, 17.523f, 22.0f, 12.0f)
+                curveTo(22.0f, 6.477f, 17.523f, 2.0f, 12.0f, 2.0f)
+                curveTo(6.477f, 2.0f, 2.0f, 6.477f, 2.0f, 12.0f)
+                curveTo(2.0f, 17.523f, 6.477f, 22.0f, 12.0f, 22.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(12.0f, 22.0f)
-                curveTo(17.5228f, 22.0f, 22.0f, 17.5228f, 22.0f, 12.0f)
+                curveTo(17.523f, 22.0f, 22.0f, 17.523f, 22.0f, 12.0f)
                 horizontalLineTo(19.0f)
                 curveTo(19.0f, 15.866f, 15.866f, 19.0f, 12.0f, 19.0f)
                 verticalLineTo(22.0f)
@@ -52,7 +52,7 @@ public val CssGgIcons.SpinnerTwo: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(2.0f, 12.0f)
-                curveTo(2.0f, 6.4771f, 6.4771f, 2.0f, 12.0f, 2.0f)
+                curveTo(2.0f, 6.477f, 6.477f, 2.0f, 12.0f, 2.0f)
                 verticalLineTo(5.0f)
                 curveTo(8.134f, 5.0f, 5.0f, 8.134f, 5.0f, 12.0f)
                 horizontalLineTo(2.0f)

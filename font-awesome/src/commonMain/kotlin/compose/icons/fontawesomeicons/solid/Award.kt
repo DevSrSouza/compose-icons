@@ -68,7 +68,7 @@ public val SolidGroup.Award: ImageVector
                 curveToRelative(3.72f, 14.14f, 14.58f, 25.19f, 28.47f, 28.98f)
                 curveTo(104.6f, 325.96f, 106.27f, 325.0f, 121.0f, 340.0f)
                 curveToRelative(13.23f, 13.47f, 33.84f, 15.88f, 49.74f, 5.82f)
-                arcToRelative(39.676f, 39.676f, 0.0f, false, true, 42.53f, 0.0f)
+                arcToRelative(39.68f, 39.68f, 0.0f, false, true, 42.53f, 0.0f)
                 curveToRelative(15.89f, 10.06f, 36.5f, 7.65f, 49.73f, -5.82f)
                 close()
                 moveTo(97.66f, 175.96f)

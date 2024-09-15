@@ -23,7 +23,7 @@ public val SolidGroup.Khanda: ImageVector
                     pathFillType = NonZero) {
                 moveTo(415.81f, 66.0f)
                 curveToRelative(-6.37f, -3.5f, -14.37f, -2.33f, -19.36f, 3.02f)
-                arcToRelative(15.974f, 15.974f, 0.0f, false, false, -1.91f, 19.52f)
+                arcToRelative(15.97f, 15.97f, 0.0f, false, false, -1.91f, 19.52f)
                 curveToRelative(16.49f, 26.16f, 25.2f, 56.39f, 25.2f, 87.41f)
                 curveToRelative(-0.19f, 53.25f, -26.77f, 102.69f, -71.27f, 132.41f)
                 lineToRelative(-76.63f, 53.35f)

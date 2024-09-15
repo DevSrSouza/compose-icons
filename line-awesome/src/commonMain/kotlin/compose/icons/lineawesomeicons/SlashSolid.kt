@@ -21,10 +21,10 @@ public val LineAwesomeIcons.SlashSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(26.2813f, 4.2813f)
-                lineTo(4.2813f, 26.2813f)
-                lineTo(5.7188f, 27.7188f)
-                lineTo(27.7188f, 5.7188f)
+                moveTo(26.281f, 4.281f)
+                lineTo(4.281f, 26.281f)
+                lineTo(5.719f, 27.719f)
+                lineTo(27.719f, 5.719f)
                 close()
             }
         }

@@ -22,11 +22,11 @@ public val CssGgIcons.ShapeHalfCircle: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(16.0f, 4.0f)
-                curveTo(11.5817f, 4.0f, 8.0f, 7.5817f, 8.0f, 12.0f)
-                curveTo(8.0f, 16.4183f, 11.5817f, 20.0f, 16.0f, 20.0f)
+                curveTo(11.582f, 4.0f, 8.0f, 7.582f, 8.0f, 12.0f)
+                curveTo(8.0f, 16.418f, 11.582f, 20.0f, 16.0f, 20.0f)
                 verticalLineTo(17.0f)
-                curveTo(13.2386f, 17.0f, 11.0f, 14.7614f, 11.0f, 12.0f)
-                curveTo(11.0f, 9.2386f, 13.2386f, 7.0f, 16.0f, 7.0f)
+                curveTo(13.239f, 17.0f, 11.0f, 14.761f, 11.0f, 12.0f)
+                curveTo(11.0f, 9.239f, 13.239f, 7.0f, 16.0f, 7.0f)
                 verticalLineTo(4.0f)
                 close()
             }

@@ -40,17 +40,17 @@ public val TablerIcons.BallVolleyball: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
-                arcToRelative(8.0f, 8.0f, 81.6504f, false, false, -7.4641f, 4.9282f)
-                moveToRelative(8.4151f, -9.5753f)
-                arcToRelative(12.0f, 12.0f, 91.0056f, false, false, -9.8792f, 4.1112f)
+                arcToRelative(8.0f, 8.0f, 61.845f, false, false, -7.464f, 4.928f)
+                moveToRelative(8.415f, -9.575f)
+                arcToRelative(12.0f, 12.0f, 84.274f, false, false, -9.879f, 4.111f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(12.0f, 12.0f)
-                arcToRelative(8.0f, 8.0f, 118.155f, false, false, -0.5359f, -8.9282f)
-                moveToRelative(4.0849f, 12.0753f)
-                arcToRelative(12.0f, 12.0f, 99.6748f, false, false, 1.3792f, -10.6112f)
+                arcToRelative(8.0f, 8.0f, 118.155f, false, false, -0.536f, -8.928f)
+                moveToRelative(4.085f, 12.075f)
+                arcToRelative(12.0f, 12.0f, 99.675f, false, false, 1.379f, -10.611f)
             }
         }
         .build()

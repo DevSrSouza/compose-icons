@@ -22,9 +22,9 @@ public val LineAwesomeIcons.BookSolid: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(9.0f, 4.0f)
-                curveTo(7.3555f, 4.0f, 6.0f, 5.3555f, 6.0f, 7.0f)
+                curveTo(7.355f, 4.0f, 6.0f, 5.355f, 6.0f, 7.0f)
                 lineTo(6.0f, 25.0f)
-                curveTo(6.0f, 26.6445f, 7.3555f, 28.0f, 9.0f, 28.0f)
+                curveTo(6.0f, 26.645f, 7.355f, 28.0f, 9.0f, 28.0f)
                 lineTo(26.0f, 28.0f)
                 lineTo(26.0f, 4.0f)
                 close()
@@ -32,9 +32,9 @@ public val LineAwesomeIcons.BookSolid: ImageVector
                 lineTo(24.0f, 6.0f)
                 lineTo(24.0f, 22.0f)
                 lineTo(9.0f, 22.0f)
-                curveTo(8.6484f, 22.0f, 8.3164f, 22.0742f, 8.0f, 22.1875f)
+                curveTo(8.648f, 22.0f, 8.316f, 22.074f, 8.0f, 22.188f)
                 lineTo(8.0f, 7.0f)
-                curveTo(8.0f, 6.4336f, 8.4336f, 6.0f, 9.0f, 6.0f)
+                curveTo(8.0f, 6.434f, 8.434f, 6.0f, 9.0f, 6.0f)
                 close()
                 moveTo(11.0f, 9.0f)
                 lineTo(11.0f, 11.0f)
@@ -45,8 +45,8 @@ public val LineAwesomeIcons.BookSolid: ImageVector
                 lineTo(24.0f, 24.0f)
                 lineTo(24.0f, 26.0f)
                 lineTo(9.0f, 26.0f)
-                curveTo(8.4336f, 26.0f, 8.0f, 25.5664f, 8.0f, 25.0f)
-                curveTo(8.0f, 24.4336f, 8.4336f, 24.0f, 9.0f, 24.0f)
+                curveTo(8.434f, 26.0f, 8.0f, 25.566f, 8.0f, 25.0f)
+                curveTo(8.0f, 24.434f, 8.434f, 24.0f, 9.0f, 24.0f)
                 close()
             }
         }

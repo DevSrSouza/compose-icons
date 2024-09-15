@@ -34,31 +34,31 @@ public val CssGgIcons.ArrowAlignH: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(6.0f, 7.7573f)
-                lineTo(7.4142f, 9.1715f)
-                lineTo(5.5857f, 11.0f)
+                moveTo(6.0f, 7.757f)
+                lineTo(7.414f, 9.172f)
+                lineTo(5.586f, 11.0f)
                 lineTo(10.0f, 11.0f)
                 verticalLineTo(13.0f)
-                lineTo(5.5858f, 13.0f)
-                lineTo(7.4142f, 14.8284f)
-                lineTo(6.0f, 16.2426f)
-                lineTo(1.7573f, 12.0f)
-                lineTo(6.0f, 7.7573f)
+                lineTo(5.586f, 13.0f)
+                lineTo(7.414f, 14.828f)
+                lineTo(6.0f, 16.243f)
+                lineTo(1.757f, 12.0f)
+                lineTo(6.0f, 7.757f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(18.0f, 16.2427f)
-                lineTo(16.5858f, 14.8285f)
-                lineTo(18.4143f, 13.0f)
+                moveTo(18.0f, 16.243f)
+                lineTo(16.586f, 14.828f)
+                lineTo(18.414f, 13.0f)
                 horizontalLineTo(14.0f)
                 verticalLineTo(11.0f)
-                lineTo(18.4142f, 11.0f)
-                lineTo(16.5858f, 9.1716f)
-                lineTo(18.0f, 7.7574f)
-                lineTo(22.2427f, 12.0f)
-                lineTo(18.0f, 16.2427f)
+                lineTo(18.414f, 11.0f)
+                lineTo(16.586f, 9.172f)
+                lineTo(18.0f, 7.757f)
+                lineTo(22.243f, 12.0f)
+                lineTo(18.0f, 16.243f)
                 close()
             }
         }

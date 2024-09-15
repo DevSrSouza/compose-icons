@@ -22,8 +22,8 @@ public val CssGgIcons.Unfold: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(2.0f, 12.0f)
-                curveTo(2.0f, 17.5228f, 6.4771f, 22.0f, 12.0f, 22.0f)
-                curveTo(17.5228f, 22.0f, 22.0f, 17.5228f, 22.0f, 12.0f)
+                curveTo(2.0f, 17.523f, 6.477f, 22.0f, 12.0f, 22.0f)
+                curveTo(17.523f, 22.0f, 22.0f, 17.523f, 22.0f, 12.0f)
                 horizontalLineTo(2.0f)
                 close()
             }

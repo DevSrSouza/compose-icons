@@ -29,8 +29,8 @@ public val LineAwesomeIcons.FaxSolid: ImageVector
                 lineTo(4.0f, 26.0f)
                 lineTo(6.0f, 26.0f)
                 lineTo(6.0f, 27.0f)
-                curveTo(6.0f, 28.6445f, 7.3555f, 30.0f, 9.0f, 30.0f)
-                curveTo(10.6445f, 30.0f, 12.0f, 28.6445f, 12.0f, 27.0f)
+                curveTo(6.0f, 28.645f, 7.355f, 30.0f, 9.0f, 30.0f)
+                curveTo(10.645f, 30.0f, 12.0f, 28.645f, 12.0f, 27.0f)
                 lineTo(12.0f, 26.0f)
                 lineTo(28.0f, 26.0f)
                 lineTo(28.0f, 10.0f)
@@ -89,8 +89,8 @@ public val LineAwesomeIcons.FaxSolid: ImageVector
                 moveTo(8.0f, 26.0f)
                 lineTo(10.0f, 26.0f)
                 lineTo(10.0f, 27.0f)
-                curveTo(10.0f, 27.5547f, 9.5547f, 28.0f, 9.0f, 28.0f)
-                curveTo(8.4453f, 28.0f, 8.0f, 27.5547f, 8.0f, 27.0f)
+                curveTo(10.0f, 27.555f, 9.555f, 28.0f, 9.0f, 28.0f)
+                curveTo(8.445f, 28.0f, 8.0f, 27.555f, 8.0f, 27.0f)
                 close()
             }
         }

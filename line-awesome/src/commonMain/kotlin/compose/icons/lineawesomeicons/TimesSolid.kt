@@ -21,18 +21,18 @@ public val LineAwesomeIcons.TimesSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(7.2188f, 5.7813f)
-                lineTo(5.7813f, 7.2188f)
-                lineTo(14.5625f, 16.0f)
-                lineTo(5.7813f, 24.7813f)
-                lineTo(7.2188f, 26.2188f)
-                lineTo(16.0f, 17.4375f)
-                lineTo(24.7813f, 26.2188f)
-                lineTo(26.2188f, 24.7813f)
-                lineTo(17.4375f, 16.0f)
-                lineTo(26.2188f, 7.2188f)
-                lineTo(24.7813f, 5.7813f)
-                lineTo(16.0f, 14.5625f)
+                moveTo(7.219f, 5.781f)
+                lineTo(5.781f, 7.219f)
+                lineTo(14.563f, 16.0f)
+                lineTo(5.781f, 24.781f)
+                lineTo(7.219f, 26.219f)
+                lineTo(16.0f, 17.438f)
+                lineTo(24.781f, 26.219f)
+                lineTo(26.219f, 24.781f)
+                lineTo(17.438f, 16.0f)
+                lineTo(26.219f, 7.219f)
+                lineTo(24.781f, 5.781f)
+                lineTo(16.0f, 14.563f)
                 close()
             }
         }

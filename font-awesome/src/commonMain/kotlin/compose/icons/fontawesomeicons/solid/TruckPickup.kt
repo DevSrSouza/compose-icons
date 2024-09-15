@@ -27,7 +27,7 @@ public val SolidGroup.TruckPickup: ImageVector
                 curveToRelative(0.0f, -17.67f, -14.33f, -32.0f, -32.0f, -32.0f)
                 horizontalLineToRelative(-48.0f)
                 lineTo(419.22f, 56.02f)
-                arcTo(64.025f, 64.025f, 0.0f, false, false, 369.24f, 32.0f)
+                arcTo(64.03f, 64.03f, 0.0f, false, false, 369.24f, 32.0f)
                 lineTo(256.0f, 32.0f)
                 curveToRelative(-17.67f, 0.0f, -32.0f, 14.33f, -32.0f, 32.0f)
                 verticalLineToRelative(128.0f)

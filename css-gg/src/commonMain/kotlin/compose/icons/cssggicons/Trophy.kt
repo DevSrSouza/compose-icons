@@ -26,11 +26,11 @@ public val CssGgIcons.Trophy: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(13.0f, 15.9f)
-                curveTo(15.2822f, 15.4367f, 17.0f, 13.419f, 17.0f, 11.0f)
+                curveTo(15.282f, 15.437f, 17.0f, 13.419f, 17.0f, 11.0f)
                 verticalLineTo(4.0f)
                 horizontalLineTo(7.0f)
                 verticalLineTo(11.0f)
-                curveTo(7.0f, 13.419f, 8.7178f, 15.4367f, 11.0f, 15.9f)
+                curveTo(7.0f, 13.419f, 8.718f, 15.437f, 11.0f, 15.9f)
                 verticalLineTo(18.0f)
                 horizontalLineTo(9.0f)
                 verticalLineTo(20.0f)
@@ -42,8 +42,8 @@ public val CssGgIcons.Trophy: ImageVector
                 moveTo(9.0f, 6.0f)
                 horizontalLineTo(15.0f)
                 verticalLineTo(11.0f)
-                curveTo(15.0f, 12.6569f, 13.6569f, 14.0f, 12.0f, 14.0f)
-                curveTo(10.3431f, 14.0f, 9.0f, 12.6569f, 9.0f, 11.0f)
+                curveTo(15.0f, 12.657f, 13.657f, 14.0f, 12.0f, 14.0f)
+                curveTo(10.343f, 14.0f, 9.0f, 12.657f, 9.0f, 11.0f)
                 verticalLineTo(6.0f)
                 close()
             }

@@ -25,9 +25,9 @@ public val CssGgIcons.MenuOreos: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(7.0f, 3.0f)
-                curveTo(5.3432f, 3.0f, 4.0f, 4.3432f, 4.0f, 6.0f)
+                curveTo(5.343f, 3.0f, 4.0f, 4.343f, 4.0f, 6.0f)
                 horizontalLineTo(20.0f)
-                curveTo(20.0f, 4.3432f, 18.6569f, 3.0f, 17.0f, 3.0f)
+                curveTo(20.0f, 4.343f, 18.657f, 3.0f, 17.0f, 3.0f)
                 horizontalLineTo(7.0f)
                 close()
             }
@@ -35,9 +35,9 @@ public val CssGgIcons.MenuOreos: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(7.0f, 11.0f)
-                curveTo(5.3432f, 11.0f, 4.0f, 9.6568f, 4.0f, 8.0f)
+                curveTo(5.343f, 11.0f, 4.0f, 9.657f, 4.0f, 8.0f)
                 horizontalLineTo(20.0f)
-                curveTo(20.0f, 9.6568f, 18.6569f, 11.0f, 17.0f, 11.0f)
+                curveTo(20.0f, 9.657f, 18.657f, 11.0f, 17.0f, 11.0f)
                 horizontalLineTo(7.0f)
                 close()
             }
@@ -45,9 +45,9 @@ public val CssGgIcons.MenuOreos: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(7.0f, 13.0f)
-                curveTo(5.3432f, 13.0f, 4.0f, 14.3431f, 4.0f, 16.0f)
+                curveTo(5.343f, 13.0f, 4.0f, 14.343f, 4.0f, 16.0f)
                 horizontalLineTo(20.0f)
-                curveTo(20.0f, 14.3431f, 18.6569f, 13.0f, 17.0f, 13.0f)
+                curveTo(20.0f, 14.343f, 18.657f, 13.0f, 17.0f, 13.0f)
                 horizontalLineTo(7.0f)
                 close()
             }
@@ -55,9 +55,9 @@ public val CssGgIcons.MenuOreos: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
                 moveTo(7.0f, 21.0f)
-                curveTo(5.3432f, 21.0f, 4.0f, 19.6569f, 4.0f, 18.0f)
+                curveTo(5.343f, 21.0f, 4.0f, 19.657f, 4.0f, 18.0f)
                 horizontalLineTo(20.0f)
-                curveTo(20.0f, 19.6569f, 18.6569f, 21.0f, 17.0f, 21.0f)
+                curveTo(20.0f, 19.657f, 18.657f, 21.0f, 17.0f, 21.0f)
                 horizontalLineTo(7.0f)
                 close()
             }

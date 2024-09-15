@@ -15,6 +15,6 @@ public val EvaIcons.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= Outline.AllIcons + Fill.AllIcons + listOf()
+    __AllIcons= Fill.AllIcons + Outline.AllIcons + listOf()
     return __AllIcons!!
   }

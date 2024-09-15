@@ -38,7 +38,7 @@ public val LineAwesomeIcons.YCombinator: ImageVector
                 lineTo(17.0f, 17.0f)
                 lineTo(20.5f, 11.0f)
                 lineTo(18.5f, 11.0f)
-                lineTo(16.0f, 15.2813f)
+                lineTo(16.0f, 15.281f)
                 lineTo(13.5f, 11.0f)
                 close()
             }

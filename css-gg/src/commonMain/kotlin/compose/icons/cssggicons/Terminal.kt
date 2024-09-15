@@ -25,13 +25,13 @@ public val CssGgIcons.Terminal: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(5.0333f, 14.8284f)
-                lineTo(6.4475f, 16.2426f)
-                lineTo(10.6902f, 12.0f)
-                lineTo(6.4475f, 7.7573f)
-                lineTo(5.0333f, 9.1715f)
-                lineTo(7.8617f, 12.0f)
-                lineTo(5.0333f, 14.8284f)
+                moveTo(5.033f, 14.828f)
+                lineTo(6.448f, 16.243f)
+                lineTo(10.69f, 12.0f)
+                lineTo(6.448f, 7.757f)
+                lineTo(5.033f, 9.172f)
+                lineTo(7.862f, 12.0f)
+                lineTo(5.033f, 14.828f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
@@ -48,13 +48,13 @@ public val CssGgIcons.Terminal: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(2.0f, 2.0f)
-                curveTo(0.8954f, 2.0f, 0.0f, 2.8954f, 0.0f, 4.0f)
+                curveTo(0.895f, 2.0f, 0.0f, 2.895f, 0.0f, 4.0f)
                 verticalLineTo(20.0f)
-                curveTo(0.0f, 21.1046f, 0.8954f, 22.0f, 2.0f, 22.0f)
+                curveTo(0.0f, 21.105f, 0.895f, 22.0f, 2.0f, 22.0f)
                 horizontalLineTo(22.0f)
-                curveTo(23.1046f, 22.0f, 24.0f, 21.1046f, 24.0f, 20.0f)
+                curveTo(23.105f, 22.0f, 24.0f, 21.105f, 24.0f, 20.0f)
                 verticalLineTo(4.0f)
-                curveTo(24.0f, 2.8954f, 23.1046f, 2.0f, 22.0f, 2.0f)
+                curveTo(24.0f, 2.895f, 23.105f, 2.0f, 22.0f, 2.0f)
                 horizontalLineTo(2.0f)
                 close()
                 moveTo(22.0f, 4.0f)

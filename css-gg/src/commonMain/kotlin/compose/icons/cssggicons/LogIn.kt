@@ -24,33 +24,33 @@ public val CssGgIcons.LogIn: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(15.4857f, 20.0f)
-                horizontalLineTo(19.4857f)
-                curveTo(20.5903f, 20.0f, 21.4857f, 19.1046f, 21.4857f, 18.0f)
+                moveTo(15.486f, 20.0f)
+                horizontalLineTo(19.486f)
+                curveTo(20.59f, 20.0f, 21.486f, 19.105f, 21.486f, 18.0f)
                 verticalLineTo(6.0f)
-                curveTo(21.4857f, 4.8954f, 20.5903f, 4.0f, 19.4857f, 4.0f)
-                horizontalLineTo(15.4857f)
+                curveTo(21.486f, 4.895f, 20.59f, 4.0f, 19.486f, 4.0f)
+                horizontalLineTo(15.486f)
                 verticalLineTo(6.0f)
-                horizontalLineTo(19.4857f)
+                horizontalLineTo(19.486f)
                 verticalLineTo(18.0f)
-                horizontalLineTo(15.4857f)
+                horizontalLineTo(15.486f)
                 verticalLineTo(20.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.1582f, 17.385f)
-                lineTo(8.738f, 15.9768f)
-                lineTo(12.6572f, 12.0242f)
-                lineTo(3.5143f, 12.0242f)
-                curveTo(2.962f, 12.0242f, 2.5143f, 11.5765f, 2.5143f, 11.0242f)
-                curveTo(2.5143f, 10.4719f, 2.962f, 10.0242f, 3.5143f, 10.0242f)
-                lineTo(12.6765f, 10.0242f)
-                lineTo(8.696f, 6.0774f)
-                lineTo(10.1042f, 4.6572f)
-                lineTo(16.4951f, 10.9941f)
-                lineTo(10.1582f, 17.385f)
+                moveTo(10.158f, 17.385f)
+                lineTo(8.738f, 15.977f)
+                lineTo(12.657f, 12.024f)
+                lineTo(3.514f, 12.024f)
+                curveTo(2.962f, 12.024f, 2.514f, 11.576f, 2.514f, 11.024f)
+                curveTo(2.514f, 10.472f, 2.962f, 10.024f, 3.514f, 10.024f)
+                lineTo(12.677f, 10.024f)
+                lineTo(8.696f, 6.077f)
+                lineTo(10.104f, 4.657f)
+                lineTo(16.495f, 10.994f)
+                lineTo(10.158f, 17.385f)
                 close()
             }
         }

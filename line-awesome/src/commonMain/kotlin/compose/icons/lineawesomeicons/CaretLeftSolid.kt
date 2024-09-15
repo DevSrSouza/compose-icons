@@ -21,17 +21,17 @@ public val LineAwesomeIcons.CaretLeftSolid: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(20.0f, 4.5938f)
-                lineTo(18.2813f, 6.2813f)
-                lineTo(9.2813f, 15.2813f)
-                lineTo(8.5938f, 16.0f)
-                lineTo(9.2813f, 16.7188f)
-                lineTo(18.2813f, 25.7188f)
-                lineTo(20.0f, 27.4063f)
+                moveTo(20.0f, 4.594f)
+                lineTo(18.281f, 6.281f)
+                lineTo(9.281f, 15.281f)
+                lineTo(8.594f, 16.0f)
+                lineTo(9.281f, 16.719f)
+                lineTo(18.281f, 25.719f)
+                lineTo(20.0f, 27.406f)
                 close()
-                moveTo(18.0f, 9.4375f)
-                lineTo(18.0f, 22.5625f)
-                lineTo(11.4375f, 16.0f)
+                moveTo(18.0f, 9.438f)
+                lineTo(18.0f, 22.563f)
+                lineTo(11.438f, 16.0f)
                 close()
             }
         }

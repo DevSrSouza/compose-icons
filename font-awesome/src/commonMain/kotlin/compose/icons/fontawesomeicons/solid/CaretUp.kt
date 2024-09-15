@@ -21,13 +21,13 @@ public val SolidGroup.CaretUp: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(288.662f, 352.0f)
-                horizontalLineTo(31.338f)
-                curveToRelative(-17.818f, 0.0f, -26.741f, -21.543f, -14.142f, -34.142f)
-                lineToRelative(128.662f, -128.662f)
-                curveToRelative(7.81f, -7.81f, 20.474f, -7.81f, 28.284f, 0.0f)
-                lineToRelative(128.662f, 128.662f)
-                curveToRelative(12.6f, 12.599f, 3.676f, 34.142f, -14.142f, 34.142f)
+                moveTo(288.66f, 352.0f)
+                horizontalLineTo(31.34f)
+                curveToRelative(-17.82f, 0.0f, -26.74f, -21.54f, -14.14f, -34.14f)
+                lineToRelative(128.66f, -128.66f)
+                curveToRelative(7.81f, -7.81f, 20.47f, -7.81f, 28.28f, 0.0f)
+                lineToRelative(128.66f, 128.66f)
+                curveToRelative(12.6f, 12.6f, 3.68f, 34.14f, -14.14f, 34.14f)
                 close()
             }
         }

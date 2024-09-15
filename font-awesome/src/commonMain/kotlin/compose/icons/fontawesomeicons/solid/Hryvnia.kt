@@ -60,7 +60,7 @@ public val SolidGroup.Hryvnia: ImageVector
                 lineToRelative(-20.49f, -24.59f)
                 curveToRelative(-8.49f, -10.19f, -23.62f, -11.56f, -33.81f, -3.07f)
                 lineToRelative(-11.75f, 9.8f)
-                arcToRelative(23.992f, 23.992f, 0.0f, false, true, -15.36f, 5.56f)
+                arcToRelative(23.99f, 23.99f, 0.0f, false, true, -15.36f, 5.56f)
                 horizontalLineTo(149.2f)
                 curveToRelative(-11.69f, 0.0f, -21.2f, -9.52f, -21.2f, -21.2f)
                 curveToRelative(0.0f, -5.91f, 2.48f, -11.58f, 6.81f, -15.58f)

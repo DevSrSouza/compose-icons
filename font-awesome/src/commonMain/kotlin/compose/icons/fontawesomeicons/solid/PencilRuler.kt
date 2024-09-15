@@ -25,7 +25,7 @@ public val SolidGroup.PencilRuler: ImageVector
                 lineToRelative(134.58f, -134.56f)
                 lineToRelative(-44.12f, -44.12f)
                 lineToRelative(-61.68f, 61.68f)
-                arcToRelative(7.919f, 7.919f, 0.0f, false, true, -11.21f, 0.0f)
+                arcToRelative(7.92f, 7.92f, 0.0f, false, true, -11.21f, 0.0f)
                 lineToRelative(-11.21f, -11.21f)
                 curveToRelative(-3.1f, -3.1f, -3.1f, -8.12f, 0.0f, -11.21f)
                 lineToRelative(61.68f, -61.68f)

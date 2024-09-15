@@ -21,13 +21,13 @@ public val CssGgIcons.ShapeHexagon: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
-                moveTo(6.0f, 15.2348f)
-                lineTo(12.0f, 18.5681f)
-                lineTo(18.0f, 15.2348f)
-                verticalLineTo(8.7652f)
-                lineTo(12.0f, 5.4319f)
-                lineTo(6.0f, 8.7652f)
-                verticalLineTo(15.2348f)
+                moveTo(6.0f, 15.235f)
+                lineTo(12.0f, 18.568f)
+                lineTo(18.0f, 15.235f)
+                verticalLineTo(8.765f)
+                lineTo(12.0f, 5.432f)
+                lineTo(6.0f, 8.765f)
+                verticalLineTo(15.235f)
                 close()
                 moveTo(12.0f, 2.0f)
                 lineTo(3.0f, 7.0f)

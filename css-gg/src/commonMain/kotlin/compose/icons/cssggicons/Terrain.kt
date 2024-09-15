@@ -33,11 +33,11 @@ public val CssGgIcons.Terrain: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(10.5286f, 10.7543f)
+                moveTo(10.529f, 10.754f)
                 lineTo(13.5f, 6.0f)
                 lineTo(21.0f, 18.0f)
-                horizontalLineTo(15.0572f)
-                lineTo(10.5286f, 10.7543f)
+                horizontalLineTo(15.057f)
+                lineTo(10.529f, 10.754f)
                 close()
             }
         }

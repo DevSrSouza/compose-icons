@@ -44,7 +44,7 @@ public val SolidGroup.Tractor: ImageVector
                 lineTo(480.0f, 160.0f)
                 lineTo(377.67f, 160.0f)
                 lineTo(321.58f, 29.14f)
-                arcTo(47.914f, 47.914f, 0.0f, false, false, 277.45f, 0.0f)
+                arcTo(47.91f, 47.91f, 0.0f, false, false, 277.45f, 0.0f)
                 lineTo(144.0f, 0.0f)
                 curveToRelative(-26.47f, 0.0f, -48.0f, 21.53f, -48.0f, 48.0f)
                 verticalLineToRelative(146.52f)

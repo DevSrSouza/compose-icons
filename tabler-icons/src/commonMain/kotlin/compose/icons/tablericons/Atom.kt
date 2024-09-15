@@ -29,20 +29,20 @@ public val TablerIcons.Atom: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(19.0711f, 4.9289f)
-                arcToRelative(4.0f, 10.0f, 45.0f, false, false, -9.8995f, 4.2426f)
-                arcToRelative(4.0f, 10.0f, 45.0f, false, false, -4.2426f, 9.8995f)
-                arcToRelative(4.0f, 10.0f, 45.0f, false, false, 9.8995f, -4.2426f)
-                arcToRelative(4.0f, 10.0f, 45.0f, false, false, 4.2426f, -9.8995f)
+                moveTo(19.071f, 4.929f)
+                arcToRelative(4.0f, 10.0f, 45.0f, false, false, -9.899f, 4.243f)
+                arcToRelative(4.0f, 10.0f, 45.0f, false, false, -4.243f, 9.899f)
+                arcToRelative(4.0f, 10.0f, 45.0f, false, false, 9.899f, -4.243f)
+                arcToRelative(4.0f, 10.0f, 45.0f, false, false, 4.243f, -9.899f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(4.9289f, 4.9289f)
-                arcToRelative(10.0f, 4.0f, 45.0f, false, false, 4.2426f, 9.8995f)
-                arcToRelative(10.0f, 4.0f, 45.0f, false, false, 9.8995f, 4.2426f)
-                arcToRelative(10.0f, 4.0f, 45.0f, false, false, -4.2426f, -9.8995f)
-                arcToRelative(10.0f, 4.0f, 45.0f, false, false, -9.8995f, -4.2426f)
+                moveTo(4.929f, 4.929f)
+                arcToRelative(10.0f, 4.0f, 45.0f, false, false, 4.243f, 9.899f)
+                arcToRelative(10.0f, 4.0f, 45.0f, false, false, 9.899f, 4.243f)
+                arcToRelative(10.0f, 4.0f, 45.0f, false, false, -4.243f, -9.899f)
+                arcToRelative(10.0f, 4.0f, 45.0f, false, false, -9.899f, -4.243f)
             }
         }
         .build()

@@ -24,26 +24,26 @@ public val CssGgIcons.PushRight: ImageVector
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(1.0f, 12.9999f)
-                verticalLineTo(10.9999f)
-                horizontalLineTo(15.4853f)
-                lineTo(12.2427f, 7.7572f)
-                lineTo(13.6569f, 6.343f)
-                lineTo(19.3137f, 11.9999f)
-                lineTo(13.6569f, 17.6567f)
-                lineTo(12.2427f, 16.2425f)
-                lineTo(15.4853f, 12.9999f)
+                moveTo(1.0f, 13.0f)
+                verticalLineTo(11.0f)
+                horizontalLineTo(15.485f)
+                lineTo(12.243f, 7.757f)
+                lineTo(13.657f, 6.343f)
+                lineTo(19.314f, 12.0f)
+                lineTo(13.657f, 17.657f)
+                lineTo(12.243f, 16.243f)
+                lineTo(15.485f, 13.0f)
                 horizontalLineTo(1.0f)
                 close()
             }
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
-                moveTo(20.2877f, 6.0f)
+                moveTo(20.288f, 6.0f)
                 verticalLineTo(18.0f)
-                horizontalLineTo(22.2877f)
+                horizontalLineTo(22.288f)
                 verticalLineTo(6.0f)
-                horizontalLineTo(20.2877f)
+                horizontalLineTo(20.288f)
                 close()
             }
         }

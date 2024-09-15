@@ -50,13 +50,13 @@ public val CssGgIcons.ScreenShot: ImageVector
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = EvenOdd) {
                 moveTo(4.0f, 3.0f)
-                curveTo(4.0f, 2.4477f, 4.4477f, 2.0f, 5.0f, 2.0f)
+                curveTo(4.0f, 2.448f, 4.448f, 2.0f, 5.0f, 2.0f)
                 horizontalLineTo(19.0f)
-                curveTo(19.5523f, 2.0f, 20.0f, 2.4477f, 20.0f, 3.0f)
+                curveTo(19.552f, 2.0f, 20.0f, 2.448f, 20.0f, 3.0f)
                 verticalLineTo(21.0f)
-                curveTo(20.0f, 21.5523f, 19.5523f, 22.0f, 19.0f, 22.0f)
+                curveTo(20.0f, 21.552f, 19.552f, 22.0f, 19.0f, 22.0f)
                 horizontalLineTo(5.0f)
-                curveTo(4.4477f, 22.0f, 4.0f, 21.5523f, 4.0f, 21.0f)
+                curveTo(4.448f, 22.0f, 4.0f, 21.552f, 4.0f, 21.0f)
                 verticalLineTo(3.0f)
                 close()
                 moveTo(6.0f, 20.0f)

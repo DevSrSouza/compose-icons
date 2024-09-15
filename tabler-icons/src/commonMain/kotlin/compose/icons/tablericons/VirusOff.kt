@@ -45,10 +45,10 @@ public val TablerIcons.VirusOff: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(15.5355f, 8.4645f)
-                lineToRelative(2.8284f, -2.8284f)
-                moveToRelative(-0.7071f, -0.7071f)
-                lineToRelative(1.4142f, 1.4142f)
+                moveTo(15.536f, 8.464f)
+                lineToRelative(2.828f, -2.828f)
+                moveToRelative(-0.707f, -0.707f)
+                lineToRelative(1.414f, 1.414f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -62,7 +62,7 @@ public val TablerIcons.VirusOff: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(18.364f, 18.364f)
-                lineTo(17.6569f, 19.0711f)
+                lineTo(17.657f, 19.071f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -75,10 +75,10 @@ public val TablerIcons.VirusOff: ImageVector
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
-                moveTo(8.4645f, 15.5355f)
-                lineToRelative(-2.8284f, 2.8284f)
-                moveToRelative(0.7071f, 0.7071f)
-                lineToRelative(-1.4142f, -1.4142f)
+                moveTo(8.464f, 15.536f)
+                lineToRelative(-2.828f, 2.828f)
+                moveToRelative(0.707f, 0.707f)
+                lineToRelative(-1.414f, -1.414f)
             }
             path(fill = SolidColor(Color(0x00000000)), stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
@@ -92,7 +92,7 @@ public val TablerIcons.VirusOff: ImageVector
                     strokeLineWidth = 2.0f, strokeLineCap = Round, strokeLineJoin =
                     StrokeJoin.Companion.Round, strokeLineMiter = 4.0f, pathFillType = NonZero) {
                 moveTo(5.636f, 5.636f)
-                lineTo(4.9289f, 6.3431f)
+                lineTo(4.929f, 6.343f)
             }
         }
         .build()
