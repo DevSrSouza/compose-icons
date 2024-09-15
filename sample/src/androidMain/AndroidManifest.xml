@@ -9,7 +9,7 @@
         android:allowBackup="true"
         android:supportsRtl="true">
         <activity
-            android:name=".SampleActivity"
+            android:name="compose.icons.sample.SampleActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

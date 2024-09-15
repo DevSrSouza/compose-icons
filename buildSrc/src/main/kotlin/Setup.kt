@@ -16,10 +16,11 @@ import org.gradle.kotlin.dsl.withType
 import org.gradle.kotlin.dsl.getByType
 import org.jetbrains.kotlin.gradle.dsl.KotlinJvmOptions
 import org.jetbrains.kotlin.gradle.dsl.KotlinMultiplatformExtension
+import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 private fun BaseExtension.setupAndroid() {
-    compileSdkVersion(33)
+    compileSdkVersion(34)
     defaultConfig {
         minSdk = 21
         targetSdk = 33
@@ -31,7 +32,8 @@ private fun BaseExtension.setupAndroid() {
 
 fun Project.setupModuleForComposeMultiplatform(
     withKotlinExplicitMode: Boolean = true,
-    iosPrefixName: String = "ios" // only used in ios sample
+    iosPrefixName: String = "ios", // only used in ios sample
+    wasm: Boolean = true,
 ) {
     plugins.withType<org.jetbrains.kotlin.gradle.plugin.KotlinBasePluginWrapper> {
         extensions.configure<KotlinMultiplatformExtension> {
@@ -56,6 +58,11 @@ fun Project.setupModuleForComposeMultiplatform(
             macosArm64()
             ios(iosPrefixName)
             iosSimulatorArm64("${iosPrefixName}SimulatorArm64")
+
+            if (wasm) {
+                @OptIn(ExperimentalWasmDsl::class)
+                wasmJs { browser() }
+            }
 
             sourceSets {
                 /* Source sets structure
