@@ -42,7 +42,6 @@ registerGeneratorTask(
                     it.copyTo(relocateIcon)
 
                     relocatedNames.putRelocatedRelativeTo(repoCloneDir, relocateIcon, it)
-                    //relocatedNames[relocateIcon.relativeTo(repoCloneDir).path] = it.relativeTo(repoCloneDir).path
                 }
         }
 

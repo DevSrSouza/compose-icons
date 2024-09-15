@@ -120,6 +120,7 @@ private fun Project.generate(
         allAssetsPropertyName = "AllIcons",
         iconNameTransformer = { it, g -> svgToComposeConfig.iconNameTransformer(it.toKotlinPropertyName(), g) },
         generatePreview = false,
+        generateStringAccessor = true,
     )
 
     // License copy
