@@ -14,6 +14,9 @@ plugin-android = { module = "com.android.tools.build:gradle", version.ref = "plu
 plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 plugin-maven = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "plugin-maven" }
 plugin-composeMultiplatform = { module = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "plugin-composeMultiplatform" }
+generator-svgToCompose = { module = "com.github.DevSrSouza:svg-to-compose", version = "0.8.1" }
+generator-jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version = "3.5.0.201409260305-r" }
+generator-kotlinpoet = { module = "com.squareup:kotlinpoet", version = "1.7.2" }
 
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 appCompat = { module = "androidx.appcompat:appcompat", version.ref = "appCompat" }
