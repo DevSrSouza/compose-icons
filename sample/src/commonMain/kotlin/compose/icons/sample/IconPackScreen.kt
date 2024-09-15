@@ -3,6 +3,8 @@ package compose.icons.sample
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
@@ -13,6 +15,11 @@ import cafe.adriel.voyager.core.screen.ScreenKey
 import compose.icons.sample.data.IconPackModel
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.material.Text
+import androidx.compose.material.TextField
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
@@ -28,17 +35,41 @@ data class IconPackScreen(
 
     @Composable
     override fun Content() {
-        LazyVerticalGrid(
-            columns = GridCells.Adaptive(64.dp),
-        ) {
-            items(iconPack.allIcons) { icon ->
-                Image(
-                    imageVector = icon,
-                    contentDescription = null,
-                    modifier = Modifier.size(32.dp),
-                    colorFilter = ColorFilter.tint(Color.Black)
-                )
+        Column {
+            var searchState by remember {
+                mutableStateOf("")
+            }
+
+            TextField(
+                value = searchState,
+                onValueChange = { searchState = it },
+                placeholder = { Text("Search Icon") },
+                modifier = Modifier.padding(8.dp).fillMaxWidth()
+            )
+
+            val icons = remember(searchState) {
+                iconPack.allIcons.filter {
+                    it.key.contains(searchState.lowercase())
+                }.toList()
+            }
+
+            LazyVerticalGrid(
+                columns = GridCells.Adaptive(64.dp),
+            ) {
+                items(icons) { (iconName, icon) ->
+                    Column {
+                        Image(
+                            imageVector = icon,
+                            contentDescription = null,
+                            modifier = Modifier.size(32.dp),
+                            colorFilter = ColorFilter.tint(Color.Black)
+                        )
+
+                        Text(iconName, modifier = Modifier.padding(top = 4.dp))
+                    }
+                }
             }
         }
+
     }
 }

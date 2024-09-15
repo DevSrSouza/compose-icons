@@ -1,6 +1,7 @@
 package compose.icons.sample.data
 
 import compose.icons.AllIcons
+import compose.icons.AllIconsNamed
 import compose.icons.CssGgIcons
 import compose.icons.EvaIcons
 import compose.icons.FeatherIcons
@@ -17,42 +18,42 @@ import compose.icons.WeatherIcons
 val iconPacks = listOf(
     IconPackModel(
         packName = "css.gg",
-        allIcons = CssGgIcons.AllIcons,
+        allIcons = CssGgIcons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Weather Icons by Erik Flowers",
-        allIcons = WeatherIcons.AllIcons,
+        allIcons = WeatherIcons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Eva Icons",
-        allIcons = EvaIcons.AllIcons,
+        allIcons = EvaIcons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Feather",
-        allIcons = FeatherIcons.AllIcons,
+        allIcons = FeatherIcons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Font Awesome",
-        allIcons = FontAwesomeIcons.AllIcons,
+        allIcons = FontAwesomeIcons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Line Awesome",
-        allIcons = LineAwesomeIcons.AllIcons,
+        allIcons = LineAwesomeIcons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Linea",
-        allIcons = LineaIcons.AllIcons,
+        allIcons = LineaIcons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Octicons",
-        allIcons = Octicons.AllIcons,
+        allIcons = Octicons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Simple Icons",
-        allIcons = SimpleIcons.AllIcons,
+        allIcons = SimpleIcons.AllIconsNamed,
     ),
     IconPackModel(
         packName = "Tabler Icons",
-        allIcons = TablerIcons.AllIcons,
+        allIcons = TablerIcons.AllIconsNamed,
     ),
 )

@@ -4,6 +4,6 @@ import androidx.compose.ui.graphics.vector.ImageVector
 
 class IconPackModel(
     val packName: String,
-    val allIcons: List<ImageVector>,
+    val allIcons: Map<String, ImageVector>,
 )
 
