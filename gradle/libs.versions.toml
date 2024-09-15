@@ -15,7 +15,7 @@ plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.
 plugin-maven = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "plugin-maven" }
 plugin-composeMultiplatform = { module = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "plugin-composeMultiplatform" }
 generator-svgToCompose = { module = "com.github.DevSrSouza:svg-to-compose", version = "0.10.0" }
-generator-jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version = "3.5.0.201409260305-r" }
+generator-jgit = { module = "org.eclipse.jgit:org.eclipse.jgit", version = "7.0.0.202409031743-r" }
 generator-kotlinpoet = { module = "com.squareup:kotlinpoet", version = "1.7.2" }
 
 coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }

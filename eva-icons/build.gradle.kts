@@ -34,21 +34,18 @@ registerGeneratorTask(
 
         outputFill.listFiles().filter { it.extension == "svg" }
             .forEach {
-                val previousFile = File(repoIcons, "fill/svg/${it.name.replace("_", "-")}")
-                relocatedNames.putRelocatedRelativeTo(repoCloneDir, it, previousFile)
+                val previousFile = File(repoIcons, "fill/svg/${it.name}")
+                val newFile = File(it.parentFile, it.name.replace("-", "_"))
+                relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, previousFile)
+
+                it.renameTo(newFile)
             }
         outputOutline.listFiles().filter { it.extension == "svg" }
             .forEach {
-                val previousFile = File(repoIcons, "outline/svg/${it.name.replace("_", "-")}")
-                relocatedNames.putRelocatedRelativeTo(repoCloneDir, it, previousFile)
-            }
-
-        // renaming to match to svg-to-compose
-        iconsDir.walkTopDown().filter { it.extension == "svg" }
-            .forEach {
+                val previousFile = File(repoIcons, "outline/svg/${it.name}")
                 val newFile = File(it.parentFile, it.name.replace("-", "_"))
+                relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, previousFile)
 
-                // rename to conform with SVG to Compose
                 it.renameTo(newFile)
             }
 

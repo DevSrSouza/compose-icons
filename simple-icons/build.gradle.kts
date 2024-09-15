@@ -72,7 +72,7 @@ registerGeneratorTask(
                 val renamed = File(iconsDir, sourceName)
                 icon.renameTo(renamed)
 
-                relocatedNames.putRelocatedRelativeTo(repoCloneDir, icon, renamed)
+                relocatedNames.putRelocatedRelativeTo(repoCloneDir, renamed, icon)
 
                 sourceName to fileName
             }

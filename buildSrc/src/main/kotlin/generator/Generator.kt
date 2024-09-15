@@ -4,6 +4,8 @@ import br.com.devsrsouza.svg2compose.ParsingResult
 import br.com.devsrsouza.svg2compose.Svg2Compose
 import br.com.devsrsouza.svg2compose.VectorType
 import org.eclipse.jgit.api.Git
+import org.eclipse.jgit.transport.RefSpec
+import org.eclipse.jgit.transport.URIish
 import org.gradle.api.Project
 import org.jetbrains.kotlin.com.google.common.base.CaseFormat
 import java.io.File
@@ -81,11 +83,22 @@ private fun Project.generate(
     val repoCloneDir = createTempDir(suffix = "git-repo")
 
     println("Cloning repository")
-    val git = Git.cloneRepository()
-        .setURI(repository)
+    val git = Git.init()
         .setDirectory(repoCloneDir)
         .call()
-    git.checkout().setName(gitCheckoutName).call()
+    git.remoteAdd()
+        .setName("origin")
+        .setUri(URIish(repository))
+        .call()
+    git.fetch()
+        .setRemote("origin")
+        .setRefSpecs(RefSpec(gitCheckoutName))
+        .setDepth(1)
+        .call()
+    git.checkout()
+        .setName(gitCheckoutName)
+        .call()
+    println("Finish clone repository")
 
     // target code generation folder
     // TODO: update to a know commited folder
@@ -153,7 +166,7 @@ private fun Project.generate(
     }
 
     fun markdownSvg(doc: DocumentationIcon): String {
-        return "![](${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) })"
+        return "<img src=\"${rawGithubRepository + "/" + replacePathName(doc.svgFilePathRelativeToRepository) }\" width=64 height=64 /> "
     }
 
     fun markdownIconDocumentation(doc: DocumentationIcon): String {
