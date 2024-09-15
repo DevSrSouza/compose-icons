@@ -79,7 +79,7 @@ fun Project.generate(
     // License copy
     val licensePath = licensePathAtRepo()
     val licenseFile = File(repoCloneDir, licensePath)
-    val resDir = File("src/commonMain/resources").makeDirs()
+    val resDir = File(projectDir, "src/commonMain/resources").makeDirs()
 
     val licenseInResource = File(resDir, "${githubId.replace("/", "-")}-license.txt")
     licenseFile.copyTo(licenseInResource, overwrite = true)
@@ -158,11 +158,15 @@ fun Project.generate(
     
     """.trimIndent() + licenseFile.readText().trimEnd { it == '\n' } + "\n```\n\n<br /><br />\n\n"
 
-    File("DOCUMENTATION.md").apply{
+    File(projectDir, "DOCUMENTATION.md").apply{
         if(exists().not()) createNewFile()
     }.writeText(
         header + "\n" + license + "\n" + documentationGroups
     )
+}
+
+fun MutableMap<String, String>.putRelocatedRelativeTo(relative: File, key: File, value: File) {
+    put(key.relativeTo(relative).path, value.relativeTo(relative).path)
 }
 
 fun Project.generateCssGg() {
@@ -180,7 +184,7 @@ fun Project.generateCssGg() {
                     val newFile = File(it.parentFile, it.name.replace("-", "_"))
 
                     // store the name change
-                    relocatedNames.put(newFile.path, it.path)
+                    relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
 
                     // rename to conform with SVG to Compose
                     it.renameTo(newFile)
@@ -214,7 +218,7 @@ fun Project.generateFeather() {
                     val newFile = File(it.parentFile, it.name.replace("-", "_"))
 
                     // store the name change
-                    relocatedNames.put(newFile.path, it.path)
+                    relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
 
                     // rename to conform with SVG to Compose
                     it.renameTo(newFile)
@@ -249,7 +253,7 @@ fun Project.generateFontAwesome() {
                     val newFile = File(it.parentFile, it.name.replace("-", "_"))
 
                     // store the name change
-                    relocatedNames.put(newFile.path, it.path)
+                    relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
 
                     // rename to conform with SVG to Compose
                     it.renameTo(newFile)
@@ -285,7 +289,7 @@ fun Project.generateLineAwesome() {
                     val newFile = File(it.parentFile, it.name.replace("-", "_"))
 
                     // store the name change
-                    relocatedNames.put(newFile.path, it.path)
+                    relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
 
                     // rename to conform with SVG to Compose
                     it.renameTo(newFile)
@@ -331,7 +335,8 @@ fun Project.generateLinea() {
 
                         it.copyTo(relocateIcon)
 
-                        relocatedNames[relocateIcon.relativeTo(repoCloneDir).path] = it.relativeTo(repoCloneDir).path
+                        relocatedNames.putRelocatedRelativeTo(repoCloneDir, relocateIcon, it)
+                        //relocatedNames[relocateIcon.relativeTo(repoCloneDir).path] = it.relativeTo(repoCloneDir).path
                     }
             }
 
@@ -370,7 +375,7 @@ fun Project.generateOcticons() {
                     val newFile = File(it.parentFile, it.name.replace("-", "_"))
 
                     // store the name change
-                    relocatedNames.put(newFile.path, it.path)
+                    relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
 
                     // rename to conform with SVG to Compose
                     it.renameTo(newFile)
@@ -447,7 +452,7 @@ fun Project.generateSimpleIcons() {
                     val renamed = File(iconsDir, sourceName)
                     icon.renameTo(renamed)
 
-                    relocatedNames.put(icon.path, renamed.path)
+                    relocatedNames.putRelocatedRelativeTo(repoCloneDir, icon, renamed)
 
                     sourceName to fileName
                 }
@@ -489,7 +494,7 @@ fun Project.generateTablerIcons() {
                     val newFile = File(it.parentFile, it.name.replace("-", "_"))
 
                     // store the name change
-                    relocatedNames.put(newFile.path, it.path)
+                    relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
 
                     // rename to conform with SVG to Compose
                     it.renameTo(newFile)
