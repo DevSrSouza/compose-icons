@@ -8,6 +8,7 @@ Compose Multiplatform icons is a pack of libraries that provide well known Icon 
 - iOS
 - MacOS Native
 - Web (JSCanvas)
+- Wasm JS
 
 ![](https://user-images.githubusercontent.com/29736164/111044124-6b131080-8425-11eb-9b03-0d3b409377a5.png)
 
@@ -21,12 +22,12 @@ repositories {
 ```
 
 ```kotlin
-implementation("br.com.devsrsouza.compose.icons:{ICON_PACK}:1.1.0")
+implementation("br.com.devsrsouza.compose.icons:{ICON_PACK}:1.1.1")
 ```
 
 ** `{ICON_PACK}` is a placeholder, you should replace it with your icon pack of choose.
 
-example: `br.com.devsrsouza.compose.icons:font-awesome:1.1.0`
+example: `br.com.devsrsouza.compose.icons:font-awesome:1.1.1`
 
 ## Example
 
@@ -57,7 +58,7 @@ You can find all code reference in the docs of the icon packs bellow.
 
 ```toml
 [versions]
-composeIcons = "1.1.0"
+composeIcons = "1.1.1"
 
 [libraries]
 composeIcons-cssGg = { module = "br.com.devsrsouza.compose.icons:css-gg", version.ref = "composeIcons" }
