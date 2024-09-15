@@ -20,9 +20,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.text.style.TextAlign
 import compose.icons.FeatherIcons
 import compose.icons.feathericons.Image
 import compose.icons.sample.components.NavigationHeader
@@ -57,7 +59,10 @@ data class IconPackScreen(
                 columns = GridCells.Adaptive(64.dp),
             ) {
                 items(icons) { (iconName, icon) ->
-                    Column {
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        modifier = Modifier.padding(4.dp)
+                    ) {
                         Image(
                             imageVector = icon,
                             contentDescription = null,
@@ -65,7 +70,11 @@ data class IconPackScreen(
                             colorFilter = ColorFilter.tint(Color.Black)
                         )
 
-                        Text(iconName, modifier = Modifier.padding(top = 4.dp))
+                        Text(
+                            text = iconName,
+                            modifier = Modifier.padding(top = 4.dp),
+                            textAlign = TextAlign.Center,
+                        )
                     }
                 }
             }
