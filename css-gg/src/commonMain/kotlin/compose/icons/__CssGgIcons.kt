@@ -705,7 +705,9 @@ import compose.icons.cssggicons.Youtube
 import compose.icons.cssggicons.Zeit
 import compose.icons.cssggicons.ZoomIn
 import compose.icons.cssggicons.ZoomOut
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object CssGgIcons
 
@@ -716,100 +718,327 @@ public val CssGgIcons.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Studio, FlagAlt, EditHighlight, InsertAfterO, GenderMale, Timelapse,
-        PlayTrackNext, FontSpacing, PlayListRemove, Search, Notes, CornerUpLeft, CornerLeftDown,
-        Figma, Internal, HomeScreen, Bee, ArrowLongDownC, ArrowBottomLeftO, MathMinus,
-        ArrowsBreakeV, Ghost, List, Bulb, FormatColor, ArrowLongRightL, Attribution, ToolbarTop,
-        ArrowsV, ToolbarLeft, Debug, ExtensionRemove, Tennis, Shutterstock, Unblock, ArrowTopLeft,
-        GlassAlt, ArrowTopRight, MoreVertical, SelectR, MenuGridO, SmartHomeLight, Dice1, CloseR,
-        MoreVerticalR, MenuBoxed, Repeat, Dice3, Microsoft, PathDivide, Tikcode, Chart,
-        PushChevronDownR, CornerDoubleLeftDown, SidebarRight, ChevronDoubleRightR, Transcript,
-        Track, Toolbox, PentagonDown, PlayPause, ListTree, DetailsMore, SmileNoMouth, UserAdd,
-        CheckR, EditMarkup, FormatText, Umbrella, MenuCheese, User, CalendarNext, Modem, Gym,
-        Shortcut, PinAlt, ChevronUpO, ArrowLongDown, Tab, PlayTrackNextR, ArrowBottomLeft, Remote,
-        Dollar, Dice2, OpenCollective, Girl, DisplaySpacing, Home, Copyright, ChevronDoubleDownO,
-        QuoteO, Music, Smartphone, IndieHackers, MenuMotion, EditBlackPoint, Photoscan, Dice6,
-        ShapeHalfCircle, CodeSlash, ShoppingBag, LoadbarDoc, Eject, ViewComfortable, VoicemailR,
-        ArrowLongDownE, MailOpen, ArrowLongDownR, MusicSpeaker, AlignBottom, ArrowLeftO,
-        ChevronRightR, UiKit, ToolbarRight, HomeAlt, Bitbucket, MenuRound, PushChevronRightR,
-        CalendarTwo, Lastpass, Usb, InsertBeforeO, LogOut, PentagonBottomLeft, EditFade, Zeit,
-        Export, ArrowsExpandLeft, Brackets, BorderLeft, MoreAlt, Crop, Tag, PushRight, ArrowRightR,
-        PushChevronLeft, ToggleOff, Briefcase, Presentation, Organisation, CreditCard, Sweden,
-        MailForward, AppleWatch, CornerDoubleRightDown, Headset, CornerDoubleUpRight, Inbox,
-        Community, Dice5, Loupe, PentagonRight, Database, MoreVerticalAlt, Captions, ShapeTriangle,
-        ShapeCircle, BorderAll, Designmodo, PlayTrackPrev, Pokemon, ArrowTopLeftO, File,
-        ChevronDownO, Duplicate, PinTop, MoreO, ZoomIn, Signal, PushUp, DropInvert, Games,
-        PushChevronUp, Voicemail, ChevronDoubleLeft, ArrowUpO, EditFlipH, PlayButtonR, Npm,
-        Terminal, Maximize, ArrowsHAlt, ViewSplit, Chanel, ArrowLongRight, Dice4, FormatUnderline,
-        DisplayFullwidth, MathPercent, WorkAlt, FolderRemove, Stark, Keyboard, ArrowLongUpC,
-        Inpicture, ArrowBottomRightR, ChevronDoubleRight, ClapperBoard, MenuRightAlt, Lock,
-        BorderStyleDotted, ArrowsExpandLeftAlt, SmartphoneChip, ArrowTopRightR, LogOff, Eventbrite,
-        Sleep, PlayBackwards, TapSingle, CornerLeftUp, ArrowsMergeAltV, LockUnlock, ScrollH,
-        Abstract, Calibrate, ArrowLongLeftC, ArrowsExpandDownRight, ArrowsVAlt, Pen, Awards,
-        ChevronDoubleUpO, Clipboard, ArrowLeft, Instagram, MoveUp, Euro, Link, Key, MoveLeft,
-        Rename, ProductHunt, Oculus, PlayPauseR, CornerDoubleDownLeft, CompressLeft, Brush,
-        CompressRight, SpinnerTwo, MenuOreos, EditUnmask, PushDown, CornerRightDown, PlayStopR,
-        FormatRight, Stopwatch, Minimize, Website, MediaLive, Compress, EditStraight, ArrangeFront,
-        FormatItalic, Ericsson, FileAdd, ArrowAlignH, Pocket, Magnet, ArrowsExchange, Mail,
-        RadioChecked, Shield, Desktop, CornerDownLeft, Expand, Time, Pin, Size, Import, Webcam,
-        ShapeRhombus, Ereader, Server, PushChevronUpO, Bolt, Tv, PushChevronLeftR, Volume,
-        FormatCenter, MenuCake, PathCrop, ArrowLongUpR, ArrowLongUpE, Overflow, FileDocument,
-        ArrowUp, ViewCols, Terrain, Filters, PentagonUp, Bot, Plug, ArrowBottomRight, FormatLeft,
-        PlayListCheck, CPlusPlus, DetailsLess, Bell, Controller, Coffee, ChevronRight, Code,
-        ArrowLongLeftR, ArrowsShrinkV, ArrowLongLeftE, ArrowsExchangeAlt, Thermometer, Cast,
-        MiniPlayer, MergeHorizontal, EditShadows, Flag, ExtensionAdd, ChevronLeft, SmartHomeHeat,
-        ArrowDownO, Battery, Microbit, AlignLeft, DarkMode, UsbC, Disc, ChevronDoubleLeftO,
-        CardSpades, Piano, Nametag, Bowl, GitBranch, ArrowRight, Ruler, Support, DockRight,
-        TrendingDown, External, CornerRightUp, SmartHomeRefrigerator, ArrangeBack, FontHeight,
-        Record, EditExposure, PlayTrackPrevO, Trophy, DockBottom, Feed, Check, ChevronDoubleUp,
-        CalendarDates, ArrowsExpandUpRight, ComedyCentral, GlobeAlt, CalendarToday, PathTrim,
-        UserRemove, PlayForwards, ChevronLeftO, ArrowsScrollH, Info, SmileSad, FormatJustify,
-        ShoppingCart, Today, Add, MediaPodcast, Yinyang, BorderStyleDashed, Close, Dialpad, Adidas,
-        PlayStopO, CardClubs, ViewDay, PlayListAdd, SoftwareUpload, Mic, ArrowsExchangeV, Copy,
-        SmileUpside, ArrowsMergeAltH, SmartHomeBoiler, ScrollV, Readme, InsertBefore, ShapeHexagon,
-        Image, MenuLeftAlt, LayoutList, ToggleSquare, ViewGrid, SortZa, LayoutGrid, PushLeft,
-        ViewList, Smile, GhostCharacter, Scan, PushChevronUpR, PathFront, PushChevronLeftO,
-        DistributeVertical, ChevronUp, SpinnerAlt, SwapVertical, FormatIndentIncrease, DockLeft,
-        MoveDown, MenuRight, ScreenShot, Browse, Twilio, Serverless, LoadbarSound,
-        ArrowBottomRightO, FormatUppercase, PullClear, ArrowsExpandDownLeft, PlayList,
-        CornerDoubleDownRight, Box, ArrowTopRightO, Touchpad, PentagonTopRight, Monday, Style,
-        ArrowsExchangeAltV, Sidebar, ArrowsExpandRight, Square, AlignTop, Crown, PathIntersect,
-        ArrowDown, ArrowAlignV, ArrowsExpandUpLeft, Paypal, ChevronDoubleUpR, Erase, Pacman,
-        ColorPicker, IfDesign, AlignMiddle, Boy, MenuHotdog, Unsplash, Crowdfire,
-        ArrowsExpandRightAlt, SpaceBetween, BandAid, Facebook, EyeAlt, PlayPauseO, Camera, Printer,
-        Trees, Redo, PlayButton, GitCommit, ArrowLongUpL, FormatSeparator, LayoutPin, Trending,
-        PlayTrackPrevR, ScreenMirror, Google, Vinyl, Tally, More, SpinnerTwoAlt, SpaceBetweenV,
-        RemoveR, CompressV, Glass, BorderRight, MailReply, Infinity, Attachment, ArrowLongLeftL,
-        ArrowsShrinkH, Trash, MergeVertical, DistributeHorizontal, CardDiamonds, PathOutline,
-        ChevronLeftR, AlignRight, SmartphoneShake, EditContrast, Hashtag, PathUnite, Carousel,
-        CornerDoubleRightUp, MathDivide, Template, SmartHomeCooker, PushChevronRight,
-        FormatLineHeight, Extension, SortAz, Sun, SoftwareDownload, Danger, CornerDoubleLeftUp,
-        ToggleOn, Browser, Anchor, Linear, SmileMouthOpen, CodeClimate, RowFirst, Windows, Dolby,
-        SmartHomeWashMachine, ChevronDown, Performance, Polaroid, FolderAdd, Youtube, Spinner,
-        SearchLoading, CalendarDue, DockWindow, FormatHeading, MoveTask, TapDouble, Bmw,
-        ShapeSquare, PentagonTopLeft, CardHearts, ArrowDownR, ArrowsScrollV, ChevronDoubleLeftR,
-        FormatIndentDecrease, LoadbarAlt, FormatSlash, Select, UserList, BatteryEmpty, PinBottom,
-        EditMask, Unavailable, Sketch, MenuLeft, ArrowLongLeft, Qr, Keyhole, PushChevronDownO,
-        ChevronDoubleRightO, Phone, Icecream, RadioCheck, DisplayGrid, ViewMonth, Sync,
-        ArrowsBreakeH, MoveRight, ArrowLongRightE, SandClock, ArrowLongRightR, MathPlus, Eye,
-        CheckO, ArrowsH, Reorder, Options, Pill, Dribbble, PentagonLeft, ExtensionAlt, ChevronUpR,
-        Pexels, Maze, Gift, PlayTrackNextO, GitPull, Drive, Trello, ToolbarBottom, Board, Profile,
-        Share, SidebarOpen, SmartphoneRam, Album, Atlasian, InsertAfterR, AlignCenter,
-        ToggleSquareOff, LivePhoto, MathEqual, Remove, Ethernet, PlayListSearch, Undo, Cap, Stack,
-        Tree, Collage, SmileNeutral, Twitter, Stories, EditNoise, ArrowBottomLeftR, Patreon,
-        SmileNone, ShapeZigzag, Comment, Hello, Calendar, BorderBottom, Gitter, Globe, Cross,
-        MaximizeAlt, TrashEmpty, Data, BorderStyleSolid, Laptop, SelectO, Framer, SearchFound,
-        GenderFemale, MenuGridR, MinimizeAlt, Notifications, FileRemove, Slack, MoreVerticalO,
-        CloseO, Cloud, Userlane, Read, Quote, PathBack, FormatBold, Loadbar, Components,
-        ChevronDoubleDown, GoogleTasks, ColorBucket, Bookmark, Unfold, ArrowLongUp, ArrowLongDownL,
-        ArrowTopLeftR, BatteryFull, Asterisk, ChevronDownR, MusicNote, MoreR, Enter,
-        ArrowLongRightC, Screen, Circleci, ArrowUpR, PlayButtonO, PentagonBottomRight,
-        CornerUpRight, Drop, Menu, Ring, RowLast, Poll, Ratio, Backspace, Spectrum, Password,
-        Airplane, Calculator, InsertAfter, ChevronDoubleDownR, Assign, Mouse, PushChevronDown,
-        Block, ZoomOut, PathExclude, Digitalocean, VoicemailO, CornerDownRight, ScreenWide, Folder,
-        CornerDoubleUpLeft, Alarm, Swiss, ArrowLeftR, FormatStrike, ChevronRightO, Timer, LogIn,
-        PushChevronRightO, Film, Moon, GitFork, BorderTop, InsertBeforeR, Swap, AddR, EditFlipV,
-        Thermostat, LayoutGridSmall, DropOpacity, ArrowRightO, PlayStop, DisplayFlex, Insights,
-        Heart)
+    __AllIcons= listOf(Abstract, Add, AddR, Adidas, Airplane, Alarm, Album, AlignBottom,
+        AlignCenter, AlignLeft, AlignMiddle, AlignRight, AlignTop, Anchor, AppleWatch, ArrangeBack,
+        ArrangeFront, ArrowAlignH, ArrowAlignV, ArrowBottomLeft, ArrowBottomLeftO, ArrowBottomLeftR,
+        ArrowBottomRight, ArrowBottomRightO, ArrowBottomRightR, ArrowDown, ArrowDownO, ArrowDownR,
+        ArrowLeft, ArrowLeftO, ArrowLeftR, ArrowLongDown, ArrowLongDownC, ArrowLongDownE,
+        ArrowLongDownL, ArrowLongDownR, ArrowLongLeft, ArrowLongLeftC, ArrowLongLeftE,
+        ArrowLongLeftL, ArrowLongLeftR, ArrowLongRight, ArrowLongRightC, ArrowLongRightE,
+        ArrowLongRightL, ArrowLongRightR, ArrowLongUp, ArrowLongUpC, ArrowLongUpE, ArrowLongUpL,
+        ArrowLongUpR, ArrowRight, ArrowRightO, ArrowRightR, ArrowTopLeft, ArrowTopLeftO,
+        ArrowTopLeftR, ArrowTopRight, ArrowTopRightO, ArrowTopRightR, ArrowUp, ArrowUpO, ArrowUpR,
+        ArrowsBreakeH, ArrowsBreakeV, ArrowsExchange, ArrowsExchangeAlt, ArrowsExchangeAltV,
+        ArrowsExchangeV, ArrowsExpandDownLeft, ArrowsExpandDownRight, ArrowsExpandLeft,
+        ArrowsExpandLeftAlt, ArrowsExpandRight, ArrowsExpandRightAlt, ArrowsExpandUpLeft,
+        ArrowsExpandUpRight, ArrowsH, ArrowsHAlt, ArrowsMergeAltH, ArrowsMergeAltV, ArrowsScrollH,
+        ArrowsScrollV, ArrowsShrinkH, ArrowsShrinkV, ArrowsV, ArrowsVAlt, Assign, Asterisk,
+        Atlasian, Attachment, Attribution, Awards, Backspace, BandAid, Battery, BatteryEmpty,
+        BatteryFull, Bee, Bell, Bitbucket, Block, Bmw, Board, Bolt, Bookmark, BorderAll,
+        BorderBottom, BorderLeft, BorderRight, BorderStyleDashed, BorderStyleDotted,
+        BorderStyleSolid, BorderTop, Bot, Bowl, Box, Boy, Brackets, Briefcase, Browse, Browser,
+        Brush, Bulb, CPlusPlus, Calculator, Calendar, CalendarDates, CalendarDue, CalendarNext,
+        CalendarToday, CalendarTwo, Calibrate, Camera, Cap, Captions, CardClubs, CardDiamonds,
+        CardHearts, CardSpades, Carousel, Cast, Chanel, Chart, Check, CheckO, CheckR,
+        ChevronDoubleDown, ChevronDoubleDownO, ChevronDoubleDownR, ChevronDoubleLeft,
+        ChevronDoubleLeftO, ChevronDoubleLeftR, ChevronDoubleRight, ChevronDoubleRightO,
+        ChevronDoubleRightR, ChevronDoubleUp, ChevronDoubleUpO, ChevronDoubleUpR, ChevronDown,
+        ChevronDownO, ChevronDownR, ChevronLeft, ChevronLeftO, ChevronLeftR, ChevronRight,
+        ChevronRightO, ChevronRightR, ChevronUp, ChevronUpO, ChevronUpR, Circleci, ClapperBoard,
+        Clipboard, Close, CloseO, CloseR, Cloud, Code, CodeClimate, CodeSlash, Coffee, Collage,
+        ColorBucket, ColorPicker, ComedyCentral, Comment, Community, Components, Compress,
+        CompressLeft, CompressRight, CompressV, Controller, Copy, Copyright, CornerDoubleDownLeft,
+        CornerDoubleDownRight, CornerDoubleLeftDown, CornerDoubleLeftUp, CornerDoubleRightDown,
+        CornerDoubleRightUp, CornerDoubleUpLeft, CornerDoubleUpRight, CornerDownLeft,
+        CornerDownRight, CornerLeftDown, CornerLeftUp, CornerRightDown, CornerRightUp, CornerUpLeft,
+        CornerUpRight, CreditCard, Crop, Cross, Crowdfire, Crown, Danger, DarkMode, Data, Database,
+        Debug, Designmodo, Desktop, DetailsLess, DetailsMore, Dialpad, Dice1, Dice2, Dice3, Dice4,
+        Dice5, Dice6, Digitalocean, Disc, DisplayFlex, DisplayFullwidth, DisplayGrid,
+        DisplaySpacing, DistributeHorizontal, DistributeVertical, DockBottom, DockLeft, DockRight,
+        DockWindow, Dolby, Dollar, Dribbble, Drive, Drop, DropInvert, DropOpacity, Duplicate,
+        EditBlackPoint, EditContrast, EditExposure, EditFade, EditFlipH, EditFlipV, EditHighlight,
+        EditMarkup, EditMask, EditNoise, EditShadows, EditStraight, EditUnmask, Eject, Enter, Erase,
+        Ereader, Ericsson, Ethernet, Euro, Eventbrite, Expand, Export, Extension, ExtensionAdd,
+        ExtensionAlt, ExtensionRemove, External, Eye, EyeAlt, Facebook, Feed, Figma, File, FileAdd,
+        FileDocument, FileRemove, Film, Filters, Flag, FlagAlt, Folder, FolderAdd, FolderRemove,
+        FontHeight, FontSpacing, FormatBold, FormatCenter, FormatColor, FormatHeading,
+        FormatIndentDecrease, FormatIndentIncrease, FormatItalic, FormatJustify, FormatLeft,
+        FormatLineHeight, FormatRight, FormatSeparator, FormatSlash, FormatStrike, FormatText,
+        FormatUnderline, FormatUppercase, Framer, Games, GenderFemale, GenderMale, Ghost,
+        GhostCharacter, Gift, Girl, GitBranch, GitCommit, GitFork, GitPull, Gitter, Glass, GlassAlt,
+        Globe, GlobeAlt, Google, GoogleTasks, Gym, Hashtag, Headset, Heart, Hello, Home, HomeAlt,
+        HomeScreen, Icecream, IfDesign, Image, Import, Inbox, IndieHackers, Infinity, Info,
+        Inpicture, InsertAfter, InsertAfterO, InsertAfterR, InsertBefore, InsertBeforeO,
+        InsertBeforeR, Insights, Instagram, Internal, Key, Keyboard, Keyhole, Laptop, Lastpass,
+        LayoutGrid, LayoutGridSmall, LayoutList, LayoutPin, Linear, Link, List, ListTree, LivePhoto,
+        Loadbar, LoadbarAlt, LoadbarDoc, LoadbarSound, Lock, LockUnlock, LogIn, LogOff, LogOut,
+        Loupe, Magnet, Mail, MailForward, MailOpen, MailReply, MathDivide, MathEqual, MathMinus,
+        MathPercent, MathPlus, Maximize, MaximizeAlt, Maze, MediaLive, MediaPodcast, Menu,
+        MenuBoxed, MenuCake, MenuCheese, MenuGridO, MenuGridR, MenuHotdog, MenuLeft, MenuLeftAlt,
+        MenuMotion, MenuOreos, MenuRight, MenuRightAlt, MenuRound, MergeHorizontal, MergeVertical,
+        Mic, Microbit, Microsoft, MiniPlayer, Minimize, MinimizeAlt, Modem, Monday, Moon, More,
+        MoreAlt, MoreO, MoreR, MoreVertical, MoreVerticalAlt, MoreVerticalO, MoreVerticalR, Mouse,
+        MoveDown, MoveLeft, MoveRight, MoveTask, MoveUp, Music, MusicNote, MusicSpeaker, Nametag,
+        Notes, Notifications, Npm, Oculus, OpenCollective, Options, Organisation, Overflow, Pacman,
+        Password, PathBack, PathCrop, PathDivide, PathExclude, PathFront, PathIntersect,
+        PathOutline, PathTrim, PathUnite, Patreon, Paypal, Pen, PentagonBottomLeft,
+        PentagonBottomRight, PentagonDown, PentagonLeft, PentagonRight, PentagonTopLeft,
+        PentagonTopRight, PentagonUp, Performance, Pexels, Phone, Photoscan, Piano, Pill, Pin,
+        PinAlt, PinBottom, PinTop, PlayBackwards, PlayButton, PlayButtonO, PlayButtonR,
+        PlayForwards, PlayList, PlayListAdd, PlayListCheck, PlayListRemove, PlayListSearch,
+        PlayPause, PlayPauseO, PlayPauseR, PlayStop, PlayStopO, PlayStopR, PlayTrackNext,
+        PlayTrackNextO, PlayTrackNextR, PlayTrackPrev, PlayTrackPrevO, PlayTrackPrevR, Plug, Pocket,
+        Pokemon, Polaroid, Poll, Presentation, Printer, ProductHunt, Profile, PullClear,
+        PushChevronDown, PushChevronDownO, PushChevronDownR, PushChevronLeft, PushChevronLeftO,
+        PushChevronLeftR, PushChevronRight, PushChevronRightO, PushChevronRightR, PushChevronUp,
+        PushChevronUpO, PushChevronUpR, PushDown, PushLeft, PushRight, PushUp, Qr, Quote, QuoteO,
+        RadioCheck, RadioChecked, Ratio, Read, Readme, Record, Redo, Remote, Remove, RemoveR,
+        Rename, Reorder, Repeat, Ring, RowFirst, RowLast, Ruler, SandClock, Scan, Screen,
+        ScreenMirror, ScreenShot, ScreenWide, ScrollH, ScrollV, Search, SearchFound, SearchLoading,
+        Select, SelectO, SelectR, Server, Serverless, ShapeCircle, ShapeHalfCircle, ShapeHexagon,
+        ShapeRhombus, ShapeSquare, ShapeTriangle, ShapeZigzag, Share, Shield, ShoppingBag,
+        ShoppingCart, Shortcut, Shutterstock, Sidebar, SidebarOpen, SidebarRight, Signal, Size,
+        Sketch, Slack, Sleep, SmartHomeBoiler, SmartHomeCooker, SmartHomeHeat, SmartHomeLight,
+        SmartHomeRefrigerator, SmartHomeWashMachine, Smartphone, SmartphoneChip, SmartphoneRam,
+        SmartphoneShake, Smile, SmileMouthOpen, SmileNeutral, SmileNoMouth, SmileNone, SmileSad,
+        SmileUpside, SoftwareDownload, SoftwareUpload, SortAz, SortZa, SpaceBetween, SpaceBetweenV,
+        Spectrum, Spinner, SpinnerAlt, SpinnerTwo, SpinnerTwoAlt, Square, Stack, Stark, Stopwatch,
+        Stories, Studio, Style, Sun, Support, Swap, SwapVertical, Sweden, Swiss, Sync, Tab, Tag,
+        Tally, TapDouble, TapSingle, Template, Tennis, Terminal, Terrain, Thermometer, Thermostat,
+        Tikcode, Time, Timelapse, Timer, Today, ToggleOff, ToggleOn, ToggleSquare, ToggleSquareOff,
+        ToolbarBottom, ToolbarLeft, ToolbarRight, ToolbarTop, Toolbox, Touchpad, Track, Transcript,
+        Trash, TrashEmpty, Tree, Trees, Trello, Trending, TrendingDown, Trophy, Tv, Twilio, Twitter,
+        UiKit, Umbrella, Unavailable, Unblock, Undo, Unfold, Unsplash, Usb, UsbC, User, UserAdd,
+        UserList, UserRemove, Userlane, ViewCols, ViewComfortable, ViewDay, ViewGrid, ViewList,
+        ViewMonth, ViewSplit, Vinyl, Voicemail, VoicemailO, VoicemailR, Volume, Webcam, Website,
+        Windows, WorkAlt, Yinyang, Youtube, Zeit, ZoomIn, ZoomOut)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val CssGgIcons.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("abstract" to Abstract, "add" to Add, "addr" to AddR, "adidas" to Adidas,
+        "airplane" to Airplane, "alarm" to Alarm, "album" to Album, "alignbottom" to AlignBottom,
+        "aligncenter" to AlignCenter, "alignleft" to AlignLeft, "alignmiddle" to AlignMiddle,
+        "alignright" to AlignRight, "aligntop" to AlignTop, "anchor" to Anchor, "applewatch" to
+        AppleWatch, "arrangeback" to ArrangeBack, "arrangefront" to ArrangeFront, "arrowalignh" to
+        ArrowAlignH, "arrowalignv" to ArrowAlignV, "arrowbottomleft" to ArrowBottomLeft,
+        "arrowbottomlefto" to ArrowBottomLeftO, "arrowbottomleftr" to ArrowBottomLeftR,
+        "arrowbottomright" to ArrowBottomRight, "arrowbottomrighto" to ArrowBottomRightO,
+        "arrowbottomrightr" to ArrowBottomRightR, "arrowdown" to ArrowDown, "arrowdowno" to
+        ArrowDownO, "arrowdownr" to ArrowDownR, "arrowleft" to ArrowLeft, "arrowlefto" to
+        ArrowLeftO, "arrowleftr" to ArrowLeftR, "arrowlongdown" to ArrowLongDown, "arrowlongdownc"
+        to ArrowLongDownC, "arrowlongdowne" to ArrowLongDownE, "arrowlongdownl" to ArrowLongDownL,
+        "arrowlongdownr" to ArrowLongDownR, "arrowlongleft" to ArrowLongLeft, "arrowlongleftc" to
+        ArrowLongLeftC, "arrowlonglefte" to ArrowLongLeftE, "arrowlongleftl" to ArrowLongLeftL,
+        "arrowlongleftr" to ArrowLongLeftR, "arrowlongright" to ArrowLongRight, "arrowlongrightc" to
+        ArrowLongRightC, "arrowlongrighte" to ArrowLongRightE, "arrowlongrightl" to ArrowLongRightL,
+        "arrowlongrightr" to ArrowLongRightR, "arrowlongup" to ArrowLongUp, "arrowlongupc" to
+        ArrowLongUpC, "arrowlongupe" to ArrowLongUpE, "arrowlongupl" to ArrowLongUpL, "arrowlongupr"
+        to ArrowLongUpR, "arrowright" to ArrowRight, "arrowrighto" to ArrowRightO, "arrowrightr" to
+        ArrowRightR, "arrowtopleft" to ArrowTopLeft, "arrowtoplefto" to ArrowTopLeftO,
+        "arrowtopleftr" to ArrowTopLeftR, "arrowtopright" to ArrowTopRight, "arrowtoprighto" to
+        ArrowTopRightO, "arrowtoprightr" to ArrowTopRightR, "arrowup" to ArrowUp, "arrowupo" to
+        ArrowUpO, "arrowupr" to ArrowUpR, "arrowsbreakeh" to ArrowsBreakeH, "arrowsbreakev" to
+        ArrowsBreakeV, "arrowsexchange" to ArrowsExchange, "arrowsexchangealt" to ArrowsExchangeAlt,
+        "arrowsexchangealtv" to ArrowsExchangeAltV, "arrowsexchangev" to ArrowsExchangeV,
+        "arrowsexpanddownleft" to ArrowsExpandDownLeft, "arrowsexpanddownright" to
+        ArrowsExpandDownRight, "arrowsexpandleft" to ArrowsExpandLeft, "arrowsexpandleftalt" to
+        ArrowsExpandLeftAlt, "arrowsexpandright" to ArrowsExpandRight, "arrowsexpandrightalt" to
+        ArrowsExpandRightAlt, "arrowsexpandupleft" to ArrowsExpandUpLeft, "arrowsexpandupright" to
+        ArrowsExpandUpRight, "arrowsh" to ArrowsH, "arrowshalt" to ArrowsHAlt, "arrowsmergealth" to
+        ArrowsMergeAltH, "arrowsmergealtv" to ArrowsMergeAltV, "arrowsscrollh" to ArrowsScrollH,
+        "arrowsscrollv" to ArrowsScrollV, "arrowsshrinkh" to ArrowsShrinkH, "arrowsshrinkv" to
+        ArrowsShrinkV, "arrowsv" to ArrowsV, "arrowsvalt" to ArrowsVAlt, "assign" to Assign,
+        "asterisk" to Asterisk, "atlasian" to Atlasian, "attachment" to Attachment, "attribution" to
+        Attribution, "awards" to Awards, "backspace" to Backspace, "bandaid" to BandAid, "battery"
+        to Battery, "batteryempty" to BatteryEmpty, "batteryfull" to BatteryFull, "bee" to Bee,
+        "bell" to Bell, "bitbucket" to Bitbucket, "block" to Block, "bmw" to Bmw, "board" to Board,
+        "bolt" to Bolt, "bookmark" to Bookmark, "borderall" to BorderAll, "borderbottom" to
+        BorderBottom, "borderleft" to BorderLeft, "borderright" to BorderRight, "borderstyledashed"
+        to BorderStyleDashed, "borderstyledotted" to BorderStyleDotted, "borderstylesolid" to
+        BorderStyleSolid, "bordertop" to BorderTop, "bot" to Bot, "bowl" to Bowl, "box" to Box,
+        "boy" to Boy, "brackets" to Brackets, "briefcase" to Briefcase, "browse" to Browse,
+        "browser" to Browser, "brush" to Brush, "bulb" to Bulb, "cplusplus" to CPlusPlus,
+        "calculator" to Calculator, "calendar" to Calendar, "calendardates" to CalendarDates,
+        "calendardue" to CalendarDue, "calendarnext" to CalendarNext, "calendartoday" to
+        CalendarToday, "calendartwo" to CalendarTwo, "calibrate" to Calibrate, "camera" to Camera,
+        "cap" to Cap, "captions" to Captions, "cardclubs" to CardClubs, "carddiamonds" to
+        CardDiamonds, "cardhearts" to CardHearts, "cardspades" to CardSpades, "carousel" to
+        Carousel, "cast" to Cast, "chanel" to Chanel, "chart" to Chart, "check" to Check, "checko"
+        to CheckO, "checkr" to CheckR, "chevrondoubledown" to ChevronDoubleDown,
+        "chevrondoubledowno" to ChevronDoubleDownO, "chevrondoubledownr" to ChevronDoubleDownR,
+        "chevrondoubleleft" to ChevronDoubleLeft, "chevrondoublelefto" to ChevronDoubleLeftO,
+        "chevrondoubleleftr" to ChevronDoubleLeftR, "chevrondoubleright" to ChevronDoubleRight,
+        "chevrondoublerighto" to ChevronDoubleRightO, "chevrondoublerightr" to ChevronDoubleRightR,
+        "chevrondoubleup" to ChevronDoubleUp, "chevrondoubleupo" to ChevronDoubleUpO,
+        "chevrondoubleupr" to ChevronDoubleUpR, "chevrondown" to ChevronDown, "chevrondowno" to
+        ChevronDownO, "chevrondownr" to ChevronDownR, "chevronleft" to ChevronLeft, "chevronlefto"
+        to ChevronLeftO, "chevronleftr" to ChevronLeftR, "chevronright" to ChevronRight,
+        "chevronrighto" to ChevronRightO, "chevronrightr" to ChevronRightR, "chevronup" to
+        ChevronUp, "chevronupo" to ChevronUpO, "chevronupr" to ChevronUpR, "circleci" to Circleci,
+        "clapperboard" to ClapperBoard, "clipboard" to Clipboard, "close" to Close, "closeo" to
+        CloseO, "closer" to CloseR, "cloud" to Cloud, "code" to Code, "codeclimate" to CodeClimate,
+        "codeslash" to CodeSlash, "coffee" to Coffee, "collage" to Collage, "colorbucket" to
+        ColorBucket, "colorpicker" to ColorPicker, "comedycentral" to ComedyCentral, "comment" to
+        Comment, "community" to Community, "components" to Components, "compress" to Compress,
+        "compressleft" to CompressLeft, "compressright" to CompressRight, "compressv" to CompressV,
+        "controller" to Controller, "copy" to Copy, "copyright" to Copyright, "cornerdoubledownleft"
+        to CornerDoubleDownLeft, "cornerdoubledownright" to CornerDoubleDownRight,
+        "cornerdoubleleftdown" to CornerDoubleLeftDown, "cornerdoubleleftup" to CornerDoubleLeftUp,
+        "cornerdoublerightdown" to CornerDoubleRightDown, "cornerdoublerightup" to
+        CornerDoubleRightUp, "cornerdoubleupleft" to CornerDoubleUpLeft, "cornerdoubleupright" to
+        CornerDoubleUpRight, "cornerdownleft" to CornerDownLeft, "cornerdownright" to
+        CornerDownRight, "cornerleftdown" to CornerLeftDown, "cornerleftup" to CornerLeftUp,
+        "cornerrightdown" to CornerRightDown, "cornerrightup" to CornerRightUp, "cornerupleft" to
+        CornerUpLeft, "cornerupright" to CornerUpRight, "creditcard" to CreditCard, "crop" to Crop,
+        "cross" to Cross, "crowdfire" to Crowdfire, "crown" to Crown, "danger" to Danger, "darkmode"
+        to DarkMode, "data" to Data, "database" to Database, "debug" to Debug, "designmodo" to
+        Designmodo, "desktop" to Desktop, "detailsless" to DetailsLess, "detailsmore" to
+        DetailsMore, "dialpad" to Dialpad, "dice1" to Dice1, "dice2" to Dice2, "dice3" to Dice3,
+        "dice4" to Dice4, "dice5" to Dice5, "dice6" to Dice6, "digitalocean" to Digitalocean, "disc"
+        to Disc, "displayflex" to DisplayFlex, "displayfullwidth" to DisplayFullwidth, "displaygrid"
+        to DisplayGrid, "displayspacing" to DisplaySpacing, "distributehorizontal" to
+        DistributeHorizontal, "distributevertical" to DistributeVertical, "dockbottom" to
+        DockBottom, "dockleft" to DockLeft, "dockright" to DockRight, "dockwindow" to DockWindow,
+        "dolby" to Dolby, "dollar" to Dollar, "dribbble" to Dribbble, "drive" to Drive, "drop" to
+        Drop, "dropinvert" to DropInvert, "dropopacity" to DropOpacity, "duplicate" to Duplicate,
+        "editblackpoint" to EditBlackPoint, "editcontrast" to EditContrast, "editexposure" to
+        EditExposure, "editfade" to EditFade, "editfliph" to EditFlipH, "editflipv" to EditFlipV,
+        "edithighlight" to EditHighlight, "editmarkup" to EditMarkup, "editmask" to EditMask,
+        "editnoise" to EditNoise, "editshadows" to EditShadows, "editstraight" to EditStraight,
+        "editunmask" to EditUnmask, "eject" to Eject, "enter" to Enter, "erase" to Erase, "ereader"
+        to Ereader, "ericsson" to Ericsson, "ethernet" to Ethernet, "euro" to Euro, "eventbrite" to
+        Eventbrite, "expand" to Expand, "export" to Export, "extension" to Extension, "extensionadd"
+        to ExtensionAdd, "extensionalt" to ExtensionAlt, "extensionremove" to ExtensionRemove,
+        "external" to External, "eye" to Eye, "eyealt" to EyeAlt, "facebook" to Facebook, "feed" to
+        Feed, "figma" to Figma, "file" to File, "fileadd" to FileAdd, "filedocument" to
+        FileDocument, "fileremove" to FileRemove, "film" to Film, "filters" to Filters, "flag" to
+        Flag, "flagalt" to FlagAlt, "folder" to Folder, "folderadd" to FolderAdd, "folderremove" to
+        FolderRemove, "fontheight" to FontHeight, "fontspacing" to FontSpacing, "formatbold" to
+        FormatBold, "formatcenter" to FormatCenter, "formatcolor" to FormatColor, "formatheading" to
+        FormatHeading, "formatindentdecrease" to FormatIndentDecrease, "formatindentincrease" to
+        FormatIndentIncrease, "formatitalic" to FormatItalic, "formatjustify" to FormatJustify,
+        "formatleft" to FormatLeft, "formatlineheight" to FormatLineHeight, "formatright" to
+        FormatRight, "formatseparator" to FormatSeparator, "formatslash" to FormatSlash,
+        "formatstrike" to FormatStrike, "formattext" to FormatText, "formatunderline" to
+        FormatUnderline, "formatuppercase" to FormatUppercase, "framer" to Framer, "games" to Games,
+        "genderfemale" to GenderFemale, "gendermale" to GenderMale, "ghost" to Ghost,
+        "ghostcharacter" to GhostCharacter, "gift" to Gift, "girl" to Girl, "gitbranch" to
+        GitBranch, "gitcommit" to GitCommit, "gitfork" to GitFork, "gitpull" to GitPull, "gitter" to
+        Gitter, "glass" to Glass, "glassalt" to GlassAlt, "globe" to Globe, "globealt" to GlobeAlt,
+        "google" to Google, "googletasks" to GoogleTasks, "gym" to Gym, "hashtag" to Hashtag,
+        "headset" to Headset, "heart" to Heart, "hello" to Hello, "home" to Home, "homealt" to
+        HomeAlt, "homescreen" to HomeScreen, "icecream" to Icecream, "ifdesign" to IfDesign, "image"
+        to Image, "import" to Import, "inbox" to Inbox, "indiehackers" to IndieHackers, "infinity"
+        to Infinity, "info" to Info, "inpicture" to Inpicture, "insertafter" to InsertAfter,
+        "insertaftero" to InsertAfterO, "insertafterr" to InsertAfterR, "insertbefore" to
+        InsertBefore, "insertbeforeo" to InsertBeforeO, "insertbeforer" to InsertBeforeR, "insights"
+        to Insights, "instagram" to Instagram, "internal" to Internal, "key" to Key, "keyboard" to
+        Keyboard, "keyhole" to Keyhole, "laptop" to Laptop, "lastpass" to Lastpass, "layoutgrid" to
+        LayoutGrid, "layoutgridsmall" to LayoutGridSmall, "layoutlist" to LayoutList, "layoutpin" to
+        LayoutPin, "linear" to Linear, "link" to Link, "list" to List, "listtree" to ListTree,
+        "livephoto" to LivePhoto, "loadbar" to Loadbar, "loadbaralt" to LoadbarAlt, "loadbardoc" to
+        LoadbarDoc, "loadbarsound" to LoadbarSound, "lock" to Lock, "lockunlock" to LockUnlock,
+        "login" to LogIn, "logoff" to LogOff, "logout" to LogOut, "loupe" to Loupe, "magnet" to
+        Magnet, "mail" to Mail, "mailforward" to MailForward, "mailopen" to MailOpen, "mailreply" to
+        MailReply, "mathdivide" to MathDivide, "mathequal" to MathEqual, "mathminus" to MathMinus,
+        "mathpercent" to MathPercent, "mathplus" to MathPlus, "maximize" to Maximize, "maximizealt"
+        to MaximizeAlt, "maze" to Maze, "medialive" to MediaLive, "mediapodcast" to MediaPodcast,
+        "menu" to Menu, "menuboxed" to MenuBoxed, "menucake" to MenuCake, "menucheese" to
+        MenuCheese, "menugrido" to MenuGridO, "menugridr" to MenuGridR, "menuhotdog" to MenuHotdog,
+        "menuleft" to MenuLeft, "menuleftalt" to MenuLeftAlt, "menumotion" to MenuMotion,
+        "menuoreos" to MenuOreos, "menuright" to MenuRight, "menurightalt" to MenuRightAlt,
+        "menuround" to MenuRound, "mergehorizontal" to MergeHorizontal, "mergevertical" to
+        MergeVertical, "mic" to Mic, "microbit" to Microbit, "microsoft" to Microsoft, "miniplayer"
+        to MiniPlayer, "minimize" to Minimize, "minimizealt" to MinimizeAlt, "modem" to Modem,
+        "monday" to Monday, "moon" to Moon, "more" to More, "morealt" to MoreAlt, "moreo" to MoreO,
+        "morer" to MoreR, "morevertical" to MoreVertical, "moreverticalalt" to MoreVerticalAlt,
+        "moreverticalo" to MoreVerticalO, "moreverticalr" to MoreVerticalR, "mouse" to Mouse,
+        "movedown" to MoveDown, "moveleft" to MoveLeft, "moveright" to MoveRight, "movetask" to
+        MoveTask, "moveup" to MoveUp, "music" to Music, "musicnote" to MusicNote, "musicspeaker" to
+        MusicSpeaker, "nametag" to Nametag, "notes" to Notes, "notifications" to Notifications,
+        "npm" to Npm, "oculus" to Oculus, "opencollective" to OpenCollective, "options" to Options,
+        "organisation" to Organisation, "overflow" to Overflow, "pacman" to Pacman, "password" to
+        Password, "pathback" to PathBack, "pathcrop" to PathCrop, "pathdivide" to PathDivide,
+        "pathexclude" to PathExclude, "pathfront" to PathFront, "pathintersect" to PathIntersect,
+        "pathoutline" to PathOutline, "pathtrim" to PathTrim, "pathunite" to PathUnite, "patreon" to
+        Patreon, "paypal" to Paypal, "pen" to Pen, "pentagonbottomleft" to PentagonBottomLeft,
+        "pentagonbottomright" to PentagonBottomRight, "pentagondown" to PentagonDown, "pentagonleft"
+        to PentagonLeft, "pentagonright" to PentagonRight, "pentagontopleft" to PentagonTopLeft,
+        "pentagontopright" to PentagonTopRight, "pentagonup" to PentagonUp, "performance" to
+        Performance, "pexels" to Pexels, "phone" to Phone, "photoscan" to Photoscan, "piano" to
+        Piano, "pill" to Pill, "pin" to Pin, "pinalt" to PinAlt, "pinbottom" to PinBottom, "pintop"
+        to PinTop, "playbackwards" to PlayBackwards, "playbutton" to PlayButton, "playbuttono" to
+        PlayButtonO, "playbuttonr" to PlayButtonR, "playforwards" to PlayForwards, "playlist" to
+        PlayList, "playlistadd" to PlayListAdd, "playlistcheck" to PlayListCheck, "playlistremove"
+        to PlayListRemove, "playlistsearch" to PlayListSearch, "playpause" to PlayPause,
+        "playpauseo" to PlayPauseO, "playpauser" to PlayPauseR, "playstop" to PlayStop, "playstopo"
+        to PlayStopO, "playstopr" to PlayStopR, "playtracknext" to PlayTrackNext, "playtracknexto"
+        to PlayTrackNextO, "playtracknextr" to PlayTrackNextR, "playtrackprev" to PlayTrackPrev,
+        "playtrackprevo" to PlayTrackPrevO, "playtrackprevr" to PlayTrackPrevR, "plug" to Plug,
+        "pocket" to Pocket, "pokemon" to Pokemon, "polaroid" to Polaroid, "poll" to Poll,
+        "presentation" to Presentation, "printer" to Printer, "producthunt" to ProductHunt,
+        "profile" to Profile, "pullclear" to PullClear, "pushchevrondown" to PushChevronDown,
+        "pushchevrondowno" to PushChevronDownO, "pushchevrondownr" to PushChevronDownR,
+        "pushchevronleft" to PushChevronLeft, "pushchevronlefto" to PushChevronLeftO,
+        "pushchevronleftr" to PushChevronLeftR, "pushchevronright" to PushChevronRight,
+        "pushchevronrighto" to PushChevronRightO, "pushchevronrightr" to PushChevronRightR,
+        "pushchevronup" to PushChevronUp, "pushchevronupo" to PushChevronUpO, "pushchevronupr" to
+        PushChevronUpR, "pushdown" to PushDown, "pushleft" to PushLeft, "pushright" to PushRight,
+        "pushup" to PushUp, "qr" to Qr, "quote" to Quote, "quoteo" to QuoteO, "radiocheck" to
+        RadioCheck, "radiochecked" to RadioChecked, "ratio" to Ratio, "read" to Read, "readme" to
+        Readme, "record" to Record, "redo" to Redo, "remote" to Remote, "remove" to Remove,
+        "remover" to RemoveR, "rename" to Rename, "reorder" to Reorder, "repeat" to Repeat, "ring"
+        to Ring, "rowfirst" to RowFirst, "rowlast" to RowLast, "ruler" to Ruler, "sandclock" to
+        SandClock, "scan" to Scan, "screen" to Screen, "screenmirror" to ScreenMirror, "screenshot"
+        to ScreenShot, "screenwide" to ScreenWide, "scrollh" to ScrollH, "scrollv" to ScrollV,
+        "search" to Search, "searchfound" to SearchFound, "searchloading" to SearchLoading, "select"
+        to Select, "selecto" to SelectO, "selectr" to SelectR, "server" to Server, "serverless" to
+        Serverless, "shapecircle" to ShapeCircle, "shapehalfcircle" to ShapeHalfCircle,
+        "shapehexagon" to ShapeHexagon, "shaperhombus" to ShapeRhombus, "shapesquare" to
+        ShapeSquare, "shapetriangle" to ShapeTriangle, "shapezigzag" to ShapeZigzag, "share" to
+        Share, "shield" to Shield, "shoppingbag" to ShoppingBag, "shoppingcart" to ShoppingCart,
+        "shortcut" to Shortcut, "shutterstock" to Shutterstock, "sidebar" to Sidebar, "sidebaropen"
+        to SidebarOpen, "sidebarright" to SidebarRight, "signal" to Signal, "size" to Size, "sketch"
+        to Sketch, "slack" to Slack, "sleep" to Sleep, "smarthomeboiler" to SmartHomeBoiler,
+        "smarthomecooker" to SmartHomeCooker, "smarthomeheat" to SmartHomeHeat, "smarthomelight" to
+        SmartHomeLight, "smarthomerefrigerator" to SmartHomeRefrigerator, "smarthomewashmachine" to
+        SmartHomeWashMachine, "smartphone" to Smartphone, "smartphonechip" to SmartphoneChip,
+        "smartphoneram" to SmartphoneRam, "smartphoneshake" to SmartphoneShake, "smile" to Smile,
+        "smilemouthopen" to SmileMouthOpen, "smileneutral" to SmileNeutral, "smilenomouth" to
+        SmileNoMouth, "smilenone" to SmileNone, "smilesad" to SmileSad, "smileupside" to
+        SmileUpside, "softwaredownload" to SoftwareDownload, "softwareupload" to SoftwareUpload,
+        "sortaz" to SortAz, "sortza" to SortZa, "spacebetween" to SpaceBetween, "spacebetweenv" to
+        SpaceBetweenV, "spectrum" to Spectrum, "spinner" to Spinner, "spinneralt" to SpinnerAlt,
+        "spinnertwo" to SpinnerTwo, "spinnertwoalt" to SpinnerTwoAlt, "square" to Square, "stack" to
+        Stack, "stark" to Stark, "stopwatch" to Stopwatch, "stories" to Stories, "studio" to Studio,
+        "style" to Style, "sun" to Sun, "support" to Support, "swap" to Swap, "swapvertical" to
+        SwapVertical, "sweden" to Sweden, "swiss" to Swiss, "sync" to Sync, "tab" to Tab, "tag" to
+        Tag, "tally" to Tally, "tapdouble" to TapDouble, "tapsingle" to TapSingle, "template" to
+        Template, "tennis" to Tennis, "terminal" to Terminal, "terrain" to Terrain, "thermometer" to
+        Thermometer, "thermostat" to Thermostat, "tikcode" to Tikcode, "time" to Time, "timelapse"
+        to Timelapse, "timer" to Timer, "today" to Today, "toggleoff" to ToggleOff, "toggleon" to
+        ToggleOn, "togglesquare" to ToggleSquare, "togglesquareoff" to ToggleSquareOff,
+        "toolbarbottom" to ToolbarBottom, "toolbarleft" to ToolbarLeft, "toolbarright" to
+        ToolbarRight, "toolbartop" to ToolbarTop, "toolbox" to Toolbox, "touchpad" to Touchpad,
+        "track" to Track, "transcript" to Transcript, "trash" to Trash, "trashempty" to TrashEmpty,
+        "tree" to Tree, "trees" to Trees, "trello" to Trello, "trending" to Trending, "trendingdown"
+        to TrendingDown, "trophy" to Trophy, "tv" to Tv, "twilio" to Twilio, "twitter" to Twitter,
+        "uikit" to UiKit, "umbrella" to Umbrella, "unavailable" to Unavailable, "unblock" to
+        Unblock, "undo" to Undo, "unfold" to Unfold, "unsplash" to Unsplash, "usb" to Usb, "usbc" to
+        UsbC, "user" to User, "useradd" to UserAdd, "userlist" to UserList, "userremove" to
+        UserRemove, "userlane" to Userlane, "viewcols" to ViewCols, "viewcomfortable" to
+        ViewComfortable, "viewday" to ViewDay, "viewgrid" to ViewGrid, "viewlist" to ViewList,
+        "viewmonth" to ViewMonth, "viewsplit" to ViewSplit, "vinyl" to Vinyl, "voicemail" to
+        Voicemail, "voicemailo" to VoicemailO, "voicemailr" to VoicemailR, "volume" to Volume,
+        "webcam" to Webcam, "website" to Website, "windows" to Windows, "workalt" to WorkAlt,
+        "yinyang" to Yinyang, "youtube" to Youtube, "zeit" to Zeit, "zoomin" to ZoomIn, "zoomout" to
+        ZoomOut)
+    return __AllIconsNamed!!
   }

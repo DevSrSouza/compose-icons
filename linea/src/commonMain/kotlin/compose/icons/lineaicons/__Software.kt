@@ -102,12 +102,17 @@ import compose.icons.lineaicons.software.VerticalAlignTop
 import compose.icons.lineaicons.software.VerticalDistributeBottom
 import compose.icons.lineaicons.software.VerticalDistributeCenter
 import compose.icons.lineaicons.software.VerticalDistributeTop
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object SoftwareGroup
 
 public val LineaIcons.Software: SoftwareGroup
   get() = SoftwareGroup
+
+public val SoftwareGroup.groupName: String
+  get() = "software"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -116,26 +121,80 @@ public val SoftwareGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(VectorComposite, ParagraphCenter, Paragraph, HorizontalAlignLeft,
-        Paintroller, Slice, VectorBox, VerticalDistributeBottom, ParagraphAlignRight, VectorLine,
-        LayoutHeaderComplex, LayoutHeader4columns, PathfinderExclude, ParagraphSpaceAfter,
-        IndentRight, VerticalDistributeTop, ParagraphAlignLeft, ParagraphJustifyCenter,
-        Layout8boxes, Layout4lines, LayoutHeader, VerticalAlignCenter, BoxRoundedrectangle,
-        HorizontalAlignCenter, Layout4boxes, Crop, ParagraphJustifyRight, PathfinderSubtract,
-        ScaleExpand, FontUnderline, FontBaselineShift, FontAllcaps, LayoutHeader3columns,
-        ReflectHorizontal, PathfinderIntersect, BoxOval, FontLeading, AddVectorpoint,
-        LayoutSidebarLeft, FontTracking, BoxRectangle, PenRemove, ScaleReduce, Layout2columns,
-        Eyedropper, Pages, ParagraphJustifyLeft, Character, ShapeRectangle, BoxPolygon,
-        ParagraphJustifyAll, LayoutHeaderSideright, ShapePolygon, SelectionOval, FontSmallcapital,
-        SelectionRectangle, HorizontalAlignRight, RemoveVectorpoint, PathfinderUnite,
-        SelectionRoundedrectangle, Layers1, FontHorizontalScale, Pen, Layout4columns,
-        SelectionPolygon, Pencil, Paintbucket, FontSize, HorizontalDistributeCenter,
-        VerticalAlignTop, Layers2, ParagraphSpaceBefore, IndentLeft, FontKerning,
-        LayoutHeader4boxes, Paintbrush, VerticalAlignBottom, ShapeRoundedrectangle, ShapeOval,
-        Layout3columns, Magnete, LayoutHeaderComplex4, FontSmallcaps, LayoutHeaderSideleft,
-        ReflectVertical, Polygonallasso, HorizontalDistributeRight, IndentFirstline,
-        FontVerticalScale, Layout, LayoutSidebarRight, VerticalDistributeCenter, TransformBezier,
-        LayoutHeaderComplex2, PenAdd, LayoutHeader2columns, Lasso, LayoutHeaderComplex3,
-        HorizontalDistributeLeft, FontStrikethrough)
+    __AllIcons= listOf(AddVectorpoint, BoxOval, BoxPolygon, BoxRectangle, BoxRoundedrectangle,
+        Character, Crop, Eyedropper, FontAllcaps, FontBaselineShift, FontHorizontalScale,
+        FontKerning, FontLeading, FontSize, FontSmallcapital, FontSmallcaps, FontStrikethrough,
+        FontTracking, FontUnderline, FontVerticalScale, HorizontalAlignCenter, HorizontalAlignLeft,
+        HorizontalAlignRight, HorizontalDistributeCenter, HorizontalDistributeLeft,
+        HorizontalDistributeRight, IndentFirstline, IndentLeft, IndentRight, Lasso, Layers1,
+        Layers2, Layout, Layout2columns, Layout3columns, Layout4boxes, Layout4columns, Layout4lines,
+        Layout8boxes, LayoutHeader, LayoutHeader2columns, LayoutHeader3columns, LayoutHeader4boxes,
+        LayoutHeader4columns, LayoutHeaderComplex, LayoutHeaderComplex2, LayoutHeaderComplex3,
+        LayoutHeaderComplex4, LayoutHeaderSideleft, LayoutHeaderSideright, LayoutSidebarLeft,
+        LayoutSidebarRight, Magnete, Pages, Paintbrush, Paintbucket, Paintroller, Paragraph,
+        ParagraphAlignLeft, ParagraphAlignRight, ParagraphCenter, ParagraphJustifyAll,
+        ParagraphJustifyCenter, ParagraphJustifyLeft, ParagraphJustifyRight, ParagraphSpaceAfter,
+        ParagraphSpaceBefore, PathfinderExclude, PathfinderIntersect, PathfinderSubtract,
+        PathfinderUnite, Pen, PenAdd, PenRemove, Pencil, Polygonallasso, ReflectHorizontal,
+        ReflectVertical, RemoveVectorpoint, ScaleExpand, ScaleReduce, SelectionOval,
+        SelectionPolygon, SelectionRectangle, SelectionRoundedrectangle, ShapeOval, ShapePolygon,
+        ShapeRectangle, ShapeRoundedrectangle, Slice, TransformBezier, VectorBox, VectorComposite,
+        VectorLine, VerticalAlignBottom, VerticalAlignCenter, VerticalAlignTop,
+        VerticalDistributeBottom, VerticalDistributeCenter, VerticalDistributeTop)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val SoftwareGroup.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("addvectorpoint" to AddVectorpoint, "boxoval" to BoxOval, "boxpolygon" to
+        BoxPolygon, "boxrectangle" to BoxRectangle, "boxroundedrectangle" to BoxRoundedrectangle,
+        "character" to Character, "crop" to Crop, "eyedropper" to Eyedropper, "fontallcaps" to
+        FontAllcaps, "fontbaselineshift" to FontBaselineShift, "fonthorizontalscale" to
+        FontHorizontalScale, "fontkerning" to FontKerning, "fontleading" to FontLeading, "fontsize"
+        to FontSize, "fontsmallcapital" to FontSmallcapital, "fontsmallcaps" to FontSmallcaps,
+        "fontstrikethrough" to FontStrikethrough, "fonttracking" to FontTracking, "fontunderline" to
+        FontUnderline, "fontverticalscale" to FontVerticalScale, "horizontalaligncenter" to
+        HorizontalAlignCenter, "horizontalalignleft" to HorizontalAlignLeft, "horizontalalignright"
+        to HorizontalAlignRight, "horizontaldistributecenter" to HorizontalDistributeCenter,
+        "horizontaldistributeleft" to HorizontalDistributeLeft, "horizontaldistributeright" to
+        HorizontalDistributeRight, "indentfirstline" to IndentFirstline, "indentleft" to IndentLeft,
+        "indentright" to IndentRight, "lasso" to Lasso, "layers1" to Layers1, "layers2" to Layers2,
+        "layout" to Layout, "layout2columns" to Layout2columns, "layout3columns" to Layout3columns,
+        "layout4boxes" to Layout4boxes, "layout4columns" to Layout4columns, "layout4lines" to
+        Layout4lines, "layout8boxes" to Layout8boxes, "layoutheader" to LayoutHeader,
+        "layoutheader2columns" to LayoutHeader2columns, "layoutheader3columns" to
+        LayoutHeader3columns, "layoutheader4boxes" to LayoutHeader4boxes, "layoutheader4columns" to
+        LayoutHeader4columns, "layoutheadercomplex" to LayoutHeaderComplex, "layoutheadercomplex2"
+        to LayoutHeaderComplex2, "layoutheadercomplex3" to LayoutHeaderComplex3,
+        "layoutheadercomplex4" to LayoutHeaderComplex4, "layoutheadersideleft" to
+        LayoutHeaderSideleft, "layoutheadersideright" to LayoutHeaderSideright, "layoutsidebarleft"
+        to LayoutSidebarLeft, "layoutsidebarright" to LayoutSidebarRight, "magnete" to Magnete,
+        "pages" to Pages, "paintbrush" to Paintbrush, "paintbucket" to Paintbucket, "paintroller" to
+        Paintroller, "paragraph" to Paragraph, "paragraphalignleft" to ParagraphAlignLeft,
+        "paragraphalignright" to ParagraphAlignRight, "paragraphcenter" to ParagraphCenter,
+        "paragraphjustifyall" to ParagraphJustifyAll, "paragraphjustifycenter" to
+        ParagraphJustifyCenter, "paragraphjustifyleft" to ParagraphJustifyLeft,
+        "paragraphjustifyright" to ParagraphJustifyRight, "paragraphspaceafter" to
+        ParagraphSpaceAfter, "paragraphspacebefore" to ParagraphSpaceBefore, "pathfinderexclude" to
+        PathfinderExclude, "pathfinderintersect" to PathfinderIntersect, "pathfindersubtract" to
+        PathfinderSubtract, "pathfinderunite" to PathfinderUnite, "pen" to Pen, "penadd" to PenAdd,
+        "penremove" to PenRemove, "pencil" to Pencil, "polygonallasso" to Polygonallasso,
+        "reflecthorizontal" to ReflectHorizontal, "reflectvertical" to ReflectVertical,
+        "removevectorpoint" to RemoveVectorpoint, "scaleexpand" to ScaleExpand, "scalereduce" to
+        ScaleReduce, "selectionoval" to SelectionOval, "selectionpolygon" to SelectionPolygon,
+        "selectionrectangle" to SelectionRectangle, "selectionroundedrectangle" to
+        SelectionRoundedrectangle, "shapeoval" to ShapeOval, "shapepolygon" to ShapePolygon,
+        "shaperectangle" to ShapeRectangle, "shaperoundedrectangle" to ShapeRoundedrectangle,
+        "slice" to Slice, "transformbezier" to TransformBezier, "vectorbox" to VectorBox,
+        "vectorcomposite" to VectorComposite, "vectorline" to VectorLine, "verticalalignbottom" to
+        VerticalAlignBottom, "verticalaligncenter" to VerticalAlignCenter, "verticalaligntop" to
+        VerticalAlignTop, "verticaldistributebottom" to VerticalDistributeBottom,
+        "verticaldistributecenter" to VerticalDistributeCenter, "verticaldistributetop" to
+        VerticalDistributeTop)
+    return __AllIconsNamed!!
   }

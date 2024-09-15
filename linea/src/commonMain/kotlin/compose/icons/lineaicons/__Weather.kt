@@ -87,12 +87,17 @@ import compose.icons.lineaicons.weather.WindSun
 import compose.icons.lineaicons.weather.WindSw
 import compose.icons.lineaicons.weather.WindW
 import compose.icons.lineaicons.weather.Windgust
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object WeatherGroup
 
 public val LineaIcons.Weather: WeatherGroup
   get() = WeatherGroup
+
+public val WeatherGroup.groupName: String
+  get() = "weather"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -101,16 +106,52 @@ public val WeatherGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(VariableHalfmoon, WindSun, Tempest, WindNe, MistyrainFullmoon, Snowflake,
-        SnowHalfmoon, Gemini, DownpourHalfmoon, HailSun, MoonsetHalf, Cloud, WindHalfmoon,
-        CloudDrop, DownpourSun, MistyrainSun, WindNw, Aquarius, Newmoon, FogHalfmoon, Sun, Virgo,
-        SnowSun, TempestHalfmoon, WindN, Lightning, Wind, Pisces, RainFullmoon, HailHalfmoon,
-        MoonsetFull, WaxingGibbous, Sundown, StormHalfmoon, Storm11, WaxingCresent, Snow,
-        StormFullmoon, Drop, WindE, Fog, WindSe, WindS, Moon, CloudSnowflake, TempestSun, Capricorn,
-        MoondownHalf, HailFullmoon, Sunset, RainHalfmoon, Libra, Aries, Scorpio, Storm32,
-        TempestFullmoon, Move2, WindW, WindSw, StormSun, Taurus, FogFullmoon, Star, Hail, Mistyrain,
-        Fullmoon, FirstQuarter, MoondownFull, WindFullmoon, Leo, Sagittarius, LastQuarter, FogSun,
-        RainSun, DownpourFullmoon, Rain, VariableSun, VariableFullmoon, WaningGibbous, Cancer,
-        SnowFullmoon, CloudLightning, MistyrainHalfmoon, WaningCresent, Windgust)
+    __AllIcons= listOf(Aquarius, Aries, Cancer, Capricorn, Cloud, CloudDrop, CloudLightning,
+        CloudSnowflake, DownpourFullmoon, DownpourHalfmoon, DownpourSun, Drop, FirstQuarter, Fog,
+        FogFullmoon, FogHalfmoon, FogSun, Fullmoon, Gemini, Hail, HailFullmoon, HailHalfmoon,
+        HailSun, LastQuarter, Leo, Libra, Lightning, Mistyrain, MistyrainFullmoon,
+        MistyrainHalfmoon, MistyrainSun, Moon, MoondownFull, MoondownHalf, MoonsetFull, MoonsetHalf,
+        Move2, Newmoon, Pisces, Rain, RainFullmoon, RainHalfmoon, RainSun, Sagittarius, Scorpio,
+        Snow, SnowFullmoon, SnowHalfmoon, SnowSun, Snowflake, Star, Storm11, Storm32, StormFullmoon,
+        StormHalfmoon, StormSun, Sun, Sundown, Sunset, Taurus, Tempest, TempestFullmoon,
+        TempestHalfmoon, TempestSun, VariableFullmoon, VariableHalfmoon, VariableSun, Virgo,
+        WaningCresent, WaningGibbous, WaxingCresent, WaxingGibbous, Wind, WindE, WindFullmoon,
+        WindHalfmoon, WindN, WindNe, WindNw, WindS, WindSe, WindSun, WindSw, WindW, Windgust)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val WeatherGroup.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("aquarius" to Aquarius, "aries" to Aries, "cancer" to Cancer, "capricorn"
+        to Capricorn, "cloud" to Cloud, "clouddrop" to CloudDrop, "cloudlightning" to
+        CloudLightning, "cloudsnowflake" to CloudSnowflake, "downpourfullmoon" to DownpourFullmoon,
+        "downpourhalfmoon" to DownpourHalfmoon, "downpoursun" to DownpourSun, "drop" to Drop,
+        "firstquarter" to FirstQuarter, "fog" to Fog, "fogfullmoon" to FogFullmoon, "foghalfmoon" to
+        FogHalfmoon, "fogsun" to FogSun, "fullmoon" to Fullmoon, "gemini" to Gemini, "hail" to Hail,
+        "hailfullmoon" to HailFullmoon, "hailhalfmoon" to HailHalfmoon, "hailsun" to HailSun,
+        "lastquarter" to LastQuarter, "leo" to Leo, "libra" to Libra, "lightning" to Lightning,
+        "mistyrain" to Mistyrain, "mistyrainfullmoon" to MistyrainFullmoon, "mistyrainhalfmoon" to
+        MistyrainHalfmoon, "mistyrainsun" to MistyrainSun, "moon" to Moon, "moondownfull" to
+        MoondownFull, "moondownhalf" to MoondownHalf, "moonsetfull" to MoonsetFull, "moonsethalf" to
+        MoonsetHalf, "move2" to Move2, "newmoon" to Newmoon, "pisces" to Pisces, "rain" to Rain,
+        "rainfullmoon" to RainFullmoon, "rainhalfmoon" to RainHalfmoon, "rainsun" to RainSun,
+        "sagittarius" to Sagittarius, "scorpio" to Scorpio, "snow" to Snow, "snowfullmoon" to
+        SnowFullmoon, "snowhalfmoon" to SnowHalfmoon, "snowsun" to SnowSun, "snowflake" to
+        Snowflake, "star" to Star, "storm11" to Storm11, "storm32" to Storm32, "stormfullmoon" to
+        StormFullmoon, "stormhalfmoon" to StormHalfmoon, "stormsun" to StormSun, "sun" to Sun,
+        "sundown" to Sundown, "sunset" to Sunset, "taurus" to Taurus, "tempest" to Tempest,
+        "tempestfullmoon" to TempestFullmoon, "tempesthalfmoon" to TempestHalfmoon, "tempestsun" to
+        TempestSun, "variablefullmoon" to VariableFullmoon, "variablehalfmoon" to VariableHalfmoon,
+        "variablesun" to VariableSun, "virgo" to Virgo, "waningcresent" to WaningCresent,
+        "waninggibbous" to WaningGibbous, "waxingcresent" to WaxingCresent, "waxinggibbous" to
+        WaxingGibbous, "wind" to Wind, "winde" to WindE, "windfullmoon" to WindFullmoon,
+        "windhalfmoon" to WindHalfmoon, "windn" to WindN, "windne" to WindNe, "windnw" to WindNw,
+        "winds" to WindS, "windse" to WindSe, "windsun" to WindSun, "windsw" to WindSw, "windw" to
+        WindW, "windgust" to Windgust)
+    return __AllIconsNamed!!
   }

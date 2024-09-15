@@ -154,12 +154,17 @@ import compose.icons.fontawesomeicons.regular.WindowClose
 import compose.icons.fontawesomeicons.regular.WindowMaximize
 import compose.icons.fontawesomeicons.regular.WindowMinimize
 import compose.icons.fontawesomeicons.regular.WindowRestore
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object RegularGroup
 
 public val FontAwesomeIcons.Regular: RegularGroup
   get() = RegularGroup
+
+public val RegularGroup.groupName: String
+  get() = "regular"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -168,25 +173,81 @@ public val RegularGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Clone, Grimace, GrinTongueWink, WindowRestore, PlayCircle, WindowMinimize,
-        FilePowerpoint, PauseCircle, CheckSquare, GrinSquint, ObjectGroup, HandPointer, FileAudio,
-        ArrowAltCircleDown, GrinBeam, Hourglass, MehBlank, KissBeam, GrinBeamSweat, User,
-        GrinHearts, DotCircle, LaughBeam, FileVideo, Circle, ClosedCaptioning, Copyright,
-        AddressCard, SmileBeam, ThumbsUp, GrinAlt, FileExcel, HandPointUp, CreditCard, Map,
-        Comments, File, AddressBook, PlusSquare, IdBadge, Laugh, Keyboard, IdCard, StopCircle,
-        FileImage, Clipboard, QuestionCircle, HandPeace, FileCode, Meh, HandLizard, CaretSquareLeft,
-        Envelope, MinusSquare, HandPointLeft, Dizzy, Bell, CaretSquareUp, Flag, ListAlt,
-        WindowMaximize, Newspaper, Snowflake, Frown, CalendarCheck, Hospital, HandRock, StickyNote,
-        ShareSquare, MehRollingEyes, HandPointDown, HandSpock, KissWinkHeart, CheckCircle, Copy,
-        ArrowAltCircleRight, CommentAlt, SmileWink, Image, Lightbulb, HandPointRight, Save, Smile,
-        CaretSquareDown, Images, ObjectUngroup, GrinTongueSquint, FilePdf, FileArchive, CommentDots,
-        Square, HandScissors, SadCry, TrashAlt, Gem, GrinTongue, FrownOpen, GrinTears, SadTear,
-        Star, HandPaper, Sun, LaughWink, Edit, FileWord, UserCircle, Lemon, EyeSlash, PaperPlane,
-        Compass, GrinWink, Tired, Clock, ThumbsDown, Eye, GrinStars, Registered, ArrowAltCircleLeft,
-        ChartBar, Grin, FolderOpen, TimesCircle, CaretSquareRight, Handshake, Comment, Calendar,
-        LifeRing, CalendarPlus, FontAwesomeLogoFull, ArrowAltCircleUp, Futbol, EnvelopeOpen,
-        WindowClose, Bookmark, CalendarAlt, Kiss, LaughSquint, Hdd, CalendarMinus, Building, Angry,
-        Folder, Flushed, FileAlt, BellSlash, Moon, Surprise, StarHalf, CalendarTimes,
-        GrinSquintTears, Heart, MoneyBillAlt)
+    __AllIcons= listOf(AddressBook, AddressCard, Angry, ArrowAltCircleDown, ArrowAltCircleLeft,
+        ArrowAltCircleRight, ArrowAltCircleUp, Bell, BellSlash, Bookmark, Building, Calendar,
+        CalendarAlt, CalendarCheck, CalendarMinus, CalendarPlus, CalendarTimes, CaretSquareDown,
+        CaretSquareLeft, CaretSquareRight, CaretSquareUp, ChartBar, CheckCircle, CheckSquare,
+        Circle, Clipboard, Clock, Clone, ClosedCaptioning, Comment, CommentAlt, CommentDots,
+        Comments, Compass, Copy, Copyright, CreditCard, Dizzy, DotCircle, Edit, Envelope,
+        EnvelopeOpen, Eye, EyeSlash, File, FileAlt, FileArchive, FileAudio, FileCode, FileExcel,
+        FileImage, FilePdf, FilePowerpoint, FileVideo, FileWord, Flag, Flushed, Folder, FolderOpen,
+        FontAwesomeLogoFull, Frown, FrownOpen, Futbol, Gem, Grimace, Grin, GrinAlt, GrinBeam,
+        GrinBeamSweat, GrinHearts, GrinSquint, GrinSquintTears, GrinStars, GrinTears, GrinTongue,
+        GrinTongueSquint, GrinTongueWink, GrinWink, HandLizard, HandPaper, HandPeace, HandPointDown,
+        HandPointLeft, HandPointRight, HandPointUp, HandPointer, HandRock, HandScissors, HandSpock,
+        Handshake, Hdd, Heart, Hospital, Hourglass, IdBadge, IdCard, Image, Images, Keyboard, Kiss,
+        KissBeam, KissWinkHeart, Laugh, LaughBeam, LaughSquint, LaughWink, Lemon, LifeRing,
+        Lightbulb, ListAlt, Map, Meh, MehBlank, MehRollingEyes, MinusSquare, MoneyBillAlt, Moon,
+        Newspaper, ObjectGroup, ObjectUngroup, PaperPlane, PauseCircle, PlayCircle, PlusSquare,
+        QuestionCircle, Registered, SadCry, SadTear, Save, ShareSquare, Smile, SmileBeam, SmileWink,
+        Snowflake, Square, Star, StarHalf, StickyNote, StopCircle, Sun, Surprise, ThumbsDown,
+        ThumbsUp, TimesCircle, Tired, TrashAlt, User, UserCircle, WindowClose, WindowMaximize,
+        WindowMinimize, WindowRestore)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val RegularGroup.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("addressbook" to AddressBook, "addresscard" to AddressCard, "angry" to
+        Angry, "arrowaltcircledown" to ArrowAltCircleDown, "arrowaltcircleleft" to
+        ArrowAltCircleLeft, "arrowaltcircleright" to ArrowAltCircleRight, "arrowaltcircleup" to
+        ArrowAltCircleUp, "bell" to Bell, "bellslash" to BellSlash, "bookmark" to Bookmark,
+        "building" to Building, "calendar" to Calendar, "calendaralt" to CalendarAlt,
+        "calendarcheck" to CalendarCheck, "calendarminus" to CalendarMinus, "calendarplus" to
+        CalendarPlus, "calendartimes" to CalendarTimes, "caretsquaredown" to CaretSquareDown,
+        "caretsquareleft" to CaretSquareLeft, "caretsquareright" to CaretSquareRight,
+        "caretsquareup" to CaretSquareUp, "chartbar" to ChartBar, "checkcircle" to CheckCircle,
+        "checksquare" to CheckSquare, "circle" to Circle, "clipboard" to Clipboard, "clock" to
+        Clock, "clone" to Clone, "closedcaptioning" to ClosedCaptioning, "comment" to Comment,
+        "commentalt" to CommentAlt, "commentdots" to CommentDots, "comments" to Comments, "compass"
+        to Compass, "copy" to Copy, "copyright" to Copyright, "creditcard" to CreditCard, "dizzy" to
+        Dizzy, "dotcircle" to DotCircle, "edit" to Edit, "envelope" to Envelope, "envelopeopen" to
+        EnvelopeOpen, "eye" to Eye, "eyeslash" to EyeSlash, "file" to File, "filealt" to FileAlt,
+        "filearchive" to FileArchive, "fileaudio" to FileAudio, "filecode" to FileCode, "fileexcel"
+        to FileExcel, "fileimage" to FileImage, "filepdf" to FilePdf, "filepowerpoint" to
+        FilePowerpoint, "filevideo" to FileVideo, "fileword" to FileWord, "flag" to Flag, "flushed"
+        to Flushed, "folder" to Folder, "folderopen" to FolderOpen, "fontawesomelogofull" to
+        FontAwesomeLogoFull, "frown" to Frown, "frownopen" to FrownOpen, "futbol" to Futbol, "gem"
+        to Gem, "grimace" to Grimace, "grin" to Grin, "grinalt" to GrinAlt, "grinbeam" to GrinBeam,
+        "grinbeamsweat" to GrinBeamSweat, "grinhearts" to GrinHearts, "grinsquint" to GrinSquint,
+        "grinsquinttears" to GrinSquintTears, "grinstars" to GrinStars, "grintears" to GrinTears,
+        "grintongue" to GrinTongue, "grintonguesquint" to GrinTongueSquint, "grintonguewink" to
+        GrinTongueWink, "grinwink" to GrinWink, "handlizard" to HandLizard, "handpaper" to
+        HandPaper, "handpeace" to HandPeace, "handpointdown" to HandPointDown, "handpointleft" to
+        HandPointLeft, "handpointright" to HandPointRight, "handpointup" to HandPointUp,
+        "handpointer" to HandPointer, "handrock" to HandRock, "handscissors" to HandScissors,
+        "handspock" to HandSpock, "handshake" to Handshake, "hdd" to Hdd, "heart" to Heart,
+        "hospital" to Hospital, "hourglass" to Hourglass, "idbadge" to IdBadge, "idcard" to IdCard,
+        "image" to Image, "images" to Images, "keyboard" to Keyboard, "kiss" to Kiss, "kissbeam" to
+        KissBeam, "kisswinkheart" to KissWinkHeart, "laugh" to Laugh, "laughbeam" to LaughBeam,
+        "laughsquint" to LaughSquint, "laughwink" to LaughWink, "lemon" to Lemon, "lifering" to
+        LifeRing, "lightbulb" to Lightbulb, "listalt" to ListAlt, "map" to Map, "meh" to Meh,
+        "mehblank" to MehBlank, "mehrollingeyes" to MehRollingEyes, "minussquare" to MinusSquare,
+        "moneybillalt" to MoneyBillAlt, "moon" to Moon, "newspaper" to Newspaper, "objectgroup" to
+        ObjectGroup, "objectungroup" to ObjectUngroup, "paperplane" to PaperPlane, "pausecircle" to
+        PauseCircle, "playcircle" to PlayCircle, "plussquare" to PlusSquare, "questioncircle" to
+        QuestionCircle, "registered" to Registered, "sadcry" to SadCry, "sadtear" to SadTear, "save"
+        to Save, "sharesquare" to ShareSquare, "smile" to Smile, "smilebeam" to SmileBeam,
+        "smilewink" to SmileWink, "snowflake" to Snowflake, "square" to Square, "star" to Star,
+        "starhalf" to StarHalf, "stickynote" to StickyNote, "stopcircle" to StopCircle, "sun" to
+        Sun, "surprise" to Surprise, "thumbsdown" to ThumbsDown, "thumbsup" to ThumbsUp,
+        "timescircle" to TimesCircle, "tired" to Tired, "trashalt" to TrashAlt, "user" to User,
+        "usercircle" to UserCircle, "windowclose" to WindowClose, "windowmaximize" to
+        WindowMaximize, "windowminimize" to WindowMinimize, "windowrestore" to WindowRestore)
+    return __AllIconsNamed!!
   }

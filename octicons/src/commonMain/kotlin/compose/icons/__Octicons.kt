@@ -415,7 +415,9 @@ import compose.icons.octicons.XCircleFill16
 import compose.icons.octicons.XCircleFill24
 import compose.icons.octicons.Zap16
 import compose.icons.octicons.Zap24
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object Octicons
 
@@ -426,63 +428,206 @@ public val Octicons.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Globe24, XCircle24, PlusCircle24, ScreenNormal16, DeviceCameraVideo16,
-        DotFill24, ArrowUp24, ChevronUp24, Plug16, Bell24, Sync16, Question16, Telescope16, Law16,
-        Moon16, Terminal24, Unverified24, Thumbsdown24, Unmute16, IssueOpened24, Link24, GitMerge16,
-        CommentDiscussion24, Project16, Megaphone24, TriangleUp16, Ruby24, Plus16, IssueReopened24,
-        MortarBoard16, Broadcast24, Heading24, Share16, PackageDependencies24, DesktopDownload24,
-        PackageDependents16, Smiley24, Unlock24, BookmarkSlashFill24, Archive16, ListUnordered24,
-        GitCommit16, Grabber16, SignIn16, Skip16, BookmarkFill24, Verified24, DeviceDesktop16,
-        Graph16, ArrowSwitch24, Briefcase24, CheckCircleFill24, Alert16, File24, SignOut16,
-        Server16, CheckCircle16, Quote24, Inbox24, DiffModified16, FoldUp24, GitCompare16, Tab24,
-        CreditCard24, Rss24, Check24, Milestone24, Paintbrush16, Heart24, DeviceMobile16, Info16,
-        Eye16, FoldDown24, TriangleDown16, Strikethrough24, Markdown16, ListOrdered24,
-        MultiSelect24, FileDirectory24, Infinity24, Package16, FileBadge16, Typography24,
-        ArrowUpLeft24, Star16, Organization16, Gift16, Flame16, Upload16, ShareAndroid24, Fold16,
-        Download16, LinkExternal16, ArrowDownRight24, Tag16, TriangleLeft16, Dash16, Cpu16,
-        NorthStar16, RepoTemplate24, ShieldLock24, XCircleFill16, CodeSquare16, Pin16,
-        CircleSlash24, Container24, Versions16, Number16, History24, Person24, TriangleRight16,
-        Home16, Bookmark24, FileDirectoryFill24, Pulse16, FileCode24, Search16, PaperAirplane24,
-        Diff24, Mute24, KebabHorizontal24, Hourglass16, ArrowBoth16, FileSymlinkFile24, Reply16,
-        BookmarkSlash24, Location24, Calendar16, Trash16, Database24, StarFill16, Hubot24,
-        EyeClosed24, ArrowRight24, CodeReview24, NoEntry24, Repo24, Lock16, Zap16, X24, Tasklist16,
-        ArrowDownLeft24, Mail16, HorizontalRule16, Ellipsis16, Circle16, RepoPull16,
-        FileSubmodule24, Mirror24, MarkGithub16, Tools24, Beaker16, Video24, ChevronRight24,
-        ChevronDown16, Play16, Thumbsup24, Rocket24, Stop24, LogoGist16, GitPullRequest16,
-        GitBranch24, ArrowDown16, Gear24, HeartFill24, Stopwatch16, Book16, Shield24, Mention16,
-        Dot24, Octoface16, Code16, Image16, Squirrel16, FileDiff16, ArrowUpRight24, Checklist24,
-        Note24, Clippy24, ScreenFull24, Square16, Sun24, Pencil16, FileZip16, IssueClosed16,
-        People16, Key24, Report16, Filter16, RepoPush16, ShieldX16, Unfold24, ChevronLeft16,
-        Workflow16, Italic24, FileBinary24, LightBulb16, CrossReference24, Bold24, BellSlash16,
-        ArrowLeft16, Clock16, Bug24, DiffRenamed16, SquareFill16, Comment16, ShieldCheck24,
-        Clippy16, ScreenFull16, Checklist16, FileDiff24, Note16, Squirrel24, Image24, Code24,
-        Octoface24, Dot16, Mention24, DiffIgnored16, Shield16, HeartFill16, Book24, Stopwatch24,
-        ArrowDown24, GitBranch16, Gear16, GitPullRequest24, Stop16, Rocket16, Thumbsup16, Play24,
-        Beaker24, ChevronDown24, ChevronRight16, Video16, Tools16, Comment24, ShieldCheck16,
-        LogoGithub16, SquareFill24, Bug16, BellSlash24, Clock24, ArrowLeft24, CrossReference16,
-        LightBulb24, Bold16, RepoClone16, Italic16, FileBinary16, Workflow24, ChevronLeft24,
-        Unfold16, ShieldX24, Filter24, RepoPush24, Report24, IssueClosed24, FileZip24, Key16,
-        People24, Square24, Pencil24, Sun16, FileSymlinkFile16, Reply24, ArrowBoth24, Hourglass24,
-        DiffRemoved16, KebabHorizontal16, Mute16, PaperAirplane16, Diff16, Search24, FileCode16,
-        Pulse24, TriangleRight24, Bookmark16, Home24, Number24, Person16, History16, Versions24,
-        Container16, Mirror16, FileSubmodule16, Circle24, ThreeBars16, HorizontalRule24, Mail24,
-        Tasklist24, Zap24, X16, Lock24, ArrowRight16, DiffAdded16, Repo16, NoEntry16, CodeReview16,
-        EyeClosed16, Hubot16, StarFill24, Database16, Insights24, Calendar24, Trash24,
-        BookmarkSlash16, Location16, TriangleDown24, Strikethrough16, RepoForked16, FileMedia24,
-        Eye24, FoldDown16, Info24, DeviceMobile24, DeviceCamera16, Heart16, Milestone16, Check16,
-        Rss16, CreditCard16, HomeFill24, Inbox16, Quote16, FoldUp16, GitCompare24, GitFork24,
-        CheckCircle24, SignOut24, File16, Alert24, Server24, Pin24, CodeSquare24, CircleSlash16,
-        XCircleFill24, ShieldLock16, RepoTemplate16, NorthStar24, Dash24, Copy24, Cpu24, Tag24,
-        TriangleLeft24, LinkExternal24, Download24, Fold24, ShareAndroid16, Organization24,
-        Upload24, Flame24, Gift24, Star24, FileDirectory16, Typography16, Package24, Infinity16,
-        Commit24, MultiSelect16, ListOrdered16, Broadcast16, MortarBoard24, Plus24, Ruby16,
-        TriangleUp24, IssueReopened16, Megaphone16, Project24, CommentDiscussion16, GitMerge24,
-        Link16, IssueOpened16, Unmute24, Thumbsdown16, Meter16, Terminal16, Unverified16, Moon24,
-        Law24, Telescope24, Question24, Bell16, Sync24, Plug24, ChevronUp16, ArrowUp16,
-        ScreenNormal24, DotFill16, DeviceCameraVideo24, XCircle16, PlusCircle16, Globe16,
-        ArrowSwitch16, CheckCircleFill16, Briefcase16, DeviceDesktop24, Verified16, Graph24,
-        SignIn24, Skip24, Grabber24, Browser16, GitCommit24, ListUnordered16, Unlock16, BellFill24,
-        Archive24, Smiley16, PackageDependents24, DesktopDownload16, PackageDependencies16, Share24,
-        Heading16)
+    __AllIcons= listOf(Alert16, Alert24, Archive16, Archive24, ArrowBoth16, ArrowBoth24,
+        ArrowDown16, ArrowDown24, ArrowDownLeft24, ArrowDownRight24, ArrowLeft16, ArrowLeft24,
+        ArrowRight16, ArrowRight24, ArrowSwitch16, ArrowSwitch24, ArrowUp16, ArrowUp24,
+        ArrowUpLeft24, ArrowUpRight24, Beaker16, Beaker24, Bell16, Bell24, BellFill24, BellSlash16,
+        BellSlash24, Bold16, Bold24, Book16, Book24, Bookmark16, Bookmark24, BookmarkFill24,
+        BookmarkSlash16, BookmarkSlash24, BookmarkSlashFill24, Briefcase16, Briefcase24,
+        Broadcast16, Broadcast24, Browser16, Bug16, Bug24, Calendar16, Calendar24, Check16, Check24,
+        CheckCircle16, CheckCircle24, CheckCircleFill16, CheckCircleFill24, Checklist16,
+        Checklist24, ChevronDown16, ChevronDown24, ChevronLeft16, ChevronLeft24, ChevronRight16,
+        ChevronRight24, ChevronUp16, ChevronUp24, Circle16, Circle24, CircleSlash16, CircleSlash24,
+        Clippy16, Clippy24, Clock16, Clock24, Code16, Code24, CodeReview16, CodeReview24,
+        CodeSquare16, CodeSquare24, Comment16, Comment24, CommentDiscussion16, CommentDiscussion24,
+        Commit24, Container16, Container24, Copy24, Cpu16, Cpu24, CreditCard16, CreditCard24,
+        CrossReference16, CrossReference24, Dash16, Dash24, Database16, Database24,
+        DesktopDownload16, DesktopDownload24, DeviceCamera16, DeviceCameraVideo16,
+        DeviceCameraVideo24, DeviceDesktop16, DeviceDesktop24, DeviceMobile16, DeviceMobile24,
+        Diff16, Diff24, DiffAdded16, DiffIgnored16, DiffModified16, DiffRemoved16, DiffRenamed16,
+        Dot16, Dot24, DotFill16, DotFill24, Download16, Download24, Ellipsis16, Eye16, Eye24,
+        EyeClosed16, EyeClosed24, File16, File24, FileBadge16, FileBinary16, FileBinary24,
+        FileCode16, FileCode24, FileDiff16, FileDiff24, FileDirectory16, FileDirectory24,
+        FileDirectoryFill24, FileMedia24, FileSubmodule16, FileSubmodule24, FileSymlinkFile16,
+        FileSymlinkFile24, FileZip16, FileZip24, Filter16, Filter24, Flame16, Flame24, Fold16,
+        Fold24, FoldDown16, FoldDown24, FoldUp16, FoldUp24, Gear16, Gear24, Gift16, Gift24,
+        GitBranch16, GitBranch24, GitCommit16, GitCommit24, GitCompare16, GitCompare24, GitFork24,
+        GitMerge16, GitMerge24, GitPullRequest16, GitPullRequest24, Globe16, Globe24, Grabber16,
+        Grabber24, Graph16, Graph24, Heading16, Heading24, Heart16, Heart24, HeartFill16,
+        HeartFill24, History16, History24, Home16, Home24, HomeFill24, HorizontalRule16,
+        HorizontalRule24, Hourglass16, Hourglass24, Hubot16, Hubot24, Image16, Image24, Inbox16,
+        Inbox24, Infinity16, Infinity24, Info16, Info24, Insights24, IssueClosed16, IssueClosed24,
+        IssueOpened16, IssueOpened24, IssueReopened16, IssueReopened24, Italic16, Italic24,
+        KebabHorizontal16, KebabHorizontal24, Key16, Key24, Law16, Law24, LightBulb16, LightBulb24,
+        Link16, Link24, LinkExternal16, LinkExternal24, ListOrdered16, ListOrdered24,
+        ListUnordered16, ListUnordered24, Location16, Location24, Lock16, Lock24, LogoGist16,
+        LogoGithub16, Mail16, Mail24, MarkGithub16, Markdown16, Megaphone16, Megaphone24, Mention16,
+        Mention24, Meter16, Milestone16, Milestone24, Mirror16, Mirror24, Moon16, Moon24,
+        MortarBoard16, MortarBoard24, MultiSelect16, MultiSelect24, Mute16, Mute24, NoEntry16,
+        NoEntry24, NorthStar16, NorthStar24, Note16, Note24, Number16, Number24, Octoface16,
+        Octoface24, Organization16, Organization24, Package16, Package24, PackageDependencies16,
+        PackageDependencies24, PackageDependents16, PackageDependents24, Paintbrush16,
+        PaperAirplane16, PaperAirplane24, Pencil16, Pencil24, People16, People24, Person16,
+        Person24, Pin16, Pin24, Play16, Play24, Plug16, Plug24, Plus16, Plus24, PlusCircle16,
+        PlusCircle24, Project16, Project24, Pulse16, Pulse24, Question16, Question24, Quote16,
+        Quote24, Reply16, Reply24, Repo16, Repo24, RepoClone16, RepoForked16, RepoPull16,
+        RepoPush16, RepoPush24, RepoTemplate16, RepoTemplate24, Report16, Report24, Rocket16,
+        Rocket24, Rss16, Rss24, Ruby16, Ruby24, ScreenFull16, ScreenFull24, ScreenNormal16,
+        ScreenNormal24, Search16, Search24, Server16, Server24, Share16, Share24, ShareAndroid16,
+        ShareAndroid24, Shield16, Shield24, ShieldCheck16, ShieldCheck24, ShieldLock16,
+        ShieldLock24, ShieldX16, ShieldX24, SignIn16, SignIn24, SignOut16, SignOut24, Skip16,
+        Skip24, Smiley16, Smiley24, Square16, Square24, SquareFill16, SquareFill24, Squirrel16,
+        Squirrel24, Star16, Star24, StarFill16, StarFill24, Stop16, Stop24, Stopwatch16,
+        Stopwatch24, Strikethrough16, Strikethrough24, Sun16, Sun24, Sync16, Sync24, Tab24, Tag16,
+        Tag24, Tasklist16, Tasklist24, Telescope16, Telescope24, Terminal16, Terminal24,
+        ThreeBars16, Thumbsdown16, Thumbsdown24, Thumbsup16, Thumbsup24, Tools16, Tools24, Trash16,
+        Trash24, TriangleDown16, TriangleDown24, TriangleLeft16, TriangleLeft24, TriangleRight16,
+        TriangleRight24, TriangleUp16, TriangleUp24, Typography16, Typography24, Unfold16, Unfold24,
+        Unlock16, Unlock24, Unmute16, Unmute24, Unverified16, Unverified24, Upload16, Upload24,
+        Verified16, Verified24, Versions16, Versions24, Video16, Video24, Workflow16, Workflow24,
+        X16, X24, XCircle16, XCircle24, XCircleFill16, XCircleFill24, Zap16, Zap24)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val Octicons.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("alert16" to Alert16, "alert24" to Alert24, "archive16" to Archive16,
+        "archive24" to Archive24, "arrowboth16" to ArrowBoth16, "arrowboth24" to ArrowBoth24,
+        "arrowdown16" to ArrowDown16, "arrowdown24" to ArrowDown24, "arrowdownleft24" to
+        ArrowDownLeft24, "arrowdownright24" to ArrowDownRight24, "arrowleft16" to ArrowLeft16,
+        "arrowleft24" to ArrowLeft24, "arrowright16" to ArrowRight16, "arrowright24" to
+        ArrowRight24, "arrowswitch16" to ArrowSwitch16, "arrowswitch24" to ArrowSwitch24,
+        "arrowup16" to ArrowUp16, "arrowup24" to ArrowUp24, "arrowupleft24" to ArrowUpLeft24,
+        "arrowupright24" to ArrowUpRight24, "beaker16" to Beaker16, "beaker24" to Beaker24, "bell16"
+        to Bell16, "bell24" to Bell24, "bellfill24" to BellFill24, "bellslash16" to BellSlash16,
+        "bellslash24" to BellSlash24, "bold16" to Bold16, "bold24" to Bold24, "book16" to Book16,
+        "book24" to Book24, "bookmark16" to Bookmark16, "bookmark24" to Bookmark24, "bookmarkfill24"
+        to BookmarkFill24, "bookmarkslash16" to BookmarkSlash16, "bookmarkslash24" to
+        BookmarkSlash24, "bookmarkslashfill24" to BookmarkSlashFill24, "briefcase16" to Briefcase16,
+        "briefcase24" to Briefcase24, "broadcast16" to Broadcast16, "broadcast24" to Broadcast24,
+        "browser16" to Browser16, "bug16" to Bug16, "bug24" to Bug24, "calendar16" to Calendar16,
+        "calendar24" to Calendar24, "check16" to Check16, "check24" to Check24, "checkcircle16" to
+        CheckCircle16, "checkcircle24" to CheckCircle24, "checkcirclefill16" to CheckCircleFill16,
+        "checkcirclefill24" to CheckCircleFill24, "checklist16" to Checklist16, "checklist24" to
+        Checklist24, "chevrondown16" to ChevronDown16, "chevrondown24" to ChevronDown24,
+        "chevronleft16" to ChevronLeft16, "chevronleft24" to ChevronLeft24, "chevronright16" to
+        ChevronRight16, "chevronright24" to ChevronRight24, "chevronup16" to ChevronUp16,
+        "chevronup24" to ChevronUp24, "circle16" to Circle16, "circle24" to Circle24,
+        "circleslash16" to CircleSlash16, "circleslash24" to CircleSlash24, "clippy16" to Clippy16,
+        "clippy24" to Clippy24, "clock16" to Clock16, "clock24" to Clock24, "code16" to Code16,
+        "code24" to Code24, "codereview16" to CodeReview16, "codereview24" to CodeReview24,
+        "codesquare16" to CodeSquare16, "codesquare24" to CodeSquare24, "comment16" to Comment16,
+        "comment24" to Comment24, "commentdiscussion16" to CommentDiscussion16,
+        "commentdiscussion24" to CommentDiscussion24, "commit24" to Commit24, "container16" to
+        Container16, "container24" to Container24, "copy24" to Copy24, "cpu16" to Cpu16, "cpu24" to
+        Cpu24, "creditcard16" to CreditCard16, "creditcard24" to CreditCard24, "crossreference16" to
+        CrossReference16, "crossreference24" to CrossReference24, "dash16" to Dash16, "dash24" to
+        Dash24, "database16" to Database16, "database24" to Database24, "desktopdownload16" to
+        DesktopDownload16, "desktopdownload24" to DesktopDownload24, "devicecamera16" to
+        DeviceCamera16, "devicecameravideo16" to DeviceCameraVideo16, "devicecameravideo24" to
+        DeviceCameraVideo24, "devicedesktop16" to DeviceDesktop16, "devicedesktop24" to
+        DeviceDesktop24, "devicemobile16" to DeviceMobile16, "devicemobile24" to DeviceMobile24,
+        "diff16" to Diff16, "diff24" to Diff24, "diffadded16" to DiffAdded16, "diffignored16" to
+        DiffIgnored16, "diffmodified16" to DiffModified16, "diffremoved16" to DiffRemoved16,
+        "diffrenamed16" to DiffRenamed16, "dot16" to Dot16, "dot24" to Dot24, "dotfill16" to
+        DotFill16, "dotfill24" to DotFill24, "download16" to Download16, "download24" to Download24,
+        "ellipsis16" to Ellipsis16, "eye16" to Eye16, "eye24" to Eye24, "eyeclosed16" to
+        EyeClosed16, "eyeclosed24" to EyeClosed24, "file16" to File16, "file24" to File24,
+        "filebadge16" to FileBadge16, "filebinary16" to FileBinary16, "filebinary24" to
+        FileBinary24, "filecode16" to FileCode16, "filecode24" to FileCode24, "filediff16" to
+        FileDiff16, "filediff24" to FileDiff24, "filedirectory16" to FileDirectory16,
+        "filedirectory24" to FileDirectory24, "filedirectoryfill24" to FileDirectoryFill24,
+        "filemedia24" to FileMedia24, "filesubmodule16" to FileSubmodule16, "filesubmodule24" to
+        FileSubmodule24, "filesymlinkfile16" to FileSymlinkFile16, "filesymlinkfile24" to
+        FileSymlinkFile24, "filezip16" to FileZip16, "filezip24" to FileZip24, "filter16" to
+        Filter16, "filter24" to Filter24, "flame16" to Flame16, "flame24" to Flame24, "fold16" to
+        Fold16, "fold24" to Fold24, "folddown16" to FoldDown16, "folddown24" to FoldDown24,
+        "foldup16" to FoldUp16, "foldup24" to FoldUp24, "gear16" to Gear16, "gear24" to Gear24,
+        "gift16" to Gift16, "gift24" to Gift24, "gitbranch16" to GitBranch16, "gitbranch24" to
+        GitBranch24, "gitcommit16" to GitCommit16, "gitcommit24" to GitCommit24, "gitcompare16" to
+        GitCompare16, "gitcompare24" to GitCompare24, "gitfork24" to GitFork24, "gitmerge16" to
+        GitMerge16, "gitmerge24" to GitMerge24, "gitpullrequest16" to GitPullRequest16,
+        "gitpullrequest24" to GitPullRequest24, "globe16" to Globe16, "globe24" to Globe24,
+        "grabber16" to Grabber16, "grabber24" to Grabber24, "graph16" to Graph16, "graph24" to
+        Graph24, "heading16" to Heading16, "heading24" to Heading24, "heart16" to Heart16, "heart24"
+        to Heart24, "heartfill16" to HeartFill16, "heartfill24" to HeartFill24, "history16" to
+        History16, "history24" to History24, "home16" to Home16, "home24" to Home24, "homefill24" to
+        HomeFill24, "horizontalrule16" to HorizontalRule16, "horizontalrule24" to HorizontalRule24,
+        "hourglass16" to Hourglass16, "hourglass24" to Hourglass24, "hubot16" to Hubot16, "hubot24"
+        to Hubot24, "image16" to Image16, "image24" to Image24, "inbox16" to Inbox16, "inbox24" to
+        Inbox24, "infinity16" to Infinity16, "infinity24" to Infinity24, "info16" to Info16,
+        "info24" to Info24, "insights24" to Insights24, "issueclosed16" to IssueClosed16,
+        "issueclosed24" to IssueClosed24, "issueopened16" to IssueOpened16, "issueopened24" to
+        IssueOpened24, "issuereopened16" to IssueReopened16, "issuereopened24" to IssueReopened24,
+        "italic16" to Italic16, "italic24" to Italic24, "kebabhorizontal16" to KebabHorizontal16,
+        "kebabhorizontal24" to KebabHorizontal24, "key16" to Key16, "key24" to Key24, "law16" to
+        Law16, "law24" to Law24, "lightbulb16" to LightBulb16, "lightbulb24" to LightBulb24,
+        "link16" to Link16, "link24" to Link24, "linkexternal16" to LinkExternal16, "linkexternal24"
+        to LinkExternal24, "listordered16" to ListOrdered16, "listordered24" to ListOrdered24,
+        "listunordered16" to ListUnordered16, "listunordered24" to ListUnordered24, "location16" to
+        Location16, "location24" to Location24, "lock16" to Lock16, "lock24" to Lock24, "logogist16"
+        to LogoGist16, "logogithub16" to LogoGithub16, "mail16" to Mail16, "mail24" to Mail24,
+        "markgithub16" to MarkGithub16, "markdown16" to Markdown16, "megaphone16" to Megaphone16,
+        "megaphone24" to Megaphone24, "mention16" to Mention16, "mention24" to Mention24, "meter16"
+        to Meter16, "milestone16" to Milestone16, "milestone24" to Milestone24, "mirror16" to
+        Mirror16, "mirror24" to Mirror24, "moon16" to Moon16, "moon24" to Moon24, "mortarboard16" to
+        MortarBoard16, "mortarboard24" to MortarBoard24, "multiselect16" to MultiSelect16,
+        "multiselect24" to MultiSelect24, "mute16" to Mute16, "mute24" to Mute24, "noentry16" to
+        NoEntry16, "noentry24" to NoEntry24, "northstar16" to NorthStar16, "northstar24" to
+        NorthStar24, "note16" to Note16, "note24" to Note24, "number16" to Number16, "number24" to
+        Number24, "octoface16" to Octoface16, "octoface24" to Octoface24, "organization16" to
+        Organization16, "organization24" to Organization24, "package16" to Package16, "package24" to
+        Package24, "packagedependencies16" to PackageDependencies16, "packagedependencies24" to
+        PackageDependencies24, "packagedependents16" to PackageDependents16, "packagedependents24"
+        to PackageDependents24, "paintbrush16" to Paintbrush16, "paperairplane16" to
+        PaperAirplane16, "paperairplane24" to PaperAirplane24, "pencil16" to Pencil16, "pencil24" to
+        Pencil24, "people16" to People16, "people24" to People24, "person16" to Person16, "person24"
+        to Person24, "pin16" to Pin16, "pin24" to Pin24, "play16" to Play16, "play24" to Play24,
+        "plug16" to Plug16, "plug24" to Plug24, "plus16" to Plus16, "plus24" to Plus24,
+        "pluscircle16" to PlusCircle16, "pluscircle24" to PlusCircle24, "project16" to Project16,
+        "project24" to Project24, "pulse16" to Pulse16, "pulse24" to Pulse24, "question16" to
+        Question16, "question24" to Question24, "quote16" to Quote16, "quote24" to Quote24,
+        "reply16" to Reply16, "reply24" to Reply24, "repo16" to Repo16, "repo24" to Repo24,
+        "repoclone16" to RepoClone16, "repoforked16" to RepoForked16, "repopull16" to RepoPull16,
+        "repopush16" to RepoPush16, "repopush24" to RepoPush24, "repotemplate16" to RepoTemplate16,
+        "repotemplate24" to RepoTemplate24, "report16" to Report16, "report24" to Report24,
+        "rocket16" to Rocket16, "rocket24" to Rocket24, "rss16" to Rss16, "rss24" to Rss24, "ruby16"
+        to Ruby16, "ruby24" to Ruby24, "screenfull16" to ScreenFull16, "screenfull24" to
+        ScreenFull24, "screennormal16" to ScreenNormal16, "screennormal24" to ScreenNormal24,
+        "search16" to Search16, "search24" to Search24, "server16" to Server16, "server24" to
+        Server24, "share16" to Share16, "share24" to Share24, "shareandroid16" to ShareAndroid16,
+        "shareandroid24" to ShareAndroid24, "shield16" to Shield16, "shield24" to Shield24,
+        "shieldcheck16" to ShieldCheck16, "shieldcheck24" to ShieldCheck24, "shieldlock16" to
+        ShieldLock16, "shieldlock24" to ShieldLock24, "shieldx16" to ShieldX16, "shieldx24" to
+        ShieldX24, "signin16" to SignIn16, "signin24" to SignIn24, "signout16" to SignOut16,
+        "signout24" to SignOut24, "skip16" to Skip16, "skip24" to Skip24, "smiley16" to Smiley16,
+        "smiley24" to Smiley24, "square16" to Square16, "square24" to Square24, "squarefill16" to
+        SquareFill16, "squarefill24" to SquareFill24, "squirrel16" to Squirrel16, "squirrel24" to
+        Squirrel24, "star16" to Star16, "star24" to Star24, "starfill16" to StarFill16, "starfill24"
+        to StarFill24, "stop16" to Stop16, "stop24" to Stop24, "stopwatch16" to Stopwatch16,
+        "stopwatch24" to Stopwatch24, "strikethrough16" to Strikethrough16, "strikethrough24" to
+        Strikethrough24, "sun16" to Sun16, "sun24" to Sun24, "sync16" to Sync16, "sync24" to Sync24,
+        "tab24" to Tab24, "tag16" to Tag16, "tag24" to Tag24, "tasklist16" to Tasklist16,
+        "tasklist24" to Tasklist24, "telescope16" to Telescope16, "telescope24" to Telescope24,
+        "terminal16" to Terminal16, "terminal24" to Terminal24, "threebars16" to ThreeBars16,
+        "thumbsdown16" to Thumbsdown16, "thumbsdown24" to Thumbsdown24, "thumbsup16" to Thumbsup16,
+        "thumbsup24" to Thumbsup24, "tools16" to Tools16, "tools24" to Tools24, "trash16" to
+        Trash16, "trash24" to Trash24, "triangledown16" to TriangleDown16, "triangledown24" to
+        TriangleDown24, "triangleleft16" to TriangleLeft16, "triangleleft24" to TriangleLeft24,
+        "triangleright16" to TriangleRight16, "triangleright24" to TriangleRight24, "triangleup16"
+        to TriangleUp16, "triangleup24" to TriangleUp24, "typography16" to Typography16,
+        "typography24" to Typography24, "unfold16" to Unfold16, "unfold24" to Unfold24, "unlock16"
+        to Unlock16, "unlock24" to Unlock24, "unmute16" to Unmute16, "unmute24" to Unmute24,
+        "unverified16" to Unverified16, "unverified24" to Unverified24, "upload16" to Upload16,
+        "upload24" to Upload24, "verified16" to Verified16, "verified24" to Verified24, "versions16"
+        to Versions16, "versions24" to Versions24, "video16" to Video16, "video24" to Video24,
+        "workflow16" to Workflow16, "workflow24" to Workflow24, "x16" to X16, "x24" to X24,
+        "xcircle16" to XCircle16, "xcircle24" to XCircle24, "xcirclefill16" to XCircleFill16,
+        "xcirclefill24" to XCircleFill24, "zap16" to Zap16, "zap24" to Zap24)
+    return __AllIconsNamed!!
   }

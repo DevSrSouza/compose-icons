@@ -1004,12 +1004,17 @@ import compose.icons.fontawesomeicons.solid.Wrench
 import compose.icons.fontawesomeicons.solid.XRay
 import compose.icons.fontawesomeicons.solid.YenSign
 import compose.icons.fontawesomeicons.solid.YinYang
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object SolidGroup
 
 public val FontAwesomeIcons.Solid: SolidGroup
   get() = SolidGroup
+
+public val SolidGroup.groupName: String
+  get() = "solid"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -1018,131 +1023,437 @@ public val SolidGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Columns, Passport, Socks, Underline, StreetView, CloudShowersHeavy, CarCrash,
-        FistRaised, LaptopMedical, AngleDoubleRight, Clone, Search, VolumeMute, Grimace, SearchPlus,
-        LevelUpAlt, Crow, QuoteRight, SkiingNordic, GrinTongueWink, Pallet, Eraser, Receipt,
-        CandyCane, WindowRestore, PlayCircle, WindowMinimize, Campground, Poo, Ghost, List, Sign,
-        FilePowerpoint, Stream, UserAstronaut, UserEdit, ShuttleVan, Neuter, MoneyCheck, Virus,
-        Prescription, Bed, Dumpster, GreaterThan, Wind, Subscript, Viruses, ShekelSign, PauseCircle,
-        CheckSquare, GrinSquint, Cog, ObjectGroup, HandPointer, PenFancy, HandMiddleFinger,
-        ShieldAlt, Tools, FileAudio, Hryvnia, ArrowAltCircleDown, UserSecret, FolderPlus, Mitten,
-        GlobeAmericas, GrinBeam, CookieBite, EllipsisH, Hourglass, TrashRestoreAlt, Boxes, Reply,
-        Hamburger, TextWidth, Toolbox, ShareAlt, Quran, MousePointer, BoxTissue, Beer, Ankh,
-        PaintBrush, ArrowsAltH, MehBlank, EnvelopeSquare, KissBeam, ChargingStation, GrinBeamSweat,
-        Umbrella, User, Blind, ArrowCircleRight, GrinHearts, GripHorizontal, MugHot, DotCircle,
-        Cannabis, Tape, HeadSideMask, LaughBeam, RadiationAlt, HeadSideVirus, SignLanguage,
-        AngleDoubleLeft, FileVideo, Circle, ClosedCaptioning, ChessKnight, Hippo, VolumeUp,
-        PumpMedical, DraftingCompass, Home, CommentsDollar, Copyright, DoorClosed, RedoAlt,
-        LaptopHouse, DiceThree, Music, SortNumericUp, AddressCard, TintSlash, UserInjured,
-        MoneyCheckAlt, XRay, Tasks, DiceD6, Igloo, Recycle, ShoppingBag, Eject, BookMedical,
-        Archway, BatteryQuarter, DrawPolygon, SmileBeam, Heading, Strikethrough, FileExport,
-        AudioDescription, PenSquare, ThumbsUp, GrinAlt, GripVertical, SearchMinus, FileInvoice,
-        BroadcastTower, FileExcel, MarsStrokeH, VestPatches, CloudSun, HandPointUp, WaveSquare,
-        LowVision, Couch, Church, Crop, Restroom, Cookie, Tag, Skiing, ToggleOff, HotTub, Briefcase,
-        HandshakeSlash, CloudMoon, HospitalUser, Dragon, CreditCard, ICursor, Splotch, Shower,
-        SkullCrossbones, SortNumericDown, Headset, Carrot, Map, Inbox, SimCard, TextHeight,
-        Comments, Microphone, Database, Swimmer, ChevronCircleUp, CameraRetro, BorderAll, HandsWash,
-        CommentDollar, GripLines, UserAltSlash, File, LongArrowAltLeft, Signal, HouseDamage, Brain,
-        Male, MortarPestle, Helicopter, Paw, Chess, PhoneVolume, UtensilSpoon, Voicemail, TabletAlt,
-        PrescriptionBottle, AddressBook, Road, NetworkWired, PlusSquare, SortNumericUpAlt, Terminal,
-        IdBadge, RssSquare, TransgenderAlt, TruckMoving, DumpsterFire, PhoneAlt, EuroSign, City,
-        PhotoVideo, SortAlphaUpAlt, FighterJet, LessThanEqual, Laugh, DollarSign,
-        ChevronCircleRight, FillDrip, KiwiBird, SuitcaseRolling, Keyboard, SolarPanel, Bath,
-        TruckPickup, PlaneSlash, Question, Lock, MapMarked, SignInAlt, ChessPawn, ChessBoard, Fire,
-        UserMinus, Ban, Portrait, MoneyBill, DigitalTachograph, ToriiGate, UsersCog,
-        ThermometerEmpty, WonSign, Divide, SortNumericDownAlt, HandHoldingWater, IdCard,
-        AngleDoubleUp, StopCircle, FileImage, Bacterium, BowlingBall, Pen, PaintRoller, Plane,
-        Republican, ChartArea, Clipboard, QuoteLeft, Mars, QuestionCircle, GlassWhiskey, UserTag,
-        ArrowLeft, HandPeace, Link, Certificate, MapMarker, UserTimes, Key, Gifts, FileCode,
-        FileInvoiceDollar, Meh, Medkit, DollyFlatbed, SortUp, Store, PencilRuler, FileDownload,
-        Hamsa, HospitalAlt, CaretLeft, Brush, StoreAltSlash, At, Percentage, FastBackward,
-        UserFriends, Cubes, HardHat, Ship, Qrcode, PhoneSquareAlt, CaretRight, Ambulance,
-        HandLizard, CaretSquareLeft, Skating, Stopwatch, CloudRain, BabyCarriage, HouseUser,
-        CalendarDay, Compress, GlassCheers, MailBulk, FileImport, Envelope, Utensils, ExchangeAlt,
-        Archive, Magnet, PollH, School, AirFreshener, Diagnoses, PlaneArrival, Desktop, Download,
-        UnlockAlt, CarSide, Expand, Khanda, AssistiveListeningSystems, Teeth, ListOl, AngleRight,
-        MinusSquare, TicketAlt, Vihara, SortAlphaDownAlt, BreadSlice, Disease, HandPointLeft,
-        Server, Bolt, Tv, SortAlphaUp, Sms, SortAmountUpAlt, LungsVirus, Democrat, HollyBerry,
-        MoneyBillWave, UserNurse, Cocktail, Shapes, Mosque, Satellite, RecordVinyl,
-        MicrophoneAltSlash, Indent, Ad, VolumeOff, Dna, Slash, ShippingFast, PooStorm, Taxi, Book,
-        Hotdog, Hotel, ArrowUp, MapSigns, WineGlassAlt, Skull, Paragraph, Plug, Train, EyeDropper,
-        Dizzy, Wallet, UndoAlt, Bell, Coffee, SpaceShuttle, ChevronRight, CaretSquareUp, Code,
-        Dolly, BorderNone, Thermometer, Spider, Flag, Podcast, ToiletPaperSlash, MobileAlt, ListAlt,
-        RemoveFormat, ChevronLeft, UserCog, WindowMaximize, AlignLeft, Stop, Newspaper, Snowflake,
-        HSquare, Cube, Bomb, UserNinja, PhoneSlash, PenAlt, GripLinesVertical, SwimmingPool,
-        HandHoldingHeart, ArrowRight, Ruler, StepBackward, Frown, CalendarCheck, UserClock, Outdent,
-        Fax, Biohazard, SprayCan, ArrowCircleLeft, Smog, Bold, HockeyPuck, PizzaSlice, Tablets,
-        Trophy, Equals, CartArrowDown, Plus, SortAmountUp, PersonBooth, Check, Seedling, RupeeSign,
-        DiceOne, Tenge, SearchLocation, Trademark, PenNib, Kaaba, Smoking, LocationArrow, Hospital,
-        DiceFour, HandHoldingMedical, Flask, Headphones, PeopleCarry, RubleSign, Rss, Horse,
-        FastForward, LockOpen, HandRock, Landmark, Wifi, Venus, Info, HeadSideCoughSlash, AngleLeft,
-        StickyNote, HourglassStart, ShareSquare, CommentSlash, Bullhorn, PlaneDeparture, SortDown,
-        ShoppingCart, Dog, ChevronCircleLeft, SortAmountDown, Fan, Palette, YinYang, MehRollingEyes,
-        ExternalLinkAlt, CarBattery, Directions, Om, GlassMartini, HandPointDown, FileContract,
-        CloudDownloadAlt, ChessRook, BalanceScaleLeft, Biking, WineGlass, VectorSquare, HandSpock,
-        GlassMartiniAlt, Rainbow, ProjectDiagram, KissWinkHeart, CheckCircle, Copy, Tram, Fish,
-        ExclamationTriangle, FileMedical, Signature, ToiletPaper, Burn, Glasses, Coins, Sink,
-        Monument, ExternalLinkSquareAlt, TruckLoading, StepForward, DiceD20, CodeBranch,
-        ArrowAltCircleRight, CommentAlt, CartPlus, VolumeDown, InfoCircle, Tint, ParachuteBox,
-        Caravan, Industry, SmileWink, Child, Marker, HatCowboy, Image, BasketballBall, Lightbulb,
-        HandPointRight, FunnelDollar, CarAlt, Save, Smile, CaretSquareDown, TemperatureHigh,
-        FootballBall, Images, Tshirt, Pager, MoneyBillWaveAlt, Donate, StoreAlt, ObjectUngroup,
-        ChevronUp, HatWizard, LaptopCode, GrinTongueSquint, MapMarkerAlt, ChalkboardTeacher,
-        FilePdf, FileArchive, Paperclip, CircleNotch, StarOfDavid, ArrowsAlt, CommentDots,
-        LongArrowAltUp, CaretDown, Trailer, Syringe, Award, BusinessTime, Box, Superscript, Hiking,
-        Mask, Peace, Percent, PrayingHands, VoteYea, Square, Crown, Broom, Stethoscope, ChartLine,
-        ArrowDown, Play, Backward, Cogs, TemperatureLow, Dungeon, TruckMonster, Table, Barcode,
-        TrafficLight, Thumbtack, Scroll, LuggageCart, FilePrescription, SquareRootAlt, Chalkboard,
-        Radiation, BandAid, HandScissors, BalanceScaleRight, Th, ExpandAlt, Baby, RulerVertical,
-        ThermometerThreeQuarters, Camera, Magic, Redo, HatCowboySide, Otter, Truck,
-        ChevronCircleDown, CropAlt, RulerHorizontal, HeadSideCough, AngleDown, PumpSoap,
-        ArrowCircleUp, Blender, DiceFive, FlagCheckered, VirusSlash, TeethOpen, PoundSign,
-        ThermometerHalf, Bible, SadCry, NotEqual, JournalWhills, Egg, BookDead, Bullseye, GlobeAsia,
-        SatelliteDish, TrashAlt, Bus, Mercury, Infinity, Bacteria, Gem, GrinTongue, Feather,
-        FrownOpen, BoxOpen, Trash, Transgender, Toilet, Leaf, CompressAlt, Paste, Gopuram,
-        AlignRight, GolfBall, Memory, HandshakeAltSlash, ArrowCircleDown, GrinTears, ShieldVirus,
-        SadTear, HandSparkles, Running, Hashtag, Guitar, Bong, Star, ExclamationCircle, HandPaper,
-        BookReader, Sun, Wrench, ThLarge, SquareFull, LiraSign, LaughWink, Edit, Soap, Bacon,
-        ToggleOn, Unlink, Bone, PepperHot, BatteryHalf, PlusCircle, Crutch, VrCardboard, Anchor,
-        Jedi, Hammer, CloudSunRain, RulerCombined, SearchDollar, Highlighter, MapPin, ThList,
-        Wheelchair, FileWord, SortAlphaDown, UserCircle, CompressArrowsAlt, Lemon, EyeSlash, Bug,
-        ChevronDown, PaperPlane, FirstAid, MicrophoneAlt, ListUl, UserGraduate, Spinner, IdCardAlt,
-        StarHalfAlt, FileCsv, GasPump, ShoePrints, Unlock, DiceSix, UserAlt, Stopwatch20, Adjust,
-        Compass, Meteor, NotesMedical, EnvelopeOpenText, Faucet, HeadphonesAlt, CompactDisc,
-        DiceTwo, Bicycle, Menorah, Warehouse, Joint, GrinWink, Snowman, PowerOff, BorderStyle,
-        UsersSlash, Vial, FolderMinus, CommentMedical, BatteryEmpty, Language, UniversalAccess,
-        YenSign, BezierCurve, Tired, Vest, CalendarWeek, WeightHanging, Sitemap, Deaf, Crosshairs,
-        Poop, CashRegister, Clock, AngleDoubleDown, StoreSlash, Retweet, Phone, FileMedicalAlt,
-        AppleAlt, CloudMoonRain, ThumbsDown, Lungs, SyncAlt, Dumbbell, Sync, TableTennis,
-        CloudMeatball, BlenderPhone, Tractor, PlaceOfWorship, OilCan, UserCheck, Eye, Mobile,
-        MarsStroke, VenusDouble, CloudUploadAlt, FireExtinguisher, GraduationCap, DrumSteelpan,
-        BaseballBall, SpellCheck, Dove, Bahai, Gift, Car, GrinStars, Registered, UserPlus,
-        ArrowAltCircleLeft, IceCream, FireAlt, BookOpen, ChartBar, Atlas, WineBottle, Share, Tags,
-        Vials, SignOutAlt, AlignCenter, UserSlash, HospitalSymbol, Grin, Microscope, Subway, Drum,
-        Sort, ChartPie, Procedures, MinusCircle, FolderOpen, EllipsisV, Ethernet, Undo, Video,
-        LessThan, Robot, BusAlt, Tree, Pills, SdCard, TimesCircle, ExpandArrowsAlt, Filter,
-        CaretSquareRight, Allergies, Water, ArrowsAltV, ClipboardCheck, Italic, HeartBroken,
-        Handshake, Medal, Comment, PiggyBank, Calendar, PeopleArrows, GlobeEurope, AlignJustify,
-        VenusMars, Globe, LongArrowAltRight, LifeRing, Cross, Blog, SortAmountDownAlt, TrashRestore,
-        University, Route, BirthdayCake, HandsHelping, ReplyAll, Microchip, DrumstickBite, Frog,
-        Laptop, UserTie, Heartbeat, TachometerAlt, Mountain, CalendarPlus, MapMarkedAlt,
-        ConciergeBell, Tooth, CheckDouble, MarsDouble, Cut, Cloud, DoorOpen, FontAwesomeLogoFull,
-        Tty, ArrowAltCircleUp, Futbol, Snowboarding, Cheese, Dice, Bars, EnvelopeOpen, Chair,
-        WindowClose, Suitcase, Motorcycle, Upload, ClipboardList, Pause, FeatherAlt, Forward, Icons,
-        CaretUp, Bookmark, Braille, AmericanSignLanguageInterpreting, ClinicMedical, GlobeAfrica,
-        Rocket, Icicles, BatteryFull, StarOfLife, Asterisk, UserMd, FlagUsa, StarAndCrescent,
-        Sleigh, Tablet, SmokingBan, MarsStrokeV, CalendarAlt, Kiss, LaughSquint, Random, HorseHead,
-        FileSignature, LongArrowAltDown, LevelDownAlt, Atom, Cat, HourglassHalf, Ring,
-        HandHoldingUsd, Poll, Parking, FileUpload, Snowplow, ShareAltSquare, LayerGroup,
-        BriefcaseMedical, Backspace, Hdd, BatteryThreeQuarters, Spa, Calculator, Mouse, PhoneSquare,
-        Screwdriver, Female, BalanceScale, AngleUp, Dharmachakra, CalendarMinus, Building,
-        PrescriptionBottleAlt, UserShield, Binoculars, Angry, Genderless, PuzzlePiece, Quidditch,
-        History, Gavel, Torah, Folder, SlidersH, Users, Hands, Fingerprint, ThermometerFull, Fill,
-        Hanukiah, Synagogue, VideoSlash, Flushed, HandHolding, UmbrellaBeach, FileAlt, Gamepad,
-        Walking, GreaterThanEqual, Minus, BellSlash, Times, Film, Print, Moon, Stroopwafel, Pray,
-        Exclamation, Weight, ChessBishop, TheaterMasks, ShoppingBasket, UserLock, Capsules,
-        Surprise, VolleyballBall, StarHalf, ThermometerQuarter, ChessQueen, CalendarTimes, Ribbon,
-        Swatchbook, HourglassEnd, MicrophoneSlash, Stamp, PencilAlt, ChessKing, GrinSquintTears,
-        Pastafarianism, Heart, MoneyBillAlt, Font)
+    __AllIcons= listOf(Ad, AddressBook, AddressCard, Adjust, AirFreshener, AlignCenter,
+        AlignJustify, AlignLeft, AlignRight, Allergies, Ambulance, AmericanSignLanguageInterpreting,
+        Anchor, AngleDoubleDown, AngleDoubleLeft, AngleDoubleRight, AngleDoubleUp, AngleDown,
+        AngleLeft, AngleRight, AngleUp, Angry, Ankh, AppleAlt, Archive, Archway, ArrowAltCircleDown,
+        ArrowAltCircleLeft, ArrowAltCircleRight, ArrowAltCircleUp, ArrowCircleDown, ArrowCircleLeft,
+        ArrowCircleRight, ArrowCircleUp, ArrowDown, ArrowLeft, ArrowRight, ArrowUp, ArrowsAlt,
+        ArrowsAltH, ArrowsAltV, AssistiveListeningSystems, Asterisk, At, Atlas, Atom,
+        AudioDescription, Award, Baby, BabyCarriage, Backspace, Backward, Bacon, Bacteria,
+        Bacterium, Bahai, BalanceScale, BalanceScaleLeft, BalanceScaleRight, Ban, BandAid, Barcode,
+        Bars, BaseballBall, BasketballBall, Bath, BatteryEmpty, BatteryFull, BatteryHalf,
+        BatteryQuarter, BatteryThreeQuarters, Bed, Beer, Bell, BellSlash, BezierCurve, Bible,
+        Bicycle, Biking, Binoculars, Biohazard, BirthdayCake, Blender, BlenderPhone, Blind, Blog,
+        Bold, Bolt, Bomb, Bone, Bong, Book, BookDead, BookMedical, BookOpen, BookReader, Bookmark,
+        BorderAll, BorderNone, BorderStyle, BowlingBall, Box, BoxOpen, BoxTissue, Boxes, Braille,
+        Brain, BreadSlice, Briefcase, BriefcaseMedical, BroadcastTower, Broom, Brush, Bug, Building,
+        Bullhorn, Bullseye, Burn, Bus, BusAlt, BusinessTime, Calculator, Calendar, CalendarAlt,
+        CalendarCheck, CalendarDay, CalendarMinus, CalendarPlus, CalendarTimes, CalendarWeek,
+        Camera, CameraRetro, Campground, CandyCane, Cannabis, Capsules, Car, CarAlt, CarBattery,
+        CarCrash, CarSide, Caravan, CaretDown, CaretLeft, CaretRight, CaretSquareDown,
+        CaretSquareLeft, CaretSquareRight, CaretSquareUp, CaretUp, Carrot, CartArrowDown, CartPlus,
+        CashRegister, Cat, Certificate, Chair, Chalkboard, ChalkboardTeacher, ChargingStation,
+        ChartArea, ChartBar, ChartLine, ChartPie, Check, CheckCircle, CheckDouble, CheckSquare,
+        Cheese, Chess, ChessBishop, ChessBoard, ChessKing, ChessKnight, ChessPawn, ChessQueen,
+        ChessRook, ChevronCircleDown, ChevronCircleLeft, ChevronCircleRight, ChevronCircleUp,
+        ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Child, Church, Circle, CircleNotch, City,
+        ClinicMedical, Clipboard, ClipboardCheck, ClipboardList, Clock, Clone, ClosedCaptioning,
+        Cloud, CloudDownloadAlt, CloudMeatball, CloudMoon, CloudMoonRain, CloudRain,
+        CloudShowersHeavy, CloudSun, CloudSunRain, CloudUploadAlt, Cocktail, Code, CodeBranch,
+        Coffee, Cog, Cogs, Coins, Columns, Comment, CommentAlt, CommentDollar, CommentDots,
+        CommentMedical, CommentSlash, Comments, CommentsDollar, CompactDisc, Compass, Compress,
+        CompressAlt, CompressArrowsAlt, ConciergeBell, Cookie, CookieBite, Copy, Copyright, Couch,
+        CreditCard, Crop, CropAlt, Cross, Crosshairs, Crow, Crown, Crutch, Cube, Cubes, Cut,
+        Database, Deaf, Democrat, Desktop, Dharmachakra, Diagnoses, Dice, DiceD20, DiceD6, DiceFive,
+        DiceFour, DiceOne, DiceSix, DiceThree, DiceTwo, DigitalTachograph, Directions, Disease,
+        Divide, Dizzy, Dna, Dog, DollarSign, Dolly, DollyFlatbed, Donate, DoorClosed, DoorOpen,
+        DotCircle, Dove, Download, DraftingCompass, Dragon, DrawPolygon, Drum, DrumSteelpan,
+        DrumstickBite, Dumbbell, Dumpster, DumpsterFire, Dungeon, Edit, Egg, Eject, EllipsisH,
+        EllipsisV, Envelope, EnvelopeOpen, EnvelopeOpenText, EnvelopeSquare, Equals, Eraser,
+        Ethernet, EuroSign, ExchangeAlt, Exclamation, ExclamationCircle, ExclamationTriangle,
+        Expand, ExpandAlt, ExpandArrowsAlt, ExternalLinkAlt, ExternalLinkSquareAlt, Eye, EyeDropper,
+        EyeSlash, Fan, FastBackward, FastForward, Faucet, Fax, Feather, FeatherAlt, Female,
+        FighterJet, File, FileAlt, FileArchive, FileAudio, FileCode, FileContract, FileCsv,
+        FileDownload, FileExcel, FileExport, FileImage, FileImport, FileInvoice, FileInvoiceDollar,
+        FileMedical, FileMedicalAlt, FilePdf, FilePowerpoint, FilePrescription, FileSignature,
+        FileUpload, FileVideo, FileWord, Fill, FillDrip, Film, Filter, Fingerprint, Fire, FireAlt,
+        FireExtinguisher, FirstAid, Fish, FistRaised, Flag, FlagCheckered, FlagUsa, Flask, Flushed,
+        Folder, FolderMinus, FolderOpen, FolderPlus, Font, FontAwesomeLogoFull, FootballBall,
+        Forward, Frog, Frown, FrownOpen, FunnelDollar, Futbol, Gamepad, GasPump, Gavel, Gem,
+        Genderless, Ghost, Gift, Gifts, GlassCheers, GlassMartini, GlassMartiniAlt, GlassWhiskey,
+        Glasses, Globe, GlobeAfrica, GlobeAmericas, GlobeAsia, GlobeEurope, GolfBall, Gopuram,
+        GraduationCap, GreaterThan, GreaterThanEqual, Grimace, Grin, GrinAlt, GrinBeam,
+        GrinBeamSweat, GrinHearts, GrinSquint, GrinSquintTears, GrinStars, GrinTears, GrinTongue,
+        GrinTongueSquint, GrinTongueWink, GrinWink, GripHorizontal, GripLines, GripLinesVertical,
+        GripVertical, Guitar, HSquare, Hamburger, Hammer, Hamsa, HandHolding, HandHoldingHeart,
+        HandHoldingMedical, HandHoldingUsd, HandHoldingWater, HandLizard, HandMiddleFinger,
+        HandPaper, HandPeace, HandPointDown, HandPointLeft, HandPointRight, HandPointUp,
+        HandPointer, HandRock, HandScissors, HandSparkles, HandSpock, Hands, HandsHelping,
+        HandsWash, Handshake, HandshakeAltSlash, HandshakeSlash, Hanukiah, HardHat, Hashtag,
+        HatCowboy, HatCowboySide, HatWizard, Hdd, HeadSideCough, HeadSideCoughSlash, HeadSideMask,
+        HeadSideVirus, Heading, Headphones, HeadphonesAlt, Headset, Heart, HeartBroken, Heartbeat,
+        Helicopter, Highlighter, Hiking, Hippo, History, HockeyPuck, HollyBerry, Home, Horse,
+        HorseHead, Hospital, HospitalAlt, HospitalSymbol, HospitalUser, HotTub, Hotdog, Hotel,
+        Hourglass, HourglassEnd, HourglassHalf, HourglassStart, HouseDamage, HouseUser, Hryvnia,
+        ICursor, IceCream, Icicles, Icons, IdBadge, IdCard, IdCardAlt, Igloo, Image, Images, Inbox,
+        Indent, Industry, Infinity, Info, InfoCircle, Italic, Jedi, Joint, JournalWhills, Kaaba,
+        Key, Keyboard, Khanda, Kiss, KissBeam, KissWinkHeart, KiwiBird, Landmark, Language, Laptop,
+        LaptopCode, LaptopHouse, LaptopMedical, Laugh, LaughBeam, LaughSquint, LaughWink,
+        LayerGroup, Leaf, Lemon, LessThan, LessThanEqual, LevelDownAlt, LevelUpAlt, LifeRing,
+        Lightbulb, Link, LiraSign, List, ListAlt, ListOl, ListUl, LocationArrow, Lock, LockOpen,
+        LongArrowAltDown, LongArrowAltLeft, LongArrowAltRight, LongArrowAltUp, LowVision,
+        LuggageCart, Lungs, LungsVirus, Magic, Magnet, MailBulk, Male, Map, MapMarked, MapMarkedAlt,
+        MapMarker, MapMarkerAlt, MapPin, MapSigns, Marker, Mars, MarsDouble, MarsStroke,
+        MarsStrokeH, MarsStrokeV, Mask, Medal, Medkit, Meh, MehBlank, MehRollingEyes, Memory,
+        Menorah, Mercury, Meteor, Microchip, Microphone, MicrophoneAlt, MicrophoneAltSlash,
+        MicrophoneSlash, Microscope, Minus, MinusCircle, MinusSquare, Mitten, Mobile, MobileAlt,
+        MoneyBill, MoneyBillAlt, MoneyBillWave, MoneyBillWaveAlt, MoneyCheck, MoneyCheckAlt,
+        Monument, Moon, MortarPestle, Mosque, Motorcycle, Mountain, Mouse, MousePointer, MugHot,
+        Music, NetworkWired, Neuter, Newspaper, NotEqual, NotesMedical, ObjectGroup, ObjectUngroup,
+        OilCan, Om, Otter, Outdent, Pager, PaintBrush, PaintRoller, Palette, Pallet, PaperPlane,
+        Paperclip, ParachuteBox, Paragraph, Parking, Passport, Pastafarianism, Paste, Pause,
+        PauseCircle, Paw, Peace, Pen, PenAlt, PenFancy, PenNib, PenSquare, PencilAlt, PencilRuler,
+        PeopleArrows, PeopleCarry, PepperHot, Percent, Percentage, PersonBooth, Phone, PhoneAlt,
+        PhoneSlash, PhoneSquare, PhoneSquareAlt, PhoneVolume, PhotoVideo, PiggyBank, Pills,
+        PizzaSlice, PlaceOfWorship, Plane, PlaneArrival, PlaneDeparture, PlaneSlash, Play,
+        PlayCircle, Plug, Plus, PlusCircle, PlusSquare, Podcast, Poll, PollH, Poo, PooStorm, Poop,
+        Portrait, PoundSign, PowerOff, Pray, PrayingHands, Prescription, PrescriptionBottle,
+        PrescriptionBottleAlt, Print, Procedures, ProjectDiagram, PumpMedical, PumpSoap,
+        PuzzlePiece, Qrcode, Question, QuestionCircle, Quidditch, QuoteLeft, QuoteRight, Quran,
+        Radiation, RadiationAlt, Rainbow, Random, Receipt, RecordVinyl, Recycle, Redo, RedoAlt,
+        Registered, RemoveFormat, Reply, ReplyAll, Republican, Restroom, Retweet, Ribbon, Ring,
+        Road, Robot, Rocket, Route, Rss, RssSquare, RubleSign, Ruler, RulerCombined,
+        RulerHorizontal, RulerVertical, Running, RupeeSign, SadCry, SadTear, Satellite,
+        SatelliteDish, Save, School, Screwdriver, Scroll, SdCard, Search, SearchDollar,
+        SearchLocation, SearchMinus, SearchPlus, Seedling, Server, Shapes, Share, ShareAlt,
+        ShareAltSquare, ShareSquare, ShekelSign, ShieldAlt, ShieldVirus, Ship, ShippingFast,
+        ShoePrints, ShoppingBag, ShoppingBasket, ShoppingCart, Shower, ShuttleVan, Sign, SignInAlt,
+        SignLanguage, SignOutAlt, Signal, Signature, SimCard, Sink, Sitemap, Skating, Skiing,
+        SkiingNordic, Skull, SkullCrossbones, Slash, Sleigh, SlidersH, Smile, SmileBeam, SmileWink,
+        Smog, Smoking, SmokingBan, Sms, Snowboarding, Snowflake, Snowman, Snowplow, Soap, Socks,
+        SolarPanel, Sort, SortAlphaDown, SortAlphaDownAlt, SortAlphaUp, SortAlphaUpAlt,
+        SortAmountDown, SortAmountDownAlt, SortAmountUp, SortAmountUpAlt, SortDown, SortNumericDown,
+        SortNumericDownAlt, SortNumericUp, SortNumericUpAlt, SortUp, Spa, SpaceShuttle, SpellCheck,
+        Spider, Spinner, Splotch, SprayCan, Square, SquareFull, SquareRootAlt, Stamp, Star,
+        StarAndCrescent, StarHalf, StarHalfAlt, StarOfDavid, StarOfLife, StepBackward, StepForward,
+        Stethoscope, StickyNote, Stop, StopCircle, Stopwatch, Stopwatch20, Store, StoreAlt,
+        StoreAltSlash, StoreSlash, Stream, StreetView, Strikethrough, Stroopwafel, Subscript,
+        Subway, Suitcase, SuitcaseRolling, Sun, Superscript, Surprise, Swatchbook, Swimmer,
+        SwimmingPool, Synagogue, Sync, SyncAlt, Syringe, Table, TableTennis, Tablet, TabletAlt,
+        Tablets, TachometerAlt, Tag, Tags, Tape, Tasks, Taxi, Teeth, TeethOpen, TemperatureHigh,
+        TemperatureLow, Tenge, Terminal, TextHeight, TextWidth, Th, ThLarge, ThList, TheaterMasks,
+        Thermometer, ThermometerEmpty, ThermometerFull, ThermometerHalf, ThermometerQuarter,
+        ThermometerThreeQuarters, ThumbsDown, ThumbsUp, Thumbtack, TicketAlt, Times, TimesCircle,
+        Tint, TintSlash, Tired, ToggleOff, ToggleOn, Toilet, ToiletPaper, ToiletPaperSlash, Toolbox,
+        Tools, Tooth, Torah, ToriiGate, Tractor, Trademark, TrafficLight, Trailer, Train, Tram,
+        Transgender, TransgenderAlt, Trash, TrashAlt, TrashRestore, TrashRestoreAlt, Tree, Trophy,
+        Truck, TruckLoading, TruckMonster, TruckMoving, TruckPickup, Tshirt, Tty, Tv, Umbrella,
+        UmbrellaBeach, Underline, Undo, UndoAlt, UniversalAccess, University, Unlink, Unlock,
+        UnlockAlt, Upload, User, UserAlt, UserAltSlash, UserAstronaut, UserCheck, UserCircle,
+        UserClock, UserCog, UserEdit, UserFriends, UserGraduate, UserInjured, UserLock, UserMd,
+        UserMinus, UserNinja, UserNurse, UserPlus, UserSecret, UserShield, UserSlash, UserTag,
+        UserTie, UserTimes, Users, UsersCog, UsersSlash, UtensilSpoon, Utensils, VectorSquare,
+        Venus, VenusDouble, VenusMars, Vest, VestPatches, Vial, Vials, Video, VideoSlash, Vihara,
+        Virus, VirusSlash, Viruses, Voicemail, VolleyballBall, VolumeDown, VolumeMute, VolumeOff,
+        VolumeUp, VoteYea, VrCardboard, Walking, Wallet, Warehouse, Water, WaveSquare, Weight,
+        WeightHanging, Wheelchair, Wifi, Wind, WindowClose, WindowMaximize, WindowMinimize,
+        WindowRestore, WineBottle, WineGlass, WineGlassAlt, WonSign, Wrench, XRay, YenSign, YinYang)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val SolidGroup.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("ad" to Ad, "addressbook" to AddressBook, "addresscard" to AddressCard,
+        "adjust" to Adjust, "airfreshener" to AirFreshener, "aligncenter" to AlignCenter,
+        "alignjustify" to AlignJustify, "alignleft" to AlignLeft, "alignright" to AlignRight,
+        "allergies" to Allergies, "ambulance" to Ambulance, "americansignlanguageinterpreting" to
+        AmericanSignLanguageInterpreting, "anchor" to Anchor, "angledoubledown" to AngleDoubleDown,
+        "angledoubleleft" to AngleDoubleLeft, "angledoubleright" to AngleDoubleRight,
+        "angledoubleup" to AngleDoubleUp, "angledown" to AngleDown, "angleleft" to AngleLeft,
+        "angleright" to AngleRight, "angleup" to AngleUp, "angry" to Angry, "ankh" to Ankh,
+        "applealt" to AppleAlt, "archive" to Archive, "archway" to Archway, "arrowaltcircledown" to
+        ArrowAltCircleDown, "arrowaltcircleleft" to ArrowAltCircleLeft, "arrowaltcircleright" to
+        ArrowAltCircleRight, "arrowaltcircleup" to ArrowAltCircleUp, "arrowcircledown" to
+        ArrowCircleDown, "arrowcircleleft" to ArrowCircleLeft, "arrowcircleright" to
+        ArrowCircleRight, "arrowcircleup" to ArrowCircleUp, "arrowdown" to ArrowDown, "arrowleft" to
+        ArrowLeft, "arrowright" to ArrowRight, "arrowup" to ArrowUp, "arrowsalt" to ArrowsAlt,
+        "arrowsalth" to ArrowsAltH, "arrowsaltv" to ArrowsAltV, "assistivelisteningsystems" to
+        AssistiveListeningSystems, "asterisk" to Asterisk, "at" to At, "atlas" to Atlas, "atom" to
+        Atom, "audiodescription" to AudioDescription, "award" to Award, "baby" to Baby,
+        "babycarriage" to BabyCarriage, "backspace" to Backspace, "backward" to Backward, "bacon" to
+        Bacon, "bacteria" to Bacteria, "bacterium" to Bacterium, "bahai" to Bahai, "balancescale" to
+        BalanceScale, "balancescaleleft" to BalanceScaleLeft, "balancescaleright" to
+        BalanceScaleRight, "ban" to Ban, "bandaid" to BandAid, "barcode" to Barcode, "bars" to Bars,
+        "baseballball" to BaseballBall, "basketballball" to BasketballBall, "bath" to Bath,
+        "batteryempty" to BatteryEmpty, "batteryfull" to BatteryFull, "batteryhalf" to BatteryHalf,
+        "batteryquarter" to BatteryQuarter, "batterythreequarters" to BatteryThreeQuarters, "bed" to
+        Bed, "beer" to Beer, "bell" to Bell, "bellslash" to BellSlash, "beziercurve" to BezierCurve,
+        "bible" to Bible, "bicycle" to Bicycle, "biking" to Biking, "binoculars" to Binoculars,
+        "biohazard" to Biohazard, "birthdaycake" to BirthdayCake, "blender" to Blender,
+        "blenderphone" to BlenderPhone, "blind" to Blind, "blog" to Blog, "bold" to Bold, "bolt" to
+        Bolt, "bomb" to Bomb, "bone" to Bone, "bong" to Bong, "book" to Book, "bookdead" to
+        BookDead, "bookmedical" to BookMedical, "bookopen" to BookOpen, "bookreader" to BookReader,
+        "bookmark" to Bookmark, "borderall" to BorderAll, "bordernone" to BorderNone, "borderstyle"
+        to BorderStyle, "bowlingball" to BowlingBall, "box" to Box, "boxopen" to BoxOpen,
+        "boxtissue" to BoxTissue, "boxes" to Boxes, "braille" to Braille, "brain" to Brain,
+        "breadslice" to BreadSlice, "briefcase" to Briefcase, "briefcasemedical" to
+        BriefcaseMedical, "broadcasttower" to BroadcastTower, "broom" to Broom, "brush" to Brush,
+        "bug" to Bug, "building" to Building, "bullhorn" to Bullhorn, "bullseye" to Bullseye, "burn"
+        to Burn, "bus" to Bus, "busalt" to BusAlt, "businesstime" to BusinessTime, "calculator" to
+        Calculator, "calendar" to Calendar, "calendaralt" to CalendarAlt, "calendarcheck" to
+        CalendarCheck, "calendarday" to CalendarDay, "calendarminus" to CalendarMinus,
+        "calendarplus" to CalendarPlus, "calendartimes" to CalendarTimes, "calendarweek" to
+        CalendarWeek, "camera" to Camera, "cameraretro" to CameraRetro, "campground" to Campground,
+        "candycane" to CandyCane, "cannabis" to Cannabis, "capsules" to Capsules, "car" to Car,
+        "caralt" to CarAlt, "carbattery" to CarBattery, "carcrash" to CarCrash, "carside" to
+        CarSide, "caravan" to Caravan, "caretdown" to CaretDown, "caretleft" to CaretLeft,
+        "caretright" to CaretRight, "caretsquaredown" to CaretSquareDown, "caretsquareleft" to
+        CaretSquareLeft, "caretsquareright" to CaretSquareRight, "caretsquareup" to CaretSquareUp,
+        "caretup" to CaretUp, "carrot" to Carrot, "cartarrowdown" to CartArrowDown, "cartplus" to
+        CartPlus, "cashregister" to CashRegister, "cat" to Cat, "certificate" to Certificate,
+        "chair" to Chair, "chalkboard" to Chalkboard, "chalkboardteacher" to ChalkboardTeacher,
+        "chargingstation" to ChargingStation, "chartarea" to ChartArea, "chartbar" to ChartBar,
+        "chartline" to ChartLine, "chartpie" to ChartPie, "check" to Check, "checkcircle" to
+        CheckCircle, "checkdouble" to CheckDouble, "checksquare" to CheckSquare, "cheese" to Cheese,
+        "chess" to Chess, "chessbishop" to ChessBishop, "chessboard" to ChessBoard, "chessking" to
+        ChessKing, "chessknight" to ChessKnight, "chesspawn" to ChessPawn, "chessqueen" to
+        ChessQueen, "chessrook" to ChessRook, "chevroncircledown" to ChevronCircleDown,
+        "chevroncircleleft" to ChevronCircleLeft, "chevroncircleright" to ChevronCircleRight,
+        "chevroncircleup" to ChevronCircleUp, "chevrondown" to ChevronDown, "chevronleft" to
+        ChevronLeft, "chevronright" to ChevronRight, "chevronup" to ChevronUp, "child" to Child,
+        "church" to Church, "circle" to Circle, "circlenotch" to CircleNotch, "city" to City,
+        "clinicmedical" to ClinicMedical, "clipboard" to Clipboard, "clipboardcheck" to
+        ClipboardCheck, "clipboardlist" to ClipboardList, "clock" to Clock, "clone" to Clone,
+        "closedcaptioning" to ClosedCaptioning, "cloud" to Cloud, "clouddownloadalt" to
+        CloudDownloadAlt, "cloudmeatball" to CloudMeatball, "cloudmoon" to CloudMoon,
+        "cloudmoonrain" to CloudMoonRain, "cloudrain" to CloudRain, "cloudshowersheavy" to
+        CloudShowersHeavy, "cloudsun" to CloudSun, "cloudsunrain" to CloudSunRain, "clouduploadalt"
+        to CloudUploadAlt, "cocktail" to Cocktail, "code" to Code, "codebranch" to CodeBranch,
+        "coffee" to Coffee, "cog" to Cog, "cogs" to Cogs, "coins" to Coins, "columns" to Columns,
+        "comment" to Comment, "commentalt" to CommentAlt, "commentdollar" to CommentDollar,
+        "commentdots" to CommentDots, "commentmedical" to CommentMedical, "commentslash" to
+        CommentSlash, "comments" to Comments, "commentsdollar" to CommentsDollar, "compactdisc" to
+        CompactDisc, "compass" to Compass, "compress" to Compress, "compressalt" to CompressAlt,
+        "compressarrowsalt" to CompressArrowsAlt, "conciergebell" to ConciergeBell, "cookie" to
+        Cookie, "cookiebite" to CookieBite, "copy" to Copy, "copyright" to Copyright, "couch" to
+        Couch, "creditcard" to CreditCard, "crop" to Crop, "cropalt" to CropAlt, "cross" to Cross,
+        "crosshairs" to Crosshairs, "crow" to Crow, "crown" to Crown, "crutch" to Crutch, "cube" to
+        Cube, "cubes" to Cubes, "cut" to Cut, "database" to Database, "deaf" to Deaf, "democrat" to
+        Democrat, "desktop" to Desktop, "dharmachakra" to Dharmachakra, "diagnoses" to Diagnoses,
+        "dice" to Dice, "diced20" to DiceD20, "diced6" to DiceD6, "dicefive" to DiceFive, "dicefour"
+        to DiceFour, "diceone" to DiceOne, "dicesix" to DiceSix, "dicethree" to DiceThree, "dicetwo"
+        to DiceTwo, "digitaltachograph" to DigitalTachograph, "directions" to Directions, "disease"
+        to Disease, "divide" to Divide, "dizzy" to Dizzy, "dna" to Dna, "dog" to Dog, "dollarsign"
+        to DollarSign, "dolly" to Dolly, "dollyflatbed" to DollyFlatbed, "donate" to Donate,
+        "doorclosed" to DoorClosed, "dooropen" to DoorOpen, "dotcircle" to DotCircle, "dove" to
+        Dove, "download" to Download, "draftingcompass" to DraftingCompass, "dragon" to Dragon,
+        "drawpolygon" to DrawPolygon, "drum" to Drum, "drumsteelpan" to DrumSteelpan,
+        "drumstickbite" to DrumstickBite, "dumbbell" to Dumbbell, "dumpster" to Dumpster,
+        "dumpsterfire" to DumpsterFire, "dungeon" to Dungeon, "edit" to Edit, "egg" to Egg, "eject"
+        to Eject, "ellipsish" to EllipsisH, "ellipsisv" to EllipsisV, "envelope" to Envelope,
+        "envelopeopen" to EnvelopeOpen, "envelopeopentext" to EnvelopeOpenText, "envelopesquare" to
+        EnvelopeSquare, "equals" to Equals, "eraser" to Eraser, "ethernet" to Ethernet, "eurosign"
+        to EuroSign, "exchangealt" to ExchangeAlt, "exclamation" to Exclamation, "exclamationcircle"
+        to ExclamationCircle, "exclamationtriangle" to ExclamationTriangle, "expand" to Expand,
+        "expandalt" to ExpandAlt, "expandarrowsalt" to ExpandArrowsAlt, "externallinkalt" to
+        ExternalLinkAlt, "externallinksquarealt" to ExternalLinkSquareAlt, "eye" to Eye,
+        "eyedropper" to EyeDropper, "eyeslash" to EyeSlash, "fan" to Fan, "fastbackward" to
+        FastBackward, "fastforward" to FastForward, "faucet" to Faucet, "fax" to Fax, "feather" to
+        Feather, "featheralt" to FeatherAlt, "female" to Female, "fighterjet" to FighterJet, "file"
+        to File, "filealt" to FileAlt, "filearchive" to FileArchive, "fileaudio" to FileAudio,
+        "filecode" to FileCode, "filecontract" to FileContract, "filecsv" to FileCsv, "filedownload"
+        to FileDownload, "fileexcel" to FileExcel, "fileexport" to FileExport, "fileimage" to
+        FileImage, "fileimport" to FileImport, "fileinvoice" to FileInvoice, "fileinvoicedollar" to
+        FileInvoiceDollar, "filemedical" to FileMedical, "filemedicalalt" to FileMedicalAlt,
+        "filepdf" to FilePdf, "filepowerpoint" to FilePowerpoint, "fileprescription" to
+        FilePrescription, "filesignature" to FileSignature, "fileupload" to FileUpload, "filevideo"
+        to FileVideo, "fileword" to FileWord, "fill" to Fill, "filldrip" to FillDrip, "film" to
+        Film, "filter" to Filter, "fingerprint" to Fingerprint, "fire" to Fire, "firealt" to
+        FireAlt, "fireextinguisher" to FireExtinguisher, "firstaid" to FirstAid, "fish" to Fish,
+        "fistraised" to FistRaised, "flag" to Flag, "flagcheckered" to FlagCheckered, "flagusa" to
+        FlagUsa, "flask" to Flask, "flushed" to Flushed, "folder" to Folder, "folderminus" to
+        FolderMinus, "folderopen" to FolderOpen, "folderplus" to FolderPlus, "font" to Font,
+        "fontawesomelogofull" to FontAwesomeLogoFull, "footballball" to FootballBall, "forward" to
+        Forward, "frog" to Frog, "frown" to Frown, "frownopen" to FrownOpen, "funneldollar" to
+        FunnelDollar, "futbol" to Futbol, "gamepad" to Gamepad, "gaspump" to GasPump, "gavel" to
+        Gavel, "gem" to Gem, "genderless" to Genderless, "ghost" to Ghost, "gift" to Gift, "gifts"
+        to Gifts, "glasscheers" to GlassCheers, "glassmartini" to GlassMartini, "glassmartinialt" to
+        GlassMartiniAlt, "glasswhiskey" to GlassWhiskey, "glasses" to Glasses, "globe" to Globe,
+        "globeafrica" to GlobeAfrica, "globeamericas" to GlobeAmericas, "globeasia" to GlobeAsia,
+        "globeeurope" to GlobeEurope, "golfball" to GolfBall, "gopuram" to Gopuram, "graduationcap"
+        to GraduationCap, "greaterthan" to GreaterThan, "greaterthanequal" to GreaterThanEqual,
+        "grimace" to Grimace, "grin" to Grin, "grinalt" to GrinAlt, "grinbeam" to GrinBeam,
+        "grinbeamsweat" to GrinBeamSweat, "grinhearts" to GrinHearts, "grinsquint" to GrinSquint,
+        "grinsquinttears" to GrinSquintTears, "grinstars" to GrinStars, "grintears" to GrinTears,
+        "grintongue" to GrinTongue, "grintonguesquint" to GrinTongueSquint, "grintonguewink" to
+        GrinTongueWink, "grinwink" to GrinWink, "griphorizontal" to GripHorizontal, "griplines" to
+        GripLines, "griplinesvertical" to GripLinesVertical, "gripvertical" to GripVertical,
+        "guitar" to Guitar, "hsquare" to HSquare, "hamburger" to Hamburger, "hammer" to Hammer,
+        "hamsa" to Hamsa, "handholding" to HandHolding, "handholdingheart" to HandHoldingHeart,
+        "handholdingmedical" to HandHoldingMedical, "handholdingusd" to HandHoldingUsd,
+        "handholdingwater" to HandHoldingWater, "handlizard" to HandLizard, "handmiddlefinger" to
+        HandMiddleFinger, "handpaper" to HandPaper, "handpeace" to HandPeace, "handpointdown" to
+        HandPointDown, "handpointleft" to HandPointLeft, "handpointright" to HandPointRight,
+        "handpointup" to HandPointUp, "handpointer" to HandPointer, "handrock" to HandRock,
+        "handscissors" to HandScissors, "handsparkles" to HandSparkles, "handspock" to HandSpock,
+        "hands" to Hands, "handshelping" to HandsHelping, "handswash" to HandsWash, "handshake" to
+        Handshake, "handshakealtslash" to HandshakeAltSlash, "handshakeslash" to HandshakeSlash,
+        "hanukiah" to Hanukiah, "hardhat" to HardHat, "hashtag" to Hashtag, "hatcowboy" to
+        HatCowboy, "hatcowboyside" to HatCowboySide, "hatwizard" to HatWizard, "hdd" to Hdd,
+        "headsidecough" to HeadSideCough, "headsidecoughslash" to HeadSideCoughSlash, "headsidemask"
+        to HeadSideMask, "headsidevirus" to HeadSideVirus, "heading" to Heading, "headphones" to
+        Headphones, "headphonesalt" to HeadphonesAlt, "headset" to Headset, "heart" to Heart,
+        "heartbroken" to HeartBroken, "heartbeat" to Heartbeat, "helicopter" to Helicopter,
+        "highlighter" to Highlighter, "hiking" to Hiking, "hippo" to Hippo, "history" to History,
+        "hockeypuck" to HockeyPuck, "hollyberry" to HollyBerry, "home" to Home, "horse" to Horse,
+        "horsehead" to HorseHead, "hospital" to Hospital, "hospitalalt" to HospitalAlt,
+        "hospitalsymbol" to HospitalSymbol, "hospitaluser" to HospitalUser, "hottub" to HotTub,
+        "hotdog" to Hotdog, "hotel" to Hotel, "hourglass" to Hourglass, "hourglassend" to
+        HourglassEnd, "hourglasshalf" to HourglassHalf, "hourglassstart" to HourglassStart,
+        "housedamage" to HouseDamage, "houseuser" to HouseUser, "hryvnia" to Hryvnia, "icursor" to
+        ICursor, "icecream" to IceCream, "icicles" to Icicles, "icons" to Icons, "idbadge" to
+        IdBadge, "idcard" to IdCard, "idcardalt" to IdCardAlt, "igloo" to Igloo, "image" to Image,
+        "images" to Images, "inbox" to Inbox, "indent" to Indent, "industry" to Industry, "infinity"
+        to Infinity, "info" to Info, "infocircle" to InfoCircle, "italic" to Italic, "jedi" to Jedi,
+        "joint" to Joint, "journalwhills" to JournalWhills, "kaaba" to Kaaba, "key" to Key,
+        "keyboard" to Keyboard, "khanda" to Khanda, "kiss" to Kiss, "kissbeam" to KissBeam,
+        "kisswinkheart" to KissWinkHeart, "kiwibird" to KiwiBird, "landmark" to Landmark, "language"
+        to Language, "laptop" to Laptop, "laptopcode" to LaptopCode, "laptophouse" to LaptopHouse,
+        "laptopmedical" to LaptopMedical, "laugh" to Laugh, "laughbeam" to LaughBeam, "laughsquint"
+        to LaughSquint, "laughwink" to LaughWink, "layergroup" to LayerGroup, "leaf" to Leaf,
+        "lemon" to Lemon, "lessthan" to LessThan, "lessthanequal" to LessThanEqual, "leveldownalt"
+        to LevelDownAlt, "levelupalt" to LevelUpAlt, "lifering" to LifeRing, "lightbulb" to
+        Lightbulb, "link" to Link, "lirasign" to LiraSign, "list" to List, "listalt" to ListAlt,
+        "listol" to ListOl, "listul" to ListUl, "locationarrow" to LocationArrow, "lock" to Lock,
+        "lockopen" to LockOpen, "longarrowaltdown" to LongArrowAltDown, "longarrowaltleft" to
+        LongArrowAltLeft, "longarrowaltright" to LongArrowAltRight, "longarrowaltup" to
+        LongArrowAltUp, "lowvision" to LowVision, "luggagecart" to LuggageCart, "lungs" to Lungs,
+        "lungsvirus" to LungsVirus, "magic" to Magic, "magnet" to Magnet, "mailbulk" to MailBulk,
+        "male" to Male, "map" to Map, "mapmarked" to MapMarked, "mapmarkedalt" to MapMarkedAlt,
+        "mapmarker" to MapMarker, "mapmarkeralt" to MapMarkerAlt, "mappin" to MapPin, "mapsigns" to
+        MapSigns, "marker" to Marker, "mars" to Mars, "marsdouble" to MarsDouble, "marsstroke" to
+        MarsStroke, "marsstrokeh" to MarsStrokeH, "marsstrokev" to MarsStrokeV, "mask" to Mask,
+        "medal" to Medal, "medkit" to Medkit, "meh" to Meh, "mehblank" to MehBlank, "mehrollingeyes"
+        to MehRollingEyes, "memory" to Memory, "menorah" to Menorah, "mercury" to Mercury, "meteor"
+        to Meteor, "microchip" to Microchip, "microphone" to Microphone, "microphonealt" to
+        MicrophoneAlt, "microphonealtslash" to MicrophoneAltSlash, "microphoneslash" to
+        MicrophoneSlash, "microscope" to Microscope, "minus" to Minus, "minuscircle" to MinusCircle,
+        "minussquare" to MinusSquare, "mitten" to Mitten, "mobile" to Mobile, "mobilealt" to
+        MobileAlt, "moneybill" to MoneyBill, "moneybillalt" to MoneyBillAlt, "moneybillwave" to
+        MoneyBillWave, "moneybillwavealt" to MoneyBillWaveAlt, "moneycheck" to MoneyCheck,
+        "moneycheckalt" to MoneyCheckAlt, "monument" to Monument, "moon" to Moon, "mortarpestle" to
+        MortarPestle, "mosque" to Mosque, "motorcycle" to Motorcycle, "mountain" to Mountain,
+        "mouse" to Mouse, "mousepointer" to MousePointer, "mughot" to MugHot, "music" to Music,
+        "networkwired" to NetworkWired, "neuter" to Neuter, "newspaper" to Newspaper, "notequal" to
+        NotEqual, "notesmedical" to NotesMedical, "objectgroup" to ObjectGroup, "objectungroup" to
+        ObjectUngroup, "oilcan" to OilCan, "om" to Om, "otter" to Otter, "outdent" to Outdent,
+        "pager" to Pager, "paintbrush" to PaintBrush, "paintroller" to PaintRoller, "palette" to
+        Palette, "pallet" to Pallet, "paperplane" to PaperPlane, "paperclip" to Paperclip,
+        "parachutebox" to ParachuteBox, "paragraph" to Paragraph, "parking" to Parking, "passport"
+        to Passport, "pastafarianism" to Pastafarianism, "paste" to Paste, "pause" to Pause,
+        "pausecircle" to PauseCircle, "paw" to Paw, "peace" to Peace, "pen" to Pen, "penalt" to
+        PenAlt, "penfancy" to PenFancy, "pennib" to PenNib, "pensquare" to PenSquare, "pencilalt" to
+        PencilAlt, "pencilruler" to PencilRuler, "peoplearrows" to PeopleArrows, "peoplecarry" to
+        PeopleCarry, "pepperhot" to PepperHot, "percent" to Percent, "percentage" to Percentage,
+        "personbooth" to PersonBooth, "phone" to Phone, "phonealt" to PhoneAlt, "phoneslash" to
+        PhoneSlash, "phonesquare" to PhoneSquare, "phonesquarealt" to PhoneSquareAlt, "phonevolume"
+        to PhoneVolume, "photovideo" to PhotoVideo, "piggybank" to PiggyBank, "pills" to Pills,
+        "pizzaslice" to PizzaSlice, "placeofworship" to PlaceOfWorship, "plane" to Plane,
+        "planearrival" to PlaneArrival, "planedeparture" to PlaneDeparture, "planeslash" to
+        PlaneSlash, "play" to Play, "playcircle" to PlayCircle, "plug" to Plug, "plus" to Plus,
+        "pluscircle" to PlusCircle, "plussquare" to PlusSquare, "podcast" to Podcast, "poll" to
+        Poll, "pollh" to PollH, "poo" to Poo, "poostorm" to PooStorm, "poop" to Poop, "portrait" to
+        Portrait, "poundsign" to PoundSign, "poweroff" to PowerOff, "pray" to Pray, "prayinghands"
+        to PrayingHands, "prescription" to Prescription, "prescriptionbottle" to PrescriptionBottle,
+        "prescriptionbottlealt" to PrescriptionBottleAlt, "print" to Print, "procedures" to
+        Procedures, "projectdiagram" to ProjectDiagram, "pumpmedical" to PumpMedical, "pumpsoap" to
+        PumpSoap, "puzzlepiece" to PuzzlePiece, "qrcode" to Qrcode, "question" to Question,
+        "questioncircle" to QuestionCircle, "quidditch" to Quidditch, "quoteleft" to QuoteLeft,
+        "quoteright" to QuoteRight, "quran" to Quran, "radiation" to Radiation, "radiationalt" to
+        RadiationAlt, "rainbow" to Rainbow, "random" to Random, "receipt" to Receipt, "recordvinyl"
+        to RecordVinyl, "recycle" to Recycle, "redo" to Redo, "redoalt" to RedoAlt, "registered" to
+        Registered, "removeformat" to RemoveFormat, "reply" to Reply, "replyall" to ReplyAll,
+        "republican" to Republican, "restroom" to Restroom, "retweet" to Retweet, "ribbon" to
+        Ribbon, "ring" to Ring, "road" to Road, "robot" to Robot, "rocket" to Rocket, "route" to
+        Route, "rss" to Rss, "rsssquare" to RssSquare, "rublesign" to RubleSign, "ruler" to Ruler,
+        "rulercombined" to RulerCombined, "rulerhorizontal" to RulerHorizontal, "rulervertical" to
+        RulerVertical, "running" to Running, "rupeesign" to RupeeSign, "sadcry" to SadCry, "sadtear"
+        to SadTear, "satellite" to Satellite, "satellitedish" to SatelliteDish, "save" to Save,
+        "school" to School, "screwdriver" to Screwdriver, "scroll" to Scroll, "sdcard" to SdCard,
+        "search" to Search, "searchdollar" to SearchDollar, "searchlocation" to SearchLocation,
+        "searchminus" to SearchMinus, "searchplus" to SearchPlus, "seedling" to Seedling, "server"
+        to Server, "shapes" to Shapes, "share" to Share, "sharealt" to ShareAlt, "sharealtsquare" to
+        ShareAltSquare, "sharesquare" to ShareSquare, "shekelsign" to ShekelSign, "shieldalt" to
+        ShieldAlt, "shieldvirus" to ShieldVirus, "ship" to Ship, "shippingfast" to ShippingFast,
+        "shoeprints" to ShoePrints, "shoppingbag" to ShoppingBag, "shoppingbasket" to
+        ShoppingBasket, "shoppingcart" to ShoppingCart, "shower" to Shower, "shuttlevan" to
+        ShuttleVan, "sign" to Sign, "signinalt" to SignInAlt, "signlanguage" to SignLanguage,
+        "signoutalt" to SignOutAlt, "signal" to Signal, "signature" to Signature, "simcard" to
+        SimCard, "sink" to Sink, "sitemap" to Sitemap, "skating" to Skating, "skiing" to Skiing,
+        "skiingnordic" to SkiingNordic, "skull" to Skull, "skullcrossbones" to SkullCrossbones,
+        "slash" to Slash, "sleigh" to Sleigh, "slidersh" to SlidersH, "smile" to Smile, "smilebeam"
+        to SmileBeam, "smilewink" to SmileWink, "smog" to Smog, "smoking" to Smoking, "smokingban"
+        to SmokingBan, "sms" to Sms, "snowboarding" to Snowboarding, "snowflake" to Snowflake,
+        "snowman" to Snowman, "snowplow" to Snowplow, "soap" to Soap, "socks" to Socks, "solarpanel"
+        to SolarPanel, "sort" to Sort, "sortalphadown" to SortAlphaDown, "sortalphadownalt" to
+        SortAlphaDownAlt, "sortalphaup" to SortAlphaUp, "sortalphaupalt" to SortAlphaUpAlt,
+        "sortamountdown" to SortAmountDown, "sortamountdownalt" to SortAmountDownAlt, "sortamountup"
+        to SortAmountUp, "sortamountupalt" to SortAmountUpAlt, "sortdown" to SortDown,
+        "sortnumericdown" to SortNumericDown, "sortnumericdownalt" to SortNumericDownAlt,
+        "sortnumericup" to SortNumericUp, "sortnumericupalt" to SortNumericUpAlt, "sortup" to
+        SortUp, "spa" to Spa, "spaceshuttle" to SpaceShuttle, "spellcheck" to SpellCheck, "spider"
+        to Spider, "spinner" to Spinner, "splotch" to Splotch, "spraycan" to SprayCan, "square" to
+        Square, "squarefull" to SquareFull, "squarerootalt" to SquareRootAlt, "stamp" to Stamp,
+        "star" to Star, "starandcrescent" to StarAndCrescent, "starhalf" to StarHalf, "starhalfalt"
+        to StarHalfAlt, "starofdavid" to StarOfDavid, "staroflife" to StarOfLife, "stepbackward" to
+        StepBackward, "stepforward" to StepForward, "stethoscope" to Stethoscope, "stickynote" to
+        StickyNote, "stop" to Stop, "stopcircle" to StopCircle, "stopwatch" to Stopwatch,
+        "stopwatch20" to Stopwatch20, "store" to Store, "storealt" to StoreAlt, "storealtslash" to
+        StoreAltSlash, "storeslash" to StoreSlash, "stream" to Stream, "streetview" to StreetView,
+        "strikethrough" to Strikethrough, "stroopwafel" to Stroopwafel, "subscript" to Subscript,
+        "subway" to Subway, "suitcase" to Suitcase, "suitcaserolling" to SuitcaseRolling, "sun" to
+        Sun, "superscript" to Superscript, "surprise" to Surprise, "swatchbook" to Swatchbook,
+        "swimmer" to Swimmer, "swimmingpool" to SwimmingPool, "synagogue" to Synagogue, "sync" to
+        Sync, "syncalt" to SyncAlt, "syringe" to Syringe, "table" to Table, "tabletennis" to
+        TableTennis, "tablet" to Tablet, "tabletalt" to TabletAlt, "tablets" to Tablets,
+        "tachometeralt" to TachometerAlt, "tag" to Tag, "tags" to Tags, "tape" to Tape, "tasks" to
+        Tasks, "taxi" to Taxi, "teeth" to Teeth, "teethopen" to TeethOpen, "temperaturehigh" to
+        TemperatureHigh, "temperaturelow" to TemperatureLow, "tenge" to Tenge, "terminal" to
+        Terminal, "textheight" to TextHeight, "textwidth" to TextWidth, "th" to Th, "thlarge" to
+        ThLarge, "thlist" to ThList, "theatermasks" to TheaterMasks, "thermometer" to Thermometer,
+        "thermometerempty" to ThermometerEmpty, "thermometerfull" to ThermometerFull,
+        "thermometerhalf" to ThermometerHalf, "thermometerquarter" to ThermometerQuarter,
+        "thermometerthreequarters" to ThermometerThreeQuarters, "thumbsdown" to ThumbsDown,
+        "thumbsup" to ThumbsUp, "thumbtack" to Thumbtack, "ticketalt" to TicketAlt, "times" to
+        Times, "timescircle" to TimesCircle, "tint" to Tint, "tintslash" to TintSlash, "tired" to
+        Tired, "toggleoff" to ToggleOff, "toggleon" to ToggleOn, "toilet" to Toilet, "toiletpaper"
+        to ToiletPaper, "toiletpaperslash" to ToiletPaperSlash, "toolbox" to Toolbox, "tools" to
+        Tools, "tooth" to Tooth, "torah" to Torah, "toriigate" to ToriiGate, "tractor" to Tractor,
+        "trademark" to Trademark, "trafficlight" to TrafficLight, "trailer" to Trailer, "train" to
+        Train, "tram" to Tram, "transgender" to Transgender, "transgenderalt" to TransgenderAlt,
+        "trash" to Trash, "trashalt" to TrashAlt, "trashrestore" to TrashRestore, "trashrestorealt"
+        to TrashRestoreAlt, "tree" to Tree, "trophy" to Trophy, "truck" to Truck, "truckloading" to
+        TruckLoading, "truckmonster" to TruckMonster, "truckmoving" to TruckMoving, "truckpickup" to
+        TruckPickup, "tshirt" to Tshirt, "tty" to Tty, "tv" to Tv, "umbrella" to Umbrella,
+        "umbrellabeach" to UmbrellaBeach, "underline" to Underline, "undo" to Undo, "undoalt" to
+        UndoAlt, "universalaccess" to UniversalAccess, "university" to University, "unlink" to
+        Unlink, "unlock" to Unlock, "unlockalt" to UnlockAlt, "upload" to Upload, "user" to User,
+        "useralt" to UserAlt, "useraltslash" to UserAltSlash, "userastronaut" to UserAstronaut,
+        "usercheck" to UserCheck, "usercircle" to UserCircle, "userclock" to UserClock, "usercog" to
+        UserCog, "useredit" to UserEdit, "userfriends" to UserFriends, "usergraduate" to
+        UserGraduate, "userinjured" to UserInjured, "userlock" to UserLock, "usermd" to UserMd,
+        "userminus" to UserMinus, "userninja" to UserNinja, "usernurse" to UserNurse, "userplus" to
+        UserPlus, "usersecret" to UserSecret, "usershield" to UserShield, "userslash" to UserSlash,
+        "usertag" to UserTag, "usertie" to UserTie, "usertimes" to UserTimes, "users" to Users,
+        "userscog" to UsersCog, "usersslash" to UsersSlash, "utensilspoon" to UtensilSpoon,
+        "utensils" to Utensils, "vectorsquare" to VectorSquare, "venus" to Venus, "venusdouble" to
+        VenusDouble, "venusmars" to VenusMars, "vest" to Vest, "vestpatches" to VestPatches, "vial"
+        to Vial, "vials" to Vials, "video" to Video, "videoslash" to VideoSlash, "vihara" to Vihara,
+        "virus" to Virus, "virusslash" to VirusSlash, "viruses" to Viruses, "voicemail" to
+        Voicemail, "volleyballball" to VolleyballBall, "volumedown" to VolumeDown, "volumemute" to
+        VolumeMute, "volumeoff" to VolumeOff, "volumeup" to VolumeUp, "voteyea" to VoteYea,
+        "vrcardboard" to VrCardboard, "walking" to Walking, "wallet" to Wallet, "warehouse" to
+        Warehouse, "water" to Water, "wavesquare" to WaveSquare, "weight" to Weight, "weighthanging"
+        to WeightHanging, "wheelchair" to Wheelchair, "wifi" to Wifi, "wind" to Wind, "windowclose"
+        to WindowClose, "windowmaximize" to WindowMaximize, "windowminimize" to WindowMinimize,
+        "windowrestore" to WindowRestore, "winebottle" to WineBottle, "wineglass" to WineGlass,
+        "wineglassalt" to WineGlassAlt, "wonsign" to WonSign, "wrench" to Wrench, "xray" to XRay,
+        "yensign" to YenSign, "yinyang" to YinYang)
+    return __AllIconsNamed!!
   }

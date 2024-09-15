@@ -1545,7 +1545,9 @@ import compose.icons.lineawesomeicons.Youtube
 import compose.icons.lineawesomeicons.YoutubeSquare
 import compose.icons.lineawesomeicons.Zhihu
 import compose.icons.lineawesomeicons._500px
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object LineAwesomeIcons
 
@@ -1556,255 +1558,839 @@ public val LineAwesomeIcons.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Supple, ThermometerSolid, BorderAllSolid, IndentSolid, FeatherSolid,
-        Bootstrap, Weixin, FileContractSolid, BookSolid, Connectdevelop, WonSignSolid,
-        SortAlphaUpAltSolid, Medium, CrownSolid, Clone, BrainSolid, HockeyPuckSolid, UsersCogSolid,
-        Grimace, LongArrowAltUpSolid, HandMiddleFingerSolid, HorseSolid, HardHatSolid, CcApplePay,
-        CcVisa, MinusSquareSolid, Ioxhost, GrinTongueWink, ChurchSolid, OutdentSolid, TencentWeibo,
-        Fonticons, PhoneVolumeSolid, ToriiGateSolid, ChalkboardTeacherSolid, OtterSolid,
-        DollarSignSolid, Figma, WindowRestore, PlayCircle, WindowMinimize, LemonSolid, PennyArcade,
-        LockSolid, VenusDoubleSolid, SynagogueSolid, CloudShowersHeavySolid, Angrycreative,
-        FillSolid, FilePowerpoint, FastForwardSolid, Imdb, SuperscriptSolid, Steam, FlushedSolid,
-        ViadeoSquare, CampgroundSolid, MarsStrokeSolid, ScrollSolid, SmileBeamSolid, GrimaceSolid,
-        CloudSolid, RouteSolid, UserNurseSolid, GrinStarsSolid, PiedPiperHat, PhoneAltSolid,
-        StarOfDavidSolid, Tumblr, RetweetSolid, GoogleDrive, HanukiahSolid, DollySolid, DiceSolid,
-        BullseyeSolid, HospitalAltSolid, FishSolid, PauseCircle, CheckSquare, MapMarkerAltSolid,
-        WarehouseSolid, GrinSquint, CapsulesSolid, ObjectGroup, UserEditSolid, HandPointer,
-        TemperatureLowSolid, Tripadvisor, ToggleOffSolid, Bandcamp, SortAmountUpSolid,
-        CreditCardSolid, LinkedinIn, Stackpath, FileAudio, DotCircleSolid, DemocratSolid,
-        BookReaderSolid, Strava, ArrowAltCircleDown, TiredSolid, DizzySolid, Dropbox,
-        GraduationCapSolid, SearchDollarSolid, GrinBeam, SubscriptSolid, ChartBarSolid, JointSolid,
-        Hourglass, Microsoft, ChevronCircleDownSolid, CogsSolid, StreetViewSolid, HandPeaceSolid,
-        DrumSteelpanSolid, SearchMinusSolid, Dyalog, Squarespace, FileVideoSolid, CcStripe,
-        OldRepublic, GripHorizontalSolid, GrinSolid, CheckSquareSolid, UserMdSolid, GitSquare,
-        GreaterThanEqualSolid, LaptopMedicalSolid, MagnetSolid, EllipsisVSolid, SmsSolid,
-        CreativeCommonsNc, Accusoft, Lastfm, ArrowAltCircleUpSolid, MehBlank, MouseSolid,
-        SchoolSolid, CreativeCommonsRemix, KissBeam, BathSolid, RubleSignSolid, TractorSolid,
-        SmokingSolid, BarsSolid, Yelp, Deviantart, MusicSolid, GrinBeamSweat, GrinTongueSquintSolid,
-        User, GrinWinkSolid, ChessPawnSolid, Airbnb, FlagUsaSolid, Usps, WindSolid, Envira, Fulcrum,
-        Linux, Foursquare, EraserSolid, KeyboardSolid, GrinHearts, StarHalfSolid, Drupal,
-        MapMarkerSolid, DotCircle, AngrySolid, TagSolid, ViharaSolid, HamsaSolid, LaughBeam,
-        FileInvoiceSolid, Dev, CaretLeftSolid, TruckMonsterSolid, CircleNotchSolid, Speakap,
-        BriefcaseMedicalSolid, PauseSolid, Android, FlagSolid, FileCodeSolid, AnchorSolid, Adobe,
-        AtSolid, BoxOpenSolid, Ethereum, WhatsappSquare, TransgenderAltSolid, Shirtsinbulk,
-        FileVideo, Odnoklassniki, EnvelopeOpenSolid, FileArchiveSolid, Circle, FontSolid,
-        CameraSolid, ClosedCaptioning, RecycleSolid, BookDeadSolid, UnderlineSolid,
-        MousePointerSolid, StopwatchSolid, CheckSolid, WindowCloseSolid, Js, TableSolid, Copyright,
-        ChessKnightSolid, Reacteurope, ShoppingBagSolid, Openid, Gitlab, ChevronCircleLeftSolid,
-        Sourcetree, Gg, RulerVerticalSolid, AddressCard, SadCrySolid, AcquisitionsIncorporated,
-        Joget, ArrowCircleUpSolid, ShowerSolid, Weibo, SnapchatGhost, VolleyballBallSolid,
-        ShapesSolid, SuitcaseRollingSolid, Aws, Sass, Superpowers, RulerHorizontalSolid,
-        HandPointRightSolid, GrinBeamSolid, ReplyAllSolid, SmileBeam, FileAltSolid, Sellcast, Java,
-        Orcid, ForwardSolid, Viber, SeedlingSolid, CalendarCheckSolid, Ello, Wix, UserCogSolid,
-        ThumbsUp, RedditAlien, HeadphonesAltSolid, Mizuni, Leanpub, GrinAlt, FrownOpenSolid,
-        PagerSolid, ChartPieSolid, MapMarkedAltSolid, ArchwaySolid, Bitbucket, GitAlt, Pagelines,
-        EllipsisHSolid, CommentsSolid, BusSolid, FileExcel, Github, GalacticSenate, WifiSolid,
-        CarAltSolid, Viacoin, TrainSolid, Freebsd, Rebel, HeadphonesSolid, HandPointUp,
-        CheckCircleSolid, EggSolid, Fedex, Usb, BlogSolid, ReplySolid, PrescriptionBottleAltSolid,
-        Empire, ExclamationTriangleSolid, Simplybuilt, AccessibleIcon, AnkhSolid, ShareSquareSolid,
-        NeuterSolid, TheaterMasksSolid, PasteSolid, ChevronCircleRightSolid, ServerSolid,
-        CalculatorSolid, CcPaypal, BiohazardSolid, SpaceShuttleSolid, UserAltSolid,
-        WineGlassAltSolid, SignSolid, TintSlashSolid, Etsy, Bimobject, SuitcaseSolid, CannabisSolid,
-        DiceTwoSolid, Gripfire, _500px, RocketSolid, FilePowerpointSolid, BalanceScaleRightSolid,
-        TheRedYeti, DoorOpenSolid, InboxSolid, Deskpro, ChessRookSolid, DragonSolid, CreditCard,
-        ThumbsDownSolid, CaretDownSolid, CalendarPlusSolid, RedRiver, StarAndCrescentSolid,
-        ShoppingCartSolid, FileWordSolid, FreeCodeCamp, UserCheckSolid, WolfPackBattalion,
-        SmogSolid, FolderSolid, YoutubeSquare, LeafSolid, WizardsOfTheCoast, Map, Comments,
-        UnlinkSolid, RingSolid, UploadSolid, RedditSquare, BroadcastTowerSolid, WaterSolid,
-        MountainSolid, TimesCircleSolid, Keybase, SortDownSolid, Umbraco, DumbbellSolid, CropSolid,
-        Joomla, Uniregistry, CoinsSolid, UserAltSlashSolid, MoneyBillAltSolid, SmileWinkSolid,
-        HashtagSolid, Kaggle, CcAmazonPay, File, BirthdayCakeSolid, ExpandArrowsAltSolid,
-        SyncAltSolid, TapeSolid, Hubspot, HandshakeSolid, UserFriendsSolid, SortSolid, Confluence,
-        PinterestP, PrescriptionBottleSolid, BurnSolid, RobotSolid, GavelSolid, KissBeamSolid,
-        CodeSolid, MaskSolid, CreativeCommonsNd, AddressBook, WindowMaximizeSolid, EyeSlashSolid,
-        UserInjuredSolid, Servicestack, EqualsSolid, MehRollingEyesSolid, PlusSquare, TengeSolid,
-        Npm, SleighSolid, RibbonSolid, ThermometerEmptySolid, LaughSolid, IdBadge, TintSolid,
-        TicketAltSolid, InternetExplorer, MarsDoubleSolid, WheelchairSolid, AlignLeftSolid,
-        CitySolid, CreativeCommonsNcEu, PercentageSolid, Laugh, OptinMonster, PraySolid, FanSolid,
-        SunSolid, VectorSquareSolid, MinusCircleSolid, DnaSolid, TaxiSolid, MugHotSolid, ImageSolid,
-        CogSolid, Mastodon, Angular, Keyboard, GripVerticalSolid, Untappd, Apper, Vk, BuyNLarge,
-        GooglePlus, VoicemailSolid, Vimeo, Discourse, PooStormSolid, CalendarAltSolid, CarrotSolid,
-        SortNumericDownAltSolid, DirectionsSolid, FileExcelSolid, FilmSolid, Hotjar, NodeJs,
-        LiraSignSolid, PalletSolid, SquareRootAltSolid, CreativeCommonsShare, SkullCrossbonesSolid,
-        MailBulkSolid, GrinSquintSolid, IdCard, Symfony, CreativeCommonsSampling, DonateSolid,
-        StopCircle, SnowboardingSolid, MemorySolid, StrikethroughSolid, FileImage,
-        BasketballBallSolid, ReceiptSolid, TumblrSquare, ChargingStationSolid, TeethOpenSolid,
-        Skyatlas, FileInvoiceDollarSolid, QuoteLeftSolid, RandomSolid, TshirtSolid,
-        GlassCheersSolid, CandyCaneSolid, Clipboard, BehanceSquare, ShippingFastSolid,
-        QuestionCircle, SpellCheckSolid, Instagram, TerminalSolid, HandPeace, CreativeCommonsPd,
-        PrescriptionSolid, CircleSolid, BabyCarriageSolid, StopCircleSolid, FileCode, Mendeley,
-        LanguageSolid, DAndD, PollHSolid, ProductHunt, Meh, PhoneSlashSolid, MaleSolid, SubwaySolid,
-        TasksSolid, MortarPestleSolid, BullhornSolid, IndustrySolid, FlaskSolid, HistorySolid,
-        SyringeSolid, PlaneArrivalSolid, FolderMinusSolid, SkiingSolid, SkullSolid,
-        LocationArrowSolid, Edge, Yammer, ParagraphSolid, ArrowCircleRightSolid,
-        CaretSquareDownSolid, GlassMartiniAltSolid, TextHeightSolid, DrumSolid, MarsStrokeHSolid,
-        HandLizard, Fly, CaretSquareLeft, FileMedicalSolid, LaptopSolid, HackerNewsSquare, MehSolid,
-        CloudMoonSolid, Safari, LuggageCartSolid, CarSideSolid, StickerMule, QuestionCircleSolid,
-        FireExtinguisherSolid, FemaleSolid, Audible, ItunesNote, Yoast, BusAltSolid, DiceSixSolid,
-        MedkitSolid, StoreAltSolid, MoneyCheckSolid, AlignRightSolid, EuroSignSolid,
-        HourglassEndSolid, FrogSolid, Envelope, CheckDoubleSolid, AddressCardSolid, DiagnosesSolid,
-        AngleDoubleLeftSolid, ToolboxSolid, DiceFiveSolid, SnowflakeSolid, Python, WalletSolid,
-        SkatingSolid, BrailleSolid, GrinSquintTearsSolid, DiceD6Solid, TvSolid, IconsSolid,
-        PlusSquareSolid, PowerOffSolid, HeartSolid, ChessBishopSolid, AtlasSolid, MittenSolid,
-        CompressArrowsAltSolid, PlaneSolid, JournalWhillsSolid, TrafficLightSolid, BaconSolid,
-        StarHalfAltSolid, CertificateSolid, KaabaSolid, Docker, Git, HeadsetSolid, Blogger,
-        LinkSolid, ParkingSolid, BackspaceSolid, MinusSquare, EjectSolid, ColumnsSolid, ListUlSolid,
-        BeerSolid, GiftSolid, ExpandSolid, UndoSolid, MobileSolid, ShipSolid,
-        LongArrowAltRightSolid, CommentAltSolid, Schlix, BedSolid, MoneyCheckAltSolid,
-        HandPointLeft, Mailchimp, CrowSolid, HireAHelper, HammerSolid, CartArrowDownSolid,
-        LightbulbSolid, Neos, OilCanSolid, BarcodeSolid, QrcodeSolid, TemperatureHighSolid,
-        ShoppingBasketSolid, CloudSunRainSolid, BorderNoneSolid, Digg, MarsStrokeVSolid,
-        SplotchSolid, AtomSolid, FontAwesome, ExclamationCircleSolid, SkiingNordicSolid,
-        HotdogSolid, BalanceScaleLeftSolid, Bitcoin, BellSlashSolid, PrintSolid,
-        AngleDoubleDownSolid, StackOverflow, Whmcs, Delicious, CreativeCommonsZero, CarBatterySolid,
-        TrashRestoreAltSolid, LessThanSolid, HandHoldingHeartSolid, Dizzy, ThSolid,
-        TruckLoadingSolid, BugSolid, LaughSquintSolid, DatabaseSolid, DownloadSolid, MarkerSolid,
-        CommentSolid, Bell, Hackerrank, GasPumpSolid, BlenderPhoneSolid, TrashRestoreSolid,
-        FontAwesomeAlt, AllergiesSolid, BalanceScaleSolid, FunnelDollarSolid, CaretSquareUp,
-        ExclamationSolid, MoneyBillWaveSolid, ThumbsUpSolid, DesktopSolid, Telegram, RulerSolid,
-        BrushSolid, AngleUpSolid, CopyrightSolid, Flag, TrophySolid, Centercode, ShieldAltSolid,
-        Erlang, PlaneDepartureSolid, StripeS, Medrt, Salesforce, ListAlt, CoffeeSolid,
-        GlassMartiniSolid, PlusCircleSolid, VimeoV, Meetup, WindowMaximize, GlobeAsiaSolid,
-        NewspaperSolid, GrinHeartsSolid, DharmachakraSolid, Newspaper, StackExchange,
-        ChartLineSolid, Snowflake, HandPaperSolid, Markdown, UnlockSolid, LifeRingSolid,
-        CcMastercard, VimeoSquare, Frown, CrossSolid, Goodreads, AdjustSolid, StethoscopeSolid,
-        CanadianMapleLeaf, CalendarCheck, ToiletPaperSolid, UserLockSolid, HandSpockSolid, Invision,
-        NetworkWiredSolid, PenAltSolid, BatteryEmptySolid, GrinTongueSolid, Mix, DiceFourSolid,
-        TableTennisSolid, CalendarDaySolid, UserShieldSolid, PhoneSolid, SortAlphaDownAltSolid,
-        LandmarkSolid, BoldSolid, CropAltSolid, UserNinjaSolid, CloneSolid, Gratipay, AppStoreIos,
-        CartPlusSolid, UnlockAltSolid, MosqueSolid, Magento, Hospital, UtensilsSolid,
-        RadiationSolid, Bluetooth, Houzz, SquareSolid, DribbbleSquare, TruckSolid, Expeditedssl,
-        MoonSolid, SwimmerSolid, BlackTie, GripLinesVerticalSolid, BoneSolid, RssSquareSolid,
-        LayerGroupSolid, HandRock, FontAwesomeFlag, TagsSolid, BandAidSolid, SadTearSolid, PawSolid,
-        UmbrellaBeachSolid, EditSolid, Sith, ChalkboardSolid, QuoteRightSolid, MicrophoneAltSolid,
-        HandsHelpingSolid, BlenderSolid, WeightSolid, Algolia, CalendarSolid, DiceThreeSolid,
-        Ussunnah, FlagCheckeredSolid, CloudRainSolid, HandScissorsSolid, SpiderSolid, StickyNote,
-        UserTagSolid, ShareSquare, Sellsy, Jira, Spotify, CaretSquareLeftSolid, VenusMarsSolid,
-        StepBackwardSolid, Intercom, MehRollingEyes, Flipboard, HippoSolid, UmbrellaSolid,
-        HandPointDown, ICursorSolid, ThumbtackSolid, CouchSolid, Shopware, SearchLocationSolid,
-        IdCardSolid, SignatureSolid, MapSignsSolid, HotTubSolid, CloudMeatballSolid,
-        StepForwardSolid, CrosshairsSolid, StarSolid, UndoAltSolid, BezierCurveSolid,
-        FileExportSolid, DiceD20Solid, HandSpock, KissWinkHeart, SatelliteDishSolid, MagicSolid,
-        RainbowSolid, CheckCircle, Copy, EthernetSolid, DAndDBeyond, LaughBeamSolid, DoveSolid,
-        Researchgate, QuestionSolid, ThListSolid, Lyft, Wpressr, JediOrder, ChevronUpSolid,
-        SwatchbookSolid, MarsSolid, WikipediaW, ThinkPeaks, UserSecretSolid, ArrowAltCircleRight,
-        ChessQueenSolid, Periscope, CommentAlt, Modx, Kickstarter, FilePdfSolid, GoogleWallet,
-        Slideshare, HeadingSolid, MicroscopeSolid, Snapchat, WrenchSolid, SmileWink,
-        ArrowCircleLeftSolid, Readme, HourglassSolid, Image, UserMinusSolid, CreativeCommonsSa,
-        MedalSolid, BackwardSolid, Lightbulb, HandPointRight, RedoSolid, Themeisle, Html5,
-        HandRockSolid, SortAlphaUpSolid, CreativeCommonsSamplingPlus, Save, Smile, CaretSquareDown,
-        Replyd, RaspberryPi, Images, YenSignSolid, Cuttlefish, NotesMedicalSolid, Rockrms, CcAmex,
-        DoorClosedSolid, PlaySolid, ObjectUngroup, HandHoldingUsdSolid, FileDownloadSolid,
-        ItalicSolid, BoxSolid, HandsSolid, CloudSunSolid, LastfmSquare, GrinTongueSquint, Ravelry,
-        ToiletSolid, Quora, InfinitySolid, ArrowAltCircleDownSolid, GolfBallSolid, FilePdf, Monero,
-        UserClockSolid, FileArchive, NotEqualSolid, Yarn, BabySolid, PortraitSolid, Dochub,
-        UniversalAccessSolid, Laravel, SearchPlusSolid, GooglePlusSquare, CommentDots,
-        AngleDoubleUpSolid, SortNumericUpSolid, GrinTearsSolid, SpaSolid, GlassesSolid,
-        LongArrowAltDownSolid, AwardSolid, Earlybirds, Centos, ChevronLeftSolid, IdBadgeSolid,
-        RecordVinylSolid, SocksSolid, CompassSolid, Teamspeak, PiedPiperPp, BlindSolid,
-        VoteYeaSolid, PlusSolid, SdCardSolid, ArrowDownSolid, Square, PaperclipSolid, HddSolid,
-        Wpexplorer, Ubuntu, Opencart, FolderOpenSolid, ArrowRightSolid, Paypal, Suse, Wpbeginner,
-        HikingSolid, BoltSolid, RadiationAltSolid, VialSolid, GoodreadsG, GithubSquare, StampSolid,
-        GamepadSolid, SlashSolid, CaretSquareRightSolid, CatSolid, IdCardAltSolid, Rocketchat,
-        TimesSolid, XingSquare, PooSolid, AirFreshenerSolid, Draft2digital, ChevronRightSolid,
-        AppStore, WindowMinimizeSolid, CalendarMinusSolid, WaveSquareSolid, HeartbeatSolid,
-        Playstation, HSquareSolid, SortAmountDownAltSolid, Facebook, HandScissors, PercentSolid,
-        ThermometerQuarterSolid, GlobeEuropeSolid, VenusSolid, HatCowboySolid, CodeBranchSolid,
-        VolumeDownSolid, Amazon, Quinscape, TabletAltSolid, HeartBrokenSolid, TrashSolid, Vine,
-        ObjectUngroupSolid, HandPointerSolid, Pinterest, LongArrowAltLeftSolid, MediumM, SmileSolid,
-        GooglePlusG, ChevronDownSolid, HatWizardSolid, StroopwafelSolid, RssSolid, GooglePlay,
-        ObjectGroupSolid, PauseCircleSolid, CriticalRole, Page4, BatteryQuarterSolid, Mdb,
-        HouseDamageSolid, Osi, Yandex, CalendarTimesSolid, KissSolid, SadCry, Whatsapp, Google,
-        Chromecast, PodcastSolid, UsersSolid, RProject, TachometerAltSolid, HamburgerSolid,
-        CloudUploadAltSolid, Line, ArrowLeftSolid, Affiliatetheme, ArrowAltCircleRightSolid,
-        LevelDownAltSolid, Atlassian, MinusSolid, FortAwesomeAlt, CameraRetroSolid, HorseHeadSolid,
-        DiceOneSolid, Aviato, ArchiveSolid, Bity, TrashAlt, HryvniaSolid, TrashAltSolid, Php,
-        AngleDoubleRightSolid, SortAmountDownSolid, Stripe, HourglassStartSolid, PhoneSquareSolid,
-        ChairSolid, CookieBiteSolid, Gem, FileUploadSolid, CcDinersClub, Buromobelexperte,
-        Phabricator, ShekelSignSolid, SignInAltSolid, GrinTongue, FrownOpen,
-        ThermometerThreeQuartersSolid, SearchSolid, Artstation, PlayCircleSolid,
-        FilePrescriptionSolid, ShoePrintsSolid, GrinTongueWinkSolid, GuitarSolid, BibleSolid,
-        VrCardboardSolid, BookMedicalSolid, CommentDollarSolid, ChessKingSolid, SatelliteSolid,
-        DollyFlatbedSolid, PuzzlePieceSolid, Scribd, BatteryHalfSolid, WineGlassSolid,
-        ExternalLinkSquareAltSolid, EyeSolid, CcDiscover, GrinTears, GreaterThanSolid, SadTear,
-        Fedora, DeafSolid, FonticonsFi, IceCreamSolid, GenderlessSolid, PillsSolid, MotorcycleSolid,
-        Jenkins, Studiovinari, Star, FireAltSolid, Glide, Adn, PastafarianismSolid, HandPaper,
-        PenFancySolid, StumbleuponCircle, Sun, TabletSolid, Xing, CarSolid, BowlingBallSolid,
-        ParachuteBoxSolid, GgCircle, ImagesSolid, DogSolid, Medapps, LaughWink, Edit, Redhat,
-        SimCardSolid, DigitalTachographSolid, MercurySolid, PhotoVideoSolid, AmbulanceSolid,
-        FutbolSolid, PersonBoothSolid, KeySolid, AssistiveListeningSystemsSolid, ArrowUpSolid,
-        SignalSolid, BanSolid, DigitalOcean, SprayCanSolid, Hips, BinocularsSolid, PencilRulerSolid,
-        Twitch, CommentsDollarSolid, PenSolid, FileWord, Windows, UserCircle, FileSolid,
-        UserSlashSolid, Lemon, ToggleOnSolid, Rev, UserTimesSolid, FighterJetSolid, JediSolid,
-        PiedPiperAlt, DrumstickBiteSolid, EyeSlash, MoneyBillWaveAltSolid, Btc, CarCrashSolid,
-        Elementor, BicycleSolid, PiedPiper, PaperPlane, FilterSolid, CommentDotsSolid, Youtube,
-        UniversitySolid, ProceduresSolid, EnvelopeSquareSolid, CashRegisterSolid, PoopSolid,
-        OmSolid, PaletteSolid, LaughWinkSolid, FireSolid, CocktailSolid, EyeDropperSolid,
-        FortAwesome, Compass, FirstAidSolid, SignOutAltSolid, HollyBerrySolid, CompressSolid,
-        GlideG, HatCowboySideSolid, RemoveFormatSolid, ArrowCircleDownSolid, Codiepie,
-        SnowplowSolid, Stumbleupon, SortNumericUpAltSolid, AngleRightSolid, SpeakerDeck,
-        TruckPickupSolid, Nutritionix, PhoenixFramework, TradeFederation, BatteryFullSolid,
-        GrinWink, Jsfiddle, CreativeCommonsPdAlt, BusinessTimeSolid, ArrowAltCircleLeftSolid,
-        FileSignatureSolid, RestroomSolid, ShareAltSquareSolid, TruckMovingSolid, TramSolid,
-        FileImageSolid, Yahoo, Grav, FileAudioSolid, ClockSolid, SurpriseSolid, MehBlankSolid,
-        SlidersHSolid, VolumeMuteSolid, JsSquare, BloggerB, FirstOrder, Tired, Uber, Sketch, Gulp,
-        UserGraduateSolid, TabletsSolid, QuranSolid, BattleNet, Keycdn, Diaspora, ThLargeSolid,
-        Clock, VolumeOffSolid, Reddit, ChessBoardSolid, Alipay, FileCsvSolid, BuildingSolid,
-        FastBackwardSolid, UserAstronautSolid, Cloudscale, YandexInternational, PizzaSliceSolid,
-        GlassWhiskeySolid, Buysellads, MicrophoneAltSlashSolid, ThumbsDown, ListOlSolid,
-        SortUpSolid, MapPinSolid, Asymmetrik, Angellist, BookOpenSolid, Wpforms,
-        MicrophoneSlashSolid, AmericanSignLanguageInterpretingSolid, RegisteredSolid, Eye,
-        RepublicanSolid, Linode, ExternalLinkAltSolid, BreadSliceSolid, Css3Alt, ScrewdriverSolid,
-        LowVisionSolid, BluetoothB, SquareFullSolid, SitemapSolid, SortNumericDownSolid,
-        MoneyBillSolid, Avianex, EnvelopeOpenTextSolid, CottonBureau, UserSolid, FileImportSolid,
-        Evernote, Codepen, Dribbble, GlobeSolid, SwimmingPoolSolid, Xbox, FirstOrderAlt, GrinStars,
-        Trello, CreativeCommons, Registered, SignLanguageSolid, CaretUpSolid, ArrowAltCircleLeft,
-        MeteorSolid, Adversal, Dhl, CheeseSolid, SteamSymbol, Hornbill, Themeco, HandPointDownSolid,
-        ApplePay, LaptopCodeSolid, InfoSolid, ChartBar, CrutchSolid, PepperHotSolid, BookmarkSolid,
-        GripLinesSolid, ListSolid, PoundSignSolid, TelegramPlane, XRaySolid, Grin, Contao, Linkedin,
-        PassportSolid, PhoenixSquadron, Mandalorian, ShuttleVanSolid, GiftsSolid, YCombinator, Qq,
-        FolderOpen, Vaadin, CalendarWeekSolid, Uikit, VideoSlashSolid, FantasyFlightGames, React,
-        KissWinkHeartSolid, HotelSolid, FacebookSquare, AlignCenterSolid, TimesCircle, Twitter,
-        Less, AsteriskSolid, PaperPlaneSolid, SlackHash, DrawPolygonSolid, WindowRestoreSolid,
-        CaretSquareRight, RunningSolid, Patreon, MobileAltSolid, BriefcaseSolid,
-        CommentMedicalSolid, Handshake, Swift, IciclesSolid, StickyNoteSolid, AngleLeftSolid,
-        FacebookMessenger, Discord, UserTieSolid, Comment, LockOpenSolid, ArrowsAltHSolid, Opera,
-        CaretRightSolid, Calendar, TreeSolid, ClipboardCheckSolid, GemSolid, Gitter, Buffer, Css3,
-        PenNibSolid, LifeRing, StoreSolid, Renren, ClipboardSolid, HackerNews, Ns8, Sistrix,
-        SpinnerSolid, SolarPanelSolid, BorderStyleSolid, KickstarterK, PlugSolid, TransgenderSolid,
-        MapSolid, Vuejs, DivideSolid, DumpsterFireSolid, CalendarPlus, MapMarkedSolid, CubesSolid,
-        YinYangSolid, Mixcloud, Firstdraft, GlobeAmericasSolid, CubeSolid, Slack, ExchangeAltSolid,
-        Zhihu, Soundcloud, ListAltSolid, HospitalSolid, CaretSquareUpSolid, BikingSolid,
-        ArrowAltCircleUp, Futbol, EnvelopeOpen, ChevronCircleUpSolid, ShareSolid, WindowClose,
-        Hooli, WeightHangingSolid, UserCircleSolid, CcJcb, WordpressSimple, FileMedicalAltSolid,
-        UserPlusSolid, Ember, Gitkraken, RedoAltSolid, AddressBookSolid, TeethSolid,
-        PrayingHandsSolid, VialsSolid, HandPointUpSolid, AngleDownSolid, Bookmark, Skype,
-        PencilAltSolid, Gofore, MicrochipSolid, ArrowsAltVSolid, Ebay, CopySolid,
-        DraftingCompassSolid, VolumeUpSolid, Cpanel, ProjectDiagramSolid, FrownSolid, Wordpress,
-        InfoCircleSolid, UtensilSpoonSolid, MicrophoneSolid, RulerCombinedSolid, SnapchatSquare,
-        ConciergeBellSolid, HandHoldingSolid, CalendarAlt, CompactDiscSolid, HourglassHalfSolid,
-        Kiss, PhoneSquareAltSolid, Korvue, ShareAltSolid, Cloudversify, WalkingSolid,
-        SortAmountUpAltSolid, TtySolid, ItchIo, QuidditchSolid, LaughSquint, Grunt, GrinAltSolid,
-        SyncSolid, CommentSlashSolid, MonumentSolid, Viadeo, ThermometerHalfSolid, Blackberry,
-        Pushed, FacebookF, BaseballBallSolid, ClosedCaptioningSolid, RoadSolid, SteamSquare,
-        DumpsterSolid, Amilia, VideoSolid, PollSolid, HospitalSymbolSolid, BellSolid, SaveSolid,
-        PaintRollerSolid, SnowmanSolid, HomeSolid, Cloudsmith, PiggyBankSolid, CreativeCommonsNcJp,
-        SmokingBanSolid, TrademarkSolid, Hdd, Chrome, AppleAltSolid, Forumbee, Maxcdn,
-        TwitterSquare, Apple, AdSolid, ClinicMedicalSolid, BongSolid, Napster, GetPocket, Nimblr,
-        FootballBallSolid, StreamSolid, Vnv, Waze, DungeonSolid, StopSolid, AudioDescriptionSolid,
-        CookieSolid, KiwiBirdSolid, ToothSolid, KhandaSolid, Palfed, ToolsSolid, Weebly,
-        HandLizardSolid, Autoprefixer, ChessSolid, HaykalSolid, ArrowsAltSolid, HighlighterSolid,
-        Searchengin, FeatherAltSolid, ClipboardListSolid, CalendarMinus, MenorahSolid, Building,
-        BroomSolid, Angry, Megaport, EnvelopeSolid, Folder, PeopleCarrySolid, Typo3,
-        AlignJustifySolid, Deploydog, Node, PaintBrushSolid, WineBottleSolid, GithubAlt, Flushed,
-        BatteryThreeQuartersSolid, LevelUpAltSolid, TextWidthSolid, FileAlt, BellSlash, Dashcube,
-        SortAlphaDownSolid, GalacticRepublic, CloudDownloadAltSolid, PlaceOfWorshipSolid,
-        IglooSolid, CreativeCommonsBy, FillDripSolid, FaxSolid, Ups, OdnoklassnikiSquare,
-        FingerprintSolid, PeaceSolid, Moon, StarOfLifeSolid, GhostSolid, Behance, Resolving,
-        Surprise, RupeeSignSolid, FistRaisedSolid, Staylinked, Firefox, Flickr, BombSolid,
-        AmazonPay, PinterestSquare, HandPointLeftSolid, LessThanEqualSolid, ThermometerFullSolid,
-        StarHalf, CalendarTimes, ChildSolid, GlobeAfricaSolid, TorahSolid, ChartAreaSolid, CutSolid,
-        PenSquareSolid, GopuramSolid, BoxesSolid, Itunes, GrinBeamSweatSolid, HelicopterSolid,
-        GrinSquintTears, Heart, MoneyBillAlt, FolderPlusSolid, CloudMoonRainSolid)
+    __AllIcons= listOf(AccessibleIcon, Accusoft, AcquisitionsIncorporated, AdSolid, AddressBook,
+        AddressBookSolid, AddressCard, AddressCardSolid, AdjustSolid, Adn, Adobe, Adversal,
+        Affiliatetheme, AirFreshenerSolid, Airbnb, Algolia, AlignCenterSolid, AlignJustifySolid,
+        AlignLeftSolid, AlignRightSolid, Alipay, AllergiesSolid, Amazon, AmazonPay, AmbulanceSolid,
+        AmericanSignLanguageInterpretingSolid, Amilia, AnchorSolid, Android, Angellist,
+        AngleDoubleDownSolid, AngleDoubleLeftSolid, AngleDoubleRightSolid, AngleDoubleUpSolid,
+        AngleDownSolid, AngleLeftSolid, AngleRightSolid, AngleUpSolid, Angry, AngrySolid,
+        Angrycreative, Angular, AnkhSolid, AppStore, AppStoreIos, Apper, Apple, AppleAltSolid,
+        ApplePay, ArchiveSolid, ArchwaySolid, ArrowAltCircleDown, ArrowAltCircleDownSolid,
+        ArrowAltCircleLeft, ArrowAltCircleLeftSolid, ArrowAltCircleRight, ArrowAltCircleRightSolid,
+        ArrowAltCircleUp, ArrowAltCircleUpSolid, ArrowCircleDownSolid, ArrowCircleLeftSolid,
+        ArrowCircleRightSolid, ArrowCircleUpSolid, ArrowDownSolid, ArrowLeftSolid, ArrowRightSolid,
+        ArrowUpSolid, ArrowsAltHSolid, ArrowsAltSolid, ArrowsAltVSolid, Artstation,
+        AssistiveListeningSystemsSolid, AsteriskSolid, Asymmetrik, AtSolid, AtlasSolid, Atlassian,
+        AtomSolid, Audible, AudioDescriptionSolid, Autoprefixer, Avianex, Aviato, AwardSolid, Aws,
+        BabyCarriageSolid, BabySolid, BackspaceSolid, BackwardSolid, BaconSolid,
+        BalanceScaleLeftSolid, BalanceScaleRightSolid, BalanceScaleSolid, BanSolid, BandAidSolid,
+        Bandcamp, BarcodeSolid, BarsSolid, BaseballBallSolid, BasketballBallSolid, BathSolid,
+        BatteryEmptySolid, BatteryFullSolid, BatteryHalfSolid, BatteryQuarterSolid,
+        BatteryThreeQuartersSolid, BattleNet, BedSolid, BeerSolid, Behance, BehanceSquare, Bell,
+        BellSlash, BellSlashSolid, BellSolid, BezierCurveSolid, BibleSolid, BicycleSolid,
+        BikingSolid, Bimobject, BinocularsSolid, BiohazardSolid, BirthdayCakeSolid, Bitbucket,
+        Bitcoin, Bity, BlackTie, Blackberry, BlenderPhoneSolid, BlenderSolid, BlindSolid, BlogSolid,
+        Blogger, BloggerB, Bluetooth, BluetoothB, BoldSolid, BoltSolid, BombSolid, BoneSolid,
+        BongSolid, BookDeadSolid, BookMedicalSolid, BookOpenSolid, BookReaderSolid, BookSolid,
+        Bookmark, BookmarkSolid, Bootstrap, BorderAllSolid, BorderNoneSolid, BorderStyleSolid,
+        BowlingBallSolid, BoxOpenSolid, BoxSolid, BoxesSolid, BrailleSolid, BrainSolid,
+        BreadSliceSolid, BriefcaseMedicalSolid, BriefcaseSolid, BroadcastTowerSolid, BroomSolid,
+        BrushSolid, Btc, Buffer, BugSolid, Building, BuildingSolid, BullhornSolid, BullseyeSolid,
+        BurnSolid, Buromobelexperte, BusAltSolid, BusSolid, BusinessTimeSolid, BuyNLarge,
+        Buysellads, CalculatorSolid, Calendar, CalendarAlt, CalendarAltSolid, CalendarCheck,
+        CalendarCheckSolid, CalendarDaySolid, CalendarMinus, CalendarMinusSolid, CalendarPlus,
+        CalendarPlusSolid, CalendarSolid, CalendarTimes, CalendarTimesSolid, CalendarWeekSolid,
+        CameraRetroSolid, CameraSolid, CampgroundSolid, CanadianMapleLeaf, CandyCaneSolid,
+        CannabisSolid, CapsulesSolid, CarAltSolid, CarBatterySolid, CarCrashSolid, CarSideSolid,
+        CarSolid, CaretDownSolid, CaretLeftSolid, CaretRightSolid, CaretSquareDown,
+        CaretSquareDownSolid, CaretSquareLeft, CaretSquareLeftSolid, CaretSquareRight,
+        CaretSquareRightSolid, CaretSquareUp, CaretSquareUpSolid, CaretUpSolid, CarrotSolid,
+        CartArrowDownSolid, CartPlusSolid, CashRegisterSolid, CatSolid, CcAmazonPay, CcAmex,
+        CcApplePay, CcDinersClub, CcDiscover, CcJcb, CcMastercard, CcPaypal, CcStripe, CcVisa,
+        Centercode, Centos, CertificateSolid, ChairSolid, ChalkboardSolid, ChalkboardTeacherSolid,
+        ChargingStationSolid, ChartAreaSolid, ChartBar, ChartBarSolid, ChartLineSolid,
+        ChartPieSolid, CheckCircle, CheckCircleSolid, CheckDoubleSolid, CheckSolid, CheckSquare,
+        CheckSquareSolid, CheeseSolid, ChessBishopSolid, ChessBoardSolid, ChessKingSolid,
+        ChessKnightSolid, ChessPawnSolid, ChessQueenSolid, ChessRookSolid, ChessSolid,
+        ChevronCircleDownSolid, ChevronCircleLeftSolid, ChevronCircleRightSolid,
+        ChevronCircleUpSolid, ChevronDownSolid, ChevronLeftSolid, ChevronRightSolid, ChevronUpSolid,
+        ChildSolid, Chrome, Chromecast, ChurchSolid, Circle, CircleNotchSolid, CircleSolid,
+        CitySolid, ClinicMedicalSolid, Clipboard, ClipboardCheckSolid, ClipboardListSolid,
+        ClipboardSolid, Clock, ClockSolid, Clone, CloneSolid, ClosedCaptioning,
+        ClosedCaptioningSolid, CloudDownloadAltSolid, CloudMeatballSolid, CloudMoonRainSolid,
+        CloudMoonSolid, CloudRainSolid, CloudShowersHeavySolid, CloudSolid, CloudSunRainSolid,
+        CloudSunSolid, CloudUploadAltSolid, Cloudscale, Cloudsmith, Cloudversify, CocktailSolid,
+        CodeBranchSolid, CodeSolid, Codepen, Codiepie, CoffeeSolid, CogSolid, CogsSolid, CoinsSolid,
+        ColumnsSolid, Comment, CommentAlt, CommentAltSolid, CommentDollarSolid, CommentDots,
+        CommentDotsSolid, CommentMedicalSolid, CommentSlashSolid, CommentSolid, Comments,
+        CommentsDollarSolid, CommentsSolid, CompactDiscSolid, Compass, CompassSolid,
+        CompressArrowsAltSolid, CompressSolid, ConciergeBellSolid, Confluence, Connectdevelop,
+        Contao, CookieBiteSolid, CookieSolid, Copy, CopySolid, Copyright, CopyrightSolid,
+        CottonBureau, CouchSolid, Cpanel, CreativeCommons, CreativeCommonsBy, CreativeCommonsNc,
+        CreativeCommonsNcEu, CreativeCommonsNcJp, CreativeCommonsNd, CreativeCommonsPd,
+        CreativeCommonsPdAlt, CreativeCommonsRemix, CreativeCommonsSa, CreativeCommonsSampling,
+        CreativeCommonsSamplingPlus, CreativeCommonsShare, CreativeCommonsZero, CreditCard,
+        CreditCardSolid, CriticalRole, CropAltSolid, CropSolid, CrossSolid, CrosshairsSolid,
+        CrowSolid, CrownSolid, CrutchSolid, Css3, Css3Alt, CubeSolid, CubesSolid, CutSolid,
+        Cuttlefish, DAndD, DAndDBeyond, Dashcube, DatabaseSolid, DeafSolid, Delicious,
+        DemocratSolid, Deploydog, Deskpro, DesktopSolid, Dev, Deviantart, DharmachakraSolid, Dhl,
+        DiagnosesSolid, Diaspora, DiceD20Solid, DiceD6Solid, DiceFiveSolid, DiceFourSolid,
+        DiceOneSolid, DiceSixSolid, DiceSolid, DiceThreeSolid, DiceTwoSolid, Digg, DigitalOcean,
+        DigitalTachographSolid, DirectionsSolid, Discord, Discourse, DivideSolid, Dizzy, DizzySolid,
+        DnaSolid, Dochub, Docker, DogSolid, DollarSignSolid, DollyFlatbedSolid, DollySolid,
+        DonateSolid, DoorClosedSolid, DoorOpenSolid, DotCircle, DotCircleSolid, DoveSolid,
+        DownloadSolid, Draft2digital, DraftingCompassSolid, DragonSolid, DrawPolygonSolid, Dribbble,
+        DribbbleSquare, Dropbox, DrumSolid, DrumSteelpanSolid, DrumstickBiteSolid, Drupal,
+        DumbbellSolid, DumpsterFireSolid, DumpsterSolid, DungeonSolid, Dyalog, Earlybirds, Ebay,
+        Edge, Edit, EditSolid, EggSolid, EjectSolid, Elementor, EllipsisHSolid, EllipsisVSolid,
+        Ello, Ember, Empire, Envelope, EnvelopeOpen, EnvelopeOpenSolid, EnvelopeOpenTextSolid,
+        EnvelopeSolid, EnvelopeSquareSolid, Envira, EqualsSolid, EraserSolid, Erlang, Ethereum,
+        EthernetSolid, Etsy, EuroSignSolid, Evernote, ExchangeAltSolid, ExclamationCircleSolid,
+        ExclamationSolid, ExclamationTriangleSolid, ExpandArrowsAltSolid, ExpandSolid, Expeditedssl,
+        ExternalLinkAltSolid, ExternalLinkSquareAltSolid, Eye, EyeDropperSolid, EyeSlash,
+        EyeSlashSolid, EyeSolid, Facebook, FacebookF, FacebookMessenger, FacebookSquare, FanSolid,
+        FantasyFlightGames, FastBackwardSolid, FastForwardSolid, FaxSolid, FeatherAltSolid,
+        FeatherSolid, Fedex, Fedora, FemaleSolid, FighterJetSolid, Figma, File, FileAlt,
+        FileAltSolid, FileArchive, FileArchiveSolid, FileAudio, FileAudioSolid, FileCode,
+        FileCodeSolid, FileContractSolid, FileCsvSolid, FileDownloadSolid, FileExcel,
+        FileExcelSolid, FileExportSolid, FileImage, FileImageSolid, FileImportSolid,
+        FileInvoiceDollarSolid, FileInvoiceSolid, FileMedicalAltSolid, FileMedicalSolid, FilePdf,
+        FilePdfSolid, FilePowerpoint, FilePowerpointSolid, FilePrescriptionSolid,
+        FileSignatureSolid, FileSolid, FileUploadSolid, FileVideo, FileVideoSolid, FileWord,
+        FileWordSolid, FillDripSolid, FillSolid, FilmSolid, FilterSolid, FingerprintSolid,
+        FireAltSolid, FireExtinguisherSolid, FireSolid, Firefox, FirstAidSolid, FirstOrder,
+        FirstOrderAlt, Firstdraft, FishSolid, FistRaisedSolid, Flag, FlagCheckeredSolid, FlagSolid,
+        FlagUsaSolid, FlaskSolid, Flickr, Flipboard, Flushed, FlushedSolid, Fly, Folder,
+        FolderMinusSolid, FolderOpen, FolderOpenSolid, FolderPlusSolid, FolderSolid, FontAwesome,
+        FontAwesomeAlt, FontAwesomeFlag, FontSolid, Fonticons, FonticonsFi, FootballBallSolid,
+        FortAwesome, FortAwesomeAlt, Forumbee, ForwardSolid, Foursquare, FreeCodeCamp, Freebsd,
+        FrogSolid, Frown, FrownOpen, FrownOpenSolid, FrownSolid, Fulcrum, FunnelDollarSolid, Futbol,
+        FutbolSolid, GalacticRepublic, GalacticSenate, GamepadSolid, GasPumpSolid, GavelSolid, Gem,
+        GemSolid, GenderlessSolid, GetPocket, Gg, GgCircle, GhostSolid, GiftSolid, GiftsSolid, Git,
+        GitAlt, GitSquare, Github, GithubAlt, GithubSquare, Gitkraken, Gitlab, Gitter,
+        GlassCheersSolid, GlassMartiniAltSolid, GlassMartiniSolid, GlassWhiskeySolid, GlassesSolid,
+        Glide, GlideG, GlobeAfricaSolid, GlobeAmericasSolid, GlobeAsiaSolid, GlobeEuropeSolid,
+        GlobeSolid, Gofore, GolfBallSolid, Goodreads, GoodreadsG, Google, GoogleDrive, GooglePlay,
+        GooglePlus, GooglePlusG, GooglePlusSquare, GoogleWallet, GopuramSolid, GraduationCapSolid,
+        Gratipay, Grav, GreaterThanEqualSolid, GreaterThanSolid, Grimace, GrimaceSolid, Grin,
+        GrinAlt, GrinAltSolid, GrinBeam, GrinBeamSolid, GrinBeamSweat, GrinBeamSweatSolid,
+        GrinHearts, GrinHeartsSolid, GrinSolid, GrinSquint, GrinSquintSolid, GrinSquintTears,
+        GrinSquintTearsSolid, GrinStars, GrinStarsSolid, GrinTears, GrinTearsSolid, GrinTongue,
+        GrinTongueSolid, GrinTongueSquint, GrinTongueSquintSolid, GrinTongueWink,
+        GrinTongueWinkSolid, GrinWink, GrinWinkSolid, GripHorizontalSolid, GripLinesSolid,
+        GripLinesVerticalSolid, GripVerticalSolid, Gripfire, Grunt, GuitarSolid, Gulp, HSquareSolid,
+        HackerNews, HackerNewsSquare, Hackerrank, HamburgerSolid, HammerSolid, HamsaSolid,
+        HandHoldingHeartSolid, HandHoldingSolid, HandHoldingUsdSolid, HandLizard, HandLizardSolid,
+        HandMiddleFingerSolid, HandPaper, HandPaperSolid, HandPeace, HandPeaceSolid, HandPointDown,
+        HandPointDownSolid, HandPointLeft, HandPointLeftSolid, HandPointRight, HandPointRightSolid,
+        HandPointUp, HandPointUpSolid, HandPointer, HandPointerSolid, HandRock, HandRockSolid,
+        HandScissors, HandScissorsSolid, HandSpock, HandSpockSolid, HandsHelpingSolid, HandsSolid,
+        Handshake, HandshakeSolid, HanukiahSolid, HardHatSolid, HashtagSolid, HatCowboySideSolid,
+        HatCowboySolid, HatWizardSolid, HaykalSolid, Hdd, HddSolid, HeadingSolid,
+        HeadphonesAltSolid, HeadphonesSolid, HeadsetSolid, Heart, HeartBrokenSolid, HeartSolid,
+        HeartbeatSolid, HelicopterSolid, HighlighterSolid, HikingSolid, HippoSolid, Hips,
+        HireAHelper, HistorySolid, HockeyPuckSolid, HollyBerrySolid, HomeSolid, Hooli, Hornbill,
+        HorseHeadSolid, HorseSolid, Hospital, HospitalAltSolid, HospitalSolid, HospitalSymbolSolid,
+        HotTubSolid, HotdogSolid, HotelSolid, Hotjar, Hourglass, HourglassEndSolid,
+        HourglassHalfSolid, HourglassSolid, HourglassStartSolid, HouseDamageSolid, Houzz,
+        HryvniaSolid, Html5, Hubspot, ICursorSolid, IceCreamSolid, IciclesSolid, IconsSolid,
+        IdBadge, IdBadgeSolid, IdCard, IdCardAltSolid, IdCardSolid, IglooSolid, Image, ImageSolid,
+        Images, ImagesSolid, Imdb, InboxSolid, IndentSolid, IndustrySolid, InfinitySolid,
+        InfoCircleSolid, InfoSolid, Instagram, Intercom, InternetExplorer, Invision, Ioxhost,
+        ItalicSolid, ItchIo, Itunes, ItunesNote, Java, JediOrder, JediSolid, Jenkins, Jira, Joget,
+        JointSolid, Joomla, JournalWhillsSolid, Js, JsSquare, Jsfiddle, KaabaSolid, Kaggle,
+        KeySolid, Keybase, Keyboard, KeyboardSolid, Keycdn, KhandaSolid, Kickstarter, KickstarterK,
+        Kiss, KissBeam, KissBeamSolid, KissSolid, KissWinkHeart, KissWinkHeartSolid, KiwiBirdSolid,
+        Korvue, LandmarkSolid, LanguageSolid, LaptopCodeSolid, LaptopMedicalSolid, LaptopSolid,
+        Laravel, Lastfm, LastfmSquare, Laugh, LaughBeam, LaughBeamSolid, LaughSolid, LaughSquint,
+        LaughSquintSolid, LaughWink, LaughWinkSolid, LayerGroupSolid, LeafSolid, Leanpub, Lemon,
+        LemonSolid, Less, LessThanEqualSolid, LessThanSolid, LevelDownAltSolid, LevelUpAltSolid,
+        LifeRing, LifeRingSolid, Lightbulb, LightbulbSolid, Line, LinkSolid, Linkedin, LinkedinIn,
+        Linode, Linux, LiraSignSolid, ListAlt, ListAltSolid, ListOlSolid, ListSolid, ListUlSolid,
+        LocationArrowSolid, LockOpenSolid, LockSolid, LongArrowAltDownSolid, LongArrowAltLeftSolid,
+        LongArrowAltRightSolid, LongArrowAltUpSolid, LowVisionSolid, LuggageCartSolid, Lyft,
+        Magento, MagicSolid, MagnetSolid, MailBulkSolid, Mailchimp, MaleSolid, Mandalorian, Map,
+        MapMarkedAltSolid, MapMarkedSolid, MapMarkerAltSolid, MapMarkerSolid, MapPinSolid,
+        MapSignsSolid, MapSolid, Markdown, MarkerSolid, MarsDoubleSolid, MarsSolid,
+        MarsStrokeHSolid, MarsStrokeSolid, MarsStrokeVSolid, MaskSolid, Mastodon, Maxcdn, Mdb,
+        MedalSolid, Medapps, Medium, MediumM, MedkitSolid, Medrt, Meetup, Megaport, Meh, MehBlank,
+        MehBlankSolid, MehRollingEyes, MehRollingEyesSolid, MehSolid, MemorySolid, Mendeley,
+        MenorahSolid, MercurySolid, MeteorSolid, MicrochipSolid, MicrophoneAltSlashSolid,
+        MicrophoneAltSolid, MicrophoneSlashSolid, MicrophoneSolid, MicroscopeSolid, Microsoft,
+        MinusCircleSolid, MinusSolid, MinusSquare, MinusSquareSolid, MittenSolid, Mix, Mixcloud,
+        Mizuni, MobileAltSolid, MobileSolid, Modx, Monero, MoneyBillAlt, MoneyBillAltSolid,
+        MoneyBillSolid, MoneyBillWaveAltSolid, MoneyBillWaveSolid, MoneyCheckAltSolid,
+        MoneyCheckSolid, MonumentSolid, Moon, MoonSolid, MortarPestleSolid, MosqueSolid,
+        MotorcycleSolid, MountainSolid, MousePointerSolid, MouseSolid, MugHotSolid, MusicSolid,
+        Napster, Neos, NetworkWiredSolid, NeuterSolid, Newspaper, NewspaperSolid, Nimblr, Node,
+        NodeJs, NotEqualSolid, NotesMedicalSolid, Npm, Ns8, Nutritionix, ObjectGroup,
+        ObjectGroupSolid, ObjectUngroup, ObjectUngroupSolid, Odnoklassniki, OdnoklassnikiSquare,
+        OilCanSolid, OldRepublic, OmSolid, Opencart, Openid, Opera, OptinMonster, Orcid, Osi,
+        OtterSolid, OutdentSolid, Page4, Pagelines, PagerSolid, PaintBrushSolid, PaintRollerSolid,
+        PaletteSolid, Palfed, PalletSolid, PaperPlane, PaperPlaneSolid, PaperclipSolid,
+        ParachuteBoxSolid, ParagraphSolid, ParkingSolid, PassportSolid, PastafarianismSolid,
+        PasteSolid, Patreon, PauseCircle, PauseCircleSolid, PauseSolid, PawSolid, Paypal,
+        PeaceSolid, PenAltSolid, PenFancySolid, PenNibSolid, PenSolid, PenSquareSolid,
+        PencilAltSolid, PencilRulerSolid, PennyArcade, PeopleCarrySolid, PepperHotSolid,
+        PercentSolid, PercentageSolid, Periscope, PersonBoothSolid, Phabricator, PhoenixFramework,
+        PhoenixSquadron, PhoneAltSolid, PhoneSlashSolid, PhoneSolid, PhoneSquareAltSolid,
+        PhoneSquareSolid, PhoneVolumeSolid, PhotoVideoSolid, Php, PiedPiper, PiedPiperAlt,
+        PiedPiperHat, PiedPiperPp, PiggyBankSolid, PillsSolid, Pinterest, PinterestP,
+        PinterestSquare, PizzaSliceSolid, PlaceOfWorshipSolid, PlaneArrivalSolid,
+        PlaneDepartureSolid, PlaneSolid, PlayCircle, PlayCircleSolid, PlaySolid, Playstation,
+        PlugSolid, PlusCircleSolid, PlusSolid, PlusSquare, PlusSquareSolid, PodcastSolid,
+        PollHSolid, PollSolid, PooSolid, PooStormSolid, PoopSolid, PortraitSolid, PoundSignSolid,
+        PowerOffSolid, PraySolid, PrayingHandsSolid, PrescriptionBottleAltSolid,
+        PrescriptionBottleSolid, PrescriptionSolid, PrintSolid, ProceduresSolid, ProductHunt,
+        ProjectDiagramSolid, Pushed, PuzzlePieceSolid, Python, Qq, QrcodeSolid, QuestionCircle,
+        QuestionCircleSolid, QuestionSolid, QuidditchSolid, Quinscape, Quora, QuoteLeftSolid,
+        QuoteRightSolid, QuranSolid, RProject, RadiationAltSolid, RadiationSolid, RainbowSolid,
+        RandomSolid, RaspberryPi, Ravelry, React, Reacteurope, Readme, Rebel, ReceiptSolid,
+        RecordVinylSolid, RecycleSolid, RedRiver, Reddit, RedditAlien, RedditSquare, Redhat,
+        RedoAltSolid, RedoSolid, Registered, RegisteredSolid, RemoveFormatSolid, Renren,
+        ReplyAllSolid, ReplySolid, Replyd, RepublicanSolid, Researchgate, Resolving, RestroomSolid,
+        RetweetSolid, Rev, RibbonSolid, RingSolid, RoadSolid, RobotSolid, RocketSolid, Rocketchat,
+        Rockrms, RouteSolid, RssSolid, RssSquareSolid, RubleSignSolid, RulerCombinedSolid,
+        RulerHorizontalSolid, RulerSolid, RulerVerticalSolid, RunningSolid, RupeeSignSolid, SadCry,
+        SadCrySolid, SadTear, SadTearSolid, Safari, Salesforce, Sass, SatelliteDishSolid,
+        SatelliteSolid, Save, SaveSolid, Schlix, SchoolSolid, ScrewdriverSolid, Scribd, ScrollSolid,
+        SdCardSolid, SearchDollarSolid, SearchLocationSolid, SearchMinusSolid, SearchPlusSolid,
+        SearchSolid, Searchengin, SeedlingSolid, Sellcast, Sellsy, ServerSolid, Servicestack,
+        ShapesSolid, ShareAltSolid, ShareAltSquareSolid, ShareSolid, ShareSquare, ShareSquareSolid,
+        ShekelSignSolid, ShieldAltSolid, ShipSolid, ShippingFastSolid, Shirtsinbulk,
+        ShoePrintsSolid, ShoppingBagSolid, ShoppingBasketSolid, ShoppingCartSolid, Shopware,
+        ShowerSolid, ShuttleVanSolid, SignInAltSolid, SignLanguageSolid, SignOutAltSolid, SignSolid,
+        SignalSolid, SignatureSolid, SimCardSolid, Simplybuilt, Sistrix, SitemapSolid, Sith,
+        SkatingSolid, Sketch, SkiingNordicSolid, SkiingSolid, SkullCrossbonesSolid, SkullSolid,
+        Skyatlas, Skype, Slack, SlackHash, SlashSolid, SleighSolid, SlidersHSolid, Slideshare,
+        Smile, SmileBeam, SmileBeamSolid, SmileSolid, SmileWink, SmileWinkSolid, SmogSolid,
+        SmokingBanSolid, SmokingSolid, SmsSolid, Snapchat, SnapchatGhost, SnapchatSquare,
+        SnowboardingSolid, Snowflake, SnowflakeSolid, SnowmanSolid, SnowplowSolid, SocksSolid,
+        SolarPanelSolid, SortAlphaDownAltSolid, SortAlphaDownSolid, SortAlphaUpAltSolid,
+        SortAlphaUpSolid, SortAmountDownAltSolid, SortAmountDownSolid, SortAmountUpAltSolid,
+        SortAmountUpSolid, SortDownSolid, SortNumericDownAltSolid, SortNumericDownSolid,
+        SortNumericUpAltSolid, SortNumericUpSolid, SortSolid, SortUpSolid, Soundcloud, Sourcetree,
+        SpaSolid, SpaceShuttleSolid, Speakap, SpeakerDeck, SpellCheckSolid, SpiderSolid,
+        SpinnerSolid, SplotchSolid, Spotify, SprayCanSolid, Square, SquareFullSolid,
+        SquareRootAltSolid, SquareSolid, Squarespace, StackExchange, StackOverflow, Stackpath,
+        StampSolid, Star, StarAndCrescentSolid, StarHalf, StarHalfAltSolid, StarHalfSolid,
+        StarOfDavidSolid, StarOfLifeSolid, StarSolid, Staylinked, Steam, SteamSquare, SteamSymbol,
+        StepBackwardSolid, StepForwardSolid, StethoscopeSolid, StickerMule, StickyNote,
+        StickyNoteSolid, StopCircle, StopCircleSolid, StopSolid, StopwatchSolid, StoreAltSolid,
+        StoreSolid, Strava, StreamSolid, StreetViewSolid, StrikethroughSolid, Stripe, StripeS,
+        StroopwafelSolid, Studiovinari, Stumbleupon, StumbleuponCircle, SubscriptSolid, SubwaySolid,
+        SuitcaseRollingSolid, SuitcaseSolid, Sun, SunSolid, Superpowers, SuperscriptSolid, Supple,
+        Surprise, SurpriseSolid, Suse, SwatchbookSolid, Swift, SwimmerSolid, SwimmingPoolSolid,
+        Symfony, SynagogueSolid, SyncAltSolid, SyncSolid, SyringeSolid, TableSolid,
+        TableTennisSolid, TabletAltSolid, TabletSolid, TabletsSolid, TachometerAltSolid, TagSolid,
+        TagsSolid, TapeSolid, TasksSolid, TaxiSolid, Teamspeak, TeethOpenSolid, TeethSolid,
+        Telegram, TelegramPlane, TemperatureHighSolid, TemperatureLowSolid, TencentWeibo,
+        TengeSolid, TerminalSolid, TextHeightSolid, TextWidthSolid, ThLargeSolid, ThListSolid,
+        ThSolid, TheRedYeti, TheaterMasksSolid, Themeco, Themeisle, ThermometerEmptySolid,
+        ThermometerFullSolid, ThermometerHalfSolid, ThermometerQuarterSolid, ThermometerSolid,
+        ThermometerThreeQuartersSolid, ThinkPeaks, ThumbsDown, ThumbsDownSolid, ThumbsUp,
+        ThumbsUpSolid, ThumbtackSolid, TicketAltSolid, TimesCircle, TimesCircleSolid, TimesSolid,
+        TintSlashSolid, TintSolid, Tired, TiredSolid, ToggleOffSolid, ToggleOnSolid,
+        ToiletPaperSolid, ToiletSolid, ToolboxSolid, ToolsSolid, ToothSolid, TorahSolid,
+        ToriiGateSolid, TractorSolid, TradeFederation, TrademarkSolid, TrafficLightSolid,
+        TrainSolid, TramSolid, TransgenderAltSolid, TransgenderSolid, TrashAlt, TrashAltSolid,
+        TrashRestoreAltSolid, TrashRestoreSolid, TrashSolid, TreeSolid, Trello, Tripadvisor,
+        TrophySolid, TruckLoadingSolid, TruckMonsterSolid, TruckMovingSolid, TruckPickupSolid,
+        TruckSolid, TshirtSolid, TtySolid, Tumblr, TumblrSquare, TvSolid, Twitch, Twitter,
+        TwitterSquare, Typo3, Uber, Ubuntu, Uikit, Umbraco, UmbrellaBeachSolid, UmbrellaSolid,
+        UnderlineSolid, UndoAltSolid, UndoSolid, Uniregistry, UniversalAccessSolid, UniversitySolid,
+        UnlinkSolid, UnlockAltSolid, UnlockSolid, Untappd, UploadSolid, Ups, Usb, User,
+        UserAltSlashSolid, UserAltSolid, UserAstronautSolid, UserCheckSolid, UserCircle,
+        UserCircleSolid, UserClockSolid, UserCogSolid, UserEditSolid, UserFriendsSolid,
+        UserGraduateSolid, UserInjuredSolid, UserLockSolid, UserMdSolid, UserMinusSolid,
+        UserNinjaSolid, UserNurseSolid, UserPlusSolid, UserSecretSolid, UserShieldSolid,
+        UserSlashSolid, UserSolid, UserTagSolid, UserTieSolid, UserTimesSolid, UsersCogSolid,
+        UsersSolid, Usps, Ussunnah, UtensilSpoonSolid, UtensilsSolid, Vaadin, VectorSquareSolid,
+        VenusDoubleSolid, VenusMarsSolid, VenusSolid, Viacoin, Viadeo, ViadeoSquare, VialSolid,
+        VialsSolid, Viber, VideoSlashSolid, VideoSolid, ViharaSolid, Vimeo, VimeoSquare, VimeoV,
+        Vine, Vk, Vnv, VoicemailSolid, VolleyballBallSolid, VolumeDownSolid, VolumeMuteSolid,
+        VolumeOffSolid, VolumeUpSolid, VoteYeaSolid, VrCardboardSolid, Vuejs, WalkingSolid,
+        WalletSolid, WarehouseSolid, WaterSolid, WaveSquareSolid, Waze, Weebly, Weibo,
+        WeightHangingSolid, WeightSolid, Weixin, Whatsapp, WhatsappSquare, WheelchairSolid, Whmcs,
+        WifiSolid, WikipediaW, WindSolid, WindowClose, WindowCloseSolid, WindowMaximize,
+        WindowMaximizeSolid, WindowMinimize, WindowMinimizeSolid, WindowRestore, WindowRestoreSolid,
+        Windows, WineBottleSolid, WineGlassAltSolid, WineGlassSolid, Wix, WizardsOfTheCoast,
+        WolfPackBattalion, WonSignSolid, Wordpress, WordpressSimple, Wpbeginner, Wpexplorer,
+        Wpforms, Wpressr, WrenchSolid, XRaySolid, Xbox, Xing, XingSquare, YCombinator, Yahoo,
+        Yammer, Yandex, YandexInternational, Yarn, Yelp, YenSignSolid, YinYangSolid, Yoast, Youtube,
+        YoutubeSquare, Zhihu, _500px)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val LineAwesomeIcons.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("accessibleicon" to AccessibleIcon, "accusoft" to Accusoft,
+        "acquisitionsincorporated" to AcquisitionsIncorporated, "adsolid" to AdSolid, "addressbook"
+        to AddressBook, "addressbooksolid" to AddressBookSolid, "addresscard" to AddressCard,
+        "addresscardsolid" to AddressCardSolid, "adjustsolid" to AdjustSolid, "adn" to Adn, "adobe"
+        to Adobe, "adversal" to Adversal, "affiliatetheme" to Affiliatetheme, "airfreshenersolid" to
+        AirFreshenerSolid, "airbnb" to Airbnb, "algolia" to Algolia, "aligncentersolid" to
+        AlignCenterSolid, "alignjustifysolid" to AlignJustifySolid, "alignleftsolid" to
+        AlignLeftSolid, "alignrightsolid" to AlignRightSolid, "alipay" to Alipay, "allergiessolid"
+        to AllergiesSolid, "amazon" to Amazon, "amazonpay" to AmazonPay, "ambulancesolid" to
+        AmbulanceSolid, "americansignlanguageinterpretingsolid" to
+        AmericanSignLanguageInterpretingSolid, "amilia" to Amilia, "anchorsolid" to AnchorSolid,
+        "android" to Android, "angellist" to Angellist, "angledoubledownsolid" to
+        AngleDoubleDownSolid, "angledoubleleftsolid" to AngleDoubleLeftSolid,
+        "angledoublerightsolid" to AngleDoubleRightSolid, "angledoubleupsolid" to
+        AngleDoubleUpSolid, "angledownsolid" to AngleDownSolid, "angleleftsolid" to AngleLeftSolid,
+        "anglerightsolid" to AngleRightSolid, "angleupsolid" to AngleUpSolid, "angry" to Angry,
+        "angrysolid" to AngrySolid, "angrycreative" to Angrycreative, "angular" to Angular,
+        "ankhsolid" to AnkhSolid, "appstore" to AppStore, "appstoreios" to AppStoreIos, "apper" to
+        Apper, "apple" to Apple, "applealtsolid" to AppleAltSolid, "applepay" to ApplePay,
+        "archivesolid" to ArchiveSolid, "archwaysolid" to ArchwaySolid, "arrowaltcircledown" to
+        ArrowAltCircleDown, "arrowaltcircledownsolid" to ArrowAltCircleDownSolid,
+        "arrowaltcircleleft" to ArrowAltCircleLeft, "arrowaltcircleleftsolid" to
+        ArrowAltCircleLeftSolid, "arrowaltcircleright" to ArrowAltCircleRight,
+        "arrowaltcirclerightsolid" to ArrowAltCircleRightSolid, "arrowaltcircleup" to
+        ArrowAltCircleUp, "arrowaltcircleupsolid" to ArrowAltCircleUpSolid, "arrowcircledownsolid"
+        to ArrowCircleDownSolid, "arrowcircleleftsolid" to ArrowCircleLeftSolid,
+        "arrowcirclerightsolid" to ArrowCircleRightSolid, "arrowcircleupsolid" to
+        ArrowCircleUpSolid, "arrowdownsolid" to ArrowDownSolid, "arrowleftsolid" to ArrowLeftSolid,
+        "arrowrightsolid" to ArrowRightSolid, "arrowupsolid" to ArrowUpSolid, "arrowsalthsolid" to
+        ArrowsAltHSolid, "arrowsaltsolid" to ArrowsAltSolid, "arrowsaltvsolid" to ArrowsAltVSolid,
+        "artstation" to Artstation, "assistivelisteningsystemssolid" to
+        AssistiveListeningSystemsSolid, "asterisksolid" to AsteriskSolid, "asymmetrik" to
+        Asymmetrik, "atsolid" to AtSolid, "atlassolid" to AtlasSolid, "atlassian" to Atlassian,
+        "atomsolid" to AtomSolid, "audible" to Audible, "audiodescriptionsolid" to
+        AudioDescriptionSolid, "autoprefixer" to Autoprefixer, "avianex" to Avianex, "aviato" to
+        Aviato, "awardsolid" to AwardSolid, "aws" to Aws, "babycarriagesolid" to BabyCarriageSolid,
+        "babysolid" to BabySolid, "backspacesolid" to BackspaceSolid, "backwardsolid" to
+        BackwardSolid, "baconsolid" to BaconSolid, "balancescaleleftsolid" to BalanceScaleLeftSolid,
+        "balancescalerightsolid" to BalanceScaleRightSolid, "balancescalesolid" to
+        BalanceScaleSolid, "bansolid" to BanSolid, "bandaidsolid" to BandAidSolid, "bandcamp" to
+        Bandcamp, "barcodesolid" to BarcodeSolid, "barssolid" to BarsSolid, "baseballballsolid" to
+        BaseballBallSolid, "basketballballsolid" to BasketballBallSolid, "bathsolid" to BathSolid,
+        "batteryemptysolid" to BatteryEmptySolid, "batteryfullsolid" to BatteryFullSolid,
+        "batteryhalfsolid" to BatteryHalfSolid, "batteryquartersolid" to BatteryQuarterSolid,
+        "batterythreequarterssolid" to BatteryThreeQuartersSolid, "battlenet" to BattleNet,
+        "bedsolid" to BedSolid, "beersolid" to BeerSolid, "behance" to Behance, "behancesquare" to
+        BehanceSquare, "bell" to Bell, "bellslash" to BellSlash, "bellslashsolid" to BellSlashSolid,
+        "bellsolid" to BellSolid, "beziercurvesolid" to BezierCurveSolid, "biblesolid" to
+        BibleSolid, "bicyclesolid" to BicycleSolid, "bikingsolid" to BikingSolid, "bimobject" to
+        Bimobject, "binocularssolid" to BinocularsSolid, "biohazardsolid" to BiohazardSolid,
+        "birthdaycakesolid" to BirthdayCakeSolid, "bitbucket" to Bitbucket, "bitcoin" to Bitcoin,
+        "bity" to Bity, "blacktie" to BlackTie, "blackberry" to Blackberry, "blenderphonesolid" to
+        BlenderPhoneSolid, "blendersolid" to BlenderSolid, "blindsolid" to BlindSolid, "blogsolid"
+        to BlogSolid, "blogger" to Blogger, "bloggerb" to BloggerB, "bluetooth" to Bluetooth,
+        "bluetoothb" to BluetoothB, "boldsolid" to BoldSolid, "boltsolid" to BoltSolid, "bombsolid"
+        to BombSolid, "bonesolid" to BoneSolid, "bongsolid" to BongSolid, "bookdeadsolid" to
+        BookDeadSolid, "bookmedicalsolid" to BookMedicalSolid, "bookopensolid" to BookOpenSolid,
+        "bookreadersolid" to BookReaderSolid, "booksolid" to BookSolid, "bookmark" to Bookmark,
+        "bookmarksolid" to BookmarkSolid, "bootstrap" to Bootstrap, "borderallsolid" to
+        BorderAllSolid, "bordernonesolid" to BorderNoneSolid, "borderstylesolid" to
+        BorderStyleSolid, "bowlingballsolid" to BowlingBallSolid, "boxopensolid" to BoxOpenSolid,
+        "boxsolid" to BoxSolid, "boxessolid" to BoxesSolid, "braillesolid" to BrailleSolid,
+        "brainsolid" to BrainSolid, "breadslicesolid" to BreadSliceSolid, "briefcasemedicalsolid" to
+        BriefcaseMedicalSolid, "briefcasesolid" to BriefcaseSolid, "broadcasttowersolid" to
+        BroadcastTowerSolid, "broomsolid" to BroomSolid, "brushsolid" to BrushSolid, "btc" to Btc,
+        "buffer" to Buffer, "bugsolid" to BugSolid, "building" to Building, "buildingsolid" to
+        BuildingSolid, "bullhornsolid" to BullhornSolid, "bullseyesolid" to BullseyeSolid,
+        "burnsolid" to BurnSolid, "buromobelexperte" to Buromobelexperte, "busaltsolid" to
+        BusAltSolid, "bussolid" to BusSolid, "businesstimesolid" to BusinessTimeSolid, "buynlarge"
+        to BuyNLarge, "buysellads" to Buysellads, "calculatorsolid" to CalculatorSolid, "calendar"
+        to Calendar, "calendaralt" to CalendarAlt, "calendaraltsolid" to CalendarAltSolid,
+        "calendarcheck" to CalendarCheck, "calendarchecksolid" to CalendarCheckSolid,
+        "calendardaysolid" to CalendarDaySolid, "calendarminus" to CalendarMinus,
+        "calendarminussolid" to CalendarMinusSolid, "calendarplus" to CalendarPlus,
+        "calendarplussolid" to CalendarPlusSolid, "calendarsolid" to CalendarSolid, "calendartimes"
+        to CalendarTimes, "calendartimessolid" to CalendarTimesSolid, "calendarweeksolid" to
+        CalendarWeekSolid, "cameraretrosolid" to CameraRetroSolid, "camerasolid" to CameraSolid,
+        "campgroundsolid" to CampgroundSolid, "canadianmapleleaf" to CanadianMapleLeaf,
+        "candycanesolid" to CandyCaneSolid, "cannabissolid" to CannabisSolid, "capsulessolid" to
+        CapsulesSolid, "caraltsolid" to CarAltSolid, "carbatterysolid" to CarBatterySolid,
+        "carcrashsolid" to CarCrashSolid, "carsidesolid" to CarSideSolid, "carsolid" to CarSolid,
+        "caretdownsolid" to CaretDownSolid, "caretleftsolid" to CaretLeftSolid, "caretrightsolid" to
+        CaretRightSolid, "caretsquaredown" to CaretSquareDown, "caretsquaredownsolid" to
+        CaretSquareDownSolid, "caretsquareleft" to CaretSquareLeft, "caretsquareleftsolid" to
+        CaretSquareLeftSolid, "caretsquareright" to CaretSquareRight, "caretsquarerightsolid" to
+        CaretSquareRightSolid, "caretsquareup" to CaretSquareUp, "caretsquareupsolid" to
+        CaretSquareUpSolid, "caretupsolid" to CaretUpSolid, "carrotsolid" to CarrotSolid,
+        "cartarrowdownsolid" to CartArrowDownSolid, "cartplussolid" to CartPlusSolid,
+        "cashregistersolid" to CashRegisterSolid, "catsolid" to CatSolid, "ccamazonpay" to
+        CcAmazonPay, "ccamex" to CcAmex, "ccapplepay" to CcApplePay, "ccdinersclub" to CcDinersClub,
+        "ccdiscover" to CcDiscover, "ccjcb" to CcJcb, "ccmastercard" to CcMastercard, "ccpaypal" to
+        CcPaypal, "ccstripe" to CcStripe, "ccvisa" to CcVisa, "centercode" to Centercode, "centos"
+        to Centos, "certificatesolid" to CertificateSolid, "chairsolid" to ChairSolid,
+        "chalkboardsolid" to ChalkboardSolid, "chalkboardteachersolid" to ChalkboardTeacherSolid,
+        "chargingstationsolid" to ChargingStationSolid, "chartareasolid" to ChartAreaSolid,
+        "chartbar" to ChartBar, "chartbarsolid" to ChartBarSolid, "chartlinesolid" to
+        ChartLineSolid, "chartpiesolid" to ChartPieSolid, "checkcircle" to CheckCircle,
+        "checkcirclesolid" to CheckCircleSolid, "checkdoublesolid" to CheckDoubleSolid, "checksolid"
+        to CheckSolid, "checksquare" to CheckSquare, "checksquaresolid" to CheckSquareSolid,
+        "cheesesolid" to CheeseSolid, "chessbishopsolid" to ChessBishopSolid, "chessboardsolid" to
+        ChessBoardSolid, "chesskingsolid" to ChessKingSolid, "chessknightsolid" to ChessKnightSolid,
+        "chesspawnsolid" to ChessPawnSolid, "chessqueensolid" to ChessQueenSolid, "chessrooksolid"
+        to ChessRookSolid, "chesssolid" to ChessSolid, "chevroncircledownsolid" to
+        ChevronCircleDownSolid, "chevroncircleleftsolid" to ChevronCircleLeftSolid,
+        "chevroncirclerightsolid" to ChevronCircleRightSolid, "chevroncircleupsolid" to
+        ChevronCircleUpSolid, "chevrondownsolid" to ChevronDownSolid, "chevronleftsolid" to
+        ChevronLeftSolid, "chevronrightsolid" to ChevronRightSolid, "chevronupsolid" to
+        ChevronUpSolid, "childsolid" to ChildSolid, "chrome" to Chrome, "chromecast" to Chromecast,
+        "churchsolid" to ChurchSolid, "circle" to Circle, "circlenotchsolid" to CircleNotchSolid,
+        "circlesolid" to CircleSolid, "citysolid" to CitySolid, "clinicmedicalsolid" to
+        ClinicMedicalSolid, "clipboard" to Clipboard, "clipboardchecksolid" to ClipboardCheckSolid,
+        "clipboardlistsolid" to ClipboardListSolid, "clipboardsolid" to ClipboardSolid, "clock" to
+        Clock, "clocksolid" to ClockSolid, "clone" to Clone, "clonesolid" to CloneSolid,
+        "closedcaptioning" to ClosedCaptioning, "closedcaptioningsolid" to ClosedCaptioningSolid,
+        "clouddownloadaltsolid" to CloudDownloadAltSolid, "cloudmeatballsolid" to
+        CloudMeatballSolid, "cloudmoonrainsolid" to CloudMoonRainSolid, "cloudmoonsolid" to
+        CloudMoonSolid, "cloudrainsolid" to CloudRainSolid, "cloudshowersheavysolid" to
+        CloudShowersHeavySolid, "cloudsolid" to CloudSolid, "cloudsunrainsolid" to
+        CloudSunRainSolid, "cloudsunsolid" to CloudSunSolid, "clouduploadaltsolid" to
+        CloudUploadAltSolid, "cloudscale" to Cloudscale, "cloudsmith" to Cloudsmith, "cloudversify"
+        to Cloudversify, "cocktailsolid" to CocktailSolid, "codebranchsolid" to CodeBranchSolid,
+        "codesolid" to CodeSolid, "codepen" to Codepen, "codiepie" to Codiepie, "coffeesolid" to
+        CoffeeSolid, "cogsolid" to CogSolid, "cogssolid" to CogsSolid, "coinssolid" to CoinsSolid,
+        "columnssolid" to ColumnsSolid, "comment" to Comment, "commentalt" to CommentAlt,
+        "commentaltsolid" to CommentAltSolid, "commentdollarsolid" to CommentDollarSolid,
+        "commentdots" to CommentDots, "commentdotssolid" to CommentDotsSolid, "commentmedicalsolid"
+        to CommentMedicalSolid, "commentslashsolid" to CommentSlashSolid, "commentsolid" to
+        CommentSolid, "comments" to Comments, "commentsdollarsolid" to CommentsDollarSolid,
+        "commentssolid" to CommentsSolid, "compactdiscsolid" to CompactDiscSolid, "compass" to
+        Compass, "compasssolid" to CompassSolid, "compressarrowsaltsolid" to CompressArrowsAltSolid,
+        "compresssolid" to CompressSolid, "conciergebellsolid" to ConciergeBellSolid, "confluence"
+        to Confluence, "connectdevelop" to Connectdevelop, "contao" to Contao, "cookiebitesolid" to
+        CookieBiteSolid, "cookiesolid" to CookieSolid, "copy" to Copy, "copysolid" to CopySolid,
+        "copyright" to Copyright, "copyrightsolid" to CopyrightSolid, "cottonbureau" to
+        CottonBureau, "couchsolid" to CouchSolid, "cpanel" to Cpanel, "creativecommons" to
+        CreativeCommons, "creativecommonsby" to CreativeCommonsBy, "creativecommonsnc" to
+        CreativeCommonsNc, "creativecommonsnceu" to CreativeCommonsNcEu, "creativecommonsncjp" to
+        CreativeCommonsNcJp, "creativecommonsnd" to CreativeCommonsNd, "creativecommonspd" to
+        CreativeCommonsPd, "creativecommonspdalt" to CreativeCommonsPdAlt, "creativecommonsremix" to
+        CreativeCommonsRemix, "creativecommonssa" to CreativeCommonsSa, "creativecommonssampling" to
+        CreativeCommonsSampling, "creativecommonssamplingplus" to CreativeCommonsSamplingPlus,
+        "creativecommonsshare" to CreativeCommonsShare, "creativecommonszero" to
+        CreativeCommonsZero, "creditcard" to CreditCard, "creditcardsolid" to CreditCardSolid,
+        "criticalrole" to CriticalRole, "cropaltsolid" to CropAltSolid, "cropsolid" to CropSolid,
+        "crosssolid" to CrossSolid, "crosshairssolid" to CrosshairsSolid, "crowsolid" to CrowSolid,
+        "crownsolid" to CrownSolid, "crutchsolid" to CrutchSolid, "css3" to Css3, "css3alt" to
+        Css3Alt, "cubesolid" to CubeSolid, "cubessolid" to CubesSolid, "cutsolid" to CutSolid,
+        "cuttlefish" to Cuttlefish, "dandd" to DAndD, "danddbeyond" to DAndDBeyond, "dashcube" to
+        Dashcube, "databasesolid" to DatabaseSolid, "deafsolid" to DeafSolid, "delicious" to
+        Delicious, "democratsolid" to DemocratSolid, "deploydog" to Deploydog, "deskpro" to Deskpro,
+        "desktopsolid" to DesktopSolid, "dev" to Dev, "deviantart" to Deviantart,
+        "dharmachakrasolid" to DharmachakraSolid, "dhl" to Dhl, "diagnosessolid" to DiagnosesSolid,
+        "diaspora" to Diaspora, "diced20solid" to DiceD20Solid, "diced6solid" to DiceD6Solid,
+        "dicefivesolid" to DiceFiveSolid, "dicefoursolid" to DiceFourSolid, "diceonesolid" to
+        DiceOneSolid, "dicesixsolid" to DiceSixSolid, "dicesolid" to DiceSolid, "dicethreesolid" to
+        DiceThreeSolid, "dicetwosolid" to DiceTwoSolid, "digg" to Digg, "digitalocean" to
+        DigitalOcean, "digitaltachographsolid" to DigitalTachographSolid, "directionssolid" to
+        DirectionsSolid, "discord" to Discord, "discourse" to Discourse, "dividesolid" to
+        DivideSolid, "dizzy" to Dizzy, "dizzysolid" to DizzySolid, "dnasolid" to DnaSolid, "dochub"
+        to Dochub, "docker" to Docker, "dogsolid" to DogSolid, "dollarsignsolid" to DollarSignSolid,
+        "dollyflatbedsolid" to DollyFlatbedSolid, "dollysolid" to DollySolid, "donatesolid" to
+        DonateSolid, "doorclosedsolid" to DoorClosedSolid, "dooropensolid" to DoorOpenSolid,
+        "dotcircle" to DotCircle, "dotcirclesolid" to DotCircleSolid, "dovesolid" to DoveSolid,
+        "downloadsolid" to DownloadSolid, "draft2digital" to Draft2digital, "draftingcompasssolid"
+        to DraftingCompassSolid, "dragonsolid" to DragonSolid, "drawpolygonsolid" to
+        DrawPolygonSolid, "dribbble" to Dribbble, "dribbblesquare" to DribbbleSquare, "dropbox" to
+        Dropbox, "drumsolid" to DrumSolid, "drumsteelpansolid" to DrumSteelpanSolid,
+        "drumstickbitesolid" to DrumstickBiteSolid, "drupal" to Drupal, "dumbbellsolid" to
+        DumbbellSolid, "dumpsterfiresolid" to DumpsterFireSolid, "dumpstersolid" to DumpsterSolid,
+        "dungeonsolid" to DungeonSolid, "dyalog" to Dyalog, "earlybirds" to Earlybirds, "ebay" to
+        Ebay, "edge" to Edge, "edit" to Edit, "editsolid" to EditSolid, "eggsolid" to EggSolid,
+        "ejectsolid" to EjectSolid, "elementor" to Elementor, "ellipsishsolid" to EllipsisHSolid,
+        "ellipsisvsolid" to EllipsisVSolid, "ello" to Ello, "ember" to Ember, "empire" to Empire,
+        "envelope" to Envelope, "envelopeopen" to EnvelopeOpen, "envelopeopensolid" to
+        EnvelopeOpenSolid, "envelopeopentextsolid" to EnvelopeOpenTextSolid, "envelopesolid" to
+        EnvelopeSolid, "envelopesquaresolid" to EnvelopeSquareSolid, "envira" to Envira,
+        "equalssolid" to EqualsSolid, "erasersolid" to EraserSolid, "erlang" to Erlang, "ethereum"
+        to Ethereum, "ethernetsolid" to EthernetSolid, "etsy" to Etsy, "eurosignsolid" to
+        EuroSignSolid, "evernote" to Evernote, "exchangealtsolid" to ExchangeAltSolid,
+        "exclamationcirclesolid" to ExclamationCircleSolid, "exclamationsolid" to ExclamationSolid,
+        "exclamationtrianglesolid" to ExclamationTriangleSolid, "expandarrowsaltsolid" to
+        ExpandArrowsAltSolid, "expandsolid" to ExpandSolid, "expeditedssl" to Expeditedssl,
+        "externallinkaltsolid" to ExternalLinkAltSolid, "externallinksquarealtsolid" to
+        ExternalLinkSquareAltSolid, "eye" to Eye, "eyedroppersolid" to EyeDropperSolid, "eyeslash"
+        to EyeSlash, "eyeslashsolid" to EyeSlashSolid, "eyesolid" to EyeSolid, "facebook" to
+        Facebook, "facebookf" to FacebookF, "facebookmessenger" to FacebookMessenger,
+        "facebooksquare" to FacebookSquare, "fansolid" to FanSolid, "fantasyflightgames" to
+        FantasyFlightGames, "fastbackwardsolid" to FastBackwardSolid, "fastforwardsolid" to
+        FastForwardSolid, "faxsolid" to FaxSolid, "featheraltsolid" to FeatherAltSolid,
+        "feathersolid" to FeatherSolid, "fedex" to Fedex, "fedora" to Fedora, "femalesolid" to
+        FemaleSolid, "fighterjetsolid" to FighterJetSolid, "figma" to Figma, "file" to File,
+        "filealt" to FileAlt, "filealtsolid" to FileAltSolid, "filearchive" to FileArchive,
+        "filearchivesolid" to FileArchiveSolid, "fileaudio" to FileAudio, "fileaudiosolid" to
+        FileAudioSolid, "filecode" to FileCode, "filecodesolid" to FileCodeSolid,
+        "filecontractsolid" to FileContractSolid, "filecsvsolid" to FileCsvSolid,
+        "filedownloadsolid" to FileDownloadSolid, "fileexcel" to FileExcel, "fileexcelsolid" to
+        FileExcelSolid, "fileexportsolid" to FileExportSolid, "fileimage" to FileImage,
+        "fileimagesolid" to FileImageSolid, "fileimportsolid" to FileImportSolid,
+        "fileinvoicedollarsolid" to FileInvoiceDollarSolid, "fileinvoicesolid" to FileInvoiceSolid,
+        "filemedicalaltsolid" to FileMedicalAltSolid, "filemedicalsolid" to FileMedicalSolid,
+        "filepdf" to FilePdf, "filepdfsolid" to FilePdfSolid, "filepowerpoint" to FilePowerpoint,
+        "filepowerpointsolid" to FilePowerpointSolid, "fileprescriptionsolid" to
+        FilePrescriptionSolid, "filesignaturesolid" to FileSignatureSolid, "filesolid" to FileSolid,
+        "fileuploadsolid" to FileUploadSolid, "filevideo" to FileVideo, "filevideosolid" to
+        FileVideoSolid, "fileword" to FileWord, "filewordsolid" to FileWordSolid, "filldripsolid" to
+        FillDripSolid, "fillsolid" to FillSolid, "filmsolid" to FilmSolid, "filtersolid" to
+        FilterSolid, "fingerprintsolid" to FingerprintSolid, "firealtsolid" to FireAltSolid,
+        "fireextinguishersolid" to FireExtinguisherSolid, "firesolid" to FireSolid, "firefox" to
+        Firefox, "firstaidsolid" to FirstAidSolid, "firstorder" to FirstOrder, "firstorderalt" to
+        FirstOrderAlt, "firstdraft" to Firstdraft, "fishsolid" to FishSolid, "fistraisedsolid" to
+        FistRaisedSolid, "flag" to Flag, "flagcheckeredsolid" to FlagCheckeredSolid, "flagsolid" to
+        FlagSolid, "flagusasolid" to FlagUsaSolid, "flasksolid" to FlaskSolid, "flickr" to Flickr,
+        "flipboard" to Flipboard, "flushed" to Flushed, "flushedsolid" to FlushedSolid, "fly" to
+        Fly, "folder" to Folder, "folderminussolid" to FolderMinusSolid, "folderopen" to FolderOpen,
+        "folderopensolid" to FolderOpenSolid, "folderplussolid" to FolderPlusSolid, "foldersolid" to
+        FolderSolid, "fontawesome" to FontAwesome, "fontawesomealt" to FontAwesomeAlt,
+        "fontawesomeflag" to FontAwesomeFlag, "fontsolid" to FontSolid, "fonticons" to Fonticons,
+        "fonticonsfi" to FonticonsFi, "footballballsolid" to FootballBallSolid, "fortawesome" to
+        FortAwesome, "fortawesomealt" to FortAwesomeAlt, "forumbee" to Forumbee, "forwardsolid" to
+        ForwardSolid, "foursquare" to Foursquare, "freecodecamp" to FreeCodeCamp, "freebsd" to
+        Freebsd, "frogsolid" to FrogSolid, "frown" to Frown, "frownopen" to FrownOpen,
+        "frownopensolid" to FrownOpenSolid, "frownsolid" to FrownSolid, "fulcrum" to Fulcrum,
+        "funneldollarsolid" to FunnelDollarSolid, "futbol" to Futbol, "futbolsolid" to FutbolSolid,
+        "galacticrepublic" to GalacticRepublic, "galacticsenate" to GalacticSenate, "gamepadsolid"
+        to GamepadSolid, "gaspumpsolid" to GasPumpSolid, "gavelsolid" to GavelSolid, "gem" to Gem,
+        "gemsolid" to GemSolid, "genderlesssolid" to GenderlessSolid, "getpocket" to GetPocket, "gg"
+        to Gg, "ggcircle" to GgCircle, "ghostsolid" to GhostSolid, "giftsolid" to GiftSolid,
+        "giftssolid" to GiftsSolid, "git" to Git, "gitalt" to GitAlt, "gitsquare" to GitSquare,
+        "github" to Github, "githubalt" to GithubAlt, "githubsquare" to GithubSquare, "gitkraken" to
+        Gitkraken, "gitlab" to Gitlab, "gitter" to Gitter, "glasscheerssolid" to GlassCheersSolid,
+        "glassmartinialtsolid" to GlassMartiniAltSolid, "glassmartinisolid" to GlassMartiniSolid,
+        "glasswhiskeysolid" to GlassWhiskeySolid, "glassessolid" to GlassesSolid, "glide" to Glide,
+        "glideg" to GlideG, "globeafricasolid" to GlobeAfricaSolid, "globeamericassolid" to
+        GlobeAmericasSolid, "globeasiasolid" to GlobeAsiaSolid, "globeeuropesolid" to
+        GlobeEuropeSolid, "globesolid" to GlobeSolid, "gofore" to Gofore, "golfballsolid" to
+        GolfBallSolid, "goodreads" to Goodreads, "goodreadsg" to GoodreadsG, "google" to Google,
+        "googledrive" to GoogleDrive, "googleplay" to GooglePlay, "googleplus" to GooglePlus,
+        "googleplusg" to GooglePlusG, "googleplussquare" to GooglePlusSquare, "googlewallet" to
+        GoogleWallet, "gopuramsolid" to GopuramSolid, "graduationcapsolid" to GraduationCapSolid,
+        "gratipay" to Gratipay, "grav" to Grav, "greaterthanequalsolid" to GreaterThanEqualSolid,
+        "greaterthansolid" to GreaterThanSolid, "grimace" to Grimace, "grimacesolid" to
+        GrimaceSolid, "grin" to Grin, "grinalt" to GrinAlt, "grinaltsolid" to GrinAltSolid,
+        "grinbeam" to GrinBeam, "grinbeamsolid" to GrinBeamSolid, "grinbeamsweat" to GrinBeamSweat,
+        "grinbeamsweatsolid" to GrinBeamSweatSolid, "grinhearts" to GrinHearts, "grinheartssolid" to
+        GrinHeartsSolid, "grinsolid" to GrinSolid, "grinsquint" to GrinSquint, "grinsquintsolid" to
+        GrinSquintSolid, "grinsquinttears" to GrinSquintTears, "grinsquinttearssolid" to
+        GrinSquintTearsSolid, "grinstars" to GrinStars, "grinstarssolid" to GrinStarsSolid,
+        "grintears" to GrinTears, "grintearssolid" to GrinTearsSolid, "grintongue" to GrinTongue,
+        "grintonguesolid" to GrinTongueSolid, "grintonguesquint" to GrinTongueSquint,
+        "grintonguesquintsolid" to GrinTongueSquintSolid, "grintonguewink" to GrinTongueWink,
+        "grintonguewinksolid" to GrinTongueWinkSolid, "grinwink" to GrinWink, "grinwinksolid" to
+        GrinWinkSolid, "griphorizontalsolid" to GripHorizontalSolid, "griplinessolid" to
+        GripLinesSolid, "griplinesverticalsolid" to GripLinesVerticalSolid, "gripverticalsolid" to
+        GripVerticalSolid, "gripfire" to Gripfire, "grunt" to Grunt, "guitarsolid" to GuitarSolid,
+        "gulp" to Gulp, "hsquaresolid" to HSquareSolid, "hackernews" to HackerNews,
+        "hackernewssquare" to HackerNewsSquare, "hackerrank" to Hackerrank, "hamburgersolid" to
+        HamburgerSolid, "hammersolid" to HammerSolid, "hamsasolid" to HamsaSolid,
+        "handholdingheartsolid" to HandHoldingHeartSolid, "handholdingsolid" to HandHoldingSolid,
+        "handholdingusdsolid" to HandHoldingUsdSolid, "handlizard" to HandLizard, "handlizardsolid"
+        to HandLizardSolid, "handmiddlefingersolid" to HandMiddleFingerSolid, "handpaper" to
+        HandPaper, "handpapersolid" to HandPaperSolid, "handpeace" to HandPeace, "handpeacesolid" to
+        HandPeaceSolid, "handpointdown" to HandPointDown, "handpointdownsolid" to
+        HandPointDownSolid, "handpointleft" to HandPointLeft, "handpointleftsolid" to
+        HandPointLeftSolid, "handpointright" to HandPointRight, "handpointrightsolid" to
+        HandPointRightSolid, "handpointup" to HandPointUp, "handpointupsolid" to HandPointUpSolid,
+        "handpointer" to HandPointer, "handpointersolid" to HandPointerSolid, "handrock" to
+        HandRock, "handrocksolid" to HandRockSolid, "handscissors" to HandScissors,
+        "handscissorssolid" to HandScissorsSolid, "handspock" to HandSpock, "handspocksolid" to
+        HandSpockSolid, "handshelpingsolid" to HandsHelpingSolid, "handssolid" to HandsSolid,
+        "handshake" to Handshake, "handshakesolid" to HandshakeSolid, "hanukiahsolid" to
+        HanukiahSolid, "hardhatsolid" to HardHatSolid, "hashtagsolid" to HashtagSolid,
+        "hatcowboysidesolid" to HatCowboySideSolid, "hatcowboysolid" to HatCowboySolid,
+        "hatwizardsolid" to HatWizardSolid, "haykalsolid" to HaykalSolid, "hdd" to Hdd, "hddsolid"
+        to HddSolid, "headingsolid" to HeadingSolid, "headphonesaltsolid" to HeadphonesAltSolid,
+        "headphonessolid" to HeadphonesSolid, "headsetsolid" to HeadsetSolid, "heart" to Heart,
+        "heartbrokensolid" to HeartBrokenSolid, "heartsolid" to HeartSolid, "heartbeatsolid" to
+        HeartbeatSolid, "helicoptersolid" to HelicopterSolid, "highlightersolid" to
+        HighlighterSolid, "hikingsolid" to HikingSolid, "hipposolid" to HippoSolid, "hips" to Hips,
+        "hireahelper" to HireAHelper, "historysolid" to HistorySolid, "hockeypucksolid" to
+        HockeyPuckSolid, "hollyberrysolid" to HollyBerrySolid, "homesolid" to HomeSolid, "hooli" to
+        Hooli, "hornbill" to Hornbill, "horseheadsolid" to HorseHeadSolid, "horsesolid" to
+        HorseSolid, "hospital" to Hospital, "hospitalaltsolid" to HospitalAltSolid, "hospitalsolid"
+        to HospitalSolid, "hospitalsymbolsolid" to HospitalSymbolSolid, "hottubsolid" to
+        HotTubSolid, "hotdogsolid" to HotdogSolid, "hotelsolid" to HotelSolid, "hotjar" to Hotjar,
+        "hourglass" to Hourglass, "hourglassendsolid" to HourglassEndSolid, "hourglasshalfsolid" to
+        HourglassHalfSolid, "hourglasssolid" to HourglassSolid, "hourglassstartsolid" to
+        HourglassStartSolid, "housedamagesolid" to HouseDamageSolid, "houzz" to Houzz,
+        "hryvniasolid" to HryvniaSolid, "html5" to Html5, "hubspot" to Hubspot, "icursorsolid" to
+        ICursorSolid, "icecreamsolid" to IceCreamSolid, "iciclessolid" to IciclesSolid, "iconssolid"
+        to IconsSolid, "idbadge" to IdBadge, "idbadgesolid" to IdBadgeSolid, "idcard" to IdCard,
+        "idcardaltsolid" to IdCardAltSolid, "idcardsolid" to IdCardSolid, "igloosolid" to
+        IglooSolid, "image" to Image, "imagesolid" to ImageSolid, "images" to Images, "imagessolid"
+        to ImagesSolid, "imdb" to Imdb, "inboxsolid" to InboxSolid, "indentsolid" to IndentSolid,
+        "industrysolid" to IndustrySolid, "infinitysolid" to InfinitySolid, "infocirclesolid" to
+        InfoCircleSolid, "infosolid" to InfoSolid, "instagram" to Instagram, "intercom" to Intercom,
+        "internetexplorer" to InternetExplorer, "invision" to Invision, "ioxhost" to Ioxhost,
+        "italicsolid" to ItalicSolid, "itchio" to ItchIo, "itunes" to Itunes, "itunesnote" to
+        ItunesNote, "java" to Java, "jediorder" to JediOrder, "jedisolid" to JediSolid, "jenkins" to
+        Jenkins, "jira" to Jira, "joget" to Joget, "jointsolid" to JointSolid, "joomla" to Joomla,
+        "journalwhillssolid" to JournalWhillsSolid, "js" to Js, "jssquare" to JsSquare, "jsfiddle"
+        to Jsfiddle, "kaabasolid" to KaabaSolid, "kaggle" to Kaggle, "keysolid" to KeySolid,
+        "keybase" to Keybase, "keyboard" to Keyboard, "keyboardsolid" to KeyboardSolid, "keycdn" to
+        Keycdn, "khandasolid" to KhandaSolid, "kickstarter" to Kickstarter, "kickstarterk" to
+        KickstarterK, "kiss" to Kiss, "kissbeam" to KissBeam, "kissbeamsolid" to KissBeamSolid,
+        "kisssolid" to KissSolid, "kisswinkheart" to KissWinkHeart, "kisswinkheartsolid" to
+        KissWinkHeartSolid, "kiwibirdsolid" to KiwiBirdSolid, "korvue" to Korvue, "landmarksolid" to
+        LandmarkSolid, "languagesolid" to LanguageSolid, "laptopcodesolid" to LaptopCodeSolid,
+        "laptopmedicalsolid" to LaptopMedicalSolid, "laptopsolid" to LaptopSolid, "laravel" to
+        Laravel, "lastfm" to Lastfm, "lastfmsquare" to LastfmSquare, "laugh" to Laugh, "laughbeam"
+        to LaughBeam, "laughbeamsolid" to LaughBeamSolid, "laughsolid" to LaughSolid, "laughsquint"
+        to LaughSquint, "laughsquintsolid" to LaughSquintSolid, "laughwink" to LaughWink,
+        "laughwinksolid" to LaughWinkSolid, "layergroupsolid" to LayerGroupSolid, "leafsolid" to
+        LeafSolid, "leanpub" to Leanpub, "lemon" to Lemon, "lemonsolid" to LemonSolid, "less" to
+        Less, "lessthanequalsolid" to LessThanEqualSolid, "lessthansolid" to LessThanSolid,
+        "leveldownaltsolid" to LevelDownAltSolid, "levelupaltsolid" to LevelUpAltSolid, "lifering"
+        to LifeRing, "liferingsolid" to LifeRingSolid, "lightbulb" to Lightbulb, "lightbulbsolid" to
+        LightbulbSolid, "line" to Line, "linksolid" to LinkSolid, "linkedin" to Linkedin,
+        "linkedinin" to LinkedinIn, "linode" to Linode, "linux" to Linux, "lirasignsolid" to
+        LiraSignSolid, "listalt" to ListAlt, "listaltsolid" to ListAltSolid, "listolsolid" to
+        ListOlSolid, "listsolid" to ListSolid, "listulsolid" to ListUlSolid, "locationarrowsolid" to
+        LocationArrowSolid, "lockopensolid" to LockOpenSolid, "locksolid" to LockSolid,
+        "longarrowaltdownsolid" to LongArrowAltDownSolid, "longarrowaltleftsolid" to
+        LongArrowAltLeftSolid, "longarrowaltrightsolid" to LongArrowAltRightSolid,
+        "longarrowaltupsolid" to LongArrowAltUpSolid, "lowvisionsolid" to LowVisionSolid,
+        "luggagecartsolid" to LuggageCartSolid, "lyft" to Lyft, "magento" to Magento, "magicsolid"
+        to MagicSolid, "magnetsolid" to MagnetSolid, "mailbulksolid" to MailBulkSolid, "mailchimp"
+        to Mailchimp, "malesolid" to MaleSolid, "mandalorian" to Mandalorian, "map" to Map,
+        "mapmarkedaltsolid" to MapMarkedAltSolid, "mapmarkedsolid" to MapMarkedSolid,
+        "mapmarkeraltsolid" to MapMarkerAltSolid, "mapmarkersolid" to MapMarkerSolid, "mappinsolid"
+        to MapPinSolid, "mapsignssolid" to MapSignsSolid, "mapsolid" to MapSolid, "markdown" to
+        Markdown, "markersolid" to MarkerSolid, "marsdoublesolid" to MarsDoubleSolid, "marssolid" to
+        MarsSolid, "marsstrokehsolid" to MarsStrokeHSolid, "marsstrokesolid" to MarsStrokeSolid,
+        "marsstrokevsolid" to MarsStrokeVSolid, "masksolid" to MaskSolid, "mastodon" to Mastodon,
+        "maxcdn" to Maxcdn, "mdb" to Mdb, "medalsolid" to MedalSolid, "medapps" to Medapps, "medium"
+        to Medium, "mediumm" to MediumM, "medkitsolid" to MedkitSolid, "medrt" to Medrt, "meetup" to
+        Meetup, "megaport" to Megaport, "meh" to Meh, "mehblank" to MehBlank, "mehblanksolid" to
+        MehBlankSolid, "mehrollingeyes" to MehRollingEyes, "mehrollingeyessolid" to
+        MehRollingEyesSolid, "mehsolid" to MehSolid, "memorysolid" to MemorySolid, "mendeley" to
+        Mendeley, "menorahsolid" to MenorahSolid, "mercurysolid" to MercurySolid, "meteorsolid" to
+        MeteorSolid, "microchipsolid" to MicrochipSolid, "microphonealtslashsolid" to
+        MicrophoneAltSlashSolid, "microphonealtsolid" to MicrophoneAltSolid, "microphoneslashsolid"
+        to MicrophoneSlashSolid, "microphonesolid" to MicrophoneSolid, "microscopesolid" to
+        MicroscopeSolid, "microsoft" to Microsoft, "minuscirclesolid" to MinusCircleSolid,
+        "minussolid" to MinusSolid, "minussquare" to MinusSquare, "minussquaresolid" to
+        MinusSquareSolid, "mittensolid" to MittenSolid, "mix" to Mix, "mixcloud" to Mixcloud,
+        "mizuni" to Mizuni, "mobilealtsolid" to MobileAltSolid, "mobilesolid" to MobileSolid, "modx"
+        to Modx, "monero" to Monero, "moneybillalt" to MoneyBillAlt, "moneybillaltsolid" to
+        MoneyBillAltSolid, "moneybillsolid" to MoneyBillSolid, "moneybillwavealtsolid" to
+        MoneyBillWaveAltSolid, "moneybillwavesolid" to MoneyBillWaveSolid, "moneycheckaltsolid" to
+        MoneyCheckAltSolid, "moneychecksolid" to MoneyCheckSolid, "monumentsolid" to MonumentSolid,
+        "moon" to Moon, "moonsolid" to MoonSolid, "mortarpestlesolid" to MortarPestleSolid,
+        "mosquesolid" to MosqueSolid, "motorcyclesolid" to MotorcycleSolid, "mountainsolid" to
+        MountainSolid, "mousepointersolid" to MousePointerSolid, "mousesolid" to MouseSolid,
+        "mughotsolid" to MugHotSolid, "musicsolid" to MusicSolid, "napster" to Napster, "neos" to
+        Neos, "networkwiredsolid" to NetworkWiredSolid, "neutersolid" to NeuterSolid, "newspaper" to
+        Newspaper, "newspapersolid" to NewspaperSolid, "nimblr" to Nimblr, "node" to Node, "nodejs"
+        to NodeJs, "notequalsolid" to NotEqualSolid, "notesmedicalsolid" to NotesMedicalSolid, "npm"
+        to Npm, "ns8" to Ns8, "nutritionix" to Nutritionix, "objectgroup" to ObjectGroup,
+        "objectgroupsolid" to ObjectGroupSolid, "objectungroup" to ObjectUngroup,
+        "objectungroupsolid" to ObjectUngroupSolid, "odnoklassniki" to Odnoklassniki,
+        "odnoklassnikisquare" to OdnoklassnikiSquare, "oilcansolid" to OilCanSolid, "oldrepublic" to
+        OldRepublic, "omsolid" to OmSolid, "opencart" to Opencart, "openid" to Openid, "opera" to
+        Opera, "optinmonster" to OptinMonster, "orcid" to Orcid, "osi" to Osi, "ottersolid" to
+        OtterSolid, "outdentsolid" to OutdentSolid, "page4" to Page4, "pagelines" to Pagelines,
+        "pagersolid" to PagerSolid, "paintbrushsolid" to PaintBrushSolid, "paintrollersolid" to
+        PaintRollerSolid, "palettesolid" to PaletteSolid, "palfed" to Palfed, "palletsolid" to
+        PalletSolid, "paperplane" to PaperPlane, "paperplanesolid" to PaperPlaneSolid,
+        "paperclipsolid" to PaperclipSolid, "parachuteboxsolid" to ParachuteBoxSolid,
+        "paragraphsolid" to ParagraphSolid, "parkingsolid" to ParkingSolid, "passportsolid" to
+        PassportSolid, "pastafarianismsolid" to PastafarianismSolid, "pastesolid" to PasteSolid,
+        "patreon" to Patreon, "pausecircle" to PauseCircle, "pausecirclesolid" to PauseCircleSolid,
+        "pausesolid" to PauseSolid, "pawsolid" to PawSolid, "paypal" to Paypal, "peacesolid" to
+        PeaceSolid, "penaltsolid" to PenAltSolid, "penfancysolid" to PenFancySolid, "pennibsolid" to
+        PenNibSolid, "pensolid" to PenSolid, "pensquaresolid" to PenSquareSolid, "pencilaltsolid" to
+        PencilAltSolid, "pencilrulersolid" to PencilRulerSolid, "pennyarcade" to PennyArcade,
+        "peoplecarrysolid" to PeopleCarrySolid, "pepperhotsolid" to PepperHotSolid, "percentsolid"
+        to PercentSolid, "percentagesolid" to PercentageSolid, "periscope" to Periscope,
+        "personboothsolid" to PersonBoothSolid, "phabricator" to Phabricator, "phoenixframework" to
+        PhoenixFramework, "phoenixsquadron" to PhoenixSquadron, "phonealtsolid" to PhoneAltSolid,
+        "phoneslashsolid" to PhoneSlashSolid, "phonesolid" to PhoneSolid, "phonesquarealtsolid" to
+        PhoneSquareAltSolid, "phonesquaresolid" to PhoneSquareSolid, "phonevolumesolid" to
+        PhoneVolumeSolid, "photovideosolid" to PhotoVideoSolid, "php" to Php, "piedpiper" to
+        PiedPiper, "piedpiperalt" to PiedPiperAlt, "piedpiperhat" to PiedPiperHat, "piedpiperpp" to
+        PiedPiperPp, "piggybanksolid" to PiggyBankSolid, "pillssolid" to PillsSolid, "pinterest" to
+        Pinterest, "pinterestp" to PinterestP, "pinterestsquare" to PinterestSquare,
+        "pizzaslicesolid" to PizzaSliceSolid, "placeofworshipsolid" to PlaceOfWorshipSolid,
+        "planearrivalsolid" to PlaneArrivalSolid, "planedeparturesolid" to PlaneDepartureSolid,
+        "planesolid" to PlaneSolid, "playcircle" to PlayCircle, "playcirclesolid" to
+        PlayCircleSolid, "playsolid" to PlaySolid, "playstation" to Playstation, "plugsolid" to
+        PlugSolid, "pluscirclesolid" to PlusCircleSolid, "plussolid" to PlusSolid, "plussquare" to
+        PlusSquare, "plussquaresolid" to PlusSquareSolid, "podcastsolid" to PodcastSolid,
+        "pollhsolid" to PollHSolid, "pollsolid" to PollSolid, "poosolid" to PooSolid,
+        "poostormsolid" to PooStormSolid, "poopsolid" to PoopSolid, "portraitsolid" to
+        PortraitSolid, "poundsignsolid" to PoundSignSolid, "poweroffsolid" to PowerOffSolid,
+        "praysolid" to PraySolid, "prayinghandssolid" to PrayingHandsSolid,
+        "prescriptionbottlealtsolid" to PrescriptionBottleAltSolid, "prescriptionbottlesolid" to
+        PrescriptionBottleSolid, "prescriptionsolid" to PrescriptionSolid, "printsolid" to
+        PrintSolid, "proceduressolid" to ProceduresSolid, "producthunt" to ProductHunt,
+        "projectdiagramsolid" to ProjectDiagramSolid, "pushed" to Pushed, "puzzlepiecesolid" to
+        PuzzlePieceSolid, "python" to Python, "qq" to Qq, "qrcodesolid" to QrcodeSolid,
+        "questioncircle" to QuestionCircle, "questioncirclesolid" to QuestionCircleSolid,
+        "questionsolid" to QuestionSolid, "quidditchsolid" to QuidditchSolid, "quinscape" to
+        Quinscape, "quora" to Quora, "quoteleftsolid" to QuoteLeftSolid, "quoterightsolid" to
+        QuoteRightSolid, "quransolid" to QuranSolid, "rproject" to RProject, "radiationaltsolid" to
+        RadiationAltSolid, "radiationsolid" to RadiationSolid, "rainbowsolid" to RainbowSolid,
+        "randomsolid" to RandomSolid, "raspberrypi" to RaspberryPi, "ravelry" to Ravelry, "react" to
+        React, "reacteurope" to Reacteurope, "readme" to Readme, "rebel" to Rebel, "receiptsolid" to
+        ReceiptSolid, "recordvinylsolid" to RecordVinylSolid, "recyclesolid" to RecycleSolid,
+        "redriver" to RedRiver, "reddit" to Reddit, "redditalien" to RedditAlien, "redditsquare" to
+        RedditSquare, "redhat" to Redhat, "redoaltsolid" to RedoAltSolid, "redosolid" to RedoSolid,
+        "registered" to Registered, "registeredsolid" to RegisteredSolid, "removeformatsolid" to
+        RemoveFormatSolid, "renren" to Renren, "replyallsolid" to ReplyAllSolid, "replysolid" to
+        ReplySolid, "replyd" to Replyd, "republicansolid" to RepublicanSolid, "researchgate" to
+        Researchgate, "resolving" to Resolving, "restroomsolid" to RestroomSolid, "retweetsolid" to
+        RetweetSolid, "rev" to Rev, "ribbonsolid" to RibbonSolid, "ringsolid" to RingSolid,
+        "roadsolid" to RoadSolid, "robotsolid" to RobotSolid, "rocketsolid" to RocketSolid,
+        "rocketchat" to Rocketchat, "rockrms" to Rockrms, "routesolid" to RouteSolid, "rsssolid" to
+        RssSolid, "rsssquaresolid" to RssSquareSolid, "rublesignsolid" to RubleSignSolid,
+        "rulercombinedsolid" to RulerCombinedSolid, "rulerhorizontalsolid" to RulerHorizontalSolid,
+        "rulersolid" to RulerSolid, "rulerverticalsolid" to RulerVerticalSolid, "runningsolid" to
+        RunningSolid, "rupeesignsolid" to RupeeSignSolid, "sadcry" to SadCry, "sadcrysolid" to
+        SadCrySolid, "sadtear" to SadTear, "sadtearsolid" to SadTearSolid, "safari" to Safari,
+        "salesforce" to Salesforce, "sass" to Sass, "satellitedishsolid" to SatelliteDishSolid,
+        "satellitesolid" to SatelliteSolid, "save" to Save, "savesolid" to SaveSolid, "schlix" to
+        Schlix, "schoolsolid" to SchoolSolid, "screwdriversolid" to ScrewdriverSolid, "scribd" to
+        Scribd, "scrollsolid" to ScrollSolid, "sdcardsolid" to SdCardSolid, "searchdollarsolid" to
+        SearchDollarSolid, "searchlocationsolid" to SearchLocationSolid, "searchminussolid" to
+        SearchMinusSolid, "searchplussolid" to SearchPlusSolid, "searchsolid" to SearchSolid,
+        "searchengin" to Searchengin, "seedlingsolid" to SeedlingSolid, "sellcast" to Sellcast,
+        "sellsy" to Sellsy, "serversolid" to ServerSolid, "servicestack" to Servicestack,
+        "shapessolid" to ShapesSolid, "sharealtsolid" to ShareAltSolid, "sharealtsquaresolid" to
+        ShareAltSquareSolid, "sharesolid" to ShareSolid, "sharesquare" to ShareSquare,
+        "sharesquaresolid" to ShareSquareSolid, "shekelsignsolid" to ShekelSignSolid,
+        "shieldaltsolid" to ShieldAltSolid, "shipsolid" to ShipSolid, "shippingfastsolid" to
+        ShippingFastSolid, "shirtsinbulk" to Shirtsinbulk, "shoeprintssolid" to ShoePrintsSolid,
+        "shoppingbagsolid" to ShoppingBagSolid, "shoppingbasketsolid" to ShoppingBasketSolid,
+        "shoppingcartsolid" to ShoppingCartSolid, "shopware" to Shopware, "showersolid" to
+        ShowerSolid, "shuttlevansolid" to ShuttleVanSolid, "signinaltsolid" to SignInAltSolid,
+        "signlanguagesolid" to SignLanguageSolid, "signoutaltsolid" to SignOutAltSolid, "signsolid"
+        to SignSolid, "signalsolid" to SignalSolid, "signaturesolid" to SignatureSolid,
+        "simcardsolid" to SimCardSolid, "simplybuilt" to Simplybuilt, "sistrix" to Sistrix,
+        "sitemapsolid" to SitemapSolid, "sith" to Sith, "skatingsolid" to SkatingSolid, "sketch" to
+        Sketch, "skiingnordicsolid" to SkiingNordicSolid, "skiingsolid" to SkiingSolid,
+        "skullcrossbonessolid" to SkullCrossbonesSolid, "skullsolid" to SkullSolid, "skyatlas" to
+        Skyatlas, "skype" to Skype, "slack" to Slack, "slackhash" to SlackHash, "slashsolid" to
+        SlashSolid, "sleighsolid" to SleighSolid, "slidershsolid" to SlidersHSolid, "slideshare" to
+        Slideshare, "smile" to Smile, "smilebeam" to SmileBeam, "smilebeamsolid" to SmileBeamSolid,
+        "smilesolid" to SmileSolid, "smilewink" to SmileWink, "smilewinksolid" to SmileWinkSolid,
+        "smogsolid" to SmogSolid, "smokingbansolid" to SmokingBanSolid, "smokingsolid" to
+        SmokingSolid, "smssolid" to SmsSolid, "snapchat" to Snapchat, "snapchatghost" to
+        SnapchatGhost, "snapchatsquare" to SnapchatSquare, "snowboardingsolid" to SnowboardingSolid,
+        "snowflake" to Snowflake, "snowflakesolid" to SnowflakeSolid, "snowmansolid" to
+        SnowmanSolid, "snowplowsolid" to SnowplowSolid, "sockssolid" to SocksSolid,
+        "solarpanelsolid" to SolarPanelSolid, "sortalphadownaltsolid" to SortAlphaDownAltSolid,
+        "sortalphadownsolid" to SortAlphaDownSolid, "sortalphaupaltsolid" to SortAlphaUpAltSolid,
+        "sortalphaupsolid" to SortAlphaUpSolid, "sortamountdownaltsolid" to SortAmountDownAltSolid,
+        "sortamountdownsolid" to SortAmountDownSolid, "sortamountupaltsolid" to
+        SortAmountUpAltSolid, "sortamountupsolid" to SortAmountUpSolid, "sortdownsolid" to
+        SortDownSolid, "sortnumericdownaltsolid" to SortNumericDownAltSolid, "sortnumericdownsolid"
+        to SortNumericDownSolid, "sortnumericupaltsolid" to SortNumericUpAltSolid,
+        "sortnumericupsolid" to SortNumericUpSolid, "sortsolid" to SortSolid, "sortupsolid" to
+        SortUpSolid, "soundcloud" to Soundcloud, "sourcetree" to Sourcetree, "spasolid" to SpaSolid,
+        "spaceshuttlesolid" to SpaceShuttleSolid, "speakap" to Speakap, "speakerdeck" to
+        SpeakerDeck, "spellchecksolid" to SpellCheckSolid, "spidersolid" to SpiderSolid,
+        "spinnersolid" to SpinnerSolid, "splotchsolid" to SplotchSolid, "spotify" to Spotify,
+        "spraycansolid" to SprayCanSolid, "square" to Square, "squarefullsolid" to SquareFullSolid,
+        "squarerootaltsolid" to SquareRootAltSolid, "squaresolid" to SquareSolid, "squarespace" to
+        Squarespace, "stackexchange" to StackExchange, "stackoverflow" to StackOverflow, "stackpath"
+        to Stackpath, "stampsolid" to StampSolid, "star" to Star, "starandcrescentsolid" to
+        StarAndCrescentSolid, "starhalf" to StarHalf, "starhalfaltsolid" to StarHalfAltSolid,
+        "starhalfsolid" to StarHalfSolid, "starofdavidsolid" to StarOfDavidSolid, "staroflifesolid"
+        to StarOfLifeSolid, "starsolid" to StarSolid, "staylinked" to Staylinked, "steam" to Steam,
+        "steamsquare" to SteamSquare, "steamsymbol" to SteamSymbol, "stepbackwardsolid" to
+        StepBackwardSolid, "stepforwardsolid" to StepForwardSolid, "stethoscopesolid" to
+        StethoscopeSolid, "stickermule" to StickerMule, "stickynote" to StickyNote,
+        "stickynotesolid" to StickyNoteSolid, "stopcircle" to StopCircle, "stopcirclesolid" to
+        StopCircleSolid, "stopsolid" to StopSolid, "stopwatchsolid" to StopwatchSolid,
+        "storealtsolid" to StoreAltSolid, "storesolid" to StoreSolid, "strava" to Strava,
+        "streamsolid" to StreamSolid, "streetviewsolid" to StreetViewSolid, "strikethroughsolid" to
+        StrikethroughSolid, "stripe" to Stripe, "stripes" to StripeS, "stroopwafelsolid" to
+        StroopwafelSolid, "studiovinari" to Studiovinari, "stumbleupon" to Stumbleupon,
+        "stumbleuponcircle" to StumbleuponCircle, "subscriptsolid" to SubscriptSolid, "subwaysolid"
+        to SubwaySolid, "suitcaserollingsolid" to SuitcaseRollingSolid, "suitcasesolid" to
+        SuitcaseSolid, "sun" to Sun, "sunsolid" to SunSolid, "superpowers" to Superpowers,
+        "superscriptsolid" to SuperscriptSolid, "supple" to Supple, "surprise" to Surprise,
+        "surprisesolid" to SurpriseSolid, "suse" to Suse, "swatchbooksolid" to SwatchbookSolid,
+        "swift" to Swift, "swimmersolid" to SwimmerSolid, "swimmingpoolsolid" to SwimmingPoolSolid,
+        "symfony" to Symfony, "synagoguesolid" to SynagogueSolid, "syncaltsolid" to SyncAltSolid,
+        "syncsolid" to SyncSolid, "syringesolid" to SyringeSolid, "tablesolid" to TableSolid,
+        "tabletennissolid" to TableTennisSolid, "tabletaltsolid" to TabletAltSolid, "tabletsolid" to
+        TabletSolid, "tabletssolid" to TabletsSolid, "tachometeraltsolid" to TachometerAltSolid,
+        "tagsolid" to TagSolid, "tagssolid" to TagsSolid, "tapesolid" to TapeSolid, "taskssolid" to
+        TasksSolid, "taxisolid" to TaxiSolid, "teamspeak" to Teamspeak, "teethopensolid" to
+        TeethOpenSolid, "teethsolid" to TeethSolid, "telegram" to Telegram, "telegramplane" to
+        TelegramPlane, "temperaturehighsolid" to TemperatureHighSolid, "temperaturelowsolid" to
+        TemperatureLowSolid, "tencentweibo" to TencentWeibo, "tengesolid" to TengeSolid,
+        "terminalsolid" to TerminalSolid, "textheightsolid" to TextHeightSolid, "textwidthsolid" to
+        TextWidthSolid, "thlargesolid" to ThLargeSolid, "thlistsolid" to ThListSolid, "thsolid" to
+        ThSolid, "theredyeti" to TheRedYeti, "theatermaskssolid" to TheaterMasksSolid, "themeco" to
+        Themeco, "themeisle" to Themeisle, "thermometeremptysolid" to ThermometerEmptySolid,
+        "thermometerfullsolid" to ThermometerFullSolid, "thermometerhalfsolid" to
+        ThermometerHalfSolid, "thermometerquartersolid" to ThermometerQuarterSolid,
+        "thermometersolid" to ThermometerSolid, "thermometerthreequarterssolid" to
+        ThermometerThreeQuartersSolid, "thinkpeaks" to ThinkPeaks, "thumbsdown" to ThumbsDown,
+        "thumbsdownsolid" to ThumbsDownSolid, "thumbsup" to ThumbsUp, "thumbsupsolid" to
+        ThumbsUpSolid, "thumbtacksolid" to ThumbtackSolid, "ticketaltsolid" to TicketAltSolid,
+        "timescircle" to TimesCircle, "timescirclesolid" to TimesCircleSolid, "timessolid" to
+        TimesSolid, "tintslashsolid" to TintSlashSolid, "tintsolid" to TintSolid, "tired" to Tired,
+        "tiredsolid" to TiredSolid, "toggleoffsolid" to ToggleOffSolid, "toggleonsolid" to
+        ToggleOnSolid, "toiletpapersolid" to ToiletPaperSolid, "toiletsolid" to ToiletSolid,
+        "toolboxsolid" to ToolboxSolid, "toolssolid" to ToolsSolid, "toothsolid" to ToothSolid,
+        "torahsolid" to TorahSolid, "toriigatesolid" to ToriiGateSolid, "tractorsolid" to
+        TractorSolid, "tradefederation" to TradeFederation, "trademarksolid" to TrademarkSolid,
+        "trafficlightsolid" to TrafficLightSolid, "trainsolid" to TrainSolid, "tramsolid" to
+        TramSolid, "transgenderaltsolid" to TransgenderAltSolid, "transgendersolid" to
+        TransgenderSolid, "trashalt" to TrashAlt, "trashaltsolid" to TrashAltSolid,
+        "trashrestorealtsolid" to TrashRestoreAltSolid, "trashrestoresolid" to TrashRestoreSolid,
+        "trashsolid" to TrashSolid, "treesolid" to TreeSolid, "trello" to Trello, "tripadvisor" to
+        Tripadvisor, "trophysolid" to TrophySolid, "truckloadingsolid" to TruckLoadingSolid,
+        "truckmonstersolid" to TruckMonsterSolid, "truckmovingsolid" to TruckMovingSolid,
+        "truckpickupsolid" to TruckPickupSolid, "trucksolid" to TruckSolid, "tshirtsolid" to
+        TshirtSolid, "ttysolid" to TtySolid, "tumblr" to Tumblr, "tumblrsquare" to TumblrSquare,
+        "tvsolid" to TvSolid, "twitch" to Twitch, "twitter" to Twitter, "twittersquare" to
+        TwitterSquare, "typo3" to Typo3, "uber" to Uber, "ubuntu" to Ubuntu, "uikit" to Uikit,
+        "umbraco" to Umbraco, "umbrellabeachsolid" to UmbrellaBeachSolid, "umbrellasolid" to
+        UmbrellaSolid, "underlinesolid" to UnderlineSolid, "undoaltsolid" to UndoAltSolid,
+        "undosolid" to UndoSolid, "uniregistry" to Uniregistry, "universalaccesssolid" to
+        UniversalAccessSolid, "universitysolid" to UniversitySolid, "unlinksolid" to UnlinkSolid,
+        "unlockaltsolid" to UnlockAltSolid, "unlocksolid" to UnlockSolid, "untappd" to Untappd,
+        "uploadsolid" to UploadSolid, "ups" to Ups, "usb" to Usb, "user" to User,
+        "useraltslashsolid" to UserAltSlashSolid, "useraltsolid" to UserAltSolid,
+        "userastronautsolid" to UserAstronautSolid, "userchecksolid" to UserCheckSolid, "usercircle"
+        to UserCircle, "usercirclesolid" to UserCircleSolid, "userclocksolid" to UserClockSolid,
+        "usercogsolid" to UserCogSolid, "usereditsolid" to UserEditSolid, "userfriendssolid" to
+        UserFriendsSolid, "usergraduatesolid" to UserGraduateSolid, "userinjuredsolid" to
+        UserInjuredSolid, "userlocksolid" to UserLockSolid, "usermdsolid" to UserMdSolid,
+        "userminussolid" to UserMinusSolid, "userninjasolid" to UserNinjaSolid, "usernursesolid" to
+        UserNurseSolid, "userplussolid" to UserPlusSolid, "usersecretsolid" to UserSecretSolid,
+        "usershieldsolid" to UserShieldSolid, "userslashsolid" to UserSlashSolid, "usersolid" to
+        UserSolid, "usertagsolid" to UserTagSolid, "usertiesolid" to UserTieSolid, "usertimessolid"
+        to UserTimesSolid, "userscogsolid" to UsersCogSolid, "userssolid" to UsersSolid, "usps" to
+        Usps, "ussunnah" to Ussunnah, "utensilspoonsolid" to UtensilSpoonSolid, "utensilssolid" to
+        UtensilsSolid, "vaadin" to Vaadin, "vectorsquaresolid" to VectorSquareSolid,
+        "venusdoublesolid" to VenusDoubleSolid, "venusmarssolid" to VenusMarsSolid, "venussolid" to
+        VenusSolid, "viacoin" to Viacoin, "viadeo" to Viadeo, "viadeosquare" to ViadeoSquare,
+        "vialsolid" to VialSolid, "vialssolid" to VialsSolid, "viber" to Viber, "videoslashsolid" to
+        VideoSlashSolid, "videosolid" to VideoSolid, "viharasolid" to ViharaSolid, "vimeo" to Vimeo,
+        "vimeosquare" to VimeoSquare, "vimeov" to VimeoV, "vine" to Vine, "vk" to Vk, "vnv" to Vnv,
+        "voicemailsolid" to VoicemailSolid, "volleyballballsolid" to VolleyballBallSolid,
+        "volumedownsolid" to VolumeDownSolid, "volumemutesolid" to VolumeMuteSolid, "volumeoffsolid"
+        to VolumeOffSolid, "volumeupsolid" to VolumeUpSolid, "voteyeasolid" to VoteYeaSolid,
+        "vrcardboardsolid" to VrCardboardSolid, "vuejs" to Vuejs, "walkingsolid" to WalkingSolid,
+        "walletsolid" to WalletSolid, "warehousesolid" to WarehouseSolid, "watersolid" to
+        WaterSolid, "wavesquaresolid" to WaveSquareSolid, "waze" to Waze, "weebly" to Weebly,
+        "weibo" to Weibo, "weighthangingsolid" to WeightHangingSolid, "weightsolid" to WeightSolid,
+        "weixin" to Weixin, "whatsapp" to Whatsapp, "whatsappsquare" to WhatsappSquare,
+        "wheelchairsolid" to WheelchairSolid, "whmcs" to Whmcs, "wifisolid" to WifiSolid,
+        "wikipediaw" to WikipediaW, "windsolid" to WindSolid, "windowclose" to WindowClose,
+        "windowclosesolid" to WindowCloseSolid, "windowmaximize" to WindowMaximize,
+        "windowmaximizesolid" to WindowMaximizeSolid, "windowminimize" to WindowMinimize,
+        "windowminimizesolid" to WindowMinimizeSolid, "windowrestore" to WindowRestore,
+        "windowrestoresolid" to WindowRestoreSolid, "windows" to Windows, "winebottlesolid" to
+        WineBottleSolid, "wineglassaltsolid" to WineGlassAltSolid, "wineglasssolid" to
+        WineGlassSolid, "wix" to Wix, "wizardsofthecoast" to WizardsOfTheCoast, "wolfpackbattalion"
+        to WolfPackBattalion, "wonsignsolid" to WonSignSolid, "wordpress" to Wordpress,
+        "wordpresssimple" to WordpressSimple, "wpbeginner" to Wpbeginner, "wpexplorer" to
+        Wpexplorer, "wpforms" to Wpforms, "wpressr" to Wpressr, "wrenchsolid" to WrenchSolid,
+        "xraysolid" to XRaySolid, "xbox" to Xbox, "xing" to Xing, "xingsquare" to XingSquare,
+        "ycombinator" to YCombinator, "yahoo" to Yahoo, "yammer" to Yammer, "yandex" to Yandex,
+        "yandexinternational" to YandexInternational, "yarn" to Yarn, "yelp" to Yelp, "yensignsolid"
+        to YenSignSolid, "yinyangsolid" to YinYangSolid, "yoast" to Yoast, "youtube" to Youtube,
+        "youtubesquare" to YoutubeSquare, "zhihu" to Zhihu, "_500px" to _500px)
+    return __AllIconsNamed!!
   }

@@ -147,12 +147,17 @@ import compose.icons.lineaicons.basicelaboration.TodolistRemove
 import compose.icons.lineaicons.basicelaboration.TodolistSearch
 import compose.icons.lineaicons.basicelaboration.TodolistStar
 import compose.icons.lineaicons.basicelaboration.TodolistUpload
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object BasicElaborationGroup
 
 public val LineaIcons.BasicElaboration: BasicElaborationGroup
   get() = BasicElaborationGroup
+
+public val BasicElaborationGroup.groupName: String
+  get() = "basicelaboration"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -161,30 +166,98 @@ public val BasicElaborationGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(DocumentNext, TodolistPlus, BrowserPlus, MailSearch, DocumentCheck,
-        FolderNoaccess, SmartphoneRefresh, MessageNote, FolderRemove, TodolistNoaccess,
-        BrowserSearch, FolderDocument, BriefcaseMinus, CloudNoaccess, CalendarDownload,
-        SmartphonePicture, DocumentStar, BookmarkPlus, CalendarNoaccess, CalendarRefresh,
-        MessagePlus, CloudDownload, BrowserCheck, CalendarNext, CalendarStar, CloudMinus,
-        TodolistDownload, BriefcaseStar, CalendarEmpty, FolderUpload, BriefcaseFlagged,
-        FolderDownload, TodolistCheck, FolderPicture, BookmarkMinus, MailNext, DocumentPrevious,
-        BriefcaseUpload, TodolistSearch, SmartphoneSearch, TabletPencil, BriefcaseDownload,
-        MessageHappy, TabletRefresh, MessageCheck, DocumentFlagged, TodolistFlagged, FolderRefresh,
-        FolderCloud, TabletPicture, Todolist2, MessageDots, MailHeart, MailStar, BrowserDownload,
-        FolderNext, MailPrevious, FolderPencil, CloudSearch, MailFlagged, CalendarSearch,
-        CalendarCheck, FolderHeart, DocumentSearch, BriefcaseRemove, FolderMinus, MailCloud,
-        FolderStar, SmartphoneNote, FolderGraph, DocumentGraph, MailDocument, DocumentMinus,
-        SmartphoneNoaccess, CloudUpload, MailPicture, DocumentDownload, FolderNote, SmartphoneCloud,
-        CalendarUpload, DocumentHeart, BriefcaseCheck, DocumentUpload, TodolistRemove, MailNoaccess,
-        MailRefresh, MessageRefresh, CloudRefresh, DocumentRemove, TodolistUpload, BriefcaseSearch,
-        FolderFlagged, FolderPlus, DocumentPicture, BookmarkChecck, MailNote, SmartphoneHeart,
-        BrowserMinus, DocumentCloud, MailDownload, DocumentNoaccess, CloudPlus, CloudCheck,
-        CloudRemove, TodolistRefresh, DocumentRefresh, BrowserRefresh, CalendarRemove, TabletNote,
-        MailPencil, MessageHeart, BrowserRemove, TodolistMinus, DocumentPlus, MessageMinus,
-        TabletCloud, BriefcaseRefresh, DocumentPencil, CalendarPrevious, CalendarPencil, MailRemove,
-        TabletNoaccess, MailCheck, CalendarFlagged, CalendarCloud, FolderSearch, TodolistStar,
-        BrowserStar, MessageSad, MailUpload, DocumentNote, CalendarPlus, TodolistCloud, TabletHeart,
-        BriefcasePlus, CalendarMinus, BrowserUpload, FolderPrevious, TabletSearch, SmartphonePencil,
-        FolderCheck, CalendarHeart, BookmarkRemove, MessageRemove, TodolistPencil)
+    __AllIcons= listOf(BookmarkChecck, BookmarkMinus, BookmarkPlus, BookmarkRemove, BriefcaseCheck,
+        BriefcaseDownload, BriefcaseFlagged, BriefcaseMinus, BriefcasePlus, BriefcaseRefresh,
+        BriefcaseRemove, BriefcaseSearch, BriefcaseStar, BriefcaseUpload, BrowserCheck,
+        BrowserDownload, BrowserMinus, BrowserPlus, BrowserRefresh, BrowserRemove, BrowserSearch,
+        BrowserStar, BrowserUpload, CalendarCheck, CalendarCloud, CalendarDownload, CalendarEmpty,
+        CalendarFlagged, CalendarHeart, CalendarMinus, CalendarNext, CalendarNoaccess,
+        CalendarPencil, CalendarPlus, CalendarPrevious, CalendarRefresh, CalendarRemove,
+        CalendarSearch, CalendarStar, CalendarUpload, CloudCheck, CloudDownload, CloudMinus,
+        CloudNoaccess, CloudPlus, CloudRefresh, CloudRemove, CloudSearch, CloudUpload,
+        DocumentCheck, DocumentCloud, DocumentDownload, DocumentFlagged, DocumentGraph,
+        DocumentHeart, DocumentMinus, DocumentNext, DocumentNoaccess, DocumentNote, DocumentPencil,
+        DocumentPicture, DocumentPlus, DocumentPrevious, DocumentRefresh, DocumentRemove,
+        DocumentSearch, DocumentStar, DocumentUpload, FolderCheck, FolderCloud, FolderDocument,
+        FolderDownload, FolderFlagged, FolderGraph, FolderHeart, FolderMinus, FolderNext,
+        FolderNoaccess, FolderNote, FolderPencil, FolderPicture, FolderPlus, FolderPrevious,
+        FolderRefresh, FolderRemove, FolderSearch, FolderStar, FolderUpload, MailCheck, MailCloud,
+        MailDocument, MailDownload, MailFlagged, MailHeart, MailNext, MailNoaccess, MailNote,
+        MailPencil, MailPicture, MailPrevious, MailRefresh, MailRemove, MailSearch, MailStar,
+        MailUpload, MessageCheck, MessageDots, MessageHappy, MessageHeart, MessageMinus,
+        MessageNote, MessagePlus, MessageRefresh, MessageRemove, MessageSad, SmartphoneCloud,
+        SmartphoneHeart, SmartphoneNoaccess, SmartphoneNote, SmartphonePencil, SmartphonePicture,
+        SmartphoneRefresh, SmartphoneSearch, TabletCloud, TabletHeart, TabletNoaccess, TabletNote,
+        TabletPencil, TabletPicture, TabletRefresh, TabletSearch, Todolist2, TodolistCheck,
+        TodolistCloud, TodolistDownload, TodolistFlagged, TodolistMinus, TodolistNoaccess,
+        TodolistPencil, TodolistPlus, TodolistRefresh, TodolistRemove, TodolistSearch, TodolistStar,
+        TodolistUpload)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val BasicElaborationGroup.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("bookmarkchecck" to BookmarkChecck, "bookmarkminus" to BookmarkMinus,
+        "bookmarkplus" to BookmarkPlus, "bookmarkremove" to BookmarkRemove, "briefcasecheck" to
+        BriefcaseCheck, "briefcasedownload" to BriefcaseDownload, "briefcaseflagged" to
+        BriefcaseFlagged, "briefcaseminus" to BriefcaseMinus, "briefcaseplus" to BriefcasePlus,
+        "briefcaserefresh" to BriefcaseRefresh, "briefcaseremove" to BriefcaseRemove,
+        "briefcasesearch" to BriefcaseSearch, "briefcasestar" to BriefcaseStar, "briefcaseupload" to
+        BriefcaseUpload, "browsercheck" to BrowserCheck, "browserdownload" to BrowserDownload,
+        "browserminus" to BrowserMinus, "browserplus" to BrowserPlus, "browserrefresh" to
+        BrowserRefresh, "browserremove" to BrowserRemove, "browsersearch" to BrowserSearch,
+        "browserstar" to BrowserStar, "browserupload" to BrowserUpload, "calendarcheck" to
+        CalendarCheck, "calendarcloud" to CalendarCloud, "calendardownload" to CalendarDownload,
+        "calendarempty" to CalendarEmpty, "calendarflagged" to CalendarFlagged, "calendarheart" to
+        CalendarHeart, "calendarminus" to CalendarMinus, "calendarnext" to CalendarNext,
+        "calendarnoaccess" to CalendarNoaccess, "calendarpencil" to CalendarPencil, "calendarplus"
+        to CalendarPlus, "calendarprevious" to CalendarPrevious, "calendarrefresh" to
+        CalendarRefresh, "calendarremove" to CalendarRemove, "calendarsearch" to CalendarSearch,
+        "calendarstar" to CalendarStar, "calendarupload" to CalendarUpload, "cloudcheck" to
+        CloudCheck, "clouddownload" to CloudDownload, "cloudminus" to CloudMinus, "cloudnoaccess" to
+        CloudNoaccess, "cloudplus" to CloudPlus, "cloudrefresh" to CloudRefresh, "cloudremove" to
+        CloudRemove, "cloudsearch" to CloudSearch, "cloudupload" to CloudUpload, "documentcheck" to
+        DocumentCheck, "documentcloud" to DocumentCloud, "documentdownload" to DocumentDownload,
+        "documentflagged" to DocumentFlagged, "documentgraph" to DocumentGraph, "documentheart" to
+        DocumentHeart, "documentminus" to DocumentMinus, "documentnext" to DocumentNext,
+        "documentnoaccess" to DocumentNoaccess, "documentnote" to DocumentNote, "documentpencil" to
+        DocumentPencil, "documentpicture" to DocumentPicture, "documentplus" to DocumentPlus,
+        "documentprevious" to DocumentPrevious, "documentrefresh" to DocumentRefresh,
+        "documentremove" to DocumentRemove, "documentsearch" to DocumentSearch, "documentstar" to
+        DocumentStar, "documentupload" to DocumentUpload, "foldercheck" to FolderCheck,
+        "foldercloud" to FolderCloud, "folderdocument" to FolderDocument, "folderdownload" to
+        FolderDownload, "folderflagged" to FolderFlagged, "foldergraph" to FolderGraph,
+        "folderheart" to FolderHeart, "folderminus" to FolderMinus, "foldernext" to FolderNext,
+        "foldernoaccess" to FolderNoaccess, "foldernote" to FolderNote, "folderpencil" to
+        FolderPencil, "folderpicture" to FolderPicture, "folderplus" to FolderPlus, "folderprevious"
+        to FolderPrevious, "folderrefresh" to FolderRefresh, "folderremove" to FolderRemove,
+        "foldersearch" to FolderSearch, "folderstar" to FolderStar, "folderupload" to FolderUpload,
+        "mailcheck" to MailCheck, "mailcloud" to MailCloud, "maildocument" to MailDocument,
+        "maildownload" to MailDownload, "mailflagged" to MailFlagged, "mailheart" to MailHeart,
+        "mailnext" to MailNext, "mailnoaccess" to MailNoaccess, "mailnote" to MailNote, "mailpencil"
+        to MailPencil, "mailpicture" to MailPicture, "mailprevious" to MailPrevious, "mailrefresh"
+        to MailRefresh, "mailremove" to MailRemove, "mailsearch" to MailSearch, "mailstar" to
+        MailStar, "mailupload" to MailUpload, "messagecheck" to MessageCheck, "messagedots" to
+        MessageDots, "messagehappy" to MessageHappy, "messageheart" to MessageHeart, "messageminus"
+        to MessageMinus, "messagenote" to MessageNote, "messageplus" to MessagePlus,
+        "messagerefresh" to MessageRefresh, "messageremove" to MessageRemove, "messagesad" to
+        MessageSad, "smartphonecloud" to SmartphoneCloud, "smartphoneheart" to SmartphoneHeart,
+        "smartphonenoaccess" to SmartphoneNoaccess, "smartphonenote" to SmartphoneNote,
+        "smartphonepencil" to SmartphonePencil, "smartphonepicture" to SmartphonePicture,
+        "smartphonerefresh" to SmartphoneRefresh, "smartphonesearch" to SmartphoneSearch,
+        "tabletcloud" to TabletCloud, "tabletheart" to TabletHeart, "tabletnoaccess" to
+        TabletNoaccess, "tabletnote" to TabletNote, "tabletpencil" to TabletPencil, "tabletpicture"
+        to TabletPicture, "tabletrefresh" to TabletRefresh, "tabletsearch" to TabletSearch,
+        "todolist2" to Todolist2, "todolistcheck" to TodolistCheck, "todolistcloud" to
+        TodolistCloud, "todolistdownload" to TodolistDownload, "todolistflagged" to TodolistFlagged,
+        "todolistminus" to TodolistMinus, "todolistnoaccess" to TodolistNoaccess, "todolistpencil"
+        to TodolistPencil, "todolistplus" to TodolistPlus, "todolistrefresh" to TodolistRefresh,
+        "todolistremove" to TodolistRemove, "todolistsearch" to TodolistSearch, "todoliststar" to
+        TodolistStar, "todolistupload" to TodolistUpload)
+    return __AllIconsNamed!!
   }

@@ -87,12 +87,17 @@ import compose.icons.lineaicons.ecommerce.Wallet
 import compose.icons.lineaicons.ecommerce.Won
 import compose.icons.lineaicons.ecommerce.Yen
 import compose.icons.lineaicons.ecommerce.Yen2
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object EcommerceGroup
 
 public val LineaIcons.Ecommerce: EcommerceGroup
   get() = EcommerceGroup
+
+public val EcommerceGroup.groupName: String
+  get() = "ecommerce"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -101,16 +106,50 @@ public val EcommerceGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(CartContent, Sale, ReceiptLira, Dollar, ReceiptPesos, GraphIncrease,
-        ReceiptRupee, BagRemove, Rublo, BasketCloud, Naira, Euro, CartSearch, BagUpload, Bath,
-        Money, BasketPlus, Creditcard, BasketMinus, ReceiptKips, Receipt, Ticket, Yen, Cart,
-        GraphDecrease, CartCheck, ReceiptTugrik, Safe, BasketSearch, Lira, BagDownload, ReceiptWon,
-        ReceiptPound, Bag, ReceiptFranc, ReceiptEuro, Megaphone, Guarani, ReceiptBath, BagCheck,
-        Kips, BasketRefresh, Wallet, Tugriks, Franc, Banknote, BasketRemove, Won, CartRefresh,
-        Sales, BagRefresh, Gift, Pound, BasketUpload, CartDownload, Yen2, BasketCheck,
-        BasketDownload, Cent, Graph3, CartMinus, CartUpload, BagSearch, BagCloud, ReceiptDollar,
-        Banknotes, Graph2, ReceptColon, ReceiptGuarani, BagPlus, Graph1, Pesos, ReceiptRublo, Rupee,
-        Basket, CartPlus, ReceiptYen2, CartCloud, ReceiptNaira, BagMinus, ReceiptYen, CartRemove,
-        Colon, ReceiptCent, Diamond)
+    __AllIcons= listOf(Bag, BagCheck, BagCloud, BagDownload, BagMinus, BagPlus, BagRefresh,
+        BagRemove, BagSearch, BagUpload, Banknote, Banknotes, Basket, BasketCheck, BasketCloud,
+        BasketDownload, BasketMinus, BasketPlus, BasketRefresh, BasketRemove, BasketSearch,
+        BasketUpload, Bath, Cart, CartCheck, CartCloud, CartContent, CartDownload, CartMinus,
+        CartPlus, CartRefresh, CartRemove, CartSearch, CartUpload, Cent, Colon, Creditcard, Diamond,
+        Dollar, Euro, Franc, Gift, Graph1, Graph2, Graph3, GraphDecrease, GraphIncrease, Guarani,
+        Kips, Lira, Megaphone, Money, Naira, Pesos, Pound, Receipt, ReceiptBath, ReceiptCent,
+        ReceiptDollar, ReceiptEuro, ReceiptFranc, ReceiptGuarani, ReceiptKips, ReceiptLira,
+        ReceiptNaira, ReceiptPesos, ReceiptPound, ReceiptRublo, ReceiptRupee, ReceiptTugrik,
+        ReceiptWon, ReceiptYen, ReceiptYen2, ReceptColon, Rublo, Rupee, Safe, Sale, Sales, Ticket,
+        Tugriks, Wallet, Won, Yen, Yen2)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val EcommerceGroup.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("bag" to Bag, "bagcheck" to BagCheck, "bagcloud" to BagCloud,
+        "bagdownload" to BagDownload, "bagminus" to BagMinus, "bagplus" to BagPlus, "bagrefresh" to
+        BagRefresh, "bagremove" to BagRemove, "bagsearch" to BagSearch, "bagupload" to BagUpload,
+        "banknote" to Banknote, "banknotes" to Banknotes, "basket" to Basket, "basketcheck" to
+        BasketCheck, "basketcloud" to BasketCloud, "basketdownload" to BasketDownload, "basketminus"
+        to BasketMinus, "basketplus" to BasketPlus, "basketrefresh" to BasketRefresh, "basketremove"
+        to BasketRemove, "basketsearch" to BasketSearch, "basketupload" to BasketUpload, "bath" to
+        Bath, "cart" to Cart, "cartcheck" to CartCheck, "cartcloud" to CartCloud, "cartcontent" to
+        CartContent, "cartdownload" to CartDownload, "cartminus" to CartMinus, "cartplus" to
+        CartPlus, "cartrefresh" to CartRefresh, "cartremove" to CartRemove, "cartsearch" to
+        CartSearch, "cartupload" to CartUpload, "cent" to Cent, "colon" to Colon, "creditcard" to
+        Creditcard, "diamond" to Diamond, "dollar" to Dollar, "euro" to Euro, "franc" to Franc,
+        "gift" to Gift, "graph1" to Graph1, "graph2" to Graph2, "graph3" to Graph3, "graphdecrease"
+        to GraphDecrease, "graphincrease" to GraphIncrease, "guarani" to Guarani, "kips" to Kips,
+        "lira" to Lira, "megaphone" to Megaphone, "money" to Money, "naira" to Naira, "pesos" to
+        Pesos, "pound" to Pound, "receipt" to Receipt, "receiptbath" to ReceiptBath, "receiptcent"
+        to ReceiptCent, "receiptdollar" to ReceiptDollar, "receipteuro" to ReceiptEuro,
+        "receiptfranc" to ReceiptFranc, "receiptguarani" to ReceiptGuarani, "receiptkips" to
+        ReceiptKips, "receiptlira" to ReceiptLira, "receiptnaira" to ReceiptNaira, "receiptpesos" to
+        ReceiptPesos, "receiptpound" to ReceiptPound, "receiptrublo" to ReceiptRublo, "receiptrupee"
+        to ReceiptRupee, "receipttugrik" to ReceiptTugrik, "receiptwon" to ReceiptWon, "receiptyen"
+        to ReceiptYen, "receiptyen2" to ReceiptYen2, "receptcolon" to ReceptColon, "rublo" to Rublo,
+        "rupee" to Rupee, "safe" to Safe, "sale" to Sale, "sales" to Sales, "ticket" to Ticket,
+        "tugriks" to Tugriks, "wallet" to Wallet, "won" to Won, "yen" to Yen, "yen2" to Yen2)
+    return __AllIconsNamed!!
   }

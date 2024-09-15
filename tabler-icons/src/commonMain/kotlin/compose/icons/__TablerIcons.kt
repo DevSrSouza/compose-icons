@@ -1263,7 +1263,9 @@ import compose.icons.tablericons.ZoomOut
 import compose.icons.tablericons.ZoomQuestion
 import compose.icons.tablericons._2fa
 import compose.icons.tablericons._3dCubeSphere
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object TablerIcons
 
@@ -1274,179 +1276,595 @@ public val TablerIcons.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Columns, ZoomCancel, InfoSquare, Shape, Underline, ChevronsUp, RefreshAlert,
-        HandStop, Switch3, Mug, RowInsertTop, CurlyLoop, MoodCry, BrandGithub, Triangle,
-        AlertOctagon, Submarine, TrendingUp2, Search, Notes, ChevronDownLeft, Point, MoodSad,
-        CornerUpLeft, ArrowsSplit2, ArrowWaveRightDown, TextDirectionLtr, BrandSoundcloud,
-        MoodTongue, Circles, Battery4, Eraser, BrandAppleArcade, CornerLeftDown, Receipt, MoodHappy,
-        BuildingCottage, PhotoOff, BuildingHospital, ArrowTopSquare, RelationOneToOne,
-        BuildingCastle, Ghost, VirusOff, List, Bulb, TableOff, ArrowsUp, ArrowsMaximize, Outlet,
-        Temperature, ZodiacLeo, BallAmericanFootball, PinnedOff, BrandGitlab, DeviceWatch,
-        FilePhone, LiveView, BrandTinder, DeviceMobileMessage, Virus, RotateClockwise, Bed,
-        DeviceFloppy, Wind, Dots, Subscript, Tallymarks, BrandAsana, ArrowsVertical, FileSearch,
-        RectangleVertical, Target, ArrowsLeftRight, Scissors, TrendingUp3, Crosshair, EyeOff,
-        BrandBooking, IndentIncrease, LayoutAlignLeft, PhoneCall, ZodiacTaurus, Discount2,
-        HandMiddleFinger, Switch2, Tools, Section, PhoneIncoming, Repeat, ArrowsUpRight,
-        BrandOpenSource, FolderPlus, TiltShift, LayoutAlignMiddle, Old, Ripple, BoltOff, Cardboards,
-        LettersCase, TextWrapDisabled, AerialLift, VectorTriangle, ChartDonut4, ChartArrows, Shape3,
-        CurrencyKroneSwedish, Track, BrandSentry, Propeller, BrightnessHalf, BallTennis,
-        HelicopterLanding, DeviceComputerCamera, LoaderQuarter, LayoutDistributeHorizontal,
-        BrandInstagram, Adjustments, WaveSine, ArrowBarToLeft, ArrowDownRightCircle,
-        ArrowWaveLeftDown, Umbrella, User, ArrowLoopLeft, HexagonOff, GripHorizontal, Shape2,
-        ArrowLoopRight, MoodConfuzed, ChartPie4, Pool, BuildingBank, CurrentLocation, FaceId,
-        BrandSpotify, HandLittleFinger, ThumbDown, FileCode2, Circle, Rectangle, Fold, Home,
-        ArrowsDoubleNwSe, Copyright, CurrencyRubel, StepInto, FileLike, Omega, Mailbox,
-        SwitchVertical, LetterCase, Music, BrandLinkedin, Pennant, SquareX, Square9, FilterOff,
-        TemperatureCelsius, BrandTumblr, Equal, Battery2, IndentDecrease, Recycle, AlertTriangle,
-        ArrowBackUp, UserX, SquaresDiagonal, Logout, Heading, Hexagon, Strikethrough, FileExport,
-        Pinned, WaveSawTool, BoxMargin, ChevronsRight, GripVertical, MicrophoneOff, BallBasketball,
-        ArrowLeftTail, FileInvoice, FolderX, Shirt, ChartBubble, TrafficCone, MapPinOff,
-        DeviceSpeaker, Nfc, UserOff, WaveSquare, Rotate, ChartArcs, BatteryOff, ArrowUpLeftCircle,
-        Ticket, MessagesOff, HeadphonesOff, ArrowBottomTail, BrandMedium, Brackets, BorderLeft,
-        Devices2, Crop, ArrowRightTail, RadiusTopLeft, DeviceMobileVibration, FileHorizontal, Atom2,
-        Tag, Battery3, Windmill, VideoOff, ListSearch, CurrencyEthereum, SquaresFilled, BrandEdge,
-        Briefcase, SteeringWheel, LetterSpacing, Presentation, Square8, CreditCard, ArrowBack,
-        OctagonOff, BorderOuter, Vector, EqualNot, CloudDownload, CornerRightDownDouble, Rotate2,
-        ScooterElectric, BrandAirbnb, SquareOff, MessageCircle, CurrencyPound, MailForward, Fall,
-        ArrowUpRightCircle, Headset, ArrowUpCircle, Backhoe, Map, Inbox, GasStation, Power,
-        Microphone, Paint, Database, ChartPie3, ZodiacSagittarius, ChartAreaLine, ChevronsDownRight,
-        Battery1, LayoutAlignRight, Viewfinder, ZoomCheck, BorderAll, SwitchHorizontal, Bike,
-        ToggleRight, BoxPadding, ChartDonut2, RecordMail, CurrencyEuro, FloatNone, Tornado,
-        ArrowBottomSquare, TrashOff, LetterCaseToggle, CurrencyDollarSingapore, CrownOff, File,
-        Motorbike, Puzzle, CircleHalfVertical, EarOff, PhoneCalling, RoadSign, ZoomIn, Number9,
-        Files, Helicopter, Marquee, Number8, Seeding, LayoutDistributeVertical, Devices, Lego,
-        ZodiacVirgo, ChartDots, Contrast, RelationOneToMany, BrandVimeo, BrandVk, FileMinus,
-        BrandGoogleDrive, Terminal, MoodCrazyHappy, ChartDonut3, BrandDribbble, Maximize,
-        ColumnInsertRight, CurrencyShekel, DotsVertical, ChartPie2, FloatCenter, ShieldX, SquareDot,
-        ArrowTopTail, CurrencyBath, CashBanknote, EditCircle, BatteryAutomotive, ArrowLeftBar,
-        TestPipe, CirclePlus, ChartCandle, Dimensions, BrandYcombinator, Typography, Droplet,
-        Olympics, Parachute, Keyboard, LineDashed, X, PictureInPictureOn, ArrowBigTop, BrandSass,
-        BrandTidal, ArrowLeftSquare, BoxMultiple7, ArrowsLeft, BorderHorizontal, MoodEmpty, Circle2,
-        GitCompare, DeviceGamepad, Lock, LetterS, LetterD, Menu2, Wifi0, DeviceDesktopAnalytics,
-        UserMinus, Ban, Tallymark2, ChevronsLeft, Divide, CornerLeftUp, Massage, MoodNeutral,
-        ArrowUpRight, CircleCheck, ArrowsRightLeft, MedicalCross, BuildingLighthouse, Discount,
-        Plane, CodePlus, ArrowBarLeft, Focus2, ChartArea, Clipboard, ArrowRightSquare, Package,
-        Mars, LayersIntersect, ArrowLeft, TextWrap, GridDots, BuildingArch, Tallymark3, Link,
-        LayoutRows, ArrowBigRight, Certificate, LetterE, Wifi1, ZodiacCancer, LetterR, Key,
-        Sailboat, FileCode, TrendingUp, TrafficLights, CloudUpload, StarOff, TemperatureFahrenheit,
-        Circle3, ArrowBigDown, BoxMultiple6, Servicemark, BrandDisqus, Selector, FileDownload,
-        Aperture, CaretLeft, Brush, At, Percentage, Ship, FilePlus, Qrcode, ChevronUpLeft,
-        CaretRight, CurrencyReal, Ambulance, CornerRightDown, Space, Circle1, PictureInPicture,
-        CashBanknoteOff, BoxMultiple4, CloudRain, ArrowsUpDown, Minimize, Settings, Disabled2,
-        AntennaBars4, BrandWhatsapp, LetterP, ChevronDownRight, CurrencyLitecoin, Volume3, LetterG,
-        CurrencyWon, Urgent, FileImport, FoldUp, Tallymark1, CameraOff, Movie, Archive,
-        QuestionMark, ManualGearbox, Magnet, Mail, School, Confetti, BallBowling, ChartCircles,
-        FileInfo, DeviceCctv, PlaneArrival, PanoramaVertical, Shield, Download, Prompt,
-        CornerDownLeft, CurrencyLira, Note, SquareRotated, Pin, Bandage, Map2, LayoutAlignCenter,
-        Apps, Wifi2, LetterF, ArrowUpLeft, Volume2, LetterQ, ChartDonut, Planet, BoxMultiple,
-        Forklift, AntennaBars5, BrandGoogleAnalytics, Details, Overline, Parentheses, Server, Bolt,
-        BoxMultiple5, DropletOff, Circle0, ExternalLink, RadiusBottomRight, SquarePlus, Volume,
-        ScubaMask, ArrowsJoin2, Layout2, Folders, Satellite, MinusVertical, Ad, LayoutColumns, Dna,
-        BellMinus, Login, ArrowBarRight, ArrowDownCircle, Circle4, BoxMultiple1, Book,
-        ArrowDownRight, AntennaBars1, VideoMinus, ArrowUp, CornerUpLeftDouble, Variable,
-        BallFootballOff, LetterB, LetterU, Plug, Train, AB, FlipHorizontal, Tallymark4, Wallet,
-        SeparatorHorizontal, ArrowsSort, FileOff, Ruler2, Bell, Dashboard, BuildingBridge, Playlist,
-        ChevronRight, Code, Plant, Shredder, MessageOff, CalendarEvent, _3dCubeSphere, BorderNone,
-        PlayerPlay, Cast, LockOff, Flag, LetterT, CameraRotate, Gps, BrandUnsplash, ChevronLeft,
-        FileZip, Exchange, CurrencyTugrik, LetterC, Battery, BrandGravatar, AlignLeft, BoxMultiple0,
-        BrandFacebook, ArrowsSplit, Circle5, Snowflake, Disc, Markdown, Moped, RowInsertBottom,
-        ArrowsMinimize, DeviceTv, BluetoothOff, GitBranch, ArrowRight, Container, Ruler,
-        TriangleSquareCircle, ShoppingCartOff, Tool, BrandDocker, TrendingDown, DropletHalf,
-        CornerRightUp, BuildingCommunity, Flag3, Biohazard, KeyboardHide, BuildingChurch, Bold,
-        LineHeight, Direction, BoxMultiple2, CurrencyRupee, Circle7, AntennaBars2, Trophy, Hash,
-        ChevronUpRight, LetterA, Plus, ScreenShareOff, PanoramaHorizontal, BorderInner, LetterV,
-        Check, AspectRatio, DeviceAnalytics, FileDiff, BuildingFactory, Tent, Trademark,
-        MessageCircleOff, Smoking, Focus, ZodiacCapricorn, LayoutSidebarRight, Bluetooth,
-        Blockquote, BellX, Flask, FloatLeft, Headphones, BrandSafari, ArrowBottomBar, PhoneCheck,
-        BrandSnapchat, CalendarOff, TruckDelivery, Rss, LockOpen, TruckReturn, HandRock,
-        ArrowWaveRightUp, Hierarchy2, Wifi, LineDotted, ArrowsRight, Scale, SquareCheck, _2fa,
-        LetterW, BrandBitbucket, News, Venus, AntennaBars3, CornerUpRightDouble, Circle6, Vaccine,
-        BoxMultiple3, PlaneDeparture, ArrowNarrowLeft, ArrowBarToUp, World, BrandFigma,
-        ShoppingCart, LayersDifference, Loader, Palette, YinYang, Versions, Flag2, BrandAndroid,
-        FileShredder, Directions, BrandPocket, BrandSteam, BrandPython, ArrowsDoubleNeSw,
-        ReceiptTax, SquareRotatedOff, TemperaturePlus, Businessplan, Tank, ChevronsDownLeft,
-        ShieldLock, ChevronsUpRight, Rainbow, SportBillard, PlayerTrackNext, ToolsKitchen,
-        StairsDown, Copy, LetterM, DeviceTablet, ClipboardX, LetterZ, Social, Wiper, LayoutGridAdd,
-        DeviceMobileRotated, LayersSubtract, Signature, BuildingPavilon, SettingsAutomation,
-        DeviceAudioTape, Macro, FolderOff, CornerRightUpDouble, CornerDownLeftDouble, MailOpened,
-        Speedboat, MoodSuprised, JumpRope, BrandApple, Refresh, ColumnInsertLeft, InfoCircle,
-        Caravan, BrandKickstarter, Plant2, DatabaseOff, CurrencyNaira, BrandGoogle, Subtask,
-        DatabaseExport, WreckingBall, LayoutList, LockAccess, Physotherapist, LetterL, SquareForbid,
-        SortDescending, Sunset, Forms, LayoutGrid, ArrowRampRight, CircleOff, Scan, Bookmarks,
-        Bulldozer, FileDislike, BrandStripe, CurrencyTaka, Sock, ChevronUp, ArrowTopCircle, Writing,
-        ArrowsUpLeft, ArrowDownLeft, MathFunction, TrendingDown3, ArrowBigLeft,
-        CornerLeftDownDouble, PhoneOutgoing, CameraPlus, BrightnessUp, CameraMinus, Paperclip,
-        PlayerStop, ZodiacAquarius, FloatRight, SmartHome, BrandNetflix, Circle8,
-        DirectionHorizontal, SmokingNo, CaretDown, LetterN, Message, Sticker, Award, LetterY,
-        TableImport, Box, Superscript, ArrowBarDown, Messages, Mask, SquareToggle, Peace,
-        SquareForbid2, Square, Crown, Report, Stethoscope, ChartLine, StepOut, ArrowDown, DragDrop,
-        ChartArrowsVertical, ZoomMoney, Notification, MessageCircle2, ChevronsDown, BrandFirefox,
-        TemperatureMinus, Coin, Pacman, ColorPicker, FileReport, BrandTelegram, Forbid, FilesOff,
-        ArrowsRightDown, BrandBehance, BallVolleyball, Table, Send, Barcode, GlassOff, Scooter,
-        CurrencyRenminbi, LetterX, CircleHalf, Golf, LetterO, MathSymbols, ChartInfographic,
-        View360, ZoomQuestion, CurrencyDollarCanadian, BrandCodesandbox, Sunshine, BrandSkype,
-        CircleX, Circle9, Mist, BrandTwitch, HandTwoFingers, Camera, Printer, Trees, ShieldOff,
-        Moon2, TrendingDown2, MessageDots, ArrowsDown, GitCommit, Separator, ArrowNarrowDown,
-        BrandGooglePlay, NewSection, Truck, Stars, MoonStars, EyeCheck, Recharging, Ce, Karate,
-        PresentationAnalytics, BoxMultiple8, CurrencyKroneDanish, WritingSign, GitMerge,
-        BluetoothConnected, HandThreeFingers, RadiusBottomLeft, LetterK, Bucket, Line, Egg, ThumbUp,
-        Glass, BatteryCharging, HandFinger, DevicesPc, BorderRight, BrandSlack, Bus, Infinity,
-        LetterCaseUpper, Flare, ToggleLeft, BorderVertical, BrandCodepen, Feather, Trash,
-        PlayerPause, ShoppingCartPlus, DragDrop2, Leaf, CornerLeftUpDouble, Tournament, Shadow,
-        ZodiacGemini, Marquee2, CurrencyForint, ArrowDownLeftCircle, AlignRight, LetterJ,
-        DeviceMobile, Affiliate, Stairs, VectorBeizer2, Accessible, PhoneOff, CurrencyCent,
-        BrandKotlin, LayoutAlignBottom, TextDirectionRtl, ShoppingCartX, ArrowsDiagonal2, Template,
-        FileText, Star, BoxMultiple9, DropletFilled2, RepeatOnce, FileAnalytics, BrandOpera, Sun,
-        CurrencyKroneCzech, Pyramid, Gauge, CurrencyDinar, Pizza, Edit, BrandPaypal, Unlink,
-        Browser, Bone, AdjustmentsHorizontal, BookmarkOff, Anchor, DotsCircleHorizontal, Checkbox,
-        CircleSquare, Resize, MapPin, FileCertificate, ArrowNarrowRight, Capture, LetterH,
-        BrandDiscord, BrandHipchat, BrandPatreon, Cash, Skateboard, Lifebuoy, Bug, BrandTwitter,
-        CurrencyZloty, ChevronDown, CodeMinus, PlayerTrackPrev, Polaroid, BellOff, Geometry,
-        ReceiptRefund, MessageReport, DeviceLaptop, BrandTailwind, PageBreak, FileCheck, Stack2,
-        Compass, HandRingFinger, BrandCss3, ArrowWaveLeftUp, TriangleOff, AlertCircle, LetterI,
-        AccessPoint, ChevronsUpLeft, Woman, ClearAll, LayoutAlignTop, Frame, Tir, PhonePlus,
-        Copyleft, KeyboardOff, CursorText, ReportMoney, BorderStyle, ViewportNarrow, BrandMessenger,
-        FolderMinus, LayoutKanban, ArrowsDoubleSwNe, ArrowBottomCircle, Select, Sum, Pencil,
-        RotateClockwise2, LayoutNavbar, Language, CornerDownRightDouble, ArrowRightCircle, Square6,
-        CloudSnow, DotsDiagonal, BrandProducthunt, Hierarchy, Sitemap, WiperWash, SortDescending2,
-        PlayerRecord, Diamond, Command, ListCheck, Clock, BuildingSkyscraper, Router, BorderRadius,
-        Octagon, MoodKid, CircleMinus, H1, Phone, IceCream2, Hanger, BrandDeviantart,
-        AccessPointOff, BellRinging2, ClearFormatting, BrandChrome, BrandFoursquare, Tractor,
-        BrandYahoo, Number5, UserCheck, Number4, Eye, CloudOff, Drone, BellPlus, Radioactive,
-        ArrowLeftCircle, KeyboardShow, Location, ArrowBarToDown, ShoppingCartDiscount, FlipVertical,
-        Pill, FileSymlink, Gift, VideoPlus, Wand, BrandShazam, Car, Registered, UserPlus,
-        CurrencyFrank, IceCream, Binary, SunOff, ChartBar, Square7, ToolsKitchen2, Grain, Message2,
-        Share, Forbid2, WifiOff, WorldLongitude, AlignCenter, Square5, ChristmasTree, LayoutCards,
-        ShieldCheck, LivePhoto, ChartPie, BrandFlickr, Growth, SortAscending, TruckOff,
-        DropletFilled, BulbOff, WorldLatitude, Video, LayersLinked, ReceiptOff, Stack, GlassFull,
-        H2, BrandYoutube, Tree, Activity, RotateRectangle, Filter, ZodiacPisces, MoodBoy, FoldDown,
-        CircleDashed, Switch, ClipboardCheck, Italic, UserExclamation, Terminal2, HeartBroken,
-        ArrowBarUp, BrandWindows, Medal, CameraSelfie, PhoneX, Number6, Calendar, ArrowsHorizontal,
-        ReportMedical, BorderBottom, Number7, FileX, Globe, CreditCardOff, Emphasis, Route,
-        ArrowRampLeft, H3, CalendarPlus, CurrencyRiyal, Brightness2, ArrowRightBar, Firetruck,
-        ArrowsJoin, Artboard, ArrowsDoubleSeNw, BrandTiktok, Square4, DeviceComputerCameraOff,
-        ScreenShare, Cut, BuildingCarousel, ArrowsDownUp, Cloud, Alien, CurrencyDollar, License,
-        MessagePlus, PictureInPictureOff, Window, CurrencyBahraini, ReportAnalytics,
-        BuildingFortress, SquareRoot, Dice, Square0, Eyeglass, SquareRoot2, Speakerphone, Upload,
-        ShadowOff, Walk, BoxModel, ClipboardList, ArrowForward, TableExport, DotsDiagonal2,
-        Exposure, Replace, Click, CaretUp, Bookmark, Help, Braces, Rocket, AlignJustified, Number3,
-        CurrencyLeu, ArrowNarrowUp, Trident, Slideshow, CloudFog, CurrencyBitcoin, PlayCard,
-        ArrowsLeftDown, BrandSketch, Number2, ZodiacScorpio, HandOff, SortAscending2, BrandBing,
-        VectorBeizer, ZodiacAries, Checks, BrandReddit, LayoutBottombar, Ear, Swimming, ZodiacLibra,
-        Math, Flame, ArrowForwardUp, SquareToggleHorizontal, H6, PlayerSkipForward, Atom, Comet,
-        CurrencyRipple, ArrowTopBar, DeviceDesktop, CornerUpRight, Menu, CurrencyDirham,
-        CircleDotted, Brightness, Receipt2, FileAlert, FileMusic, ChargingPile, AdjustmentsAlt,
-        Parking, FileUpload, DroneOff, BrandTabler, DropletHalf2, Backspace, Square1,
-        RelationManyToMany, BrightnessDown, MaskOff, SeparatorVertical, Id, Calculator,
-        PlayerSkipBack, PhonePause, ChartRadar, Mouse, CalendarTime, ArrowsDiagonal, MapPins,
-        RadiusTopRight, Square3, CloudStorm, BrandFramer, ZoomOut, LetterCaseLower, BuildingStore,
-        Man, BuildingBridge2, BellRinging, ChartArcs3, StairsUp, CalendarMinus, MoodSmile, Building,
-        Eyeglass2, ViewportWide, CornerDownRight, CalendarStats, History, CurrencyDollarAustralian,
-        BuildingMonument, Folder, BrandHtml5, H4, Alarm, CurrencyYen, Basket, Users, Pokeball,
-        Slice, Fingerprint, BrandPagekit, Home2, Number0, DeviceDesktopOff, BrandAppstore, Minus,
-        LayoutSidebar, SquareMinus, GitPullRequest, Number1, BallFootball, LayersUnion, Photo, Run,
-        Moon, VirusSearch, GitFork, BorderTop, ArrowBarToRight, Pray, DatabaseImport, Friends,
-        Perspective, H5, SoccerField, Layout, BrandPinterest, StarHalf, Notebook, ColorSwatch,
-        Square2, Disabled, Heart, BuildingWarehouse)
+    __AllIcons= listOf(AB, AccessPoint, AccessPointOff, Accessible, Activity, Ad, Adjustments,
+        AdjustmentsAlt, AdjustmentsHorizontal, AerialLift, Affiliate, Alarm, AlertCircle,
+        AlertOctagon, AlertTriangle, Alien, AlignCenter, AlignJustified, AlignLeft, AlignRight,
+        Ambulance, Anchor, AntennaBars1, AntennaBars2, AntennaBars3, AntennaBars4, AntennaBars5,
+        Aperture, Apps, Archive, ArrowBack, ArrowBackUp, ArrowBarDown, ArrowBarLeft, ArrowBarRight,
+        ArrowBarToDown, ArrowBarToLeft, ArrowBarToRight, ArrowBarToUp, ArrowBarUp, ArrowBigDown,
+        ArrowBigLeft, ArrowBigRight, ArrowBigTop, ArrowBottomBar, ArrowBottomCircle,
+        ArrowBottomSquare, ArrowBottomTail, ArrowDown, ArrowDownCircle, ArrowDownLeft,
+        ArrowDownLeftCircle, ArrowDownRight, ArrowDownRightCircle, ArrowForward, ArrowForwardUp,
+        ArrowLeft, ArrowLeftBar, ArrowLeftCircle, ArrowLeftSquare, ArrowLeftTail, ArrowLoopLeft,
+        ArrowLoopRight, ArrowNarrowDown, ArrowNarrowLeft, ArrowNarrowRight, ArrowNarrowUp,
+        ArrowRampLeft, ArrowRampRight, ArrowRight, ArrowRightBar, ArrowRightCircle,
+        ArrowRightSquare, ArrowRightTail, ArrowTopBar, ArrowTopCircle, ArrowTopSquare, ArrowTopTail,
+        ArrowUp, ArrowUpCircle, ArrowUpLeft, ArrowUpLeftCircle, ArrowUpRight, ArrowUpRightCircle,
+        ArrowWaveLeftDown, ArrowWaveLeftUp, ArrowWaveRightDown, ArrowWaveRightUp, ArrowsDiagonal,
+        ArrowsDiagonal2, ArrowsDoubleNeSw, ArrowsDoubleNwSe, ArrowsDoubleSeNw, ArrowsDoubleSwNe,
+        ArrowsDown, ArrowsDownUp, ArrowsHorizontal, ArrowsJoin, ArrowsJoin2, ArrowsLeft,
+        ArrowsLeftDown, ArrowsLeftRight, ArrowsMaximize, ArrowsMinimize, ArrowsRight,
+        ArrowsRightDown, ArrowsRightLeft, ArrowsSort, ArrowsSplit, ArrowsSplit2, ArrowsUp,
+        ArrowsUpDown, ArrowsUpLeft, ArrowsUpRight, ArrowsVertical, Artboard, AspectRatio, At, Atom,
+        Atom2, Award, Backhoe, Backspace, BallAmericanFootball, BallBasketball, BallBowling,
+        BallFootball, BallFootballOff, BallTennis, BallVolleyball, Ban, Bandage, Barcode, Basket,
+        Battery, Battery1, Battery2, Battery3, Battery4, BatteryAutomotive, BatteryCharging,
+        BatteryOff, Bed, Bell, BellMinus, BellOff, BellPlus, BellRinging, BellRinging2, BellX, Bike,
+        Binary, Biohazard, Blockquote, Bluetooth, BluetoothConnected, BluetoothOff, Bold, Bolt,
+        BoltOff, Bone, Book, Bookmark, BookmarkOff, Bookmarks, BorderAll, BorderBottom,
+        BorderHorizontal, BorderInner, BorderLeft, BorderNone, BorderOuter, BorderRadius,
+        BorderRight, BorderStyle, BorderTop, BorderVertical, Box, BoxMargin, BoxModel, BoxMultiple,
+        BoxMultiple0, BoxMultiple1, BoxMultiple2, BoxMultiple3, BoxMultiple4, BoxMultiple5,
+        BoxMultiple6, BoxMultiple7, BoxMultiple8, BoxMultiple9, BoxPadding, Braces, Brackets,
+        BrandAirbnb, BrandAndroid, BrandApple, BrandAppleArcade, BrandAppstore, BrandAsana,
+        BrandBehance, BrandBing, BrandBitbucket, BrandBooking, BrandChrome, BrandCodepen,
+        BrandCodesandbox, BrandCss3, BrandDeviantart, BrandDiscord, BrandDisqus, BrandDocker,
+        BrandDribbble, BrandEdge, BrandFacebook, BrandFigma, BrandFirefox, BrandFlickr,
+        BrandFoursquare, BrandFramer, BrandGithub, BrandGitlab, BrandGoogle, BrandGoogleAnalytics,
+        BrandGoogleDrive, BrandGooglePlay, BrandGravatar, BrandHipchat, BrandHtml5, BrandInstagram,
+        BrandKickstarter, BrandKotlin, BrandLinkedin, BrandMedium, BrandMessenger, BrandNetflix,
+        BrandOpenSource, BrandOpera, BrandPagekit, BrandPatreon, BrandPaypal, BrandPinterest,
+        BrandPocket, BrandProducthunt, BrandPython, BrandReddit, BrandSafari, BrandSass,
+        BrandSentry, BrandShazam, BrandSketch, BrandSkype, BrandSlack, BrandSnapchat,
+        BrandSoundcloud, BrandSpotify, BrandSteam, BrandStripe, BrandTabler, BrandTailwind,
+        BrandTelegram, BrandTidal, BrandTiktok, BrandTinder, BrandTumblr, BrandTwitch, BrandTwitter,
+        BrandUnsplash, BrandVimeo, BrandVk, BrandWhatsapp, BrandWindows, BrandYahoo,
+        BrandYcombinator, BrandYoutube, Briefcase, Brightness, Brightness2, BrightnessDown,
+        BrightnessHalf, BrightnessUp, Browser, Brush, Bucket, Bug, Building, BuildingArch,
+        BuildingBank, BuildingBridge, BuildingBridge2, BuildingCarousel, BuildingCastle,
+        BuildingChurch, BuildingCommunity, BuildingCottage, BuildingFactory, BuildingFortress,
+        BuildingHospital, BuildingLighthouse, BuildingMonument, BuildingPavilon, BuildingSkyscraper,
+        BuildingStore, BuildingWarehouse, Bulb, BulbOff, Bulldozer, Bus, Businessplan, Calculator,
+        Calendar, CalendarEvent, CalendarMinus, CalendarOff, CalendarPlus, CalendarStats,
+        CalendarTime, Camera, CameraMinus, CameraOff, CameraPlus, CameraRotate, CameraSelfie,
+        Capture, Car, Caravan, Cardboards, CaretDown, CaretLeft, CaretRight, CaretUp, Cash,
+        CashBanknote, CashBanknoteOff, Cast, Ce, Certificate, ChargingPile, ChartArcs, ChartArcs3,
+        ChartArea, ChartAreaLine, ChartArrows, ChartArrowsVertical, ChartBar, ChartBubble,
+        ChartCandle, ChartCircles, ChartDonut, ChartDonut2, ChartDonut3, ChartDonut4, ChartDots,
+        ChartInfographic, ChartLine, ChartPie, ChartPie2, ChartPie3, ChartPie4, ChartRadar, Check,
+        Checkbox, Checks, ChevronDown, ChevronDownLeft, ChevronDownRight, ChevronLeft, ChevronRight,
+        ChevronUp, ChevronUpLeft, ChevronUpRight, ChevronsDown, ChevronsDownLeft, ChevronsDownRight,
+        ChevronsLeft, ChevronsRight, ChevronsUp, ChevronsUpLeft, ChevronsUpRight, ChristmasTree,
+        Circle, Circle0, Circle1, Circle2, Circle3, Circle4, Circle5, Circle6, Circle7, Circle8,
+        Circle9, CircleCheck, CircleDashed, CircleDotted, CircleHalf, CircleHalfVertical,
+        CircleMinus, CircleOff, CirclePlus, CircleSquare, CircleX, Circles, ClearAll,
+        ClearFormatting, Click, Clipboard, ClipboardCheck, ClipboardList, ClipboardX, Clock, Cloud,
+        CloudDownload, CloudFog, CloudOff, CloudRain, CloudSnow, CloudStorm, CloudUpload, Code,
+        CodeMinus, CodePlus, Coin, ColorPicker, ColorSwatch, ColumnInsertLeft, ColumnInsertRight,
+        Columns, Comet, Command, Compass, Confetti, Container, Contrast, Copy, Copyleft, Copyright,
+        CornerDownLeft, CornerDownLeftDouble, CornerDownRight, CornerDownRightDouble,
+        CornerLeftDown, CornerLeftDownDouble, CornerLeftUp, CornerLeftUpDouble, CornerRightDown,
+        CornerRightDownDouble, CornerRightUp, CornerRightUpDouble, CornerUpLeft, CornerUpLeftDouble,
+        CornerUpRight, CornerUpRightDouble, CreditCard, CreditCardOff, Crop, Crosshair, Crown,
+        CrownOff, CurlyLoop, CurrencyBahraini, CurrencyBath, CurrencyBitcoin, CurrencyCent,
+        CurrencyDinar, CurrencyDirham, CurrencyDollar, CurrencyDollarAustralian,
+        CurrencyDollarCanadian, CurrencyDollarSingapore, CurrencyEthereum, CurrencyEuro,
+        CurrencyForint, CurrencyFrank, CurrencyKroneCzech, CurrencyKroneDanish,
+        CurrencyKroneSwedish, CurrencyLeu, CurrencyLira, CurrencyLitecoin, CurrencyNaira,
+        CurrencyPound, CurrencyReal, CurrencyRenminbi, CurrencyRipple, CurrencyRiyal, CurrencyRubel,
+        CurrencyRupee, CurrencyShekel, CurrencyTaka, CurrencyTugrik, CurrencyWon, CurrencyYen,
+        CurrencyZloty, CurrentLocation, CursorText, Cut, Dashboard, Database, DatabaseExport,
+        DatabaseImport, DatabaseOff, Details, DeviceAnalytics, DeviceAudioTape, DeviceCctv,
+        DeviceComputerCamera, DeviceComputerCameraOff, DeviceDesktop, DeviceDesktopAnalytics,
+        DeviceDesktopOff, DeviceFloppy, DeviceGamepad, DeviceLaptop, DeviceMobile,
+        DeviceMobileMessage, DeviceMobileRotated, DeviceMobileVibration, DeviceSpeaker,
+        DeviceTablet, DeviceTv, DeviceWatch, Devices, Devices2, DevicesPc, Diamond, Dice,
+        Dimensions, Direction, DirectionHorizontal, Directions, Disabled, Disabled2, Disc, Discount,
+        Discount2, Divide, Dna, Dots, DotsCircleHorizontal, DotsDiagonal, DotsDiagonal2,
+        DotsVertical, Download, DragDrop, DragDrop2, Drone, DroneOff, Droplet, DropletFilled,
+        DropletFilled2, DropletHalf, DropletHalf2, DropletOff, Ear, EarOff, Edit, EditCircle, Egg,
+        Emphasis, Equal, EqualNot, Eraser, Exchange, Exposure, ExternalLink, Eye, EyeCheck, EyeOff,
+        Eyeglass, Eyeglass2, FaceId, Fall, Feather, File, FileAlert, FileAnalytics, FileCertificate,
+        FileCheck, FileCode, FileCode2, FileDiff, FileDislike, FileDownload, FileExport,
+        FileHorizontal, FileImport, FileInfo, FileInvoice, FileLike, FileMinus, FileMusic, FileOff,
+        FilePhone, FilePlus, FileReport, FileSearch, FileShredder, FileSymlink, FileText,
+        FileUpload, FileX, FileZip, Files, FilesOff, Filter, FilterOff, Fingerprint, Firetruck,
+        Flag, Flag2, Flag3, Flame, Flare, Flask, FlipHorizontal, FlipVertical, FloatCenter,
+        FloatLeft, FloatNone, FloatRight, Focus, Focus2, Fold, FoldDown, FoldUp, Folder,
+        FolderMinus, FolderOff, FolderPlus, FolderX, Folders, Forbid, Forbid2, Forklift, Forms,
+        Frame, Friends, GasStation, Gauge, Geometry, Ghost, Gift, GitBranch, GitCommit, GitCompare,
+        GitFork, GitMerge, GitPullRequest, Glass, GlassFull, GlassOff, Globe, Golf, Gps, Grain,
+        GridDots, GripHorizontal, GripVertical, Growth, H1, H2, H3, H4, H5, H6, HandFinger,
+        HandLittleFinger, HandMiddleFinger, HandOff, HandRingFinger, HandRock, HandStop,
+        HandThreeFingers, HandTwoFingers, Hanger, Hash, Heading, Headphones, HeadphonesOff, Headset,
+        Heart, HeartBroken, Helicopter, HelicopterLanding, Help, Hexagon, HexagonOff, Hierarchy,
+        Hierarchy2, History, Home, Home2, IceCream, IceCream2, Id, Inbox, IndentDecrease,
+        IndentIncrease, Infinity, InfoCircle, InfoSquare, Italic, JumpRope, Karate, Key, Keyboard,
+        KeyboardHide, KeyboardOff, KeyboardShow, Language, LayersDifference, LayersIntersect,
+        LayersLinked, LayersSubtract, LayersUnion, Layout, Layout2, LayoutAlignBottom,
+        LayoutAlignCenter, LayoutAlignLeft, LayoutAlignMiddle, LayoutAlignRight, LayoutAlignTop,
+        LayoutBottombar, LayoutCards, LayoutColumns, LayoutDistributeHorizontal,
+        LayoutDistributeVertical, LayoutGrid, LayoutGridAdd, LayoutKanban, LayoutList, LayoutNavbar,
+        LayoutRows, LayoutSidebar, LayoutSidebarRight, Leaf, Lego, LetterA, LetterB, LetterC,
+        LetterCase, LetterCaseLower, LetterCaseToggle, LetterCaseUpper, LetterD, LetterE, LetterF,
+        LetterG, LetterH, LetterI, LetterJ, LetterK, LetterL, LetterM, LetterN, LetterO, LetterP,
+        LetterQ, LetterR, LetterS, LetterSpacing, LetterT, LetterU, LetterV, LetterW, LetterX,
+        LetterY, LetterZ, LettersCase, License, Lifebuoy, Line, LineDashed, LineDotted, LineHeight,
+        Link, List, ListCheck, ListSearch, LivePhoto, LiveView, Loader, LoaderQuarter, Location,
+        Lock, LockAccess, LockOff, LockOpen, Login, Logout, Macro, Magnet, Mail, MailForward,
+        MailOpened, Mailbox, Man, ManualGearbox, Map, Map2, MapPin, MapPinOff, MapPins, Markdown,
+        Marquee, Marquee2, Mars, Mask, MaskOff, Massage, Math, MathFunction, MathSymbols, Maximize,
+        Medal, MedicalCross, Menu, Menu2, Message, Message2, MessageCircle, MessageCircle2,
+        MessageCircleOff, MessageDots, MessageOff, MessagePlus, MessageReport, Messages,
+        MessagesOff, Microphone, MicrophoneOff, Minimize, Minus, MinusVertical, Mist, MoodBoy,
+        MoodConfuzed, MoodCrazyHappy, MoodCry, MoodEmpty, MoodHappy, MoodKid, MoodNeutral, MoodSad,
+        MoodSmile, MoodSuprised, MoodTongue, Moon, Moon2, MoonStars, Moped, Motorbike, Mouse, Movie,
+        Mug, Music, NewSection, News, Nfc, Note, Notebook, Notes, Notification, Number0, Number1,
+        Number2, Number3, Number4, Number5, Number6, Number7, Number8, Number9, Octagon, OctagonOff,
+        Old, Olympics, Omega, Outlet, Overline, Package, Pacman, PageBreak, Paint, Palette,
+        PanoramaHorizontal, PanoramaVertical, Paperclip, Parachute, Parentheses, Parking, Peace,
+        Pencil, Pennant, Percentage, Perspective, Phone, PhoneCall, PhoneCalling, PhoneCheck,
+        PhoneIncoming, PhoneOff, PhoneOutgoing, PhonePause, PhonePlus, PhoneX, Photo, PhotoOff,
+        Physotherapist, PictureInPicture, PictureInPictureOff, PictureInPictureOn, Pill, Pin,
+        Pinned, PinnedOff, Pizza, Plane, PlaneArrival, PlaneDeparture, Planet, Plant, Plant2,
+        PlayCard, PlayerPause, PlayerPlay, PlayerRecord, PlayerSkipBack, PlayerSkipForward,
+        PlayerStop, PlayerTrackNext, PlayerTrackPrev, Playlist, Plug, Plus, Point, Pokeball,
+        Polaroid, Pool, Power, Pray, Presentation, PresentationAnalytics, Printer, Prompt,
+        Propeller, Puzzle, Pyramid, Qrcode, QuestionMark, Radioactive, RadiusBottomLeft,
+        RadiusBottomRight, RadiusTopLeft, RadiusTopRight, Rainbow, Receipt, Receipt2, ReceiptOff,
+        ReceiptRefund, ReceiptTax, Recharging, RecordMail, Rectangle, RectangleVertical, Recycle,
+        Refresh, RefreshAlert, Registered, RelationManyToMany, RelationOneToMany, RelationOneToOne,
+        Repeat, RepeatOnce, Replace, Report, ReportAnalytics, ReportMedical, ReportMoney, Resize,
+        Ripple, RoadSign, Rocket, Rotate, Rotate2, RotateClockwise, RotateClockwise2,
+        RotateRectangle, Route, Router, RowInsertBottom, RowInsertTop, Rss, Ruler, Ruler2, Run,
+        Sailboat, Satellite, Scale, Scan, School, Scissors, Scooter, ScooterElectric, ScreenShare,
+        ScreenShareOff, ScubaMask, Search, Section, Seeding, Select, Selector, Send, Separator,
+        SeparatorHorizontal, SeparatorVertical, Server, Servicemark, Settings, SettingsAutomation,
+        Shadow, ShadowOff, Shape, Shape2, Shape3, Share, Shield, ShieldCheck, ShieldLock, ShieldOff,
+        ShieldX, Ship, Shirt, ShoppingCart, ShoppingCartDiscount, ShoppingCartOff, ShoppingCartPlus,
+        ShoppingCartX, Shredder, Signature, Sitemap, Skateboard, Slice, Slideshow, SmartHome,
+        Smoking, SmokingNo, Snowflake, SoccerField, Social, Sock, SortAscending, SortAscending2,
+        SortDescending, SortDescending2, Space, Speakerphone, Speedboat, SportBillard, Square,
+        Square0, Square1, Square2, Square3, Square4, Square5, Square6, Square7, Square8, Square9,
+        SquareCheck, SquareDot, SquareForbid, SquareForbid2, SquareMinus, SquareOff, SquarePlus,
+        SquareRoot, SquareRoot2, SquareRotated, SquareRotatedOff, SquareToggle,
+        SquareToggleHorizontal, SquareX, SquaresDiagonal, SquaresFilled, Stack, Stack2, Stairs,
+        StairsDown, StairsUp, Star, StarHalf, StarOff, Stars, SteeringWheel, StepInto, StepOut,
+        Stethoscope, Sticker, Strikethrough, Submarine, Subscript, Subtask, Sum, Sun, SunOff,
+        Sunset, Sunshine, Superscript, Swimming, Switch, Switch2, Switch3, SwitchHorizontal,
+        SwitchVertical, Table, TableExport, TableImport, TableOff, Tag, Tallymark1, Tallymark2,
+        Tallymark3, Tallymark4, Tallymarks, Tank, Target, Temperature, TemperatureCelsius,
+        TemperatureFahrenheit, TemperatureMinus, TemperaturePlus, Template, Tent, Terminal,
+        Terminal2, TestPipe, TextDirectionLtr, TextDirectionRtl, TextWrap, TextWrapDisabled,
+        ThumbDown, ThumbUp, Ticket, TiltShift, Tir, ToggleLeft, ToggleRight, Tool, Tools,
+        ToolsKitchen, ToolsKitchen2, Tornado, Tournament, Track, Tractor, Trademark, TrafficCone,
+        TrafficLights, Train, Trash, TrashOff, Tree, Trees, TrendingDown, TrendingDown2,
+        TrendingDown3, TrendingUp, TrendingUp2, TrendingUp3, Triangle, TriangleOff,
+        TriangleSquareCircle, Trident, Trophy, Truck, TruckDelivery, TruckOff, TruckReturn,
+        Typography, Umbrella, Underline, Unlink, Upload, Urgent, User, UserCheck, UserExclamation,
+        UserMinus, UserOff, UserPlus, UserX, Users, Vaccine, Variable, Vector, VectorBeizer,
+        VectorBeizer2, VectorTriangle, Venus, Versions, Video, VideoMinus, VideoOff, VideoPlus,
+        View360, Viewfinder, ViewportNarrow, ViewportWide, Virus, VirusOff, VirusSearch, Volume,
+        Volume2, Volume3, Walk, Wallet, Wand, WaveSawTool, WaveSine, WaveSquare, Wifi, Wifi0, Wifi1,
+        Wifi2, WifiOff, Wind, Windmill, Window, Wiper, WiperWash, Woman, World, WorldLatitude,
+        WorldLongitude, WreckingBall, Writing, WritingSign, X, YinYang, ZodiacAquarius, ZodiacAries,
+        ZodiacCancer, ZodiacCapricorn, ZodiacGemini, ZodiacLeo, ZodiacLibra, ZodiacPisces,
+        ZodiacSagittarius, ZodiacScorpio, ZodiacTaurus, ZodiacVirgo, ZoomCancel, ZoomCheck, ZoomIn,
+        ZoomMoney, ZoomOut, ZoomQuestion, _2fa, _3dCubeSphere)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val TablerIcons.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("ab" to AB, "accesspoint" to AccessPoint, "accesspointoff" to
+        AccessPointOff, "accessible" to Accessible, "activity" to Activity, "ad" to Ad,
+        "adjustments" to Adjustments, "adjustmentsalt" to AdjustmentsAlt, "adjustmentshorizontal" to
+        AdjustmentsHorizontal, "aeriallift" to AerialLift, "affiliate" to Affiliate, "alarm" to
+        Alarm, "alertcircle" to AlertCircle, "alertoctagon" to AlertOctagon, "alerttriangle" to
+        AlertTriangle, "alien" to Alien, "aligncenter" to AlignCenter, "alignjustified" to
+        AlignJustified, "alignleft" to AlignLeft, "alignright" to AlignRight, "ambulance" to
+        Ambulance, "anchor" to Anchor, "antennabars1" to AntennaBars1, "antennabars2" to
+        AntennaBars2, "antennabars3" to AntennaBars3, "antennabars4" to AntennaBars4, "antennabars5"
+        to AntennaBars5, "aperture" to Aperture, "apps" to Apps, "archive" to Archive, "arrowback"
+        to ArrowBack, "arrowbackup" to ArrowBackUp, "arrowbardown" to ArrowBarDown, "arrowbarleft"
+        to ArrowBarLeft, "arrowbarright" to ArrowBarRight, "arrowbartodown" to ArrowBarToDown,
+        "arrowbartoleft" to ArrowBarToLeft, "arrowbartoright" to ArrowBarToRight, "arrowbartoup" to
+        ArrowBarToUp, "arrowbarup" to ArrowBarUp, "arrowbigdown" to ArrowBigDown, "arrowbigleft" to
+        ArrowBigLeft, "arrowbigright" to ArrowBigRight, "arrowbigtop" to ArrowBigTop,
+        "arrowbottombar" to ArrowBottomBar, "arrowbottomcircle" to ArrowBottomCircle,
+        "arrowbottomsquare" to ArrowBottomSquare, "arrowbottomtail" to ArrowBottomTail, "arrowdown"
+        to ArrowDown, "arrowdowncircle" to ArrowDownCircle, "arrowdownleft" to ArrowDownLeft,
+        "arrowdownleftcircle" to ArrowDownLeftCircle, "arrowdownright" to ArrowDownRight,
+        "arrowdownrightcircle" to ArrowDownRightCircle, "arrowforward" to ArrowForward,
+        "arrowforwardup" to ArrowForwardUp, "arrowleft" to ArrowLeft, "arrowleftbar" to
+        ArrowLeftBar, "arrowleftcircle" to ArrowLeftCircle, "arrowleftsquare" to ArrowLeftSquare,
+        "arrowlefttail" to ArrowLeftTail, "arrowloopleft" to ArrowLoopLeft, "arrowloopright" to
+        ArrowLoopRight, "arrownarrowdown" to ArrowNarrowDown, "arrownarrowleft" to ArrowNarrowLeft,
+        "arrownarrowright" to ArrowNarrowRight, "arrownarrowup" to ArrowNarrowUp, "arrowrampleft" to
+        ArrowRampLeft, "arrowrampright" to ArrowRampRight, "arrowright" to ArrowRight,
+        "arrowrightbar" to ArrowRightBar, "arrowrightcircle" to ArrowRightCircle, "arrowrightsquare"
+        to ArrowRightSquare, "arrowrighttail" to ArrowRightTail, "arrowtopbar" to ArrowTopBar,
+        "arrowtopcircle" to ArrowTopCircle, "arrowtopsquare" to ArrowTopSquare, "arrowtoptail" to
+        ArrowTopTail, "arrowup" to ArrowUp, "arrowupcircle" to ArrowUpCircle, "arrowupleft" to
+        ArrowUpLeft, "arrowupleftcircle" to ArrowUpLeftCircle, "arrowupright" to ArrowUpRight,
+        "arrowuprightcircle" to ArrowUpRightCircle, "arrowwaveleftdown" to ArrowWaveLeftDown,
+        "arrowwaveleftup" to ArrowWaveLeftUp, "arrowwaverightdown" to ArrowWaveRightDown,
+        "arrowwaverightup" to ArrowWaveRightUp, "arrowsdiagonal" to ArrowsDiagonal,
+        "arrowsdiagonal2" to ArrowsDiagonal2, "arrowsdoublenesw" to ArrowsDoubleNeSw,
+        "arrowsdoublenwse" to ArrowsDoubleNwSe, "arrowsdoublesenw" to ArrowsDoubleSeNw,
+        "arrowsdoubleswne" to ArrowsDoubleSwNe, "arrowsdown" to ArrowsDown, "arrowsdownup" to
+        ArrowsDownUp, "arrowshorizontal" to ArrowsHorizontal, "arrowsjoin" to ArrowsJoin,
+        "arrowsjoin2" to ArrowsJoin2, "arrowsleft" to ArrowsLeft, "arrowsleftdown" to
+        ArrowsLeftDown, "arrowsleftright" to ArrowsLeftRight, "arrowsmaximize" to ArrowsMaximize,
+        "arrowsminimize" to ArrowsMinimize, "arrowsright" to ArrowsRight, "arrowsrightdown" to
+        ArrowsRightDown, "arrowsrightleft" to ArrowsRightLeft, "arrowssort" to ArrowsSort,
+        "arrowssplit" to ArrowsSplit, "arrowssplit2" to ArrowsSplit2, "arrowsup" to ArrowsUp,
+        "arrowsupdown" to ArrowsUpDown, "arrowsupleft" to ArrowsUpLeft, "arrowsupright" to
+        ArrowsUpRight, "arrowsvertical" to ArrowsVertical, "artboard" to Artboard, "aspectratio" to
+        AspectRatio, "at" to At, "atom" to Atom, "atom2" to Atom2, "award" to Award, "backhoe" to
+        Backhoe, "backspace" to Backspace, "ballamericanfootball" to BallAmericanFootball,
+        "ballbasketball" to BallBasketball, "ballbowling" to BallBowling, "ballfootball" to
+        BallFootball, "ballfootballoff" to BallFootballOff, "balltennis" to BallTennis,
+        "ballvolleyball" to BallVolleyball, "ban" to Ban, "bandage" to Bandage, "barcode" to
+        Barcode, "basket" to Basket, "battery" to Battery, "battery1" to Battery1, "battery2" to
+        Battery2, "battery3" to Battery3, "battery4" to Battery4, "batteryautomotive" to
+        BatteryAutomotive, "batterycharging" to BatteryCharging, "batteryoff" to BatteryOff, "bed"
+        to Bed, "bell" to Bell, "bellminus" to BellMinus, "belloff" to BellOff, "bellplus" to
+        BellPlus, "bellringing" to BellRinging, "bellringing2" to BellRinging2, "bellx" to BellX,
+        "bike" to Bike, "binary" to Binary, "biohazard" to Biohazard, "blockquote" to Blockquote,
+        "bluetooth" to Bluetooth, "bluetoothconnected" to BluetoothConnected, "bluetoothoff" to
+        BluetoothOff, "bold" to Bold, "bolt" to Bolt, "boltoff" to BoltOff, "bone" to Bone, "book"
+        to Book, "bookmark" to Bookmark, "bookmarkoff" to BookmarkOff, "bookmarks" to Bookmarks,
+        "borderall" to BorderAll, "borderbottom" to BorderBottom, "borderhorizontal" to
+        BorderHorizontal, "borderinner" to BorderInner, "borderleft" to BorderLeft, "bordernone" to
+        BorderNone, "borderouter" to BorderOuter, "borderradius" to BorderRadius, "borderright" to
+        BorderRight, "borderstyle" to BorderStyle, "bordertop" to BorderTop, "bordervertical" to
+        BorderVertical, "box" to Box, "boxmargin" to BoxMargin, "boxmodel" to BoxModel,
+        "boxmultiple" to BoxMultiple, "boxmultiple0" to BoxMultiple0, "boxmultiple1" to
+        BoxMultiple1, "boxmultiple2" to BoxMultiple2, "boxmultiple3" to BoxMultiple3, "boxmultiple4"
+        to BoxMultiple4, "boxmultiple5" to BoxMultiple5, "boxmultiple6" to BoxMultiple6,
+        "boxmultiple7" to BoxMultiple7, "boxmultiple8" to BoxMultiple8, "boxmultiple9" to
+        BoxMultiple9, "boxpadding" to BoxPadding, "braces" to Braces, "brackets" to Brackets,
+        "brandairbnb" to BrandAirbnb, "brandandroid" to BrandAndroid, "brandapple" to BrandApple,
+        "brandapplearcade" to BrandAppleArcade, "brandappstore" to BrandAppstore, "brandasana" to
+        BrandAsana, "brandbehance" to BrandBehance, "brandbing" to BrandBing, "brandbitbucket" to
+        BrandBitbucket, "brandbooking" to BrandBooking, "brandchrome" to BrandChrome, "brandcodepen"
+        to BrandCodepen, "brandcodesandbox" to BrandCodesandbox, "brandcss3" to BrandCss3,
+        "branddeviantart" to BrandDeviantart, "branddiscord" to BrandDiscord, "branddisqus" to
+        BrandDisqus, "branddocker" to BrandDocker, "branddribbble" to BrandDribbble, "brandedge" to
+        BrandEdge, "brandfacebook" to BrandFacebook, "brandfigma" to BrandFigma, "brandfirefox" to
+        BrandFirefox, "brandflickr" to BrandFlickr, "brandfoursquare" to BrandFoursquare,
+        "brandframer" to BrandFramer, "brandgithub" to BrandGithub, "brandgitlab" to BrandGitlab,
+        "brandgoogle" to BrandGoogle, "brandgoogleanalytics" to BrandGoogleAnalytics,
+        "brandgoogledrive" to BrandGoogleDrive, "brandgoogleplay" to BrandGooglePlay,
+        "brandgravatar" to BrandGravatar, "brandhipchat" to BrandHipchat, "brandhtml5" to
+        BrandHtml5, "brandinstagram" to BrandInstagram, "brandkickstarter" to BrandKickstarter,
+        "brandkotlin" to BrandKotlin, "brandlinkedin" to BrandLinkedin, "brandmedium" to
+        BrandMedium, "brandmessenger" to BrandMessenger, "brandnetflix" to BrandNetflix,
+        "brandopensource" to BrandOpenSource, "brandopera" to BrandOpera, "brandpagekit" to
+        BrandPagekit, "brandpatreon" to BrandPatreon, "brandpaypal" to BrandPaypal, "brandpinterest"
+        to BrandPinterest, "brandpocket" to BrandPocket, "brandproducthunt" to BrandProducthunt,
+        "brandpython" to BrandPython, "brandreddit" to BrandReddit, "brandsafari" to BrandSafari,
+        "brandsass" to BrandSass, "brandsentry" to BrandSentry, "brandshazam" to BrandShazam,
+        "brandsketch" to BrandSketch, "brandskype" to BrandSkype, "brandslack" to BrandSlack,
+        "brandsnapchat" to BrandSnapchat, "brandsoundcloud" to BrandSoundcloud, "brandspotify" to
+        BrandSpotify, "brandsteam" to BrandSteam, "brandstripe" to BrandStripe, "brandtabler" to
+        BrandTabler, "brandtailwind" to BrandTailwind, "brandtelegram" to BrandTelegram,
+        "brandtidal" to BrandTidal, "brandtiktok" to BrandTiktok, "brandtinder" to BrandTinder,
+        "brandtumblr" to BrandTumblr, "brandtwitch" to BrandTwitch, "brandtwitter" to BrandTwitter,
+        "brandunsplash" to BrandUnsplash, "brandvimeo" to BrandVimeo, "brandvk" to BrandVk,
+        "brandwhatsapp" to BrandWhatsapp, "brandwindows" to BrandWindows, "brandyahoo" to
+        BrandYahoo, "brandycombinator" to BrandYcombinator, "brandyoutube" to BrandYoutube,
+        "briefcase" to Briefcase, "brightness" to Brightness, "brightness2" to Brightness2,
+        "brightnessdown" to BrightnessDown, "brightnesshalf" to BrightnessHalf, "brightnessup" to
+        BrightnessUp, "browser" to Browser, "brush" to Brush, "bucket" to Bucket, "bug" to Bug,
+        "building" to Building, "buildingarch" to BuildingArch, "buildingbank" to BuildingBank,
+        "buildingbridge" to BuildingBridge, "buildingbridge2" to BuildingBridge2, "buildingcarousel"
+        to BuildingCarousel, "buildingcastle" to BuildingCastle, "buildingchurch" to BuildingChurch,
+        "buildingcommunity" to BuildingCommunity, "buildingcottage" to BuildingCottage,
+        "buildingfactory" to BuildingFactory, "buildingfortress" to BuildingFortress,
+        "buildinghospital" to BuildingHospital, "buildinglighthouse" to BuildingLighthouse,
+        "buildingmonument" to BuildingMonument, "buildingpavilon" to BuildingPavilon,
+        "buildingskyscraper" to BuildingSkyscraper, "buildingstore" to BuildingStore,
+        "buildingwarehouse" to BuildingWarehouse, "bulb" to Bulb, "bulboff" to BulbOff, "bulldozer"
+        to Bulldozer, "bus" to Bus, "businessplan" to Businessplan, "calculator" to Calculator,
+        "calendar" to Calendar, "calendarevent" to CalendarEvent, "calendarminus" to CalendarMinus,
+        "calendaroff" to CalendarOff, "calendarplus" to CalendarPlus, "calendarstats" to
+        CalendarStats, "calendartime" to CalendarTime, "camera" to Camera, "cameraminus" to
+        CameraMinus, "cameraoff" to CameraOff, "cameraplus" to CameraPlus, "camerarotate" to
+        CameraRotate, "cameraselfie" to CameraSelfie, "capture" to Capture, "car" to Car, "caravan"
+        to Caravan, "cardboards" to Cardboards, "caretdown" to CaretDown, "caretleft" to CaretLeft,
+        "caretright" to CaretRight, "caretup" to CaretUp, "cash" to Cash, "cashbanknote" to
+        CashBanknote, "cashbanknoteoff" to CashBanknoteOff, "cast" to Cast, "ce" to Ce,
+        "certificate" to Certificate, "chargingpile" to ChargingPile, "chartarcs" to ChartArcs,
+        "chartarcs3" to ChartArcs3, "chartarea" to ChartArea, "chartarealine" to ChartAreaLine,
+        "chartarrows" to ChartArrows, "chartarrowsvertical" to ChartArrowsVertical, "chartbar" to
+        ChartBar, "chartbubble" to ChartBubble, "chartcandle" to ChartCandle, "chartcircles" to
+        ChartCircles, "chartdonut" to ChartDonut, "chartdonut2" to ChartDonut2, "chartdonut3" to
+        ChartDonut3, "chartdonut4" to ChartDonut4, "chartdots" to ChartDots, "chartinfographic" to
+        ChartInfographic, "chartline" to ChartLine, "chartpie" to ChartPie, "chartpie2" to
+        ChartPie2, "chartpie3" to ChartPie3, "chartpie4" to ChartPie4, "chartradar" to ChartRadar,
+        "check" to Check, "checkbox" to Checkbox, "checks" to Checks, "chevrondown" to ChevronDown,
+        "chevrondownleft" to ChevronDownLeft, "chevrondownright" to ChevronDownRight, "chevronleft"
+        to ChevronLeft, "chevronright" to ChevronRight, "chevronup" to ChevronUp, "chevronupleft" to
+        ChevronUpLeft, "chevronupright" to ChevronUpRight, "chevronsdown" to ChevronsDown,
+        "chevronsdownleft" to ChevronsDownLeft, "chevronsdownright" to ChevronsDownRight,
+        "chevronsleft" to ChevronsLeft, "chevronsright" to ChevronsRight, "chevronsup" to
+        ChevronsUp, "chevronsupleft" to ChevronsUpLeft, "chevronsupright" to ChevronsUpRight,
+        "christmastree" to ChristmasTree, "circle" to Circle, "circle0" to Circle0, "circle1" to
+        Circle1, "circle2" to Circle2, "circle3" to Circle3, "circle4" to Circle4, "circle5" to
+        Circle5, "circle6" to Circle6, "circle7" to Circle7, "circle8" to Circle8, "circle9" to
+        Circle9, "circlecheck" to CircleCheck, "circledashed" to CircleDashed, "circledotted" to
+        CircleDotted, "circlehalf" to CircleHalf, "circlehalfvertical" to CircleHalfVertical,
+        "circleminus" to CircleMinus, "circleoff" to CircleOff, "circleplus" to CirclePlus,
+        "circlesquare" to CircleSquare, "circlex" to CircleX, "circles" to Circles, "clearall" to
+        ClearAll, "clearformatting" to ClearFormatting, "click" to Click, "clipboard" to Clipboard,
+        "clipboardcheck" to ClipboardCheck, "clipboardlist" to ClipboardList, "clipboardx" to
+        ClipboardX, "clock" to Clock, "cloud" to Cloud, "clouddownload" to CloudDownload, "cloudfog"
+        to CloudFog, "cloudoff" to CloudOff, "cloudrain" to CloudRain, "cloudsnow" to CloudSnow,
+        "cloudstorm" to CloudStorm, "cloudupload" to CloudUpload, "code" to Code, "codeminus" to
+        CodeMinus, "codeplus" to CodePlus, "coin" to Coin, "colorpicker" to ColorPicker,
+        "colorswatch" to ColorSwatch, "columninsertleft" to ColumnInsertLeft, "columninsertright" to
+        ColumnInsertRight, "columns" to Columns, "comet" to Comet, "command" to Command, "compass"
+        to Compass, "confetti" to Confetti, "container" to Container, "contrast" to Contrast, "copy"
+        to Copy, "copyleft" to Copyleft, "copyright" to Copyright, "cornerdownleft" to
+        CornerDownLeft, "cornerdownleftdouble" to CornerDownLeftDouble, "cornerdownright" to
+        CornerDownRight, "cornerdownrightdouble" to CornerDownRightDouble, "cornerleftdown" to
+        CornerLeftDown, "cornerleftdowndouble" to CornerLeftDownDouble, "cornerleftup" to
+        CornerLeftUp, "cornerleftupdouble" to CornerLeftUpDouble, "cornerrightdown" to
+        CornerRightDown, "cornerrightdowndouble" to CornerRightDownDouble, "cornerrightup" to
+        CornerRightUp, "cornerrightupdouble" to CornerRightUpDouble, "cornerupleft" to CornerUpLeft,
+        "cornerupleftdouble" to CornerUpLeftDouble, "cornerupright" to CornerUpRight,
+        "corneruprightdouble" to CornerUpRightDouble, "creditcard" to CreditCard, "creditcardoff" to
+        CreditCardOff, "crop" to Crop, "crosshair" to Crosshair, "crown" to Crown, "crownoff" to
+        CrownOff, "curlyloop" to CurlyLoop, "currencybahraini" to CurrencyBahraini, "currencybath"
+        to CurrencyBath, "currencybitcoin" to CurrencyBitcoin, "currencycent" to CurrencyCent,
+        "currencydinar" to CurrencyDinar, "currencydirham" to CurrencyDirham, "currencydollar" to
+        CurrencyDollar, "currencydollaraustralian" to CurrencyDollarAustralian,
+        "currencydollarcanadian" to CurrencyDollarCanadian, "currencydollarsingapore" to
+        CurrencyDollarSingapore, "currencyethereum" to CurrencyEthereum, "currencyeuro" to
+        CurrencyEuro, "currencyforint" to CurrencyForint, "currencyfrank" to CurrencyFrank,
+        "currencykroneczech" to CurrencyKroneCzech, "currencykronedanish" to CurrencyKroneDanish,
+        "currencykroneswedish" to CurrencyKroneSwedish, "currencyleu" to CurrencyLeu, "currencylira"
+        to CurrencyLira, "currencylitecoin" to CurrencyLitecoin, "currencynaira" to CurrencyNaira,
+        "currencypound" to CurrencyPound, "currencyreal" to CurrencyReal, "currencyrenminbi" to
+        CurrencyRenminbi, "currencyripple" to CurrencyRipple, "currencyriyal" to CurrencyRiyal,
+        "currencyrubel" to CurrencyRubel, "currencyrupee" to CurrencyRupee, "currencyshekel" to
+        CurrencyShekel, "currencytaka" to CurrencyTaka, "currencytugrik" to CurrencyTugrik,
+        "currencywon" to CurrencyWon, "currencyyen" to CurrencyYen, "currencyzloty" to
+        CurrencyZloty, "currentlocation" to CurrentLocation, "cursortext" to CursorText, "cut" to
+        Cut, "dashboard" to Dashboard, "database" to Database, "databaseexport" to DatabaseExport,
+        "databaseimport" to DatabaseImport, "databaseoff" to DatabaseOff, "details" to Details,
+        "deviceanalytics" to DeviceAnalytics, "deviceaudiotape" to DeviceAudioTape, "devicecctv" to
+        DeviceCctv, "devicecomputercamera" to DeviceComputerCamera, "devicecomputercameraoff" to
+        DeviceComputerCameraOff, "devicedesktop" to DeviceDesktop, "devicedesktopanalytics" to
+        DeviceDesktopAnalytics, "devicedesktopoff" to DeviceDesktopOff, "devicefloppy" to
+        DeviceFloppy, "devicegamepad" to DeviceGamepad, "devicelaptop" to DeviceLaptop,
+        "devicemobile" to DeviceMobile, "devicemobilemessage" to DeviceMobileMessage,
+        "devicemobilerotated" to DeviceMobileRotated, "devicemobilevibration" to
+        DeviceMobileVibration, "devicespeaker" to DeviceSpeaker, "devicetablet" to DeviceTablet,
+        "devicetv" to DeviceTv, "devicewatch" to DeviceWatch, "devices" to Devices, "devices2" to
+        Devices2, "devicespc" to DevicesPc, "diamond" to Diamond, "dice" to Dice, "dimensions" to
+        Dimensions, "direction" to Direction, "directionhorizontal" to DirectionHorizontal,
+        "directions" to Directions, "disabled" to Disabled, "disabled2" to Disabled2, "disc" to
+        Disc, "discount" to Discount, "discount2" to Discount2, "divide" to Divide, "dna" to Dna,
+        "dots" to Dots, "dotscirclehorizontal" to DotsCircleHorizontal, "dotsdiagonal" to
+        DotsDiagonal, "dotsdiagonal2" to DotsDiagonal2, "dotsvertical" to DotsVertical, "download"
+        to Download, "dragdrop" to DragDrop, "dragdrop2" to DragDrop2, "drone" to Drone, "droneoff"
+        to DroneOff, "droplet" to Droplet, "dropletfilled" to DropletFilled, "dropletfilled2" to
+        DropletFilled2, "droplethalf" to DropletHalf, "droplethalf2" to DropletHalf2, "dropletoff"
+        to DropletOff, "ear" to Ear, "earoff" to EarOff, "edit" to Edit, "editcircle" to EditCircle,
+        "egg" to Egg, "emphasis" to Emphasis, "equal" to Equal, "equalnot" to EqualNot, "eraser" to
+        Eraser, "exchange" to Exchange, "exposure" to Exposure, "externallink" to ExternalLink,
+        "eye" to Eye, "eyecheck" to EyeCheck, "eyeoff" to EyeOff, "eyeglass" to Eyeglass,
+        "eyeglass2" to Eyeglass2, "faceid" to FaceId, "fall" to Fall, "feather" to Feather, "file"
+        to File, "filealert" to FileAlert, "fileanalytics" to FileAnalytics, "filecertificate" to
+        FileCertificate, "filecheck" to FileCheck, "filecode" to FileCode, "filecode2" to FileCode2,
+        "filediff" to FileDiff, "filedislike" to FileDislike, "filedownload" to FileDownload,
+        "fileexport" to FileExport, "filehorizontal" to FileHorizontal, "fileimport" to FileImport,
+        "fileinfo" to FileInfo, "fileinvoice" to FileInvoice, "filelike" to FileLike, "fileminus" to
+        FileMinus, "filemusic" to FileMusic, "fileoff" to FileOff, "filephone" to FilePhone,
+        "fileplus" to FilePlus, "filereport" to FileReport, "filesearch" to FileSearch,
+        "fileshredder" to FileShredder, "filesymlink" to FileSymlink, "filetext" to FileText,
+        "fileupload" to FileUpload, "filex" to FileX, "filezip" to FileZip, "files" to Files,
+        "filesoff" to FilesOff, "filter" to Filter, "filteroff" to FilterOff, "fingerprint" to
+        Fingerprint, "firetruck" to Firetruck, "flag" to Flag, "flag2" to Flag2, "flag3" to Flag3,
+        "flame" to Flame, "flare" to Flare, "flask" to Flask, "fliphorizontal" to FlipHorizontal,
+        "flipvertical" to FlipVertical, "floatcenter" to FloatCenter, "floatleft" to FloatLeft,
+        "floatnone" to FloatNone, "floatright" to FloatRight, "focus" to Focus, "focus2" to Focus2,
+        "fold" to Fold, "folddown" to FoldDown, "foldup" to FoldUp, "folder" to Folder,
+        "folderminus" to FolderMinus, "folderoff" to FolderOff, "folderplus" to FolderPlus,
+        "folderx" to FolderX, "folders" to Folders, "forbid" to Forbid, "forbid2" to Forbid2,
+        "forklift" to Forklift, "forms" to Forms, "frame" to Frame, "friends" to Friends,
+        "gasstation" to GasStation, "gauge" to Gauge, "geometry" to Geometry, "ghost" to Ghost,
+        "gift" to Gift, "gitbranch" to GitBranch, "gitcommit" to GitCommit, "gitcompare" to
+        GitCompare, "gitfork" to GitFork, "gitmerge" to GitMerge, "gitpullrequest" to
+        GitPullRequest, "glass" to Glass, "glassfull" to GlassFull, "glassoff" to GlassOff, "globe"
+        to Globe, "golf" to Golf, "gps" to Gps, "grain" to Grain, "griddots" to GridDots,
+        "griphorizontal" to GripHorizontal, "gripvertical" to GripVertical, "growth" to Growth, "h1"
+        to H1, "h2" to H2, "h3" to H3, "h4" to H4, "h5" to H5, "h6" to H6, "handfinger" to
+        HandFinger, "handlittlefinger" to HandLittleFinger, "handmiddlefinger" to HandMiddleFinger,
+        "handoff" to HandOff, "handringfinger" to HandRingFinger, "handrock" to HandRock, "handstop"
+        to HandStop, "handthreefingers" to HandThreeFingers, "handtwofingers" to HandTwoFingers,
+        "hanger" to Hanger, "hash" to Hash, "heading" to Heading, "headphones" to Headphones,
+        "headphonesoff" to HeadphonesOff, "headset" to Headset, "heart" to Heart, "heartbroken" to
+        HeartBroken, "helicopter" to Helicopter, "helicopterlanding" to HelicopterLanding, "help" to
+        Help, "hexagon" to Hexagon, "hexagonoff" to HexagonOff, "hierarchy" to Hierarchy,
+        "hierarchy2" to Hierarchy2, "history" to History, "home" to Home, "home2" to Home2,
+        "icecream" to IceCream, "icecream2" to IceCream2, "id" to Id, "inbox" to Inbox,
+        "indentdecrease" to IndentDecrease, "indentincrease" to IndentIncrease, "infinity" to
+        Infinity, "infocircle" to InfoCircle, "infosquare" to InfoSquare, "italic" to Italic,
+        "jumprope" to JumpRope, "karate" to Karate, "key" to Key, "keyboard" to Keyboard,
+        "keyboardhide" to KeyboardHide, "keyboardoff" to KeyboardOff, "keyboardshow" to
+        KeyboardShow, "language" to Language, "layersdifference" to LayersDifference,
+        "layersintersect" to LayersIntersect, "layerslinked" to LayersLinked, "layerssubtract" to
+        LayersSubtract, "layersunion" to LayersUnion, "layout" to Layout, "layout2" to Layout2,
+        "layoutalignbottom" to LayoutAlignBottom, "layoutaligncenter" to LayoutAlignCenter,
+        "layoutalignleft" to LayoutAlignLeft, "layoutalignmiddle" to LayoutAlignMiddle,
+        "layoutalignright" to LayoutAlignRight, "layoutaligntop" to LayoutAlignTop,
+        "layoutbottombar" to LayoutBottombar, "layoutcards" to LayoutCards, "layoutcolumns" to
+        LayoutColumns, "layoutdistributehorizontal" to LayoutDistributeHorizontal,
+        "layoutdistributevertical" to LayoutDistributeVertical, "layoutgrid" to LayoutGrid,
+        "layoutgridadd" to LayoutGridAdd, "layoutkanban" to LayoutKanban, "layoutlist" to
+        LayoutList, "layoutnavbar" to LayoutNavbar, "layoutrows" to LayoutRows, "layoutsidebar" to
+        LayoutSidebar, "layoutsidebarright" to LayoutSidebarRight, "leaf" to Leaf, "lego" to Lego,
+        "lettera" to LetterA, "letterb" to LetterB, "letterc" to LetterC, "lettercase" to
+        LetterCase, "lettercaselower" to LetterCaseLower, "lettercasetoggle" to LetterCaseToggle,
+        "lettercaseupper" to LetterCaseUpper, "letterd" to LetterD, "lettere" to LetterE, "letterf"
+        to LetterF, "letterg" to LetterG, "letterh" to LetterH, "letteri" to LetterI, "letterj" to
+        LetterJ, "letterk" to LetterK, "letterl" to LetterL, "letterm" to LetterM, "lettern" to
+        LetterN, "lettero" to LetterO, "letterp" to LetterP, "letterq" to LetterQ, "letterr" to
+        LetterR, "letters" to LetterS, "letterspacing" to LetterSpacing, "lettert" to LetterT,
+        "letteru" to LetterU, "letterv" to LetterV, "letterw" to LetterW, "letterx" to LetterX,
+        "lettery" to LetterY, "letterz" to LetterZ, "letterscase" to LettersCase, "license" to
+        License, "lifebuoy" to Lifebuoy, "line" to Line, "linedashed" to LineDashed, "linedotted" to
+        LineDotted, "lineheight" to LineHeight, "link" to Link, "list" to List, "listcheck" to
+        ListCheck, "listsearch" to ListSearch, "livephoto" to LivePhoto, "liveview" to LiveView,
+        "loader" to Loader, "loaderquarter" to LoaderQuarter, "location" to Location, "lock" to
+        Lock, "lockaccess" to LockAccess, "lockoff" to LockOff, "lockopen" to LockOpen, "login" to
+        Login, "logout" to Logout, "macro" to Macro, "magnet" to Magnet, "mail" to Mail,
+        "mailforward" to MailForward, "mailopened" to MailOpened, "mailbox" to Mailbox, "man" to
+        Man, "manualgearbox" to ManualGearbox, "map" to Map, "map2" to Map2, "mappin" to MapPin,
+        "mappinoff" to MapPinOff, "mappins" to MapPins, "markdown" to Markdown, "marquee" to
+        Marquee, "marquee2" to Marquee2, "mars" to Mars, "mask" to Mask, "maskoff" to MaskOff,
+        "massage" to Massage, "math" to Math, "mathfunction" to MathFunction, "mathsymbols" to
+        MathSymbols, "maximize" to Maximize, "medal" to Medal, "medicalcross" to MedicalCross,
+        "menu" to Menu, "menu2" to Menu2, "message" to Message, "message2" to Message2,
+        "messagecircle" to MessageCircle, "messagecircle2" to MessageCircle2, "messagecircleoff" to
+        MessageCircleOff, "messagedots" to MessageDots, "messageoff" to MessageOff, "messageplus" to
+        MessagePlus, "messagereport" to MessageReport, "messages" to Messages, "messagesoff" to
+        MessagesOff, "microphone" to Microphone, "microphoneoff" to MicrophoneOff, "minimize" to
+        Minimize, "minus" to Minus, "minusvertical" to MinusVertical, "mist" to Mist, "moodboy" to
+        MoodBoy, "moodconfuzed" to MoodConfuzed, "moodcrazyhappy" to MoodCrazyHappy, "moodcry" to
+        MoodCry, "moodempty" to MoodEmpty, "moodhappy" to MoodHappy, "moodkid" to MoodKid,
+        "moodneutral" to MoodNeutral, "moodsad" to MoodSad, "moodsmile" to MoodSmile, "moodsuprised"
+        to MoodSuprised, "moodtongue" to MoodTongue, "moon" to Moon, "moon2" to Moon2, "moonstars"
+        to MoonStars, "moped" to Moped, "motorbike" to Motorbike, "mouse" to Mouse, "movie" to
+        Movie, "mug" to Mug, "music" to Music, "newsection" to NewSection, "news" to News, "nfc" to
+        Nfc, "note" to Note, "notebook" to Notebook, "notes" to Notes, "notification" to
+        Notification, "number0" to Number0, "number1" to Number1, "number2" to Number2, "number3" to
+        Number3, "number4" to Number4, "number5" to Number5, "number6" to Number6, "number7" to
+        Number7, "number8" to Number8, "number9" to Number9, "octagon" to Octagon, "octagonoff" to
+        OctagonOff, "old" to Old, "olympics" to Olympics, "omega" to Omega, "outlet" to Outlet,
+        "overline" to Overline, "package" to Package, "pacman" to Pacman, "pagebreak" to PageBreak,
+        "paint" to Paint, "palette" to Palette, "panoramahorizontal" to PanoramaHorizontal,
+        "panoramavertical" to PanoramaVertical, "paperclip" to Paperclip, "parachute" to Parachute,
+        "parentheses" to Parentheses, "parking" to Parking, "peace" to Peace, "pencil" to Pencil,
+        "pennant" to Pennant, "percentage" to Percentage, "perspective" to Perspective, "phone" to
+        Phone, "phonecall" to PhoneCall, "phonecalling" to PhoneCalling, "phonecheck" to PhoneCheck,
+        "phoneincoming" to PhoneIncoming, "phoneoff" to PhoneOff, "phoneoutgoing" to PhoneOutgoing,
+        "phonepause" to PhonePause, "phoneplus" to PhonePlus, "phonex" to PhoneX, "photo" to Photo,
+        "photooff" to PhotoOff, "physotherapist" to Physotherapist, "pictureinpicture" to
+        PictureInPicture, "pictureinpictureoff" to PictureInPictureOff, "pictureinpictureon" to
+        PictureInPictureOn, "pill" to Pill, "pin" to Pin, "pinned" to Pinned, "pinnedoff" to
+        PinnedOff, "pizza" to Pizza, "plane" to Plane, "planearrival" to PlaneArrival,
+        "planedeparture" to PlaneDeparture, "planet" to Planet, "plant" to Plant, "plant2" to
+        Plant2, "playcard" to PlayCard, "playerpause" to PlayerPause, "playerplay" to PlayerPlay,
+        "playerrecord" to PlayerRecord, "playerskipback" to PlayerSkipBack, "playerskipforward" to
+        PlayerSkipForward, "playerstop" to PlayerStop, "playertracknext" to PlayerTrackNext,
+        "playertrackprev" to PlayerTrackPrev, "playlist" to Playlist, "plug" to Plug, "plus" to
+        Plus, "point" to Point, "pokeball" to Pokeball, "polaroid" to Polaroid, "pool" to Pool,
+        "power" to Power, "pray" to Pray, "presentation" to Presentation, "presentationanalytics" to
+        PresentationAnalytics, "printer" to Printer, "prompt" to Prompt, "propeller" to Propeller,
+        "puzzle" to Puzzle, "pyramid" to Pyramid, "qrcode" to Qrcode, "questionmark" to
+        QuestionMark, "radioactive" to Radioactive, "radiusbottomleft" to RadiusBottomLeft,
+        "radiusbottomright" to RadiusBottomRight, "radiustopleft" to RadiusTopLeft, "radiustopright"
+        to RadiusTopRight, "rainbow" to Rainbow, "receipt" to Receipt, "receipt2" to Receipt2,
+        "receiptoff" to ReceiptOff, "receiptrefund" to ReceiptRefund, "receipttax" to ReceiptTax,
+        "recharging" to Recharging, "recordmail" to RecordMail, "rectangle" to Rectangle,
+        "rectanglevertical" to RectangleVertical, "recycle" to Recycle, "refresh" to Refresh,
+        "refreshalert" to RefreshAlert, "registered" to Registered, "relationmanytomany" to
+        RelationManyToMany, "relationonetomany" to RelationOneToMany, "relationonetoone" to
+        RelationOneToOne, "repeat" to Repeat, "repeatonce" to RepeatOnce, "replace" to Replace,
+        "report" to Report, "reportanalytics" to ReportAnalytics, "reportmedical" to ReportMedical,
+        "reportmoney" to ReportMoney, "resize" to Resize, "ripple" to Ripple, "roadsign" to
+        RoadSign, "rocket" to Rocket, "rotate" to Rotate, "rotate2" to Rotate2, "rotateclockwise" to
+        RotateClockwise, "rotateclockwise2" to RotateClockwise2, "rotaterectangle" to
+        RotateRectangle, "route" to Route, "router" to Router, "rowinsertbottom" to RowInsertBottom,
+        "rowinserttop" to RowInsertTop, "rss" to Rss, "ruler" to Ruler, "ruler2" to Ruler2, "run" to
+        Run, "sailboat" to Sailboat, "satellite" to Satellite, "scale" to Scale, "scan" to Scan,
+        "school" to School, "scissors" to Scissors, "scooter" to Scooter, "scooterelectric" to
+        ScooterElectric, "screenshare" to ScreenShare, "screenshareoff" to ScreenShareOff,
+        "scubamask" to ScubaMask, "search" to Search, "section" to Section, "seeding" to Seeding,
+        "select" to Select, "selector" to Selector, "send" to Send, "separator" to Separator,
+        "separatorhorizontal" to SeparatorHorizontal, "separatorvertical" to SeparatorVertical,
+        "server" to Server, "servicemark" to Servicemark, "settings" to Settings,
+        "settingsautomation" to SettingsAutomation, "shadow" to Shadow, "shadowoff" to ShadowOff,
+        "shape" to Shape, "shape2" to Shape2, "shape3" to Shape3, "share" to Share, "shield" to
+        Shield, "shieldcheck" to ShieldCheck, "shieldlock" to ShieldLock, "shieldoff" to ShieldOff,
+        "shieldx" to ShieldX, "ship" to Ship, "shirt" to Shirt, "shoppingcart" to ShoppingCart,
+        "shoppingcartdiscount" to ShoppingCartDiscount, "shoppingcartoff" to ShoppingCartOff,
+        "shoppingcartplus" to ShoppingCartPlus, "shoppingcartx" to ShoppingCartX, "shredder" to
+        Shredder, "signature" to Signature, "sitemap" to Sitemap, "skateboard" to Skateboard,
+        "slice" to Slice, "slideshow" to Slideshow, "smarthome" to SmartHome, "smoking" to Smoking,
+        "smokingno" to SmokingNo, "snowflake" to Snowflake, "soccerfield" to SoccerField, "social"
+        to Social, "sock" to Sock, "sortascending" to SortAscending, "sortascending2" to
+        SortAscending2, "sortdescending" to SortDescending, "sortdescending2" to SortDescending2,
+        "space" to Space, "speakerphone" to Speakerphone, "speedboat" to Speedboat, "sportbillard"
+        to SportBillard, "square" to Square, "square0" to Square0, "square1" to Square1, "square2"
+        to Square2, "square3" to Square3, "square4" to Square4, "square5" to Square5, "square6" to
+        Square6, "square7" to Square7, "square8" to Square8, "square9" to Square9, "squarecheck" to
+        SquareCheck, "squaredot" to SquareDot, "squareforbid" to SquareForbid, "squareforbid2" to
+        SquareForbid2, "squareminus" to SquareMinus, "squareoff" to SquareOff, "squareplus" to
+        SquarePlus, "squareroot" to SquareRoot, "squareroot2" to SquareRoot2, "squarerotated" to
+        SquareRotated, "squarerotatedoff" to SquareRotatedOff, "squaretoggle" to SquareToggle,
+        "squaretogglehorizontal" to SquareToggleHorizontal, "squarex" to SquareX, "squaresdiagonal"
+        to SquaresDiagonal, "squaresfilled" to SquaresFilled, "stack" to Stack, "stack2" to Stack2,
+        "stairs" to Stairs, "stairsdown" to StairsDown, "stairsup" to StairsUp, "star" to Star,
+        "starhalf" to StarHalf, "staroff" to StarOff, "stars" to Stars, "steeringwheel" to
+        SteeringWheel, "stepinto" to StepInto, "stepout" to StepOut, "stethoscope" to Stethoscope,
+        "sticker" to Sticker, "strikethrough" to Strikethrough, "submarine" to Submarine,
+        "subscript" to Subscript, "subtask" to Subtask, "sum" to Sum, "sun" to Sun, "sunoff" to
+        SunOff, "sunset" to Sunset, "sunshine" to Sunshine, "superscript" to Superscript, "swimming"
+        to Swimming, "switch" to Switch, "switch2" to Switch2, "switch3" to Switch3,
+        "switchhorizontal" to SwitchHorizontal, "switchvertical" to SwitchVertical, "table" to
+        Table, "tableexport" to TableExport, "tableimport" to TableImport, "tableoff" to TableOff,
+        "tag" to Tag, "tallymark1" to Tallymark1, "tallymark2" to Tallymark2, "tallymark3" to
+        Tallymark3, "tallymark4" to Tallymark4, "tallymarks" to Tallymarks, "tank" to Tank, "target"
+        to Target, "temperature" to Temperature, "temperaturecelsius" to TemperatureCelsius,
+        "temperaturefahrenheit" to TemperatureFahrenheit, "temperatureminus" to TemperatureMinus,
+        "temperatureplus" to TemperaturePlus, "template" to Template, "tent" to Tent, "terminal" to
+        Terminal, "terminal2" to Terminal2, "testpipe" to TestPipe, "textdirectionltr" to
+        TextDirectionLtr, "textdirectionrtl" to TextDirectionRtl, "textwrap" to TextWrap,
+        "textwrapdisabled" to TextWrapDisabled, "thumbdown" to ThumbDown, "thumbup" to ThumbUp,
+        "ticket" to Ticket, "tiltshift" to TiltShift, "tir" to Tir, "toggleleft" to ToggleLeft,
+        "toggleright" to ToggleRight, "tool" to Tool, "tools" to Tools, "toolskitchen" to
+        ToolsKitchen, "toolskitchen2" to ToolsKitchen2, "tornado" to Tornado, "tournament" to
+        Tournament, "track" to Track, "tractor" to Tractor, "trademark" to Trademark, "trafficcone"
+        to TrafficCone, "trafficlights" to TrafficLights, "train" to Train, "trash" to Trash,
+        "trashoff" to TrashOff, "tree" to Tree, "trees" to Trees, "trendingdown" to TrendingDown,
+        "trendingdown2" to TrendingDown2, "trendingdown3" to TrendingDown3, "trendingup" to
+        TrendingUp, "trendingup2" to TrendingUp2, "trendingup3" to TrendingUp3, "triangle" to
+        Triangle, "triangleoff" to TriangleOff, "trianglesquarecircle" to TriangleSquareCircle,
+        "trident" to Trident, "trophy" to Trophy, "truck" to Truck, "truckdelivery" to
+        TruckDelivery, "truckoff" to TruckOff, "truckreturn" to TruckReturn, "typography" to
+        Typography, "umbrella" to Umbrella, "underline" to Underline, "unlink" to Unlink, "upload"
+        to Upload, "urgent" to Urgent, "user" to User, "usercheck" to UserCheck, "userexclamation"
+        to UserExclamation, "userminus" to UserMinus, "useroff" to UserOff, "userplus" to UserPlus,
+        "userx" to UserX, "users" to Users, "vaccine" to Vaccine, "variable" to Variable, "vector"
+        to Vector, "vectorbeizer" to VectorBeizer, "vectorbeizer2" to VectorBeizer2,
+        "vectortriangle" to VectorTriangle, "venus" to Venus, "versions" to Versions, "video" to
+        Video, "videominus" to VideoMinus, "videooff" to VideoOff, "videoplus" to VideoPlus,
+        "view360" to View360, "viewfinder" to Viewfinder, "viewportnarrow" to ViewportNarrow,
+        "viewportwide" to ViewportWide, "virus" to Virus, "virusoff" to VirusOff, "virussearch" to
+        VirusSearch, "volume" to Volume, "volume2" to Volume2, "volume3" to Volume3, "walk" to Walk,
+        "wallet" to Wallet, "wand" to Wand, "wavesawtool" to WaveSawTool, "wavesine" to WaveSine,
+        "wavesquare" to WaveSquare, "wifi" to Wifi, "wifi0" to Wifi0, "wifi1" to Wifi1, "wifi2" to
+        Wifi2, "wifioff" to WifiOff, "wind" to Wind, "windmill" to Windmill, "window" to Window,
+        "wiper" to Wiper, "wiperwash" to WiperWash, "woman" to Woman, "world" to World,
+        "worldlatitude" to WorldLatitude, "worldlongitude" to WorldLongitude, "wreckingball" to
+        WreckingBall, "writing" to Writing, "writingsign" to WritingSign, "x" to X, "yinyang" to
+        YinYang, "zodiacaquarius" to ZodiacAquarius, "zodiacaries" to ZodiacAries, "zodiaccancer" to
+        ZodiacCancer, "zodiaccapricorn" to ZodiacCapricorn, "zodiacgemini" to ZodiacGemini,
+        "zodiacleo" to ZodiacLeo, "zodiaclibra" to ZodiacLibra, "zodiacpisces" to ZodiacPisces,
+        "zodiacsagittarius" to ZodiacSagittarius, "zodiacscorpio" to ZodiacScorpio, "zodiactaurus"
+        to ZodiacTaurus, "zodiacvirgo" to ZodiacVirgo, "zoomcancel" to ZoomCancel, "zoomcheck" to
+        ZoomCheck, "zoomin" to ZoomIn, "zoommoney" to ZoomMoney, "zoomout" to ZoomOut,
+        "zoomquestion" to ZoomQuestion, "_2fa" to _2fa, "_3dcubesphere" to _3dCubeSphere)
+    return __AllIconsNamed!!
   }

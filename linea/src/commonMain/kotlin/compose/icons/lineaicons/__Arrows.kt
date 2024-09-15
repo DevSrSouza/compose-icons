@@ -137,12 +137,17 @@ import compose.icons.lineaicons.arrows.Up
 import compose.icons.lineaicons.arrows.UpDouble
 import compose.icons.lineaicons.arrows.Upright
 import compose.icons.lineaicons.arrows.Vertical
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object ArrowsGroup
 
 public val LineaIcons.Arrows: ArrowsGroup
   get() = ArrowsGroup
+
+public val ArrowsGroup.groupName: String
+  get() = "arrows"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -151,25 +156,82 @@ public val ArrowsGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(CircleMinus, SlimDownDashed, LeftDouble32, SlideDown1, Compress, CircleLeft,
-        Minus, SquareUpright, Question, MoveBottom, SlideDown2, Info, Horizontal, DownDouble34,
-        DragUp, Plus, CircleUpright, DragDownDashed, Hamburger1, SignDown, StretchHorizontal1,
-        KeyboardTab, MoveLeft, SignUp, DragDown, CircleDownright, ExpandHorizontal1,
-        StretchHorizontal2, Rotate, KeyboardLeft, RotateAntiDashed, Shrink, SquareMinus, Down,
-        SquareRight, CircleDownleft, Expand, ClockwiseDashed, SlimRightDashed, SlideLeft1, Squares,
-        Exclamation, SlimUpDashed, KeyboardDown28, Move, KeyboardDelete, DragRightDashed, Glide,
-        ButtonOff, SquareUpleft, SlideLeft2, CircleUp, SlideRight1, KeyboardCmd29, Vertical,
-        CircleUpleft, SwitchVertical, SquareLeft, GlideVertical, SlideRight2, SquareUp, Upright,
-        Right, DragUpDashed, KeyboardShift, CircleRight, DragHoriz, SquareDownright, SlimDown,
-        Downright, CircleCheck, Deny, FitVertical, ButtonUp, MoveTop, StretchDiagonal3, CirclePlus,
-        StretchDiagonal2, RotateAnti, DragLeftDashed, Up, Check, Downleft, Anticlockwise, UpDouble,
-        Hamburger2, StretchDiagonal1, ShrinkHorizonal2, RotateDashed, Left, Diagonal, SlimLeft,
-        Clockwise, ExpandVertical1, StretchDiagonal4, ButtonOn, SlideUp2, SlimLeftDashed,
-        GlideHorizontal, DragRight, ShrinkDiagonal2, ShrinkHorizontal1, Move2, Diagonal2,
-        SquareDown, SlideUp1, ShrinkDiagonal1, SquareCheck, Remove, CircleRemove, KeyboardReturn,
-        ShrinkVertical1, SlimRight, SignRight, AnticlockwiseDashed, SquareDownleft, CircleDown,
-        ShrinkVertical2, MoveRight, FitHorizontal, SlimUp, SwitchHorizontal, ExpandDiagonal1,
-        RightDouble31, StretchVertical1, DragVert, KeyboardAlt, SquarePlus, DragLeft, KeyboardRight,
-        StretchVertical2, KeyboardUp, SquareRemove, ButtonDown, SignLeft)
+    __AllIcons= listOf(Anticlockwise, AnticlockwiseDashed, ButtonDown, ButtonOff, ButtonOn,
+        ButtonUp, Check, CircleCheck, CircleDown, CircleDownleft, CircleDownright, CircleLeft,
+        CircleMinus, CirclePlus, CircleRemove, CircleRight, CircleUp, CircleUpleft, CircleUpright,
+        Clockwise, ClockwiseDashed, Compress, Deny, Diagonal, Diagonal2, Down, DownDouble34,
+        Downleft, Downright, DragDown, DragDownDashed, DragHoriz, DragLeft, DragLeftDashed,
+        DragRight, DragRightDashed, DragUp, DragUpDashed, DragVert, Exclamation, Expand,
+        ExpandDiagonal1, ExpandHorizontal1, ExpandVertical1, FitHorizontal, FitVertical, Glide,
+        GlideHorizontal, GlideVertical, Hamburger1, Hamburger2, Horizontal, Info, KeyboardAlt,
+        KeyboardCmd29, KeyboardDelete, KeyboardDown28, KeyboardLeft, KeyboardReturn, KeyboardRight,
+        KeyboardShift, KeyboardTab, KeyboardUp, Left, LeftDouble32, Minus, Move, Move2, MoveBottom,
+        MoveLeft, MoveRight, MoveTop, Plus, Question, Remove, Right, RightDouble31, Rotate,
+        RotateAnti, RotateAntiDashed, RotateDashed, Shrink, ShrinkDiagonal1, ShrinkDiagonal2,
+        ShrinkHorizonal2, ShrinkHorizontal1, ShrinkVertical1, ShrinkVertical2, SignDown, SignLeft,
+        SignRight, SignUp, SlideDown1, SlideDown2, SlideLeft1, SlideLeft2, SlideRight1, SlideRight2,
+        SlideUp1, SlideUp2, SlimDown, SlimDownDashed, SlimLeft, SlimLeftDashed, SlimRight,
+        SlimRightDashed, SlimUp, SlimUpDashed, SquareCheck, SquareDown, SquareDownleft,
+        SquareDownright, SquareLeft, SquareMinus, SquarePlus, SquareRemove, SquareRight, SquareUp,
+        SquareUpleft, SquareUpright, Squares, StretchDiagonal1, StretchDiagonal2, StretchDiagonal3,
+        StretchDiagonal4, StretchHorizontal1, StretchHorizontal2, StretchVertical1,
+        StretchVertical2, SwitchHorizontal, SwitchVertical, Up, UpDouble, Upright, Vertical)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val ArrowsGroup.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("anticlockwise" to Anticlockwise, "anticlockwisedashed" to
+        AnticlockwiseDashed, "buttondown" to ButtonDown, "buttonoff" to ButtonOff, "buttonon" to
+        ButtonOn, "buttonup" to ButtonUp, "check" to Check, "circlecheck" to CircleCheck,
+        "circledown" to CircleDown, "circledownleft" to CircleDownleft, "circledownright" to
+        CircleDownright, "circleleft" to CircleLeft, "circleminus" to CircleMinus, "circleplus" to
+        CirclePlus, "circleremove" to CircleRemove, "circleright" to CircleRight, "circleup" to
+        CircleUp, "circleupleft" to CircleUpleft, "circleupright" to CircleUpright, "clockwise" to
+        Clockwise, "clockwisedashed" to ClockwiseDashed, "compress" to Compress, "deny" to Deny,
+        "diagonal" to Diagonal, "diagonal2" to Diagonal2, "down" to Down, "downdouble34" to
+        DownDouble34, "downleft" to Downleft, "downright" to Downright, "dragdown" to DragDown,
+        "dragdowndashed" to DragDownDashed, "draghoriz" to DragHoriz, "dragleft" to DragLeft,
+        "dragleftdashed" to DragLeftDashed, "dragright" to DragRight, "dragrightdashed" to
+        DragRightDashed, "dragup" to DragUp, "dragupdashed" to DragUpDashed, "dragvert" to DragVert,
+        "exclamation" to Exclamation, "expand" to Expand, "expanddiagonal1" to ExpandDiagonal1,
+        "expandhorizontal1" to ExpandHorizontal1, "expandvertical1" to ExpandVertical1,
+        "fithorizontal" to FitHorizontal, "fitvertical" to FitVertical, "glide" to Glide,
+        "glidehorizontal" to GlideHorizontal, "glidevertical" to GlideVertical, "hamburger1" to
+        Hamburger1, "hamburger2" to Hamburger2, "horizontal" to Horizontal, "info" to Info,
+        "keyboardalt" to KeyboardAlt, "keyboardcmd29" to KeyboardCmd29, "keyboarddelete" to
+        KeyboardDelete, "keyboarddown28" to KeyboardDown28, "keyboardleft" to KeyboardLeft,
+        "keyboardreturn" to KeyboardReturn, "keyboardright" to KeyboardRight, "keyboardshift" to
+        KeyboardShift, "keyboardtab" to KeyboardTab, "keyboardup" to KeyboardUp, "left" to Left,
+        "leftdouble32" to LeftDouble32, "minus" to Minus, "move" to Move, "move2" to Move2,
+        "movebottom" to MoveBottom, "moveleft" to MoveLeft, "moveright" to MoveRight, "movetop" to
+        MoveTop, "plus" to Plus, "question" to Question, "remove" to Remove, "right" to Right,
+        "rightdouble31" to RightDouble31, "rotate" to Rotate, "rotateanti" to RotateAnti,
+        "rotateantidashed" to RotateAntiDashed, "rotatedashed" to RotateDashed, "shrink" to Shrink,
+        "shrinkdiagonal1" to ShrinkDiagonal1, "shrinkdiagonal2" to ShrinkDiagonal2,
+        "shrinkhorizonal2" to ShrinkHorizonal2, "shrinkhorizontal1" to ShrinkHorizontal1,
+        "shrinkvertical1" to ShrinkVertical1, "shrinkvertical2" to ShrinkVertical2, "signdown" to
+        SignDown, "signleft" to SignLeft, "signright" to SignRight, "signup" to SignUp, "slidedown1"
+        to SlideDown1, "slidedown2" to SlideDown2, "slideleft1" to SlideLeft1, "slideleft2" to
+        SlideLeft2, "slideright1" to SlideRight1, "slideright2" to SlideRight2, "slideup1" to
+        SlideUp1, "slideup2" to SlideUp2, "slimdown" to SlimDown, "slimdowndashed" to
+        SlimDownDashed, "slimleft" to SlimLeft, "slimleftdashed" to SlimLeftDashed, "slimright" to
+        SlimRight, "slimrightdashed" to SlimRightDashed, "slimup" to SlimUp, "slimupdashed" to
+        SlimUpDashed, "squarecheck" to SquareCheck, "squaredown" to SquareDown, "squaredownleft" to
+        SquareDownleft, "squaredownright" to SquareDownright, "squareleft" to SquareLeft,
+        "squareminus" to SquareMinus, "squareplus" to SquarePlus, "squareremove" to SquareRemove,
+        "squareright" to SquareRight, "squareup" to SquareUp, "squareupleft" to SquareUpleft,
+        "squareupright" to SquareUpright, "squares" to Squares, "stretchdiagonal1" to
+        StretchDiagonal1, "stretchdiagonal2" to StretchDiagonal2, "stretchdiagonal3" to
+        StretchDiagonal3, "stretchdiagonal4" to StretchDiagonal4, "stretchhorizontal1" to
+        StretchHorizontal1, "stretchhorizontal2" to StretchHorizontal2, "stretchvertical1" to
+        StretchVertical1, "stretchvertical2" to StretchVertical2, "switchhorizontal" to
+        SwitchHorizontal, "switchvertical" to SwitchVertical, "up" to Up, "updouble" to UpDouble,
+        "upright" to Upright, "vertical" to Vertical)
+    return __AllIconsNamed!!
   }

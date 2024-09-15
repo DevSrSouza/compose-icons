@@ -460,12 +460,17 @@ import compose.icons.fontawesomeicons.brands.Youtube
 import compose.icons.fontawesomeicons.brands.YoutubeSquare
 import compose.icons.fontawesomeicons.brands.Zhihu
 import compose.icons.fontawesomeicons.brands._500px
+import kotlin.String
 import kotlin.collections.List as ____KtList
+import kotlin.collections.Map as ____KtMap
 
 public object BrandsGroup
 
 public val FontAwesomeIcons.Brands: BrandsGroup
   get() = BrandsGroup
+
+public val BrandsGroup.groupName: String
+  get() = "brands"
 
 private var __AllIcons: ____KtList<ImageVector>? = null
 
@@ -474,60 +479,202 @@ public val BrandsGroup.AllIcons: ____KtList<ImageVector>
     if (__AllIcons != null) {
       return __AllIcons!!
     }
-    __AllIcons= listOf(Supple, Bootstrap, Weixin, Connectdevelop, Medium, CcApplePay, CcVisa,
-        Ioxhost, TencentWeibo, Fonticons, Figma, PennyArcade, Angrycreative, Imdb, Steam,
-        ViadeoSquare, PiedPiperHat, Tumblr, GoogleDrive, Tripadvisor, Bandcamp, LinkedinIn,
-        Stackpath, Strava, Dropbox, Microsoft, Dyalog, Squarespace, CcStripe, OldRepublic,
-        EdgeLegacy, GitSquare, CreativeCommonsNc, Accusoft, Lastfm, CreativeCommonsRemix, Yelp,
-        Cloudflare, Deviantart, Airbnb, Usps, Envira, Fulcrum, Linux, Foursquare, Drupal, Dev,
-        Speakap, Android, Ethereum, WhatsappSquare, Shirtsinbulk, Odnoklassniki, Js, Reacteurope,
-        Openid, Gitlab, Sourcetree, Gg, AcquisitionsIncorporated, Joget, Weibo, SnapchatGhost, Aws,
-        Sass, Superpowers, Rust, Sellcast, Java, Orcid, Viber, Ello, Wix, RedditAlien, Mizuni,
-        Leanpub, Bitbucket, GitAlt, Pagelines, Github, GalacticSenate, Viacoin, Freebsd, Rebel,
-        Fedex, Usb, Empire, Simplybuilt, AccessibleIcon, FirefoxBrowser, Microblog, CcPaypal, Etsy,
-        Bimobject, Gripfire, _500px, TheRedYeti, Deskpro, RedRiver, FreeCodeCamp, WolfPackBattalion,
-        YoutubeSquare, WizardsOfTheCoast, RedditSquare, Keybase, Umbraco, Joomla, Uniregistry,
-        Kaggle, CcAmazonPay, InstagramSquare, Hubspot, Confluence, PinterestP, CreativeCommonsNd,
-        Servicestack, Npm, InternetExplorer, CreativeCommonsNcEu, OptinMonster, Mastodon, Angular,
-        Untappd, Apper, Vk, BuyNLarge, GooglePlus, Vimeo, Discourse, Hotjar, NodeJs,
-        PiedPiperSquare, CreativeCommonsShare, Symfony, CreativeCommonsSampling, TumblrSquare,
-        Skyatlas, BehanceSquare, Instagram, CreativeCommonsPd, Shopify, Mendeley, Wodu, DAndD,
-        WatchmanMonitoring, ProductHunt, Edge, Yammer, Fly, HackerNewsSquare, Safari, StickerMule,
-        Audible, ItunesNote, Yoast, Python, Docker, Git, Blogger, Schlix, Mailchimp, HireAHelper,
-        Neos, Digg, FontAwesome, Bitcoin, StackOverflow, Whmcs, Delicious, CreativeCommonsZero,
-        Hackerrank, FontAwesomeAlt, Telegram, Centercode, Erlang, StripeS, Medrt, Salesforce,
-        VimeoV, Meetup, StackExchange, Markdown, Instalod, CcMastercard, VimeoSquare, Goodreads,
-        CanadianMapleLeaf, Unity, Invision, Mix, Gratipay, AppStoreIos, Magento, Bluetooth, Houzz,
-        DribbbleSquare, Expeditedssl, BlackTie, FontAwesomeFlag, Sith, Algolia, Ussunnah, Sellsy,
-        Jira, Spotify, Intercom, Flipboard, Shopware, DAndDBeyond, Researchgate, Lyft, Wpressr,
-        JediOrder, WikipediaW, ThinkPeaks, Periscope, Modx, Kickstarter, GoogleWallet, Slideshare,
-        Snapchat, Readme, CreativeCommonsSa, Themeisle, Html5, CreativeCommonsSamplingPlus, Replyd,
-        RaspberryPi, Cuttlefish, Rockrms, CcAmex, LastfmSquare, Ravelry, OctopusDeploy, Quora,
-        Monero, Yarn, Dochub, Laravel, GooglePlusSquare, Earlybirds, Centos, Teamspeak, PiedPiperPp,
-        Wpexplorer, Ubuntu, Opencart, Paypal, Suse, Wpbeginner, Deezer, GoodreadsG, GithubSquare,
-        Rocketchat, XingSquare, Unsplash, Draft2digital, AppStore, Playstation, Facebook, Amazon,
-        Quinscape, Vine, Pinterest, MediumM, GooglePlusG, GooglePlay, CriticalRole, Page4, Mdb, Osi,
-        Yandex, Whatsapp, Google, Chromecast, RProject, Line, Affiliatetheme, Atlassian,
-        FortAwesomeAlt, Aviato, Bity, Php, Stripe, CcDinersClub, Buromobelexperte, Phabricator,
-        Artstation, Scribd, CcDiscover, Fedora, FonticonsFi, Jenkins, Studiovinari, Glide, Adn,
-        StumbleuponCircle, Xing, GgCircle, Medapps, Redhat, Uncharted, Perbyte, DigitalOcean, Hips,
-        Twitch, Windows, Rev, PiedPiperAlt, Btc, Elementor, PiedPiper, Youtube, FortAwesome, GlideG,
-        Codiepie, Stumbleupon, SpeakerDeck, Nutritionix, PhoenixFramework, TradeFederation,
-        Jsfiddle, CreativeCommonsPdAlt, Yahoo, Grav, JsSquare, BloggerB, FirstOrder, Uber, Sketch,
-        Gulp, BattleNet, Keycdn, Diaspora, Reddit, Alipay, Cloudscale, YandexInternational,
-        Buysellads, Asymmetrik, Angellist, Wpforms, Linode, Css3Alt, Guilded, BluetoothB, Avianex,
-        CottonBureau, Evernote, Codepen, Dribbble, Xbox, FirstOrderAlt, Trello, CreativeCommons,
-        Adversal, Dhl, SteamSymbol, Hornbill, Themeco, ApplePay, TelegramPlane, Contao, Linkedin,
-        Ideal, PhoenixSquadron, Mandalorian, YCombinator, Qq, Vaadin, Uikit, GooglePay,
-        FantasyFlightGames, React, FacebookSquare, Twitter, Less, Dailymotion, SlackHash, Patreon,
-        Swift, FacebookMessenger, Discord, Opera, Gitter, Buffer, Css3, Renren, HackerNews, Ns8,
-        Sistrix, KickstarterK, Vuejs, Mixcloud, Firstdraft, Slack, Zhihu, Soundcloud,
-        FontAwesomeLogoFull, Hooli, CcJcb, WordpressSimple, Ember, Gitkraken, Skype, Gofore, Ebay,
-        Cpanel, Wordpress, SnapchatSquare, Korvue, Cloudversify, ItchIo, Grunt, Viadeo, Blackberry,
-        Pushed, FacebookF, Hive, SteamSquare, Amilia, Innosoft, Cloudsmith, CreativeCommonsNcJp,
-        Chrome, Forumbee, Maxcdn, TwitterSquare, Apple, Napster, GetPocket, Nimblr, Vnv, Waze,
-        Palfed, Weebly, Autoprefixer, Searchengin, Megaport, Typo3, Deploydog, Node, GithubAlt,
-        Tiktok, Dashcube, GalacticRepublic, CreativeCommonsBy, Ups, OdnoklassnikiSquare, Behance,
-        Resolving, Staylinked, Firefox, Flickr, AmazonPay, PinterestSquare, Mixer, Itunes)
+    __AllIcons= listOf(AccessibleIcon, Accusoft, AcquisitionsIncorporated, Adn, Adversal,
+        Affiliatetheme, Airbnb, Algolia, Alipay, Amazon, AmazonPay, Amilia, Android, Angellist,
+        Angrycreative, Angular, AppStore, AppStoreIos, Apper, Apple, ApplePay, Artstation,
+        Asymmetrik, Atlassian, Audible, Autoprefixer, Avianex, Aviato, Aws, Bandcamp, BattleNet,
+        Behance, BehanceSquare, Bimobject, Bitbucket, Bitcoin, Bity, BlackTie, Blackberry, Blogger,
+        BloggerB, Bluetooth, BluetoothB, Bootstrap, Btc, Buffer, Buromobelexperte, BuyNLarge,
+        Buysellads, CanadianMapleLeaf, CcAmazonPay, CcAmex, CcApplePay, CcDinersClub, CcDiscover,
+        CcJcb, CcMastercard, CcPaypal, CcStripe, CcVisa, Centercode, Centos, Chrome, Chromecast,
+        Cloudflare, Cloudscale, Cloudsmith, Cloudversify, Codepen, Codiepie, Confluence,
+        Connectdevelop, Contao, CottonBureau, Cpanel, CreativeCommons, CreativeCommonsBy,
+        CreativeCommonsNc, CreativeCommonsNcEu, CreativeCommonsNcJp, CreativeCommonsNd,
+        CreativeCommonsPd, CreativeCommonsPdAlt, CreativeCommonsRemix, CreativeCommonsSa,
+        CreativeCommonsSampling, CreativeCommonsSamplingPlus, CreativeCommonsShare,
+        CreativeCommonsZero, CriticalRole, Css3, Css3Alt, Cuttlefish, DAndD, DAndDBeyond,
+        Dailymotion, Dashcube, Deezer, Delicious, Deploydog, Deskpro, Dev, Deviantart, Dhl,
+        Diaspora, Digg, DigitalOcean, Discord, Discourse, Dochub, Docker, Draft2digital, Dribbble,
+        DribbbleSquare, Dropbox, Drupal, Dyalog, Earlybirds, Ebay, Edge, EdgeLegacy, Elementor,
+        Ello, Ember, Empire, Envira, Erlang, Ethereum, Etsy, Evernote, Expeditedssl, Facebook,
+        FacebookF, FacebookMessenger, FacebookSquare, FantasyFlightGames, Fedex, Fedora, Figma,
+        Firefox, FirefoxBrowser, FirstOrder, FirstOrderAlt, Firstdraft, Flickr, Flipboard, Fly,
+        FontAwesome, FontAwesomeAlt, FontAwesomeFlag, FontAwesomeLogoFull, Fonticons, FonticonsFi,
+        FortAwesome, FortAwesomeAlt, Forumbee, Foursquare, FreeCodeCamp, Freebsd, Fulcrum,
+        GalacticRepublic, GalacticSenate, GetPocket, Gg, GgCircle, Git, GitAlt, GitSquare, Github,
+        GithubAlt, GithubSquare, Gitkraken, Gitlab, Gitter, Glide, GlideG, Gofore, Goodreads,
+        GoodreadsG, Google, GoogleDrive, GooglePay, GooglePlay, GooglePlus, GooglePlusG,
+        GooglePlusSquare, GoogleWallet, Gratipay, Grav, Gripfire, Grunt, Guilded, Gulp, HackerNews,
+        HackerNewsSquare, Hackerrank, Hips, HireAHelper, Hive, Hooli, Hornbill, Hotjar, Houzz,
+        Html5, Hubspot, Ideal, Imdb, Innosoft, Instagram, InstagramSquare, Instalod, Intercom,
+        InternetExplorer, Invision, Ioxhost, ItchIo, Itunes, ItunesNote, Java, JediOrder, Jenkins,
+        Jira, Joget, Joomla, Js, JsSquare, Jsfiddle, Kaggle, Keybase, Keycdn, Kickstarter,
+        KickstarterK, Korvue, Laravel, Lastfm, LastfmSquare, Leanpub, Less, Line, Linkedin,
+        LinkedinIn, Linode, Linux, Lyft, Magento, Mailchimp, Mandalorian, Markdown, Mastodon,
+        Maxcdn, Mdb, Medapps, Medium, MediumM, Medrt, Meetup, Megaport, Mendeley, Microblog,
+        Microsoft, Mix, Mixcloud, Mixer, Mizuni, Modx, Monero, Napster, Neos, Nimblr, Node, NodeJs,
+        Npm, Ns8, Nutritionix, OctopusDeploy, Odnoklassniki, OdnoklassnikiSquare, OldRepublic,
+        Opencart, Openid, Opera, OptinMonster, Orcid, Osi, Page4, Pagelines, Palfed, Patreon,
+        Paypal, PennyArcade, Perbyte, Periscope, Phabricator, PhoenixFramework, PhoenixSquadron,
+        Php, PiedPiper, PiedPiperAlt, PiedPiperHat, PiedPiperPp, PiedPiperSquare, Pinterest,
+        PinterestP, PinterestSquare, Playstation, ProductHunt, Pushed, Python, Qq, Quinscape, Quora,
+        RProject, RaspberryPi, Ravelry, React, Reacteurope, Readme, Rebel, RedRiver, Reddit,
+        RedditAlien, RedditSquare, Redhat, Renren, Replyd, Researchgate, Resolving, Rev, Rocketchat,
+        Rockrms, Rust, Safari, Salesforce, Sass, Schlix, Scribd, Searchengin, Sellcast, Sellsy,
+        Servicestack, Shirtsinbulk, Shopify, Shopware, Simplybuilt, Sistrix, Sith, Sketch, Skyatlas,
+        Skype, Slack, SlackHash, Slideshare, Snapchat, SnapchatGhost, SnapchatSquare, Soundcloud,
+        Sourcetree, Speakap, SpeakerDeck, Spotify, Squarespace, StackExchange, StackOverflow,
+        Stackpath, Staylinked, Steam, SteamSquare, SteamSymbol, StickerMule, Strava, Stripe,
+        StripeS, Studiovinari, Stumbleupon, StumbleuponCircle, Superpowers, Supple, Suse, Swift,
+        Symfony, Teamspeak, Telegram, TelegramPlane, TencentWeibo, TheRedYeti, Themeco, Themeisle,
+        ThinkPeaks, Tiktok, TradeFederation, Trello, Tripadvisor, Tumblr, TumblrSquare, Twitch,
+        Twitter, TwitterSquare, Typo3, Uber, Ubuntu, Uikit, Umbraco, Uncharted, Uniregistry, Unity,
+        Unsplash, Untappd, Ups, Usb, Usps, Ussunnah, Vaadin, Viacoin, Viadeo, ViadeoSquare, Viber,
+        Vimeo, VimeoSquare, VimeoV, Vine, Vk, Vnv, Vuejs, WatchmanMonitoring, Waze, Weebly, Weibo,
+        Weixin, Whatsapp, WhatsappSquare, Whmcs, WikipediaW, Windows, Wix, WizardsOfTheCoast, Wodu,
+        WolfPackBattalion, Wordpress, WordpressSimple, Wpbeginner, Wpexplorer, Wpforms, Wpressr,
+        Xbox, Xing, XingSquare, YCombinator, Yahoo, Yammer, Yandex, YandexInternational, Yarn, Yelp,
+        Yoast, Youtube, YoutubeSquare, Zhihu, _500px)
     return __AllIcons!!
+  }
+
+private var __AllIconsNamed: ____KtMap<String, ImageVector>? = null
+
+public val BrandsGroup.AllIconsNamed: ____KtMap<String, ImageVector>
+  get() {
+    if (__AllIconsNamed != null) {
+      return __AllIconsNamed!!
+    }
+    __AllIconsNamed= mapOf("accessibleicon" to AccessibleIcon, "accusoft" to Accusoft,
+        "acquisitionsincorporated" to AcquisitionsIncorporated, "adn" to Adn, "adversal" to
+        Adversal, "affiliatetheme" to Affiliatetheme, "airbnb" to Airbnb, "algolia" to Algolia,
+        "alipay" to Alipay, "amazon" to Amazon, "amazonpay" to AmazonPay, "amilia" to Amilia,
+        "android" to Android, "angellist" to Angellist, "angrycreative" to Angrycreative, "angular"
+        to Angular, "appstore" to AppStore, "appstoreios" to AppStoreIos, "apper" to Apper, "apple"
+        to Apple, "applepay" to ApplePay, "artstation" to Artstation, "asymmetrik" to Asymmetrik,
+        "atlassian" to Atlassian, "audible" to Audible, "autoprefixer" to Autoprefixer, "avianex" to
+        Avianex, "aviato" to Aviato, "aws" to Aws, "bandcamp" to Bandcamp, "battlenet" to BattleNet,
+        "behance" to Behance, "behancesquare" to BehanceSquare, "bimobject" to Bimobject,
+        "bitbucket" to Bitbucket, "bitcoin" to Bitcoin, "bity" to Bity, "blacktie" to BlackTie,
+        "blackberry" to Blackberry, "blogger" to Blogger, "bloggerb" to BloggerB, "bluetooth" to
+        Bluetooth, "bluetoothb" to BluetoothB, "bootstrap" to Bootstrap, "btc" to Btc, "buffer" to
+        Buffer, "buromobelexperte" to Buromobelexperte, "buynlarge" to BuyNLarge, "buysellads" to
+        Buysellads, "canadianmapleleaf" to CanadianMapleLeaf, "ccamazonpay" to CcAmazonPay, "ccamex"
+        to CcAmex, "ccapplepay" to CcApplePay, "ccdinersclub" to CcDinersClub, "ccdiscover" to
+        CcDiscover, "ccjcb" to CcJcb, "ccmastercard" to CcMastercard, "ccpaypal" to CcPaypal,
+        "ccstripe" to CcStripe, "ccvisa" to CcVisa, "centercode" to Centercode, "centos" to Centos,
+        "chrome" to Chrome, "chromecast" to Chromecast, "cloudflare" to Cloudflare, "cloudscale" to
+        Cloudscale, "cloudsmith" to Cloudsmith, "cloudversify" to Cloudversify, "codepen" to
+        Codepen, "codiepie" to Codiepie, "confluence" to Confluence, "connectdevelop" to
+        Connectdevelop, "contao" to Contao, "cottonbureau" to CottonBureau, "cpanel" to Cpanel,
+        "creativecommons" to CreativeCommons, "creativecommonsby" to CreativeCommonsBy,
+        "creativecommonsnc" to CreativeCommonsNc, "creativecommonsnceu" to CreativeCommonsNcEu,
+        "creativecommonsncjp" to CreativeCommonsNcJp, "creativecommonsnd" to CreativeCommonsNd,
+        "creativecommonspd" to CreativeCommonsPd, "creativecommonspdalt" to CreativeCommonsPdAlt,
+        "creativecommonsremix" to CreativeCommonsRemix, "creativecommonssa" to CreativeCommonsSa,
+        "creativecommonssampling" to CreativeCommonsSampling, "creativecommonssamplingplus" to
+        CreativeCommonsSamplingPlus, "creativecommonsshare" to CreativeCommonsShare,
+        "creativecommonszero" to CreativeCommonsZero, "criticalrole" to CriticalRole, "css3" to
+        Css3, "css3alt" to Css3Alt, "cuttlefish" to Cuttlefish, "dandd" to DAndD, "danddbeyond" to
+        DAndDBeyond, "dailymotion" to Dailymotion, "dashcube" to Dashcube, "deezer" to Deezer,
+        "delicious" to Delicious, "deploydog" to Deploydog, "deskpro" to Deskpro, "dev" to Dev,
+        "deviantart" to Deviantart, "dhl" to Dhl, "diaspora" to Diaspora, "digg" to Digg,
+        "digitalocean" to DigitalOcean, "discord" to Discord, "discourse" to Discourse, "dochub" to
+        Dochub, "docker" to Docker, "draft2digital" to Draft2digital, "dribbble" to Dribbble,
+        "dribbblesquare" to DribbbleSquare, "dropbox" to Dropbox, "drupal" to Drupal, "dyalog" to
+        Dyalog, "earlybirds" to Earlybirds, "ebay" to Ebay, "edge" to Edge, "edgelegacy" to
+        EdgeLegacy, "elementor" to Elementor, "ello" to Ello, "ember" to Ember, "empire" to Empire,
+        "envira" to Envira, "erlang" to Erlang, "ethereum" to Ethereum, "etsy" to Etsy, "evernote"
+        to Evernote, "expeditedssl" to Expeditedssl, "facebook" to Facebook, "facebookf" to
+        FacebookF, "facebookmessenger" to FacebookMessenger, "facebooksquare" to FacebookSquare,
+        "fantasyflightgames" to FantasyFlightGames, "fedex" to Fedex, "fedora" to Fedora, "figma" to
+        Figma, "firefox" to Firefox, "firefoxbrowser" to FirefoxBrowser, "firstorder" to FirstOrder,
+        "firstorderalt" to FirstOrderAlt, "firstdraft" to Firstdraft, "flickr" to Flickr,
+        "flipboard" to Flipboard, "fly" to Fly, "fontawesome" to FontAwesome, "fontawesomealt" to
+        FontAwesomeAlt, "fontawesomeflag" to FontAwesomeFlag, "fontawesomelogofull" to
+        FontAwesomeLogoFull, "fonticons" to Fonticons, "fonticonsfi" to FonticonsFi, "fortawesome"
+        to FortAwesome, "fortawesomealt" to FortAwesomeAlt, "forumbee" to Forumbee, "foursquare" to
+        Foursquare, "freecodecamp" to FreeCodeCamp, "freebsd" to Freebsd, "fulcrum" to Fulcrum,
+        "galacticrepublic" to GalacticRepublic, "galacticsenate" to GalacticSenate, "getpocket" to
+        GetPocket, "gg" to Gg, "ggcircle" to GgCircle, "git" to Git, "gitalt" to GitAlt, "gitsquare"
+        to GitSquare, "github" to Github, "githubalt" to GithubAlt, "githubsquare" to GithubSquare,
+        "gitkraken" to Gitkraken, "gitlab" to Gitlab, "gitter" to Gitter, "glide" to Glide, "glideg"
+        to GlideG, "gofore" to Gofore, "goodreads" to Goodreads, "goodreadsg" to GoodreadsG,
+        "google" to Google, "googledrive" to GoogleDrive, "googlepay" to GooglePay, "googleplay" to
+        GooglePlay, "googleplus" to GooglePlus, "googleplusg" to GooglePlusG, "googleplussquare" to
+        GooglePlusSquare, "googlewallet" to GoogleWallet, "gratipay" to Gratipay, "grav" to Grav,
+        "gripfire" to Gripfire, "grunt" to Grunt, "guilded" to Guilded, "gulp" to Gulp, "hackernews"
+        to HackerNews, "hackernewssquare" to HackerNewsSquare, "hackerrank" to Hackerrank, "hips" to
+        Hips, "hireahelper" to HireAHelper, "hive" to Hive, "hooli" to Hooli, "hornbill" to
+        Hornbill, "hotjar" to Hotjar, "houzz" to Houzz, "html5" to Html5, "hubspot" to Hubspot,
+        "ideal" to Ideal, "imdb" to Imdb, "innosoft" to Innosoft, "instagram" to Instagram,
+        "instagramsquare" to InstagramSquare, "instalod" to Instalod, "intercom" to Intercom,
+        "internetexplorer" to InternetExplorer, "invision" to Invision, "ioxhost" to Ioxhost,
+        "itchio" to ItchIo, "itunes" to Itunes, "itunesnote" to ItunesNote, "java" to Java,
+        "jediorder" to JediOrder, "jenkins" to Jenkins, "jira" to Jira, "joget" to Joget, "joomla"
+        to Joomla, "js" to Js, "jssquare" to JsSquare, "jsfiddle" to Jsfiddle, "kaggle" to Kaggle,
+        "keybase" to Keybase, "keycdn" to Keycdn, "kickstarter" to Kickstarter, "kickstarterk" to
+        KickstarterK, "korvue" to Korvue, "laravel" to Laravel, "lastfm" to Lastfm, "lastfmsquare"
+        to LastfmSquare, "leanpub" to Leanpub, "less" to Less, "line" to Line, "linkedin" to
+        Linkedin, "linkedinin" to LinkedinIn, "linode" to Linode, "linux" to Linux, "lyft" to Lyft,
+        "magento" to Magento, "mailchimp" to Mailchimp, "mandalorian" to Mandalorian, "markdown" to
+        Markdown, "mastodon" to Mastodon, "maxcdn" to Maxcdn, "mdb" to Mdb, "medapps" to Medapps,
+        "medium" to Medium, "mediumm" to MediumM, "medrt" to Medrt, "meetup" to Meetup, "megaport"
+        to Megaport, "mendeley" to Mendeley, "microblog" to Microblog, "microsoft" to Microsoft,
+        "mix" to Mix, "mixcloud" to Mixcloud, "mixer" to Mixer, "mizuni" to Mizuni, "modx" to Modx,
+        "monero" to Monero, "napster" to Napster, "neos" to Neos, "nimblr" to Nimblr, "node" to
+        Node, "nodejs" to NodeJs, "npm" to Npm, "ns8" to Ns8, "nutritionix" to Nutritionix,
+        "octopusdeploy" to OctopusDeploy, "odnoklassniki" to Odnoklassniki, "odnoklassnikisquare" to
+        OdnoklassnikiSquare, "oldrepublic" to OldRepublic, "opencart" to Opencart, "openid" to
+        Openid, "opera" to Opera, "optinmonster" to OptinMonster, "orcid" to Orcid, "osi" to Osi,
+        "page4" to Page4, "pagelines" to Pagelines, "palfed" to Palfed, "patreon" to Patreon,
+        "paypal" to Paypal, "pennyarcade" to PennyArcade, "perbyte" to Perbyte, "periscope" to
+        Periscope, "phabricator" to Phabricator, "phoenixframework" to PhoenixFramework,
+        "phoenixsquadron" to PhoenixSquadron, "php" to Php, "piedpiper" to PiedPiper, "piedpiperalt"
+        to PiedPiperAlt, "piedpiperhat" to PiedPiperHat, "piedpiperpp" to PiedPiperPp,
+        "piedpipersquare" to PiedPiperSquare, "pinterest" to Pinterest, "pinterestp" to PinterestP,
+        "pinterestsquare" to PinterestSquare, "playstation" to Playstation, "producthunt" to
+        ProductHunt, "pushed" to Pushed, "python" to Python, "qq" to Qq, "quinscape" to Quinscape,
+        "quora" to Quora, "rproject" to RProject, "raspberrypi" to RaspberryPi, "ravelry" to
+        Ravelry, "react" to React, "reacteurope" to Reacteurope, "readme" to Readme, "rebel" to
+        Rebel, "redriver" to RedRiver, "reddit" to Reddit, "redditalien" to RedditAlien,
+        "redditsquare" to RedditSquare, "redhat" to Redhat, "renren" to Renren, "replyd" to Replyd,
+        "researchgate" to Researchgate, "resolving" to Resolving, "rev" to Rev, "rocketchat" to
+        Rocketchat, "rockrms" to Rockrms, "rust" to Rust, "safari" to Safari, "salesforce" to
+        Salesforce, "sass" to Sass, "schlix" to Schlix, "scribd" to Scribd, "searchengin" to
+        Searchengin, "sellcast" to Sellcast, "sellsy" to Sellsy, "servicestack" to Servicestack,
+        "shirtsinbulk" to Shirtsinbulk, "shopify" to Shopify, "shopware" to Shopware, "simplybuilt"
+        to Simplybuilt, "sistrix" to Sistrix, "sith" to Sith, "sketch" to Sketch, "skyatlas" to
+        Skyatlas, "skype" to Skype, "slack" to Slack, "slackhash" to SlackHash, "slideshare" to
+        Slideshare, "snapchat" to Snapchat, "snapchatghost" to SnapchatGhost, "snapchatsquare" to
+        SnapchatSquare, "soundcloud" to Soundcloud, "sourcetree" to Sourcetree, "speakap" to
+        Speakap, "speakerdeck" to SpeakerDeck, "spotify" to Spotify, "squarespace" to Squarespace,
+        "stackexchange" to StackExchange, "stackoverflow" to StackOverflow, "stackpath" to
+        Stackpath, "staylinked" to Staylinked, "steam" to Steam, "steamsquare" to SteamSquare,
+        "steamsymbol" to SteamSymbol, "stickermule" to StickerMule, "strava" to Strava, "stripe" to
+        Stripe, "stripes" to StripeS, "studiovinari" to Studiovinari, "stumbleupon" to Stumbleupon,
+        "stumbleuponcircle" to StumbleuponCircle, "superpowers" to Superpowers, "supple" to Supple,
+        "suse" to Suse, "swift" to Swift, "symfony" to Symfony, "teamspeak" to Teamspeak, "telegram"
+        to Telegram, "telegramplane" to TelegramPlane, "tencentweibo" to TencentWeibo, "theredyeti"
+        to TheRedYeti, "themeco" to Themeco, "themeisle" to Themeisle, "thinkpeaks" to ThinkPeaks,
+        "tiktok" to Tiktok, "tradefederation" to TradeFederation, "trello" to Trello, "tripadvisor"
+        to Tripadvisor, "tumblr" to Tumblr, "tumblrsquare" to TumblrSquare, "twitch" to Twitch,
+        "twitter" to Twitter, "twittersquare" to TwitterSquare, "typo3" to Typo3, "uber" to Uber,
+        "ubuntu" to Ubuntu, "uikit" to Uikit, "umbraco" to Umbraco, "uncharted" to Uncharted,
+        "uniregistry" to Uniregistry, "unity" to Unity, "unsplash" to Unsplash, "untappd" to
+        Untappd, "ups" to Ups, "usb" to Usb, "usps" to Usps, "ussunnah" to Ussunnah, "vaadin" to
+        Vaadin, "viacoin" to Viacoin, "viadeo" to Viadeo, "viadeosquare" to ViadeoSquare, "viber" to
+        Viber, "vimeo" to Vimeo, "vimeosquare" to VimeoSquare, "vimeov" to VimeoV, "vine" to Vine,
+        "vk" to Vk, "vnv" to Vnv, "vuejs" to Vuejs, "watchmanmonitoring" to WatchmanMonitoring,
+        "waze" to Waze, "weebly" to Weebly, "weibo" to Weibo, "weixin" to Weixin, "whatsapp" to
+        Whatsapp, "whatsappsquare" to WhatsappSquare, "whmcs" to Whmcs, "wikipediaw" to WikipediaW,
+        "windows" to Windows, "wix" to Wix, "wizardsofthecoast" to WizardsOfTheCoast, "wodu" to
+        Wodu, "wolfpackbattalion" to WolfPackBattalion, "wordpress" to Wordpress, "wordpresssimple"
+        to WordpressSimple, "wpbeginner" to Wpbeginner, "wpexplorer" to Wpexplorer, "wpforms" to
+        Wpforms, "wpressr" to Wpressr, "xbox" to Xbox, "xing" to Xing, "xingsquare" to XingSquare,
+        "ycombinator" to YCombinator, "yahoo" to Yahoo, "yammer" to Yammer, "yandex" to Yandex,
+        "yandexinternational" to YandexInternational, "yarn" to Yarn, "yelp" to Yelp, "yoast" to
+        Yoast, "youtube" to Youtube, "youtubesquare" to YoutubeSquare, "zhihu" to Zhihu, "_500px" to
+        _500px)
+    return __AllIconsNamed!!
   }
