@@ -61,5 +61,5 @@ registerGeneratorTask(
         accessorName = "LineaIcons",
     ),
     licensePathAtRepo = { "LICENSE" },
-    documentationHeader = "[Linea](http://www.linea.io/)"
+    documentationHeader = "[Linea](https://github.com/linea-io/Linea-Iconset)"
 )

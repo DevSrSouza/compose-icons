@@ -71,5 +71,5 @@ registerGeneratorTask(
         }
     ),
     licensePathAtRepo = { "LICENSE.txt" },
-    documentationHeader = "[Eva Icons](https://akveo.github.io/eva-icons/)",
+    documentationHeader = "[Eva Icons](https://akveo.github.io/eva-icons)",
 )

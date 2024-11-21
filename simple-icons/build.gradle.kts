@@ -5,6 +5,7 @@ import generator.putRelocatedRelativeTo
 import generator.registerGeneratorTask
 import org.jetbrains.kotlin.com.google.gson.Gson
 import java.text.Normalizer
+import java.util.Locale
 
 plugins {
     kotlin("multiplatform")
@@ -21,24 +22,20 @@ android {
 
 registerGeneratorTask(
     githubId = "simple-icons/simple-icons",
-    version = "4.14.0",
+    version = "13.17.0",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val relocatedNames = mutableMapOf<String, String>()
 
-        val ignoredIcons = listOf(
-            "Elsevier"
-        )
-
         val iconsJsonFile = File(repoCloneDir, "_data/simple-icons.json")
 
-        val icons = Gson().fromJson<SimpleIcons>(iconsJsonFile.readText(), SimpleIcons::class.java).icons
+        val icons = Gson().fromJson(iconsJsonFile.readText(), SimpleIcons::class.java).icons
 
         fun String.normalize(form: Normalizer.Form): String {
             return Normalizer.normalize(this, form)
         }
 
         fun iconTitleToSlug(title: String): String {
-            return title.toLowerCase()
+            return title.lowercase(Locale.getDefault())
                 .replace("\\+".toRegex(), "plus")
                 .replace("^\\.".toRegex(), "dot-")
                 .replace("\\.$".toRegex(), "-dot")
@@ -59,14 +56,16 @@ registerGeneratorTask(
                 .replace("[^a-z0-9\\-]".toRegex(), "")
         }
 
-        val iconsNamesFixed = icons.map { if(it.slug != null) it.slug!! else iconTitleToSlug(it.title) }
+        val iconsNamesFixed = icons.map { if (it.slug != null) it.slug!! else iconTitleToSlug(it.title) }
 
         val iconsDir = File(repoCloneDir, "icons")
+
+        val ignoredIcons = listOf("Elsevier")
 
         iconsNamesFixed
             .associate {
                 val sourceName = it.replace(" ", "_").replace("-", "_") + ".svg"
-                val fileName = it.replace(" ", "") + ".svg"
+                val fileName = it.replace(" ", "").replace("-", "") + ".svg"
 
                 val icon = File(iconsDir, fileName)
                 val renamed = File(iconsDir, sourceName)
@@ -76,12 +75,10 @@ registerGeneratorTask(
 
                 sourceName to fileName
             }
-            .apply {
-                forEach {
-                    if (ignoredIcons.any { ignored -> it.value.contains(ignored, ignoreCase = true) }) {
-                        File(iconsDir, it.value).delete()
-                        println("Removed ignored icon: ${it.key}")
-                    }
+            .onEach {
+                if (ignoredIcons.any { ignored -> it.value.contains(ignored, ignoreCase = true) }) {
+                    File(iconsDir, it.value).delete()
+                    println("Removed ignored icon: ${it.key}")
                 }
             }
 
@@ -95,5 +92,5 @@ registerGeneratorTask(
         accessorName = "SimpleIcons",
     ),
     licensePathAtRepo = { "LICENSE.md" },
-    documentationHeader = "[Simple Icons](https://simpleicons.org/)"
+    documentationHeader = "[Simple Icons](https://simpleicons.org)"
 )

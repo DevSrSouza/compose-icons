@@ -18,7 +18,7 @@ android {
 
 registerGeneratorTask(
     githubId = "feathericons/feather",
-    version = "v4.28.0",
+    version = "v4.29.2",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val iconsDir = File(repoCloneDir, "icons")
 
@@ -46,5 +46,5 @@ registerGeneratorTask(
         accessorName = "FeatherIcons",
     ),
     licensePathAtRepo = { "LICENSE" },
-    documentationHeader = "[Feather Icons](https://feathericons.com/)"
+    documentationHeader = "[Feather Icons](https://feathericons.com)"
 )

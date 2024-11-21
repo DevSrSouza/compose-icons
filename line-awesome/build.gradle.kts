@@ -18,8 +18,8 @@ android {
 
 registerGeneratorTask(
     githubId = "icons8/line-awesome",
-    version = "a60f11367584e7df157277b5ab9d1654ec91ae24",
-    gitCheckoutName = "a60f11367584e7df157277b5ab9d1654ec91ae24",
+    version = "78a101217707c9b1c4dcf2a821be75684e36307f", // 1.3.1
+    gitCheckoutName = "78a101217707c9b1c4dcf2a821be75684e36307f",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val relocatedNames = mutableMapOf<String, String>()
 

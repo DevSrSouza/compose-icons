@@ -18,7 +18,7 @@ android {
 
 registerGeneratorTask(
     githubId = "primer/octicons",
-    version = "v12.1.0",
+    version = "v19.12.0",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val relocatedNames = mutableMapOf<String, String>()
 
@@ -46,5 +46,5 @@ registerGeneratorTask(
         accessorName = "Octicons",
     ),
     licensePathAtRepo = { "LICENSE" },
-    documentationHeader = "[Octicons](https://primer.style/octicons/)"
+    documentationHeader = "[Octicons](https://primer.style/octicons)"
 )

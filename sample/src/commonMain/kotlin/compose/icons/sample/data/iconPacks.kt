@@ -1,6 +1,5 @@
 package compose.icons.sample.data
 
-import compose.icons.AllIcons
 import compose.icons.AllIconsNamed
 import compose.icons.CssGgIcons
 import compose.icons.EvaIcons
@@ -21,7 +20,7 @@ val iconPacks = listOf(
         allIcons = CssGgIcons.AllIconsNamed,
     ),
     IconPackModel(
-        packName = "Weather Icons by Erik Flowers",
+        packName = "Erik Flowers' Weather Icons",
         allIcons = WeatherIcons.AllIconsNamed,
     ),
     IconPackModel(

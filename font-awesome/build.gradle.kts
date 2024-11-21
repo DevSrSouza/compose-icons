@@ -18,7 +18,7 @@ android {
 
 registerGeneratorTask(
     githubId = "FortAwesome/Font-Awesome",
-    version = "5.15.2",
+    version = "6.6.0",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val relocatedNames = mutableMapOf<String, String>()
 

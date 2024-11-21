@@ -18,23 +18,24 @@ android {
 
 registerGeneratorTask(
     githubId = "tabler/tabler-icons",
-    version = "v1.39.1",
+    version = "v3.22.0",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
-        val iconsDir = File(repoCloneDir, "icons")
-
         val relocatedNames = mutableMapOf<String, String>()
 
-        // renaming to match to svg-to-compose
-        iconsDir.listFiles().filter { it.extension == "svg" }
-            .forEach {
-                val newFile = File(it.parentFile, it.name.replace("-", "_"))
+        val iconsDir = File(repoCloneDir, "icons")
+        val iconFiles = iconsDir.listFiles()
+            ?.flatMap { it.listFiles().orEmpty().toList() }
+            ?.filter { it.extension == "svg" }
+            .orEmpty()
+        iconFiles.forEach {
+            val newFile = File(it.parentFile, it.name.replace("-", "_"))
 
-                // store the name change
-                relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
+            // store the name change
+            relocatedNames.putRelocatedRelativeTo(repoCloneDir, newFile, it)
 
-                // rename to conform with SVG to Compose
-                it.renameTo(newFile)
-            }
+            // rename to conform with SVG to Compose
+            it.renameTo(newFile)
+        }
 
         MapIconsToSvgComposeFolderResult(
             iconsFolder = iconsDir,

@@ -18,7 +18,7 @@ android {
 
 registerGeneratorTask(
     githubId = "astrit/css.gg",
-    version = "2.0.0",
+    version = "2.1.1",
     mapSourceCodeIconsToSvgComposeFolder = { repoCloneDir ->
         val iconsDir = File(repoCloneDir, "icons/svg")
 
@@ -45,6 +45,6 @@ registerGeneratorTask(
         accessorName = "CssGgIcons",
     ),
     licensePathAtRepo = { "LICENSE" },
-    documentationHeader = "[css.gg](https://css.gg/)"
+    documentationHeader = "[css.gg](https://css.gg)"
 )
 

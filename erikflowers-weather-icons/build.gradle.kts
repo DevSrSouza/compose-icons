@@ -45,6 +45,6 @@ registerGeneratorTask(
         accessorName = "WeatherIcons",
     ),
     licensePathAtRepo = { null },
-    documentationHeader = "[Weather Icons by Erik Flowers](https://github.com/erikflowers/weather-icons)",
+    documentationHeader = "[Erik Flowers' Weather Icons](https://github.com/erikflowers/weather-icons)",
     licenseUrl = { _, _ -> "http://scripts.sil.org/OFL" }
 )
